@@ -2,12 +2,15 @@ name: Deploy catalog to GitHub Pages
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
     paths:
       - 'src/skill_observatory/web/**'
       - 'data/catalog.json'
       - 'data/stats.json'
       - '.github/workflows/pages.yml'
+  workflow_run:
+    workflows: ['Refresh catalog']
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -21,12 +24,15 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: main
       - uses: actions/configure-pages@v6
       - name: Assemble static site
         run: |
