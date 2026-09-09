@@ -2,12 +2,11 @@ from __future__ import annotations
 
 import json
 import shutil
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import typer
 import uvicorn
-from sqlalchemy.orm import Session
 
 from .catalog import catalog_stats, export_catalog
 from .config import Settings
@@ -16,8 +15,8 @@ from .domain import RepositorySignals
 from .github import GitHubClient
 from .migrations import upgrade_database
 from .parser import parse_skill_directory
-from .publishing import publish_catalog
 from .pipeline import refresh_catalog
+from .publishing import publish_catalog
 from .scoring import score_skill
 from .security import assess_skill_security
 
@@ -50,7 +49,7 @@ def migrate(
 def scan_local(path: Path = typer.Argument(..., exists=True, file_okay=False, readable=True)) -> None:
     parsed = parse_skill_directory(path)
     security = assess_skill_security(parsed)
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     score = score_skill(
         spec=parsed.spec,
         security=security,
