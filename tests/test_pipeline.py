@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from sqlalchemy import select
 
@@ -37,7 +37,7 @@ def test_indexes_verified_skill_into_database(tmp_path) -> None:
         description="demo",
         stars=12,
         forks=2,
-        pushed_at=datetime.now(timezone.utc),
+        pushed_at=datetime.now(UTC),
         archived=False,
         license_spdx="MIT",
         discovery_source="test",
