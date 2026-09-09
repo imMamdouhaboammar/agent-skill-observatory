@@ -78,6 +78,7 @@ def list_skills(
 
 def estimate_star_velocity_7d(session: Session, repo_full_name: str, current_stars: int, now) -> float:
     from datetime import timedelta
+
     from .db import RepositorySnapshot
 
     cutoff = now - timedelta(days=14)
