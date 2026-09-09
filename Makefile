@@ -1,4 +1,4 @@
-.PHONY: install test lint typecheck migration-check verify serve refresh site clean
+.PHONY: install test lint typecheck migration-check verify serve refresh publish site clean
 
 install:
 	python -m pip install -e '.[dev]'
@@ -25,6 +25,9 @@ serve:
 
 refresh:
 	skillobs refresh
+
+publish:
+	skillobs publish
 
 site:
 	skillobs build-site --output-dir site
