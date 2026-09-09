@@ -1,11 +1,11 @@
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from skill_observatory.domain import RepositorySignals, SecurityReport, SpecValidation
 from skill_observatory.scoring import score_skill
 
 
 def test_score_rewards_compliance_docs_tests_license_and_recent_activity() -> None:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     score = score_skill(
         spec=SpecValidation(valid=True, errors=[], warnings=[]),
         security=SecurityReport(score=100, findings=[]),
@@ -29,7 +29,7 @@ def test_score_rewards_compliance_docs_tests_license_and_recent_activity() -> No
 
 
 def test_archived_repo_is_penalized() -> None:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     score = score_skill(
         spec=SpecValidation(valid=True, errors=[], warnings=[]),
         security=SecurityReport(score=100, findings=[]),
