@@ -1,0 +1,27 @@
+name: Agent Skills Lint
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  skills-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: agent-skills-lint
+        uses: korya/askl@v1.0.3
+        continue-on-error: true
+
+      - name: agent-skills-lint (fixtures)
+        uses: korya/askl@v1.0.3
+        with:
+          path: tests/fixtures/sample-skill
