@@ -1,0 +1,58 @@
+const state={items:[],stats:{}};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+
+function normalize(row){
+  const score=row.score||{};
+  return {...row,
+    overall_score:row.overall_score??score.overall??0,
+    quality_score:row.quality_score??score.quality??0,
+    security_score:row.security_score??score.security??0,
+    maintenance_score:row.maintenance_score??score.maintenance??0,
+    adoption_score:row.adoption_score??score.adoption??0,
+    spec:row.spec||{},security:row.security||{},resources:row.resources||{}
+  };
+}
+
+async function load(){
+  try{
+    const [skills,stats]=await Promise.all([fetch('/api/v1/skills?limit=200'),fetch('/api/v1/stats')]);
+    if(!skills.ok||!stats.ok) throw new Error('API unavailable');
+    const body=await skills.json(); state.items=body.items.map(normalize); state.stats=await stats.json();
+    $('sourceStatus').textContent='Live API';
+  }catch(_){
+    const [skills,stats]=await Promise.all([fetch('./catalog.json'),fetch('./stats.json')]);
+    state.items=(await skills.json()).map(normalize); state.stats=await stats.json();
+    $('sourceStatus').textContent='Static catalog';
+  }
+  renderStats(); renderCategories(); render();
+}
+
+
+function renderCategories(){
+  const categories=[...new Set(state.items.flatMap(x=>x.evidence?.categories||[]))].sort();
+  $('category').innerHTML='<option value="">All</option>'+categories.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
+}
+
+function renderStats(){
+  const entries=[['skills','Indexed skills'],['repositories','Repositories'],['spec_valid','Spec valid'],['security_85_plus','Security 85+'],['score_80_plus','Score 80+']];
+  $('stats').innerHTML=entries.map(([k,l])=>`<div class="stat"><b>${Number(state.stats[k]||0).toLocaleString()}</b><span>${l}</span></div>`).join('');
+}
+
+function render(){
+  const q=$('query').value.trim().toLowerCase(), min=+$('minScore').value, valid=$('validOnly').checked, safe=$('safeOnly').checked, category=$('category').value, sort=$('sort').value;
+  const items=state.items.filter(x=>(!q||`${x.name} ${x.repo_full_name} ${x.description}`.toLowerCase().includes(q))&&x.overall_score>=min&&(!valid||x.spec?.valid===true)&&(!safe||x.security_score>=85)&&(!category||(x.evidence?.categories||[]).includes(category)));
+  const sorters={overall:(a,b)=>b.overall_score-a.overall_score,adoption:(a,b)=>b.adoption_score-a.adoption_score,security:(a,b)=>b.security_score-a.security_score,recent:(a,b)=>String(b.pushed_at).localeCompare(String(a.pushed_at))};
+  items.sort(sorters[sort]||sorters.overall);
+  $('resultCount').textContent=items.length; $('empty').hidden=items.length!==0;
+  $('catalog').innerHTML=items.map(card).join('');
+}
+
+function card(x){
+  const findings=x.security?.findings?.length||0, valid=x.spec?.valid===true;
+  const manifest=x.evidence?.manifest||`${x.repo_url}/tree/${x.repo_default_branch||'main'}/${x.path}`;
+  return `<article class="card"><div><a href="${esc(manifest)}" target="_blank" rel="noreferrer"><h2>${esc(x.name)}</h2></a><div class="repo">${esc(x.repo_full_name)} · ${esc(x.path)}</div><p class="desc">${esc(x.description)}</p><div class="tags"><span class="tag ${valid?'good':'risk'}">${valid?'spec valid':'spec issues'}</span><span class="tag ${findings?'risk':'good'}">${findings?`${findings} safety findings`:'no flagged patterns'}</span><span class="tag">★ ${Number(x.stars||0).toLocaleString()}</span>${x.license?`<span class="tag">${esc(x.license)}</span>`:''}<span class="tag">${x.resources?.scripts||0} scripts</span>${(x.evidence?.categories||[]).slice(0,2).map(c=>`<span class="tag">${esc(c)}</span>`).join('')}${x.evidence?.duplicate_of?`<span class="tag risk">duplicate</span>`:''}</div></div><div class="scores"><div class="score overall"><b>${x.overall_score}</b><span>Overall</span></div><div class="score"><b>${x.quality_score}</b><span>Quality</span></div><div class="score"><b>${x.security_score}</b><span>Security</span></div><div class="score"><b>${x.maintenance_score}</b><span>Maintenance</span></div><div class="score"><b>${x.adoption_score}</b><span>Adoption</span></div></div></article>`;
+}
+
+['query','minScore','category','sort','validOnly','safeOnly'].forEach(id=>$(id).addEventListener(id==='query'?'input':'change',render));
+load().catch(err=>{$('sourceStatus').textContent='Catalog unavailable';$('catalog').innerHTML=`<div class="empty">${esc(err.message)}</div>`});

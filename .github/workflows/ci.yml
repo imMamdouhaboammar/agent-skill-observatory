@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install -e '.[dev]'
+      - run: python -m ruff check .
+      - run: python -m mypy src
+      - name: Verify database migrations
+        env:
+          SKILLOBS_DATABASE_URL: sqlite+pysqlite:///./migration-check.db
+        run: |
+          alembic upgrade head
+          alembic check
+      - run: python -m pytest --cov=skill_observatory --cov-report=term-missing --cov-fail-under=80

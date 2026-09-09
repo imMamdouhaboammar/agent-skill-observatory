@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Evidence-based discovery and review for open Agent Skills." />
+  <title>Agent Skill Observatory</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="shell hero">
+    <div class="eyebrow">OPEN AGENT SKILLS INDEX</div>
+    <div class="hero-grid">
+      <div>
+        <h1>Agent Skill Observatory</h1>
+        <p class="lede">Find skills that actually contain a valid manifest. Compare quality, maintenance and static safety evidence before you install anything.</p>
+      </div>
+      <div class="status" id="sourceStatus">Loading catalog…</div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="stats" id="stats"></section>
+
+    <section class="controls" aria-label="Catalog filters">
+      <label class="search"><span>Search</span><input id="query" type="search" placeholder="skill, repo, capability…" autocomplete="off" /></label>
+      <label><span>Minimum score</span><select id="minScore"><option value="0">Any</option><option value="60">60+</option><option value="70">70+</option><option value="80">80+</option><option value="90">90+</option></select></label>
+      <label><span>Category</span><select id="category"><option value="">All</option></select></label>
+      <label><span>Sort</span><select id="sort"><option value="overall">Overall score</option><option value="adoption">Adoption</option><option value="security">Security</option><option value="recent">Recently updated</option></select></label>
+      <label class="check"><input id="validOnly" type="checkbox" checked /><span>Spec-valid only</span></label>
+      <label class="check"><input id="safeOnly" type="checkbox" /><span>Security 85+</span></label>
+    </section>
+
+    <section class="catalog-head"><div><strong id="resultCount">0</strong> skills</div><div class="legend">Scores are evidence signals, not execution guarantees</div></section>
+    <section id="catalog" class="catalog" aria-live="polite"></section>
+    <div id="empty" class="empty" hidden>No skills match these filters.</div>
+  </main>
+
+  <footer class="shell footer">Static analysis only. Review third-party instructions and scripts before use.</footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>
