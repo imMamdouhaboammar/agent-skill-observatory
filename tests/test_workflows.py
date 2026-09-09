@@ -24,3 +24,12 @@ def test_refresh_runs_every_fifteen_minutes_and_publishes_all_surfaces() -> None
         "data/refresh.json",
     ]:
         assert path in text
+
+
+
+def test_pages_deploys_after_refresh() -> None:
+    workflow = load_workflow("pages.yml")
+    triggers = workflow.get("on") or workflow[True]
+    assert triggers["workflow_run"]["workflows"] == ["Refresh catalog"]
+    text = Path(".github/workflows/pages.yml").read_text(encoding="utf-8")
+    assert "github.event.workflow_run.conclusion == 'success'" in text
