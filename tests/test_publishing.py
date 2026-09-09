@@ -1,5 +1,5 @@
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from skill_observatory.catalog import repository_rollups
 from skill_observatory.db import init_database, make_session_factory
@@ -15,7 +15,7 @@ from skill_observatory.repository import upsert_skill
 
 
 def make_skill(*, name: str, path: str, score: int, categories: list[str]) -> IndexedSkill:
-    now = datetime(2026, 9, 9, 15, 0, tzinfo=timezone.utc)
+    now = datetime(2026, 9, 9, 15, 0, tzinfo=UTC)
     return IndexedSkill(
         canonical_key=f"example/repo:{path}",
         content_fingerprint=(name[0] * 64)[:64],
@@ -88,7 +88,7 @@ def test_publish_catalog_writes_github_markdown_surfaces(tmp_path) -> None:
     awesome = tmp_path / "AWESOME.md"
     awesome_directory = tmp_path / "awesome" / "README.md"
     data = tmp_path / "data"
-    generated = datetime(2026, 9, 9, 15, 15, tzinfo=timezone.utc)
+    generated = datetime(2026, 9, 9, 15, 15, tzinfo=UTC)
 
     with factory() as session:
         upsert_skill(
