@@ -78,11 +78,19 @@ def build_published_record(
 def _event_priority(
     event_type: SkillEventType,
     *,
-    security_downgrade: bool = False,
+    urgent: bool = False,
 ) -> int:
-    if security_downgrade:
+    if urgent:
         return 0
     return {"remove": 1, "update": 2, "reindex": 3, "add": 4}[event_type]
+
+
+def _qualification_state(skill: IndexedSkill) -> bool | None:
+    raw = skill.evidence.get("qualification")
+    if not isinstance(raw, dict):
+        return None
+    value = raw.get("qualified")
+    return value if isinstance(value, bool) else None
 
 
 def compute_skill_events(
@@ -99,8 +107,9 @@ def compute_skill_events(
         seen.add(skill.canonical_key)
 
         before = published.get(skill.canonical_key)
+        qualification = _qualification_state(skill)
         if before is None:
-            if skill.consecutive_misses != 0:
+            if skill.consecutive_misses != 0 or qualification is not True:
                 continue
             after = build_published_record(skill, published_at=observed_at, event="add")
             events.append(
@@ -128,6 +137,20 @@ def compute_skill_events(
         if skill.consecutive_misses != 0:
             continue
 
+        if qualification is False:
+            events.append(
+                SkillEvent(
+                    type="remove",
+                    canonical_key=skill.canonical_key,
+                    before=before,
+                    priority=_event_priority("remove", urgent=True),
+                    observed_at=observed_at,
+                )
+            )
+            continue
+        if qualification is None:
+            continue
+
         security_downgrade = skill.security.score < before.skill.security.score
         event_type: SkillEventType | None = None
         if skill.source_fingerprint != before.source_fingerprint:
@@ -144,7 +167,7 @@ def compute_skill_events(
                 canonical_key=skill.canonical_key,
                 before=before,
                 after=after,
-                priority=_event_priority(event_type, security_downgrade=security_downgrade),
+                priority=_event_priority(event_type, urgent=security_downgrade),
                 observed_at=observed_at,
             )
         )
