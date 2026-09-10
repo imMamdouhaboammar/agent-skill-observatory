@@ -14,6 +14,7 @@ from .db import init_database, make_session_factory
 from .domain import RepositorySignals
 from .github import GitHubClient
 from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
+from .local_git_publisher import LocalGitAtomicPublisher, publish_local_materialized_views
 from .migrations import upgrade_database
 from .parser import parse_skill_directory
 from .pipeline import refresh_catalog
@@ -172,6 +173,43 @@ def publish_events_command(
     finally:
         if publisher is not None:
             publisher.close()
+
+    typer.echo(report.model_dump_json(indent=2))
+    if report.global_failure:
+        raise typer.Exit(code=1)
+
+
+@app.command("publish-events-local")
+def publish_events_local_command(
+    repository: str = typer.Option(..., help="Target GitHub repository in owner/repo form."),
+    branch: str = typer.Option("main", help="Checked-out branch for bootstrap publication."),
+    database_url: str | None = typer.Option(None, help="SQLAlchemy database URL."),
+    checkout_root: Path = typer.Option(
+        Path("."), exists=True, file_okay=False, help="Local Git checkout containing canonical records."
+    ),
+    max_events: int = typer.Option(500, min=1, help="Maximum Skill events to attempt."),
+    time_budget_seconds: int = typer.Option(
+        2400, min=1, help="Maximum publication wall-clock budget in seconds."
+    ),
+) -> None:
+    settings = _settings(database_url)
+    init_database(settings.database_url)
+    factory = make_session_factory(settings.database_url)
+    publisher = LocalGitAtomicPublisher(checkout_root=checkout_root)
+    try:
+        with factory() as session:
+            report = publish_pending_events(
+                session,
+                publisher,
+                checkout_root=checkout_root,
+                repository=repository,
+                branch=branch,
+                max_events=max_events,
+                time_budget_seconds=time_budget_seconds,
+                aggregate_publish=publish_local_materialized_views,
+            )
+    except GitHubPublisherError as exc:
+        report = PublicationReport(failures=[str(exc)], global_failure=True)
 
     typer.echo(report.model_dump_json(indent=2))
     if report.global_failure:
