@@ -18,6 +18,18 @@ DEFAULT_DISCOVERY_QUERIES = (
     '"SKILL.md" in:readme',
 )
 
+CODE_DISCOVERY_QUERIES = (
+    '"description:" filename:SKILL.md path:.agents/skills',
+    '"description:" filename:SKILL.md path:.claude/skills',
+    '"description:" filename:SKILL.md path:.github/skills',
+    '"description:" filename:SKILL.md path:skills/',
+    "security filename:SKILL.md",
+    "research filename:SKILL.md",
+    "marketing filename:SKILL.md",
+    "data filename:SKILL.md",
+    "testing filename:SKILL.md",
+)
+
 OFFICIAL_SEEDS = (
     "agentskills/agentskills",
     "anthropics/skills",
@@ -129,14 +141,9 @@ class GitHubClient:
                 if previous is None or repo.pushed_at > previous.pushed_at:
                     discovered[key] = repo
         if self.settings.github_token:
-            code_queries = (
-                "description filename:SKILL.md path:.agents/skills",
-                "description filename:SKILL.md path:.claude/skills",
-                "description filename:SKILL.md path:.github/skills",
-            )
-            for code_query in code_queries:
+            for code_query in CODE_DISCOVERY_QUERIES:
                 try:
-                    names = self.search_code_repositories(code_query, per_page=40)
+                    names = self.search_code_repositories(code_query, per_page=25)
                 except GitHubError:
                     continue
                 for name in names:
