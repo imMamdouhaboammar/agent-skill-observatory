@@ -211,3 +211,55 @@ def test_local_git_publisher_wraps_read_failures(monkeypatch, tmp_path: Path) ->
             repository="acme/observatory",
             branch="main",
         )
+
+
+def test_local_git_publisher_rejects_mismatched_push_url_before_mutation(tmp_path: Path) -> None:
+    _prepare_repo(tmp_path)
+    _git(
+        tmp_path,
+        "remote",
+        "set-url",
+        "--push",
+        "origin",
+        "https://github.com/other/project.git",
+    )
+    initial_head = _git(tmp_path, "rev-parse", "HEAD")
+    event, catalog = _event()
+    publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
+
+    with pytest.raises(PublicationError, match="push repository"):
+        publisher.publish_event(
+            event,
+            catalog,
+            repository="acme/observatory",
+            branch="main",
+        )
+
+    assert _git(tmp_path, "rev-parse", "HEAD") == initial_head
+    assert _git(tmp_path, "status", "--porcelain", "--untracked-files=all") == ""
+
+
+def test_local_git_publisher_redacts_credentials_from_remote_validation_errors(
+    tmp_path: Path,
+) -> None:
+    _prepare_repo(tmp_path)
+    secret = "ghp_DO_NOT_LEAK_THIS_TOKEN"
+    _git(
+        tmp_path,
+        "remote",
+        "set-url",
+        "origin",
+        f"https://oauth2:{secret}@example.invalid/acme/observatory.git",
+    )
+    event, catalog = _event()
+    publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
+
+    with pytest.raises(PublicationError) as exc_info:
+        publisher.publish_event(
+            event,
+            catalog,
+            repository="acme/observatory",
+            branch="main",
+        )
+
+    assert secret not in str(exc_info.value)
