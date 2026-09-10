@@ -1,0 +1,81 @@
+{
+  "analysis_fingerprint": "f3264d1faf05ba483a2fd4d288997e78144378256f3c62e2b175241ccae45f95",
+  "canonical_key": "abhishekrazy/exalere:.agents/skills/exalere-contributor",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f3264d1faf05ba483a2fd4d288997e78144378256f3c62e2b175241ccae45f95",
+    "archived": false,
+    "canonical_key": "abhishekrazy/exalere:.agents/skills/exalere-contributor",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6838e8f7e5f73f96327d9dcd61d29a0e0b0ffdf241d49a85f401b38d52676a4f",
+    "description": "Essential instructions and validation runbook for AI coding agents contributing to the Exalere Flutter media streaming application. Activate when developing, refactoring, fixing bugs, or adding TV navigation features to Exalere.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Abhishekrazy/Exalere/blob/main/.agents/skills/exalere-contributor/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T12:44:21.087628Z",
+    "last_successful_repo_scan_at": "2026-09-10T12:44:21.087628Z",
+    "license": "NOASSERTION",
+    "metadata": {},
+    "name": "exalere-contributor",
+    "path": ".agents/skills/exalere-contributor",
+    "pushed_at": "2026-09-10T12:35:42Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Abhishekrazy/Exalere",
+    "repo_url": "https://github.com/Abhishekrazy/Exalere",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 89,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2e989f79429b3b1d5633c22bcaa1bdfee0d1ab52e5cf4ac4ee54ccb6f8c27828",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "2e989f79429b3b1d5633c22bcaa1bdfee0d1ab52e5cf4ac4ee54ccb6f8c27828"
+}

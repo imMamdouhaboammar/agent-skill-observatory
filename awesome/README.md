@@ -1,12 +1,13 @@
 # Agent Skill Observatory Directory
 
-Published skills: **7**
-Repositories: **2**
+Published skills: **8**
+Repositories: **3**
 
 ## Browse repositories
 
 - [0o0r7/Fri](./repos/0o0r7/Fri.md)
 - [707734712/agents-in-sdlc](./repos/707734712/agents-in-sdlc.md)
+- [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
 
 ## Browse categories
 
@@ -28,3 +29,4 @@ Repositories: **2**
 - [make-repo-contribution](./skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) · `707734712/agents-in-sdlc:.github/skills/make-repo-contribution`
 - [publish-to-pages](./skills/707734712/agents-in-sdlc/.github/skills/publish-to-pages/README.md) · `707734712/agents-in-sdlc:.github/skills/publish-to-pages`
 - [update-markdown-file-index](./skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) · `707734712/agents-in-sdlc:.github/skills/update-markdown-file-index`
+- [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`

@@ -1,9 +1,10 @@
 # design
 
-Published Skills: 5
+Published Skills: 6
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [exalere-contributor](../skills/Abhishekrazy/Exalere/.agents/skills/exalere-contributor/README.md) | [Abhishekrazy/Exalere](https://github.com/Abhishekrazy/Exalere) | 89 | 100 | 0 | Essential instructions and validation runbook for AI coding agents contributing to the Exalere Flutter media streaming application. Activate when developing, refactoring, fixing bugs, or adding TV navigation features to Exalere. |
 | [update-markdown-file-index](../skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | Update a markdown file section with an index/table of files from a specified folder. |
 | [check-content-alignment](../skills/707734712/agents-in-sdlc/.github/skills/check-content-alignment/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 84 | 100 | 0 | Find workshop lessons that should change alongside an edit. Scans a diff (staged, unstaged, or a branch range) of the Copilot Workshops docs, extracts what changed, then searches the rest of docs/** for duplicated or parallel passages that now risk drifting out of sync — prose that used to be a shared partial and is now copied across pages, the same concept taught across the VS Code / CLI / App / Cloud harnesses, and cross-references to the changed page. Use after editing lesson content under docs/, before committing or opening a PR, or whenever asked to "check content alignment", "find related content to update", "what else should change", or "check for drift". Reports candidate files with line ranges and rationale; it does NOT edit content. |
 | [localizations](../skills/707734712/agents-in-sdlc/.github/skills/localizations/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 84 | 100 | 0 | A skill that localizes contents into given locales. |
