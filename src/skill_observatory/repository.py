@@ -1,12 +1,18 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 
 from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session
 
 from .db import SkillRecord
-from .domain import IndexedSkill
+from .domain import (
+    IndexedSkill,
+    ResourceCounts,
+    ScoreBreakdown,
+    SecurityReport,
+    SpecValidation,
+)
 
 
 def upsert_skill(session: Session, skill: IndexedSkill) -> SkillRecord:
@@ -23,6 +29,8 @@ def upsert_skill(session: Session, skill: IndexedSkill) -> SkillRecord:
         session.add(record)
 
     record.content_fingerprint = skill.content_fingerprint
+    record.source_fingerprint = skill.source_fingerprint
+    record.analysis_fingerprint = skill.analysis_fingerprint
     record.repo_full_name = skill.repo_full_name
     record.repo_url = skill.repo_url
     record.repo_default_branch = skill.repo_default_branch
@@ -51,9 +59,84 @@ def upsert_skill(session: Session, skill: IndexedSkill) -> SkillRecord:
     record.adoption_score = skill.score.adoption
     record.last_seen_at = skill.indexed_at
     record.is_active = True
+    record.consecutive_misses = 0
+    record.last_successful_repo_scan_at = skill.last_successful_repo_scan_at or skill.indexed_at
     session.commit()
     session.refresh(record)
     return record
+
+
+def reconcile_successful_repository_scan(
+    session: Session,
+    *,
+    repo_full_name: str,
+    observed_keys: set[str],
+    scanned_at: datetime,
+) -> None:
+    records = list(
+        session.scalars(select(SkillRecord).where(SkillRecord.repo_full_name == repo_full_name))
+    )
+    for record in records:
+        record.last_successful_repo_scan_at = scanned_at
+        if record.canonical_key in observed_keys:
+            record.consecutive_misses = 0
+            record.is_active = True
+            continue
+        if not record.is_active:
+            continue
+        record.consecutive_misses += 1
+        if record.consecutive_misses >= 2:
+            record.is_active = False
+    session.commit()
+
+
+def _as_utc(value: datetime) -> datetime:
+    if value.tzinfo is None:
+        return value.replace(tzinfo=UTC)
+    return value.astimezone(UTC)
+
+
+def _record_as_indexed_skill(record: SkillRecord) -> IndexedSkill:
+    return IndexedSkill(
+        canonical_key=record.canonical_key,
+        content_fingerprint=record.content_fingerprint,
+        source_fingerprint=record.source_fingerprint,
+        analysis_fingerprint=record.analysis_fingerprint,
+        repo_full_name=record.repo_full_name,
+        repo_url=record.repo_url,
+        repo_default_branch=record.repo_default_branch,
+        path=record.path,
+        name=record.name,
+        description=record.description,
+        license=record.license,
+        compatibility=record.compatibility,
+        metadata=dict(record.metadata_json or {}),
+        allowed_tools=list(record.allowed_tools_json or []),
+        spec=SpecValidation.model_validate(record.spec_json),
+        security=SecurityReport.model_validate(record.security_json),
+        score=ScoreBreakdown.model_validate(record.score_json),
+        resources=ResourceCounts.model_validate(record.resources_json),
+        stars=record.stars,
+        forks=record.forks,
+        pushed_at=_as_utc(record.pushed_at),
+        archived=record.archived,
+        discovery_source=record.discovery_source,
+        indexed_at=_as_utc(record.indexed_at),
+        consecutive_misses=record.consecutive_misses,
+        last_successful_repo_scan_at=(
+            _as_utc(record.last_successful_repo_scan_at)
+            if record.last_successful_repo_scan_at is not None
+            else None
+        ),
+        evidence=dict(record.evidence_json or {}),
+    )
+
+
+def list_observed_skills(session: Session) -> list[IndexedSkill]:
+    records = list(
+        session.scalars(select(SkillRecord).order_by(SkillRecord.canonical_key.asc()))
+    )
+    return [_record_as_indexed_skill(record) for record in records]
 
 
 def list_skills(
@@ -76,8 +159,6 @@ def list_skills(
             )
         )
     if spec_valid is not None:
-        # JSON boolean comparison is portable enough for SQLite/Postgres
-        # when serialized by SQLAlchemy.
         clauses.append(SkillRecord.spec_json["valid"].as_boolean() == spec_valid)
 
     stmt = select(SkillRecord).where(*clauses)
@@ -110,7 +191,10 @@ def estimate_star_velocity_7d(
     )
     if previous is None:
         return 0.0
-    elapsed_days = max((now - previous.captured_at).total_seconds() / 86400.0, 0.25)
+    elapsed_days = max(
+        (_as_utc(now) - _as_utc(previous.captured_at)).total_seconds() / 86400.0,
+        0.25,
+    )
     return float(max(0.0, (current_stars - previous.stars) / elapsed_days * 7.0))
 
 

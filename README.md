@@ -32,12 +32,15 @@ Explore the live catalog directly on GitHub Pages:
 
 The verified catalog is also published directly inside this repository as structured Markdown and data:
 
-- [`AWESOME.md`](./AWESOME.md) is the complete generated directory of verified Agent Skills and repositories.
-- [`awesome/README.md`](./awesome/README.md) is the same catalog exposed as a dedicated GitHub path.
-- [`data/catalog.json`](./data/catalog.json) contains skill-level records and evidence.
-- [`data/repositories.json`](./data/repositories.json) contains repository-level rollups.
+- [`catalog/skills/`](./catalog/skills/) contains the canonical published record for each Skill and is the publication source of truth.
+- [`AWESOME.md`](./AWESOME.md) is the complete aggregate directory of verified Agent Skills and repositories.
+- [`awesome/README.md`](./awesome/README.md) is the browsable GitHub directory index maintained by per-Skill publication events.
+- [`data/catalog.json`](./data/catalog.json) contains the aggregate skill-level records and evidence.
+- [`data/repositories.json`](./data/repositories.json) contains aggregate repository-level rollups.
 
-The automated refresh workflow checks GitHub every 15 minutes and regenerates the Markdown directory, README summary, and JSON/CSV exports.
+Publication is atomic per semantic Skill event. Each add, update, reindex, or confirmed removal is committed directly to `main` as one Skill commit using a fast-forward-only ref update. The publisher retries conflicts from the latest published state and never force-updates `main`.
+
+The scheduled refresh checks GitHub every 15 minutes. After the bounded Skill event loop, `AWESOME.md` and `data/*` are rebuilt as reproducible materialized views. Aggregate files are not used to decide whether a Skill changed, and a timestamp-only refresh does not create a catalog commit. The root README remains human-owned outside the generated marker block below.
 
 <!-- AWESOME_INDEX_START -->
 Last refreshed: **2026-09-10 11:20 UTC**
@@ -217,7 +220,9 @@ Agent Skill Observatory adheres to the open multi-agent format (`SKILL.md` + `sk
 skillobs init-db                     Initialize clean database schema
 skillobs migrate                     Apply Alembic migrations to current database
 skillobs scan-local PATH             Audit and score a local skill directory
-skillobs refresh [--max-repositories N] Crawl GitHub and refresh catalog
+skillobs refresh [--max-repositories N] Crawl GitHub and refresh observations
+skillobs publish-events --repository owner/repo [--max-events N] Publish atomic Skill events and aggregate views
+skillobs publish                     Regenerate local/service aggregate catalog files
 skillobs export OUTPUT --format json|csv  Export current catalog snapshot
 skillobs stats [--output stats.json] Export high-level ecosystem metrics
 skillobs build-site --output-dir site Build static dashboard for Pages

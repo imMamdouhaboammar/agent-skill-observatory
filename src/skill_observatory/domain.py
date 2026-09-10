@@ -39,6 +39,7 @@ class ParsedSkill(BaseModel):
 
 
 Severity = Literal["low", "medium", "high", "critical"]
+SkillEventType = Literal["add", "update", "reindex", "remove"]
 
 
 class SecurityFinding(BaseModel):
@@ -109,6 +110,8 @@ class DiscoveredRepository(BaseModel):
 class IndexedSkill(BaseModel):
     canonical_key: str
     content_fingerprint: str
+    source_fingerprint: str = ""
+    analysis_fingerprint: str = ""
     repo_full_name: str
     repo_url: str
     repo_default_branch: str
@@ -129,4 +132,6 @@ class IndexedSkill(BaseModel):
     archived: bool
     discovery_source: str
     indexed_at: datetime
+    consecutive_misses: int = 0
+    last_successful_repo_scan_at: datetime | None = None
     evidence: dict[str, Any] = Field(default_factory=dict)

@@ -13,9 +13,11 @@ from .config import Settings
 from .db import init_database, make_session_factory
 from .domain import RepositorySignals
 from .github import GitHubClient
+from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
 from .migrations import upgrade_database
 from .parser import parse_skill_directory
 from .pipeline import refresh_catalog
+from .publication import PublicationReport, publish_pending_events
 from .publishing import publish_catalog
 from .scoring import score_skill
 from .security import assess_skill_security
@@ -130,6 +132,50 @@ def stats_command(
         typer.echo(str(output))
     else:
         typer.echo(rendered)
+
+
+@app.command("publish-events")
+def publish_events_command(
+    repository: str = typer.Option(..., help="Target GitHub repository in owner/repo form."),
+    branch: str = typer.Option("main", help="Target branch for fast-forward publication."),
+    database_url: str | None = typer.Option(None, help="SQLAlchemy database URL."),
+    checkout_root: Path = typer.Option(
+        Path("."), exists=True, file_okay=False, help="Fresh checkout containing canonical records."
+    ),
+    max_events: int = typer.Option(100, min=1, help="Maximum Skill events to attempt."),
+    time_budget_seconds: int = typer.Option(
+        420, min=1, help="Maximum publication wall-clock budget in seconds."
+    ),
+) -> None:
+    settings = _settings(database_url)
+    init_database(settings.database_url)
+    factory = make_session_factory(settings.database_url)
+    publisher: GitHubAtomicPublisher | None = None
+    try:
+        publisher = GitHubAtomicPublisher(
+            token=settings.github_token,
+            api_url=settings.github_api_url,
+            timeout_seconds=settings.request_timeout_seconds,
+        )
+        with factory() as session:
+            report = publish_pending_events(
+                session,
+                publisher,
+                checkout_root=checkout_root,
+                repository=repository,
+                branch=branch,
+                max_events=max_events,
+                time_budget_seconds=time_budget_seconds,
+            )
+    except GitHubPublisherError as exc:
+        report = PublicationReport(failures=[str(exc)], global_failure=True)
+    finally:
+        if publisher is not None:
+            publisher.close()
+
+    typer.echo(report.model_dump_json(indent=2))
+    if report.global_failure:
+        raise typer.Exit(code=1)
 
 
 @app.command("publish")
