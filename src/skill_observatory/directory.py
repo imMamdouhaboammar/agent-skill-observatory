@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import json
 from collections import Counter
-from typing import Any
 
 from pydantic import BaseModel, Field
 
@@ -81,8 +80,7 @@ def _render_skill_page(record: PublishedSkillRecord) -> str:
         f"Scripts: {skill.resources.scripts}",
         f"References: {skill.resources.references}",
         f"Assets: {skill.resources.assets}",
-        f"Evals: {skill.resources.evals}",
-        f"Agents: {skill.resources.agents}",
+        f"Other: {skill.resources.other}",
         "",
         "## Scores",
         "",
@@ -140,7 +138,11 @@ def _render_repository_page(records: list[PublishedSkillRecord]) -> str:
     categories = sorted({category for record in records for category in _categories(record)})
     best_score = max(record.skill.score.overall for record in records)
     security_bands = Counter(
-        "85+" if record.skill.security.score >= 85 else "60-84" if record.skill.security.score >= 60 else "<60"
+        "85+"
+        if record.skill.security.score >= 85
+        else "60-84"
+        if record.skill.security.score >= 60
+        else "<60"
         for record in records
     )
     lines = [
@@ -153,7 +155,8 @@ def _render_repository_page(records: list[PublishedSkillRecord]) -> str:
         f"Best overall score: {best_score}",
         (
             "Security distribution: "
-            f"85+={security_bands['85+']}, 60-84={security_bands['60-84']}, <60={security_bands['<60']}"
+            f"85+={security_bands['85+']}, 60-84={security_bands['60-84']}, "
+            f"<60={security_bands['<60']}"
         ),
         "",
         "| Skill | Path | Score | Security | Categories |",
@@ -161,9 +164,11 @@ def _render_repository_page(records: list[PublishedSkillRecord]) -> str:
     ]
     for record in records:
         skill = record.skill
+        path = skill.path if skill.path != "." else "_root"
         lines.append(
-            f"| [{skill.name}](../skills/{skill.repo_full_name}/{skill.path if skill.path != '.' else '_root'}/README.md) "
-            f"| `{skill.path}` | {skill.score.overall} | {skill.security.score} | {', '.join(_categories(record))} |"
+            f"| [{skill.name}](../../skills/{skill.repo_full_name}/{path}/README.md) | "
+            f"`{skill.path}` | {skill.score.overall} | {skill.security.score} | "
+            f"{', '.join(_categories(record))} |"
         )
     return "\n".join(lines).rstrip() + "\n"
 
@@ -238,9 +243,7 @@ def _render_awesome_index(catalog: dict[str, PublishedSkillRecord]) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
-def _readme_block(
-    event: SkillEvent, catalog: dict[str, PublishedSkillRecord]
-) -> str:
+def _readme_block(event: SkillEvent, catalog: dict[str, PublishedSkillRecord]) -> str:
     repos = {record.skill.repo_full_name for record in catalog.values()}
     return "\n".join(
         [
