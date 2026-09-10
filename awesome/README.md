@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **38**
+Published skills: **39**
 Repositories: **5**
 
 ## Browse repositories
@@ -62,3 +62,4 @@ Repositories: **5**
 - [video-podcast-maker](./skills/agents365-ai/365-skills/plugins/video-podcast-maker/skills/video-podcast-maker/README.md) · `agents365-ai/365-skills:plugins/video-podcast-maker/skills/video-podcast-maker`
 - [videogencn](./skills/agents365-ai/365-skills/plugins/videogencn/skills/videogencn/README.md) · `agents365-ai/365-skills:plugins/videogencn/skills/videogencn`
 - [xfetch](./skills/agents365-ai/365-skills/plugins/xfetch/skills/xfetch-skill/README.md) · `agents365-ai/365-skills:plugins/xfetch/skills/xfetch-skill`
+- [yt2bb](./skills/agents365-ai/365-skills/plugins/yt2bb/skills/yt2bb/README.md) · `agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb`

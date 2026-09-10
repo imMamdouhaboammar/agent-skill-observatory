@@ -1,0 +1,117 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(python3:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(whisper:*)",
+      "Bash(yt-dlp:*)",
+      "Bash(git:*)",
+      "Read",
+      "Write",
+      "Edit"
+    ],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb",
+    "compatibility": "Requires Python 3, ffmpeg, yt-dlp, whisper (openai-whisper) on PATH. Self-check steps that need vision are gracefully skipped if unavailable.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e58791edf2e11df51646819912552cca567e05b3d4427f301e31e0749e235507",
+    "description": "Use when the user wants to repurpose a YouTube video for Bilibili, add bilingual (English-Chinese) subtitles to a video, or create hardcoded subtitle versions for Chinese platforms.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "design",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "compatibility metadata names Codex/OpenAI"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/yt2bb/skills/yt2bb/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "author": "Agents365-ai",
+      "claude-code": "{'allowed-tools': 'Bash(python3:*) Bash(ffmpeg:*) Bash(whisper:*) Bash(yt-dlp:*) Bash(git:*) Read Write Edit'}",
+      "clawhub": "{'requires': {'bins': ['python3', 'ffmpeg', 'yt-dlp', 'whisper']}, 'category': 'media', 'install': [{'id': 'brew-ffmpeg', 'kind': 'brew', 'formula': 'ffmpeg', 'bins': ['ffmpeg'], 'label': 'Install ffmpeg via Homebrew', 'os': ['darwin']}, {'id': 'apt-ffmpeg', 'kind': 'apt', 'package': 'ffmpeg', 'bins': ['ffmpeg'], 'label': 'Install ffmpeg via apt', 'os': ['linux']}, {'id': 'brew-ytdlp', 'kind': 'brew', 'formula': 'yt-dlp', 'bins': ['yt-dlp'], 'label': 'Install yt-dlp via Homebrew', 'os': ['darwin']}, {'id': 'pip-ytdlp', 'kind': 'pip', 'package': 'yt-dlp', 'bins': ['yt-dlp'], 'label': 'Install yt-dlp via pip', 'os': ['linux', 'win32']}, {'id': 'pip-whisper', 'kind': 'pip', 'package': 'openai-whisper', 'bins': ['whisper'], 'label': 'Install openai-whisper via pip'}]}",
+      "codex": "{'requires': {'bins': ['python3', 'ffmpeg', 'yt-dlp', 'whisper']}, 'allowed-tools': ['bash', 'read', 'write', 'edit']}",
+      "hermes": "{'tags': ['youtube', 'bilibili', 'subtitles', 'bilingual', 'video', 'localization', 'whisper', 'yt-dlp'], 'category': 'media', 'requires_tools': ['python3', 'ffmpeg', 'yt-dlp', 'whisper'], 'related_skills': ['ffmpeg', 'video-podcast-maker']}",
+      "openclaw": "{'requires': {'bins': ['python3', 'ffmpeg', 'yt-dlp', 'whisper']}, 'emoji': '🎬', 'os': ['darwin', 'linux', 'win32'], 'install': [{'id': 'brew-ffmpeg', 'kind': 'brew', 'formula': 'ffmpeg', 'bins': ['ffmpeg'], 'label': 'Install ffmpeg via Homebrew', 'os': ['darwin']}, {'id': 'apt-ffmpeg', 'kind': 'apt', 'package': 'ffmpeg', 'bins': ['ffmpeg'], 'label': 'Install ffmpeg via apt', 'os': ['linux']}, {'id': 'brew-ytdlp', 'kind': 'brew', 'formula': 'yt-dlp', 'bins': ['yt-dlp'], 'label': 'Install yt-dlp via Homebrew', 'os': ['darwin']}, {'id': 'pip-ytdlp', 'kind': 'pip', 'package': 'yt-dlp', 'bins': ['yt-dlp'], 'label': 'Install yt-dlp via pip', 'os': ['linux', 'win32']}, {'id': 'pip-whisper', 'kind': 'pip', 'package': 'openai-whisper', 'bins': ['whisper'], 'label': 'Install openai-whisper via pip'}]}",
+      "pi": "{'requires': {'bins': ['python3', 'ffmpeg', 'yt-dlp', 'whisper']}, 'allowed-tools': ['bash', 'read', 'write', 'edit']}",
+      "skillsmp": "{'topics': ['claude-code', 'claude-code-skill', 'claude-skills', 'agent-skills', 'skillsmp', 'openclaw', 'openclaw-skills', 'skill-md', 'pi-coding-agent', 'youtube', 'bilibili', 'subtitles', 'video']}",
+      "version": "2.6.2"
+    },
+    "name": "yt2bb",
+    "path": "plugins/yt2bb/skills/yt2bb",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 87,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected.",
+        "Static safety scan found commands that need human review before execution."
+      ],
+      "security": 80
+    },
+    "security": {
+      "findings": [
+        {
+          "evidence": "| Linux | `Noto Sans CJK SC` | `sudo apt install fonts-noto-cjk` |",
+          "file": "SKILL.md",
+          "line": 393,
+          "message": "Requests elevated operating-system privileges.",
+          "rule": "sudo",
+          "severity": "medium"
+        },
+        {
+          "evidence": "| Linux (alt) | `WenQuanYi Micro Hei` | `sudo apt install fonts-wqy-microhei` |",
+          "file": "SKILL.md",
+          "line": 394,
+          "message": "Requests elevated operating-system privileges.",
+          "rule": "sudo",
+          "severity": "medium"
+        }
+      ],
+      "score": 80
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}

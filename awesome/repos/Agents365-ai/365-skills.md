@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills)
 
-Published Skills: 25
+Published Skills: 26
 Categories: content, data, design, devops, engineering, productivity, research
 Best overall score: 93
-Security distribution: 85+=24, 60-84=1, <60=0
+Security distribution: 85+=24, 60-84=2, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -31,6 +31,7 @@ Security distribution: 85+=24, 60-84=1, <60=0
 | [target-prioritization](../../skills/Agents365-ai/365-skills/plugins/target-prioritization/skills/target-prioritization/README.md) | `plugins/target-prioritization/skills/target-prioritization` | 91 | 100 | data, design, engineering, research |
 | [plantuml-skill](../../skills/Agents365-ai/365-skills/plugins/plantuml/skills/plantuml-skill/README.md) | `plugins/plantuml/skills/plantuml-skill` | 90 | 90 | content, data, design, engineering |
 | [drawio-skill](../../skills/Agents365-ai/365-skills/plugins/drawio/skills/drawio-skill/README.md) | `plugins/drawio/skills/drawio-skill` | 88 | 90 | content, design, devops, engineering |
+| [yt2bb](../../skills/Agents365-ai/365-skills/plugins/yt2bb/skills/yt2bb/README.md) | `plugins/yt2bb/skills/yt2bb` | 87 | 80 | content, data, design, engineering |
 | [excalidraw](../../skills/Agents365-ai/365-skills/plugins/excalidraw/skills/excalidraw-skill/README.md) | `plugins/excalidraw/skills/excalidraw-skill` | 83 | 100 | content, data, design, engineering |
 | [xfetch](../../skills/Agents365-ai/365-skills/plugins/xfetch/skills/xfetch-skill/README.md) | `plugins/xfetch/skills/xfetch-skill` | 83 | 100 | data, design, engineering, research |
 | [video-podcast-maker](../../skills/Agents365-ai/365-skills/plugins/video-podcast-maker/skills/video-podcast-maker/README.md) | `plugins/video-podcast-maker/skills/video-podcast-maker` | 81 | 66 | content, design, engineering, research |
