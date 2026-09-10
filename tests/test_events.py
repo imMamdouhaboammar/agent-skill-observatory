@@ -2,6 +2,7 @@ from datetime import UTC, datetime
 
 import pytest
 from pydantic import ValidationError
+from skill_observatory.events import PublishedSkillRecord, SkillEvent
 
 from skill_observatory.domain import (
     IndexedSkill,
@@ -10,7 +11,6 @@ from skill_observatory.domain import (
     SecurityReport,
     SpecValidation,
 )
-from skill_observatory.events import PublishedSkillRecord, SkillEvent
 
 NOW = datetime(2026, 9, 10, 7, 0, tzinfo=UTC)
 CANONICAL_KEY = "owner/repo:skills/example"
