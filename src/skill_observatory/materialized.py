@@ -105,12 +105,17 @@ def published_repository_rollups(rows: list[dict[str, Any]]) -> list[dict[str, A
 
     repos = list(grouped.values())
     for repo in repos:
-        repo["skills"].sort(key=lambda item: (-int(item["overall_score"]), str(item["name"])))
+        repo["skills"].sort(
+            key=lambda item: (
+                -int(item["overall_score"]),
+                -int(item["security_score"]),
+                str(item["name"]).casefold(),
+            )
+        )
     repos.sort(
         key=lambda item: (
             -int(item["best_score"]),
-            -int(item["stars"]),
-            str(item["repo_full_name"]),
+            str(item["repo_full_name"]).casefold(),
         )
     )
     return repos
@@ -193,7 +198,8 @@ def render_awesome_from_rows(
         valid_rows,
         key=lambda row: (
             -int((row.get("score") or {}).get("overall") or 0),
-            -int(row.get("stars") or 0),
+            -int((row.get("score") or {}).get("security") or 0),
+            -int((row.get("score") or {}).get("quality") or 0),
             str(row.get("name") or "").casefold(),
             str(row.get("canonical_key") or ""),
         ),
