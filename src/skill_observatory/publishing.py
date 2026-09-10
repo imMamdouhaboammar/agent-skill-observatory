@@ -9,6 +9,7 @@ from typing import Any
 from sqlalchemy.orm import Session
 
 from .catalog import catalog_stats, export_catalog, records_as_dicts, repository_rollups
+from .materialized import materialize_records as materialize_published_catalog
 
 README_START = "<!-- AWESOME_INDEX_START -->"
 README_END = "<!-- AWESOME_INDEX_END -->"
