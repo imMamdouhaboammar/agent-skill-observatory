@@ -4,13 +4,6 @@ on:
   schedule:
     # Every 15 minutes, offset from the top of the hour to reduce GitHub cron congestion.
     - cron: '7,22,37,52 * * * *'
-  push:
-    branches: [main]
-    paths:
-      - 'src/skill_observatory/**'
-      - 'pyproject.toml'
-      - '.github/workflows/refresh.yml'
-      - '.github/workflows/bootstrap-catalog.yml'
   workflow_dispatch:
     inputs:
       max_repositories:
