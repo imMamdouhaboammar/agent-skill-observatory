@@ -32,7 +32,7 @@ from skill_observatory.publication_store import (
     skill_markdown_path,
     skill_record_path,
 )
-from skill_observatory.repository import upsert_skill
+from skill_observatory.repository import reconcile_successful_repository_scan, upsert_skill
 
 NOW = datetime(2026, 9, 10, 9, 0, tzinfo=UTC)
 REPOSITORY = "acme/observatory"
@@ -42,12 +42,7 @@ README = (
 )
 
 
-def _skill(
-    name: str,
-    *,
-    stars: int = 10,
-    misses: int = 0,
-) -> IndexedSkill:
+def _skill(name: str, *, stars: int = 10) -> IndexedSkill:
     return IndexedSkill(
         canonical_key=f"owner/repo:skills/{name}",
         content_fingerprint=(name[0] * 64)[:64],
@@ -79,7 +74,6 @@ def _skill(
         archived=False,
         discovery_source="test",
         indexed_at=NOW,
-        consecutive_misses=misses,
         last_successful_repo_scan_at=NOW,
         evidence={"categories": ["engineering"]},
     )
@@ -272,14 +266,24 @@ def test_removal_requires_two_successful_misses_and_then_one_remove_commit(tmp_p
     assert _publish(factory, publisher, tmp_path).events_published == 1
 
     with factory() as session:
-        upsert_skill(session, _skill("alpha", misses=1))
+        reconcile_successful_repository_scan(
+            session,
+            repo_full_name="owner/repo",
+            observed_keys=set(),
+            scanned_at=NOW + timedelta(minutes=1),
+        )
     first_miss = _publish(factory, publisher, tmp_path)
     assert first_miss.events_detected == 0
     assert (tmp_path / skill_record_path(key)).is_file()
 
     commits_before_remove = len(publisher.commits)
     with factory() as session:
-        upsert_skill(session, _skill("alpha", misses=2))
+        reconcile_successful_repository_scan(
+            session,
+            repo_full_name="owner/repo",
+            observed_keys=set(),
+            scanned_at=NOW + timedelta(minutes=2),
+        )
     second_miss = _publish(factory, publisher, tmp_path)
 
     assert second_miss.events_detected == 1
