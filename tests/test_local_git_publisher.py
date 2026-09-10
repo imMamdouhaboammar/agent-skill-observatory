@@ -16,6 +16,7 @@ from skill_observatory.domain import (
 from skill_observatory.events import SkillEvent, build_published_record
 from skill_observatory.github_publisher import GitHubPublisherError
 from skill_observatory.local_git_publisher import LocalGitAtomicPublisher
+from skill_observatory.publication_errors import PublicationError
 from skill_observatory.publication_store import skill_record_path
 
 NOW = datetime(2026, 9, 10, 14, 30, tzinfo=UTC)
@@ -138,7 +139,7 @@ def test_local_git_publisher_rejects_unstaged_worktree_changes(tmp_path: Path) -
     event, catalog = _event()
     publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
 
-    with pytest.raises(GitHubPublisherError, match="clean Git worktree"):
+    with pytest.raises(PublicationError, match="clean Git worktree"):
         publisher.publish_event(
             event,
             catalog,
