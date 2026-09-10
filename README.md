@@ -40,9 +40,9 @@ The verified catalog is also published directly inside this repository as struct
 The automated refresh workflow checks GitHub every 15 minutes and regenerates the Markdown directory, README summary, and JSON/CSV exports.
 
 <!-- AWESOME_INDEX_START -->
-Last refreshed: **2026-09-10 06:49 UTC**
+Last refreshed: **2026-09-10 11:20 UTC**
 
-**3471 verified skills** across **89 repositories** · 3357 with security score 85+ · 3367 with overall score 80+
+**5188 verified skills** across **130 repositories** · 4997 with security score 85+ · 4976 with overall score 80+
 
 [Browse the full Awesome catalog](./AWESOME.md) · [Open the GitHub Awesome path](./awesome/) · [Download JSON](./data/catalog.json) · [Repositories JSON](./data/repositories.json)
 
