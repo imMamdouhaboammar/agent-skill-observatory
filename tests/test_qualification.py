@@ -132,6 +132,27 @@ def test_static_security_finding_blocks_qualification(tmp_path: Path) -> None:
     assert "static-security" in report.blocking_reasons
 
 
+def test_medium_security_finding_blocks_qualification(tmp_path: Path) -> None:
+    parsed = _parsed(tmp_path / "example")
+    security = SecurityReport(
+        score=90,
+        findings=[
+            SecurityFinding(
+                rule="dynamic-exec",
+                severity="medium",
+                file="scripts/check.py",
+                line=4,
+                message="Uses dynamic code execution.",
+                evidence="exec(payload)",
+            )
+        ],
+    )
+    report = qualify_skill(parsed, security, _repo(), duplicate_of=None)
+
+    assert report.qualified is False
+    assert "static-security" in report.blocking_reasons
+
+
 def test_executable_scripts_require_test_or_eval_evidence(tmp_path: Path) -> None:
     parsed = _parsed(tmp_path / "example", scripts=1)
     report = qualify_skill(
