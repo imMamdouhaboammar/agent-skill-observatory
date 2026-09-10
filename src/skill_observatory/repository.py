@@ -228,13 +228,13 @@ def record_repository_snapshot(
 
 
 def find_duplicate_key(session: Session, fingerprint: str, canonical_key: str) -> str | None:
-    record = session.scalar(
-        select(SkillRecord)
-        .where(
-            SkillRecord.content_fingerprint == fingerprint,
-            SkillRecord.canonical_key != canonical_key,
+    existing_keys = set(
+        session.scalars(
+            select(SkillRecord.canonical_key).where(
+                SkillRecord.content_fingerprint == fingerprint
+            )
         )
-        .order_by(SkillRecord.id.asc())
-        .limit(1)
     )
-    return record.canonical_key if record is not None else None
+    candidate_keys = existing_keys | {canonical_key}
+    winner = min(candidate_keys, key=lambda key: (key.casefold(), key))
+    return None if canonical_key == winner else winner
