@@ -165,7 +165,12 @@ def list_skills(
     total = session.scalar(select(func.count()).select_from(stmt.subquery())) or 0
     items = list(
         session.scalars(
-            stmt.order_by(SkillRecord.overall_score.desc(), SkillRecord.stars.desc())
+            stmt.order_by(
+                SkillRecord.overall_score.desc(),
+                SkillRecord.security_score.desc(),
+                SkillRecord.quality_score.desc(),
+                SkillRecord.canonical_key.asc(),
+            )
             .offset(offset)
             .limit(limit)
         )
