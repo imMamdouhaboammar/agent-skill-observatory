@@ -2,79 +2,80 @@
 
 <!-- Copyright (c) 2026 Mamdouh Aboammar. Licensed under Apache-2.0. -->
 
-The score is designed for comparison, not certification.
+The score is designed for comparison, not certification. Public admission is a separate strict qualification decision.
 
-Every catalog record exposes four component scores from 0 to 100.
+Every observed record exposes four component scores from 0 to 100. Adoption remains visible as telemetry, but it does not affect qualification, overall score, or directory tie-breaking.
 
-## Quality (35%)
+## Qualification gate
 
-Signals include open-spec validity, useful description length, instruction depth,
-repository tests or evals, and README evidence.
+A Skill is eligible for public publication only when the deterministic qualification policy passes all blocking checks. Current checks cover:
 
-| Evidence | Points |
+- Open Agent Skills specification validity
+- Sufficient instruction depth and procedural structure
+- Static security score of at least 90 with no high or critical finding
+- Verification evidence for bundled executable scripts
+- Portable paths without user-specific absolute paths or traversal
+- Integrity of referenced scripts, references, assets, evals, and agent resources
+- Behavioral safety checks for prompt-override or system-prompt extraction instructions
+- Duplicate rejection
+- Active, non-archived source repository
+- Declared Skill or repository license
+
+Stars, forks, install counts, watchers, and star velocity are not qualification inputs.
+
+## Quality (45% of overall)
+
+Signals include open-spec validity, useful description length, instruction depth, repository tests or evals, and README evidence.
+
+| Evidence | Current implementation signal |
 |---|---|
-| Spec-valid manifest | +20 |
-| Description ≥ 50 chars | +10 |
-| Instruction body ≥ 200 chars | +10 |
-| Tests or evals directory present | +15 |
-| README ≥ 300 chars | +10 |
-| Referenced resources exist | +10 |
-| Examples or workflows present | +5 |
+| Spec-valid manifest | strong positive |
+| Useful description length | positive |
+| Substantive instruction body | positive |
+| Tests or evals present | positive |
+| README present | positive |
 
-## Security (30%)
+## Security (35% of overall)
 
-Starts at 100 and applies documented deductions for static findings.
-No third-party code is executed to produce this score.
+Starts at 100 and applies documented deductions for static findings. No third-party code is executed to produce this score.
 
-| Pattern | Deduction |
+| Pattern | Example risk |
 |---|---|
-| `curl … \| bash` (pipe-to-shell) | −40 |
-| `rm -rf` (recursive deletion) | −30 |
-| Hardcoded credential / key path | −35 |
-| `eval` / `exec` (dynamic execution) | −25 |
-| `chmod 777` (world-writable) | −20 |
-| `sudo` escalation | −15 |
+| `curl … \| bash` | remote content piped to a shell |
+| `rm -rf` | recursive deletion |
+| Credential-path references | secret exposure |
+| `eval` / `exec` | dynamic execution |
+| `chmod 777` | world-writable permissions |
+| `sudo` | privilege escalation |
 
-A **high** security score means no high-impact static patterns were detected.
-It is **not** a sandbox execution result and is **not** a safety guarantee.
+A high security score means the static scanner did not detect the patterns it knows about. It is not a sandbox execution result and is not a guarantee of safety.
 
-## Maintenance (20%)
+## Maintenance (20% of overall)
 
-Recent pushes retain a higher score. Long inactivity reduces it.
-Archived repositories receive a strong penalty and the overall score is capped below 50
-so old popularity cannot make an archived skill appear actively maintained.
+Recent pushes retain a higher score. Long inactivity reduces it. Archived repositories receive a strong penalty and are rejected by the qualification gate.
 
-| Age since last push | Score band |
+| Age since last push | Effect |
 |---|---|
-| < 30 days | 80–100 |
-| 30–90 days | 60–80 |
-| 90–365 days | 40–60 |
-| > 365 days | 0–40 |
-| Archived | capped < 50 overall |
+| recent | higher maintenance confidence |
+| 90+ days | progressive reduction |
+| 180+ days | larger reduction |
+| 365+ days | strong reduction |
+| archived | rejected from public qualification |
 
-## Adoption (15%)
+## Adoption telemetry (0% of overall)
 
-Uses bounded logarithmic star and fork signals plus a historical 7-day star-velocity estimate
-when snapshots exist. This prevents raw star counts from dominating the entire ranking.
+Adoption is still calculated and exposed so consumers can inspect repository reach and momentum separately. It uses bounded star, fork, and historical star-velocity signals. It is deliberately excluded from public admission and ranking quality decisions.
 
-```python
-star_score  = min(log1p(stars) / log1p(1000), 1.0) * 60
-fork_score  = min(log1p(forks) / log1p(200),  1.0) * 20
-vel_score   = min(star_velocity / 10.0, 1.0) * 20   # velocity = Δstars/7 days
-adoption    = star_score + fork_score + vel_score    # 0–100
-```
+This means a new repository with zero stars can qualify and rank above a popular repository when its Skill package is structurally better, safer, and better maintained.
 
 ## Overall
 
 ```text
-overall = 0.35 × quality + 0.30 × security + 0.20 × maintenance + 0.15 × adoption
-if archived: overall = min(overall, 49.9)
-if license present: overall = min(overall + 2, 100)
+overall = 0.45 × quality + 0.35 × security + 0.20 × maintenance
+if archived: overall = min(overall, 49)
+if license present: overall = min(overall + 3, 100)
 ```
 
-A declared repository license adds a small bonus.
-Archived repositories are capped below 50 overall.
+Directory ordering uses overall score, then security score, then quality score, then canonical key for deterministic ties. Stars and forks are never tie-breakers.
 
-The component scores and reasons are part of the record.
-Consumers should filter on the dimensions relevant to their own risk and use case
-instead of relying only on `overall`.
+The component scores, qualification evidence, and reasons remain part of the record so consumers can inspect why a Skill was admitted rather than relying on one opaque number.
