@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **42**
+Published skills: **43**
 Repositories: **8**
 
 ## Browse repositories
@@ -69,3 +69,4 @@ Repositories: **8**
 - [manage-taskboard](./skills/ahh666/codex-taskboard/skills/manage-taskboard/README.md) · `ahh666/codex-taskboard:skills/manage-taskboard`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
+- [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`

@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "alizaouane/dev-agent:skills/acm-test-agent",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "alizaouane/dev-agent:skills/acm-test-agent",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "cb06ab23bc6f1ff953690496808e837ef33f52269d284a7cee0c51cb4b125e8f",
+    "description": "Internal helper invoked by the acm skill. Generates failing test stubs from a spec's acceptance criteria — runs in an isolated context that sees only the spec and the consumer's public API, never the implementation. Solves the circular-validation anti-pattern (Augment).",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "productivity",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alizaouane/dev-agent/blob/main/skills/acm-test-agent/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T11:17:22.027568Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {},
+    "name": "acm-test-agent",
+    "path": "skills/acm-test-agent",
+    "pushed_at": "2026-09-10T11:07:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alizaouane/dev-agent",
+    "repo_url": "https://github.com/alizaouane/dev-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 86,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
