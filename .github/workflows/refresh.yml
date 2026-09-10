@@ -51,6 +51,7 @@ jobs:
         env:
           SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
         run: |
+          set -o pipefail
           MAX="${{ inputs.max_repositories || '50' }}"
           skillobs refresh \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
@@ -60,6 +61,7 @@ jobs:
         env:
           SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
         run: |
+          set -o pipefail
           skillobs publish-events \
             --repository "$GITHUB_REPOSITORY" \
             --branch main \
