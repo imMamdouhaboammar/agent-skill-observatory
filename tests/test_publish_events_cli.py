@@ -132,5 +132,6 @@ def test_publish_events_local_cli_uses_local_transport_without_token(monkeypatch
     assert payload["events_published"] == 500
     assert captured["max_events"] == 500
     assert captured["time_budget_seconds"] == 2400
-    assert getattr(captured["aggregate_publish"], "__name__") == "publish_local_materialized_views"
+    aggregate_publish = captured["aggregate_publish"]
+    assert aggregate_publish.__name__ == "publish_local_materialized_views"
     assert FakeLocalAtomicPublisher.checkout_root_seen == tmp_path
