@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 22
+Published Skills: 23
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -25,4 +25,5 @@ Published Skills: 22
 | [notify](../skills/alizaouane/dev-agent/skills/notify/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to fan out gate-transition notifications across push (ntfy/pushover/slack), email (resend), GitHub issue comment, and the project status file. Wraps lib/notify.ts. |
 | [orchestrator](../skills/alizaouane/dev-agent/skills/orchestrator/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to advance a dev-agent feature issue through its state machine — knows the canonical state transitions, gate semantics, and which workflow runs at each transition. |
 | [quick-dev](../skills/alizaouane/dev-agent/skills/quick-dev/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Fast path for trivial work — typos, copy fixes, one-line patches, single-icon swaps. Bypasses Phase 2 brainstorming, Phase 3 plan writing, and Phase 3.5 spec-review. Invoked from start-feature Phase 1 when the PM agent classifies the work as trivial, or when the user passes `--quick` to /develop. |
+| [scout](../skills/alizaouane/dev-agent/skills/scout/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to discover candidate features by polling configured sources (GH issues, Vercel logs, Supabase logs, codebase audit, competitive feeds). Generates a daily digest issue with deduplication and rejection-suppression. |
 | [check-content-alignment](../skills/707734712/agents-in-sdlc/.github/skills/check-content-alignment/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 84 | 100 | 0 | Find workshop lessons that should change alongside an edit. Scans a diff (staged, unstaged, or a branch range) of the Copilot Workshops docs, extracts what changed, then searches the rest of docs/** for duplicated or parallel passages that now risk drifting out of sync — prose that used to be a shared partial and is now copied across pages, the same concept taught across the VS Code / CLI / App / Cloud harnesses, and cross-references to the changed page. Use after editing lesson content under docs/, before committing or opening a PR, or whenever asked to "check content alignment", "find related content to update", "what else should change", or "check for drift". Reports candidate files with line ranges and rationale; it does NOT edit content. |
