@@ -4,6 +4,8 @@ import subprocess
 from datetime import UTC, datetime
 from pathlib import Path
 
+from skill_observatory.local_git_publisher import LocalGitAtomicPublisher
+
 from skill_observatory.domain import (
     IndexedSkill,
     ResourceCounts,
@@ -12,7 +14,6 @@ from skill_observatory.domain import (
     SpecValidation,
 )
 from skill_observatory.events import SkillEvent, build_published_record
-from skill_observatory.local_git_publisher import LocalGitAtomicPublisher
 from skill_observatory.publication_store import skill_record_path
 
 NOW = datetime(2026, 9, 10, 14, 30, tzinfo=UTC)
