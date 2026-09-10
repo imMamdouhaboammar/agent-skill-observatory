@@ -111,7 +111,11 @@ def test_happy_path_uses_git_database_and_fast_forward_ref_update() -> None:
             return httpx.Response(201, json={"sha": "TREE-C"})
         if path.endswith("/git/commits"):
             assert body["parents"] == ["A"]
-            assert body["message"] == "skill(add): example · owner/repo"
+            assert body["message"].startswith(
+                "skill(add): example · owner/repo\n\n"
+                "Skill-Key: owner/repo:skills/example\n"
+                "Event: add\n"
+            )
             return httpx.Response(201, json={"sha": "C"})
         if path.endswith("/git/refs/heads/main"):
             assert body == {"sha": "C", "force": False}
