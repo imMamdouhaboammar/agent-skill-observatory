@@ -1,5 +1,6 @@
 from datetime import UTC, datetime
 
+from skill_observatory.aggregate_publication import AggregatePublicationResult
 from skill_observatory.db import init_database, make_session_factory
 from skill_observatory.domain import (
     IndexedSkill,
@@ -75,6 +76,10 @@ class FakePublisher:
         )
 
 
+def _noop_aggregate(publisher, outputs, **kwargs):
+    return AggregatePublicationResult(status="noop", parent_sha=publisher.head)
+
+
 def test_two_events_publish_sequentially_as_distinct_calls(tmp_path) -> None:
     db_url = f"sqlite+pysqlite:///{tmp_path / 'publication.db'}"
     init_database(db_url)
@@ -93,6 +98,7 @@ def test_two_events_publish_sequentially_as_distinct_calls(tmp_path) -> None:
             max_events=100,
             time_budget_seconds=420,
             now=NOW,
+            aggregate_publish=_noop_aggregate,
         )
 
     assert [call[0] for call in publisher.calls] == [
@@ -107,6 +113,7 @@ def test_two_events_publish_sequentially_as_distinct_calls(tmp_path) -> None:
     assert report.events_detected == 2
     assert report.events_published == 2
     assert report.adds == 2
+    assert report.aggregate_status == "noop"
     assert report.main_before == "A"
     assert report.main_after == "C2"
     assert not hasattr(publisher, "publish_batch")
@@ -130,6 +137,7 @@ def test_max_events_leaves_remaining_delta_unpublished(tmp_path) -> None:
             max_events=1,
             time_budget_seconds=420,
             now=NOW,
+            aggregate_publish=_noop_aggregate,
         )
 
     assert len(publisher.calls) == 1
@@ -154,6 +162,7 @@ def test_deferred_work_is_reported_without_becoming_a_failure(tmp_path) -> None:
             max_events=100,
             time_budget_seconds=420,
             now=NOW,
+            aggregate_publish=_noop_aggregate,
         )
 
     assert report.events_deferred == 1
