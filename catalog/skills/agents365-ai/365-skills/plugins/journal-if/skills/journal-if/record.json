@@ -1,0 +1,86 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/journal-if/skills/journal-if",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Write,",
+      "Edit,",
+      "Glob,",
+      "Grep"
+    ],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/journal-if/skills/journal-if",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2d4e3feaa7c716603da0e2251c28f9a7b1a8dbf3154c34cccdd4e83ce82dd130",
+    "description": "Use when looking up journal impact factors (JCR IF), checking a journal's impact factor by name, comparing IF across journals, or answering questions about \"影响因子\" / \"impact factor\" / \"IF\". Triggers on \"impact factor\", \"journal IF\", \"影响因子\", \"JCR\", \"IF score\", \"journal rank\", \"which journal has higher IF\", \"what is the IF of\". PROACTIVELY USE when user mentions journal prestige, publication venue quality, or manuscript submission target evaluation.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "data",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/journal-if/skills/journal-if/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3']}, 'emoji': '📊', 'homepage': 'https://github.com/Agents365-ai/journal-if', 'os': ['macos', 'linux', 'windows']}",
+      "version": "1.0.0"
+    },
+    "name": "journal-if",
+    "path": "plugins/journal-if/skills/journal-if",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
