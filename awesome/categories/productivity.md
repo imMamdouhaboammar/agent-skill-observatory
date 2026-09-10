@@ -1,7 +1,8 @@
 # productivity
 
-Published Skills: 1
+Published Skills: 2
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [make-repo-contribution](../skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly. |
 | [check-content-alignment](../skills/707734712/agents-in-sdlc/.github/skills/check-content-alignment/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 84 | 100 | 0 | Find workshop lessons that should change alongside an edit. Scans a diff (staged, unstaged, or a branch range) of the Copilot Workshops docs, extracts what changed, then searches the rest of docs/** for duplicated or parallel passages that now risk drifting out of sync — prose that used to be a shared partial and is now copied across pages, the same concept taught across the VS Code / CLI / App / Cloud harnesses, and cross-references to the changed page. Use after editing lesson content under docs/, before committing or opening a PR, or whenever asked to "check content alignment", "find related content to update", "what else should change", or "check for drift". Reports candidate files with line ranges and rationale; it does NOT edit content. |

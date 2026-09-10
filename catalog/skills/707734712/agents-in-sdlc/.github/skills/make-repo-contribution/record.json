@@ -1,0 +1,85 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "707734712/agents-in-sdlc:.github/skills/make-repo-contribution",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read",
+      "Edit",
+      "Bash(git:*)",
+      "Bash(gh",
+      "issue:*)",
+      "Bash(gh",
+      "pr:*)"
+    ],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "707734712/agents-in-sdlc:.github/skills/make-repo-contribution",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c9e2f74d0f900758c2c42a2e22bacc8877efe680291b3a11ebccbe62968f30e3",
+    "description": "All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "skill stored under .github/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/707734712/agents-in-sdlc/blob/main/.github/skills/make-repo-contribution/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-09T20:55:16.707066Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "make-repo-contribution",
+    "path": ".github/skills/make-repo-contribution",
+    "pushed_at": "2026-09-09T20:54:07Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "707734712/agents-in-sdlc",
+    "repo_url": "https://github.com/707734712/agents-in-sdlc",
+    "resources": {
+      "assets": 2,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 87,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
