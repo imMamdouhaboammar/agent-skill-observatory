@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **24**
+Published skills: **25**
 Repositories: **5**
 
 ## Browse repositories
@@ -48,3 +48,4 @@ Repositories: **5**
 - [journal-abbrev](./skills/agents365-ai/365-skills/plugins/journal-abbrev/skills/journal-abbrev/README.md) · `agents365-ai/365-skills:plugins/journal-abbrev/skills/journal-abbrev`
 - [journal-if](./skills/agents365-ai/365-skills/plugins/journal-if/skills/journal-if/README.md) · `agents365-ai/365-skills:plugins/journal-if/skills/journal-if`
 - [journal-meta](./skills/agents365-ai/365-skills/plugins/journal-meta/skills/journal-meta/README.md) · `agents365-ai/365-skills:plugins/journal-meta/skills/journal-meta`
+- [mermaid-skill](./skills/agents365-ai/365-skills/plugins/mermaid/skills/mermaid-skill/README.md) · `agents365-ai/365-skills:plugins/mermaid/skills/mermaid-skill`
