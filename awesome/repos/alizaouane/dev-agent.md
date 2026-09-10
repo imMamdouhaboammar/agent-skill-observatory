@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/alizaouane/dev-agent](https://github.com/alizaouane/dev-agent)
 
-Published Skills: 6
+Published Skills: 7
 Categories: content, design, devops, engineering, productivity, research, security
 Best overall score: 86
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,3 +15,4 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [elicit](../../skills/alizaouane/dev-agent/skills/elicit/README.md) | `skills/elicit` | 86 | 100 | content, engineering, productivity, research |
 | [notify](../../skills/alizaouane/dev-agent/skills/notify/README.md) | `skills/notify` | 86 | 100 | engineering, productivity, security |
 | [orchestrator](../../skills/alizaouane/dev-agent/skills/orchestrator/README.md) | `skills/orchestrator` | 86 | 100 | content, devops, engineering, productivity |
+| [quick-dev](../../skills/alizaouane/dev-agent/skills/quick-dev/README.md) | `skills/quick-dev` | 86 | 100 | content, design, engineering, productivity |
