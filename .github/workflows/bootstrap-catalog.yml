@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: catalog-publication
+  group: atomic-skill-publication
   cancel-in-progress: false
 
 jobs:
@@ -87,6 +87,10 @@ jobs:
 
           print('## Agent Skill Observatory bootstrap')
           print()
+          refresh_path = Path('.cache/refresh-report.json')
+          refresh = json.loads(refresh_path.read_text()) if refresh_path.exists() else {}
+          print(f"- Repositories scanned: **{refresh.get('repositories_seen', 'unknown')}**")
+          print(f"- Skills observed: **{refresh.get('skills_indexed', 'unknown')}**")
           report_path = Path('.cache/publication-report.json')
           if not report_path.exists():
               print('- Publication report was not produced')
