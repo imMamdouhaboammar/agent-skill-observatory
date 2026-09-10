@@ -132,6 +132,38 @@ def test_repository_ordering_ignores_popularity_signals(tmp_path) -> None:
     assert [repo["repo_full_name"] for repo in repos] == ["alpha/quiet", "zeta/popular"]
 
 
+def test_nested_repository_skill_order_uses_quality_not_stars(tmp_path) -> None:
+    url = f"sqlite+pysqlite:///{tmp_path / 'nested-ranking.db'}"
+    init_database(url)
+    factory = make_session_factory(url)
+    with factory() as session:
+        upsert_skill(
+            session,
+            make_skill(
+                "popular",
+                repo_full_name="example/repo",
+                overall=90,
+                security=95,
+                quality=80,
+                stars=1_000_000,
+            ),
+        )
+        upsert_skill(
+            session,
+            make_skill(
+                "quiet",
+                repo_full_name="example/repo",
+                overall=90,
+                security=99,
+                quality=99,
+                stars=1,
+            ),
+        )
+        repos = repository_rollups(session)
+
+    assert [skill["name"] for skill in repos[0]["skills"]] == ["quiet", "popular"]
+
+
 def test_export_rejects_unknown_format(tmp_path) -> None:
     url = f"sqlite+pysqlite:///{tmp_path / 'catalog.db'}"
     init_database(url)
