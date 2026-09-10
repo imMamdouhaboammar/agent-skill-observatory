@@ -22,6 +22,29 @@ def test_classifies_new_domain_categories() -> None:
     assert "research" in categories
 
 
+def test_classifies_architecture_orchestration_and_business_domains() -> None:
+    categories = classify_categories(
+        "Plan software architecture and multi-agent orchestration for business strategy",
+        "Record architecture decisions and coordinate subagents around the operating model.",
+    )
+
+    assert "architecture" in categories
+    assert "agent-orchestration" in categories
+    assert "business" in categories
+
+
+def test_classifies_sales_hr_localization_and_document_domains() -> None:
+    categories = classify_categories(
+        "Support recruiting and sales operations across localized customer documents",
+        "Screen candidate resumes, update CRM outreach, translate PDFs, and review DOCX files.",
+    )
+
+    assert "sales" in categories
+    assert "hr-recruiting" in categories
+    assert "localization" in categories
+    assert "documents" in categories
+
+
 def test_short_keywords_do_not_match_inside_unrelated_words() -> None:
     categories = classify_categories(
         "Build reliable workflows for repeatable delivery",
