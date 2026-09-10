@@ -7,12 +7,14 @@ def load_workflow(name: str) -> dict:
     return yaml.safe_load(Path(f".github/workflows/{name}").read_text(encoding="utf-8"))
 
 
-def test_refresh_is_manual_only_while_production_canary_is_guarded() -> None:
+def test_refresh_runs_every_fifteen_minutes_and_supports_manual_dispatch() -> None:
     workflow = load_workflow("refresh.yml")
     triggers = workflow.get("on") or workflow[True]
-    assert set(triggers) == {"workflow_dispatch"}
+    assert set(triggers) == {"schedule", "workflow_dispatch"}
+    assert triggers["schedule"] == [{"cron": "*/15 * * * *"}]
     assert workflow["concurrency"]["group"] == "atomic-skill-publication"
     assert workflow["concurrency"]["cancel-in-progress"] is False
+    assert workflow["jobs"]["refresh"]["timeout-minutes"] < 15
 
     text = Path(".github/workflows/refresh.yml").read_text(encoding="utf-8")
     assert "skillobs refresh" in text
