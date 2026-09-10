@@ -73,6 +73,8 @@ def test_meaningful_aggregate_change_creates_one_fast_forward_commit() -> None:
             relative = path.split("/contents/", 1)[1]
             if relative == "AWESOME.md":
                 return _content("# Old catalog\n")
+            if relative == "data/refresh.json":
+                return _content("{\"generated_at\": \"old\"}\n")
             return _content(OUTPUTS[relative])
         if path.endswith("/git/blobs"):
             blob_number += 1
