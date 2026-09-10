@@ -1,0 +1,87 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "707734712/agents-in-sdlc:.github/skills/publish-to-pages",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "707734712/agents-in-sdlc:.github/skills/publish-to-pages",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0f970c26b1c167f3d230258d6c32530fd5c32bfd2c9da439c1d9ad376f7f23cc",
+    "description": "Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub Pages URL. Handles repo creation, file conversion, Pages enablement, and returns the live URL. Use when the user wants to publish, deploy, or share a presentation or HTML file via GitHub Pages.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "design",
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "skill stored under .github/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/707734712/agents-in-sdlc/blob/main/.github/skills/publish-to-pages/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-09T20:55:16.707066Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "publish-to-pages",
+    "path": ".github/skills/publish-to-pages",
+    "pushed_at": "2026-09-09T20:54:07Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "707734712/agents-in-sdlc",
+    "repo_url": "https://github.com/707734712/agents-in-sdlc",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 3
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 79,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT.",
+        "Static safety scan found commands that need human review before execution."
+      ],
+      "security": 76
+    },
+    "security": {
+      "findings": [
+        {
+          "evidence": "rm -rf \"$TMPDIR\"",
+          "file": "scripts/publish.sh",
+          "line": 51,
+          "message": "Uses recursive forced deletion.",
+          "rule": "recursive-delete",
+          "severity": "high"
+        }
+      ],
+      "score": 76
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
