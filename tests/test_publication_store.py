@@ -1,14 +1,6 @@
 from datetime import UTC, datetime
 
 import pytest
-from skill_observatory.publication_store import (
-    PublicationStateError,
-    category_markdown_path,
-    load_published_catalog,
-    repository_markdown_path,
-    skill_markdown_path,
-    skill_record_path,
-)
 
 from skill_observatory.domain import (
     IndexedSkill,
@@ -18,6 +10,14 @@ from skill_observatory.domain import (
     SpecValidation,
 )
 from skill_observatory.events import PublishedSkillRecord
+from skill_observatory.publication_store import (
+    PublicationStateError,
+    category_markdown_path,
+    load_published_catalog,
+    repository_markdown_path,
+    skill_markdown_path,
+    skill_record_path,
+)
 
 NOW = datetime(2026, 9, 10, 7, 30, tzinfo=UTC)
 
