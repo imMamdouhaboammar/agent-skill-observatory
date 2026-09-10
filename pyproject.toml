@@ -25,6 +25,11 @@ keywords = [
   "security",
   "observatory",
   "static-analysis",
+  "omni-skill",
+  "multi-agent",
+  "gemini-cli",
+  "opencode",
+  "skills-sh",
 ]
 classifiers = [
   "Development Status :: 4 - Beta",

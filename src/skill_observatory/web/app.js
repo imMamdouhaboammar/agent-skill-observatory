@@ -1,3 +1,5 @@
+// Agent Skill Observatory — Dashboard
+// Copyright (c) 2026 Mamdouh Aboammar. Apache-2.0 License.
 const state={items:[],stats:{}};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
@@ -25,12 +27,18 @@ async function load(){
     state.items=(await skills.json()).map(normalize); state.stats=await stats.json();
     $('sourceStatus').textContent='Static catalog';
   }
-  renderStats(); renderCategories(); render();
+  renderStats(); renderCategories(); renderClients(); render();
 }
 
 function renderCategories(){
   const categories=[...new Set(state.items.flatMap(x=>x.evidence?.categories||[]))].sort();
   $('category').innerHTML='<option value="">All</option>'+categories.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
+}
+
+function renderClients(){
+  const clients=[...new Set(state.items.flatMap(x=>Object.keys(x.evidence?.client_compatibility_evidence||{})))].sort();
+  const sel=$('client');
+  if(sel) sel.innerHTML='<option value="">All clients</option>'+clients.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
 }
 
 function renderStats(){
@@ -39,26 +47,44 @@ function renderStats(){
 }
 
 function render(){
-  const q=$('query').value.trim().toLowerCase(), min=+$('minScore').value, valid=$('validOnly').checked, safe=$('safeOnly').checked, category=$('category').value, sort=$('sort').value;
-  const items=state.items.filter(x=>(!q||`${x.name} ${x.repo_full_name} ${x.description}`.toLowerCase().includes(q))&&x.overall_score>=min&&(!valid||x.spec?.valid===true)&&(!safe||x.security_score>=85)&&(!category||(x.evidence?.categories||[]).includes(category)));
+  const q=$('query').value.trim().toLowerCase(), min=+$('minScore').value, valid=$('validOnly').checked, safe=$('safeOnly').checked, category=$('category').value, sort=$('sort').value, clientSel=$('client')?.value||'';
+  const items=state.items.filter(x=>(!q||`${x.name} ${x.repo_full_name} ${x.description}`.toLowerCase().includes(q))&&x.overall_score>=min&&(!valid||x.spec?.valid===true)&&(!safe||x.security_score>=85)&&(!category||(x.evidence?.categories||[]).includes(category))&&(!clientSel||Object.keys(x.evidence?.client_compatibility_evidence||{}).includes(clientSel)));
   const sorters={overall:(a,b)=>b.overall_score-a.overall_score,adoption:(a,b)=>b.adoption_score-a.adoption_score,security:(a,b)=>b.security_score-a.security_score,recent:(a,b)=>String(b.pushed_at).localeCompare(String(a.pushed_at))};
   items.sort(sorters[sort]||sorters.overall);
   $('resultCount').textContent=items.length; $('empty').hidden=items.length!==0;
   $('catalog').innerHTML=items.map((x,idx)=>card(x,idx)).join('');
 
   document.querySelectorAll('.card').forEach(el=>{
-    el.addEventListener('click',e=>{
+    el.setAttribute('tabindex','0');
+    el.setAttribute('role','button');
+    const handler=e=>{
       if(e.target.closest('a')) return;
       const idx=el.dataset.index;
       if(idx!==undefined&&items[idx]) showDetail(items[idx]);
-    });
+    };
+    el.addEventListener('click',handler);
+    el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();handler(e);}});
   });
 }
 
 function card(x,idx){
   const findings=x.security?.findings?.length||0, valid=x.spec?.valid===true;
   const manifest=x.evidence?.manifest||`${x.repo_url}/tree/${x.repo_default_branch||'main'}/${x.path}`;
-  return `<article class="card" data-index="${idx}"><div><a href="${esc(manifest)}" target="_blank" rel="noreferrer" onclick="event.stopPropagation()"><h2>${esc(x.name)}</h2></a><div class="repo">${esc(x.repo_full_name)} · ${esc(x.path)}</div><p class="desc">${esc(x.description)}</p><div class="tags"><span class="tag ${valid?'good':'risk'}">${valid?'spec valid':'spec issues'}</span><span class="tag ${findings?'risk':'good'}">${findings?`${findings} safety findings`:'verified clean'}</span><span class="tag">★ ${Number(x.stars||0).toLocaleString()}</span>${x.license?`<span class="tag">${esc(x.license)}</span>`:''}<span class="tag">${x.resources?.scripts||0} scripts</span>${(x.evidence?.categories||[]).slice(0,2).map(c=>`<span class="tag">${esc(c)}</span>`).join('')}</div></div><div class="scores"><div class="score overall"><b>${x.overall_score}</b><span>Overall</span></div><div class="score"><b>${x.quality_score}</b><span>Quality</span></div><div class="score"><b>${x.security_score}</b><span>Security</span></div><div class="score"><b>${x.maintenance_score}</b><span>Maintenance</span></div><div class="score"><b>${x.adoption_score}</b><span>Adoption</span></div></div></article>`;
+  const clients=Object.keys(x.evidence?.client_compatibility_evidence||{});
+  const clientTags=clients.slice(0,3).map(c=>`<span class="tag">${esc(c)}</span>`).join('');
+  return `<article class="card" data-index="${idx}" aria-label="${esc(x.name)} skill"><div><a href="${esc(manifest)}" target="_blank" rel="noreferrer" onclick="event.stopPropagation()"><h2>${esc(x.name)}</h2></a><div class="repo">${esc(x.repo_full_name)} · ${esc(x.path)}</div><p class="desc">${esc(x.description)}</p><div class="tags"><span class="tag ${valid?'good':'risk'}">${valid?'spec valid':'spec issues'}</span><span class="tag ${findings?'risk':'good'}">${findings?`${findings} safety findings`:'verified clean'}</span><span class="tag">★ ${Number(x.stars||0).toLocaleString()}</span>${x.license?`<span class="tag">${esc(x.license)}</span>`:''}<span class="tag">${x.resources?.scripts||0} scripts</span>${(x.evidence?.categories||[]).slice(0,2).map(c=>`<span class="tag">${esc(c)}</span>`).join('')}${clientTags}</div></div><div class="scores"><div class="score overall"><b>${x.overall_score}</b><span>Overall</span></div><div class="score"><b>${x.quality_score}</b><span>Quality</span></div><div class="score"><b>${x.security_score}</b><span>Security</span></div><div class="score"><b>${x.maintenance_score}</b><span>Maintenance</span></div><div class="score"><b>${x.adoption_score}</b><span>Adoption</span></div></div></article>`;
+}
+
+function copyScanCmd(path,btn){
+  const cmd=`skillobs scan-local ${path}`;
+  navigator.clipboard.writeText(cmd).then(()=>{
+    const orig=btn.textContent; btn.textContent='✓ Copied!'; btn.disabled=true;
+    setTimeout(()=>{btn.textContent=orig; btn.disabled=false;},2000);
+  }).catch(()=>{
+    // Fallback: select text from a temporary textarea
+    const ta=document.createElement('textarea'); ta.value=cmd; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+    const orig=btn.textContent; btn.textContent='✓ Copied!'; setTimeout(()=>btn.textContent=orig,2000);
+  });
 }
 
 function showDetail(x){
@@ -99,13 +125,25 @@ function showDetail(x){
     </div>
     <div class="modal-actions">
       <a href="${esc(manifest)}" target="_blank" rel="noreferrer" class="btn-primary">View Manifest on GitHub ↗</a>
-      <button class="btn-secondary" onclick="navigator.clipboard.writeText('skillobs scan-local ${esc(x.path)}').then(()=>alert('Copied scan command!'))">Copy Scan Command</button>
+      <button class="btn-secondary" id="copyScanBtn">📋 Copy Scan Command</button>
     </div>
   `;
+  document.getElementById('copyScanBtn').addEventListener('click',function(){copyScanCmd(x.path,this);});
   modal.showModal();
+  // Focus close button for accessibility
+  setTimeout(()=>$('modalClose').focus(),50);
 }
 
 $('modalClose').addEventListener('click',()=>$('detailModal').close());
 $('detailModal').addEventListener('click',e=>{if(e.target===$('detailModal')) $('detailModal').close();});
-['query','minScore','category','sort','validOnly','safeOnly'].forEach(id=>$(id).addEventListener(id==='query'?'input':'change',render));
-load().catch(err=>{$('sourceStatus').textContent='Catalog unavailable';$('catalog').innerHTML=`<div class="empty">${esc(err.message)}</div>`});
+
+// Keyboard: Escape closes modal (native dialog behavior, but explicit fallback)
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&$('detailModal').open) $('detailModal').close();
+});
+
+['query','minScore','category','client','sort','validOnly','safeOnly'].forEach(id=>{
+  const el=$(id); if(el) el.addEventListener(id==='query'?'input':'change',render);
+});
+
+load().catch(err=>{$('sourceStatus').textContent='Catalog unavailable';$('catalog').innerHTML=`<div class="empty">${esc(err.message)}</div>`;});

@@ -30,19 +30,27 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # actions/checkout@v4 — pinned SHA for supply-chain security
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           ref: main
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745
       - name: Assemble static site
         run: |
           mkdir -p site
+          # Copy web UI assets
           cp src/skill_observatory/web/* site/ || true
+          # Overlay catalog data
           cp data/catalog.json site/catalog.json
           cp data/stats.json site/stats.json
-      - uses: actions/upload-pages-artifact@v3
+          # AI/LLM discovery files
+          cp llms-full.txt site/llms-full.txt 2>/dev/null || true
+          # Security contact
+          mkdir -p site/.well-known
+          cp .well-known/security.txt site/.well-known/security.txt 2>/dev/null || true
+      - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa
         with:
           path: site
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e

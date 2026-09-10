@@ -17,6 +17,9 @@
     "antigravity",
     "cursor",
     "codex",
+    "opencode",
+    "omni-skill",
+    "multi-agent",
     "security-analysis",
     "observatory"
   ],
@@ -35,6 +38,14 @@
     },
     "codex": {
       "path": ".agents/skills/agent-skill-observatory/SKILL.md",
+      "format": "markdown-frontmatter"
+    },
+    "opencode": {
+      "path": "SKILL.md",
+      "format": "markdown-frontmatter"
+    },
+    "skills-sh": {
+      "path": "SKILL.md",
       "format": "markdown-frontmatter"
     }
   },

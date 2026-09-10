@@ -12,17 +12,31 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # actions/checkout@v4 — pinned SHA for supply-chain security
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
-      - uses: actions/setup-python@v5
+      # actions/setup-python@v5 — pinned SHA
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.12'
 
-      - name: Install build tools
-        run: python -m pip install --upgrade pip build
+      - name: Install build tools and SBOM utilities
+        run: python -m pip install --upgrade pip build pip-licenses
 
       - name: Build Python packages (Wheel & SDist)
         run: python -m build
+
+      - name: Generate SBOM (pip-licenses)
+        run: |
+          python -m pip install -e '.'
+          pip-licenses --format=json --output-file=dist/sbom.json
+          pip-licenses --format=plain-vertical --output-file=dist/sbom-licenses.txt
+
+      - name: Generate SHA256 checksums
+        run: |
+          cd dist
+          sha256sum * > SHA256SUMS.txt
+          cat SHA256SUMS.txt
 
       - name: Package standalone Multi-Agent Skillpack
         run: |
@@ -36,9 +50,11 @@ jobs:
             references \
             evals \
             .agents
+          sha256sum agent-skill-observatory-skillpack.zip >> dist/SHA256SUMS.txt
 
+      # softprops/action-gh-release@v2 — pinned SHA for supply-chain security
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191
         with:
           files: |
             dist/*
@@ -46,3 +62,26 @@ jobs:
           generate_release_notes: true
           draft: false
           prerelease: false
+          body: |
+            ## Agent Skill Observatory ${{ github.ref_name }}
+
+            **Author**: Mamdouh Aboammar  
+            **Copyright**: © 2026 Mamdouh Aboammar  
+            **License**: Apache-2.0
+
+            ### Release Artifacts
+            | File | Description |
+            |---|---|
+            | `*.whl` | Python wheel (pip install) |
+            | `*.tar.gz` | Source distribution |
+            | `agent-skill-observatory-skillpack.zip` | Multi-agent skill bundle (all hosts) |
+            | `sbom.json` | Software Bill of Materials (JSON) |
+            | `sbom-licenses.txt` | Dependency license summary |
+            | `SHA256SUMS.txt` | Integrity checksums for all artifacts |
+
+            ### Quick Install
+            ```bash
+            pip install agent-skill-observatory==${{ github.ref_name }}
+            # or
+            curl -fsSL https://raw.githubusercontent.com/imMamdouhaboammar/agent-skill-observatory/main/install.sh | bash
+            ```

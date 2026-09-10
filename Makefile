@@ -1,4 +1,4 @@
-.PHONY: install test lint typecheck migration-check verify serve refresh publish site clean
+.PHONY: install test lint typecheck migration-check verify serve refresh publish site clean release-tag publish-pages
 
 VENV ?= $(shell if [ -f .venv/bin/python ]; then echo .venv/bin/; fi)
 PYTHON ?= $(VENV)python
@@ -45,3 +45,17 @@ clean:
 	rm -f .coverage migration-check.db
 	find . -type d -name __pycache__ -prune -exec rm -rf {} +
 	find . -type d -name '*.egg-info' -prune -exec rm -rf {} +
+
+## Release helpers
+# Usage: make release-tag VERSION=0.2.0
+release-tag:
+	@test -n "$(VERSION)" || (echo "Set VERSION=X.Y.Z"; exit 1)
+	git tag -a v$(VERSION) -m "Release v$(VERSION) — Agent Skill Observatory"
+	git push origin main
+	git push origin v$(VERSION)
+	@echo "✅ Tag v$(VERSION) pushed. GitHub Actions release workflow will now build artifacts."
+
+# Rebuild static site assets (web UI) from current skill_observatory/web sources
+publish-pages:
+	$(SKILLOBS) build-site --output-dir site
+	@echo "✅ Site rebuilt in site/. Commit site/ and push to trigger pages.yml deployment."

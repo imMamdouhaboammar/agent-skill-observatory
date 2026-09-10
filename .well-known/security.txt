@@ -1,0 +1,8 @@
+# Security contact for Agent Skill Observatory
+# RFC 9116 - https://www.rfc-editor.org/rfc/rfc9116
+
+Contact: mailto:mamdouhfces1997@gmail.com
+Preferred-Languages: en
+Canonical: https://raw.githubusercontent.com/imMamdouhaboammar/agent-skill-observatory/main/.well-known/security.txt
+Policy: https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/SECURITY.md
+Expires: 2027-09-10T00:00:00.000Z

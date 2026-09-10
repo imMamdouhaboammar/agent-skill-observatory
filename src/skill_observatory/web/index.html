@@ -3,66 +3,134 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Evidence-based discovery and review for open Agent Skills across Claude Code, Antigravity, Cursor, and Codex." />
-  <meta property="og:title" content="Agent Skill Observatory" />
-  <meta property="og:description" content="Evidence-based discovery, specification validation, and static safety analysis for open Agent Skills." />
-  <meta property="og:type" content="website" />
+  <meta name="description" content="Evidence-based discovery, specification validation, and static security auditing for open Agent Skills across Claude Code, Antigravity, Cursor, and Codex. Created by Mamdouh Aboammar." />
+  <meta name="keywords" content="agent skills, AI agents, claude code, antigravity, cursor, codex, opencode, skills observatory, skill validation, static security analysis, omni-skill, multi-agent" />
   <meta name="author" content="Mamdouh Aboammar" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Agent Skill Observatory — Open AI Agent Skills Index" />
+  <meta property="og:description" content="Evidence-based discovery, specification validation, and static safety analysis for open Agent Skills across Claude Code, Antigravity, Cursor, Codex, and OpenCode." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://imMamdouhaboammar.github.io/agent-skill-observatory/" />
+  <meta property="og:site_name" content="Agent Skill Observatory" />
+  <meta property="og:image" content="https://opengraph.githubassets.com/1/imMamdouhaboammar/agent-skill-observatory" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Agent Skill Observatory — Open AI Agent Skills Index" />
+  <meta name="twitter:description" content="Evidence-based discovery, spec validation, and static security auditing for open Agent Skills. By Mamdouh Aboammar." />
+  <meta name="twitter:image" content="https://opengraph.githubassets.com/1/imMamdouhaboammar/agent-skill-observatory" />
+
+  <link rel="canonical" href="https://imMamdouhaboammar.github.io/agent-skill-observatory/" />
+
+  <!-- JSON-LD Structured Data for Google Rich Results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Agent Skill Observatory",
+    "version": "0.2.0",
+    "description": "Evidence-based discovery, specification validation, static security auditing, and ranking for open Agent Skills across Claude Code, Antigravity, Cursor, Codex, and OpenCode.",
+    "url": "https://imMamdouhaboammar.github.io/agent-skill-observatory/",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Linux, macOS, Windows",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "author": {
+      "@type": "Person",
+      "name": "Mamdouh Aboammar",
+      "url": "https://github.com/imMamdouhaboammar",
+      "email": "mamdouhfces1997@gmail.com"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Mamdouh Aboammar",
+      "url": "https://github.com/imMamdouhaboammar"
+    },
+    "codeRepository": "https://github.com/imMamdouhaboammar/agent-skill-observatory",
+    "programmingLanguage": ["Python", "JavaScript"],
+    "softwareVersion": "0.2.0",
+    "copyrightYear": 2026,
+    "copyrightHolder": {
+      "@type": "Person",
+      "name": "Mamdouh Aboammar"
+    },
+    "keywords": "agent skills, AI agents, skill validation, security analysis, multi-agent, omni-skill",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
   <title>Agent Skill Observatory — Open AI Agent Skills Index</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="shell hero">
     <div class="header-top">
-      <div class="eyebrow">OPEN AGENT SKILLS OBSERVATORY</div>
-      <nav class="nav-links">
-        <a href="./llms.txt" class="nav-link">llms.txt</a>
-        <a href="./catalog.json" class="nav-link">JSON Data</a>
-        <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory" target="_blank" rel="noreferrer" class="nav-link github">GitHub ↗</a>
+      <div class="eyebrow">OPEN AGENT SKILLS OBSERVATORY · v0.2.0</div>
+      <nav class="nav-links" aria-label="Site navigation">
+        <a href="./llms.txt" class="nav-link" title="AI-readable catalog">llms.txt</a>
+        <a href="./catalog.json" class="nav-link" title="Machine-readable catalog">JSON Data</a>
+        <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory" target="_blank" rel="noreferrer noopener" class="nav-link github">GitHub ↗</a>
       </nav>
     </div>
     <div class="hero-grid">
       <div>
         <h1>Agent Skill Observatory</h1>
         <p class="lede">Discover, validate, and statically audit open Agent Skills across Claude Code, Codex, Antigravity, and Cursor. Compare quality, security, and maintenance signals before installing.</p>
+        <div class="hero-badges">
+          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/stargazers" target="_blank" rel="noreferrer" class="badge-link" aria-label="Star on GitHub">⭐ Star on GitHub</a>
+          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/releases" target="_blank" rel="noreferrer" class="badge-link" aria-label="Latest release">📦 Releases</a>
+          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/CHANGELOG.md" target="_blank" rel="noreferrer" class="badge-link" aria-label="Changelog">📋 Changelog</a>
+        </div>
       </div>
-      <div class="status" id="sourceStatus">Loading catalog…</div>
+      <div class="status" id="sourceStatus" aria-live="polite">Loading catalog…</div>
     </div>
   </header>
 
   <main class="shell">
-    <section class="stats" id="stats"></section>
+    <section class="stats" id="stats" aria-label="Catalog statistics"></section>
 
     <section class="controls" aria-label="Catalog filters">
-      <label class="search"><span>Search</span><input id="query" type="search" placeholder="skill, repo, capability…" autocomplete="off" /></label>
-      <label><span>Minimum score</span><select id="minScore"><option value="0">Any</option><option value="60">60+</option><option value="70">70+</option><option value="80">80+</option><option value="90">90+</option></select></label>
-      <label><span>Category</span><select id="category"><option value="">All</option></select></label>
-      <label><span>Sort</span><select id="sort"><option value="overall">Overall score</option><option value="adoption">Adoption</option><option value="security">Security</option><option value="recent">Recently updated</option></select></label>
-      <label class="check"><input id="validOnly" type="checkbox" checked /><span>Spec-valid only</span></label>
-      <label class="check"><input id="safeOnly" type="checkbox" /><span>Security 85+</span></label>
+      <label class="search"><span>Search</span><input id="query" type="search" placeholder="skill, repo, capability…" autocomplete="off" aria-label="Search skills" /></label>
+      <label><span>Minimum score</span><select id="minScore" aria-label="Minimum score filter"><option value="0">Any</option><option value="60">60+</option><option value="70">70+</option><option value="80">80+</option><option value="90">90+</option></select></label>
+      <label><span>Category</span><select id="category" aria-label="Category filter"><option value="">All</option></select></label>
+      <label><span>Client</span><select id="client" aria-label="Client compatibility filter"><option value="">All clients</option></select></label>
+      <label><span>Sort</span><select id="sort" aria-label="Sort order"><option value="overall">Overall score</option><option value="adoption">Adoption</option><option value="security">Security</option><option value="recent">Recently updated</option></select></label>
+      <label class="check"><input id="validOnly" type="checkbox" checked aria-label="Show spec-valid skills only" /><span>Spec-valid only</span></label>
+      <label class="check"><input id="safeOnly" type="checkbox" aria-label="Show high-security skills only" /><span>Security 85+</span></label>
     </section>
 
     <section class="catalog-head">
       <div><strong id="resultCount">0</strong> skills</div>
       <div class="legend">Scores are evidence signals, not execution guarantees</div>
     </section>
-    <section id="catalog" class="catalog" aria-live="polite"></section>
-    <div id="empty" class="empty" hidden>No skills match these filters.</div>
+    <section id="catalog" class="catalog" aria-live="polite" aria-label="Skill catalog"></section>
+    <div id="empty" class="empty" hidden role="status">No skills match these filters.</div>
   </main>
 
-  <dialog id="detailModal" class="modal">
+  <dialog id="detailModal" class="modal" aria-labelledby="modalTitle" aria-modal="true">
     <div class="modal-card">
       <div class="modal-head">
         <h2 id="modalTitle">Skill Details</h2>
-        <button id="modalClose" class="btn-close" aria-label="Close">✕</button>
+        <button id="modalClose" class="btn-close" aria-label="Close details">✕</button>
       </div>
       <div id="modalBody" class="modal-body"></div>
     </div>
   </dialog>
 
   <footer class="shell footer">
-    <div>Static analysis only. Review third-party instructions and scripts before execution.</div>
-    <div class="footer-author">Crafted with precision by <strong>Mamdouh Aboammar</strong> · Apache-2.0 License</div>
+    <div>Static analysis only — always review third-party instructions and scripts before execution.</div>
+    <div class="footer-author">
+      Crafted with precision by <strong><a href="https://github.com/imMamdouhaboammar" target="_blank" rel="noreferrer noopener">Mamdouh Aboammar</a></strong>
+      · Apache-2.0 License · Copyright © 2026 Mamdouh Aboammar
+      · <a href="./llms.txt">AI-readable</a>
+      · <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/SECURITY.md" target="_blank" rel="noreferrer noopener">Security</a>
+    </div>
   </footer>
   <script src="./app.js" defer></script>
 </body>

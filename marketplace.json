@@ -12,6 +12,8 @@
   "homepage": "https://imMamdouhaboammar.github.io/agent-skill-observatory/",
   "repository": "https://github.com/imMamdouhaboammar/agent-skill-observatory",
   "license": "Apache-2.0",
+  "copyright": "Copyright (c) 2026 Mamdouh Aboammar",
+  "keywords": ["agent-skills", "security", "validation", "omni-skill", "multi-agent", "static-analysis", "observatory"],
   "skills": [
     {
       "name": "agent-skill-observatory",
