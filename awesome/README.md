@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **43**
+Published skills: **44**
 Repositories: **8**
 
 ## Browse repositories
@@ -70,3 +70,4 @@ Repositories: **8**
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
+- [drift-check](./skills/alizaouane/dev-agent/skills/drift-check/README.md) · `alizaouane/dev-agent:skills/drift-check`
