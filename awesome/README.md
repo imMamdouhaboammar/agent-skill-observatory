@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **49**
+Published skills: **50**
 Repositories: **8**
 
 ## Browse repositories
@@ -76,3 +76,4 @@ Repositories: **8**
 - [orchestrator](./skills/alizaouane/dev-agent/skills/orchestrator/README.md) · `alizaouane/dev-agent:skills/orchestrator`
 - [quick-dev](./skills/alizaouane/dev-agent/skills/quick-dev/README.md) · `alizaouane/dev-agent:skills/quick-dev`
 - [scout](./skills/alizaouane/dev-agent/skills/scout/README.md) · `alizaouane/dev-agent:skills/scout`
+- [self-review](./skills/alizaouane/dev-agent/skills/self-review/README.md) · `alizaouane/dev-agent:skills/self-review`

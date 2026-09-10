@@ -1,0 +1,72 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "alizaouane/dev-agent:skills/self-review",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "alizaouane/dev-agent:skills/self-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e44c3ca071fbace33f751343f8baf07ae616a43ef59c3981d2de642047271e49",
+    "description": "Use as the final step of phase-implement before opening a PR. The implement agent re-reads its own diff against a structured 10-item checklist; concern/fail items trigger a fix loop; the final answer becomes the PR description.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alizaouane/dev-agent/blob/main/skills/self-review/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T11:17:22.027568Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {},
+    "name": "self-review",
+    "path": "skills/self-review",
+    "pushed_at": "2026-09-10T11:07:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alizaouane/dev-agent",
+    "repo_url": "https://github.com/alizaouane/dev-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 86,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
