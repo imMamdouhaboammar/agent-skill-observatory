@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import subprocess
+from collections.abc import Iterator
+from contextlib import contextmanager
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -51,6 +53,48 @@ class LocalGitAtomicPublisher:
         if path != self.checkout_root and self.checkout_root not in path.parents:
             raise LocalGitPublisherError(f"unsafe publication path: {relative}")
         return path
+
+    @contextmanager
+    def _publication_lock(self, *, blocking: bool = True) -> Iterator[None]:
+        try:
+            import fcntl
+        except ImportError as exc:  # pragma: no cover - bootstrap runs on Linux
+            raise LocalGitPublisherError(
+                "local publication requires POSIX file locking"
+            ) from exc
+
+        git_dir = Path(self._git("rev-parse", "--git-dir"))
+        if not git_dir.is_absolute():
+            git_dir = self.checkout_root / git_dir
+        lock_path = git_dir.resolve() / "skill-observatory-publication.lock"
+
+        try:
+            handle = lock_path.open("a+", encoding="utf-8")
+        except OSError as exc:
+            raise LocalGitPublisherError(
+                "failed to open local publication lock"
+            ) from exc
+
+        operation = fcntl.LOCK_EX
+        if not blocking:
+            operation |= fcntl.LOCK_NB
+        try:
+            try:
+                fcntl.flock(handle.fileno(), operation)
+            except BlockingIOError as exc:
+                raise LocalGitPublisherError(
+                    "local publication lock is already held"
+                ) from exc
+            except OSError as exc:
+                raise LocalGitPublisherError(
+                    "failed to acquire local publication lock"
+                ) from exc
+            try:
+                yield
+            finally:
+                fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+        finally:
+            handle.close()
 
     @staticmethod
     def _normalize_repository(value: str) -> str:
@@ -232,38 +276,39 @@ class LocalGitAtomicPublisher:
         if max_attempts != 1:
             raise ValueError("local Git publication supports exactly one attempt")
 
-        parent_sha = self.current_head(repository, branch)
-        self._ensure_clean_worktree()
-        readme_path = self._path("README.md")
-        if not readme_path.is_file():
-            raise LocalGitPublisherError("root README.md is missing")
-        patch = render_skill_event(
-            event,
-            catalog_after_event,
-            current_root_readme=self._read_text("README.md"),
-        )
-        commit_sha = self._commit_patch(
-            patch,
-            message=GitHubAtomicPublisher._commit_message(event),
-            parent_sha=parent_sha,
-        )
-        if commit_sha is None:
+        with self._publication_lock():
+            parent_sha = self.current_head(repository, branch)
+            self._ensure_clean_worktree()
+            readme_path = self._path("README.md")
+            if not readme_path.is_file():
+                raise LocalGitPublisherError("root README.md is missing")
+            patch = render_skill_event(
+                event,
+                catalog_after_event,
+                current_root_readme=self._read_text("README.md"),
+            )
+            commit_sha = self._commit_patch(
+                patch,
+                message=GitHubAtomicPublisher._commit_message(event),
+                parent_sha=parent_sha,
+            )
+            if commit_sha is None:
+                return PublicationResult(
+                    canonical_key=event.canonical_key,
+                    event_type=event.type,
+                    status="noop",
+                    parent_sha=parent_sha,
+                    attempts=1,
+                )
             return PublicationResult(
                 canonical_key=event.canonical_key,
                 event_type=event.type,
-                status="noop",
+                status="published",
+                commit_sha=commit_sha,
                 parent_sha=parent_sha,
                 attempts=1,
+                files_changed=sorted({*patch.writes, *patch.deletes}),
             )
-        return PublicationResult(
-            canonical_key=event.canonical_key,
-            event_type=event.type,
-            status="published",
-            commit_sha=commit_sha,
-            parent_sha=parent_sha,
-            attempts=1,
-            files_changed=sorted({*patch.writes, *patch.deletes}),
-        )
 
 
 def publish_local_materialized_views(
@@ -274,36 +319,37 @@ def publish_local_materialized_views(
     branch: str = "main",
 ) -> AggregatePublicationResult:
     validate_aggregate_outputs(outputs)
-    parent_sha = publisher.current_head(repository, branch)
-    publisher._ensure_clean_worktree()
+    with publisher._publication_lock():
+        parent_sha = publisher.current_head(repository, branch)
+        publisher._ensure_clean_worktree()
 
-    current: dict[str, str | None] = {}
-    for relative in sorted(AGGREGATE_PATHS):
-        path = publisher._path(relative)
-        current[relative] = publisher._read_text(relative) if path.is_file() else None
+        current: dict[str, str | None] = {}
+        for relative in sorted(AGGREGATE_PATHS):
+            path = publisher._path(relative)
+            current[relative] = publisher._read_text(relative) if path.is_file() else None
 
-    meaningful_changed = any(
-        current[path] != outputs[path] for path in MEANINGFUL_AGGREGATE_PATHS
-    )
-    if not meaningful_changed:
-        return AggregatePublicationResult(status="noop", parent_sha=parent_sha)
+        meaningful_changed = any(
+            current[path] != outputs[path] for path in MEANINGFUL_AGGREGATE_PATHS
+        )
+        if not meaningful_changed:
+            return AggregatePublicationResult(status="noop", parent_sha=parent_sha)
 
-    writes = {
-        path: outputs[path]
-        for path in sorted(AGGREGATE_PATHS)
-        if current[path] != outputs[path]
-    }
-    patch = DirectoryPatch(writes=writes)
-    commit_sha = publisher._commit_patch(
-        patch,
-        message="catalog: refresh materialized views",
-        parent_sha=parent_sha,
-    )
-    if commit_sha is None:
-        return AggregatePublicationResult(status="noop", parent_sha=parent_sha)
-    return AggregatePublicationResult(
-        status="published",
-        commit_sha=commit_sha,
-        parent_sha=parent_sha,
-        files_changed=sorted(writes),
-    )
+        writes = {
+            path: outputs[path]
+            for path in sorted(AGGREGATE_PATHS)
+            if current[path] != outputs[path]
+        }
+        patch = DirectoryPatch(writes=writes)
+        commit_sha = publisher._commit_patch(
+            patch,
+            message="catalog: refresh materialized views",
+            parent_sha=parent_sha,
+        )
+        if commit_sha is None:
+            return AggregatePublicationResult(status="noop", parent_sha=parent_sha)
+        return AggregatePublicationResult(
+            status="published",
+            commit_sha=commit_sha,
+            parent_sha=parent_sha,
+            files_changed=sorted(writes),
+        )
