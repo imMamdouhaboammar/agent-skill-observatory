@@ -2,14 +2,15 @@
 
 Repository: [https://github.com/707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc)
 
-Published Skills: 5
+Published Skills: 6
 Categories: content, design, devops, engineering, productivity, research, security
 Best overall score: 87
-Security distribution: 85+=3, 60-84=1, <60=1
+Security distribution: 85+=4, 60-84=1, <60=1
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [make-repo-contribution](../../skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) | `.github/skills/make-repo-contribution` | 87 | 100 | engineering, productivity, research, security |
+| [update-markdown-file-index](../../skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) | `.github/skills/update-markdown-file-index` | 87 | 100 | content, design, engineering |
 | [check-content-alignment](../../skills/707734712/agents-in-sdlc/.github/skills/check-content-alignment/README.md) | `.github/skills/check-content-alignment` | 84 | 100 | content, design, engineering, productivity |
 | [localizations](../../skills/707734712/agents-in-sdlc/.github/skills/localizations/README.md) | `.github/skills/localizations` | 84 | 100 | content, design, engineering, research |
 | [publish-to-pages](../../skills/707734712/agents-in-sdlc/.github/skills/publish-to-pages/README.md) | `.github/skills/publish-to-pages` | 79 | 76 | content, design, devops, engineering |

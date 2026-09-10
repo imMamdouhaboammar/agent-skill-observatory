@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **6**
+Published skills: **7**
 Repositories: **2**
 
 ## Browse repositories
@@ -27,3 +27,4 @@ Repositories: **2**
 - [localizations](./skills/707734712/agents-in-sdlc/.github/skills/localizations/README.md) · `707734712/agents-in-sdlc:.github/skills/localizations`
 - [make-repo-contribution](./skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) · `707734712/agents-in-sdlc:.github/skills/make-repo-contribution`
 - [publish-to-pages](./skills/707734712/agents-in-sdlc/.github/skills/publish-to-pages/README.md) · `707734712/agents-in-sdlc:.github/skills/publish-to-pages`
+- [update-markdown-file-index](./skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) · `707734712/agents-in-sdlc:.github/skills/update-markdown-file-index`
