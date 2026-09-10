@@ -1,6 +1,7 @@
 from datetime import UTC, datetime
 
 from skill_observatory.directory import render_skill_event
+
 from skill_observatory.domain import (
     IndexedSkill,
     ResourceCounts,
