@@ -44,6 +44,21 @@ def test_discovery_queries_cover_multiple_skill_surfaces_and_domains() -> None:
         assert surface in code_queries
     for domain in ("security", "research", "marketing", "data", "testing"):
         assert domain in code_queries
+    for domain in (
+        "architecture",
+        "orchestration",
+        "business",
+        "sales",
+        "recruiting",
+        "translation",
+        "pdf",
+    ):
+        assert domain in repository_queries
+
+
+def test_discovery_query_counts_stay_within_github_search_budgets() -> None:
+    assert len(DEFAULT_DISCOVERY_QUERIES) <= 30
+    assert len(CODE_DISCOVERY_QUERIES) <= 10
 
 
 def test_github_search_tree_code_and_content() -> None:
