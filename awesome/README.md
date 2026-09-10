@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **28**
+Published skills: **29**
 Repositories: **5**
 
 ## Browse repositories
@@ -52,3 +52,4 @@ Repositories: **5**
 - [obsidian-organizer](./skills/agents365-ai/365-skills/plugins/obsidian-organizer/skills/obsidian-organizer/README.md) · `agents365-ai/365-skills:plugins/obsidian-organizer/skills/obsidian-organizer`
 - [paper-fetch](./skills/agents365-ai/365-skills/plugins/paper-fetch/skills/paper-fetch/README.md) · `agents365-ai/365-skills:plugins/paper-fetch/skills/paper-fetch`
 - [pi-cli-runtime](./skills/agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) · `agents365-ai/365-skills:plugins/pi-plugin-cc/skills/pi-cli-runtime`
+- [pi-prompting](./skills/agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-prompting/README.md) · `agents365-ai/365-skills:plugins/pi-plugin-cc/skills/pi-prompting`
