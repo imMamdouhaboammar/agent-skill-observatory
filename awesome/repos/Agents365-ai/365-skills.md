@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills)
 
-Published Skills: 19
+Published Skills: 20
 Categories: content, data, design, devops, engineering, productivity, research
 Best overall score: 93
-Security distribution: 85+=19, 60-84=0, <60=0
+Security distribution: 85+=20, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -25,6 +25,7 @@ Security distribution: 85+=19, 60-84=0, <60=0
 | [obsidian-organizer](../../skills/Agents365-ai/365-skills/plugins/obsidian-organizer/skills/obsidian-organizer/README.md) | `plugins/obsidian-organizer/skills/obsidian-organizer` | 91 | 100 | content, data, engineering, research |
 | [pi-cli-runtime](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) | `plugins/pi-plugin-cc/skills/pi-cli-runtime` | 91 | 100 | content, engineering, productivity, research |
 | [pi-result-handling](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-result-handling/README.md) | `plugins/pi-plugin-cc/skills/pi-result-handling` | 91 | 100 | design, engineering, research |
+| [target-prioritization](../../skills/Agents365-ai/365-skills/plugins/target-prioritization/skills/target-prioritization/README.md) | `plugins/target-prioritization/skills/target-prioritization` | 91 | 100 | data, design, engineering, research |
 | [plantuml-skill](../../skills/Agents365-ai/365-skills/plugins/plantuml/skills/plantuml-skill/README.md) | `plugins/plantuml/skills/plantuml-skill` | 90 | 90 | content, data, design, engineering |
 | [drawio-skill](../../skills/Agents365-ai/365-skills/plugins/drawio/skills/drawio-skill/README.md) | `plugins/drawio/skills/drawio-skill` | 88 | 90 | content, design, devops, engineering |
 | [excalidraw](../../skills/Agents365-ai/365-skills/plugins/excalidraw/skills/excalidraw-skill/README.md) | `plugins/excalidraw/skills/excalidraw-skill` | 83 | 100 | content, data, design, engineering |

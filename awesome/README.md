@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **32**
+Published skills: **33**
 Repositories: **5**
 
 ## Browse repositories
@@ -56,3 +56,4 @@ Repositories: **5**
 - [pi-result-handling](./skills/agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-result-handling/README.md) · `agents365-ai/365-skills:plugins/pi-plugin-cc/skills/pi-result-handling`
 - [plantuml-skill](./skills/agents365-ai/365-skills/plugins/plantuml/skills/plantuml-skill/README.md) · `agents365-ai/365-skills:plugins/plantuml/skills/plantuml-skill`
 - [semanticscholar-skill](./skills/agents365-ai/365-skills/plugins/semanticscholar/skills/semanticscholar-skill/README.md) · `agents365-ai/365-skills:plugins/semanticscholar/skills/semanticscholar-skill`
+- [target-prioritization](./skills/agents365-ai/365-skills/plugins/target-prioritization/skills/target-prioritization/README.md) · `agents365-ai/365-skills:plugins/target-prioritization/skills/target-prioritization`

@@ -1,0 +1,79 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/target-prioritization/skills/target-prioritization",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/target-prioritization/skills/target-prioritization",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a49ceee84f5ad5072eaaa21b914d908a0ee217476f6f383ce4c958e937f0b9da",
+    "description": "Prioritize drug targets from a ranked gene list (e.g., scRNA-seq DE output) by orchestrating parallel API queries against UniProt, OpenTargets (with integrated DepMap CRISPR essentiality + gnomAD constraint), PubMed, the Human Protein Atlas (HPA), and ChEMBL tool compounds, then re-ranking by a composite score combining protein localization, druggability, disease genetics, tissue specificity (safety), focus-cell-type expression, CRISPR essentiality, LoF safety constraint, and research maturity. Use whenever the user wants to filter, triage, prioritize, or \"do due diligence\" on a list of candidate genes for drug discovery, especially after a DE / DEG analysis when they say things like \"which of these should I follow up on\", \"filter for druggable targets\", \"make a target dossier\", \"rank these for tractability\", \"annotate these genes for druggability\", or \"build a target report\". Trigger even when the user says just \"filter these candidate genes\" or hands over a CSV from a DE pipeline.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "research",
+        "data",
+        "design",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/target-prioritization/skills/target-prioritization/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 11
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3', 'curl']}, 'emoji': '🎯'}",
+      "version": "0.5.0"
+    },
+    "name": "target-prioritization",
+    "path": "plugins/target-prioritization/skills/target-prioritization",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 8
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 91,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
