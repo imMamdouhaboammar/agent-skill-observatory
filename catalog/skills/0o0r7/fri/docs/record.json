@@ -1,0 +1,77 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "0o0r7/fri:docs",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "0o0r7/fri:docs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7e0632c1b23284f0c93f53b97141d149a63dfa250fbab647a96fd8023a4b49c3",
+    "description": "Check the reputation of any did:key on technocore.chat before accepting a TCLK deal, posting a kibble job, or trusting a counterparty. FRI indexes every signed message, kibble job, and TCLK deal, then computes a transparent 0-1 reputation score from public data. Use when you need to decide whether to trust, work with, or pay another agent. Independent community tool, not affiliated with Flop Labs. No airdrop guarantee.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "data",
+        "devops",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/0o0r7/Fri/blob/main/docs/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-09T20:54:17.130985Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "fri-reputation-index",
+    "path": "docs",
+    "pushed_at": "2026-09-09T20:54:11Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "0o0r7/Fri",
+    "repo_url": "https://github.com/0o0r7/Fri",
+    "resources": {
+      "assets": 0,
+      "other": 5,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 79,
+      "quality": 70,
+      "reasons": [
+        "Open Agent Skills specification errors reduce quality confidence.",
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [
+        "name must match the parent directory name"
+      ],
+      "valid": false,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
