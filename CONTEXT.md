@@ -38,3 +38,27 @@ The repository, branch, path, manifest URL, discovery source, and indexing time 
 
 ## Snapshot
 A timestamped observation of repository metrics used to estimate change over time without treating current stars as momentum
+
+## Observation
+The latest successfully indexed semantic state of a Skill in the observation database
+
+## Published Skill
+The canonical Skill state already committed to the GitHub-native publication surface
+
+## Skill event
+One semantic transition of one Published Skill. Valid event types are add, update, reindex, and remove
+
+## Telemetry update
+A repository-level metric change, such as stars or forks, that does not by itself represent a semantic Skill change
+
+## Materialized view
+A reproducible aggregate output derived from canonical published records and not used as publication truth
+
+## Source fingerprint
+A deterministic fingerprint of the bounded Skill source inputs that were inspected
+
+## Analysis fingerprint
+A deterministic fingerprint of semantic Observatory analysis that excludes telemetry-only changes
+
+## Publication truth
+The canonical per-Skill records committed under `catalog/skills/**/record.json` on `main`

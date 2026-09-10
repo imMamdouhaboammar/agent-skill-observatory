@@ -39,6 +39,7 @@ class ParsedSkill(BaseModel):
 
 
 Severity = Literal["low", "medium", "high", "critical"]
+SkillEventType = Literal["add", "update", "reindex", "remove"]
 
 
 class SecurityFinding(BaseModel):
