@@ -1,7 +1,6 @@
 from datetime import UTC, datetime
 
 from skill_observatory.directory import render_skill_event
-
 from skill_observatory.domain import (
     IndexedSkill,
     ResourceCounts,
@@ -112,7 +111,9 @@ def test_add_event_writes_only_sharded_directory_surfaces() -> None:
         "README.md",
     }
     assert patch.deletes == []
-    assert "Example repository review skill" in patch.writes[str(skill_markdown_path(skill.canonical_key))]
+    assert "Example repository review skill" in patch.writes[
+        str(skill_markdown_path(skill.canonical_key))
+    ]
     assert "OpenAI Codex" in patch.writes[str(skill_markdown_path(skill.canonical_key))]
     assert "Static analysis is not malware certification" in patch.writes[
         str(skill_markdown_path(skill.canonical_key))
@@ -195,6 +196,10 @@ def test_rendering_is_byte_deterministic() -> None:
     catalog = {skill.canonical_key: event.after}
 
     first = render_skill_event(event, catalog, current_root_readme=README)
-    second = render_skill_event(event, dict(reversed(list(catalog.items()))), current_root_readme=README)
+    second = render_skill_event(
+        event,
+        dict(reversed(list(catalog.items()))),
+        current_root_readme=README,
+    )
 
     assert first == second
