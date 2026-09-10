@@ -1,0 +1,85 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/tldraw/skills/tldraw-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/tldraw/skills/tldraw-skill",
+    "compatibility": "Requires Node.js + @kitschpatrol/tldraw-cli on PATH (macOS/Linux/Windows). Self-check step requires a vision-enabled model (e.g., Claude Sonnet/Opus); gracefully skipped if unavailable.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "1e088814c3a6fb9f8065bbe45c9f2ae7bb49a38c4c4ed16f080b4539ab852266",
+    "description": "Use when user requests diagrams, flowcharts, architecture charts, or visualizations. Also use proactively when explaining systems with 3+ components, complex data flows, or relationships that benefit from visual representation. Generates .tldr JSON files and exports to PNG/SVG locally using @kitschpatrol/tldraw-cli.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "compatibility metadata names Claude"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/tldraw/skills/tldraw-skill/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "author": "Agents365-ai",
+      "hermes": "{'tags': ['tldraw', 'diagram', 'flowchart', 'architecture', 'whiteboard', 'visualization'], 'category': 'design', 'requires_tools': ['tldraw'], 'related_skills': ['drawio', 'mermaid', 'excalidraw', 'plantuml']}",
+      "openclaw": "{'requires': {'bins': ['tldraw']}, 'emoji': '📝', 'os': ['darwin', 'linux', 'win32'], 'install': [{'id': 'npm-tldraw', 'kind': 'npm', 'package': '@kitschpatrol/tldraw-cli', 'global': True, 'bins': ['tldraw'], 'label': 'Install tldraw-cli via npm'}]}",
+      "version": "1.2.1"
+    },
+    "name": "tldraw-skill",
+    "path": "plugins/tldraw/skills/tldraw-skill",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
