@@ -1,5 +1,7 @@
 from datetime import UTC, datetime
 
+from skill_observatory.publication import publish_pending_events
+
 from skill_observatory.db import init_database, make_session_factory
 from skill_observatory.domain import (
     IndexedSkill,
@@ -9,7 +11,6 @@ from skill_observatory.domain import (
     SpecValidation,
 )
 from skill_observatory.events import PublicationResult
-from skill_observatory.publication import publish_pending_events
 from skill_observatory.repository import upsert_skill
 
 NOW = datetime(2026, 9, 10, 9, 0, tzinfo=UTC)
