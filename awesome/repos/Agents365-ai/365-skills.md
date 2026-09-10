@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills)
 
-Published Skills: 22
+Published Skills: 23
 Categories: content, data, design, devops, engineering, productivity, research
 Best overall score: 93
-Security distribution: 85+=22, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=1, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -31,3 +31,4 @@ Security distribution: 85+=22, 60-84=0, <60=0
 | [plantuml-skill](../../skills/Agents365-ai/365-skills/plugins/plantuml/skills/plantuml-skill/README.md) | `plugins/plantuml/skills/plantuml-skill` | 90 | 90 | content, data, design, engineering |
 | [drawio-skill](../../skills/Agents365-ai/365-skills/plugins/drawio/skills/drawio-skill/README.md) | `plugins/drawio/skills/drawio-skill` | 88 | 90 | content, design, devops, engineering |
 | [excalidraw](../../skills/Agents365-ai/365-skills/plugins/excalidraw/skills/excalidraw-skill/README.md) | `plugins/excalidraw/skills/excalidraw-skill` | 83 | 100 | content, data, design, engineering |
+| [video-podcast-maker](../../skills/Agents365-ai/365-skills/plugins/video-podcast-maker/skills/video-podcast-maker/README.md) | `plugins/video-podcast-maker/skills/video-podcast-maker` | 81 | 66 | content, design, engineering, research |

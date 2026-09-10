@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/video-podcast-maker/skills/video-podcast-maker",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/video-podcast-maker/skills/video-podcast-maker",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3a7773df8cec0dc58fe19eb8dc4981a4ae537897cf4c4079e201fc8dfa15a9ca",
+    "description": "Use when the user gives a topic and wants an automated topic-driven narrated explainer, podcast, or knowledge-summary video (Bilibili / YouTube / Xiaohongshu / Douyin / WeChat Channels), or asks to learn visual design patterns from a reference video/image. Trigger when the user mentions creating a knowledge video, narrated explainer, video podcast, or animated infographic-style video from a topic — even if they don't say \"video podcast\" explicitly. Also trigger when the user wants to regenerate, re-render, rebuild, update, or iterate on a narrated video this skill already produced — e.g. they edited the script/prompt, changed the visuals, or swapped the background music and want the final video remade (reuse the existing videos/{name}/ directory, never start a new project). Do NOT trigger for generic video editing, trimming, format conversion, color grading, or non-narrative video tasks. Produces 4K video via research → script → TTS → Remotion → MP4 + BGM.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "design",
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/video-podcast-maker/skills/video-podcast-maker/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 53
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3', 'ffmpeg', 'node', 'npx'], 'env': ['AZURE_SPEECH_KEY', 'DASHSCOPE_API_KEY', 'VOLCENGINE_APPID', 'VOLCENGINE_ACCESS_TOKEN', 'TENCENT_SECRET_ID', 'TENCENT_SECRET_KEY', 'BAIDU_APP_ID', 'BAIDU_API_KEY', 'BAIDU_SECRET_KEY', 'MINIMAX_API_KEY', 'XUNFEI_APP_ID', 'XUNFEI_API_KEY', 'XUNFEI_API_SECRET', 'ELEVENLABS_API_KEY', 'OPENAI_API_KEY', 'GOOGLE_TTS_API_KEY']}, 'emoji': '🎬', 'homepage': 'https://github.com/Agents365-ai/video-podcast-maker', 'os': ['macos', 'linux'], 'install': [{'kind': 'brew', 'formula': 'ffmpeg', 'bins': ['ffmpeg']}]}"
+    },
+    "name": "video-podcast-maker",
+    "path": "plugins/video-podcast-maker/skills/video-podcast-maker",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 10,
+      "references": 12,
+      "scripts": 26
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 81,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected.",
+        "Static safety scan found commands that need human review before execution."
+      ],
+      "security": 66
+    },
+    "security": {
+      "findings": [
+        {
+          "evidence": "sudo apt install fonts-noto-cjk",
+          "file": "references/troubleshooting.md",
+          "line": 167,
+          "message": "Requests elevated operating-system privileges.",
+          "rule": "sudo",
+          "severity": "medium"
+        },
+        {
+          "evidence": "rm -rf node_modules/.remotion",
+          "file": "references/troubleshooting.md",
+          "line": 189,
+          "message": "Uses recursive forced deletion.",
+          "rule": "recursive-delete",
+          "severity": "high"
+        }
+      ],
+      "score": 66
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
