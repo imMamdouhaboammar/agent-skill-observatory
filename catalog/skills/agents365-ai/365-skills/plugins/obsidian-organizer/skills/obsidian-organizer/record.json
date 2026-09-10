@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/obsidian-organizer/skills/obsidian-organizer",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/obsidian-organizer/skills/obsidian-organizer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8b7419d81108a2c9b799657f39ded0a783832cfef1656e9f93fc818a3dba4439",
+    "description": "File new notes into the right folder and audit/reorganize folder structure in the user's Obsidian vault, using the `obsidian` CLI and a single source-of-truth map note (`00_Index/Folder_Map.md`) that lives inside the vault. Use this whenever a note needs to be placed, filed, sorted, or moved into the vault; whenever the user asks where a note \"belongs\" or \"should go\"; and whenever they want to clean up, reorganize, deduplicate, audit, or restructure vault folders (e.g. orphaned notes, dead-end notes, near-duplicate titles, overlapping folders). Trigger even when the user just says \"add this to my vault\", \"put this somewhere sensible\", or \"tidy up the cellchat notes\" without naming a folder. Requires the Obsidian desktop app to be running.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "data",
+        "engineering",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/obsidian-organizer/skills/obsidian-organizer/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {},
+    "name": "obsidian-organizer",
+    "path": "plugins/obsidian-organizer/skills/obsidian-organizer",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 91,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
