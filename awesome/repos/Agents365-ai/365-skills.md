@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills)
 
-Published Skills: 14
+Published Skills: 15
 Categories: content, data, design, devops, engineering, productivity, research
 Best overall score: 93
-Security distribution: 85+=14, 60-84=0, <60=0
+Security distribution: 85+=15, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,5 +21,6 @@ Security distribution: 85+=14, 60-84=0, <60=0
 | [mermaid-skill](../../skills/Agents365-ai/365-skills/plugins/mermaid/skills/mermaid-skill/README.md) | `plugins/mermaid/skills/mermaid-skill` | 93 | 100 | content, data, design, engineering |
 | [paper-fetch](../../skills/Agents365-ai/365-skills/plugins/paper-fetch/skills/paper-fetch/README.md) | `plugins/paper-fetch/skills/paper-fetch` | 93 | 100 | content, design, engineering, research |
 | [obsidian-organizer](../../skills/Agents365-ai/365-skills/plugins/obsidian-organizer/skills/obsidian-organizer/README.md) | `plugins/obsidian-organizer/skills/obsidian-organizer` | 91 | 100 | content, data, engineering, research |
+| [pi-cli-runtime](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) | `plugins/pi-plugin-cc/skills/pi-cli-runtime` | 91 | 100 | content, engineering, productivity, research |
 | [drawio-skill](../../skills/Agents365-ai/365-skills/plugins/drawio/skills/drawio-skill/README.md) | `plugins/drawio/skills/drawio-skill` | 88 | 90 | content, design, devops, engineering |
 | [excalidraw](../../skills/Agents365-ai/365-skills/plugins/excalidraw/skills/excalidraw-skill/README.md) | `plugins/excalidraw/skills/excalidraw-skill` | 83 | 100 | content, data, design, engineering |
