@@ -85,6 +85,7 @@ def _prepare_repo(root: Path) -> None:
     _git(root, "init", "-b", "main")
     _git(root, "config", "user.name", "Test Bot")
     _git(root, "config", "user.email", "bot@example.com")
+    _git(root, "remote", "add", "origin", "https://github.com/acme/observatory.git")
     (root / "README.md").write_text(README, encoding="utf-8")
     _git(root, "add", "README.md")
     _git(root, "commit", "-m", "initial")
@@ -131,11 +132,78 @@ def test_local_git_publisher_rejects_retry_counts_above_one(tmp_path: Path) -> N
 
 def test_local_git_publisher_rejects_unstaged_worktree_changes(tmp_path: Path) -> None:
     _prepare_repo(tmp_path)
-    (tmp_path / "README.md").write_text(README.replace("Human text", "unrelated edit"), encoding="utf-8")
+    (tmp_path / "README.md").write_text(
+        README.replace("Human text", "unrelated edit"), encoding="utf-8"
+    )
     event, catalog = _event()
     publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
 
     with pytest.raises(GitHubPublisherError, match="clean Git worktree"):
+        publisher.publish_event(
+            event,
+            catalog,
+            repository="acme/observatory",
+            branch="main",
+        )
+
+
+def test_local_git_publisher_rejects_repository_origin_mismatch(tmp_path: Path) -> None:
+    _prepare_repo(tmp_path)
+    initial_head = _git(tmp_path, "rev-parse", "HEAD")
+    event, catalog = _event()
+    publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
+
+    with pytest.raises(RuntimeError, match="origin repository"):
+        publisher.publish_event(
+            event,
+            catalog,
+            repository="other/project",
+            branch="main",
+        )
+
+    assert _git(tmp_path, "rev-parse", "HEAD") == initial_head
+    assert _git(tmp_path, "status", "--porcelain", "--untracked-files=all") == ""
+
+
+def test_local_git_publisher_rolls_back_partial_event_mutation(monkeypatch, tmp_path: Path) -> None:
+    _prepare_repo(tmp_path)
+    initial_head = _git(tmp_path, "rev-parse", "HEAD")
+    event, catalog = _event()
+    publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
+
+    def fail_stage(_patch) -> None:
+        raise GitHubPublisherError("stage failed")
+
+    monkeypatch.setattr(publisher, "_stage_patch", fail_stage)
+
+    with pytest.raises(RuntimeError, match="stage failed"):
+        publisher.publish_event(
+            event,
+            catalog,
+            repository="acme/observatory",
+            branch="main",
+        )
+
+    assert _git(tmp_path, "rev-parse", "HEAD") == initial_head
+    assert _git(tmp_path, "status", "--porcelain", "--untracked-files=all") == ""
+    assert (tmp_path / "README.md").read_text(encoding="utf-8") == README
+    assert not (tmp_path / skill_record_path(event.canonical_key)).exists()
+
+
+def test_local_git_publisher_wraps_read_failures(monkeypatch, tmp_path: Path) -> None:
+    _prepare_repo(tmp_path)
+    event, catalog = _event()
+    publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
+    real_read_text = Path.read_text
+
+    def fail_read(path: Path, *args, **kwargs):
+        if path.name == "README.md":
+            raise OSError("disk read failed")
+        return real_read_text(path, *args, **kwargs)
+
+    monkeypatch.setattr(Path, "read_text", fail_read)
+
+    with pytest.raises(RuntimeError, match="README.md.*read"):
         publisher.publish_event(
             event,
             catalog,
