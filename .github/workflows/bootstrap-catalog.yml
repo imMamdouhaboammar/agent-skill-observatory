@@ -35,6 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -79,14 +80,12 @@ jobs:
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --max-repositories "$MAX_REPOSITORIES" | tee .cache/refresh-report.json
 
-      - name: Publish bootstrap Skill events and materialized views
-        env:
-          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
+      - name: Create bootstrap Skill commits locally
         run: |
           set -o pipefail
           MAX_EVENTS="${{ inputs.max_events }}"
           TIME_BUDGET="${{ inputs.time_budget_seconds }}"
-          skillobs publish-events \
+          skillobs publish-events-local \
             --repository "$GITHUB_REPOSITORY" \
             --branch main \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
@@ -94,10 +93,24 @@ jobs:
             --max-events "$MAX_EVENTS" \
             --time-budget-seconds "$TIME_BUDGET" | tee .cache/publication-report.json
 
+      - name: Fast-forward bootstrap commit chain
+        id: push
+        run: |
+          set -euo pipefail
+          git push origin HEAD:main
+          local_sha="$(git rev-parse HEAD)"
+          remote_main_sha="$(git ls-remote --exit-code origin refs/heads/main | awk '{print $1}')"
+          if [ "$remote_main_sha" != "$local_sha" ]; then
+            echo "::error::remote main does not match the pushed local HEAD"
+            exit 1
+          fi
+          echo "remote_main_sha=$remote_main_sha" >> "$GITHUB_OUTPUT"
+
       - name: Add bootstrap summary
         if: always()
         env:
           BOOTSTRAP_SKIP_SCAN: ${{ inputs.skip_scan }}
+          REMOTE_MAIN_SHA: ${{ steps.push.outputs.remote_main_sha }}
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
@@ -128,8 +141,9 @@ jobs:
           print(f"- Remaining deferred count: **{report['events_deferred']}**")
           print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
           print(f"- Failures: **{len(report['failures'])}**")
-          print(f"- main before SHA: `{report.get('main_before') or 'unknown'}`")
-          print(f"- main after SHA: `{report.get('main_after') or 'unknown'}`")
+          print(f"- local publication before SHA: `{report.get('main_before') or 'unknown'}`")
+          print(f"- local publication SHA: `{report.get('main_after') or 'unknown'}`")
+          print(f"- remote main published SHA: `{os.getenv('REMOTE_MAIN_SHA') or 'not published'}`")
           PY
 
       - name: Save history database cache

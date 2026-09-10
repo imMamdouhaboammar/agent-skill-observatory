@@ -4,19 +4,34 @@ import time
 from collections.abc import Callable
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Protocol
 
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from .aggregate_publication import AggregatePublicationResult, publish_materialized_views
 from .domain import IndexedSkill
-from .events import PublishedSkillRecord, SkillEvent, compute_skill_events
-from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
+from .events import PublicationResult, PublishedSkillRecord, SkillEvent, compute_skill_events
 from .materialized import materialize_records
+from .publication_errors import PublicationError
 from .publication_store import PublicationStateError, load_published_catalog
 from .repository import list_observed_skills
 
 AggregatePublish = Callable[..., AggregatePublicationResult]
+
+
+class AtomicPublisher(Protocol):
+    def current_head(self, repository: str, branch: str = "main") -> str: ...
+
+    def publish_event(
+        self,
+        event: SkillEvent,
+        catalog_after_event: dict[str, PublishedSkillRecord],
+        *,
+        repository: str,
+        branch: str = "main",
+        max_attempts: int = 1,
+    ) -> PublicationResult: ...
 
 
 class PublicationReport(BaseModel):
@@ -82,7 +97,7 @@ def _aggregate_catalog(
 
 def publish_pending_events(
     session: Session,
-    publisher: GitHubAtomicPublisher,
+    publisher: AtomicPublisher,
     *,
     checkout_root: Path,
     repository: str,
@@ -107,7 +122,7 @@ def publish_pending_events(
         published = load_published_catalog(checkout_root)
         observed = list_observed_skills(session)
         events = compute_skill_events(observed, published, observed_at=observed_at)
-    except (GitHubPublisherError, PublicationStateError, ValueError) as exc:
+    except (PublicationError, PublicationStateError, ValueError) as exc:
         return _fatal(report, exc)
 
     report.events_detected = len(events)
@@ -120,15 +135,15 @@ def publish_pending_events(
         if monotonic() - started >= time_budget_seconds:
             break
 
-        candidate = _catalog_after(published, event)
         try:
+            candidate = _catalog_after(published, event)
             result = publisher.publish_event(
                 event,
                 candidate,
                 repository=repository,
                 branch=branch,
             )
-        except GitHubPublisherError as exc:
+        except (PublicationError, ValueError) as exc:
             return _fatal(report, exc)
 
         report.conflicts_retried += max(0, result.attempts - 1)
@@ -154,6 +169,6 @@ def publish_pending_events(
         report.aggregate_commit_sha = aggregate_result.commit_sha
         report.conflicts_retried += max(0, aggregate_result.attempts - 1)
         report.main_after = publisher.current_head(repository, branch)
-    except (GitHubPublisherError, PublicationStateError, ValueError) as exc:
+    except (PublicationError, PublicationStateError, ValueError) as exc:
         return _fatal(report, exc)
     return report

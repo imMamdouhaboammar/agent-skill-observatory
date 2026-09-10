@@ -41,23 +41,39 @@ def test_bootstrap_is_manual_only_and_uses_larger_defaults() -> None:
     assert workflow["concurrency"]["cancel-in-progress"] is False
 
     steps = workflow["jobs"]["bootstrap"]["steps"]
+    checkout = steps[0]
     scan_step = next(step for step in steps if step.get("name") == "Scan bootstrap candidate set")
     cache_guard = next(
         step
         for step in steps
         if step.get("name") == "Require cached observations for publish-only bootstrap"
     )
+    push_step = next(
+        step for step in steps if step.get("name") == "Fast-forward bootstrap commit chain"
+    )
+    summary_step = next(step for step in steps if step.get("name") == "Add bootstrap summary")
+    assert checkout["with"]["fetch-depth"] == 0
+    assert checkout["with"]["ref"] == "main"
     assert scan_step["if"] == "${{ !inputs.skip_scan }}"
     assert cache_guard["if"] == "${{ inputs.skip_scan }}"
+    assert push_step["id"] == "push"
+    assert "git push origin HEAD:main" in push_step["run"]
+    assert "git ls-remote --exit-code origin refs/heads/main" in push_step["run"]
+    assert "remote_main_sha=" in push_step["run"]
+    assert summary_step["env"]["REMOTE_MAIN_SHA"] == "${{ steps.push.outputs.remote_main_sha }}"
 
     text = Path(".github/workflows/bootstrap-catalog.yml").read_text(encoding="utf-8")
     assert "skip_scan requires a restored observation database cache" in text
-    assert "skillobs publish-events" in text
+    assert "skillobs publish-events-local" in text
     assert "--max-events \"$MAX_EVENTS\"" in text
     assert "--time-budget-seconds \"$TIME_BUDGET\"" in text
     assert "Repositories scanned" in text
     assert "Skills observed" in text
+    assert "git push origin HEAD:main" in text
+    assert "remote main published SHA" in text
+    assert "main after SHA" not in text
     assert "git push --force" not in text
+    assert "--force" not in text
     assert "force: true" not in text
 
 
@@ -68,12 +84,18 @@ def test_canary_dispatch_preserves_api_budget_for_publication() -> None:
     assert "-f skip_scan=true" in text
 
 
-def test_publication_workflows_do_not_use_legacy_snapshot_push() -> None:
-    for name in ["refresh.yml", "bootstrap-catalog.yml"]:
-        text = Path(f".github/workflows/{name}").read_text(encoding="utf-8")
-        assert "git push" not in text
-        assert "skillobs publish --" not in text
-        assert "git add README.md AWESOME.md" not in text
+def test_publication_workflows_avoid_legacy_snapshot_push() -> None:
+    refresh = Path(".github/workflows/refresh.yml").read_text(encoding="utf-8")
+    bootstrap = Path(".github/workflows/bootstrap-catalog.yml").read_text(encoding="utf-8")
+
+    assert "git push" not in refresh
+    assert "skillobs publish --" not in refresh
+    assert "git add README.md AWESOME.md" not in refresh
+
+    assert "git push origin HEAD:main" in bootstrap
+    assert "skillobs publish --" not in bootstrap
+    assert "git add README.md AWESOME.md" not in bootstrap
+    assert "--force" not in bootstrap
 
 
 def test_ci_runs_full_static_gate() -> None:

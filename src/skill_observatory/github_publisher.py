@@ -12,10 +12,11 @@ from pydantic import ValidationError
 
 from .directory import DirectoryPatch, render_skill_event
 from .events import PublicationResult, PublishedSkillRecord, SkillEvent
+from .publication_errors import PublicationError
 from .publication_store import skill_record_path
 
 
-class GitHubPublisherError(RuntimeError):
+class GitHubPublisherError(PublicationError):
     pass
 
 

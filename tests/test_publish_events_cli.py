@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 from typer.testing import CliRunner
 
@@ -16,6 +17,13 @@ class FakeAtomicPublisher:
 
     def close(self) -> None:
         return None
+
+
+class FakeLocalAtomicPublisher:
+    checkout_root_seen: Path | None = None
+
+    def __init__(self, *, checkout_root: Path) -> None:
+        type(self).checkout_root_seen = checkout_root
 
 
 def test_publish_events_cli_defaults_and_deferred_success(monkeypatch, tmp_path) -> None:
@@ -87,3 +95,43 @@ def test_publish_events_cli_returns_nonzero_for_global_failure(monkeypatch, tmp_
     payload = json.loads(result.output)
     assert payload["global_failure"] is True
     assert payload["failures"] == ["GitHub authentication failed"]
+
+
+def test_publish_events_local_cli_uses_local_transport_without_token(monkeypatch, tmp_path) -> None:
+    db_url = f"sqlite+pysqlite:///{tmp_path / 'local-cli.db'}"
+    captured: dict[str, object] = {}
+
+    def fake_publish(session, publisher, **kwargs):
+        captured.update(kwargs)
+        return PublicationReport(
+            events_detected=500,
+            events_published=500,
+            main_before="A",
+            main_after="B",
+        )
+
+    monkeypatch.delenv("SKILLOBS_GITHUB_TOKEN", raising=False)
+    monkeypatch.setattr(cli, "LocalGitAtomicPublisher", FakeLocalAtomicPublisher, raising=False)
+    monkeypatch.setattr(cli, "publish_pending_events", fake_publish)
+
+    result = runner.invoke(
+        cli.app,
+        [
+            "publish-events-local",
+            "--repository",
+            "acme/observatory",
+            "--database-url",
+            db_url,
+            "--checkout-root",
+            str(tmp_path),
+        ],
+    )
+
+    assert result.exit_code == 0
+    payload = json.loads(result.output)
+    assert payload["events_published"] == 500
+    assert captured["max_events"] == 500
+    assert captured["time_budget_seconds"] == 2400
+    aggregate_publish = captured["aggregate_publish"]
+    assert aggregate_publish.__name__ == "publish_local_materialized_views"
+    assert FakeLocalAtomicPublisher.checkout_root_seen == tmp_path
