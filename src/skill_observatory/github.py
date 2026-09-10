@@ -47,7 +47,7 @@ class GitHubClient:
             follow_redirects=True,
         )
 
-    def __enter__(self) -> "GitHubClient":
+    def __enter__(self) -> GitHubClient:
         return self
 
     def __exit__(self, *_: object) -> None:

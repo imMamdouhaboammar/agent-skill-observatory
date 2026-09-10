@@ -1,5 +1,5 @@
 import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from skill_observatory.catalog import catalog_stats, export_catalog
 from skill_observatory.db import init_database, make_session_factory
@@ -14,7 +14,7 @@ from skill_observatory.repository import upsert_skill
 
 
 def make_skill() -> IndexedSkill:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     return IndexedSkill(
         canonical_key="example/repo:skills/demo",
         content_fingerprint="a" * 64,

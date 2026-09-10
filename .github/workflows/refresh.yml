@@ -2,13 +2,20 @@ name: Refresh catalog
 
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    # Every 15 minutes, offset from the top of the hour to reduce GitHub cron congestion.
+    - cron: '7,22,37,52 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'src/skill_observatory/**'
+      - 'pyproject.toml'
+      - '.github/workflows/refresh.yml'
   workflow_dispatch:
     inputs:
       max_repositories:
         description: Maximum candidate repositories to inspect
         required: false
-        default: '75'
+        default: '50'
 
 permissions:
   contents: write
@@ -20,8 +27,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 14
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v7
         with:
@@ -36,7 +46,8 @@ jobs:
           restore-keys: |
             observatory-db-
 
-      - run: python -m pip install -e .
+      - name: Install observatory
+        run: python -m pip install -e .
 
       - name: Apply database migrations
         env:
@@ -45,27 +56,61 @@ jobs:
           mkdir -p .cache
           skillobs migrate
 
-      - name: Refresh verified catalog
+      - name: Scan candidate repositories
         env:
           SKILLOBS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p .cache data
-          MAX="${{ inputs.max_repositories || '75' }}"
-          skillobs refresh --database-url sqlite+pysqlite:///./.cache/observatory.db --max-repositories "$MAX"
-          skillobs export data/catalog.json --format json --database-url sqlite+pysqlite:///./.cache/observatory.db
-          skillobs export data/catalog.csv --format csv --database-url sqlite+pysqlite:///./.cache/observatory.db
-          skillobs stats --output data/stats.json --database-url sqlite+pysqlite:///./.cache/observatory.db
+          MAX="${{ inputs.max_repositories || '50' }}"
+          skillobs refresh \
+            --database-url sqlite+pysqlite:///./.cache/observatory.db \
+            --max-repositories "$MAX" | tee .cache/refresh-report.json
 
-      - name: Commit text catalog changes
+      - name: Publish catalog, Awesome path and README
+        run: |
+          skillobs publish \
+            --database-url sqlite+pysqlite:///./.cache/observatory.db \
+            --data-dir data \
+            --readme README.md \
+            --awesome AWESOME.md \
+            --awesome-directory awesome/README.md
+
+      - name: Add run summary
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          stats = json.loads(Path('data/stats.json').read_text())
+          refresh = json.loads(Path('data/refresh.json').read_text())
+          print('## Agent Skill Observatory refresh')
+          print()
+          print(f"- Refreshed: `{refresh['generated_at']}`")
+          print(f"- Indexed skills: **{stats['skills']}**")
+          print(f"- Repositories: **{stats['repositories']}**")
+          print(f"- Spec valid: **{stats['spec_valid']}**")
+          print(f"- Security 85+: **{stats['security_85_plus']}**")
+          print(f"- Score 80+: **{stats['score_80_plus']}**")
+          PY
+
+      - name: Commit generated catalog changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/catalog.json data/catalog.csv data/stats.json
+          git add \
+            README.md AWESOME.md awesome/README.md \
+            data/catalog.json data/catalog.csv data/stats.json \
+            data/repositories.json data/refresh.json
           if git diff --cached --quiet; then
-            echo "No catalog changes"
+            echo "No generated catalog changes"
             exit 0
           fi
-          git commit -m "data: refresh verified skill catalog"
+          STATS="$(python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('data/stats.json').read_text())
+          print(f"{s['skills']} skills / {s['repositories']} repos")
+          PY
+          )"
+          git commit -m "data: refresh verified catalog ($STATS)"
           git push
 
       - name: Save history database cache

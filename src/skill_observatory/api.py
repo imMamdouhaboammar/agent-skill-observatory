@@ -10,9 +10,9 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session, sessionmaker
 
+from .catalog import catalog_stats
 from .config import Settings
 from .db import init_database, make_session_factory
-from .catalog import catalog_stats
 from .repository import list_skills
 
 

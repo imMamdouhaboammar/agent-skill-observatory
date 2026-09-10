@@ -40,3 +40,35 @@ def test_init_stats_doctor_and_build_site(tmp_path) -> None:
     assert site_result.exit_code == 0
     assert (site_dir / "index.html").exists()
     assert json.loads((site_dir / "catalog.json").read_text()) == []
+
+
+
+def test_publish_command_writes_github_markdown_surfaces(tmp_path) -> None:
+    db_url = f"sqlite+pysqlite:///{tmp_path / 'publish.db'}"
+    readme = tmp_path / "README.md"
+    readme.write_text("# Demo\n", encoding="utf-8")
+    data_dir = tmp_path / "data"
+    awesome = tmp_path / "AWESOME.md"
+    awesome_directory = tmp_path / "awesome" / "README.md"
+    result = runner.invoke(
+        app,
+        [
+            "publish",
+            "--database-url",
+            db_url,
+            "--data-dir",
+            str(data_dir),
+            "--readme",
+            str(readme),
+            "--awesome",
+            str(awesome),
+            "--awesome-directory",
+            str(awesome_directory),
+        ],
+    )
+    assert result.exit_code == 0
+    assert "(./data/catalog.json)" in awesome.read_text(encoding="utf-8")
+    assert "(../data/catalog.json)" in awesome_directory.read_text(encoding="utf-8")
+    assert "<!-- AWESOME_INDEX_START -->" in readme.read_text(encoding="utf-8")
+    assert (data_dir / "repositories.json").exists()
+    assert (data_dir / "refresh.json").exists()

@@ -2,12 +2,11 @@ from __future__ import annotations
 
 import json
 import shutil
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import typer
 import uvicorn
-from sqlalchemy.orm import Session
 
 from .catalog import catalog_stats, export_catalog
 from .config import Settings
@@ -17,6 +16,7 @@ from .github import GitHubClient
 from .migrations import upgrade_database
 from .parser import parse_skill_directory
 from .pipeline import refresh_catalog
+from .publishing import publish_catalog
 from .scoring import score_skill
 from .security import assess_skill_security
 
@@ -49,7 +49,7 @@ def migrate(
 def scan_local(path: Path = typer.Argument(..., exists=True, file_okay=False, readable=True)) -> None:
     parsed = parse_skill_directory(path)
     security = assess_skill_security(parsed)
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     score = score_skill(
         spec=parsed.spec,
         security=security,
@@ -121,6 +121,30 @@ def stats_command(
         typer.echo(str(output))
     else:
         typer.echo(rendered)
+
+
+@app.command("publish")
+def publish_command(
+    data_dir: Path = typer.Option(Path("data"), help="Directory for generated catalog data."),
+    readme: Path = typer.Option(Path("README.md"), help="README file to update."),
+    awesome: Path = typer.Option(Path("AWESOME.md"), help="Generated Awesome catalog path."),
+    awesome_directory: Path = typer.Option(
+        Path("awesome/README.md"), help="GitHub Awesome directory README."
+    ),
+    database_url: str | None = typer.Option(None, help="SQLAlchemy database URL."),
+) -> None:
+    settings = _settings(database_url)
+    init_database(settings.database_url)
+    factory = make_session_factory(settings.database_url)
+    with factory() as session:
+        stats = publish_catalog(
+            session,
+            data_dir=data_dir,
+            readme_path=readme,
+            awesome_path=awesome,
+            awesome_directory_path=awesome_directory,
+        )
+    typer.echo(json.dumps(stats, indent=2))
 
 
 @app.command("build-site")

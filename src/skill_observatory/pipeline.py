@@ -1,10 +1,9 @@
 from __future__ import annotations
 
-import os
 import tempfile
-from datetime import datetime, timezone
+from collections.abc import Iterable
+from datetime import UTC, datetime
 from pathlib import Path, PurePosixPath
-from typing import Iterable
 
 from sqlalchemy.orm import Session
 
@@ -122,7 +121,7 @@ def index_repository(
     *,
     now: datetime | None = None,
 ) -> tuple[int, list[str]]:
-    indexed_at = now or datetime.now(timezone.utc)
+    indexed_at = now or datetime.now(UTC)
     tree = client.recursive_tree(repo)
     roots = _candidate_skill_roots(tree)
     if not roots:

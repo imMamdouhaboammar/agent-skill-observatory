@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import math
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from .domain import RepositorySignals, ScoreBreakdown, SecurityReport, SpecValidation
 
@@ -31,7 +31,7 @@ def score_skill(
     if repo.has_tests:
         reasons.append("Repository includes test evidence.")
 
-    age_days = max(0, (datetime.now(timezone.utc) - repo.pushed_at).days)
+    age_days = max(0, (datetime.now(UTC) - repo.pushed_at).days)
     maintenance = 100.0
     if age_days > 730:
         maintenance -= 65

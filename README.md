@@ -20,6 +20,23 @@ It is designed to answer a more useful question than “which GitHub repositorie
 - Runs as a FastAPI product or as a GitHub-native static catalog with Actions + Pages
 - Exports JSON and CSV for researchers, agents, dashboards, and downstream tools
 
+## Awesome directory on GitHub
+
+The catalog is published directly inside this repository, not only through a hosted UI
+
+- [`AWESOME.md`](./AWESOME.md) is the complete generated directory of verified Agent Skills and repositories
+- [`awesome/README.md`](./awesome/README.md) is the same catalog exposed as a dedicated GitHub path
+- [`data/catalog.json`](./data/catalog.json) contains skill-level evidence
+- [`data/repositories.json`](./data/repositories.json) contains repository-level rollups
+
+The refresh workflow checks GitHub every 15 minutes and regenerates the Markdown directory, root README summary, JSON/CSV exports and statistics when it runs
+
+## Live Awesome Index
+
+<!-- AWESOME_INDEX_START -->
+Catalog has not been refreshed yet
+<!-- AWESOME_INDEX_END -->
+
 ## Standards grounding
 
 The parser follows the open Agent Skills format documented at `https://agentskills.io/specification`
@@ -214,8 +231,8 @@ The repository contains Actions for:
 - CodeQL analysis
 - dependency review on pull requests
 - Dependabot updates
-- catalog refresh every six hours
-- JSON/CSV catalog commits
+- catalog scan and Markdown/data publication every 15 minutes
+- generated `AWESOME.md`, `awesome/README.md`, README summary, JSON/CSV and repository rollup commits
 - historical database caching without committing a binary DB
 - GitHub Pages deployment of the static dashboard
 

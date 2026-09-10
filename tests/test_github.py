@@ -1,6 +1,5 @@
 import base64
-import json
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 import httpx
 import pytest
@@ -68,7 +67,7 @@ def test_repository_model_accepts_timezone() -> None:
     repo = DiscoveredRepository(
         full_name="x/y",
         html_url="https://github.com/x/y",
-        pushed_at=datetime.now(timezone.utc),
+        pushed_at=datetime.now(UTC),
         discovery_source="test",
     )
     assert repo.default_branch == "main"

@@ -70,6 +70,61 @@ def records_as_dicts(session: Session) -> list[dict[str, Any]]:
     ]
 
 
+def repository_rollups(session: Session) -> list[dict[str, Any]]:
+    rows = records_as_dicts(session)
+    grouped: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        key = str(row["repo_full_name"])
+        score = row.get("score") or {}
+        repo = grouped.setdefault(
+            key,
+            {
+                "repo_full_name": key,
+                "repo_url": row["repo_url"],
+                "default_branch": row.get("repo_default_branch") or "main",
+                "stars": int(row.get("stars") or 0),
+                "forks": int(row.get("forks") or 0),
+                "pushed_at": row.get("pushed_at"),
+                "archived": bool(row.get("archived", False)),
+                "skills_count": 0,
+                "spec_valid_count": 0,
+                "security_85_plus_count": 0,
+                "best_score": 0,
+                "categories": [],
+                "skills": [],
+            },
+        )
+        repo["skills_count"] += 1
+        repo["spec_valid_count"] += int(bool((row.get("spec") or {}).get("valid")))
+        repo["security_85_plus_count"] += int(int(score.get("security") or 0) >= 85)
+        repo["best_score"] = max(int(repo["best_score"]), int(score.get("overall") or 0))
+        repo["stars"] = max(int(repo["stars"]), int(row.get("stars") or 0))
+        repo["forks"] = max(int(repo["forks"]), int(row.get("forks") or 0))
+        pushed = str(row.get("pushed_at") or "")
+        if pushed > str(repo.get("pushed_at") or ""):
+            repo["pushed_at"] = pushed
+        categories = set(repo["categories"])
+        categories.update(str(item) for item in (row.get("evidence") or {}).get("categories", []))
+        repo["categories"] = sorted(categories)
+        repo["skills"].append(
+            {
+                "name": row["name"],
+                "path": row["path"],
+                "description": row["description"],
+                "overall_score": int(score.get("overall") or 0),
+                "security_score": int(score.get("security") or 0),
+                "spec_valid": bool((row.get("spec") or {}).get("valid")),
+                "manifest": (row.get("evidence") or {}).get("manifest"),
+            }
+        )
+
+    repos = list(grouped.values())
+    for repo in repos:
+        repo["skills"].sort(key=lambda item: (-int(item["overall_score"]), str(item["name"])))
+    repos.sort(key=lambda item: (-int(item["best_score"]), -int(item["stars"]), str(item["repo_full_name"])))
+    return repos
+
+
 def export_catalog(session: Session, output: Path, format: str = "json") -> Path:
     rows = records_as_dicts(session)
     output.parent.mkdir(parents=True, exist_ok=True)
