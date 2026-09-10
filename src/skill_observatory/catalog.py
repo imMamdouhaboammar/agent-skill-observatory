@@ -125,11 +125,13 @@ def repository_rollups(session: Session) -> list[dict[str, Any]]:
         repo["categories"] = sorted(categories)
         repo["skills"].append(
             {
+                "canonical_key": row["canonical_key"],
                 "name": row["name"],
                 "path": row["path"],
                 "description": row["description"],
                 "overall_score": int(score.get("overall") or 0),
                 "security_score": int(score.get("security") or 0),
+                "quality_score": int(score.get("quality") or 0),
                 "spec_valid": bool((row.get("spec") or {}).get("valid")),
                 "manifest": (row.get("evidence") or {}).get("manifest"),
             }
@@ -137,7 +139,15 @@ def repository_rollups(session: Session) -> list[dict[str, Any]]:
 
     repos = list(grouped.values())
     for repo in repos:
-        repo["skills"].sort(key=lambda item: (-int(item["overall_score"]), str(item["name"])))
+        repo["skills"].sort(
+            key=lambda item: (
+                -int(item["overall_score"]),
+                -int(item["security_score"]),
+                -int(item["quality_score"]),
+                str(item["name"]).casefold(),
+                str(item["canonical_key"]),
+            )
+        )
     repos.sort(key=lambda item: (-int(item["best_score"]), str(item["repo_full_name"])))
     return repos
 
