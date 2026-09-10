@@ -1,0 +1,81 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/xfetch/skills/xfetch-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/xfetch/skills/xfetch-skill",
+    "compatibility": "Requires Python >= 3.10 and the twikit package (pip install twikit). Needs the user's own X/Twitter session cookies.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "5ea7bba79bd111210a514cd7bb217a552dc8ed1200a29b67850b518f0a9117ea",
+    "description": "Fetch and export public X (Twitter) data with a self-contained Python CLI built on the twikit library — no developer API keys, just the user's own login cookies. Covers user profiles, a user's tweets/replies/likes, single tweets, threads, search, followers/following, home/bookmark timelines, with JSON/JSONL/CSV/SQLite output and resumable pagination. Use whenever the user wants to scrape, download, collect, archive, monitor, or analyze tweets or X/Twitter accounts, export a timeline or follower list to a file or dataset, pull X data for research, or build a tweet corpus — even if they don't name the tool. Requires the user's own X login cookies (auth_token + ct0, or username/password login).",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "data",
+        "design",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/xfetch/skills/xfetch-skill/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3']}, 'emoji': '🐦', 'os': ['darwin', 'linux', 'win32']}"
+    },
+    "name": "xfetch",
+    "path": "plugins/xfetch/skills/xfetch-skill",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 2
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 83,
+      "quality": 70,
+      "reasons": [
+        "Open Agent Skills specification errors reduce quality confidence.",
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [
+        "name must match the parent directory name"
+      ],
+      "valid": false,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
