@@ -9,7 +9,15 @@ def test_initial_migration_creates_catalog_tables(tmp_path) -> None:
     upgrade_database(url)
     engine = make_engine(url)
     try:
-        names = set(inspect(engine).get_table_names())
+        inspector = inspect(engine)
+        names = set(inspector.get_table_names())
+        skill_columns = {column["name"] for column in inspector.get_columns("skills")}
     finally:
         engine.dispose()
     assert {"skills", "repository_snapshots", "alembic_version"}.issubset(names)
+    assert {
+        "source_fingerprint",
+        "analysis_fingerprint",
+        "consecutive_misses",
+        "last_successful_repo_scan_at",
+    }.issubset(skill_columns)
