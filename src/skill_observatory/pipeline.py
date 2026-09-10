@@ -157,11 +157,6 @@ def _repo_has_readme(tree: list[dict[str, Any]]) -> bool:
     )
 
 
-def _observed_keys(repo: DiscoveredRepository, roots: list[str]) -> set[str]:
-    owner, name = repo.full_name.split("/", 1)
-    return {canonical_skill_key(owner, name, root or ".") for root in roots}
-
-
 def _record_successful_scan(
     session: Session,
     repo: DiscoveredRepository,
@@ -194,7 +189,7 @@ def index_repository(
     indexed_at = now or datetime.now(UTC)
     tree = client.recursive_tree(repo)
     roots = _candidate_skill_roots(tree)
-    observed_keys = _observed_keys(repo, roots)
+    observed_keys: set[str] = set()
     if not roots:
         _record_successful_scan(
             session,
@@ -307,6 +302,7 @@ def index_repository(
                     },
                 )
                 upsert_skill(session, indexed)
+                observed_keys.add(canonical_key)
                 count += 1
             except (GitHubError, SkillParseError, OSError, ValueError) as exc:
                 errors.append(f"{repo.full_name}:{root or '.'}: {exc}")
