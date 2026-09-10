@@ -35,6 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -79,20 +80,21 @@ jobs:
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --max-repositories "$MAX_REPOSITORIES" | tee .cache/refresh-report.json
 
-      - name: Publish bootstrap Skill events and materialized views
-        env:
-          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
+      - name: Create bootstrap Skill commits locally
         run: |
           set -o pipefail
           MAX_EVENTS="${{ inputs.max_events }}"
           TIME_BUDGET="${{ inputs.time_budget_seconds }}"
-          skillobs publish-events \
+          skillobs publish-events-local \
             --repository "$GITHUB_REPOSITORY" \
             --branch main \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --checkout-root . \
             --max-events "$MAX_EVENTS" \
             --time-budget-seconds "$TIME_BUDGET" | tee .cache/publication-report.json
+
+      - name: Fast-forward bootstrap commit chain
+        run: git push origin HEAD:main
 
       - name: Add bootstrap summary
         if: always()
