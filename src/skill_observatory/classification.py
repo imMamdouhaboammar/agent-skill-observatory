@@ -4,31 +4,45 @@ from pathlib import Path
 
 CATEGORY_KEYWORDS = {
     "engineering": {
-        "code", "repository", "pull request", "debug", "test",
-        "frontend", "backend", "api", "git", "developer", "ci",
+        "code", "repository", "pull request", "debug", "developer", "frontend", "backend", "api", "git", "ci",
     },
+    "code-review": {"code review", "review diff", "pull request review", "review changes"},
+    "testing": {"test", "testing", "pytest", "jest", "playwright", "cypress", "e2e", "regression"},
     "security": {
-        "security", "vulnerability", "threat", "secret",
-        "credential", "permission", "audit", "dependency risk",
+        "security", "vulnerability", "threat", "secret", "credential", "permission", "audit", "dependency risk",
     },
     "data": {
-        "data", "sql", "database", "analytics", "etl",
-        "csv", "spreadsheet", "pandas", "warehouse",
+        "data", "sql", "database", "analytics", "etl", "csv", "spreadsheet", "pandas", "warehouse",
+    },
+    "ai-ml": {
+        "llm", "machine learning", "model evaluation", "embedding", "embeddings", "rag", "fine-tuning", "prompt evaluation",
     },
     "research": {
-        "research", "source", "citation", "literature",
-        "evidence", "investigate", "documentation",
+        "research", "source", "citation", "literature", "evidence", "investigate", "documentation research",
     },
-    "design": {"design", "ui", "ux", "visual", "figma", "typography", "layout", "accessibility"},
+    "design": {
+        "design", "ui", "ux", "visual", "figma", "typography", "layout", "accessibility",
+    },
     "content": {"write", "writing", "copy", "content", "article", "social", "caption", "editorial"},
+    "marketing": {
+        "marketing", "campaign", "ads", "advertising", "seo", "brand", "conversion", "media buying",
+    },
     "devops": {
-        "deploy", "deployment", "docker", "kubernetes", "terraform",
-        "cloud", "sre", "observability", "release",
+        "deploy", "deployment", "docker", "kubernetes", "terraform", "cloud", "sre", "observability", "release",
     },
-    "productivity": {
-        "workflow", "automation", "planning", "meeting",
-        "task", "productivity", "handoff",
-    },
+    "product": {"product", "product manager", "prd", "roadmap", "user story", "feature prioritization"},
+    "project-management": {"project management", "sprint", "milestone", "backlog", "issue triage", "delivery plan"},
+    "productivity": {"workflow", "automation", "planning", "meeting", "task", "productivity", "handoff"},
+    "documentation": {"documentation", "docs", "readme", "technical writing", "api reference", "changelog"},
+    "browser-automation": {"browser", "playwright", "selenium", "web automation", "scrape", "crawl"},
+    "integrations": {"integration", "webhook", "oauth", "connector", "third-party api", "mcp"},
+    "mobile": {"mobile", "android", "ios", "react native", "flutter", "swift", "kotlin"},
+    "media": {"video", "audio", "image", "media", "captioning", "transcription", "render"},
+    "finance": {"finance", "financial", "accounting", "invoice", "budget", "forecast", "portfolio"},
+    "legal-compliance": {"legal", "compliance", "policy", "privacy", "gdpr", "license review", "regulatory"},
+    "education": {"education", "teaching", "lesson", "course", "quiz", "exercise", "learning"},
+    "customer-support": {"customer support", "support ticket", "help desk", "customer service", "incident response"},
+    "commerce": {"commerce", "ecommerce", "checkout", "catalog", "order", "inventory", "storefront"},
 }
 
 
