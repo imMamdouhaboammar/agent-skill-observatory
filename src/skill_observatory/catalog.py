@@ -51,7 +51,10 @@ def records_as_dicts(session: Session) -> list[dict[str, Any]]:
     records = list(
         session.scalars(
             select(SkillRecord).order_by(
-                SkillRecord.overall_score.desc(), SkillRecord.stars.desc()
+                SkillRecord.overall_score.desc(),
+                SkillRecord.security_score.desc(),
+                SkillRecord.quality_score.desc(),
+                SkillRecord.canonical_key.asc(),
             )
         )
     )
@@ -135,7 +138,7 @@ def repository_rollups(session: Session) -> list[dict[str, Any]]:
     repos = list(grouped.values())
     for repo in repos:
         repo["skills"].sort(key=lambda item: (-int(item["overall_score"]), str(item["name"])))
-    repos.sort(key=lambda item: (-int(item["best_score"]), -int(item["stars"]), str(item["repo_full_name"])))
+    repos.sort(key=lambda item: (-int(item["best_score"]), str(item["repo_full_name"])))
     return repos
 
 
