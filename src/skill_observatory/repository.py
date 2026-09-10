@@ -76,6 +76,8 @@ def reconcile_successful_repository_scan(
             record.consecutive_misses = 0
             record.is_active = True
             continue
+        if not record.is_active:
+            continue
         record.consecutive_misses += 1
         if record.consecutive_misses >= 2:
             record.is_active = False
