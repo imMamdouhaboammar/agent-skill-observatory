@@ -10,7 +10,11 @@ from skill_observatory.domain import (
     SecurityReport,
     SpecValidation,
 )
-from skill_observatory.events import PublishedSkillRecord, SkillEvent
+from skill_observatory.events import (
+    PublishedSkillRecord,
+    SkillEvent,
+    compute_skill_events,
+)
 
 NOW = datetime(2026, 9, 10, 7, 0, tzinfo=UTC)
 CANONICAL_KEY = "owner/repo:skills/example"
@@ -20,6 +24,8 @@ def _skill() -> IndexedSkill:
     return IndexedSkill(
         canonical_key=CANONICAL_KEY,
         content_fingerprint="c" * 64,
+        source_fingerprint="s" * 64,
+        analysis_fingerprint="a" * 64,
         repo_full_name="owner/repo",
         repo_url="https://github.com/owner/repo",
         repo_default_branch="main",
@@ -103,3 +109,14 @@ def test_update_event_accepts_before_and_after_states() -> None:
     assert event.before == before
     assert event.after == after
     assert event.type == "update"
+
+
+def test_new_active_skill_emits_exactly_one_add_event() -> None:
+    events = compute_skill_events([_skill()], {}, observed_at=NOW)
+
+    assert len(events) == 1
+    assert events[0].type == "add"
+    assert events[0].canonical_key == CANONICAL_KEY
+    assert events[0].before is None
+    assert events[0].after is not None
+    assert events[0].after.source_fingerprint == "s" * 64
