@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 8
+Published Skills: 9
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -11,4 +11,5 @@ Published Skills: 8
 | [afaro-followup](../skills/afaro-ai/afaro/skills/afaro-followup/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Requeues brokers whose listing came back, and hands over brokers needing an ID, a payment, or an account. Use when a listing reappeared or an opt-out is stuck. |
 | [afaro-orchestrator](../skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Runs Afaro data removal opt-outs one broker at a time from a local profile, stopping before anything is sent. Use when the user wants to remove a listing or opt out of a people-search site. |
 | [afaro-removal-verify](../skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Rechecks brokers after their stated processing window and reports whether the listing is gone or still there. Use when the user asks if a removal worked, or wants to check on opt-outs they filed. |
+| [excalidraw](../skills/Agents365-ai/365-skills/plugins/excalidraw/skills/excalidraw-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 83 | 100 | 44 | Use when user requests diagrams, flowcharts, architecture charts, or visualizations. Also use proactively when explaining systems with 3+ components, complex data flows, or relationships that benefit from visual representation. Generates .excalidraw files and exports to PNG/SVG via Kroki API or locally using excalidraw-brute-export-cli. |
 | [fri-reputation-index](../skills/0o0r7/Fri/docs/README.md) | [0o0r7/Fri](https://github.com/0o0r7/Fri) | 79 | 100 | 0 | Check the reputation of any did:key on technocore.chat before accepting a TCLK deal, posting a kibble job, or trusting a counterparty. FRI indexes every signed message, kibble job, and TCLK deal, then computes a transparent 0-1 reputation score from public data. Use when you need to decide whether to trust, work with, or pay another agent. Independent community tool, not affiliated with Flop Labs. No airdrop guarantee. |

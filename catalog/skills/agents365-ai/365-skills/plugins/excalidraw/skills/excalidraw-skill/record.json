@@ -1,0 +1,82 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/excalidraw/skills/excalidraw-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/excalidraw/skills/excalidraw-skill",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f554c61a46a88e65b402fe0891b09994803d4b2ca0b920ad6e7258f33acc6988",
+    "description": "Use when user requests diagrams, flowcharts, architecture charts, or visualizations. Also use proactively when explaining systems with 3+ components, complex data flows, or relationships that benefit from visual representation. Generates .excalidraw files and exports to PNG/SVG via Kroki API or locally using excalidraw-brute-export-cli.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/excalidraw/skills/excalidraw-skill/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['curl']}, 'emoji': '🎨'}",
+      "version": "1.3.0"
+    },
+    "name": "excalidraw",
+    "path": "plugins/excalidraw/skills/excalidraw-skill",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 1
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 83,
+      "quality": 70,
+      "reasons": [
+        "Open Agent Skills specification errors reduce quality confidence.",
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [
+        "name must match the parent directory name"
+      ],
+      "valid": false,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
