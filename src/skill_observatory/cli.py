@@ -13,12 +13,13 @@ from .config import Settings
 from .db import init_database, make_session_factory
 from .domain import RepositorySignals
 from .github import GitHubClient
-from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
+from .github_publisher import GitHubAtomicPublisher
 from .local_git_publisher import LocalGitAtomicPublisher, publish_local_materialized_views
 from .migrations import upgrade_database
 from .parser import parse_skill_directory
 from .pipeline import refresh_catalog
 from .publication import PublicationReport, publish_pending_events
+from .publication_errors import PublicationError
 from .publishing import publish_catalog
 from .scoring import score_skill
 from .security import assess_skill_security
@@ -168,7 +169,7 @@ def publish_events_command(
                 max_events=max_events,
                 time_budget_seconds=time_budget_seconds,
             )
-    except GitHubPublisherError as exc:
+    except PublicationError as exc:
         report = PublicationReport(failures=[str(exc)], global_failure=True)
     finally:
         if publisher is not None:
@@ -208,7 +209,7 @@ def publish_events_local_command(
                 time_budget_seconds=time_budget_seconds,
                 aggregate_publish=publish_local_materialized_views,
             )
-    except GitHubPublisherError as exc:
+    except (PublicationError, ValueError) as exc:
         report = PublicationReport(failures=[str(exc)], global_failure=True)
 
     typer.echo(report.model_dump_json(indent=2))
