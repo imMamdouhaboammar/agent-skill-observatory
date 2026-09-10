@@ -12,8 +12,8 @@ from .aggregate_publication import AggregatePublicationResult, publish_materiali
 from .domain import IndexedSkill
 from .events import PublishedSkillRecord, SkillEvent, compute_skill_events
 from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
+from .materialized import materialize_records
 from .publication_store import PublicationStateError, load_published_catalog
-from .publishing import materialize_published_catalog
 from .repository import list_observed_skills
 
 AggregatePublish = Callable[..., AggregatePublicationResult]
@@ -143,7 +143,7 @@ def publish_pending_events(
 
     try:
         aggregate_records = _aggregate_catalog(published, observed)
-        outputs = materialize_published_catalog(aggregate_records, generated_at=observed_at)
+        outputs = materialize_records(aggregate_records, generated_at=observed_at)
         aggregate_result = aggregate_publish(
             publisher,
             outputs,
