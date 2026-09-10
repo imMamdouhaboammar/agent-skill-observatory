@@ -35,10 +35,23 @@ def test_bootstrap_is_manual_only_and_uses_larger_defaults() -> None:
     assert inputs["max_repositories"]["default"] == "100"
     assert inputs["max_events"]["default"] == "500"
     assert inputs["time_budget_seconds"]["default"] == "2400"
+    assert inputs["skip_scan"]["type"] == "boolean"
+    assert inputs["skip_scan"]["default"] is False
     assert workflow["concurrency"]["group"] == "atomic-skill-publication"
     assert workflow["concurrency"]["cancel-in-progress"] is False
 
+    steps = workflow["jobs"]["bootstrap"]["steps"]
+    scan_step = next(step for step in steps if step.get("name") == "Scan bootstrap candidate set")
+    cache_guard = next(
+        step
+        for step in steps
+        if step.get("name") == "Require cached observations for publish-only bootstrap"
+    )
+    assert scan_step["if"] == "${{ !inputs.skip_scan }}"
+    assert cache_guard["if"] == "${{ inputs.skip_scan }}"
+
     text = Path(".github/workflows/bootstrap-catalog.yml").read_text(encoding="utf-8")
+    assert "skip_scan requires a restored observation database cache" in text
     assert "skillobs publish-events" in text
     assert "--max-events \"$MAX_EVENTS\"" in text
     assert "--time-budget-seconds \"$TIME_BUDGET\"" in text
