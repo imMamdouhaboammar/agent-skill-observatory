@@ -48,10 +48,19 @@ def test_bootstrap_is_manual_only_and_uses_larger_defaults() -> None:
         for step in steps
         if step.get("name") == "Require cached observations for publish-only bootstrap"
     )
+    push_step = next(
+        step for step in steps if step.get("name") == "Fast-forward bootstrap commit chain"
+    )
+    summary_step = next(step for step in steps if step.get("name") == "Add bootstrap summary")
     assert checkout["with"]["fetch-depth"] == 0
     assert checkout["with"]["ref"] == "main"
     assert scan_step["if"] == "${{ !inputs.skip_scan }}"
     assert cache_guard["if"] == "${{ inputs.skip_scan }}"
+    assert push_step["id"] == "push"
+    assert "git push origin HEAD:main" in push_step["run"]
+    assert "git ls-remote --exit-code origin refs/heads/main" in push_step["run"]
+    assert "remote_main_sha=" in push_step["run"]
+    assert summary_step["env"]["REMOTE_MAIN_SHA"] == "${{ steps.push.outputs.remote_main_sha }}"
 
     text = Path(".github/workflows/bootstrap-catalog.yml").read_text(encoding="utf-8")
     assert "skip_scan requires a restored observation database cache" in text
@@ -61,6 +70,8 @@ def test_bootstrap_is_manual_only_and_uses_larger_defaults() -> None:
     assert "Repositories scanned" in text
     assert "Skills observed" in text
     assert "git push origin HEAD:main" in text
+    assert "remote main published SHA" in text
+    assert "main after SHA" not in text
     assert "git push --force" not in text
     assert "--force" not in text
     assert "force: true" not in text
