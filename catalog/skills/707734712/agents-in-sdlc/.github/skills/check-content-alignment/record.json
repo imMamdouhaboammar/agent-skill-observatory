@@ -1,0 +1,77 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "707734712/agents-in-sdlc:.github/skills/check-content-alignment",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "707734712/agents-in-sdlc:.github/skills/check-content-alignment",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "23f55a8353f787593177f53c6ee4f76f0b42dea485b990f1e8367a12e3910ba0",
+    "description": "Find workshop lessons that should change alongside an edit. Scans a diff (staged, unstaged, or a branch range) of the Copilot Workshops docs, extracts what changed, then searches the rest of docs/** for duplicated or parallel passages that now risk drifting out of sync — prose that used to be a shared partial and is now copied across pages, the same concept taught across the VS Code / CLI / App / Cloud harnesses, and cross-references to the changed page. Use after editing lesson content under docs/, before committing or opening a PR, or whenever asked to \"check content alignment\", \"find related content to update\", \"what else should change\", or \"check for drift\". Reports candidate files with line ranges and rationale; it does NOT edit content.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "productivity",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "skill stored under .github/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/707734712/agents-in-sdlc/blob/main/.github/skills/check-content-alignment/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-09T20:55:16.707066Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "check-content-alignment",
+    "path": ".github/skills/check-content-alignment",
+    "pushed_at": "2026-09-09T20:54:07Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "707734712/agents-in-sdlc",
+    "repo_url": "https://github.com/707734712/agents-in-sdlc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 84,
+      "quality": 85,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
