@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "alizaouane/dev-agent:skills/acm",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "alizaouane/dev-agent:skills/acm",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2ab82dc7dbb74f48e7929eff38660094e16113b434b8ac9cff4ca4ef189f2889",
+    "description": "Use after the spec is approved to bind every acceptance criterion to an executable test. Extracts `## Acceptance criteria` bullets, runs the test-stub generator, SHA-locks the manifest, and returns the criteria→test mapping that phase-implement will gate on.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "design",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alizaouane/dev-agent/blob/main/skills/acm/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T11:17:22.027568Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {},
+    "name": "acm",
+    "path": "skills/acm",
+    "pushed_at": "2026-09-10T11:07:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alizaouane/dev-agent",
+    "repo_url": "https://github.com/alizaouane/dev-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 86,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}

@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **41**
-Repositories: **7**
+Published skills: **42**
+Repositories: **8**
 
 ## Browse repositories
 
@@ -12,6 +12,7 @@ Repositories: **7**
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
+- [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 
 ## Browse categories
 
@@ -67,3 +68,4 @@ Repositories: **7**
 - [yt2bb](./skills/agents365-ai/365-skills/plugins/yt2bb/skills/yt2bb/README.md) · `agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb`
 - [manage-taskboard](./skills/ahh666/codex-taskboard/skills/manage-taskboard/README.md) · `ahh666/codex-taskboard:skills/manage-taskboard`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
+- [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
