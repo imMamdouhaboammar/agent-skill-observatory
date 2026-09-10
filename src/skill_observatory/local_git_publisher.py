@@ -62,7 +62,7 @@ class LocalGitAtomicPublisher:
             if parsed.scheme:
                 if (parsed.hostname or "").lower() != "github.com":
                     raise LocalGitPublisherError(
-                        f"origin repository is not hosted on github.com: {value}"
+                        "remote repository is not hosted on github.com"
                     )
                 path = parsed.path
             else:
@@ -72,20 +72,34 @@ class LocalGitAtomicPublisher:
             path = path[:-4]
         parts = path.split("/")
         if len(parts) != 2 or not all(parts):
-            raise LocalGitPublisherError(f"invalid GitHub repository identity: {value}")
+            raise LocalGitPublisherError("invalid GitHub repository identity")
         return f"{parts[0]}/{parts[1]}".lower()
 
     def _validate_repository(self, repository: str) -> None:
         try:
-            origin = self._git("remote", "get-url", "origin")
+            fetch_origin = self._git("remote", "get-url", "origin")
+            push_origins_text = self._git(
+                "remote", "get-url", "--push", "--all", "origin"
+            )
         except PublicationError as exc:
             raise LocalGitPublisherError("unable to determine origin repository") from exc
+
         expected = self._normalize_repository(repository)
-        actual = self._normalize_repository(origin)
-        if actual != expected:
+        fetch_actual = self._normalize_repository(fetch_origin)
+        if fetch_actual != expected:
             raise LocalGitPublisherError(
-                f"origin repository {actual} does not match requested repository {expected}"
+                f"origin fetch repository {fetch_actual} does not match requested repository {expected}"
             )
+
+        push_origins = [line.strip() for line in push_origins_text.splitlines() if line.strip()]
+        if not push_origins:
+            raise LocalGitPublisherError("unable to determine origin push repository")
+        for push_origin in push_origins:
+            push_actual = self._normalize_repository(push_origin)
+            if push_actual != expected:
+                raise LocalGitPublisherError(
+                    f"origin push repository {push_actual} does not match requested repository {expected}"
+                )
 
     def _ensure_clean_worktree(self) -> None:
         status = self._git("status", "--porcelain", "--untracked-files=all")
