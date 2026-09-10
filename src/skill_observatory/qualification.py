@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import re
-from pathlib import Path
 
 from pydantic import BaseModel, Field
 
@@ -11,8 +10,9 @@ POLICY_VERSION = 1
 MIN_INSTRUCTION_CHARS = 400
 MIN_SECURITY_SCORE = 90
 
-_RESOURCE_REF_RE = re.compile(
-    r"`(?P<path>(?:\./)?(?:scripts|references|assets|evals|agents)/[^`\s]+)`"
+_RESOURCE_PATH_RE = re.compile(
+    r"(?<![\w./-])(?:\./)?(?:scripts|references|assets|evals|agents)/"
+    r"[A-Za-z0-9_.@+%=-]+(?:/[A-Za-z0-9_.@+%=-]+)*"
 )
 _PRIVATE_PATH_PATTERNS = (
     re.compile(r"/(?:Users|home)/[^/\s`'\"]+/", re.IGNORECASE),
@@ -24,7 +24,6 @@ _PROMPT_OVERRIDE_PATTERNS = (
     re.compile(r"\breveal\s+(?:the\s+)?(?:system|developer)\s+prompt\b", re.IGNORECASE),
     re.compile(r"\boverride\s+(?:the\s+)?(?:system|developer)\s+instructions\b", re.IGNORECASE),
 )
-_FENCED_BLOCK_RE = re.compile(r"```.*?```|~~~.*?~~~", re.DOTALL)
 
 
 class QualificationReport(BaseModel):
@@ -48,11 +47,11 @@ def _relative_files(parsed: ParsedSkill) -> set[str]:
 
 def _resource_integrity(parsed: ParsedSkill) -> bool:
     available = _relative_files(parsed)
-    for match in _RESOURCE_REF_RE.finditer(parsed.body):
-        referenced = match.group("path").removeprefix("./").rstrip(".,;:)")
-        if referenced not in available:
-            return False
-    return True
+    referenced = {
+        match.group(0).removeprefix("./").rstrip(".,;:)")
+        for match in _RESOURCE_PATH_RE.finditer(parsed.body)
+    }
+    return referenced.issubset(available)
 
 
 def _portable(parsed: ParsedSkill) -> bool:
@@ -63,8 +62,7 @@ def _portable(parsed: ParsedSkill) -> bool:
 
 
 def _behaviorally_safe(parsed: ParsedSkill) -> bool:
-    prose = _FENCED_BLOCK_RE.sub("", parsed.body)
-    return not any(pattern.search(prose) for pattern in _PROMPT_OVERRIDE_PATTERNS)
+    return not any(pattern.search(parsed.body) for pattern in _PROMPT_OVERRIDE_PATTERNS)
 
 
 def _instruction_depth(parsed: ParsedSkill) -> bool:
@@ -93,10 +91,8 @@ def qualify_skill(
     has_high_risk_finding = any(
         finding.severity in {"high", "critical"} for finding in security.findings
     )
-    has_local_eval = any(
-        Path(path).resolve().is_relative_to(parsed.root.resolve() / "evals")
-        for path in parsed.files
-    )
+    relative_files = _relative_files(parsed)
+    has_local_eval = any(path.startswith("evals/") for path in relative_files)
     checks = {
         "spec-validity": parsed.spec.valid,
         "instruction-depth": _instruction_depth(parsed),
