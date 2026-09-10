@@ -154,10 +154,17 @@ def test_successful_missing_scans_increment_and_return_resets(tmp_path) -> None:
     second_miss = _record(factory)
     assert second_miss.consecutive_misses == 2
 
-    github.tree = FakeGitHub().tree
     with factory() as session:
         index_repository(
             github, session, _repo(), now=NOW + timedelta(minutes=3)  # type: ignore[arg-type]
+        )
+    third_miss = _record(factory)
+    assert third_miss.consecutive_misses == 2
+
+    github.tree = FakeGitHub().tree
+    with factory() as session:
+        index_repository(
+            github, session, _repo(), now=NOW + timedelta(minutes=4)  # type: ignore[arg-type]
         )
     returned = _record(factory)
     assert returned.consecutive_misses == 0
