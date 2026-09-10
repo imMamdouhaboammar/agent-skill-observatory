@@ -71,7 +71,7 @@ def _paths_for_skill(tree: list[dict[str, Any]], root: str) -> list[str]:
             suffix = PurePosixPath(rel).suffix.lower()
             if suffix in TEXTISH_SUFFIXES or top == "assets":
                 paths.append(path)
-    return sorted(paths)[:MAX_SKILL_FILES]
+    return sorted(paths)
 
 
 def _safe_local_path(base: Path, relative: str) -> Path:
@@ -112,17 +112,24 @@ def _materialize_skill(
     skill_dir = temp / (PurePosixPath(root).name if root else repo.full_name.split("/")[-1])
     skill_dir.mkdir(parents=True, exist_ok=True)
     prefix = f"{root}/" if root else ""
+    remote_paths = _paths_for_skill(tree, root)
+    if len(remote_paths) > MAX_SKILL_FILES:
+        raise ValueError(
+            f"Skill exceeds inspection file budget: {len(remote_paths)} > {MAX_SKILL_FILES}"
+        )
+
     inspected: list[tuple[str, str]] = []
-    for remote_path in _paths_for_skill(tree, root):
+    for remote_path in remote_paths:
         rel = remote_path[len(prefix) :]
         local_path = _safe_local_path(skill_dir, rel)
         local_path.parent.mkdir(parents=True, exist_ok=True)
         try:
             text = client.read_text_file(repo, remote_path, max_bytes=MAX_SINGLE_FILE_BYTES)
         except GitHubError:
-            if rel.lower() == "skill.md":
-                raise
-            continue
+            top = rel.split("/", 1)[0]
+            if top == "assets" and PurePosixPath(rel).suffix.lower() not in TEXTISH_SUFFIXES:
+                continue
+            raise
         inspected.append((rel, text))
         local_path.write_text(text, encoding="utf-8")
     canonical_manifest = skill_dir / "SKILL.md"
