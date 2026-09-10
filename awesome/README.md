@@ -1,13 +1,14 @@
 # Agent Skill Observatory Directory
 
-Published skills: **13**
-Repositories: **4**
+Published skills: **14**
+Repositories: **5**
 
 ## Browse repositories
 
 - [0o0r7/Fri](./repos/0o0r7/Fri.md)
 - [707734712/agents-in-sdlc](./repos/707734712/agents-in-sdlc.md)
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
+- [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 
 ## Browse categories
@@ -36,3 +37,4 @@ Repositories: **4**
 - [afaro-followup](./skills/afaro-ai/afaro/skills/afaro-followup/README.md) · `afaro-ai/afaro:skills/afaro-followup`
 - [afaro-orchestrator](./skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) · `afaro-ai/afaro:skills/afaro-orchestrator`
 - [afaro-removal-verify](./skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) · `afaro-ai/afaro:skills/afaro-removal-verify`
+- [agent-native-design](./skills/agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`

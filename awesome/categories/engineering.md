@@ -1,9 +1,10 @@
 # engineering
 
-Published Skills: 11
+Published Skills: 12
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [agent-native-design](../skills/Agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Use when designing, reviewing, or refactoring a CLI that must serve AI agents alongside humans, or when converting an API or SDK into an agent-usable CLI interface. |
 | [afaro-drop-submit](../skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Scaffold for the single California deletion request through the state DROP platform. Not implemented yet. Use when a California resident asks about the state deletion request. |
 | [afaro-exposure-scan](../skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Checks which people-search brokers list a person, using each broker's own public search box. Use when the user asks who has their data or where they are listed. |
 | [afaro-orchestrator](../skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Runs Afaro data removal opt-outs one broker at a time from a local profile, stopping before anything is sent. Use when the user wants to remove a listing or opt out of a people-search site. |

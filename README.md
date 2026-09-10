@@ -43,9 +43,9 @@ Publication is atomic per semantic Skill event. Each add, update, reindex, or co
 The scheduled refresh checks GitHub every 15 minutes. After the bounded Skill event loop, `AWESOME.md` and `data/*` are rebuilt as reproducible materialized views. Aggregate files are not used to decide whether a Skill changed, and a timestamp-only refresh does not create a catalog commit. The root README remains human-owned outside the generated marker block below.
 
 <!-- AWESOME_INDEX_START -->
-Published skills: **13**
-Repositories: **4**
-Latest Skill event: **add** · `afaro-ai/afaro:skills/afaro-removal-verify`
+Published skills: **14**
+Repositories: **5**
+Latest Skill event: **add** · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`
 
 [Browse the GitHub directory](./awesome/README.md) · [Open AWESOME.md](./AWESOME.md)
 <!-- AWESOME_INDEX_END -->
