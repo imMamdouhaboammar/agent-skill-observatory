@@ -43,10 +43,10 @@ class LocalGitAtomicPublisher:
             raise GitHubPublisherError(f"unsafe publication path: {relative}")
         return path
 
-    def _ensure_clean_index(self) -> None:
-        staged = self._git("diff", "--cached", "--name-only")
-        if staged:
-            raise GitHubPublisherError("local publication requires a clean Git index")
+    def _ensure_clean_worktree(self) -> None:
+        status = self._git("status", "--porcelain", "--untracked-files=all")
+        if status:
+            raise GitHubPublisherError("local publication requires a clean Git worktree")
 
     def current_head(self, repository: str, branch: str = "main") -> str:
         del repository
@@ -97,7 +97,7 @@ class LocalGitAtomicPublisher:
             raise ValueError("local Git publication supports exactly one attempt")
 
         parent_sha = self.current_head(repository, branch)
-        self._ensure_clean_index()
+        self._ensure_clean_worktree()
         readme_path = self._path("README.md")
         if not readme_path.is_file():
             raise GitHubPublisherError("root README.md is missing")
@@ -140,7 +140,7 @@ def publish_local_materialized_views(
 ) -> AggregatePublicationResult:
     validate_aggregate_outputs(outputs)
     parent_sha = publisher.current_head(repository, branch)
-    publisher._ensure_clean_index()
+    publisher._ensure_clean_worktree()
 
     current: dict[str, str | None] = {}
     for relative in sorted(AGGREGATE_PATHS):
