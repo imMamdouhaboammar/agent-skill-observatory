@@ -4,19 +4,34 @@ import time
 from collections.abc import Callable
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Protocol
 
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from .aggregate_publication import AggregatePublicationResult, publish_materialized_views
 from .domain import IndexedSkill
-from .events import PublishedSkillRecord, SkillEvent, compute_skill_events
-from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
+from .events import PublicationResult, PublishedSkillRecord, SkillEvent, compute_skill_events
+from .github_publisher import GitHubPublisherError
 from .materialized import materialize_records
 from .publication_store import PublicationStateError, load_published_catalog
 from .repository import list_observed_skills
 
 AggregatePublish = Callable[..., AggregatePublicationResult]
+
+
+class AtomicPublisher(Protocol):
+    def current_head(self, repository: str, branch: str = "main") -> str: ...
+
+    def publish_event(
+        self,
+        event: SkillEvent,
+        catalog_after_event: dict[str, PublishedSkillRecord],
+        *,
+        repository: str,
+        branch: str = "main",
+        max_attempts: int = 1,
+    ) -> PublicationResult: ...
 
 
 class PublicationReport(BaseModel):
@@ -82,7 +97,7 @@ def _aggregate_catalog(
 
 def publish_pending_events(
     session: Session,
-    publisher: GitHubAtomicPublisher,
+    publisher: AtomicPublisher,
     *,
     checkout_root: Path,
     repository: str,
