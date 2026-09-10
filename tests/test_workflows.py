@@ -61,6 +61,13 @@ def test_bootstrap_is_manual_only_and_uses_larger_defaults() -> None:
     assert "force: true" not in text
 
 
+def test_canary_dispatch_preserves_api_budget_for_publication() -> None:
+    text = Path(".github/workflows/bootstrap-canary-dispatch.yml").read_text(encoding="utf-8")
+    assert "-f max_events=25" in text
+    assert "-f time_budget_seconds=2400" in text
+    assert "-f skip_scan=true" in text
+
+
 def test_publication_workflows_do_not_use_legacy_snapshot_push() -> None:
     for name in ["refresh.yml", "bootstrap-catalog.yml"]:
         text = Path(f".github/workflows/{name}").read_text(encoding="utf-8")
