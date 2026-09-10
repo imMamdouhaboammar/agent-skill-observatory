@@ -9,6 +9,12 @@ CATEGORY_KEYWORDS = {
     "engineering": {
         "code", "repository", "pull request", "debug", "developer", "frontend", "backend", "api", "git", "ci",
     },
+    "architecture": {
+        "software architecture", "system architecture", "system design", "architecture decision", "architecture decisions", "c4 model", "adr",
+    },
+    "agent-orchestration": {
+        "multi-agent", "multi agent", "agent orchestration", "subagent", "subagents", "sub-agent", "sub-agents", "agent framework",
+    },
     "code-review": {"code review", "review diff", "pull request review", "review changes"},
     "testing": {"test", "testing", "pytest", "jest", "playwright", "cypress", "e2e", "regression"},
     "security": {
@@ -29,6 +35,21 @@ CATEGORY_KEYWORDS = {
     "content": {"write", "writing", "copy", "content", "article", "social", "caption", "editorial"},
     "marketing": {
         "marketing", "campaign", "ads", "advertising", "seo", "brand", "conversion", "media buying",
+    },
+    "business": {
+        "business strategy", "business analysis", "business plan", "operating model", "competitive analysis", "market analysis",
+    },
+    "sales": {
+        "sales", "crm", "lead generation", "prospecting", "sales pipeline", "sales operations", "outreach",
+    },
+    "hr-recruiting": {
+        "recruiting", "recruitment", "hiring", "candidate", "candidates", "resume screening", "interview screening", "talent acquisition",
+    },
+    "localization": {
+        "localization", "localisation", "localized", "localised", "translation", "translate", "i18n", "internationalization",
+    },
+    "documents": {
+        "document processing", "document extraction", "pdf", "pdfs", "docx", "powerpoint", "slides", "presentation",
     },
     "devops": {
         "deploy", "deployment", "docker", "kubernetes", "terraform", "cloud", "sre", "observability", "release",
