@@ -163,7 +163,18 @@ class GitHubAtomicPublisher:
         content = payload.get("content")
         encoding = payload.get("encoding")
         if not isinstance(content, str) or encoding != "base64":
-            raise GitHubPublisherError(f"GitHub content payload invalid for {path}")
+            blob_sha = payload.get("sha")
+            if not isinstance(blob_sha, str) or not blob_sha:
+                raise GitHubPublisherError(f"GitHub content payload invalid for {path}")
+            blob_payload = self._get(
+                f"/repos/{repository}/git/blobs/{quote(blob_sha, safe='')}"
+            )
+            if blob_payload is None:
+                raise GitHubPublisherError(f"GitHub blob unexpectedly missing for {path}")
+            content = blob_payload.get("content")
+            encoding = blob_payload.get("encoding")
+            if not isinstance(content, str) or encoding != "base64":
+                raise GitHubPublisherError(f"GitHub blob payload invalid for {path}")
         try:
             normalized = "".join(content.split())
             return base64.b64decode(normalized, validate=True).decode("utf-8")
