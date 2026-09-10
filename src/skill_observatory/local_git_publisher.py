@@ -88,7 +88,7 @@ class LocalGitAtomicPublisher:
         fetch_actual = self._normalize_repository(fetch_origin)
         if fetch_actual != expected:
             raise LocalGitPublisherError(
-                f"origin fetch repository {fetch_actual} does not match requested repository {expected}"
+                f"origin repository {fetch_actual} does not match requested repository {expected}"
             )
 
         push_origins = [line.strip() for line in push_origins_text.splitlines() if line.strip()]
