@@ -2,8 +2,9 @@ from __future__ import annotations
 
 from collections.abc import Iterator
 from datetime import datetime
+from typing import Any
 
-from sqlalchemy import JSON, Boolean, DateTime, Float, Integer, String, Text, create_engine
+from sqlalchemy import JSON, Boolean, DateTime, Engine, Float, Integer, String, Text, create_engine
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column, sessionmaker
 from sqlalchemy.pool import NullPool
 
@@ -28,17 +29,17 @@ class SkillRecord(Base):
     compatibility: Mapped[str | None] = mapped_column(String(500), nullable=True)
     metadata_json: Mapped[dict[str, str]] = mapped_column(JSON, default=dict)
     allowed_tools_json: Mapped[list[str]] = mapped_column(JSON, default=list)
-    spec_json: Mapped[dict] = mapped_column(JSON)
-    security_json: Mapped[dict] = mapped_column(JSON)
-    score_json: Mapped[dict] = mapped_column(JSON)
-    resources_json: Mapped[dict] = mapped_column(JSON)
+    spec_json: Mapped[dict[str, Any]] = mapped_column(JSON)
+    security_json: Mapped[dict[str, Any]] = mapped_column(JSON)
+    score_json: Mapped[dict[str, Any]] = mapped_column(JSON)
+    resources_json: Mapped[dict[str, Any]] = mapped_column(JSON)
     stars: Mapped[int] = mapped_column(Integer, default=0, index=True)
     forks: Mapped[int] = mapped_column(Integer, default=0)
     pushed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
     archived: Mapped[bool] = mapped_column(Boolean, default=False)
     discovery_source: Mapped[str] = mapped_column(String(100), index=True)
     indexed_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
-    evidence_json: Mapped[dict] = mapped_column(JSON, default=dict)
+    evidence_json: Mapped[dict[str, Any]] = mapped_column(JSON, default=dict)
     overall_score: Mapped[int] = mapped_column(Integer, default=0, index=True)
     first_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
     last_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
@@ -62,7 +63,7 @@ class RepositorySnapshot(Base):
     score_hint: Mapped[float] = mapped_column(Float, default=0.0)
 
 
-def make_engine(database_url: str):
+def make_engine(database_url: str) -> Engine:
     is_sqlite = database_url.startswith("sqlite")
     connect_args = {"check_same_thread": False} if is_sqlite else {}
     kwargs = {"poolclass": NullPool} if is_sqlite else {"pool_pre_ping": True}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://claude.ai/schemas/marketplace.json",
+  "name": "agent-skill-observatory",
+  "version": "0.2.0",
+  "displayName": "Agent Skill Observatory",
+  "description": "Evidence-based discovery, specification validation, and static security analysis for open Agent Skills.",
+  "author": {
+    "name": "Mamdouh Aboammar",
+    "email": "mamdouhfces1997@gmail.com",
+    "url": "https://github.com/imMamdouhaboammar"
+  },
+  "homepage": "https://imMamdouhaboammar.github.io/agent-skill-observatory/",
+  "repository": "https://github.com/imMamdouhaboammar/agent-skill-observatory",
+  "license": "Apache-2.0",
+  "skills": [
+    {
+      "name": "agent-skill-observatory",
+      "path": "SKILL.md",
+      "description": "Audit, validate, and score AI Agent Skills before installing or deploying them."
+    }
+  ]
+}

@@ -3,14 +3,32 @@ from __future__ import annotations
 from pathlib import Path
 
 CATEGORY_KEYWORDS = {
-    "engineering": {"code", "repository", "pull request", "debug", "test", "frontend", "backend", "api", "git", "developer", "ci"},
-    "security": {"security", "vulnerability", "threat", "secret", "credential", "permission", "audit", "dependency risk"},
-    "data": {"data", "sql", "database", "analytics", "etl", "csv", "spreadsheet", "pandas", "warehouse"},
-    "research": {"research", "source", "citation", "literature", "evidence", "investigate", "documentation"},
+    "engineering": {
+        "code", "repository", "pull request", "debug", "test",
+        "frontend", "backend", "api", "git", "developer", "ci",
+    },
+    "security": {
+        "security", "vulnerability", "threat", "secret",
+        "credential", "permission", "audit", "dependency risk",
+    },
+    "data": {
+        "data", "sql", "database", "analytics", "etl",
+        "csv", "spreadsheet", "pandas", "warehouse",
+    },
+    "research": {
+        "research", "source", "citation", "literature",
+        "evidence", "investigate", "documentation",
+    },
     "design": {"design", "ui", "ux", "visual", "figma", "typography", "layout", "accessibility"},
     "content": {"write", "writing", "copy", "content", "article", "social", "caption", "editorial"},
-    "devops": {"deploy", "deployment", "docker", "kubernetes", "terraform", "cloud", "sre", "observability", "release"},
-    "productivity": {"workflow", "automation", "planning", "meeting", "task", "productivity", "handoff"},
+    "devops": {
+        "deploy", "deployment", "docker", "kubernetes", "terraform",
+        "cloud", "sre", "observability", "release",
+    },
+    "productivity": {
+        "workflow", "automation", "planning", "meeting",
+        "task", "productivity", "handoff",
+    },
 }
 
 
@@ -42,7 +60,11 @@ def infer_clients(path: str, compatibility: str | None, files: list[Path]) -> di
         add("GitHub Copilot", "GitHub Copilot supports project skills under .claude/skills")
     if normalized.startswith(".github/skills"):
         add("GitHub Copilot", "skill stored under .github/skills")
-    if any(name.endswith("agents/openai.yaml") or name == "agents/openai.yaml" for name in file_names):
+    has_openai_yaml = any(
+        name.endswith("agents/openai.yaml") or name == "agents/openai.yaml"
+        for name in file_names
+    )
+    if has_openai_yaml:
         add("OpenAI Codex", "agents/openai.yaml metadata is present")
     if "codex" in compatibility_l or "openai" in compatibility_l:
         add("OpenAI Codex", "compatibility metadata names Codex/OpenAI")

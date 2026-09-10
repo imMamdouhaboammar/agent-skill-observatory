@@ -4,6 +4,7 @@ import tempfile
 from collections.abc import Iterable
 from datetime import UTC, datetime
 from pathlib import Path, PurePosixPath
+from typing import Any
 
 from sqlalchemy.orm import Session
 
@@ -29,7 +30,7 @@ TEXTISH_SUFFIXES = {
 }
 
 
-class PipelineReport(dict):
+class PipelineReport(dict[str, Any]):
     pass
 
 
@@ -37,7 +38,7 @@ def _is_skill_manifest(path: str) -> bool:
     return PurePosixPath(path).name.lower() == "skill.md"
 
 
-def _candidate_skill_roots(tree: list[dict]) -> list[str]:
+def _candidate_skill_roots(tree: list[dict[str, Any]]) -> list[str]:
     roots: list[str] = []
     for item in tree:
         path = str(item.get("path") or "")
@@ -47,7 +48,7 @@ def _candidate_skill_roots(tree: list[dict]) -> list[str]:
     return sorted(set(roots))
 
 
-def _paths_for_skill(tree: list[dict], root: str) -> list[str]:
+def _paths_for_skill(tree: list[dict[str, Any]], root: str) -> list[str]:
     prefix = f"{root}/" if root else ""
     paths: list[str] = []
     for item in tree:
@@ -77,7 +78,13 @@ def _safe_local_path(base: Path, relative: str) -> Path:
     return candidate
 
 
-def _materialize_skill(client: GitHubClient, repo: DiscoveredRepository, root: str, tree: list[dict], temp: Path) -> Path:
+def _materialize_skill(
+    client: GitHubClient,
+    repo: DiscoveredRepository,
+    root: str,
+    tree: list[dict[str, Any]],
+    temp: Path,
+) -> Path:
     skill_dir = temp / (PurePosixPath(root).name if root else repo.full_name.split("/")[-1])
     skill_dir.mkdir(parents=True, exist_ok=True)
     prefix = f"{root}/" if root else ""
@@ -101,7 +108,7 @@ def _materialize_skill(client: GitHubClient, repo: DiscoveredRepository, root: s
     return skill_dir
 
 
-def _repo_has_tests(tree: list[dict]) -> bool:
+def _repo_has_tests(tree: list[dict[str, Any]]) -> bool:
     for item in tree:
         path = str(item.get("path") or "").lower()
         parts = path.split("/")
@@ -110,8 +117,11 @@ def _repo_has_tests(tree: list[dict]) -> bool:
     return False
 
 
-def _repo_has_readme(tree: list[dict]) -> bool:
-    return any(PurePosixPath(str(item.get("path") or "")).name.lower().startswith("readme") for item in tree)
+def _repo_has_readme(tree: list[dict[str, Any]]) -> bool:
+    return any(
+        PurePosixPath(str(item.get("path") or "")).name.lower().startswith("readme")
+        for item in tree
+    )
 
 
 def index_repository(
@@ -186,7 +196,10 @@ def index_repository(
                     discovery_source=repo.discovery_source,
                     indexed_at=indexed_at,
                     evidence={
-                        "manifest": f"{repo.html_url}/blob/{repo.default_branch}/{root + '/' if root else ''}SKILL.md",
+                        "manifest": (
+                            f"{repo.html_url}/blob/{repo.default_branch}/"
+                            f"{root + '/' if root else ''}SKILL.md"
+                        ),
                         "tree_files_scanned": len(_paths_for_skill(tree, root)),
                         "repo_has_tests": repo_signals.has_tests,
                         "repo_has_readme": repo_signals.has_readme,
@@ -194,7 +207,11 @@ def index_repository(
                         "categories": categories,
                         "client_compatibility_evidence": clients,
                         "duplicate_of": duplicate_of,
-                        "source_tier": "official-seed" if repo.discovery_source == "official-seed" else "community",
+                        "source_tier": (
+                            "official-seed"
+                            if repo.discovery_source == "official-seed"
+                            else "community"
+                        ),
                     },
                 )
                 upsert_skill(session, indexed)

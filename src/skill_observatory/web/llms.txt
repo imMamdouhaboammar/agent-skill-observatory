@@ -1,0 +1,20 @@
+# Agent Skill Observatory
+
+> Evidence-based discovery, specification validation, static security analysis, and multi-dimensional ranking for open Agent Skills across Claude Code, OpenAI Codex, Google Antigravity, Cursor, and Windsurf.
+
+Author: Mamdouh Aboammar <mamdouhfces1997@gmail.com>
+Repository: https://github.com/imMamdouhaboammar/agent-skill-observatory
+Live Catalog: https://imMamdouhaboammar.github.io/agent-skill-observatory/
+
+## Key Endpoints & Resources
+- [Full Documentation for LLMs](https://imMamdouhaboammar.github.io/agent-skill-observatory/llms-full.txt): Complete technical specification, schema, and security model.
+- [JSON Catalog Data](https://imMamdouhaboammar.github.io/agent-skill-observatory/catalog.json): Machine-readable array of all indexed skills with quality and security scores.
+- [Catalog Statistics](https://imMamdouhaboammar.github.io/agent-skill-observatory/stats.json): Aggregated repository metrics and compliance rates.
+- [Architecture Guide](https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/docs/architecture.md): High-level system design and data pipeline.
+- [Security Model](https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/docs/security-model.md): Threat vectors and static analysis boundaries.
+
+## Core Capabilities
+- `skillobs scan-local <path>`: Statically audits a local skill directory before installation.
+- `skillobs refresh`: Discovers and indexes skills from GitHub trees and code search without executing remote code.
+- `skillobs build-site`: Exports catalog artifacts and static web dashboard for GitHub Pages.
+- `skillobs serve`: Launches FastAPI REST service on port 8000 with `/api/v1/skills`, `/api/v1/stats`, and interactive UI.

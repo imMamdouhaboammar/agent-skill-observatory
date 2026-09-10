@@ -28,7 +28,6 @@ async function load(){
   renderStats(); renderCategories(); render();
 }
 
-
 function renderCategories(){
   const categories=[...new Set(state.items.flatMap(x=>x.evidence?.categories||[]))].sort();
   $('category').innerHTML='<option value="">All</option>'+categories.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
@@ -45,14 +44,68 @@ function render(){
   const sorters={overall:(a,b)=>b.overall_score-a.overall_score,adoption:(a,b)=>b.adoption_score-a.adoption_score,security:(a,b)=>b.security_score-a.security_score,recent:(a,b)=>String(b.pushed_at).localeCompare(String(a.pushed_at))};
   items.sort(sorters[sort]||sorters.overall);
   $('resultCount').textContent=items.length; $('empty').hidden=items.length!==0;
-  $('catalog').innerHTML=items.map(card).join('');
+  $('catalog').innerHTML=items.map((x,idx)=>card(x,idx)).join('');
+
+  document.querySelectorAll('.card').forEach(el=>{
+    el.addEventListener('click',e=>{
+      if(e.target.closest('a')) return;
+      const idx=el.dataset.index;
+      if(idx!==undefined&&items[idx]) showDetail(items[idx]);
+    });
+  });
 }
 
-function card(x){
+function card(x,idx){
   const findings=x.security?.findings?.length||0, valid=x.spec?.valid===true;
   const manifest=x.evidence?.manifest||`${x.repo_url}/tree/${x.repo_default_branch||'main'}/${x.path}`;
-  return `<article class="card"><div><a href="${esc(manifest)}" target="_blank" rel="noreferrer"><h2>${esc(x.name)}</h2></a><div class="repo">${esc(x.repo_full_name)} · ${esc(x.path)}</div><p class="desc">${esc(x.description)}</p><div class="tags"><span class="tag ${valid?'good':'risk'}">${valid?'spec valid':'spec issues'}</span><span class="tag ${findings?'risk':'good'}">${findings?`${findings} safety findings`:'no flagged patterns'}</span><span class="tag">★ ${Number(x.stars||0).toLocaleString()}</span>${x.license?`<span class="tag">${esc(x.license)}</span>`:''}<span class="tag">${x.resources?.scripts||0} scripts</span>${(x.evidence?.categories||[]).slice(0,2).map(c=>`<span class="tag">${esc(c)}</span>`).join('')}${x.evidence?.duplicate_of?`<span class="tag risk">duplicate</span>`:''}</div></div><div class="scores"><div class="score overall"><b>${x.overall_score}</b><span>Overall</span></div><div class="score"><b>${x.quality_score}</b><span>Quality</span></div><div class="score"><b>${x.security_score}</b><span>Security</span></div><div class="score"><b>${x.maintenance_score}</b><span>Maintenance</span></div><div class="score"><b>${x.adoption_score}</b><span>Adoption</span></div></div></article>`;
+  return `<article class="card" data-index="${idx}"><div><a href="${esc(manifest)}" target="_blank" rel="noreferrer" onclick="event.stopPropagation()"><h2>${esc(x.name)}</h2></a><div class="repo">${esc(x.repo_full_name)} · ${esc(x.path)}</div><p class="desc">${esc(x.description)}</p><div class="tags"><span class="tag ${valid?'good':'risk'}">${valid?'spec valid':'spec issues'}</span><span class="tag ${findings?'risk':'good'}">${findings?`${findings} safety findings`:'verified clean'}</span><span class="tag">★ ${Number(x.stars||0).toLocaleString()}</span>${x.license?`<span class="tag">${esc(x.license)}</span>`:''}<span class="tag">${x.resources?.scripts||0} scripts</span>${(x.evidence?.categories||[]).slice(0,2).map(c=>`<span class="tag">${esc(c)}</span>`).join('')}</div></div><div class="scores"><div class="score overall"><b>${x.overall_score}</b><span>Overall</span></div><div class="score"><b>${x.quality_score}</b><span>Quality</span></div><div class="score"><b>${x.security_score}</b><span>Security</span></div><div class="score"><b>${x.maintenance_score}</b><span>Maintenance</span></div><div class="score"><b>${x.adoption_score}</b><span>Adoption</span></div></div></article>`;
 }
 
+function showDetail(x){
+  const modal=$('detailModal');
+  $('modalTitle').textContent=x.name;
+  const findings=x.security?.findings||[];
+  const manifest=x.evidence?.manifest||`${x.repo_url}/blob/${x.repo_default_branch||'main'}/${x.path}`;
+  const clients=Object.keys(x.evidence?.client_compatibility_evidence||{}).join(', ')||x.compatibility||'Universal';
+
+  $('modalBody').innerHTML=`
+    <div class="modal-repo"><a href="${esc(x.repo_url)}" target="_blank" rel="noreferrer">${esc(x.repo_full_name)}</a> <span>(${esc(x.path)})</span></div>
+    <p class="modal-desc">${esc(x.description)}</p>
+    <div class="modal-meta-grid">
+      <div><strong>License:</strong> ${esc(x.license||'None')}</div>
+      <div><strong>Compatibility:</strong> ${esc(clients)}</div>
+      <div><strong>Stars:</strong> ${Number(x.stars||0).toLocaleString()}</div>
+      <div><strong>Scripts:</strong> ${x.resources?.scripts||0}</div>
+    </div>
+    <div class="modal-scores">
+      <div class="stat"><b>${x.overall_score}</b><span>Overall</span></div>
+      <div class="stat"><b>${x.quality_score}</b><span>Quality</span></div>
+      <div class="stat"><b>${x.security_score}</b><span>Security</span></div>
+      <div class="stat"><b>${x.maintenance_score}</b><span>Maintenance</span></div>
+      <div class="stat"><b>${x.adoption_score}</b><span>Adoption</span></div>
+    </div>
+    <div class="modal-section">
+      <h3>Security Evidence</h3>
+      ${findings.length===0
+        ? '<div class="banner-clean">✓ Zero dangerous patterns flagged. Static scanner passed clean.</div>'
+        : findings.map(f=>`
+          <div class="finding-item">
+            <span class="badge-severity ${esc(f.severity)}">${esc(f.severity.toUpperCase())}</span>
+            <strong>${esc(f.rule)}</strong> — ${esc(f.message)}
+            ${f.file?`<div class="finding-loc">${esc(f.file)}${f.line?`:${f.line}`:''}</div>`:''}
+            ${f.evidence?`<code>${esc(f.evidence)}</code>`:''}
+          </div>
+        `).join('')}
+    </div>
+    <div class="modal-actions">
+      <a href="${esc(manifest)}" target="_blank" rel="noreferrer" class="btn-primary">View Manifest on GitHub ↗</a>
+      <button class="btn-secondary" onclick="navigator.clipboard.writeText('skillobs scan-local ${esc(x.path)}').then(()=>alert('Copied scan command!'))">Copy Scan Command</button>
+    </div>
+  `;
+  modal.showModal();
+}
+
+$('modalClose').addEventListener('click',()=>$('detailModal').close());
+$('detailModal').addEventListener('click',e=>{if(e.target===$('detailModal')) $('detailModal').close();});
 ['query','minScore','category','sort','validOnly','safeOnly'].forEach(id=>$(id).addEventListener(id==='query'?'input':'change',render));
 load().catch(err=>{$('sourceStatus').textContent='Catalog unavailable';$('catalog').innerHTML=`<div class="empty">${esc(err.message)}</div>`});

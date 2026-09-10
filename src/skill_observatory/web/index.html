@@ -3,17 +3,28 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Evidence-based discovery and review for open Agent Skills." />
-  <title>Agent Skill Observatory</title>
+  <meta name="description" content="Evidence-based discovery and review for open Agent Skills across Claude Code, Antigravity, Cursor, and Codex." />
+  <meta property="og:title" content="Agent Skill Observatory" />
+  <meta property="og:description" content="Evidence-based discovery, specification validation, and static safety analysis for open Agent Skills." />
+  <meta property="og:type" content="website" />
+  <meta name="author" content="Mamdouh Aboammar" />
+  <title>Agent Skill Observatory — Open AI Agent Skills Index</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="shell hero">
-    <div class="eyebrow">OPEN AGENT SKILLS INDEX</div>
+    <div class="header-top">
+      <div class="eyebrow">OPEN AGENT SKILLS OBSERVATORY</div>
+      <nav class="nav-links">
+        <a href="./llms.txt" class="nav-link">llms.txt</a>
+        <a href="./catalog.json" class="nav-link">JSON Data</a>
+        <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory" target="_blank" rel="noreferrer" class="nav-link github">GitHub ↗</a>
+      </nav>
+    </div>
     <div class="hero-grid">
       <div>
         <h1>Agent Skill Observatory</h1>
-        <p class="lede">Find skills that actually contain a valid manifest. Compare quality, maintenance and static safety evidence before you install anything.</p>
+        <p class="lede">Discover, validate, and statically audit open Agent Skills across Claude Code, Codex, Antigravity, and Cursor. Compare quality, security, and maintenance signals before installing.</p>
       </div>
       <div class="status" id="sourceStatus">Loading catalog…</div>
     </div>
@@ -31,12 +42,28 @@
       <label class="check"><input id="safeOnly" type="checkbox" /><span>Security 85+</span></label>
     </section>
 
-    <section class="catalog-head"><div><strong id="resultCount">0</strong> skills</div><div class="legend">Scores are evidence signals, not execution guarantees</div></section>
+    <section class="catalog-head">
+      <div><strong id="resultCount">0</strong> skills</div>
+      <div class="legend">Scores are evidence signals, not execution guarantees</div>
+    </section>
     <section id="catalog" class="catalog" aria-live="polite"></section>
     <div id="empty" class="empty" hidden>No skills match these filters.</div>
   </main>
 
-  <footer class="shell footer">Static analysis only. Review third-party instructions and scripts before use.</footer>
+  <dialog id="detailModal" class="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="modalTitle">Skill Details</h2>
+        <button id="modalClose" class="btn-close" aria-label="Close">✕</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </dialog>
+
+  <footer class="shell footer">
+    <div>Static analysis only. Review third-party instructions and scripts before execution.</div>
+    <div class="footer-author">Crafted with precision by <strong>Mamdouh Aboammar</strong> · Apache-2.0 License</div>
+  </footer>
   <script src="./app.js" defer></script>
 </body>
 </html>

@@ -88,10 +88,18 @@ def create_app(database_url: str | None = None) -> FastAPI:
 
     app = FastAPI(
         title="Agent Skill Observatory",
-        version="0.1.0",
+        version="0.2.0",
         description="Evidence-based index of open Agent Skills.",
         lifespan=lifespan,
     )
+
+    @app.middleware("http")
+    async def add_security_headers(request: Any, call_next: Any) -> Any:
+        response = await call_next(request)
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        response.headers["X-Frame-Options"] = "DENY"
+        response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+        return response
 
     def get_session() -> Iterator[Session]:
         with factory() as session:
@@ -122,7 +130,12 @@ def create_app(database_url: str | None = None) -> FastAPI:
             limit=limit,
             offset=offset,
         )
-        return SkillList(items=[_serialize(r) for r in records], total=total, limit=limit, offset=offset)
+        return SkillList(
+            items=[_serialize(r) for r in records],
+            total=total,
+            limit=limit,
+            offset=offset,
+        )
 
     web_dir = Path(__file__).resolve().parent / "web"
     if web_dir.is_dir():

@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: ChatGPT & Codex Plugin Autopilot
-        uses: imMamdouhaboammar/chatgpt-codex-plugin-autopilot@v0.7.0
+        uses: imMamdouhaboammar/chatgpt-codex-plugin-autopilot@v0.8.0
         with:
           path: '.'
           action: 'auto'

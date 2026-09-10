@@ -103,7 +103,10 @@ def parse_skill_directory(root: Path) -> ParsedSkill:
     spec = _validate(root, data)
 
     metadata_raw = data.get("metadata") or {}
-    metadata = {str(k): str(v) for k, v in metadata_raw.items()} if isinstance(metadata_raw, dict) else {}
+    if isinstance(metadata_raw, dict):
+        metadata = {str(k): str(v) for k, v in metadata_raw.items()}
+    else:
+        metadata = {}
     allowed_raw = data.get("allowed-tools") or ""
     allowed_tools = allowed_raw.split() if isinstance(allowed_raw, str) else []
     files = [

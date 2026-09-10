@@ -9,7 +9,6 @@ from collections.abc import Sequence
 import sqlalchemy as sa
 from alembic import op
 
-
 revision: str = '8278fbd6b06e'
 down_revision: str | None = None
 branch_labels: str | Sequence[str] | None = None
@@ -29,8 +28,18 @@ def upgrade() -> None:
     sa.Column('score_hint', sa.Float(), nullable=False),
     sa.PrimaryKeyConstraint('id')
     )
-    op.create_index(op.f('ix_repository_snapshots_captured_at'), 'repository_snapshots', ['captured_at'], unique=False)
-    op.create_index(op.f('ix_repository_snapshots_repo_full_name'), 'repository_snapshots', ['repo_full_name'], unique=False)
+    op.create_index(
+        op.f('ix_repository_snapshots_captured_at'),
+        'repository_snapshots',
+        ['captured_at'],
+        unique=False,
+    )
+    op.create_index(
+        op.f('ix_repository_snapshots_repo_full_name'),
+        'repository_snapshots',
+        ['repo_full_name'],
+        unique=False,
+    )
     op.create_table('skills',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('canonical_key', sa.String(length=500), nullable=False),
@@ -67,8 +76,12 @@ def upgrade() -> None:
     sa.PrimaryKeyConstraint('id')
     )
     op.create_index(op.f('ix_skills_canonical_key'), 'skills', ['canonical_key'], unique=True)
-    op.create_index(op.f('ix_skills_content_fingerprint'), 'skills', ['content_fingerprint'], unique=False)
-    op.create_index(op.f('ix_skills_discovery_source'), 'skills', ['discovery_source'], unique=False)
+    op.create_index(
+        op.f('ix_skills_content_fingerprint'), 'skills', ['content_fingerprint'], unique=False
+    )
+    op.create_index(
+        op.f('ix_skills_discovery_source'), 'skills', ['discovery_source'], unique=False
+    )
     op.create_index(op.f('ix_skills_first_seen_at'), 'skills', ['first_seen_at'], unique=False)
     op.create_index(op.f('ix_skills_indexed_at'), 'skills', ['indexed_at'], unique=False)
     op.create_index(op.f('ix_skills_is_active'), 'skills', ['is_active'], unique=False)

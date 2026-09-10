@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agentskills.io/schema/v1/skill.package.json",
+  "name": "agent-skill-observatory",
+  "version": "0.2.0",
+  "author": "Mamdouh Aboammar <mamdouhfces1997@gmail.com>",
+  "description": "Evidence-based discovery, validation, security analysis and ranking for open Agent Skills.",
+  "license": "Apache-2.0",
+  "homepage": "https://imMamdouhaboammar.github.io/agent-skill-observatory/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imMamdouhaboammar/agent-skill-observatory.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "skills-sh",
+    "claude-code",
+    "antigravity",
+    "cursor",
+    "codex",
+    "security-analysis",
+    "observatory"
+  ],
+  "hosts": {
+    "claude": {
+      "path": "SKILL.md",
+      "format": "markdown-frontmatter"
+    },
+    "antigravity": {
+      "path": ".agents/skills/agent-skill-observatory/SKILL.md",
+      "format": "markdown-frontmatter"
+    },
+    "cursor": {
+      "path": ".agents/skills/agent-skill-observatory/SKILL.md",
+      "format": "markdown-frontmatter"
+    },
+    "codex": {
+      "path": ".agents/skills/agent-skill-observatory/SKILL.md",
+      "format": "markdown-frontmatter"
+    }
+  },
+  "commands": {
+    "scan-local": "skillobs scan-local <path>",
+    "doctor": "skillobs doctor",
+    "stats": "skillobs stats",
+    "build-site": "skillobs build-site"
+  }
+}

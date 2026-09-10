@@ -15,7 +15,16 @@ class FakeGitHub:
         {"path": "skills/demo/scripts/check.py", "type": "blob"},
     ]
     files = {
-        "skills/demo/SKILL.md": "---\nname: demo\ndescription: Review repositories safely. Use when an agent must inspect project evidence.\nlicense: MIT\n---\n# Demo\nInspect evidence before making claims.\n",
+        "skills/demo/SKILL.md": (
+            "---\n"
+            "name: demo\n"
+            "description: Review repositories safely. "
+            "Use when an agent must inspect project evidence.\n"
+            "license: MIT\n"
+            "---\n"
+            "# Demo\n"
+            "Inspect evidence before making claims.\n"
+        ),
         "skills/demo/scripts/check.py": "print('ok')\n",
     }
 

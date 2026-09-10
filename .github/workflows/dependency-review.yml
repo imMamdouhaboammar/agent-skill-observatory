@@ -1,16 +1,16 @@
-name: Dependency review
+name: Dependency Review
 
-on:
-  pull_request:
+on: [pull_request]
 
 permissions:
   contents: read
+  pull-requests: write
 
 jobs:
   dependency-review:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v4
 
       - name: Check dependency graph availability
         id: dependency-graph
@@ -31,4 +31,4 @@ jobs:
 
       - name: Review dependency changes
         if: steps.dependency-graph.outputs.available == 'true'
-        uses: actions/dependency-review-action@v5
+        uses: actions/dependency-review-action@v4

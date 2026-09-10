@@ -10,5 +10,6 @@ def canonical_skill_key(owner: str, repo: str, path: str) -> str:
 
 
 def content_fingerprint(content: str) -> str:
-    normalized = "\n".join(line.rstrip() for line in content.replace("\r\n", "\n").split("\n")).strip() + "\n"
+    lines = [line.rstrip() for line in content.replace("\r\n", "\n").split("\n")]
+    normalized = "\n".join(lines).strip() + "\n"
     return hashlib.sha256(normalized.encode("utf-8")).hexdigest()

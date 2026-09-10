@@ -1,0 +1,14 @@
+{
+  "$schema": "https://skills.sh/schema.json",
+  "name": "agent-skill-observatory",
+  "version": "0.2.0",
+  "author": "Mamdouh Aboammar",
+  "description": "Evidence-based discovery, validation, security analysis and ranking for open Agent Skills.",
+  "repository": "https://github.com/imMamdouhaboammar/agent-skill-observatory",
+  "skills": [
+    {
+      "name": "agent-skill-observatory",
+      "path": "SKILL.md"
+    }
+  ]
+}

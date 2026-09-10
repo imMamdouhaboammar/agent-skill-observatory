@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use Agent Skill Observatory in your research or software, please cite it as below."
+authors:
+  - family-names: "Aboammar"
+    given-names: "Mamdouh"
+    email: "mamdouhfces1997@gmail.com"
+title: "Agent Skill Observatory: Evidence-based Discovery, Validation, Security Analysis and Ranking for Open Agent Skills"
+version: 0.2.0
+date-released: 2026-09-10
+url: "https://imMamdouhaboammar.github.io/agent-skill-observatory/"
+repository-code: "https://github.com/imMamdouhaboammar/agent-skill-observatory"
+license: Apache-2.0
+keywords:
+  - "agent-skills"
+  - "ai-agents"
+  - "claude-code"
+  - "antigravity"
+  - "cursor"
+  - "observatory"
+  - "security-analysis"

@@ -1,0 +1,37 @@
+{
+  "name": "agent-skill-observatory",
+  "version": "0.2.0",
+  "description": "Evidence-based discovery, validation, security analysis and ranking for open Agent Skills.",
+  "type": "module",
+  "main": "bin/cli.js",
+  "bin": {
+    "skillobs": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "skillobs serve",
+    "test": "make test",
+    "verify": "make verify",
+    "build": "make site",
+    "lint": "make lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imMamdouhaboammar/agent-skill-observatory.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "skills-sh",
+    "claude-code",
+    "antigravity",
+    "cursor",
+    "codex",
+    "security-analysis",
+    "observatory"
+  ],
+  "author": "Mamdouh Aboammar <mamdouhfces1997@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/imMamdouhaboammar/agent-skill-observatory/issues"
+  },
+  "homepage": "https://imMamdouhaboammar.github.io/agent-skill-observatory/"
+}

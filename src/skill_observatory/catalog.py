@@ -15,16 +15,26 @@ def catalog_stats(session: Session) -> dict[str, Any]:
     total = int(session.scalar(select(func.count()).select_from(SkillRecord)) or 0)
     valid = int(
         session.scalar(
-            select(func.count()).select_from(SkillRecord).where(SkillRecord.spec_json["valid"].as_boolean() == True)  # noqa: E712
+            select(func.count())
+            .select_from(SkillRecord)
+            .where(SkillRecord.spec_json["valid"].as_boolean() == True)  # noqa: E712
         )
         or 0
     )
     safe = int(
-        session.scalar(select(func.count()).select_from(SkillRecord).where(SkillRecord.security_score >= 85))
+        session.scalar(
+            select(func.count())
+            .select_from(SkillRecord)
+            .where(SkillRecord.security_score >= 85)
+        )
         or 0
     )
     high_quality = int(
-        session.scalar(select(func.count()).select_from(SkillRecord).where(SkillRecord.overall_score >= 80))
+        session.scalar(
+            select(func.count())
+            .select_from(SkillRecord)
+            .where(SkillRecord.overall_score >= 80)
+        )
         or 0
     )
     repos = int(session.scalar(select(func.count(func.distinct(SkillRecord.repo_full_name)))) or 0)
@@ -39,7 +49,11 @@ def catalog_stats(session: Session) -> dict[str, Any]:
 
 def records_as_dicts(session: Session) -> list[dict[str, Any]]:
     records = list(
-        session.scalars(select(SkillRecord).order_by(SkillRecord.overall_score.desc(), SkillRecord.stars.desc()))
+        session.scalars(
+            select(SkillRecord).order_by(
+                SkillRecord.overall_score.desc(), SkillRecord.stars.desc()
+            )
+        )
     )
     return [
         {

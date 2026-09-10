@@ -31,7 +31,10 @@ RULES = [
     Rule(
         "credential-access",
         "high",
-        re.compile(r"(?:\.ssh|\.aws/credentials|\.config/gh/hosts\.yml|id_rsa|GITHUB_TOKEN)", re.IGNORECASE),
+        re.compile(
+            r"(?:\.ssh|\.aws/credentials|\.config/gh/hosts\.yml|id_rsa|GITHUB_TOKEN)",
+            re.IGNORECASE,
+        ),
         "References credential or private-key locations.",
     ),
     Rule(

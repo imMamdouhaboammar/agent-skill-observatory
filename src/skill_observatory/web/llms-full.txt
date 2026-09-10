@@ -1,0 +1,26 @@
+# Agent Skill Observatory — Full Technical Documentation for LLMs
+
+## Overview
+Agent Skill Observatory is an evidence-based system that crawls, parses, validates, and statically analyzes open Agent Skills (repositories containing `SKILL.md` manifests conforming to the Agent Skills specification).
+
+## Author & Copyright
+- Author: Mamdouh Aboammar (mamdouhfces1997@gmail.com)
+- Copyright: (c) 2026 Mamdouh Aboammar. All rights reserved.
+- License: Apache-2.0
+
+## Non-Negotiable System Invariants
+1. Zero Remote Script Execution: Never run shell scripts, installers, curl-pipe-bash, or python code from third-party repositories during discovery or analysis.
+2. Provenance Tracking: Every indexed entry maintains the exact GitHub repository URL, branch, path, and discovery query.
+3. Decoupled Scoring: Quality, Security, Maintenance, and Adoption scores are calculated independently.
+
+## Scoring Formula
+Overall Score = 0.35 * Quality + 0.30 * Security + 0.20 * Maintenance + 0.15 * Adoption
+- Quality: Valid YAML frontmatter, name, description clarity, presence of tests/evals and documentation.
+- Security: Starts at 100, penalized for dangerous patterns (credential access, pipe-to-shell, recursive deletion, chmod 777, dynamic eval).
+- Maintenance: Penalized by age since last pushed commit. Capped at 50 if repository is archived.
+- Adoption: Bounded calculation on GitHub stars, forks, and 7-day velocity.
+
+## REST API Specification
+- `GET /api/v1/health`: Returns {"status": "ok"}.
+- `GET /api/v1/stats`: Returns overall aggregate metrics.
+- `GET /api/v1/skills`: Query parameters `q` (search text), `min_score` (0-100), `spec_valid` (true/false), `limit` (1-200), `offset` (0+). Returns paginated `SkillList`.

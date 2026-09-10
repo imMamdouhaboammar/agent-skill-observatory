@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from datetime import datetime, timedelta
+
 from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session
 
@@ -8,9 +10,16 @@ from .domain import IndexedSkill
 
 
 def upsert_skill(session: Session, skill: IndexedSkill) -> SkillRecord:
-    record = session.scalar(select(SkillRecord).where(SkillRecord.canonical_key == skill.canonical_key))
+    record = session.scalar(
+        select(SkillRecord).where(SkillRecord.canonical_key == skill.canonical_key)
+    )
     if record is None:
-        record = SkillRecord(canonical_key=skill.canonical_key, first_seen_at=skill.indexed_at, last_seen_at=skill.indexed_at, is_active=True)
+        record = SkillRecord(
+            canonical_key=skill.canonical_key,
+            first_seen_at=skill.indexed_at,
+            last_seen_at=skill.indexed_at,
+            is_active=True,
+        )
         session.add(record)
 
     record.content_fingerprint = skill.content_fingerprint
@@ -59,9 +68,16 @@ def list_skills(
     clauses = [SkillRecord.overall_score >= min_score]
     if query:
         like = f"%{query.strip()}%"
-        clauses.append(or_(SkillRecord.name.ilike(like), SkillRecord.description.ilike(like), SkillRecord.repo_full_name.ilike(like)))
+        clauses.append(
+            or_(
+                SkillRecord.name.ilike(like),
+                SkillRecord.description.ilike(like),
+                SkillRecord.repo_full_name.ilike(like),
+            )
+        )
     if spec_valid is not None:
-        # JSON boolean comparison is portable enough for SQLite/Postgres when serialized by SQLAlchemy.
+        # JSON boolean comparison is portable enough for SQLite/Postgres
+        # when serialized by SQLAlchemy.
         clauses.append(SkillRecord.spec_json["valid"].as_boolean() == spec_valid)
 
     stmt = select(SkillRecord).where(*clauses)
@@ -76,9 +92,9 @@ def list_skills(
     return items, int(total)
 
 
-def estimate_star_velocity_7d(session: Session, repo_full_name: str, current_stars: int, now) -> float:
-    from datetime import timedelta
-
+def estimate_star_velocity_7d(
+    session: Session, repo_full_name: str, current_stars: int, now: datetime
+) -> float:
     from .db import RepositorySnapshot
 
     cutoff = now - timedelta(days=14)
@@ -95,10 +111,17 @@ def estimate_star_velocity_7d(session: Session, repo_full_name: str, current_sta
     if previous is None:
         return 0.0
     elapsed_days = max((now - previous.captured_at).total_seconds() / 86400.0, 0.25)
-    return max(0.0, (current_stars - previous.stars) / elapsed_days * 7.0)
+    return float(max(0.0, (current_stars - previous.stars) / elapsed_days * 7.0))
 
 
-def record_repository_snapshot(session: Session, *, repo_full_name: str, captured_at, stars: int, forks: int) -> None:
+def record_repository_snapshot(
+    session: Session,
+    *,
+    repo_full_name: str,
+    captured_at: datetime,
+    stars: int,
+    forks: int,
+) -> None:
     from .db import RepositorySnapshot
 
     session.add(

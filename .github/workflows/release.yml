@@ -1,0 +1,48 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install build tools
+        run: python -m pip install --upgrade pip build
+
+      - name: Build Python packages (Wheel & SDist)
+        run: python -m build
+
+      - name: Package standalone Multi-Agent Skillpack
+        run: |
+          zip -r agent-skill-observatory-skillpack.zip \
+            SKILL.md \
+            skill.package.json \
+            package.json \
+            marketplace.json \
+            .skills.json \
+            install.sh \
+            references \
+            evals \
+            .agents
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*
+            agent-skill-observatory-skillpack.zip
+          generate_release_notes: true
+          draft: false
+          prerelease: false

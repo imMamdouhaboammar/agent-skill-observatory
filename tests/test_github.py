@@ -30,14 +30,24 @@ def test_github_search_tree_code_and_content() -> None:
         if path == "/search/repositories":
             return httpx.Response(200, json={"items": [repo_payload()]})
         if path == "/search/code":
-            return httpx.Response(200, json={"items": [{"repository": {"full_name": "example/skills"}}]})
+            return httpx.Response(
+                200,
+                json={"items": [{"repository": {"full_name": "example/skills"}}]},
+            )
         if path == "/repos/example/skills":
             return httpx.Response(200, json=repo_payload())
         if path.endswith("/git/trees/main"):
-            return httpx.Response(200, json={"tree": [{"path": "skills/demo/SKILL.md", "type": "blob"}]})
+            return httpx.Response(
+                200,
+                json={"tree": [{"path": "skills/demo/SKILL.md", "type": "blob"}]},
+            )
         if path.endswith("/contents/skills/demo/SKILL.md"):
-            data = base64.b64encode(b"---\nname: demo\ndescription: Demo. Use when needed.\n---\nBody\n").decode()
-            return httpx.Response(200, json={"type": "file", "size": 60, "encoding": "base64", "content": data})
+            manifest = b"---\nname: demo\ndescription: Demo. Use when needed.\n---\nBody\n"
+            data = base64.b64encode(manifest).decode()
+            return httpx.Response(
+                200,
+                json={"type": "file", "size": 60, "encoding": "base64", "content": data},
+            )
         return httpx.Response(404, json={"message": "not found"})
 
     transport = httpx.MockTransport(handler)
@@ -55,7 +65,11 @@ def test_github_search_tree_code_and_content() -> None:
 
 def test_github_error_includes_rate_limit() -> None:
     transport = httpx.MockTransport(
-        lambda request: httpx.Response(403, headers={"x-ratelimit-remaining": "0"}, json={"message": "rate"})
+        lambda request: httpx.Response(
+            403,
+            headers={"x-ratelimit-remaining": "0"},
+            json={"message": "rate"},
+        )
     )
     http = httpx.Client(base_url="https://api.github.com", transport=transport)
     client = GitHubClient(Settings(), client=http)

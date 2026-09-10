@@ -30,7 +30,11 @@ class GitHubError(RuntimeError):
 
 
 class GitHubClient:
-    def __init__(self, settings: Settings | None = None, client: httpx.Client | None = None) -> None:
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        client: httpx.Client | None = None,
+    ) -> None:
         self.settings = settings or Settings()
         headers = {
             "Accept": "application/vnd.github+json",
@@ -80,18 +84,22 @@ class GitHubClient:
             discovery_source=source,
         )
 
-    def search_repositories(self, query: str, per_page: int | None = None) -> list[DiscoveredRepository]:
+    def search_repositories(
+        self, query: str, per_page: int | None = None
+    ) -> list[DiscoveredRepository]:
         size = min(per_page or self.settings.max_repositories_per_query, 100)
         response = self._get(
             "/search/repositories",
             params={"q": query, "sort": "updated", "order": "desc", "per_page": size},
         )
-        return [self._repository(item, f"repo-search:{query}") for item in response.json().get("items", [])]
+        return [
+            self._repository(item, f"repo-search:{query}")
+            for item in response.json().get("items", [])
+        ]
 
     def get_repository(self, full_name: str, source: str = "seed") -> DiscoveredRepository:
         response = self._get(f"/repos/{full_name}")
         return self._repository(response.json(), source)
-
 
     def search_code_repositories(self, query: str, per_page: int = 50) -> list[str]:
         if not self.settings.github_token:
@@ -110,7 +118,9 @@ class GitHubClient:
                 names.append(full_name)
         return names
 
-    def discover(self, queries: tuple[str, ...] = DEFAULT_DISCOVERY_QUERIES) -> list[DiscoveredRepository]:
+    def discover(
+        self, queries: tuple[str, ...] = DEFAULT_DISCOVERY_QUERIES
+    ) -> list[DiscoveredRepository]:
         discovered: dict[str, DiscoveredRepository] = {}
         for query in queries:
             for repo in self.search_repositories(query):
@@ -153,7 +163,9 @@ class GitHubClient:
             raise GitHubError(f"Recursive tree for {repo.full_name} is truncated")
         return list(payload.get("tree") or [])
 
-    def read_text_file(self, repo: DiscoveredRepository, path: str, max_bytes: int = 512_000) -> str:
+    def read_text_file(
+        self, repo: DiscoveredRepository, path: str, max_bytes: int = 512_000
+    ) -> str:
         safe_path = quote(path, safe="/")
         response = self._get(
             f"/repos/{repo.full_name}/contents/{safe_path}",

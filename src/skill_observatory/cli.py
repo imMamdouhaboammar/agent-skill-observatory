@@ -20,7 +20,10 @@ from .publishing import publish_catalog
 from .scoring import score_skill
 from .security import assess_skill_security
 
-app = typer.Typer(no_args_is_help=True, help="Discover, validate, score and publish open Agent Skills.")
+app = typer.Typer(
+    no_args_is_help=True,
+    help="Discover, validate, score and publish open Agent Skills.",
+)
 
 
 def _settings(database_url: str | None = None) -> Settings:
@@ -29,7 +32,9 @@ def _settings(database_url: str | None = None) -> Settings:
 
 
 @app.command("init-db")
-def init_db(database_url: str | None = typer.Option(None, help="SQLAlchemy database URL.")) -> None:
+def init_db(
+    database_url: str | None = typer.Option(None, help="SQLAlchemy database URL."),
+) -> None:
     settings = _settings(database_url)
     init_database(settings.database_url)
     typer.echo(f"Initialized {settings.database_url}")
@@ -46,7 +51,9 @@ def migrate(
 
 
 @app.command()
-def scan_local(path: Path = typer.Argument(..., exists=True, file_okay=False, readable=True)) -> None:
+def scan_local(
+    path: Path = typer.Argument(..., exists=True, file_okay=False, readable=True),
+) -> None:
     parsed = parse_skill_directory(path)
     security = assess_skill_security(parsed)
     now = datetime.now(UTC)
@@ -78,7 +85,9 @@ def scan_local(path: Path = typer.Argument(..., exists=True, file_okay=False, re
 @app.command()
 def refresh(
     database_url: str | None = typer.Option(None, help="SQLAlchemy database URL."),
-    max_repositories: int | None = typer.Option(None, min=1, help="Bound the number of candidate repos."),
+    max_repositories: int | None = typer.Option(
+        None, min=1, help="Bound the number of candidate repos."
+    ),
 ) -> None:
     settings = _settings(database_url)
     init_database(settings.database_url)
@@ -185,3 +194,7 @@ def serve(
     reload: bool = typer.Option(False),
 ) -> None:
     uvicorn.run("skill_observatory.api:app", host=host, port=port, reload=reload)
+
+
+if __name__ == "__main__":
+    app()
