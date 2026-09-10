@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import hashlib
+import json
 import tempfile
 from collections.abc import Iterable
 from datetime import UTC, datetime
@@ -16,6 +18,7 @@ from .parser import SkillParseError, parse_skill_directory
 from .repository import (
     estimate_star_velocity_7d,
     find_duplicate_key,
+    reconcile_successful_repository_scan,
     record_repository_snapshot,
     upsert_skill,
 )
@@ -67,7 +70,7 @@ def _paths_for_skill(tree: list[dict[str, Any]], root: str) -> list[str]:
             suffix = PurePosixPath(rel).suffix.lower()
             if suffix in TEXTISH_SUFFIXES or top == "assets":
                 paths.append(path)
-    return paths[:MAX_SKILL_FILES]
+    return sorted(paths)[:MAX_SKILL_FILES]
 
 
 def _safe_local_path(base: Path, relative: str) -> Path:
@@ -78,16 +81,37 @@ def _safe_local_path(base: Path, relative: str) -> Path:
     return candidate
 
 
+def _hash_source_files(files: list[tuple[str, str]]) -> str:
+    digest = hashlib.sha256()
+    for relative, text in sorted(files):
+        digest.update(relative.encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(text.encode("utf-8"))
+        digest.update(b"\0")
+    return digest.hexdigest()
+
+
+def _hash_analysis(payload: dict[str, Any]) -> str:
+    encoded = json.dumps(
+        payload,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
 def _materialize_skill(
     client: GitHubClient,
     repo: DiscoveredRepository,
     root: str,
     tree: list[dict[str, Any]],
     temp: Path,
-) -> Path:
+) -> tuple[Path, str]:
     skill_dir = temp / (PurePosixPath(root).name if root else repo.full_name.split("/")[-1])
     skill_dir.mkdir(parents=True, exist_ok=True)
     prefix = f"{root}/" if root else ""
+    inspected: list[tuple[str, str]] = []
     for remote_path in _paths_for_skill(tree, root):
         rel = remote_path[len(prefix) :]
         local_path = _safe_local_path(skill_dir, rel)
@@ -98,6 +122,7 @@ def _materialize_skill(
             if rel.lower() == "skill.md":
                 raise
             continue
+        inspected.append((rel, text))
         local_path.write_text(text, encoding="utf-8")
     canonical_manifest = skill_dir / "SKILL.md"
     if not canonical_manifest.exists():
@@ -105,7 +130,7 @@ def _materialize_skill(
             if item.is_file() and item.name.lower() == "skill.md":
                 item.rename(canonical_manifest)
                 break
-    return skill_dir
+    return skill_dir, _hash_source_files(inspected)
 
 
 def _repo_has_tests(tree: list[dict[str, Any]]) -> bool:
@@ -124,6 +149,33 @@ def _repo_has_readme(tree: list[dict[str, Any]]) -> bool:
     )
 
 
+def _observed_keys(repo: DiscoveredRepository, roots: list[str]) -> set[str]:
+    owner, name = repo.full_name.split("/", 1)
+    return {canonical_skill_key(owner, name, root or ".") for root in roots}
+
+
+def _record_successful_scan(
+    session: Session,
+    repo: DiscoveredRepository,
+    *,
+    observed_keys: set[str],
+    scanned_at: datetime,
+) -> None:
+    reconcile_successful_repository_scan(
+        session,
+        repo_full_name=repo.full_name,
+        observed_keys=observed_keys,
+        scanned_at=scanned_at,
+    )
+    record_repository_snapshot(
+        session,
+        repo_full_name=repo.full_name,
+        captured_at=scanned_at,
+        stars=repo.stars,
+        forks=repo.forks,
+    )
+
+
 def index_repository(
     client: GitHubClient,
     session: Session,
@@ -134,7 +186,14 @@ def index_repository(
     indexed_at = now or datetime.now(UTC)
     tree = client.recursive_tree(repo)
     roots = _candidate_skill_roots(tree)
+    observed_keys = _observed_keys(repo, roots)
     if not roots:
+        _record_successful_scan(
+            session,
+            repo,
+            observed_keys=observed_keys,
+            scanned_at=indexed_at,
+        )
         return 0, []
 
     velocity = estimate_star_velocity_7d(session, repo.full_name, repo.stars, indexed_at)
@@ -156,7 +215,9 @@ def index_repository(
         temp = Path(tmp)
         for root in roots:
             try:
-                local_dir = _materialize_skill(client, repo, root, tree, temp)
+                local_dir, source_fingerprint = _materialize_skill(
+                    client, repo, root, tree, temp
+                )
                 parsed = parse_skill_directory(local_dir)
                 security = assess_skill_security(parsed)
                 score = score_skill(
@@ -172,9 +233,22 @@ def index_repository(
                 duplicate_of = find_duplicate_key(session, fingerprint, canonical_key)
                 categories = classify_categories(parsed.description, parsed.body)
                 clients = infer_clients(root or ".", parsed.compatibility, parsed.files)
+                analysis_fingerprint = _hash_analysis(
+                    {
+                        "spec": parsed.spec.model_dump(mode="json"),
+                        "security": security.model_dump(mode="json"),
+                        "categories": categories,
+                        "client_compatibility_evidence": clients,
+                        "duplicate_of": duplicate_of,
+                        "resources": parsed.resource_counts.model_dump(mode="json"),
+                        "quality_score": score.quality,
+                    }
+                )
                 indexed = IndexedSkill(
                     canonical_key=canonical_key,
                     content_fingerprint=fingerprint,
+                    source_fingerprint=source_fingerprint,
+                    analysis_fingerprint=analysis_fingerprint,
                     repo_full_name=repo.full_name,
                     repo_url=repo.html_url,
                     repo_default_branch=repo.default_branch,
@@ -195,6 +269,8 @@ def index_repository(
                     archived=repo.archived,
                     discovery_source=repo.discovery_source,
                     indexed_at=indexed_at,
+                    consecutive_misses=0,
+                    last_successful_repo_scan_at=indexed_at,
                     evidence={
                         "manifest": (
                             f"{repo.html_url}/blob/{repo.default_branch}/"
@@ -218,12 +294,11 @@ def index_repository(
                 count += 1
             except (GitHubError, SkillParseError, OSError, ValueError) as exc:
                 errors.append(f"{repo.full_name}:{root or '.'}: {exc}")
-    record_repository_snapshot(
+    _record_successful_scan(
         session,
-        repo_full_name=repo.full_name,
-        captured_at=indexed_at,
-        stars=repo.stars,
-        forks=repo.forks,
+        repo,
+        observed_keys=observed_keys,
+        scanned_at=indexed_at,
     )
     return count, errors
 

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 
 from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session
@@ -23,6 +23,8 @@ def upsert_skill(session: Session, skill: IndexedSkill) -> SkillRecord:
         session.add(record)
 
     record.content_fingerprint = skill.content_fingerprint
+    record.source_fingerprint = skill.source_fingerprint
+    record.analysis_fingerprint = skill.analysis_fingerprint
     record.repo_full_name = skill.repo_full_name
     record.repo_url = skill.repo_url
     record.repo_default_branch = skill.repo_default_branch
@@ -51,9 +53,33 @@ def upsert_skill(session: Session, skill: IndexedSkill) -> SkillRecord:
     record.adoption_score = skill.score.adoption
     record.last_seen_at = skill.indexed_at
     record.is_active = True
+    record.consecutive_misses = 0
+    record.last_successful_repo_scan_at = skill.last_successful_repo_scan_at or skill.indexed_at
     session.commit()
     session.refresh(record)
     return record
+
+
+def reconcile_successful_repository_scan(
+    session: Session,
+    *,
+    repo_full_name: str,
+    observed_keys: set[str],
+    scanned_at: datetime,
+) -> None:
+    records = list(
+        session.scalars(select(SkillRecord).where(SkillRecord.repo_full_name == repo_full_name))
+    )
+    for record in records:
+        record.last_successful_repo_scan_at = scanned_at
+        if record.canonical_key in observed_keys:
+            record.consecutive_misses = 0
+            record.is_active = True
+            continue
+        record.consecutive_misses += 1
+        if record.consecutive_misses >= 2:
+            record.is_active = False
+    session.commit()
 
 
 def list_skills(
@@ -92,6 +118,12 @@ def list_skills(
     return items, int(total)
 
 
+def _as_utc(value: datetime) -> datetime:
+    if value.tzinfo is None:
+        return value.replace(tzinfo=UTC)
+    return value.astimezone(UTC)
+
+
 def estimate_star_velocity_7d(
     session: Session, repo_full_name: str, current_stars: int, now: datetime
 ) -> float:
@@ -110,7 +142,10 @@ def estimate_star_velocity_7d(
     )
     if previous is None:
         return 0.0
-    elapsed_days = max((now - previous.captured_at).total_seconds() / 86400.0, 0.25)
+    elapsed_days = max(
+        (_as_utc(now) - _as_utc(previous.captured_at)).total_seconds() / 86400.0,
+        0.25,
+    )
     return float(max(0.0, (current_stars - previous.stars) / elapsed_days * 7.0))
 
 

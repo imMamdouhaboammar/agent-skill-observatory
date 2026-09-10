@@ -19,6 +19,8 @@ class SkillRecord(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     canonical_key: Mapped[str] = mapped_column(String(500), unique=True, index=True)
     content_fingerprint: Mapped[str] = mapped_column(String(64), index=True)
+    source_fingerprint: Mapped[str] = mapped_column(String(64), default="")
+    analysis_fingerprint: Mapped[str] = mapped_column(String(64), default="")
     repo_full_name: Mapped[str] = mapped_column(String(250), index=True)
     repo_url: Mapped[str] = mapped_column(String(500))
     repo_default_branch: Mapped[str] = mapped_column(String(200))
@@ -44,6 +46,10 @@ class SkillRecord(Base):
     first_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
     last_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True, index=True)
+    consecutive_misses: Mapped[int] = mapped_column(Integer, default=0)
+    last_successful_repo_scan_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
     quality_score: Mapped[int] = mapped_column(Integer, default=0)
     security_score: Mapped[int] = mapped_column(Integer, default=0)
     maintenance_score: Mapped[int] = mapped_column(Integer, default=0)
