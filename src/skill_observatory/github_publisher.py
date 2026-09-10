@@ -165,7 +165,8 @@ class GitHubAtomicPublisher:
         if not isinstance(content, str) or encoding != "base64":
             raise GitHubPublisherError(f"GitHub content payload invalid for {path}")
         try:
-            return base64.b64decode(content, validate=True).decode("utf-8")
+            normalized = "".join(content.split())
+            return base64.b64decode(normalized, validate=True).decode("utf-8")
         except (ValueError, UnicodeDecodeError) as exc:
             raise GitHubPublisherError(f"GitHub content is not valid UTF-8 base64 for {path}") from exc
 
