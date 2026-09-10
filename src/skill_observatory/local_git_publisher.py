@@ -3,6 +3,12 @@ from __future__ import annotations
 import subprocess
 from pathlib import Path
 
+from .aggregate_publication import (
+    AGGREGATE_PATHS,
+    MEANINGFUL_AGGREGATE_PATHS,
+    AggregatePublicationResult,
+    validate_aggregate_outputs,
+)
 from .directory import DirectoryPatch, render_skill_event
 from .events import PublicationResult, PublishedSkillRecord, SkillEvent
 from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
@@ -37,6 +43,11 @@ class LocalGitAtomicPublisher:
             raise GitHubPublisherError(f"unsafe publication path: {relative}")
         return path
 
+    def _ensure_clean_index(self) -> None:
+        staged = self._git("diff", "--cached", "--name-only")
+        if staged:
+            raise GitHubPublisherError("local publication requires a clean Git index")
+
     def current_head(self, repository: str, branch: str = "main") -> str:
         del repository
         current_branch = self._git("branch", "--show-current")
@@ -61,6 +72,18 @@ class LocalGitAtomicPublisher:
         if paths:
             self._git("add", "-A", "--", *paths)
 
+    def _commit(self, message: str) -> str:
+        self._git(
+            "-c",
+            f"user.name={BOT_NAME}",
+            "-c",
+            f"user.email={BOT_EMAIL}",
+            "commit",
+            "-m",
+            message,
+        )
+        return self._git("rev-parse", "HEAD")
+
     def publish_event(
         self,
         event: SkillEvent,
@@ -74,6 +97,7 @@ class LocalGitAtomicPublisher:
             raise ValueError("max_attempts must be at least 1")
 
         parent_sha = self.current_head(repository, branch)
+        self._ensure_clean_index()
         readme_path = self._path("README.md")
         if not readme_path.is_file():
             raise GitHubPublisherError("root README.md is missing")
@@ -95,17 +119,7 @@ class LocalGitAtomicPublisher:
                 attempts=1,
             )
 
-        message = GitHubAtomicPublisher._commit_message(event)
-        self._git(
-            "-c",
-            f"user.name={BOT_NAME}",
-            "-c",
-            f"user.email={BOT_EMAIL}",
-            "commit",
-            "-m",
-            message,
-        )
-        commit_sha = self._git("rev-parse", "HEAD")
+        commit_sha = self._commit(GitHubAtomicPublisher._commit_message(event))
         return PublicationResult(
             canonical_key=event.canonical_key,
             event_type=event.type,
@@ -115,3 +129,42 @@ class LocalGitAtomicPublisher:
             attempts=1,
             files_changed=sorted({*patch.writes, *patch.deletes}),
         )
+
+
+def publish_local_materialized_views(
+    publisher: LocalGitAtomicPublisher,
+    outputs: dict[str, str],
+    *,
+    repository: str,
+    branch: str = "main",
+) -> AggregatePublicationResult:
+    validate_aggregate_outputs(outputs)
+    parent_sha = publisher.current_head(repository, branch)
+    publisher._ensure_clean_index()
+
+    current: dict[str, str | None] = {}
+    for relative in sorted(AGGREGATE_PATHS):
+        path = publisher._path(relative)
+        current[relative] = path.read_text(encoding="utf-8") if path.is_file() else None
+
+    meaningful_changed = any(
+        current[path] != outputs[path] for path in MEANINGFUL_AGGREGATE_PATHS
+    )
+    if not meaningful_changed:
+        return AggregatePublicationResult(status="noop", parent_sha=parent_sha)
+
+    writes = {
+        path: outputs[path]
+        for path in sorted(AGGREGATE_PATHS)
+        if current[path] != outputs[path]
+    }
+    patch = DirectoryPatch(writes=writes)
+    publisher._apply_patch(patch)
+    publisher._stage_patch(patch)
+    commit_sha = publisher._commit("catalog: refresh materialized views")
+    return AggregatePublicationResult(
+        status="published",
+        commit_sha=commit_sha,
+        parent_sha=parent_sha,
+        files_changed=sorted(writes),
+    )
