@@ -75,6 +75,16 @@ def build_published_record(
     )
 
 
+def _event_priority(
+    event_type: SkillEventType,
+    *,
+    security_downgrade: bool = False,
+) -> int:
+    if security_downgrade:
+        return 0
+    return {"remove": 1, "update": 2, "reindex": 3, "add": 4}[event_type]
+
+
 def compute_skill_events(
     observed: list[IndexedSkill],
     published: dict[str, PublishedSkillRecord],
@@ -82,17 +92,61 @@ def compute_skill_events(
     observed_at: datetime,
 ) -> list[SkillEvent]:
     events: list[SkillEvent] = []
-    for skill in sorted(observed, key=lambda item: item.canonical_key):
-        if skill.canonical_key in published or skill.consecutive_misses != 0:
+    seen: set[str] = set()
+    for skill in observed:
+        if skill.canonical_key in seen:
+            raise ValueError(f"duplicate observed canonical key: {skill.canonical_key}")
+        seen.add(skill.canonical_key)
+
+        before = published.get(skill.canonical_key)
+        if before is None:
+            if skill.consecutive_misses != 0:
+                continue
+            after = build_published_record(skill, published_at=observed_at, event="add")
+            events.append(
+                SkillEvent(
+                    type="add",
+                    canonical_key=skill.canonical_key,
+                    after=after,
+                    priority=_event_priority("add"),
+                    observed_at=observed_at,
+                )
+            )
             continue
-        after = build_published_record(skill, published_at=observed_at, event="add")
+
+        if skill.consecutive_misses >= 2:
+            events.append(
+                SkillEvent(
+                    type="remove",
+                    canonical_key=skill.canonical_key,
+                    before=before,
+                    priority=_event_priority("remove"),
+                    observed_at=observed_at,
+                )
+            )
+            continue
+        if skill.consecutive_misses != 0:
+            continue
+
+        security_downgrade = skill.security.score < before.skill.security.score
+        event_type: SkillEventType | None = None
+        if skill.source_fingerprint != before.source_fingerprint:
+            event_type = "update"
+        elif skill.analysis_fingerprint != before.analysis_fingerprint:
+            event_type = "reindex"
+        if event_type is None:
+            continue
+
+        after = build_published_record(skill, published_at=observed_at, event=event_type)
         events.append(
             SkillEvent(
-                type="add",
+                type=event_type,
                 canonical_key=skill.canonical_key,
+                before=before,
                 after=after,
-                priority=5,
+                priority=_event_priority(event_type, security_downgrade=security_downgrade),
                 observed_at=observed_at,
             )
         )
-    return events
+
+    return sorted(events, key=lambda event: (event.priority, event.canonical_key))
