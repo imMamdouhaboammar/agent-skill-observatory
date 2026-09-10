@@ -263,3 +263,14 @@ def test_local_git_publisher_redacts_credentials_from_remote_validation_errors(
         )
 
     assert secret not in str(exc_info.value)
+
+
+def test_local_git_publisher_serializes_checkout_transactions(tmp_path: Path) -> None:
+    _prepare_repo(tmp_path)
+    first = LocalGitAtomicPublisher(checkout_root=tmp_path)
+    second = LocalGitAtomicPublisher(checkout_root=tmp_path)
+
+    with first._publication_lock():
+        with pytest.raises(PublicationError, match="lock"):
+            with second._publication_lock(blocking=False):
+                raise AssertionError("second publication transaction acquired checkout lock")
