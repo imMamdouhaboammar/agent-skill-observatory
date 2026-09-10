@@ -15,6 +15,7 @@ from .dedupe import canonical_skill_key, content_fingerprint
 from .domain import DiscoveredRepository, IndexedSkill, RepositorySignals
 from .github import GitHubClient, GitHubError
 from .parser import SkillParseError, parse_skill_directory
+from .qualification import qualify_skill
 from .repository import (
     estimate_star_velocity_7d,
     find_duplicate_key,
@@ -231,12 +232,19 @@ def index_repository(
                 canonical_key = canonical_skill_key(repo_owner, repo_name, root or ".")
                 fingerprint = content_fingerprint(parsed.raw)
                 duplicate_of = find_duplicate_key(session, fingerprint, canonical_key)
+                qualification = qualify_skill(
+                    parsed,
+                    security,
+                    repo_signals,
+                    duplicate_of=duplicate_of,
+                )
                 categories = classify_categories(parsed.description, parsed.body)
                 clients = infer_clients(root or ".", parsed.compatibility, parsed.files)
                 analysis_fingerprint = _hash_analysis(
                     {
                         "spec": parsed.spec.model_dump(mode="json"),
                         "security": security.model_dump(mode="json"),
+                        "qualification": qualification.model_dump(mode="json"),
                         "categories": categories,
                         "client_compatibility_evidence": clients,
                         "duplicate_of": duplicate_of,
@@ -283,6 +291,7 @@ def index_repository(
                         "categories": categories,
                         "client_compatibility_evidence": clients,
                         "duplicate_of": duplicate_of,
+                        "qualification": qualification.model_dump(mode="json"),
                         "source_tier": (
                             "official-seed"
                             if repo.discovery_source == "official-seed"
