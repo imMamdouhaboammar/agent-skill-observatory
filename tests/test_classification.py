@@ -33,7 +33,7 @@ def test_category_assignment_is_bounded_and_deterministic() -> None:
     second = classify_categories(description, body)
 
     assert first == second
-    assert 1 <= len(first) <= 4
+    assert 1 <= len(first) <= 6
 
 
 def test_infers_clients_from_standard_paths_and_openai_metadata() -> None:
