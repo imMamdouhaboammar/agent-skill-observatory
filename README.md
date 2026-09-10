@@ -40,6 +40,28 @@ The verified catalog is also published directly inside this repository as struct
 The automated refresh workflow checks GitHub every 15 minutes and regenerates the Markdown directory, README summary, and JSON/CSV exports.
 
 <!-- AWESOME_INDEX_START -->
+Last refreshed: **2026-09-10 06:49 UTC**
+
+**3471 verified skills** across **89 repositories** · 3357 with security score 85+ · 3367 with overall score 80+
+
+[Browse the full Awesome catalog](./AWESOME.md) · [Open the GitHub Awesome path](./awesome/) · [Download JSON](./data/catalog.json) · [Repositories JSON](./data/repositories.json)
+
+### Top verified skills
+
+| Skill | Repository | Score | Security | Stars | Category |
+|---|---|---:|---:|---:|---|
+| [ripwire-write-tests](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-write-tests/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, content |
+| [ripwire-router](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-router/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, content |
+| [ripwire-reuse-first](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-reuse-first/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, content |
+| [ripwire-quality-bar](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-quality-bar/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, design |
+| [ripwire-perf-target](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-perf-target/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, design |
+| [ripwire-orient](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-orient/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, design |
+| [ripwire-opt-remarks](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-opt-remarks/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, content |
+| [ripwire-navigate](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-navigate/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | design, engineering |
+| [ripwire-mcp](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-mcp/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, design |
+| [ripwire-layers](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-layers/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | design, data |
+| [ripwire-handoff](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-handoff/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, productivity |
+| [ripwire-graph-query](https://github.com/redhat-et/ripwire/blob/main/skills/ripwire-graph-query/SKILL.md) | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | 100 | 100 | 1843 | engineering, content |
 <!-- AWESOME_INDEX_END -->
 
 ---
