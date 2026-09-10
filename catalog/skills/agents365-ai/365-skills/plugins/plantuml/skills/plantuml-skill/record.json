@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/plantuml/skills/plantuml-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/plantuml/skills/plantuml-skill",
+    "compatibility": "Requires curl on PATH (pre-installed on macOS/Linux/Windows Git Bash). Default renderer is the public Kroki API at https://kroki.io; can also point to a local Kroki Docker instance, or fall back to a local PlantUML jar + Java + Graphviz.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "77d383c6aeecf92568ec2ed123050c764de11541314ed2b6f7642c94d1b70561",
+    "description": "Use when user requests diagrams, flowcharts, sequence diagrams, class diagrams, component diagrams, ER diagrams, architecture charts, or visualizations — including generating a diagram from existing source code, or rendering/extracting PlantUML embedded in a Markdown file to images (e.g. preparing docs for Confluence/Notion). Also use proactively when explaining systems with 3+ components, APIs, data flows, or class hierarchies. Generates .puml files and exports to PNG/SVG via Kroki API (no local install required).",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "design",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/plantuml/skills/plantuml-skill/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "author": "Agents365-ai",
+      "hermes": "{'tags': ['plantuml', 'diagram', 'flowchart', 'sequence', 'class', 'uml', 'architecture', 'kroki'], 'category': 'design', 'requires_tools': ['curl'], 'related_skills': ['drawio', 'mermaid', 'excalidraw', 'tldraw']}",
+      "openclaw": "{'requires': {'bins': ['curl']}, 'emoji': '🧩', 'os': ['darwin', 'linux', 'win32']}",
+      "version": "1.5.0"
+    },
+    "name": "plantuml-skill",
+    "path": "plugins/plantuml/skills/plantuml-skill",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 90,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 90
+    },
+    "security": {
+      "findings": [
+        {
+          "evidence": "sudo apt install graphviz  # Ubuntu",
+          "file": "SKILL.md",
+          "line": 70,
+          "message": "Requests elevated operating-system privileges.",
+          "rule": "sudo",
+          "severity": "medium"
+        }
+      ],
+      "score": 90
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
