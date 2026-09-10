@@ -1,0 +1,94 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/drawio/skills/drawio-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/drawio/skills/drawio-skill",
+    "compatibility": "Requires draw.io desktop app CLI on PATH (macOS/Linux/Windows). Self-check step requires a vision-enabled model (e.g., Claude Sonnet/Opus); gracefully skipped if unavailable. Optional auto-layout (scripts/autolayout.py) needs Graphviz (dot).",
+    "consecutive_misses": 0,
+    "content_fingerprint": "b5b6f5cb2f53b9ea9c9d33f6b6e14b2d45c1f6d14ed54d6f0991e20b32711600",
+    "description": "Use when the user requests diagrams, flowcharts, architecture diagrams, ER diagrams, UML / sequence / class diagrams, SysML / MBSE diagrams (block definition, internal block, requirement, parametric), BPMN business process diagrams, swimlane / cross-functional flowcharts, network topology, cloud architecture from Terraform or Kubernetes manifests, ML/DL model figures (Transformer/CNN/LSTM), mind maps, or any visualization. Also use proactively when explaining systems with 3+ components, complex data flows, or relationships that benefit from visual representation. Best suited when the diagram needs custom styling, rich shape vocabulary, swimlanes, or exportable images (PNG/SVG/PDF/JPG). Generates .drawio XML and exports locally via the native draw.io desktop CLI.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "devops",
+        "content",
+        "design",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "compatibility metadata names Claude"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/drawio/skills/drawio-skill/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 52
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "author": "Agents365-ai",
+      "hermes": "{'tags': ['drawio', 'diagram', 'flowchart', 'architecture', 'visualization', 'uml'], 'category': 'design', 'requires_tools': ['drawio', 'draw.io'], 'related_skills': ['mermaid', 'excalidraw', 'plantuml']}",
+      "openclaw": "{'requires': {'anyBins': ['draw.io', 'drawio']}, 'emoji': '📐', 'os': ['darwin', 'linux', 'win32'], 'install': [{'id': 'brew-drawio', 'kind': 'brew', 'formula': 'drawio', 'bins': ['drawio'], 'label': 'Install draw.io via Homebrew', 'os': ['darwin']}, {'id': 'brew-graphviz', 'kind': 'brew', 'formula': 'graphviz', 'bins': ['dot'], 'label': 'Install Graphviz for optional autolayout.py', 'os': ['darwin'], 'optional': True}]}",
+      "version": "2.1.0"
+    },
+    "name": "drawio-skill",
+    "path": "plugins/drawio/skills/drawio-skill",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 13,
+      "scripts": 38
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 88,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 90
+    },
+    "security": {
+      "findings": [
+        {
+          "evidence": "sudo apt install graphviz",
+          "file": "references/autolayout.md",
+          "line": 17,
+          "message": "Requests elevated operating-system privileges.",
+          "rule": "sudo",
+          "severity": "medium"
+        }
+      ],
+      "score": 90
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
