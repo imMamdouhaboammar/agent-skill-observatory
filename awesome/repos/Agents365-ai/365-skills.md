@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills)
 
-Published Skills: 18
+Published Skills: 19
 Categories: content, data, design, devops, engineering, productivity, research
 Best overall score: 93
-Security distribution: 85+=18, 60-84=0, <60=0
+Security distribution: 85+=19, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,6 +21,7 @@ Security distribution: 85+=18, 60-84=0, <60=0
 | [mermaid-skill](../../skills/Agents365-ai/365-skills/plugins/mermaid/skills/mermaid-skill/README.md) | `plugins/mermaid/skills/mermaid-skill` | 93 | 100 | content, data, design, engineering |
 | [paper-fetch](../../skills/Agents365-ai/365-skills/plugins/paper-fetch/skills/paper-fetch/README.md) | `plugins/paper-fetch/skills/paper-fetch` | 93 | 100 | content, design, engineering, research |
 | [pi-prompting](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-prompting/README.md) | `plugins/pi-plugin-cc/skills/pi-prompting` | 93 | 100 | design, engineering, productivity, research |
+| [semanticscholar-skill](../../skills/Agents365-ai/365-skills/plugins/semanticscholar/skills/semanticscholar-skill/README.md) | `plugins/semanticscholar/skills/semanticscholar-skill` | 93 | 100 | content, data, engineering, research |
 | [obsidian-organizer](../../skills/Agents365-ai/365-skills/plugins/obsidian-organizer/skills/obsidian-organizer/README.md) | `plugins/obsidian-organizer/skills/obsidian-organizer` | 91 | 100 | content, data, engineering, research |
 | [pi-cli-runtime](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) | `plugins/pi-plugin-cc/skills/pi-cli-runtime` | 91 | 100 | content, engineering, productivity, research |
 | [pi-result-handling](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-result-handling/README.md) | `plugins/pi-plugin-cc/skills/pi-result-handling` | 91 | 100 | design, engineering, research |

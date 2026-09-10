@@ -1,0 +1,81 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/semanticscholar/skills/semanticscholar-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/semanticscholar/skills/semanticscholar-skill",
+    "compatibility": "Requires python3 and the `requests` package. Set S2_API_KEY for higher rate limits (request at https://www.semanticscholar.org/product/api#api-key). Works unauthenticated with strict rate limits.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "744b457dd756a0e6fa57bb6b0d1f42fbe97db40f57ced448e81c820cab47e6ba",
+    "description": "Use when searching academic papers, looking up citations, finding authors, or getting paper recommendations using the Semantic Scholar API. Triggers on queries about research papers, academic search, citation analysis, or literature discovery.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/semanticscholar/skills/semanticscholar-skill/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "author": "Agents365-ai",
+      "hermes": "{'tags': ['semantic-scholar', 'academic', 'paper-search', 'citation', 'literature', 'research'], 'category': 'research', 'requires_tools': ['python3'], 'related_skills': ['asta-skill', 'zotero-research-assistant', 'literature-review', 'paper-reader']}",
+      "openclaw": "{'requires': {'bins': ['python3']}, 'emoji': '📚'}",
+      "version": "0.8.1"
+    },
+    "name": "semanticscholar-skill",
+    "path": "plugins/semanticscholar/skills/semanticscholar-skill",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
