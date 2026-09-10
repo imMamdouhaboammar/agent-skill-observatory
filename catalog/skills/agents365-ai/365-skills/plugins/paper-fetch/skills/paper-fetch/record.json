@@ -1,0 +1,81 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/paper-fetch/skills/paper-fetch",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/paper-fetch/skills/paper-fetch",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "64b158107f87d8e8557ccc8f482dca06e0c8c9aaf3190a40a74b5c9c4ed68c8f",
+    "description": "Use whenever the user wants to obtain, download, or fetch a paper's PDF — given a DOI, an arXiv id, a paper title, a citation, or a list of DOIs. Trigger on phrases like \"download this paper\", \"find the PDF for [DOI]\", \"grab me the [Nature/bioRxiv/arXiv] paper on X\", \"get the open-access version\", \"I need this article\", or any bulk/batch paper download request, even when the user doesn't explicitly say \"PDF\" or \"DOI\". Resolves via Unpaywall → Semantic Scholar → arXiv → PubMed Central → bioRxiv/medRxiv → publisher direct (institutional opt-in) → Sci-Hub mirrors as last-resort fallback.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "research",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/paper-fetch/skills/paper-fetch/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "author": "Agents365-ai",
+      "openclaw": "{'requires': {'bins': ['python3']}, 'emoji': '📄'}",
+      "pimo": "{'category': 'research', 'tags': ['paper', 'pdf', 'doi', 'open-access', 'download']}",
+      "version": "0.15.1"
+    },
+    "name": "paper-fetch",
+    "path": "plugins/paper-fetch/skills/paper-fetch",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 2
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
