@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **21**
+Published skills: **22**
 Repositories: **5**
 
 ## Browse repositories
@@ -45,3 +45,4 @@ Repositories: **5**
 - [drawio-skill](./skills/agents365-ai/365-skills/plugins/drawio/skills/drawio-skill/README.md) · `agents365-ai/365-skills:plugins/drawio/skills/drawio-skill`
 - [excalidraw](./skills/agents365-ai/365-skills/plugins/excalidraw/skills/excalidraw-skill/README.md) · `agents365-ai/365-skills:plugins/excalidraw/skills/excalidraw-skill`
 - [imagencn](./skills/agents365-ai/365-skills/plugins/imagencn/skills/imagencn/README.md) · `agents365-ai/365-skills:plugins/imagencn/skills/imagencn`
+- [journal-abbrev](./skills/agents365-ai/365-skills/plugins/journal-abbrev/skills/journal-abbrev/README.md) · `agents365-ai/365-skills:plugins/journal-abbrev/skills/journal-abbrev`

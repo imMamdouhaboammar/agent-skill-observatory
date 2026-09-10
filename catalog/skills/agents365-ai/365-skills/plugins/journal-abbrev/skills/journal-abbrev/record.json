@@ -1,0 +1,86 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/journal-abbrev/skills/journal-abbrev",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Write,",
+      "Edit,",
+      "Glob,",
+      "Grep"
+    ],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/journal-abbrev/skills/journal-abbrev",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f87a321e940321982395b61b9fa437c731b922abf3d1937c435a3dd1e196a25b",
+    "description": "Use when looking up journal or magazine name abbreviations, converting between full names and ISO 4/MEDLINE abbreviations, processing BibTeX files for journal name standardization, or answering questions about 期刊缩写/杂志缩写. Triggers on \"journal abbreviation\", \"abbreviate journal\", \"journal name\", \"期刊缩写\", \"杂志缩写\", \"ISO 4\", \"LTWA\", \"BibTeX journal\". PROACTIVELY USE when user mentions citation formatting, reference list preparation, or manuscript submission to specific journals.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "research",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/journal-abbrev/skills/journal-abbrev/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3']}, 'emoji': '📖', 'homepage': 'https://github.com/Agents365-ai/journal-abbrev', 'os': ['macos', 'linux', 'windows']}",
+      "version": "1.3.1"
+    },
+    "name": "journal-abbrev",
+    "path": "plugins/journal-abbrev/skills/journal-abbrev",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}

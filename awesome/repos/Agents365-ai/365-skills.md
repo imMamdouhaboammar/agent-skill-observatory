@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills)
 
-Published Skills: 8
+Published Skills: 9
 Categories: content, data, design, devops, engineering, productivity, research
 Best overall score: 93
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,5 +15,6 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [bangumi-frames](../../skills/Agents365-ai/365-skills/plugins/bangumi-frames/skills/bangumi-frames/README.md) | `plugins/bangumi-frames/skills/bangumi-frames` | 93 | 100 | data, design, engineering, research |
 | [bbc-skill](../../skills/Agents365-ai/365-skills/plugins/bbc/skills/bbc-skill/README.md) | `plugins/bbc/skills/bbc-skill` | 93 | 100 | content, data, engineering, productivity |
 | [imagencn](../../skills/Agents365-ai/365-skills/plugins/imagencn/skills/imagencn/README.md) | `plugins/imagencn/skills/imagencn` | 93 | 100 | content, design, devops, engineering |
+| [journal-abbrev](../../skills/Agents365-ai/365-skills/plugins/journal-abbrev/skills/journal-abbrev/README.md) | `plugins/journal-abbrev/skills/journal-abbrev` | 93 | 100 | content, data, engineering, research |
 | [drawio-skill](../../skills/Agents365-ai/365-skills/plugins/drawio/skills/drawio-skill/README.md) | `plugins/drawio/skills/drawio-skill` | 88 | 90 | content, design, devops, engineering |
 | [excalidraw](../../skills/Agents365-ai/365-skills/plugins/excalidraw/skills/excalidraw-skill/README.md) | `plugins/excalidraw/skills/excalidraw-skill` | 83 | 100 | content, data, design, engineering |
