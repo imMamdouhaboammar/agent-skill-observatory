@@ -10,6 +10,7 @@ on:
       - 'src/skill_observatory/**'
       - 'pyproject.toml'
       - '.github/workflows/refresh.yml'
+      - '.github/workflows/bootstrap-catalog.yml'
   workflow_dispatch:
     inputs:
       max_repositories:
@@ -21,7 +22,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: catalog-refresh
+  group: catalog-publication
   cancel-in-progress: false
 
 jobs:
@@ -58,60 +59,52 @@ jobs:
 
       - name: Scan candidate repositories
         env:
-          SKILLOBS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
         run: |
           MAX="${{ inputs.max_repositories || '50' }}"
           skillobs refresh \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --max-repositories "$MAX" | tee .cache/refresh-report.json
 
-      - name: Publish catalog, Awesome path and README
+      - name: Publish Skill events and materialized views
+        env:
+          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
         run: |
-          skillobs publish \
+          skillobs publish-events \
+            --repository "$GITHUB_REPOSITORY" \
+            --branch main \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
-            --data-dir data \
-            --readme README.md \
-            --awesome AWESOME.md \
-            --awesome-directory awesome/README.md
+            --checkout-root . \
+            --max-events 100 \
+            --time-budget-seconds 420 | tee .cache/publication-report.json
 
       - name: Add run summary
+        if: always()
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
           from pathlib import Path
-          stats = json.loads(Path('data/stats.json').read_text())
-          refresh = json.loads(Path('data/refresh.json').read_text())
-          print('## Agent Skill Observatory refresh')
-          print()
-          print(f"- Refreshed: `{refresh['generated_at']}`")
-          print(f"- Indexed skills: **{stats['skills']}**")
-          print(f"- Repositories: **{stats['repositories']}**")
-          print(f"- Spec valid: **{stats['spec_valid']}**")
-          print(f"- Security 85+: **{stats['security_85_plus']}**")
-          print(f"- Score 80+: **{stats['score_80_plus']}**")
-          PY
 
-      - name: Commit generated catalog changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            README.md AWESOME.md awesome/README.md \
-            data/catalog.json data/catalog.csv data/stats.json \
-            data/repositories.json data/refresh.json
-          if git diff --cached --quiet; then
-            echo "No generated catalog changes"
-            exit 0
-          fi
-          STATS="$(python - <<'PY'
-          import json
-          from pathlib import Path
-          s=json.loads(Path('data/stats.json').read_text())
-          print(f"{s['skills']} skills / {s['repositories']} repos")
+          print('## Agent Skill Observatory publication')
+          print()
+          report_path = Path('.cache/publication-report.json')
+          if not report_path.exists():
+              print('- Publication report was not produced')
+              raise SystemExit(0)
+          report = json.loads(report_path.read_text())
+          print(f"- Events detected: **{report['events_detected']}**")
+          print(f"- Events published: **{report['events_published']}**")
+          print(f"- ADD: **{report['adds']}**")
+          print(f"- UPDATE: **{report['updates']}**")
+          print(f"- REINDEX: **{report['reindexes']}**")
+          print(f"- REMOVE: **{report['removals']}**")
+          print(f"- Conflicts retried: **{report['conflicts_retried']}**")
+          print(f"- Remaining deferred count: **{report['events_deferred']}**")
+          print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
+          print(f"- Failures: **{len(report['failures'])}**")
+          print(f"- main before SHA: `{report.get('main_before') or 'unknown'}`")
+          print(f"- main after SHA: `{report.get('main_after') or 'unknown'}`")
           PY
-          )"
-          git commit -m "data: refresh verified catalog ($STATS)"
-          git push
 
       - name: Save history database cache
         uses: actions/cache/save@v4
