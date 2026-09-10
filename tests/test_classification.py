@@ -22,6 +22,16 @@ def test_classifies_new_domain_categories() -> None:
     assert "research" in categories
 
 
+def test_short_keywords_do_not_match_inside_unrelated_words() -> None:
+    categories = classify_categories(
+        "Build reliable workflows for repeatable delivery",
+        "Follow the workflow and report the result.",
+    )
+
+    assert "productivity" in categories
+    assert "design" not in categories
+
+
 def test_category_assignment_is_bounded_and_deterministic() -> None:
     description = "API browser automation for mobile product analytics and documentation"
     body = (
