@@ -59,6 +59,7 @@ jobs:
         env:
           SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
         run: |
+          set -o pipefail
           MAX_REPOSITORIES="${{ inputs.max_repositories }}"
           skillobs refresh \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
@@ -68,6 +69,7 @@ jobs:
         env:
           SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
         run: |
+          set -o pipefail
           MAX_EVENTS="${{ inputs.max_events }}"
           TIME_BUDGET="${{ inputs.time_budget_seconds }}"
           skillobs publish-events \
