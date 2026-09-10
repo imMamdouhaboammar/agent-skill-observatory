@@ -93,8 +93,8 @@ class LocalGitAtomicPublisher:
         branch: str = "main",
         max_attempts: int = 1,
     ) -> PublicationResult:
-        if max_attempts < 1:
-            raise ValueError("max_attempts must be at least 1")
+        if max_attempts != 1:
+            raise ValueError("local Git publication supports exactly one attempt")
 
         parent_sha = self.current_head(repository, branch)
         self._ensure_clean_index()
