@@ -1,8 +1,6 @@
 from datetime import UTC, datetime
 from pathlib import Path
 
-from skill_observatory.qualification import qualify_skill
-
 from skill_observatory.domain import (
     ParsedSkill,
     RepositorySignals,
@@ -11,6 +9,7 @@ from skill_observatory.domain import (
     SecurityReport,
     SpecValidation,
 )
+from skill_observatory.qualification import qualify_skill
 
 DESCRIPTION = (
     "Review repository changes with explicit verification steps, bounded tool use, "
