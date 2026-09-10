@@ -35,7 +35,7 @@ class AggregatePublicationResult(BaseModel):
     files_changed: list[str] = Field(default_factory=list)
 
 
-def _validate_outputs(outputs: dict[str, str]) -> None:
+def validate_aggregate_outputs(outputs: dict[str, str]) -> None:
     invalid = set(outputs) - AGGREGATE_PATHS
     if invalid:
         raise ValueError(f"invalid aggregate path(s): {', '.join(sorted(invalid))}")
@@ -53,7 +53,7 @@ def publish_materialized_views(
     max_attempts: int = 5,
     sleep: Callable[[float], None] = time.sleep,
 ) -> AggregatePublicationResult:
-    _validate_outputs(outputs)
+    validate_aggregate_outputs(outputs)
     if max_attempts < 1:
         raise ValueError("max_attempts must be at least 1")
 
