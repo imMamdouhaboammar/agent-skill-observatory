@@ -76,6 +76,11 @@ class FakePublisher:
         )
 
 
+class ValueErrorPublisher(FakePublisher):
+    def publish_event(self, event, catalog, *, repository: str, branch: str = "main"):
+        raise ValueError("render failed")
+
+
 def _noop_aggregate(publisher, outputs, **kwargs):
     return AggregatePublicationResult(status="noop", parent_sha=publisher.head)
 
@@ -168,3 +173,28 @@ def test_deferred_work_is_reported_without_becoming_a_failure(tmp_path) -> None:
     assert report.events_deferred == 1
     assert report.events_published == 0
     assert report.failures == []
+
+
+def test_event_value_error_becomes_structured_global_failure(tmp_path) -> None:
+    db_url = f"sqlite+pysqlite:///{tmp_path / 'value-error.db'}"
+    init_database(db_url)
+    factory = make_session_factory(db_url)
+    publisher = ValueErrorPublisher()
+
+    with factory() as session:
+        upsert_skill(session, _skill("alpha"))
+        report = publish_pending_events(
+            session,
+            publisher,
+            checkout_root=tmp_path,
+            repository="acme/observatory",
+            branch="main",
+            max_events=100,
+            time_budget_seconds=420,
+            now=NOW,
+            aggregate_publish=_noop_aggregate,
+        )
+
+    assert report.global_failure is True
+    assert report.failures == ["render failed"]
+    assert report.events_published == 0
