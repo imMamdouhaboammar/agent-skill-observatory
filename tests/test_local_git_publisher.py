@@ -14,6 +14,7 @@ from skill_observatory.domain import (
     SpecValidation,
 )
 from skill_observatory.events import SkillEvent, build_published_record
+from skill_observatory.github_publisher import GitHubPublisherError
 from skill_observatory.local_git_publisher import LocalGitAtomicPublisher
 from skill_observatory.publication_store import skill_record_path
 
@@ -125,4 +126,19 @@ def test_local_git_publisher_rejects_retry_counts_above_one(tmp_path: Path) -> N
             repository="acme/observatory",
             branch="main",
             max_attempts=2,
+        )
+
+
+def test_local_git_publisher_rejects_unstaged_worktree_changes(tmp_path: Path) -> None:
+    _prepare_repo(tmp_path)
+    (tmp_path / "README.md").write_text(README.replace("Human text", "unrelated edit"), encoding="utf-8")
+    event, catalog = _event()
+    publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
+
+    with pytest.raises(GitHubPublisherError, match="clean Git worktree"):
+        publisher.publish_event(
+            event,
+            catalog,
+            repository="acme/observatory",
+            branch="main",
         )
