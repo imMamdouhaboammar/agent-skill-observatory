@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **39**
-Repositories: **5**
+Published skills: **40**
+Repositories: **6**
 
 ## Browse repositories
 
@@ -10,6 +10,7 @@ Repositories: **5**
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
+- [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 
 ## Browse categories
 
@@ -63,3 +64,4 @@ Repositories: **5**
 - [videogencn](./skills/agents365-ai/365-skills/plugins/videogencn/skills/videogencn/README.md) · `agents365-ai/365-skills:plugins/videogencn/skills/videogencn`
 - [xfetch](./skills/agents365-ai/365-skills/plugins/xfetch/skills/xfetch-skill/README.md) · `agents365-ai/365-skills:plugins/xfetch/skills/xfetch-skill`
 - [yt2bb](./skills/agents365-ai/365-skills/plugins/yt2bb/skills/yt2bb/README.md) · `agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb`
+- [manage-taskboard](./skills/ahh666/codex-taskboard/skills/manage-taskboard/README.md) · `ahh666/codex-taskboard:skills/manage-taskboard`

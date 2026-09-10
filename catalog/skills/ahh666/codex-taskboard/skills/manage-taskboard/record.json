@@ -1,0 +1,78 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "ahh666/codex-taskboard:skills/manage-taskboard",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "ahh666/codex-taskboard:skills/manage-taskboard",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "552465dc8bd8be3e37b3b7c68f9bb10522b0252ef586cd1403328619f97a70fc",
+    "description": "Manage Codex Taskboard / e-taskboard work with taskctl. Use for taskboard issue IDs, status sync, comments, or taskctl cloud setup—not for unrelated product docs.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "content",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/ahh666/codex-taskboard/blob/main/skills/manage-taskboard/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T05:53:52.114377Z",
+    "last_successful_repo_scan_at": null,
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "manage-taskboard",
+    "path": "skills/manage-taskboard",
+    "pushed_at": "2026-09-10T05:52:58Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ahh666/codex-taskboard",
+    "repo_url": "https://github.com/ahh666/codex-taskboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 89,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
