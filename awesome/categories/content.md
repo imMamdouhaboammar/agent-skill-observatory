@@ -1,10 +1,11 @@
 # content
 
-Published Skills: 7
+Published Skills: 8
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [afaro-followup](../skills/afaro-ai/afaro/skills/afaro-followup/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Requeues brokers whose listing came back, and hands over brokers needing an ID, a payment, or an account. Use when a listing reappeared or an opt-out is stuck. |
+| [afaro-orchestrator](../skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Runs Afaro data removal opt-outs one broker at a time from a local profile, stopping before anything is sent. Use when the user wants to remove a listing or opt out of a people-search site. |
 | [update-markdown-file-index](../skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | Update a markdown file section with an index/table of files from a specified folder. |
 | [check-content-alignment](../skills/707734712/agents-in-sdlc/.github/skills/check-content-alignment/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 84 | 100 | 0 | Find workshop lessons that should change alongside an edit. Scans a diff (staged, unstaged, or a branch range) of the Copilot Workshops docs, extracts what changed, then searches the rest of docs/** for duplicated or parallel passages that now risk drifting out of sync — prose that used to be a shared partial and is now copied across pages, the same concept taught across the VS Code / CLI / App / Cloud harnesses, and cross-references to the changed page. Use after editing lesson content under docs/, before committing or opening a PR, or whenever asked to "check content alignment", "find related content to update", "what else should change", or "check for drift". Reports candidate files with line ranges and rationale; it does NOT edit content. |
 | [localizations](../skills/707734712/agents-in-sdlc/.github/skills/localizations/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 84 | 100 | 0 | A skill that localizes contents into given locales. |

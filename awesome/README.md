@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **11**
+Published skills: **12**
 Repositories: **4**
 
 ## Browse repositories
@@ -34,3 +34,4 @@ Repositories: **4**
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`
 - [afaro-exposure-scan](./skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) · `afaro-ai/afaro:skills/afaro-exposure-scan`
 - [afaro-followup](./skills/afaro-ai/afaro/skills/afaro-followup/README.md) · `afaro-ai/afaro:skills/afaro-followup`
+- [afaro-orchestrator](./skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) · `afaro-ai/afaro:skills/afaro-orchestrator`

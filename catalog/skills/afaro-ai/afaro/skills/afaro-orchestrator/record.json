@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "afaro-ai/afaro:skills/afaro-orchestrator",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "afaro-ai/afaro:skills/afaro-orchestrator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fa7fa7bb94d2b2cbfb9d5da9594baaefe4187af9ab4b59102fac7953875f9caf",
+    "description": "Runs Afaro data removal opt-outs one broker at a time from a local profile, stopping before anything is sent. Use when the user wants to remove a listing or opt out of a people-search site.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "productivity",
+        "engineering",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/afaro-ai/afaro/blob/main/skills/afaro-orchestrator/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T05:55:54.366203Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "afaro-orchestrator",
+    "path": "skills/afaro-orchestrator",
+    "pushed_at": "2026-09-10T05:52:45Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "afaro-ai/afaro",
+    "repo_url": "https://github.com/afaro-ai/afaro",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 91,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": ""
+}
