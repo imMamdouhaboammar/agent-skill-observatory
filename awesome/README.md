@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **29**
+Published skills: **30**
 Repositories: **5**
 
 ## Browse repositories
@@ -53,3 +53,4 @@ Repositories: **5**
 - [paper-fetch](./skills/agents365-ai/365-skills/plugins/paper-fetch/skills/paper-fetch/README.md) · `agents365-ai/365-skills:plugins/paper-fetch/skills/paper-fetch`
 - [pi-cli-runtime](./skills/agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) · `agents365-ai/365-skills:plugins/pi-plugin-cc/skills/pi-cli-runtime`
 - [pi-prompting](./skills/agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-prompting/README.md) · `agents365-ai/365-skills:plugins/pi-plugin-cc/skills/pi-prompting`
+- [pi-result-handling](./skills/agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-result-handling/README.md) · `agents365-ai/365-skills:plugins/pi-plugin-cc/skills/pi-result-handling`

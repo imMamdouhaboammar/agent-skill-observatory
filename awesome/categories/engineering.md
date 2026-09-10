@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 27
+Published Skills: 28
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -18,6 +18,7 @@ Published Skills: 27
 | [pi-prompting](../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-prompting/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Internal guidance for composing prompts that Pi runs (DeepSeek by default) handle reliably for coding, review, diagnosis, and research tasks |
 | [obsidian-organizer](../skills/Agents365-ai/365-skills/plugins/obsidian-organizer/skills/obsidian-organizer/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 91 | 100 | 44 | File new notes into the right folder and audit/reorganize folder structure in the user's Obsidian vault, using the `obsidian` CLI and a single source-of-truth map note (`00_Index/Folder_Map.md`) that lives inside the vault. Use this whenever a note needs to be placed, filed, sorted, or moved into the vault; whenever the user asks where a note "belongs" or "should go"; and whenever they want to clean up, reorganize, deduplicate, audit, or restructure vault folders (e.g. orphaned notes, dead-end notes, near-duplicate titles, overlapping folders). Trigger even when the user just says "add this to my vault", "put this somewhere sensible", or "tidy up the cellchat notes" without naming a folder. Requires the Obsidian desktop app to be running. |
 | [pi-cli-runtime](../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 91 | 100 | 44 | Internal helper contract for calling the pi-companion runtime from Claude Code |
+| [pi-result-handling](../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-result-handling/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 91 | 100 | 44 | Internal guidance for presenting Pi helper output back to the user |
 | [afaro-drop-submit](../skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Scaffold for the single California deletion request through the state DROP platform. Not implemented yet. Use when a California resident asks about the state deletion request. |
 | [afaro-exposure-scan](../skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Checks which people-search brokers list a person, using each broker's own public search box. Use when the user asks who has their data or where they are listed. |
 | [afaro-orchestrator](../skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Runs Afaro data removal opt-outs one broker at a time from a local profile, stopping before anything is sent. Use when the user wants to remove a listing or opt out of a people-search site. |
