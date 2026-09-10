@@ -8,10 +8,15 @@ from pathlib import Path
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
+from .aggregate_publication import AggregatePublicationResult, publish_materialized_views
+from .domain import IndexedSkill
 from .events import PublishedSkillRecord, SkillEvent, compute_skill_events
 from .github_publisher import GitHubAtomicPublisher, GitHubPublisherError
 from .publication_store import PublicationStateError, load_published_catalog
+from .publishing import materialize_published_catalog
 from .repository import list_observed_skills
+
+AggregatePublish = Callable[..., AggregatePublicationResult]
 
 
 class PublicationReport(BaseModel):
@@ -25,6 +30,8 @@ class PublicationReport(BaseModel):
     removals: int = 0
     conflicts_retried: int = 0
     failures: list[str] = Field(default_factory=list)
+    aggregate_status: str | None = None
+    aggregate_commit_sha: str | None = None
     main_before: str | None = None
     main_after: str | None = None
     global_failure: bool = False
@@ -56,6 +63,23 @@ def _fatal(report: PublicationReport, exc: Exception) -> PublicationReport:
     return report
 
 
+def _aggregate_catalog(
+    published: dict[str, PublishedSkillRecord], observed: list[IndexedSkill]
+) -> dict[str, PublishedSkillRecord]:
+    observed_by_key = {skill.canonical_key: skill for skill in observed}
+    aggregate = dict(published)
+    for key, record in published.items():
+        latest = observed_by_key.get(key)
+        if latest is None or latest.consecutive_misses:
+            continue
+        if (
+            latest.source_fingerprint == record.source_fingerprint
+            and latest.analysis_fingerprint == record.analysis_fingerprint
+        ):
+            aggregate[key] = record.model_copy(update={"skill": latest})
+    return aggregate
+
+
 def publish_pending_events(
     session: Session,
     publisher: GitHubAtomicPublisher,
@@ -67,6 +91,7 @@ def publish_pending_events(
     time_budget_seconds: int,
     now: datetime | None = None,
     monotonic: Callable[[], float] = time.monotonic,
+    aggregate_publish: AggregatePublish = publish_materialized_views,
 ) -> PublicationReport:
     if max_events < 1:
         raise ValueError("max_events must be at least 1")
@@ -89,7 +114,8 @@ def publish_pending_events(
     _count_event_types(report, events)
 
     for event in events:
-        if report.events_published + report.events_noop + report.events_deferred >= max_events:
+        attempted = report.events_published + report.events_noop + report.events_deferred
+        if attempted >= max_events:
             break
         if monotonic() - started >= time_budget_seconds:
             break
@@ -103,7 +129,6 @@ def publish_pending_events(
                 branch=branch,
             )
         except GitHubPublisherError as exc:
-            report.main_after = report.main_before if not published else None
             return _fatal(report, exc)
 
         report.conflicts_retried += max(0, result.attempts - 1)
@@ -117,7 +142,18 @@ def publish_pending_events(
             report.events_deferred += 1
 
     try:
+        aggregate_records = _aggregate_catalog(published, observed)
+        outputs = materialize_published_catalog(aggregate_records, generated_at=observed_at)
+        aggregate_result = aggregate_publish(
+            publisher,
+            outputs,
+            repository=repository,
+            branch=branch,
+        )
+        report.aggregate_status = aggregate_result.status
+        report.aggregate_commit_sha = aggregate_result.commit_sha
+        report.conflicts_retried += max(0, aggregate_result.attempts - 1)
         report.main_after = publisher.current_head(repository, branch)
-    except GitHubPublisherError as exc:
+    except (GitHubPublisherError, PublicationStateError, ValueError) as exc:
         return _fatal(report, exc)
     return report
