@@ -1,10 +1,11 @@
 # engineering
 
-Published Skills: 12
+Published Skills: 13
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [agent-native-design](../skills/Agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Use when designing, reviewing, or refactoring a CLI that must serve AI agents alongside humans, or when converting an API or SDK into an agent-usable CLI interface. |
+| [assetseeker](../skills/Agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Search free commercial-use creative assets across multiple online sources — photos, illustrations, icons, video footage, music, sound effects, and fonts. Use when the user needs to find assets for videos, PPTs, articles, or any content creation. Trigger on phrases like "find me a photo of", "search for icons", "I need background music", "find video footage", "search fonts", "找一张图片", "搜素材", "帮我找图标/视频/音乐/字体". Covers Pexels, Unsplash, Pixabay, Iconify, Freesound, Google Fonts and more — with API-backed search where available. |
 | [afaro-drop-submit](../skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Scaffold for the single California deletion request through the state DROP platform. Not implemented yet. Use when a California resident asks about the state deletion request. |
 | [afaro-exposure-scan](../skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Checks which people-search brokers list a person, using each broker's own public search box. Use when the user asks who has their data or where they are listed. |
 | [afaro-orchestrator](../skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Runs Afaro data removal opt-outs one broker at a time from a local profile, stopping before anything is sent. Use when the user wants to remove a listing or opt out of a people-search site. |

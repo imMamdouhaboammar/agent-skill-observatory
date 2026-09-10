@@ -1,0 +1,78 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0afa78b7ab6c7f9de142c5a7ef69939ec31a4f963d8d82698141f155a528c99a",
+    "description": "Search free commercial-use creative assets across multiple online sources — photos, illustrations, icons, video footage, music, sound effects, and fonts. Use when the user needs to find assets for videos, PPTs, articles, or any content creation. Trigger on phrases like \"find me a photo of\", \"search for icons\", \"I need background music\", \"find video footage\", \"search fonts\", \"找一张图片\", \"搜素材\", \"帮我找图标/视频/音乐/字体\". Covers Pexels, Unsplash, Pixabay, Iconify, Freesound, Google Fonts and more — with API-backed search where available.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/assetseeker/skills/assetseeker/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3'], 'env': ['PEXELS_API_KEY']}, 'primaryEnv': 'PEXELS_API_KEY', 'emoji': '🔍'}"
+    },
+    "name": "assetseeker",
+    "path": "plugins/assetseeker/skills/assetseeker",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 2,
+      "scripts": 1
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
