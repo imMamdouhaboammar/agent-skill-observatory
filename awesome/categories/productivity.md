@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 14
+Published Skills: 15
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,6 +9,7 @@ Published Skills: 14
 | [bbc-skill](../skills/Agents365-ai/365-skills/plugins/bbc/skills/bbc-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Fetch Bilibili (哔哩哔哩) video comments for UP主 self-analysis. Use when the user asks to collect, download, export, or analyze comments on a Bilibili video (BV号 / URL / UID). Produces JSONL + summary.json suitable for further Claude Code analysis (sentiment, keywords, audience trends). Read-only; does not post/edit/delete. |
 | [pi-prompting](../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-prompting/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Internal guidance for composing prompts that Pi runs (DeepSeek by default) handle reliably for coding, review, diagnosis, and research tasks |
 | [ttscn](../skills/Agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform Chinese & multilingual TTS text-to-speech via Edge/Doubao/CosyVoice/Qwen3/StepFun/GLM-TTS/Azure/Tencent/Baidu/MiniMax/Xunfei plus ElevenLabs/OpenAI/Google/Atlas Cloud — 15 backends, word-level timestamps, [PAUSE:x] pause markers, pinyin pronunciation overrides |
+| [videogencn](../skills/Agents365-ai/365-skills/plugins/videogencn/skills/videogencn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Use when generating video clips with Chinese video models — text-to-video (文生视频), image-to-video (图生视频), first/last-frame and reference-to-video across 4 platforms: Bailian (Wan/PixVerse/Kling/Vidu/HappyHorse), Jimeng (doubao-seedance), MiniMax (Hailuo), Hunyuan (hy-video) |
 | [pi-cli-runtime](../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 91 | 100 | 44 | Internal helper contract for calling the pi-companion runtime from Claude Code |
 | [afaro-drop-submit](../skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Scaffold for the single California deletion request through the state DROP platform. Not implemented yet. Use when a California resident asks about the state deletion request. |
 | [afaro-exposure-scan](../skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Checks which people-search brokers list a person, using each broker's own public search box. Use when the user asks who has their data or where they are listed. |

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **36**
+Published skills: **37**
 Repositories: **5**
 
 ## Browse repositories
@@ -60,3 +60,4 @@ Repositories: **5**
 - [tldraw-skill](./skills/agents365-ai/365-skills/plugins/tldraw/skills/tldraw-skill/README.md) · `agents365-ai/365-skills:plugins/tldraw/skills/tldraw-skill`
 - [ttscn](./skills/agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) · `agents365-ai/365-skills:plugins/ttscn/skills/ttscn`
 - [video-podcast-maker](./skills/agents365-ai/365-skills/plugins/video-podcast-maker/skills/video-podcast-maker/README.md) · `agents365-ai/365-skills:plugins/video-podcast-maker/skills/video-podcast-maker`
+- [videogencn](./skills/agents365-ai/365-skills/plugins/videogencn/skills/videogencn/README.md) · `agents365-ai/365-skills:plugins/videogencn/skills/videogencn`

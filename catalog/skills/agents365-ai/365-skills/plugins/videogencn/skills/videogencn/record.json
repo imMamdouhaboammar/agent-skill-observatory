@@ -1,0 +1,78 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/videogencn/skills/videogencn",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/videogencn/skills/videogencn",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d137216985a9a318583b5c35948183f6ff79af8ac1f4aea1d67ec05f3ce1f0b3",
+    "description": "Use when generating video clips with Chinese video models — text-to-video (文生视频), image-to-video (图生视频), first/last-frame and reference-to-video across 4 platforms: Bailian (Wan/PixVerse/Kling/Vidu/HappyHorse), Jimeng (doubao-seedance), MiniMax (Hailuo), Hunyuan (hy-video)",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/videogencn/skills/videogencn/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 8
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3'], 'env': ['DASHSCOPE_API_KEY']}, 'primaryEnv': 'DASHSCOPE_API_KEY', 'emoji': '🎬'}"
+    },
+    "name": "videogencn",
+    "path": "plugins/videogencn/skills/videogencn",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 7
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
