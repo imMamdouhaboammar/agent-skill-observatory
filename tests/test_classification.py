@@ -55,6 +55,16 @@ def test_short_keywords_do_not_match_inside_unrelated_words() -> None:
     assert "design" not in categories
 
 
+def test_hyphenated_compounds_match_domain_keywords() -> None:
+    categories = classify_categories(
+        "Build low-code REST-api tooling with web-design guidance",
+        "Use the API and design workflow safely.",
+    )
+
+    assert "engineering" in categories
+    assert "design" in categories
+
+
 def test_category_assignment_is_bounded_and_deterministic() -> None:
     description = "API browser automation for mobile product analytics and documentation"
     body = (
