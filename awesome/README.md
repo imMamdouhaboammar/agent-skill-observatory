@@ -1,19 +1,22 @@
 # Agent Skill Observatory Directory
 
-Published skills: **1**
-Repositories: **1**
+Published skills: **2**
+Repositories: **2**
 
 ## Browse repositories
 
 - [0o0r7/Fri](./repos/0o0r7/Fri.md)
+- [707734712/agents-in-sdlc](./repos/707734712/agents-in-sdlc.md)
 
 ## Browse categories
 
 - [content](./categories/content.md)
 - [data](./categories/data.md)
+- [design](./categories/design.md)
 - [devops](./categories/devops.md)
 - [engineering](./categories/engineering.md)
 
 ## All skills
 
 - [fri-reputation-index](./skills/0o0r7/fri/docs/README.md) · `0o0r7/fri:docs`
+- [build-and-verify-docs](./skills/707734712/agents-in-sdlc/.github/skills/build-and-verify-docs/README.md) · `707734712/agents-in-sdlc:.github/skills/build-and-verify-docs`

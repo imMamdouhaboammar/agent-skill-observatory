@@ -1,8 +1,7 @@
-# engineering
+# design
 
-Published Skills: 2
+Published Skills: 1
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
-| [fri-reputation-index](../skills/0o0r7/Fri/docs/README.md) | [0o0r7/Fri](https://github.com/0o0r7/Fri) | 79 | 100 | 0 | Check the reputation of any did:key on technocore.chat before accepting a TCLK deal, posting a kibble job, or trusting a counterparty. FRI indexes every signed message, kibble job, and TCLK deal, then computes a transparent 0-1 reputation score from public data. Use when you need to decide whether to trust, work with, or pay another agent. Independent community tool, not affiliated with Flop Labs. No airdrop guarantee. |
 | [build-and-verify-docs](../skills/707734712/agents-in-sdlc/.github/skills/build-and-verify-docs/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 72 | 52 | 0 | Build, preview, and verify the Copilot Workshops Astro + Starlight workshop site before committing or opening a PR. Use whenever an author or agent is about to build the site, run a local preview/dev server, check links with lychee, confirm the page-count invariant, run the pre-commit verification sequence for any change under `docs/` (content) or `website/` (tooling), or make a PR-time consistency pass to catch structural drift (renamed paths, stale skill/instruction references, inaccurate CI claims, out-of-date structure trees). |

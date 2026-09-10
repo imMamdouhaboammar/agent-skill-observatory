@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "707734712/agents-in-sdlc:.github/skills/build-and-verify-docs",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "707734712/agents-in-sdlc:.github/skills/build-and-verify-docs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e8108fdb1478ba5288ca03c008fe7691fb3dca82b1cfe35513203c91bdafcaf2",
+    "description": "Build, preview, and verify the Copilot Workshops Astro + Starlight workshop site before committing or opening a PR. Use whenever an author or agent is about to build the site, run a local preview/dev server, check links with lychee, confirm the page-count invariant, run the pre-commit verification sequence for any change under `docs/` (content) or `website/` (tooling), or make a PR-time consistency pass to catch structural drift (renamed paths, stale skill/instruction references, inaccurate CI claims, out-of-date structure trees).",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "design",
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "skill stored under .github/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/707734712/agents-in-sdlc/blob/main/.github/skills/build-and-verify-docs/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-09T20:55:16.707066Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "build-and-verify-docs",
+    "path": ".github/skills/build-and-verify-docs",
+    "pushed_at": "2026-09-09T20:54:07Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "707734712/agents-in-sdlc",
+    "repo_url": "https://github.com/707734712/agents-in-sdlc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 72,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT.",
+        "Static safety scan found commands that need human review before execution."
+      ],
+      "security": 52
+    },
+    "security": {
+      "findings": [
+        {
+          "evidence": "cd website && rm -rf dist && npm run build",
+          "file": "SKILL.md",
+          "line": 41,
+          "message": "Uses recursive forced deletion.",
+          "rule": "recursive-delete",
+          "severity": "high"
+        },
+        {
+          "evidence": "cd website && rm -rf dist && npm run build && cd ..",
+          "file": "SKILL.md",
+          "line": 112,
+          "message": "Uses recursive forced deletion.",
+          "rule": "recursive-delete",
+          "severity": "high"
+        }
+      ],
+      "score": 52
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
