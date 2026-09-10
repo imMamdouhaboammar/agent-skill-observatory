@@ -94,12 +94,23 @@ jobs:
             --time-budget-seconds "$TIME_BUDGET" | tee .cache/publication-report.json
 
       - name: Fast-forward bootstrap commit chain
-        run: git push origin HEAD:main
+        id: push
+        run: |
+          set -euo pipefail
+          git push origin HEAD:main
+          local_sha="$(git rev-parse HEAD)"
+          remote_main_sha="$(git ls-remote --exit-code origin refs/heads/main | awk '{print $1}')"
+          if [ "$remote_main_sha" != "$local_sha" ]; then
+            echo "::error::remote main does not match the pushed local HEAD"
+            exit 1
+          fi
+          echo "remote_main_sha=$remote_main_sha" >> "$GITHUB_OUTPUT"
 
       - name: Add bootstrap summary
         if: always()
         env:
           BOOTSTRAP_SKIP_SCAN: ${{ inputs.skip_scan }}
+          REMOTE_MAIN_SHA: ${{ steps.push.outputs.remote_main_sha }}
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
@@ -130,8 +141,9 @@ jobs:
           print(f"- Remaining deferred count: **{report['events_deferred']}**")
           print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
           print(f"- Failures: **{len(report['failures'])}**")
-          print(f"- main before SHA: `{report.get('main_before') or 'unknown'}`")
-          print(f"- main after SHA: `{report.get('main_after') or 'unknown'}`")
+          print(f"- local publication before SHA: `{report.get('main_before') or 'unknown'}`")
+          print(f"- local publication SHA: `{report.get('main_after') or 'unknown'}`")
+          print(f"- remote main published SHA: `{os.getenv('REMOTE_MAIN_SHA') or 'not published'}`")
           PY
 
       - name: Save history database cache
