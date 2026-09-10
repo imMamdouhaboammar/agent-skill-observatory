@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "aiyinluya/desktop-pet-maker:pet-maker",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "aiyinluya/desktop-pet-maker:pet-maker",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d21b3af6278ba3e85ec45367e865ff255dfb204de4b163cdc9547950e2f8ddb9",
+    "description": "",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiyinluya/desktop-pet-maker/blob/master/pet-maker/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 10
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T05:56:11.530024Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "",
+    "path": "pet-maker",
+    "pushed_at": "2026-09-10T05:52:40Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiyinluya/desktop-pet-maker",
+    "repo_url": "https://github.com/aiyinluya/desktop-pet-maker",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 8
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 74,
+      "quality": 55,
+      "reasons": [
+        "Open Agent Skills specification errors reduce quality confidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [
+        "name is required",
+        "description is required and must be non-empty"
+      ],
+      "valid": false,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}

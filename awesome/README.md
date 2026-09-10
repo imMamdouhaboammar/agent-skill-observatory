@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **40**
-Repositories: **6**
+Published skills: **41**
+Repositories: **7**
 
 ## Browse repositories
 
@@ -11,6 +11,7 @@ Repositories: **6**
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
+- [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 
 ## Browse categories
 
@@ -65,3 +66,4 @@ Repositories: **6**
 - [xfetch](./skills/agents365-ai/365-skills/plugins/xfetch/skills/xfetch-skill/README.md) · `agents365-ai/365-skills:plugins/xfetch/skills/xfetch-skill`
 - [yt2bb](./skills/agents365-ai/365-skills/plugins/yt2bb/skills/yt2bb/README.md) · `agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb`
 - [manage-taskboard](./skills/ahh666/codex-taskboard/skills/manage-taskboard/README.md) · `ahh666/codex-taskboard:skills/manage-taskboard`
+- [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
