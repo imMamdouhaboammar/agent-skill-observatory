@@ -43,13 +43,6 @@ classifiers = [
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
   "Topic :: Security",
 ]
-
-[project.urls]
-Homepage = "https://imMamdouhaboammar.github.io/agent-skill-observatory/"
-Repository = "https://github.com/imMamdouhaboammar/agent-skill-observatory"
-Documentation = "https://github.com/imMamdouhaboammar/agent-skill-observatory#readme"
-"Bug Tracker" = "https://github.com/imMamdouhaboammar/agent-skill-observatory/issues"
-Changelog = "https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/CHANGELOG.md"
 dependencies = [
   "alembic>=1.18,<2",
   "fastapi>=0.116,<1",
@@ -61,6 +54,13 @@ dependencies = [
   "typer>=0.21,<1",
   "uvicorn[standard]>=0.35,<1",
 ]
+
+[project.urls]
+Homepage = "https://imMamdouhaboammar.github.io/agent-skill-observatory/"
+Repository = "https://github.com/imMamdouhaboammar/agent-skill-observatory"
+Documentation = "https://github.com/imMamdouhaboammar/agent-skill-observatory#readme"
+"Bug Tracker" = "https://github.com/imMamdouhaboammar/agent-skill-observatory/issues"
+Changelog = "https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = [
