@@ -1,9 +1,10 @@
 # data
 
-Published Skills: 6
+Published Skills: 7
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [bangumi-frames](../skills/Agents365-ai/365-skills/plugins/bangumi-frames/skills/bangumi-frames/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Extract and organize frames from a Bilibili video (bangumi episode, UP upload, or a local file) into scenery shots and per-character image groups, using anime-specific person detection + CCIP character-identity embeddings. Two modes — cluster everyone, or pull out one (or several) named characters via reference folders. Use when the user wants to collect, extract, or organize anime frames/screenshots by character or by scenery from a Bilibili video. Read-only download for personal viewing/analysis; uploads nothing. |
 | [afaro-drop-submit](../skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Scaffold for the single California deletion request through the state DROP platform. Not implemented yet. Use when a California resident asks about the state deletion request. |
 | [afaro-exposure-scan](../skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Checks which people-search brokers list a person, using each broker's own public search box. Use when the user asks who has their data or where they are listed. |
 | [afaro-followup](../skills/afaro-ai/afaro/skills/afaro-followup/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Requeues brokers whose listing came back, and hands over brokers needing an ID, a payment, or an account. Use when a listing reappeared or an opt-out is stuck. |

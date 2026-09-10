@@ -1,0 +1,81 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/bangumi-frames/skills/bangumi-frames",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/bangumi-frames/skills/bangumi-frames",
+    "compatibility": "Requires ffmpeg and (for downloads) yt-dlp on PATH; Python 3.9+ with dghs-imgutils (anime person detection + CCIP). The CCIP step runs on CPU — do NOT set ONNX_MODE=CoreML (CCIP crashes there); person detection is fine on CoreML. Anime / 2.5D-render art only — not for live-action. Optional --clean (subtitle/watermark removal) needs rapidocr-onnxruntime + simple-lama-inpainting.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "00b7df529a739d8a09e4d7b4707d947ace69a847fd7fc1abffa9b16099aa453b",
+    "description": "Extract and organize frames from a Bilibili video (bangumi episode, UP upload, or a local file) into scenery shots and per-character image groups, using anime-specific person detection + CCIP character-identity embeddings. Two modes — cluster everyone, or pull out one (or several) named characters via reference folders. Use when the user wants to collect, extract, or organize anime frames/screenshots by character or by scenery from a Bilibili video. Read-only download for personal viewing/analysis; uploads nothing.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "data",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/bangumi-frames/skills/bangumi-frames/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "author": "Agents365-ai",
+      "hermes": "{'tags': ['bilibili', 'anime', 'bangumi', 'frames', 'character', 'ccip', 'screenshot', 'video'], 'category': 'media', 'requires_tools': ['ffmpeg', 'yt-dlp'], 'related_skills': []}",
+      "openclaw": "{'requires': {'anyBins': ['ffmpeg']}, 'emoji': '🎬', 'os': ['darwin', 'linux'], 'install': [{'id': 'brew-ffmpeg', 'kind': 'brew', 'formula': 'ffmpeg', 'bins': ['ffmpeg'], 'label': 'Install ffmpeg via Homebrew', 'os': ['darwin']}, {'id': 'pip-yt-dlp', 'kind': 'pip', 'package': 'yt-dlp', 'bins': ['yt-dlp'], 'label': 'Install yt-dlp (download Bilibili streams)'}, {'id': 'pip-imgutils', 'kind': 'pip', 'package': 'dghs-imgutils', 'label': 'Install anime person detection + CCIP models'}]}",
+      "version": "0.5.0"
+    },
+    "name": "bangumi-frames",
+    "path": "plugins/bangumi-frames/skills/bangumi-frames",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 2,
+      "scripts": 2
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}
