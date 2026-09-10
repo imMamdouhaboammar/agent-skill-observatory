@@ -1,0 +1,73 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "alizaouane/dev-agent:skills/notify",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "alizaouane/dev-agent:skills/notify",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e81f93f05ba1f05a67f5bcdd06625399d2da686a73a77128c0d9c9fee2a334b1",
+    "description": "Use to fan out gate-transition notifications across push (ntfy/pushover/slack), email (resend), GitHub issue comment, and the project status file. Wraps lib/notify.ts.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alizaouane/dev-agent/blob/main/skills/notify/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T11:17:22.027568Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {},
+    "name": "notify",
+    "path": "skills/notify",
+    "pushed_at": "2026-09-10T11:07:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alizaouane/dev-agent",
+    "repo_url": "https://github.com/alizaouane/dev-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 86,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}

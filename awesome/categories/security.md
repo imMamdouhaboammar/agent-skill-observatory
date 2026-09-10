@@ -1,7 +1,8 @@
 # security
 
-Published Skills: 1
+Published Skills: 2
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [make-repo-contribution](../skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly. |
+| [notify](../skills/alizaouane/dev-agent/skills/notify/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to fan out gate-transition notifications across push (ntfy/pushover/slack), email (resend), GitHub issue comment, and the project status file. Wraps lib/notify.ts. |
