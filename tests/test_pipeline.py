@@ -211,6 +211,39 @@ def test_failed_repository_scan_does_not_increment_misses(tmp_path) -> None:
     assert record.consecutive_misses == 0
 
 
+def test_repeated_skill_inspection_failures_age_out_stale_record(tmp_path) -> None:
+    url = f"sqlite+pysqlite:///{tmp_path / 'stale-inspection.db'}"
+    init_database(url)
+    factory = make_session_factory(url)
+    with factory() as session:
+        index_repository(FakeGitHub(), session, _repo(), now=NOW)  # type: ignore[arg-type]
+
+    failing = ScriptReadFailingGitHub()
+    with factory() as session:
+        count, errors = index_repository(
+            failing,
+            session,
+            _repo(),
+            now=NOW + timedelta(minutes=1),
+        )  # type: ignore[arg-type]
+    assert count == 0
+    assert any("script unavailable" in error for error in errors)
+    first_failure = _record(factory)
+    assert first_failure.consecutive_misses == 1
+    assert first_failure.is_active is True
+
+    with factory() as session:
+        index_repository(
+            failing,
+            session,
+            _repo(),
+            now=NOW + timedelta(minutes=2),
+        )  # type: ignore[arg-type]
+    second_failure = _record(factory)
+    assert second_failure.consecutive_misses == 2
+    assert second_failure.is_active is False
+
+
 def test_skill_exceeding_inspection_file_budget_is_rejected(tmp_path) -> None:
     url = f"sqlite+pysqlite:///{tmp_path / 'too-many-files.db'}"
     init_database(url)
