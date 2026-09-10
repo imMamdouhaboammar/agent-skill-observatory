@@ -36,6 +36,7 @@ def _event() -> tuple[SkillEvent, dict[str, Any]]:
         name="demo",
         description="Demo skill",
         license="MIT",
+        compatibility=None,
         metadata={},
         allowed_tools=[],
         spec=SpecValidation(valid=True),
