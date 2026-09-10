@@ -1,7 +1,12 @@
 import json
 from datetime import UTC, datetime
 
-from skill_observatory.catalog import catalog_stats, export_catalog, records_as_dicts
+from skill_observatory.catalog import (
+    catalog_stats,
+    export_catalog,
+    records_as_dicts,
+    repository_rollups,
+)
 from skill_observatory.db import init_database, make_session_factory
 from skill_observatory.domain import (
     IndexedSkill,
@@ -16,6 +21,7 @@ from skill_observatory.repository import upsert_skill
 def make_skill(
     name: str = "demo",
     *,
+    repo_full_name: str = "example/repo",
     overall: int = 88,
     quality: int = 90,
     security: int = 95,
@@ -23,10 +29,10 @@ def make_skill(
 ) -> IndexedSkill:
     now = datetime.now(UTC)
     return IndexedSkill(
-        canonical_key=f"example/repo:skills/{name}",
+        canonical_key=f"{repo_full_name}:skills/{name}",
         content_fingerprint=(name[0] * 64)[:64],
-        repo_full_name="example/repo",
-        repo_url="https://github.com/example/repo",
+        repo_full_name=repo_full_name,
+        repo_url=f"https://github.com/{repo_full_name}",
         repo_default_branch="main",
         path=f"skills/{name}",
         name=name,
@@ -96,6 +102,34 @@ def test_catalog_ordering_ignores_popularity_signals(tmp_path) -> None:
         rows = records_as_dicts(session)
 
     assert [row["name"] for row in rows] == ["alpha", "beta", "popular"]
+
+
+def test_repository_ordering_ignores_popularity_signals(tmp_path) -> None:
+    url = f"sqlite+pysqlite:///{tmp_path / 'repo-ranking.db'}"
+    init_database(url)
+    factory = make_session_factory(url)
+    with factory() as session:
+        upsert_skill(
+            session,
+            make_skill(
+                "popular",
+                repo_full_name="zeta/popular",
+                overall=90,
+                stars=1_000_000,
+            ),
+        )
+        upsert_skill(
+            session,
+            make_skill(
+                "quiet",
+                repo_full_name="alpha/quiet",
+                overall=90,
+                stars=1,
+            ),
+        )
+        repos = repository_rollups(session)
+
+    assert [repo["repo_full_name"] for repo in repos] == ["alpha/quiet", "zeta/popular"]
 
 
 def test_export_rejects_unknown_format(tmp_path) -> None:
