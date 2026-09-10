@@ -18,6 +18,7 @@ class FakeGitHub:
             {"path": "tests/test_demo.py", "type": "blob"},
             {"path": "skills/demo/SKILL.md", "type": "blob"},
             {"path": "skills/demo/scripts/check.py", "type": "blob"},
+            {"path": "skills/demo/evals/test_check.py", "type": "blob"},
         ]
         self.files = {
             "skills/demo/SKILL.md": (
@@ -43,6 +44,7 @@ class FakeGitHub:
                 "contradicts the requested conclusion.\n"
             ),
             "skills/demo/scripts/check.py": script,
+            "skills/demo/evals/test_check.py": "assert True\n",
         }
 
     def recursive_tree(self, repo):
