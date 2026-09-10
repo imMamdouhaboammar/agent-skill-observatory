@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "afaro-ai/afaro:skills/afaro-drop-submit",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "afaro-ai/afaro:skills/afaro-drop-submit",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5a73dbc422568ca691165f8c392debbf40462aae4dcaf5bf1d4f75f52c5bb683",
+    "description": "Scaffold for the single California deletion request through the state DROP platform. Not implemented yet. Use when a California resident asks about the state deletion request.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "data",
+        "design",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/afaro-ai/afaro/blob/main/skills/afaro-drop-submit/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T05:55:54.366203Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "afaro-drop-submit",
+    "path": "skills/afaro-drop-submit",
+    "pushed_at": "2026-09-10T05:52:45Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "afaro-ai/afaro",
+    "repo_url": "https://github.com/afaro-ai/afaro",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 91,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": ""
+}
