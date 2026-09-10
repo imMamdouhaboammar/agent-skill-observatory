@@ -4,7 +4,6 @@ from datetime import UTC, datetime
 from typing import Any
 
 import httpx
-from skill_observatory.github_publisher import GitHubAtomicPublisher
 
 from skill_observatory.domain import (
     IndexedSkill,
@@ -14,6 +13,7 @@ from skill_observatory.domain import (
     SpecValidation,
 )
 from skill_observatory.events import SkillEvent, build_published_record
+from skill_observatory.github_publisher import GitHubAtomicPublisher
 from skill_observatory.publication_store import skill_record_path
 
 NOW = datetime(2026, 9, 10, 8, 30, tzinfo=UTC)
