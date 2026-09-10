@@ -41,6 +41,7 @@ def _parsed(
     body: str = BODY,
     description: str = DESCRIPTION,
     scripts: int = 0,
+    local_eval: bool = False,
 ) -> ParsedSkill:
     root.mkdir(parents=True, exist_ok=True)
     manifest = root / "SKILL.md"
@@ -51,6 +52,11 @@ def _parsed(
         script.parent.mkdir(parents=True, exist_ok=True)
         script.write_text("print('static fixture')\n", encoding="utf-8")
         files.append(script)
+    if local_eval:
+        eval_file = root / "evals" / "verification.md"
+        eval_file.parent.mkdir(parents=True, exist_ok=True)
+        eval_file.write_text("# Verification\nRun deterministic checks.\n", encoding="utf-8")
+        files.append(eval_file)
     return ParsedSkill(
         root=root,
         skill_md_path=manifest,
@@ -164,6 +170,32 @@ def test_executable_scripts_require_test_or_eval_evidence(tmp_path: Path) -> Non
 
     assert report.qualified is False
     assert "script-verification" in report.blocking_reasons
+
+
+def test_repository_tests_do_not_verify_unrelated_skill_scripts(tmp_path: Path) -> None:
+    parsed = _parsed(tmp_path / "example", scripts=1)
+    report = qualify_skill(
+        parsed,
+        SecurityReport(score=100),
+        _repo(has_tests=True),
+        duplicate_of=None,
+    )
+
+    assert report.qualified is False
+    assert "script-verification" in report.blocking_reasons
+
+
+def test_local_eval_verifies_skill_scripts(tmp_path: Path) -> None:
+    parsed = _parsed(tmp_path / "example", scripts=1, local_eval=True)
+    report = qualify_skill(
+        parsed,
+        SecurityReport(score=100),
+        _repo(has_tests=False),
+        duplicate_of=None,
+    )
+
+    assert report.qualified is True
+    assert "script-verification" not in report.blocking_reasons
 
 
 def test_private_absolute_paths_block_portability(tmp_path: Path) -> None:
