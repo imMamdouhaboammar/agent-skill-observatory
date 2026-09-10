@@ -4,6 +4,8 @@ import subprocess
 from datetime import UTC, datetime
 from pathlib import Path
 
+import pytest
+
 from skill_observatory.domain import (
     IndexedSkill,
     ResourceCounts,
@@ -78,13 +80,17 @@ def _event() -> tuple[SkillEvent, dict[str, object]]:
     return event, {skill.canonical_key: after}
 
 
+def _prepare_repo(root: Path) -> None:
+    _git(root, "init", "-b", "main")
+    _git(root, "config", "user.name", "Test Bot")
+    _git(root, "config", "user.email", "bot@example.com")
+    (root / "README.md").write_text(README, encoding="utf-8")
+    _git(root, "add", "README.md")
+    _git(root, "commit", "-m", "initial")
+
+
 def test_local_git_publisher_creates_one_atomic_skill_commit(tmp_path: Path) -> None:
-    _git(tmp_path, "init", "-b", "main")
-    _git(tmp_path, "config", "user.name", "Test Bot")
-    _git(tmp_path, "config", "user.email", "bot@example.com")
-    (tmp_path / "README.md").write_text(README, encoding="utf-8")
-    _git(tmp_path, "add", "README.md")
-    _git(tmp_path, "commit", "-m", "initial")
+    _prepare_repo(tmp_path)
     initial_head = _git(tmp_path, "rev-parse", "HEAD")
 
     event, catalog = _event()
@@ -105,3 +111,18 @@ def test_local_git_publisher_creates_one_atomic_skill_commit(tmp_path: Path) -> 
     readme = (tmp_path / "README.md").read_text(encoding="utf-8")
     assert "Human text" in readme
     assert "Published skills: **1**" in readme
+
+
+def test_local_git_publisher_rejects_retry_counts_above_one(tmp_path: Path) -> None:
+    _prepare_repo(tmp_path)
+    event, catalog = _event()
+    publisher = LocalGitAtomicPublisher(checkout_root=tmp_path)
+
+    with pytest.raises(ValueError, match="supports exactly one attempt"):
+        publisher.publish_event(
+            event,
+            catalog,
+            repository="acme/observatory",
+            branch="main",
+            max_attempts=2,
+        )
