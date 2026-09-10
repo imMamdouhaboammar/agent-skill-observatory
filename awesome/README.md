@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **17**
+Published skills: **18**
 Repositories: **5**
 
 ## Browse repositories
@@ -41,3 +41,4 @@ Repositories: **5**
 - [assetseeker](./skills/agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) · `agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker`
 - [asta-skill](./skills/agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) · `agents365-ai/365-skills:plugins/asta/skills/asta-skill`
 - [bangumi-frames](./skills/agents365-ai/365-skills/plugins/bangumi-frames/skills/bangumi-frames/README.md) · `agents365-ai/365-skills:plugins/bangumi-frames/skills/bangumi-frames`
+- [bbc-skill](./skills/agents365-ai/365-skills/plugins/bbc/skills/bbc-skill/README.md) · `agents365-ai/365-skills:plugins/bbc/skills/bbc-skill`
