@@ -4,28 +4,52 @@ from skill_observatory.domain import RepositorySignals, SecurityReport, SpecVali
 from skill_observatory.scoring import score_skill
 
 
+def _repo(now: datetime, **updates) -> RepositorySignals:
+    values = {
+        "stars": 0,
+        "forks": 0,
+        "pushed_at": now - timedelta(days=3),
+        "archived": False,
+        "license_spdx": "MIT",
+        "has_tests": True,
+        "has_readme": True,
+        "contributors": 8,
+        "star_velocity_7d": 0.0,
+    }
+    values.update(updates)
+    return RepositorySignals(**values)
+
+
 def test_score_rewards_compliance_docs_tests_license_and_recent_activity() -> None:
     now = datetime.now(UTC)
     score = score_skill(
         spec=SpecValidation(valid=True, errors=[], warnings=[]),
         security=SecurityReport(score=100, findings=[]),
-        repo=RepositorySignals(
-            stars=500,
-            forks=50,
-            pushed_at=now - timedelta(days=3),
-            archived=False,
-            license_spdx="MIT",
-            has_tests=True,
-            has_readme=True,
-            contributors=8,
-            star_velocity_7d=25.0,
-        ),
+        repo=_repo(now, stars=500, forks=50, star_velocity_7d=25.0),
         description_length=180,
         body_chars=3000,
     )
     assert score.overall >= 80
     assert score.quality >= 80
     assert score.maintenance >= 70
+
+
+def test_overall_score_is_independent_of_popularity() -> None:
+    now = datetime.now(UTC)
+    common = {
+        "spec": SpecValidation(valid=True, errors=[], warnings=[]),
+        "security": SecurityReport(score=100, findings=[]),
+        "description_length": 180,
+        "body_chars": 3000,
+    }
+    unknown = score_skill(repo=_repo(now), **common)
+    viral = score_skill(
+        repo=_repo(now, stars=10_000_000, forks=100_000, star_velocity_7d=50_000),
+        **common,
+    )
+
+    assert unknown.adoption < viral.adoption
+    assert unknown.overall == viral.overall
 
 
 def test_archived_repo_is_penalized() -> None:
