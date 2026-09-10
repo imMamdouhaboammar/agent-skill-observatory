@@ -10,9 +10,8 @@ def load_workflow(name: str) -> dict:
 def test_refresh_runs_every_fifteen_minutes_with_atomic_publication() -> None:
     workflow = load_workflow("refresh.yml")
     triggers = workflow.get("on") or workflow[True]
+    assert set(triggers) == {"schedule", "workflow_dispatch"}
     assert triggers["schedule"] == [{"cron": "7,22,37,52 * * * *"}]
-    assert triggers["push"]["branches"] == ["main"]
-    assert "src/skill_observatory/**" in triggers["push"]["paths"]
     assert workflow["concurrency"]["group"] == "atomic-skill-publication"
     assert workflow["concurrency"]["cancel-in-progress"] is False
 
