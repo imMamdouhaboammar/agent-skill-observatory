@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import time
 from collections.abc import Callable
+from datetime import UTC
 from typing import Any
 from urllib.parse import quote
 
@@ -211,6 +212,34 @@ class GitHubAtomicPublisher:
             raise GitHubPublisherError("Skill event has no state for commit subject")
         return f"skill({event.type}): {record.skill.name} · {record.skill.repo_full_name}"
 
+    @staticmethod
+    def _commit_message(event: SkillEvent) -> str:
+        record = event.after or event.before
+        if record is None:
+            raise GitHubPublisherError("Skill event has no state for commit metadata")
+        skill = record.skill
+        raw_categories = (skill.evidence or {}).get("categories") or []
+        categories = sorted({str(item).strip() for item in raw_categories if str(item).strip()})
+        observed_at = event.observed_at
+        if observed_at.tzinfo is not None:
+            observed_at = observed_at.astimezone(UTC)
+        source = record.source_fingerprint or "none"
+        analysis = record.analysis_fingerprint or "none"
+        return "\n".join(
+            [
+                GitHubAtomicPublisher._commit_subject(event),
+                "",
+                f"Skill-Key: {event.canonical_key}",
+                f"Event: {event.type}",
+                f"Source-Fingerprint: {source}",
+                f"Analysis-Fingerprint: {analysis}",
+                f"Overall-Score: {skill.score.overall}",
+                f"Security-Score: {skill.security.score}",
+                f"Categories: {', '.join(categories) if categories else 'none'}",
+                f"Observed-At: {observed_at.isoformat()}",
+            ]
+        )
+
     def _create_blobs(
         self, repository: str, patch: DirectoryPatch
     ) -> dict[str, str]:
@@ -263,7 +292,7 @@ class GitHubAtomicPublisher:
         payload = self._post(
             f"/repos/{repository}/git/commits",
             {
-                "message": self._commit_subject(event),
+                "message": self._commit_message(event),
                 "tree": tree_sha,
                 "parents": [parent_sha],
             },
