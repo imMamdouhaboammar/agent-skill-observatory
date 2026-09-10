@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **15**
+Published skills: **16**
 Repositories: **5**
 
 ## Browse repositories
@@ -39,3 +39,4 @@ Repositories: **5**
 - [afaro-removal-verify](./skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) · `afaro-ai/afaro:skills/afaro-removal-verify`
 - [agent-native-design](./skills/agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`
 - [assetseeker](./skills/agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) · `agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker`
+- [asta-skill](./skills/agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) · `agents365-ai/365-skills:plugins/asta/skills/asta-skill`

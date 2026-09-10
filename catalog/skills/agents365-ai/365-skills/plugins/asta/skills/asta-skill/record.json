@@ -1,0 +1,85 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/asta/skills/asta-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/asta/skills/asta-skill",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "19f40e2568d7d3a582f621c32e72ac4d5770def820c621e47e5291d0119d3afd",
+    "description": "Domain expertise for Ai2 Asta MCP tools (Semantic Scholar corpus). Intent-to-tool routing, safe defaults, workflow patterns, and pitfall warnings for academic paper search, citation traversal, and author discovery.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/asta/skills/asta-skill/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {
+      "author": "Agents365-ai",
+      "compatibility": "Requires an MCP-capable host (Claude Code, Codex, Cursor, Windsurf, Hermes, OpenClaw/ClawHub) with the Asta MCP server registered at https://asta-tools.allen.ai/mcp/v1 using an x-api-key header. The skill does not make HTTP calls itself.",
+      "hermes": "{'tags': ['asta', 'semantic-scholar', 'academic', 'paper-search', 'citation', 'mcp'], 'category': 'research', 'requires_tools': ['mcp'], 'related_skills': ['semanticscholar-skill', 'literature-review']}",
+      "homepage": "https://github.com/Agents365-ai/asta-skill",
+      "openclaw": "{'requires': {'env': ['ASTA_API_KEY']}, 'emoji': '🔭', 'mcp': {'name': 'asta', 'type': 'http', 'url': 'https://asta-tools.allen.ai/mcp/v1', 'headers': {'x-api-key': '${ASTA_API_KEY}'}}}",
+      "pimo": "{'category': 'research', 'tags': ['asta', 'semantic-scholar', 'academic', 'paper-search', 'citation', 'mcp']}",
+      "platforms": "['macos', 'linux', 'windows']",
+      "version": "0.3.4"
+    },
+    "name": "asta-skill",
+    "path": "plugins/asta/skills/asta-skill",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}

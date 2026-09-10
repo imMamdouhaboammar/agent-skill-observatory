@@ -1,10 +1,11 @@
 # productivity
 
-Published Skills: 9
+Published Skills: 10
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [agent-native-design](../skills/Agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Use when designing, reviewing, or refactoring a CLI that must serve AI agents alongside humans, or when converting an API or SDK into an agent-usable CLI interface. |
+| [asta-skill](../skills/Agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Domain expertise for Ai2 Asta MCP tools (Semantic Scholar corpus). Intent-to-tool routing, safe defaults, workflow patterns, and pitfall warnings for academic paper search, citation traversal, and author discovery. |
 | [afaro-drop-submit](../skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Scaffold for the single California deletion request through the state DROP platform. Not implemented yet. Use when a California resident asks about the state deletion request. |
 | [afaro-exposure-scan](../skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Checks which people-search brokers list a person, using each broker's own public search box. Use when the user asks who has their data or where they are listed. |
 | [afaro-followup](../skills/afaro-ai/afaro/skills/afaro-followup/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Requeues brokers whose listing came back, and hands over brokers needing an ID, a payment, or an account. Use when a listing reappeared or an opt-out is stuck. |

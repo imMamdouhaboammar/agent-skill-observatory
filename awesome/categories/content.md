@@ -1,10 +1,11 @@
 # content
 
-Published Skills: 9
+Published Skills: 10
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [assetseeker](../skills/Agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Search free commercial-use creative assets across multiple online sources — photos, illustrations, icons, video footage, music, sound effects, and fonts. Use when the user needs to find assets for videos, PPTs, articles, or any content creation. Trigger on phrases like "find me a photo of", "search for icons", "I need background music", "find video footage", "search fonts", "找一张图片", "搜素材", "帮我找图标/视频/音乐/字体". Covers Pexels, Unsplash, Pixabay, Iconify, Freesound, Google Fonts and more — with API-backed search where available. |
+| [asta-skill](../skills/Agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Domain expertise for Ai2 Asta MCP tools (Semantic Scholar corpus). Intent-to-tool routing, safe defaults, workflow patterns, and pitfall warnings for academic paper search, citation traversal, and author discovery. |
 | [afaro-followup](../skills/afaro-ai/afaro/skills/afaro-followup/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Requeues brokers whose listing came back, and hands over brokers needing an ID, a payment, or an account. Use when a listing reappeared or an opt-out is stuck. |
 | [afaro-orchestrator](../skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) | [afaro-ai/afaro](https://github.com/afaro-ai/afaro) | 91 | 100 | 1 | Runs Afaro data removal opt-outs one broker at a time from a local profile, stopping before anything is sent. Use when the user wants to remove a listing or opt out of a people-search site. |
 | [update-markdown-file-index](../skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | Update a markdown file section with an index/table of files from a specified folder. |
