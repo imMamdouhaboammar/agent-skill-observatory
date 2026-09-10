@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "alizaouane/dev-agent:skills/orchestrator",
+  "publication_event": "add",
+  "published_at": "2026-09-10T14:03:45.870733Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "alizaouane/dev-agent:skills/orchestrator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "843f91f20298288ad3a183c8a45e9467a1079e260c2d5182d8fbf3ed60586ab3",
+    "description": "Use to advance a dev-agent feature issue through its state machine — knows the canonical state transitions, gate semantics, and which workflow runs at each transition.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "devops",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alizaouane/dev-agent/blob/main/skills/orchestrator/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T11:17:22.027568Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {},
+    "name": "orchestrator",
+    "path": "skills/orchestrator",
+    "pushed_at": "2026-09-10T11:07:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alizaouane/dev-agent",
+    "repo_url": "https://github.com/alizaouane/dev-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 86,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": ""
+}
