@@ -4,7 +4,6 @@ from datetime import UTC, datetime
 from typing import Any
 
 import httpx
-
 from skill_observatory.github_publisher import GitHubAtomicPublisher
 
 from skill_observatory.domain import (
@@ -258,7 +257,11 @@ def test_concurrent_human_readme_edit_is_preserved_on_retry() -> None:
         if path.endswith(f"/git/commits/{current_head}"):
             return httpx.Response(200, json={"tree": {"sha": f"TREE-{current_head}"}})
         if path.endswith("/contents/README.md"):
-            text = README if current_head == "A" else README.replace("Human text v1", "NEW HUMAN EDIT")
+            text = (
+                README
+                if current_head == "A"
+                else README.replace("Human text v1", "NEW HUMAN EDIT")
+            )
             return _content(text)
         if "/contents/catalog/skills/" in path:
             return httpx.Response(404, json={"message": "Not Found"})
