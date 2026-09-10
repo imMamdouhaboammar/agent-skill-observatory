@@ -57,3 +57,42 @@ class PublicationResult(BaseModel):
     parent_sha: str | None = None
     attempts: int = 0
     files_changed: list[str] = Field(default_factory=list)
+
+
+def build_published_record(
+    skill: IndexedSkill,
+    *,
+    published_at: datetime,
+    event: SkillEventType,
+) -> PublishedSkillRecord:
+    return PublishedSkillRecord(
+        canonical_key=skill.canonical_key,
+        source_fingerprint=skill.source_fingerprint,
+        analysis_fingerprint=skill.analysis_fingerprint,
+        published_at=published_at,
+        publication_event=event,
+        skill=skill,
+    )
+
+
+def compute_skill_events(
+    observed: list[IndexedSkill],
+    published: dict[str, PublishedSkillRecord],
+    *,
+    observed_at: datetime,
+) -> list[SkillEvent]:
+    events: list[SkillEvent] = []
+    for skill in sorted(observed, key=lambda item: item.canonical_key):
+        if skill.canonical_key in published or skill.consecutive_misses != 0:
+            continue
+        after = build_published_record(skill, published_at=observed_at, event="add")
+        events.append(
+            SkillEvent(
+                type="add",
+                canonical_key=skill.canonical_key,
+                after=after,
+                priority=5,
+                observed_at=observed_at,
+            )
+        )
+    return events
