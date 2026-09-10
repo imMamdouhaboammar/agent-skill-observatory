@@ -1,0 +1,86 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "agents365-ai/365-skills:plugins/journal-meta/skills/journal-meta",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Write,",
+      "Edit,",
+      "Glob,",
+      "Grep"
+    ],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "agents365-ai/365-skills:plugins/journal-meta/skills/journal-meta",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c697944c7695b88906555cf2ee8572c0a7145d349b8c6bdb7e5709deb0a9a8c2",
+    "description": "Use when the user wants full metadata for a paper — from a DOI, PMID, arXiv id, OpenAlex id, or title. Returns title, author list, first author, corresponding author(s), publication date, journal name + ISO-4 abbreviation, impact factor, volume/issue/pages, DOI/PMID, citation count, and abstract in one record. Triggers on \"paper metadata\", \"who is the corresponding author\", \"first author of\", \"what journal / impact factor for this DOI/PMID\", \"cite this paper\", \"文献元数据\", \"通讯作者\", \"第一作者\", \"影响因子\". PROACTIVELY USE when the user pastes a DOI/PMID/arXiv id or paper title and asks about its authors, venue, or impact.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agents365-ai/365-skills/blob/main/plugins/journal-meta/skills/journal-meta/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 11,
+    "indexed_at": "2026-09-10T05:53:54.002733Z",
+    "last_successful_repo_scan_at": null,
+    "license": null,
+    "metadata": {
+      "openclaw": "{'requires': {'bins': ['python3']}, 'emoji': '🗂️', 'homepage': 'https://github.com/Agents365-ai/journal-meta', 'os': ['macos', 'linux', 'windows']}",
+      "version": "0.1.0"
+    },
+    "name": "journal-meta",
+    "path": "plugins/journal-meta/skills/journal-meta",
+    "pushed_at": "2026-09-10T05:52:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agents365-ai/365-skills",
+    "repo_url": "https://github.com/Agents365-ai/365-skills",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 44
+  },
+  "source_fingerprint": ""
+}

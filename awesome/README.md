@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **23**
+Published skills: **24**
 Repositories: **5**
 
 ## Browse repositories
@@ -47,3 +47,4 @@ Repositories: **5**
 - [imagencn](./skills/agents365-ai/365-skills/plugins/imagencn/skills/imagencn/README.md) · `agents365-ai/365-skills:plugins/imagencn/skills/imagencn`
 - [journal-abbrev](./skills/agents365-ai/365-skills/plugins/journal-abbrev/skills/journal-abbrev/README.md) · `agents365-ai/365-skills:plugins/journal-abbrev/skills/journal-abbrev`
 - [journal-if](./skills/agents365-ai/365-skills/plugins/journal-if/skills/journal-if/README.md) · `agents365-ai/365-skills:plugins/journal-if/skills/journal-if`
+- [journal-meta](./skills/agents365-ai/365-skills/plugins/journal-meta/skills/journal-meta/README.md) · `agents365-ai/365-skills:plugins/journal-meta/skills/journal-meta`
