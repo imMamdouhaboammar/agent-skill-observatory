@@ -30,8 +30,15 @@ def _skill(
     forks: int = 2,
     security: int = 100,
     misses: int = 0,
+    qualified: bool | None = True,
 ) -> IndexedSkill:
     repo_full_name, path = canonical_key.split(":", 1)
+    evidence: dict[str, object] = {"categories": ["engineering"]}
+    if qualified is not None:
+        evidence["qualification"] = {
+            "qualified": qualified,
+            "blocking_reasons": [] if qualified else ["static-security"],
+        }
     return IndexedSkill(
         canonical_key=canonical_key,
         content_fingerprint="c" * 64,
@@ -64,7 +71,7 @@ def _skill(
         discovery_source="test",
         indexed_at=NOW,
         consecutive_misses=misses,
-        evidence={"categories": ["engineering"]},
+        evidence=evidence,
     )
 
 
@@ -138,7 +145,7 @@ def test_build_published_record_uses_semantic_fingerprints() -> None:
     assert record.skill == skill
 
 
-def test_new_active_skill_emits_exactly_one_add_event() -> None:
+def test_new_qualified_active_skill_emits_exactly_one_add_event() -> None:
     events = compute_skill_events([_skill()], {}, observed_at=NOW)
 
     assert len(events) == 1
@@ -147,6 +154,33 @@ def test_new_active_skill_emits_exactly_one_add_event() -> None:
     assert events[0].before is None
     assert events[0].after is not None
     assert events[0].after.source_fingerprint == "s" * 64
+
+
+def test_new_unqualified_skill_does_not_emit_add() -> None:
+    assert compute_skill_events([_skill(qualified=False)], {}, observed_at=NOW) == []
+
+
+def test_new_skill_with_unknown_legacy_qualification_does_not_emit_add() -> None:
+    assert compute_skill_events([_skill(qualified=None)], {}, observed_at=NOW) == []
+
+
+def test_published_skill_that_loses_qualification_is_removed_first() -> None:
+    before = _published(_skill(qualified=True))
+    observed = _skill(qualified=False)
+
+    events = compute_skill_events([observed], {CANONICAL_KEY: before}, observed_at=NOW)
+
+    assert [(event.type, event.canonical_key) for event in events] == [
+        ("remove", CANONICAL_KEY)
+    ]
+    assert events[0].priority == 0
+
+
+def test_published_skill_with_unknown_legacy_qualification_is_preserved() -> None:
+    before = _published(_skill(qualified=True))
+    observed = _skill(qualified=None, analysis="z")
+
+    assert compute_skill_events([observed], {CANONICAL_KEY: before}, observed_at=NOW) == []
 
 
 def test_source_change_emits_update() -> None:
