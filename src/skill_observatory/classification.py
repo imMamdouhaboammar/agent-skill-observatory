@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 MAX_CATEGORIES = 6
@@ -48,11 +49,21 @@ CATEGORY_KEYWORDS = {
 }
 
 
+def _contains_keyword(text: str, keyword: str) -> bool:
+    pattern = rf"(?<![\w-]){re.escape(keyword)}(?![\w-])"
+    return re.search(pattern, text) is not None
+
+
 def classify_categories(description: str, body: str) -> list[str]:
-    haystack = f"{description}\n{body}".lower()
+    description_l = description.lower()
+    body_l = body.lower()
     scored: list[tuple[int, str]] = []
     for category, keywords in CATEGORY_KEYWORDS.items():
-        score = sum(1 for keyword in keywords if keyword in haystack)
+        description_hits = sum(
+            1 for keyword in keywords if _contains_keyword(description_l, keyword)
+        )
+        body_hits = sum(1 for keyword in keywords if _contains_keyword(body_l, keyword))
+        score = (description_hits * 2) + body_hits
         if score:
             scored.append((score, category))
     scored.sort(key=lambda item: (-item[0], item[1]))
