@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills)
 
-Published Skills: 21
+Published Skills: 22
 Categories: content, data, design, devops, engineering, productivity, research
 Best overall score: 93
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -23,6 +23,7 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [pi-prompting](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-prompting/README.md) | `plugins/pi-plugin-cc/skills/pi-prompting` | 93 | 100 | design, engineering, productivity, research |
 | [semanticscholar-skill](../../skills/Agents365-ai/365-skills/plugins/semanticscholar/skills/semanticscholar-skill/README.md) | `plugins/semanticscholar/skills/semanticscholar-skill` | 93 | 100 | content, data, engineering, research |
 | [tldraw-skill](../../skills/Agents365-ai/365-skills/plugins/tldraw/skills/tldraw-skill/README.md) | `plugins/tldraw/skills/tldraw-skill` | 93 | 100 | content, data, design, engineering |
+| [ttscn](../../skills/Agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) | `plugins/ttscn/skills/ttscn` | 93 | 100 | design, devops, engineering, productivity |
 | [obsidian-organizer](../../skills/Agents365-ai/365-skills/plugins/obsidian-organizer/skills/obsidian-organizer/README.md) | `plugins/obsidian-organizer/skills/obsidian-organizer` | 91 | 100 | content, data, engineering, research |
 | [pi-cli-runtime](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-cli-runtime/README.md) | `plugins/pi-plugin-cc/skills/pi-cli-runtime` | 91 | 100 | content, engineering, productivity, research |
 | [pi-result-handling](../../skills/Agents365-ai/365-skills/plugins/pi-plugin-cc/skills/pi-result-handling/README.md) | `plugins/pi-plugin-cc/skills/pi-result-handling` | 91 | 100 | design, engineering, research |

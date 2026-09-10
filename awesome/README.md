@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **34**
+Published skills: **35**
 Repositories: **5**
 
 ## Browse repositories
@@ -58,3 +58,4 @@ Repositories: **5**
 - [semanticscholar-skill](./skills/agents365-ai/365-skills/plugins/semanticscholar/skills/semanticscholar-skill/README.md) · `agents365-ai/365-skills:plugins/semanticscholar/skills/semanticscholar-skill`
 - [target-prioritization](./skills/agents365-ai/365-skills/plugins/target-prioritization/skills/target-prioritization/README.md) · `agents365-ai/365-skills:plugins/target-prioritization/skills/target-prioritization`
 - [tldraw-skill](./skills/agents365-ai/365-skills/plugins/tldraw/skills/tldraw-skill/README.md) · `agents365-ai/365-skills:plugins/tldraw/skills/tldraw-skill`
+- [ttscn](./skills/agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) · `agents365-ai/365-skills:plugins/ttscn/skills/ttscn`
