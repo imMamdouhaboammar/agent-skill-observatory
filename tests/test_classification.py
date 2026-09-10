@@ -58,7 +58,7 @@ def test_short_keywords_do_not_match_inside_unrelated_words() -> None:
 def test_hyphenated_compounds_match_domain_keywords() -> None:
     categories = classify_categories(
         "Build low-code REST-api tooling with web-design guidance",
-        "Use the API and design workflow safely.",
+        "Keep the instructions bounded, deterministic, and reproducible.",
     )
 
     assert "engineering" in categories
