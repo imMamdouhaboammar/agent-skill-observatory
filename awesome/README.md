@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **9**
+Published skills: **10**
 Repositories: **4**
 
 ## Browse repositories
@@ -32,3 +32,4 @@ Repositories: **4**
 - [update-markdown-file-index](./skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) · `707734712/agents-in-sdlc:.github/skills/update-markdown-file-index`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`
+- [afaro-exposure-scan](./skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) · `afaro-ai/afaro:skills/afaro-exposure-scan`

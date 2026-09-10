@@ -1,0 +1,74 @@
+{
+  "analysis_fingerprint": "",
+  "canonical_key": "afaro-ai/afaro:skills/afaro-exposure-scan",
+  "publication_event": "add",
+  "published_at": "2026-09-10T13:44:22.631048Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "",
+    "archived": false,
+    "canonical_key": "afaro-ai/afaro:skills/afaro-exposure-scan",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "098a24f4f1b0e3d317cb0316953f436d27f9be67de69bd96f6c01a1b4a01f350",
+    "description": "Checks which people-search brokers list a person, using each broker's own public search box. Use when the user asks who has their data or where they are listed.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "data",
+        "design",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/afaro-ai/afaro/blob/main/skills/afaro-exposure-scan/SKILL.md",
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-10T05:55:54.366203Z",
+    "last_successful_repo_scan_at": null,
+    "license": "MIT",
+    "metadata": {},
+    "name": "afaro-exposure-scan",
+    "path": "skills/afaro-exposure-scan",
+    "pushed_at": "2026-09-10T05:52:45Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "afaro-ai/afaro",
+    "repo_url": "https://github.com/afaro-ai/afaro",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 91,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": ""
+}
