@@ -1,0 +1,114 @@
+name: Bootstrap catalog
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_repositories:
+        description: Maximum candidate repositories to inspect
+        required: false
+        default: '100'
+      max_events:
+        description: Maximum Skill events to publish
+        required: false
+        default: '500'
+      time_budget_seconds:
+        description: Publication wall-clock budget in seconds
+        required: false
+        default: '2400'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-publication
+  cancel-in-progress: false
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Restore history database cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/observatory.db
+          key: observatory-db-${{ github.run_id }}
+          restore-keys: |
+            observatory-db-
+
+      - name: Install observatory
+        run: python -m pip install -e .
+
+      - name: Apply database migrations
+        env:
+          SKILLOBS_DATABASE_URL: sqlite+pysqlite:///./.cache/observatory.db
+        run: |
+          mkdir -p .cache
+          skillobs migrate
+
+      - name: Scan bootstrap candidate set
+        env:
+          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          MAX_REPOSITORIES="${{ inputs.max_repositories }}"
+          skillobs refresh \
+            --database-url sqlite+pysqlite:///./.cache/observatory.db \
+            --max-repositories "$MAX_REPOSITORIES" | tee .cache/refresh-report.json
+
+      - name: Publish bootstrap Skill events and materialized views
+        env:
+          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          MAX_EVENTS="${{ inputs.max_events }}"
+          TIME_BUDGET="${{ inputs.time_budget_seconds }}"
+          skillobs publish-events \
+            --repository "$GITHUB_REPOSITORY" \
+            --branch main \
+            --database-url sqlite+pysqlite:///./.cache/observatory.db \
+            --checkout-root . \
+            --max-events "$MAX_EVENTS" \
+            --time-budget-seconds "$TIME_BUDGET" | tee .cache/publication-report.json
+
+      - name: Add bootstrap summary
+        if: always()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+
+          print('## Agent Skill Observatory bootstrap')
+          print()
+          report_path = Path('.cache/publication-report.json')
+          if not report_path.exists():
+              print('- Publication report was not produced')
+              raise SystemExit(0)
+          report = json.loads(report_path.read_text())
+          print(f"- Events detected: **{report['events_detected']}**")
+          print(f"- Events published: **{report['events_published']}**")
+          print(f"- ADD: **{report['adds']}**")
+          print(f"- UPDATE: **{report['updates']}**")
+          print(f"- REINDEX: **{report['reindexes']}**")
+          print(f"- REMOVE: **{report['removals']}**")
+          print(f"- Conflicts retried: **{report['conflicts_retried']}**")
+          print(f"- Remaining deferred count: **{report['events_deferred']}**")
+          print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
+          print(f"- Failures: **{len(report['failures'])}**")
+          print(f"- main before SHA: `{report.get('main_before') or 'unknown'}`")
+          print(f"- main after SHA: `{report.get('main_after') or 'unknown'}`")
+          PY
+
+      - name: Save history database cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .cache/observatory.db
+          key: observatory-db-${{ github.run_id }}
