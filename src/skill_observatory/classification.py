@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
+MAX_CATEGORIES = 6
+
 CATEGORY_KEYWORDS = {
     "engineering": {
         "code", "repository", "pull request", "debug", "developer", "frontend", "backend", "api", "git", "ci",
@@ -54,7 +56,7 @@ def classify_categories(description: str, body: str) -> list[str]:
         if score:
             scored.append((score, category))
     scored.sort(key=lambda item: (-item[0], item[1]))
-    return [category for _, category in scored[:4]] or ["other"]
+    return [category for _, category in scored[:MAX_CATEGORIES]] or ["other"]
 
 
 def infer_clients(path: str, compatibility: str | None, files: list[Path]) -> dict[str, list[str]]:
