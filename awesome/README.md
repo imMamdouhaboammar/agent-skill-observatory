@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **44**
+Published skills: **45**
 Repositories: **8**
 
 ## Browse repositories
@@ -71,3 +71,4 @@ Repositories: **8**
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
 - [drift-check](./skills/alizaouane/dev-agent/skills/drift-check/README.md) · `alizaouane/dev-agent:skills/drift-check`
+- [elicit](./skills/alizaouane/dev-agent/skills/elicit/README.md) · `alizaouane/dev-agent:skills/elicit`
