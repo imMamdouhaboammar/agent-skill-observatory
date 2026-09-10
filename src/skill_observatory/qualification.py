@@ -88,15 +88,18 @@ def qualify_skill(
 ) -> QualificationReport:
     """Apply deterministic publication admission checks without popularity inputs."""
 
-    has_high_risk_finding = any(
-        finding.severity in {"high", "critical"} for finding in security.findings
+    has_blocking_security_finding = any(
+        finding.severity in {"medium", "high", "critical"}
+        for finding in security.findings
     )
     relative_files = _relative_files(parsed)
     has_local_eval = any(path.startswith("evals/") for path in relative_files)
     checks = {
         "spec-validity": parsed.spec.valid,
         "instruction-depth": _instruction_depth(parsed),
-        "static-security": security.score >= MIN_SECURITY_SCORE and not has_high_risk_finding,
+        "static-security": (
+            security.score >= MIN_SECURITY_SCORE and not has_blocking_security_finding
+        ),
         "script-verification": parsed.resource_counts.scripts == 0 or repo.has_tests or has_local_eval,
         "portability": _portable(parsed),
         "resource-integrity": _resource_integrity(parsed),
