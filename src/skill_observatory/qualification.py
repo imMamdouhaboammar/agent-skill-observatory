@@ -100,7 +100,7 @@ def qualify_skill(
         "static-security": (
             security.score >= MIN_SECURITY_SCORE and not has_blocking_security_finding
         ),
-        "script-verification": parsed.resource_counts.scripts == 0 or repo.has_tests or has_local_eval,
+        "script-verification": parsed.resource_counts.scripts == 0 or has_local_eval,
         "portability": _portable(parsed),
         "resource-integrity": _resource_integrity(parsed),
         "behavioral-safety": _behaviorally_safe(parsed),
