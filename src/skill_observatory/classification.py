@@ -71,7 +71,7 @@ CATEGORY_KEYWORDS = {
 
 
 def _contains_keyword(text: str, keyword: str) -> bool:
-    pattern = rf"(?<![\w-]){re.escape(keyword)}(?![\w-])"
+    pattern = rf"(?<!\w){re.escape(keyword)}(?!\w)"
     return re.search(pattern, text) is not None
 
 
