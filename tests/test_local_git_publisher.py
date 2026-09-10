@@ -270,6 +270,9 @@ def test_local_git_publisher_serializes_checkout_transactions(tmp_path: Path) ->
     first = LocalGitAtomicPublisher(checkout_root=tmp_path)
     second = LocalGitAtomicPublisher(checkout_root=tmp_path)
 
-    with first._publication_lock(), pytest.raises(PublicationError, match="lock"):
-        with second._publication_lock(blocking=False):
-            raise AssertionError("second publication transaction acquired checkout lock")
+    with (
+        first._publication_lock(),
+        pytest.raises(PublicationError, match="lock"),
+        second._publication_lock(blocking=False),
+    ):
+        raise AssertionError("second publication transaction acquired checkout lock")
