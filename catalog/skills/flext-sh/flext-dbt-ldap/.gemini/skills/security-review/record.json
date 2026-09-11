@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "3fdd09f3d74c577bbf4cabf0d002ba04c6301ac8f328a26ac7df274951d9019b",
+  "canonical_key": "flext-sh/flext-dbt-ldap:.gemini/skills/security-review",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3fdd09f3d74c577bbf4cabf0d002ba04c6301ac8f328a26ac7df274951d9019b",
+    "archived": false,
+    "canonical_key": "flext-sh/flext-dbt-ldap:.gemini/skills/security-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3a84b6a7100422dcf2997c12c774524930d19f5336a8a4c0872ba46151c2a5cf",
+    "description": "security findings, attack surfaces, dependency risk",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "security",
+        "data",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/flext-sh/flext-dbt-ldap/blob/0.12.0-dev/.gemini/skills/security-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:53:04.330751Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:53:04.330751Z",
+    "license": "MIT",
+    "metadata": {
+      "aihub.tags": "[\"policy:atomic-effects\",\"policy:causal-subprocess\",\"policy:fail-loud\",\"policy:no-fallback\",\"policy:no-keyring\",\"policy:preflight-before-effects\",\"policy:required-environment\",\"policy:strict-execution\",\"policy:zero-residue\",\"provenance:agents-owned\",\"role:security\",\"updates:manual\",\"usage:on-demand\"]"
+    },
+    "name": "security-review",
+    "path": ".gemini/skills/security-review",
+    "pushed_at": "2026-09-11T16:44:28Z",
+    "repo_default_branch": "0.12.0-dev",
+    "repo_full_name": "flext-sh/flext-dbt-ldap",
+    "repo_url": "https://github.com/flext-sh/flext-dbt-ldap",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8457ad0c53319268e0ef1f2ce90e93ea8c1ee2bcc5589eb8f92c58a335da5f34",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "8457ad0c53319268e0ef1f2ce90e93ea8c1ee2bcc5589eb8f92c58a335da5f34"
+}
