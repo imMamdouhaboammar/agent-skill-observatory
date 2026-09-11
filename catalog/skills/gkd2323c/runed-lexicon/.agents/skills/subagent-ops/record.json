@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "3220d6c1e0d9c3df02e949745497dbd27794f7b758ef3ffb7caa85bc2a19501e",
+  "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/subagent-ops",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3220d6c1e0d9c3df02e949745497dbd27794f7b758ef3ffb7caa85bc2a19501e",
+    "archived": false,
+    "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/subagent-ops",
+    "compatibility": "纯规范文档，无脚本、无外部依赖。",
+    "consecutive_misses": 0,
+    "content_fingerprint": "2bbeb7ffe5d11ca1534282f93caf3fe9a5515fb13e942af1977e026b9e981d97",
+    "description": "子代理协作操作手册（subagent orchestration）。覆盖委派决策、任务卡编译（信息三分法）、体量上限、并行协作纪律（单写者、幂等保护、送达纪律、实例生命周期）、产出验收三查、故障归因与恢复。Use when 派子代理做独立或并行任务、多路批量翻译/审计/扫描、编排多代理协作、验收子代理产出、处理子代理崩溃无产出、控制派单体量，或判断某任务该不该交给子代理。Triggers: subagent, subagents, delegation, dispatch, parallel agents, multi-agent, orchestration, handoff, 子代理, 派单, 派发, 并行, 委派, 验收, 编排.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "agent-orchestration",
+        "productivity",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/gkd2323c/runed-lexicon/blob/main/.agents/skills/subagent-ops/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:39:00.478677Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:39:00.478677Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "version": "1.0.0"
+    },
+    "name": "subagent-ops",
+    "path": ".agents/skills/subagent-ops",
+    "pushed_at": "2026-09-11T12:36:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "gkd2323c/runed-lexicon",
+    "repo_url": "https://github.com/gkd2323c/runed-lexicon",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bb5414b3ea81337c760b9bb8a02f64ad4bc8257700d706a7b5db9d9e331a0556",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "bb5414b3ea81337c760b9bb8a02f64ad4bc8257700d706a7b5db9d9e331a0556"
+}

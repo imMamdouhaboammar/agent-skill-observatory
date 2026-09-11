@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 194
+Published Skills: 195
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -139,6 +139,7 @@ Published Skills: 194
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |
 | [skyrim-term-contract-workflow](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-term-contract-workflow/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 的官方名词契约与质量门禁工作流：新 MOD 开工前与批次收尾后的强制流程（dictionary-noun-audit 候选发现 → Agent 消解 → term-contract-compiler 编译契约 → unit bindings → translation-quality-gate → 确定性写回 → 复扫），含 PASS 声明口径与已知工具行为。Use when starting a new MOD translation, finishing any translation/rectification batch, running or interpreting dictionary-noun-audit / term-contract-compiler / translation-quality-gate / xtranslator-xml-writer results, or writing convergence claims in reports. |
 | [structured-artifacts-ko](../skills/andyko18/specops-ko/skills/structured-artifacts-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 Lifecycle 커맨드의 Process 첫 스텝 — `.specops/<FID>/` 디렉토리 규약으로 단계 간 파일-기반 통신을 강제한다 |
+| [subagent-ops](../skills/gkd2323c/runed-lexicon/.agents/skills/subagent-ops/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | 子代理协作操作手册（subagent orchestration）。覆盖委派决策、任务卡编译（信息三分法）、体量上限、并行协作纪律（单写者、幂等保护、送达纪律、实例生命周期）、产出验收三查、故障归因与恢复。Use when 派子代理做独立或并行任务、多路批量翻译/审计/扫描、编排多代理协作、验收子代理产出、处理子代理崩溃无产出、控制派单体量，或判断某任务该不该交给子代理。Triggers: subagent, subagents, delegation, dispatch, parallel agents, multi-agent, orchestration, handoff, 子代理, 派单, 派发, 并行, 委派, 验收, 编排. |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [tdd-ko](../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기능·버그픽스·리팩터링 구현 시 구현 코드 작성 전 반드시 사용 — Red-Green-Refactor 사이클 강제, 프로덕션 코드는 실패 테스트 없이 작성 금지 |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
