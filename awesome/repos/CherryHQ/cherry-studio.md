@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
 
-Published Skills: 8
-Categories: agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, productivity, research, testing
+Published Skills: 9
+Categories: agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, other, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -13,6 +13,7 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [cherry-skill-marketplace](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace` | 100 | 100 | design |
 | [claude-automation-recommender](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender` | 100 | 100 | agent-orchestration, devops, engineering, integrations, productivity, testing |
 | [create-skill](../../skills/CherryHQ/cherry-studio/.agents/skills/create-skill/README.md) | `.agents/skills/create-skill` | 100 | 100 | devops, documentation, engineering, legal-compliance, productivity, testing |
+| [faq-collector](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector` | 100 | 100 | other |
 | [gh-create-issue](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | `.agents/skills/gh-create-issue` | 100 | 100 | browser-automation, commerce, content, engineering, productivity, research |
 | [gh-pr-review](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-pr-review/README.md) | `.agents/skills/gh-pr-review` | 100 | 100 | agent-orchestration, commerce, design, documentation, engineering, productivity |
 | [vercel-react-best-practices](../../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | `.agents/skills/vercel-react-best-practices` | 100 | 100 | content, data, engineering, media |

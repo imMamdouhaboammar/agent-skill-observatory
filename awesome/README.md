@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **59**
+Published skills: **60**
 Repositories: **10**
 
 ## Browse repositories
@@ -30,6 +30,7 @@ Repositories: **10**
 - [integrations](./categories/integrations.md)
 - [legal-compliance](./categories/legal-compliance.md)
 - [media](./categories/media.md)
+- [other](./categories/other.md)
 - [productivity](./categories/productivity.md)
 - [research](./categories/research.md)
 - [security](./categories/security.md)
@@ -96,3 +97,4 @@ Repositories: **10**
 - [cherry-skill-marketplace](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace`
 - [cherry-studio-feedback](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback`
 - [claude-automation-recommender](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender`
+- [faq-collector](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector`
