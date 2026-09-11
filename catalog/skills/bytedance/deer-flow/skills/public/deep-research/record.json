@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "75bb08afbf209626b46cd458ecb295b9b2ed748004ff3d3d5ee14f4527f8b2ee",
+  "canonical_key": "bytedance/deer-flow:skills/public/deep-research",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "75bb08afbf209626b46cd458ecb295b9b2ed748004ff3d3d5ee14f4527f8b2ee",
+    "archived": false,
+    "canonical_key": "bytedance/deer-flow:skills/public/deep-research",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "04712f4daa7937cc1f8dabc1a086a9549e670eb3fa3f1a8d30abdc3ea8b31a79",
+    "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "productivity",
+        "data",
+        "design",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/deep-research/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 11345,
+    "indexed_at": "2026-09-11T23:39:20.634091Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:39:20.634091Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "deep-research",
+    "path": "skills/public/deep-research",
+    "pushed_at": "2026-09-11T23:35:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bytedance/deer-flow",
+    "repo_url": "https://github.com/bytedance/deer-flow",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2ce9e25759e7c6ea36de668bd6130d60d0a17236a2450882944c3520c73630b6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 82289
+  },
+  "source_fingerprint": "2ce9e25759e7c6ea36de668bd6130d60d0a17236a2450882944c3520c73630b6"
+}
