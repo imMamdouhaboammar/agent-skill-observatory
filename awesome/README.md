@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **82**
+Published skills: **83**
 Repositories: **12**
 
 ## Browse repositories
@@ -125,3 +125,4 @@ Repositories: **12**
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
 - [code-conventions](./skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) · `iflytek/skillhub:.agents/skills/code-conventions`
 - [pr-submission](./skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) · `iflytek/skillhub:.agents/skills/pr-submission`
+- [skill-lifecycle](./skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) · `iflytek/skillhub:.agents/skills/skill-lifecycle`

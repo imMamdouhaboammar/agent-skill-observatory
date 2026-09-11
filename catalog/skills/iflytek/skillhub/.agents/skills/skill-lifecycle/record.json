@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "e1f0f5e7ddf509b9247e02452531a9e25edcc63a33d6598c51c9212fcf308e97",
+  "canonical_key": "iflytek/skillhub:.agents/skills/skill-lifecycle",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e1f0f5e7ddf509b9247e02452531a9e25edcc63a33d6598c51c9212fcf308e97",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:.agents/skills/skill-lifecycle",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4547ceed1f1eecc83ab0dab4fbbb6f5544c338ce5a6ee14ab8122d6a94942bc7",
+    "description": "The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions.",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "security",
+        "design",
+        "documentation",
+        "engineering",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/.agents/skills/skill-lifecycle/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "skill-lifecycle",
+    "path": ".agents/skills/skill-lifecycle",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6454ce93b8f926c7ad58ec0db91dd3d334d5a19d014399e299f751c7f1d58d5a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "6454ce93b8f926c7ad58ec0db91dd3d334d5a19d014399e299f751c7f1d58d5a"
+}
