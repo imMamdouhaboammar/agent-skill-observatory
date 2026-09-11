@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 6
+Published Skills: 7
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,4 +9,5 @@ Published Skills: 6
 | [gh-create-issue](../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format. |
 | [diagram-maker](../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards. |
 | [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
+| [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [apple-web-design](../skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Build or review web interfaces that need Apple-style direct manipulation, interruptible gesture motion, velocity-aware settling, restrained translucent materials, deliberate state-transition craft, responsive typography, and motion/transparency accessibility. Use only when the target repository or user asks for this interaction language; target-repository engineering and visual rules always win. |

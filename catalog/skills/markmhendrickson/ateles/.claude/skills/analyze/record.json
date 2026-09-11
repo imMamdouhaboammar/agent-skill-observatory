@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "36bca172f248da8d284edfec14dbf7ef9364e961bfe9ec1404e6b33661884678",
+  "canonical_key": "markmhendrickson/ateles:.claude/skills/analyze",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "36bca172f248da8d284edfec14dbf7ef9364e961bfe9ec1404e6b33661884678",
+    "archived": false,
+    "canonical_key": "markmhendrickson/ateles:.claude/skills/analyze",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c69d0aa8fc7fb7d012f07aaa102ca2b50ab249dc4dfed60afda62f2a4d14754c",
+    "description": "Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted.",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "business",
+        "product",
+        "research",
+        "browser-automation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/markmhendrickson/ateles/blob/main/.claude/skills/analyze/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:00:52.211704Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:00:52.211704Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "analyze",
+    "path": ".claude/skills/analyze",
+    "pushed_at": "2026-09-11T07:59:31Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "markmhendrickson/ateles",
+    "repo_url": "https://github.com/markmhendrickson/ateles",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 29,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "667943c53aae2c2843fb0639c01a3570c8ef07c0dbd21faef71632869b57e191",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "667943c53aae2c2843fb0639c01a3570c8ef07c0dbd21faef71632869b57e191"
+}

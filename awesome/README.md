@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **104**
-Repositories: **14**
+Published skills: **105**
+Repositories: **15**
 
 ## Browse repositories
 
@@ -19,6 +19,7 @@ Repositories: **14**
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
 - [lightdash/lightdash](./repos/lightdash/lightdash.md)
+- [markmhendrickson/ateles](./repos/markmhendrickson/ateles.md)
 
 ## Browse categories
 
@@ -26,6 +27,7 @@ Repositories: **14**
 - [ai-ml](./categories/ai-ml.md)
 - [architecture](./categories/architecture.md)
 - [browser-automation](./categories/browser-automation.md)
+- [business](./categories/business.md)
 - [commerce](./categories/commerce.md)
 - [content](./categories/content.md)
 - [data](./categories/data.md)
@@ -157,3 +159,4 @@ Repositories: **14**
 - [dev-orchestrator](./skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) · `imeepos/ui-designer:.agents/skills/dev-orchestrator`
 - [rudder-design](./skills/imeepos/ui-designer/skill/rudder-design/README.md) · `imeepos/ui-designer:skill/rudder-design`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
+- [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
