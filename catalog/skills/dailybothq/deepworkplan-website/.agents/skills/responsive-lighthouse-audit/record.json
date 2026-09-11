@@ -1,0 +1,107 @@
+{
+  "analysis_fingerprint": "cdd0f5e36fd8fe1fc8e3b4f6c0db20d03cd91fdc108bc45695042a4d4d06c6ac",
+  "canonical_key": "dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read,",
+      "Write,",
+      "Edit,",
+      "Glob,",
+      "Grep,",
+      "Bash"
+    ],
+    "analysis_fingerprint": "cdd0f5e36fd8fe1fc8e3b4f6c0db20d03cd91fdc108bc45695042a4d4d06c6ac",
+    "archived": false,
+    "canonical_key": "dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f2d4ec437a6c4813ffb9f0dddb2ab31f0bfc969b178a2291e5aa2a22e0255822",
+    "description": "Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "mobile",
+        "security",
+        "localization",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DailybotHQ/deepworkplan-website/blob/main/.agents/skills/responsive-lighthouse-audit/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T16:52:45.236185Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:52:45.236185Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "responsive-lighthouse-audit",
+    "path": ".agents/skills/responsive-lighthouse-audit",
+    "pushed_at": "2026-09-11T16:44:31Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DailybotHQ/deepworkplan-website",
+    "repo_url": "https://github.com/DailybotHQ/deepworkplan-website",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d0839c12917a9dcf2c9fcb9a2dcb964100d0b3c4733427bf073991714625ad2e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 15
+  },
+  "source_fingerprint": "d0839c12917a9dcf2c9fcb9a2dcb964100d0b3c4733427bf073991714625ad2e"
+}
