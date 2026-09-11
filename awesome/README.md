@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **118**
+Published skills: **119**
 Repositories: **16**
 
 ## Browse repositories
@@ -111,6 +111,7 @@ Repositories: **16**
 - [context-resets-ko](./skills/andyko18/specops-ko/skills/context-resets-ko/README.md) · `andyko18/specops-ko:skills/context-resets-ko`
 - [dispatching-parallel-agents-ko](./skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) · `andyko18/specops-ko:skills/dispatching-parallel-agents-ko`
 - [generator-evaluator-ko](./skills/andyko18/specops-ko/skills/generator-evaluator-ko/README.md) · `andyko18/specops-ko:skills/generator-evaluator-ko`
+- [improve-codebase-architecture-ko](./skills/andyko18/specops-ko/skills/improve-codebase-architecture-ko/README.md) · `andyko18/specops-ko:skills/improve-codebase-architecture-ko`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
