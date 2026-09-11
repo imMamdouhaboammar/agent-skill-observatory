@@ -1,6 +1,6 @@
 # marketing
 
-Published Skills: 9
+Published Skills: 10
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -13,3 +13,4 @@ Published Skills: 9
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/iNNfo/.agents/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [web-design-guidance](../skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Design, build, or review user-facing web UI with adaptive ambiguity-aware discovery, multi-axis design direction, repository-aware design-system preservation, structural-integrity auditing, responsive/accessibility states, anti-AI-slop auditing, and rendered visual verification. Use for substantial web UI/UX work unless the repository or user supplies a stronger design workflow. Repository and user design rules always win. |
+| [building-brand-guidelines](../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand identity needs durable rules, assets, examples, accessibility constraints, and governance so multiple people can reproduce it consistently across channels. |
