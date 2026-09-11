@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "bd0fd0f61d1071396cb57592fb1a75e4a049051d58272a257d51953577295fb5",
+  "canonical_key": "angular/skills:angular-developer",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "bd0fd0f61d1071396cb57592fb1a75e4a049051d58272a257d51953577295fb5",
+    "archived": false,
+    "canonical_key": "angular/skills:angular-developer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ec5e3a0b1ef218c0d7d40e35c40e5255e7319d7d595c5a6036d8bdac2532c782",
+    "description": "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "testing",
+        "design",
+        "commerce",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/angular/skills/blob/main/angular-developer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 41
+    },
+    "forks": 46,
+    "indexed_at": "2026-09-11T21:54:39.309355Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:54:39.309355Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "Copyright 2026 Google LLC",
+      "version": "1.0"
+    },
+    "name": "angular-developer",
+    "path": "angular-developer",
+    "pushed_at": "2026-09-11T21:47:29Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "angular/skills",
+    "repo_url": "https://github.com/angular/skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 40,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 78,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 92,
+      "reasons": [
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d80352de82d3403c02f7d04aa538c59988a4f1093c866f630760cfdd6f810825",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 645
+  },
+  "source_fingerprint": "d80352de82d3403c02f7d04aa538c59988a4f1093c866f630760cfdd6f810825"
+}

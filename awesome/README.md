@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **286**
-Repositories: **44**
+Published skills: **287**
+Repositories: **45**
 
 ## Browse repositories
 
@@ -24,6 +24,7 @@ Repositories: **44**
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
+- [angular/skills](./repos/angular/skills.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
@@ -149,6 +150,7 @@ Repositories: **44**
 - [systematic-debugging-ko](./skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) · `andyko18/specops-ko:skills/systematic-debugging-ko`
 - [tdd-ko](./skills/andyko18/specops-ko/skills/tdd-ko/README.md) · `andyko18/specops-ko:skills/tdd-ko`
 - [using-specops-ko](./skills/andyko18/specops-ko/skills/using-specops-ko/README.md) · `andyko18/specops-ko:skills/using-specops-ko`
+- [angular-developer](./skills/angular/skills/angular-developer/README.md) · `angular/skills:angular-developer`
 - [hicreator](./skills/archivev/hicreator-agent/skills/hicreator/README.md) · `archivev/hicreator-agent:skills/hicreator`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
