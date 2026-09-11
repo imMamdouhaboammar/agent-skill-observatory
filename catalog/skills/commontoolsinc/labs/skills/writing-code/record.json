@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "e037723656547a4654dd389247f17494a7ce9efdb099c0e8e7adbd5afb31ee15",
+  "canonical_key": "commontoolsinc/labs:skills/writing-code",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e037723656547a4654dd389247f17494a7ce9efdb099c0e8e7adbd5afb31ee15",
+    "archived": false,
+    "canonical_key": "commontoolsinc/labs:skills/writing-code",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8322be5e1c4bad25a273b6417db6355d3ca125bafcb08a07f11ba2bd0ddb6519",
+    "description": "Conventions for writing or changing code in this repository — the two documents to read before the first edit, which document governs the thing you are about to touch, and which conventions no automated gate will catch. Use before writing, changing, or refactoring TypeScript anywhere in the tree. Patterns need `pattern-dev` as well; this skill covers what is true of all code here.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "documentation",
+        "testing",
+        "commerce",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/writing-code/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 13,
+    "indexed_at": "2026-09-11T21:52:34.426480Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:52:34.426480Z",
+    "license": "0BSD",
+    "metadata": {},
+    "name": "writing-code",
+    "path": "skills/writing-code",
+    "pushed_at": "2026-09-11T21:47:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "commontoolsinc/labs",
+    "repo_url": "https://github.com/commontoolsinc/labs",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 54,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license 0BSD."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "fbb26a8b7cda814dbc6eb3a7e3d30bfffcd56e5fb5c8ba44371939523588c027",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 38
+  },
+  "source_fingerprint": "fbb26a8b7cda814dbc6eb3a7e3d30bfffcd56e5fb5c8ba44371939523588c027"
+}
