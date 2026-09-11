@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 103
+Published Skills: 104
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -81,6 +81,7 @@ Published Skills: 103
 | [xedit-context-exporter](../skills/gkd2323c/runed-lexicon/.agents/skills/xedit-context-exporter/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | Export deterministic Skyrim dialogue context from an original ESP/ESM/ESL with xEdit, including DIAL to child INFO relationships, quest/branch/topic metadata, prompts, conditions, responses, and structurally resolved speaker candidates. Use when xTranslator XML no longer preserves enough structure to associate INFO lines with their real dialogue topics or speakers, or when translation needs plugin-grounded dialogue context without using the xEdit GUI. |
 | [xtranslator-xml-writer](../skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | Safely apply validated Skyrim mod translation-result JSON files or minimal atomic patches to xTranslator XML by changing only intended destination text and verifying source version, XML identity, protected tokens, duplicate units, and post-write structure. Use whenever completed translation batches need to become an xTranslator-importable XML file, or when a small revision (a handful of strings) must be applied to an existing translated XML without rebuilding full batch context. This skill writes a new XML by default and must not freely reserialize the source document. |
 | [analyzing-change-blast-radius](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it. |
+| [analyzing-developer-career-opportunities](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations. |
 | [add-robot](../skills/DexForce/EmbodiChain/.claude/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-robot skill. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |

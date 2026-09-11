@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "91b7b7c5b423f129632afb92bd76f3c2ead941fa70b62a505adb9f781a469f99",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/analyzing-developer-career-opportunities",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "91b7b7c5b423f129632afb92bd76f3c2ead941fa70b62a505adb9f781a469f99",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/analyzing-developer-career-opportunities",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c6fe82a7101e28e292c364f7b29cd64f2df542acf6335d1629258631273c5bd8",
+    "description": "Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "product",
+        "engineering",
+        "content",
+        "research",
+        "browser-automation",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/analyzing-developer-career-opportunities/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "analyzing-developer-career-opportunities",
+    "path": "skills/analyzing-developer-career-opportunities",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c3e8cada1d31d07b5e5ac7adb03eae198bfcd3a79a16573add43d16b371246ab",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "c3e8cada1d31d07b5e5ac7adb03eae198bfcd3a79a16573add43d16b371246ab"
+}

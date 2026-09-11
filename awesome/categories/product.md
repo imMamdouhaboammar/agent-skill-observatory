@@ -1,6 +1,6 @@
 # product
 
-Published Skills: 10
+Published Skills: 11
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -14,3 +14,4 @@ Published Skills: 10
 | [seis-research](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-research/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Research for evidence-led technical research, source evaluation, product/architecture discovery, official documentation review, standards/version checks, competitive or ecosystem analysis, and research-to-decision synthesis for SEIS. |
 | [documentation-criteria](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/documentation-criteria/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | documentation criteria, artifact selection, evidence requirements |
 | [hicreator](../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 100 | 100 | 0 | Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows. |
+| [analyzing-developer-career-opportunities](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations. |

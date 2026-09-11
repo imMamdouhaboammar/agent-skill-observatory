@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **275**
+Published skills: **276**
 Repositories: **44**
 
 ## Browse repositories
@@ -350,6 +350,7 @@ Repositories: **44**
 - [sangokushi-2](./skills/jeong-sik/masc/skills/sangokushi-2/README.md) · `jeong-sik/masc:skills/sangokushi-2`
 - [slack-web](./skills/jeong-sik/masc/skills/slack-web/README.md) · `jeong-sik/masc:skills/slack-web`
 - [analyzing-change-blast-radius](./skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) · `jhonatan-oliveiradev/agent-skills:skills/analyzing-change-blast-radius`
+- [analyzing-developer-career-opportunities](./skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) · `jhonatan-oliveiradev/agent-skills:skills/analyzing-developer-career-opportunities`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`
