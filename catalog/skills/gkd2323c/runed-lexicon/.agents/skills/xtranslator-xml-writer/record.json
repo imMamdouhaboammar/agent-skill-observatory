@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "610182c37dd88c96a4286a1a9b8308b2014de50c27f737c47bed2faa920a4b49",
+  "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/xtranslator-xml-writer",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "610182c37dd88c96a4286a1a9b8308b2014de50c27f737c47bed2faa920a4b49",
+    "archived": false,
+    "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/xtranslator-xml-writer",
+    "compatibility": "Requires Python 3.10+. Uses only the Python standard library. Expects translation-result JSON produced by translation-executor, or a flat atomic patch JSON.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "320d17341d0e65bb9e21a56d7e77b44c731a39e514587be467967ee067f1d3d9",
+    "description": "Safely apply validated Skyrim mod translation-result JSON files or minimal atomic patches to xTranslator XML by changing only intended destination text and verifying source version, XML identity, protected tokens, duplicate units, and post-write structure. Use whenever completed translation batches need to become an xTranslator-importable XML file, or when a small revision (a handful of strings) must be applied to an existing translated XML without rebuilding full batch context. This skill writes a new XML by default and must not freely reserialize the source document.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "localization",
+        "commerce",
+        "documentation",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/gkd2323c/runed-lexicon/blob/main/.agents/skills/xtranslator-xml-writer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:39:00.478677Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:39:00.478677Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "version": "0.3.0"
+    },
+    "name": "xtranslator-xml-writer",
+    "path": ".agents/skills/xtranslator-xml-writer",
+    "pushed_at": "2026-09-11T12:36:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "gkd2323c/runed-lexicon",
+    "repo_url": "https://github.com/gkd2323c/runed-lexicon",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 4
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0c85869539fabcaaa00b12a181e6f31e7881f447b037d6fb386e78ad492f9452",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "0c85869539fabcaaa00b12a181e6f31e7881f447b037d6fb386e78ad492f9452"
+}

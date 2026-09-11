@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **244**
+Published skills: **245**
 Repositories: **37**
 
 ## Browse repositories
@@ -285,6 +285,7 @@ Repositories: **37**
 - [translation-context-builder](./skills/gkd2323c/runed-lexicon/.agents/skills/translation-context-builder/README.md) · `gkd2323c/runed-lexicon:.agents/skills/translation-context-builder`
 - [translation-executor](./skills/gkd2323c/runed-lexicon/.agents/skills/translation-executor/README.md) · `gkd2323c/runed-lexicon:.agents/skills/translation-executor`
 - [xedit-context-exporter](./skills/gkd2323c/runed-lexicon/.agents/skills/xedit-context-exporter/README.md) · `gkd2323c/runed-lexicon:.agents/skills/xedit-context-exporter`
+- [xtranslator-xml-writer](./skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) · `gkd2323c/runed-lexicon:.agents/skills/xtranslator-xml-writer`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

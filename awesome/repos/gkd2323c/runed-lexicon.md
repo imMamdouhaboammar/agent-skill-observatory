@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon)
 
-Published Skills: 11
+Published Skills: 12
 Categories: agent-orchestration, ai-ml, commerce, content, data, design, documentation, engineering, hr-recruiting, localization, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [translation-context-builder](../../skills/gkd2323c/runed-lexicon/.agents/skills/translation-context-builder/README.md) | `.agents/skills/translation-context-builder` | 100 | 100 | ai-ml, commerce, content, data, localization, research |
 | [translation-executor](../../skills/gkd2323c/runed-lexicon/.agents/skills/translation-executor/README.md) | `.agents/skills/translation-executor` | 100 | 100 | commerce, content, data, documentation, localization, research |
 | [xedit-context-exporter](../../skills/gkd2323c/runed-lexicon/.agents/skills/xedit-context-exporter/README.md) | `.agents/skills/xedit-context-exporter` | 100 | 100 | commerce, content, data, hr-recruiting, localization, research |
+| [xtranslator-xml-writer](../../skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) | `.agents/skills/xtranslator-xml-writer` | 100 | 100 | commerce, content, documentation, hr-recruiting, localization, research |
