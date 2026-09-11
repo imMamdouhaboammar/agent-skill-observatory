@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "1ffe973b2cfa2bd01582d76a9c6b687a36dded75dd3c5962954805cf362a63bf",
+  "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curator",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1ffe973b2cfa2bd01582d76a9c6b687a36dded75dd3c5962954805cf362a63bf",
+    "archived": false,
+    "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8f2b289e3f5186f40fe6184cf643f92ac37283ae15665fda80f469cb55baaffb",
+    "description": "Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition.",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "documentation",
+        "documents",
+        "media",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/curator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 3,
+    "indexed_at": "2026-09-11T21:48:17.888608Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:48:17.888608Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "curator",
+    "path": ".claude/skills/curator",
+    "pushed_at": "2026-09-11T21:48:00Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 42,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ced6790137259e0a46897c8aace9a839f2a23248911561e4fffe975797cceea7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "ced6790137259e0a46897c8aace9a839f2a23248911561e4fffe975797cceea7"
+}

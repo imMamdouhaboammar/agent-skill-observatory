@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 160
+Published Skills: 161
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -55,6 +55,7 @@ Published Skills: 160
 | [pattern-ui](../skills/commontoolsinc/labs/skills/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design and polish pattern UIs with cf- components - theme-first styling via cf-theme, layout with cf-screen/cf-vstack, two-way binding ($value/$checked), and PerSession/PerUser/PerSpace UI-state scoping. Use when styling pattern JSX or writing a UI design doc. |
 | [spec-audit](../skills/commontoolsinc/labs/skills/spec-audit/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Map and verify the CTS/schema documentation corpus against its normative contracts, implementation, tests, fixtures, and runtime consumers. Use for claim-level audits or updates in docs/specs/ts-transformer, docs/specs/schema-generator, package guidance, and author-facing CTS docs, especially after transformer/schema changes or before releases. |
 | [task-management](../skills/commontoolsinc/labs/skills/task-management/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Guide for managing tasks within a session using bd (beads) for subtasks and local todo lists. Use this skill when breaking down plans into issues, tracking progress, managing dependencies, or coordinating work across sessions and agents. Triggers include requests to "manage tasks", "track progress", "break down this work", or questions about bd workflow. |
+| [curator](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/curator/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
 | [tdd-workflow](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/tdd-workflow/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 새 기능·버그 수정을 테스트 먼저(TDD)로 진행할 때. "TDD로 해줘", "테스트 먼저" 요청이나 회귀가 잦은 영역 작업에 사용. |
