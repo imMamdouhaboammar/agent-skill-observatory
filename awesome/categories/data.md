@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 117
+Published Skills: 118
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -95,6 +95,7 @@ Published Skills: 117
 | [building-reliable-node-api-boundaries](../skills/jhonatan-oliveiradev/agent-skills/skills/building-reliable-node-api-boundaries/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when implementing or reviewing Node.js API or service endpoints that cross trust or data boundaries and require explicit validation, authorization, failure semantics, observability, or retry behavior. |
 | [choosing-application-architecture](../skills/jhonatan-oliveiradev/agent-skills/skills/choosing-application-architecture/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when starting or reshaping an application where deployment topology, scaling, reliability, ownership, coupling, or delivery constraints make the architectural shape unclear. |
 | [designing-relational-data-models](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-relational-data-models/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when defining or reviewing a relational data model where entities, ownership, cardinality, lifecycle, constraints, or access patterns need explicit decisions before implementation. |
+| [designing-software-boundaries](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-software-boundaries/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when modules, services, packages, or teams have unclear ownership, cyclic dependencies, shared state, change coupling, or responsibilities that are difficult to evolve independently. |
 | [frontend](../skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 99 | 100 | 0 | React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke). |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
