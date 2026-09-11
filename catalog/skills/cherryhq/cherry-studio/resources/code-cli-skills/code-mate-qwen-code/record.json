@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "a21be9ae4aa4c1d4f7472e3b89d0737c428383508026ff679990b7ab5a0ed5a2",
+  "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-qwen-code",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a21be9ae4aa4c1d4f7472e3b89d0737c428383508026ff679990b7ab5a0ed5a2",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-qwen-code",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "981e58663b9a9d0e5a5b58e3d3120266a87ce6c9824e99a293d8d551df5a8eef",
+    "description": "Runs Qwen Code headlessly for repository analysis and coding tasks. Use when the user asks to delegate work to Qwen Code or obtain a Qwen-based coding-agent result.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "design",
+        "integrations",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/code-cli-skills/code-mate-qwen-code/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "code-mate-qwen-code",
+    "path": "resources/code-cli-skills/code-mate-qwen-code",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c4205e5aa87a5bd2b45f084fcc45fce03aec3a0f625b14ce0437c153afd2c3b7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "c4205e5aa87a5bd2b45f084fcc45fce03aec3a0f625b14ce0437c153afd2c3b7"
+}
