@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "e196686014e270051cb9a7aa32a300a3403f47ea8ac27e5b2fa5a08025ba69cc",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/fork",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e196686014e270051cb9a7aa32a300a3403f47ea8ac27e5b2fa5a08025ba69cc",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/fork",
+    "compatibility": "Needs the gh CLI authenticated with a token that can create private repos in `fork_org`, write to issues there, and manage team repo access. Needs network access to api.github.com and the scrutineer API. github.com upstreams only for now; other hosts will route through the same skill once `host__owner__repo` naming generalises.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "b7d8bb26178101a216bd7598518198926b2dcf3851a6de9a063b094ac3011aa7",
+    "description": "Stage a scanned repository into a private repo in the configured GitHub organisation. Creates the repo (no fork relationship), seeds it with the upstream tree, writes scrutineer metadata under the configured metadata directory, files one issue per open finding, and gives an org team push access. The staging repo is the per-project working surface for triage, fix development, and the disclosure paper trail.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "commerce",
+        "content",
+        "data",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/fork/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "freeform",
+      "scrutineer.requires_remote": "True",
+      "scrutineer.version": "1"
+    },
+    "name": "fork",
+    "path": "skills/fork",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b28db1e9cdf19ce12ba52294f91f4fa24c30135dc2a8e744a1fd17285939f051",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "b28db1e9cdf19ce12ba52294f91f4fa24c30135dc2a8e744a1fd17285939f051"
+}
