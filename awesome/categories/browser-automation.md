@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 5
+Published Skills: 6
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -8,4 +8,5 @@ Published Skills: 5
 | [cherry-tool-guide](../skills/CherryHQ/cherry-studio/resources/skills/cherry-tool-guide/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Cherry Studio first-party tool and bundled-shell routing for general agents. For straightforward local work in shell-capable sessions, run JS/TS with `bun <file>` and one-off JS tools with `bun x`; run Python with `uv run [--with <pkg>] python` and one-off Python CLIs with `uvx`; search with `rg`. Load this guide before changing project dependencies, deciding whether a tool should be ephemeral or reusable, reading or converting local Office/PDF files, coordinating or delegating across Agent Sessions, or using Cherry-owned web/browser, knowledge, persistent memory, schedules/notifications, IM channels, image generation, artifact reporting, managed CLI, skill, or MCP-server-registration capabilities—even if the user names no tool. Consult it before shell/file workarounds; live tool schemas are authoritative. |
 | [gh-create-issue](../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format. |
 | [diagram-maker](../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards. |
+| [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
 | [apple-web-design](../skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Build or review web interfaces that need Apple-style direct manipulation, interruptible gesture motion, velocity-aware settling, restrained translucent materials, deliberate state-transition craft, responsive typography, and motion/transparency accessibility. Use only when the target repository or user asks for this interaction language; target-repository engineering and visual rules always win. |

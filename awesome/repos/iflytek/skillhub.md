@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/iflytek/skillhub](https://github.com/iflytek/skillhub)
 
-Published Skills: 21
+Published Skills: 22
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -30,3 +30,4 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [storytelling-advisor](../../skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) | `builtin-skills/skills/storytelling-advisor` | 100 | 100 | content, education, engineering, marketing, media, product |
 | [study-strategy-selector](../../skills/iflytek/skillhub/builtin-skills/skills/study-strategy-selector/README.md) | `builtin-skills/skills/study-strategy-selector` | 100 | 100 | data, design, education, localization, productivity, research |
 | [time-blocking-scheduler](../../skills/iflytek/skillhub/builtin-skills/skills/time-blocking-scheduler/README.md) | `builtin-skills/skills/time-blocking-scheduler` | 100 | 100 | content, data, design, productivity, security |
+| [weather](../../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | `builtin-skills/skills/weather` | 100 | 100 | browser-automation, content, data, engineering, finance, productivity |
