@@ -43,6 +43,17 @@ def _anchor(value: str) -> str:
     return "".join(char for char in value.lower().replace(" ", "-") if char.isalnum() or char == "-")
 
 
+def _skill_rank_key(row: dict[str, Any]) -> tuple[int, int, int, str, str]:
+    score = row.get("score") or {}
+    return (
+        -int(score.get("overall") or 0),
+        -int(score.get("security") or 0),
+        -int(score.get("quality") or 0),
+        str(row.get("name") or "").casefold(),
+        str(row.get("canonical_key") or ""),
+    )
+
+
 def render_readme_block(
     rows: list[dict[str, Any]],
     stats: dict[str, Any],
@@ -102,14 +113,7 @@ def render_awesome_markdown(
         for category in categories:
             by_category[str(category)].append(row)
 
-    top = sorted(
-        valid_rows,
-        key=lambda row: (
-            -int((row.get("score") or {}).get("overall") or 0),
-            -int(row.get("stars") or 0),
-            str(row.get("name") or ""),
-        ),
-    )[:25]
+    top = sorted(valid_rows, key=_skill_rank_key)[:25]
 
     lines = [
         "# Awesome Agent Skills & Repositories",
@@ -187,14 +191,7 @@ def render_awesome_markdown(
             "| Skill | Repository | Score | Security | Stars | Clients | Description |",
             "|---|---|---:|---:|---:|---|---|",
         ]
-        category_rows = sorted(
-            by_category[category],
-            key=lambda row: (
-                -int((row.get("score") or {}).get("overall") or 0),
-                -int(row.get("stars") or 0),
-                str(row.get("name") or ""),
-            ),
-        )
+        category_rows = sorted(by_category[category], key=_skill_rank_key)
         for row in category_rows:
             score = row.get("score") or {}
             clients = _clients(row)

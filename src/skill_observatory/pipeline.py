@@ -15,6 +15,7 @@ from .dedupe import canonical_skill_key, content_fingerprint
 from .domain import DiscoveredRepository, IndexedSkill, RepositorySignals
 from .github import GitHubClient, GitHubError
 from .parser import SkillParseError, parse_skill_directory
+from .qualification import qualify_skill
 from .repository import (
     estimate_star_velocity_7d,
     find_duplicate_key,
@@ -70,7 +71,7 @@ def _paths_for_skill(tree: list[dict[str, Any]], root: str) -> list[str]:
             suffix = PurePosixPath(rel).suffix.lower()
             if suffix in TEXTISH_SUFFIXES or top == "assets":
                 paths.append(path)
-    return sorted(paths)[:MAX_SKILL_FILES]
+    return sorted(paths)
 
 
 def _safe_local_path(base: Path, relative: str) -> Path:
@@ -111,17 +112,24 @@ def _materialize_skill(
     skill_dir = temp / (PurePosixPath(root).name if root else repo.full_name.split("/")[-1])
     skill_dir.mkdir(parents=True, exist_ok=True)
     prefix = f"{root}/" if root else ""
+    remote_paths = _paths_for_skill(tree, root)
+    if len(remote_paths) > MAX_SKILL_FILES:
+        raise ValueError(
+            f"Skill exceeds inspection file budget: {len(remote_paths)} > {MAX_SKILL_FILES}"
+        )
+
     inspected: list[tuple[str, str]] = []
-    for remote_path in _paths_for_skill(tree, root):
+    for remote_path in remote_paths:
         rel = remote_path[len(prefix) :]
         local_path = _safe_local_path(skill_dir, rel)
         local_path.parent.mkdir(parents=True, exist_ok=True)
         try:
             text = client.read_text_file(repo, remote_path, max_bytes=MAX_SINGLE_FILE_BYTES)
         except GitHubError:
-            if rel.lower() == "skill.md":
-                raise
-            continue
+            top = rel.split("/", 1)[0]
+            if top == "assets" and PurePosixPath(rel).suffix.lower() not in TEXTISH_SUFFIXES:
+                continue
+            raise
         inspected.append((rel, text))
         local_path.write_text(text, encoding="utf-8")
     canonical_manifest = skill_dir / "SKILL.md"
@@ -147,11 +155,6 @@ def _repo_has_readme(tree: list[dict[str, Any]]) -> bool:
         PurePosixPath(str(item.get("path") or "")).name.lower().startswith("readme")
         for item in tree
     )
-
-
-def _observed_keys(repo: DiscoveredRepository, roots: list[str]) -> set[str]:
-    owner, name = repo.full_name.split("/", 1)
-    return {canonical_skill_key(owner, name, root or ".") for root in roots}
 
 
 def _record_successful_scan(
@@ -186,7 +189,7 @@ def index_repository(
     indexed_at = now or datetime.now(UTC)
     tree = client.recursive_tree(repo)
     roots = _candidate_skill_roots(tree)
-    observed_keys = _observed_keys(repo, roots)
+    observed_keys: set[str] = set()
     if not roots:
         _record_successful_scan(
             session,
@@ -231,12 +234,19 @@ def index_repository(
                 canonical_key = canonical_skill_key(repo_owner, repo_name, root or ".")
                 fingerprint = content_fingerprint(parsed.raw)
                 duplicate_of = find_duplicate_key(session, fingerprint, canonical_key)
+                qualification = qualify_skill(
+                    parsed,
+                    security,
+                    repo_signals,
+                    duplicate_of=duplicate_of,
+                )
                 categories = classify_categories(parsed.description, parsed.body)
                 clients = infer_clients(root or ".", parsed.compatibility, parsed.files)
                 analysis_fingerprint = _hash_analysis(
                     {
                         "spec": parsed.spec.model_dump(mode="json"),
                         "security": security.model_dump(mode="json"),
+                        "qualification": qualification.model_dump(mode="json"),
                         "categories": categories,
                         "client_compatibility_evidence": clients,
                         "duplicate_of": duplicate_of,
@@ -283,6 +293,7 @@ def index_repository(
                         "categories": categories,
                         "client_compatibility_evidence": clients,
                         "duplicate_of": duplicate_of,
+                        "qualification": qualification.model_dump(mode="json"),
                         "source_tier": (
                             "official-seed"
                             if repo.discovery_source == "official-seed"
@@ -291,6 +302,7 @@ def index_repository(
                     },
                 )
                 upsert_skill(session, indexed)
+                observed_keys.add(canonical_key)
                 count += 1
             except (GitHubError, SkillParseError, OSError, ValueError) as exc:
                 errors.append(f"{repo.full_name}:{root or '.'}: {exc}")

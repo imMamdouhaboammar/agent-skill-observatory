@@ -6,7 +6,12 @@ import pytest
 
 from skill_observatory.config import Settings
 from skill_observatory.domain import DiscoveredRepository
-from skill_observatory.github import GitHubClient, GitHubError
+from skill_observatory.github import (
+    CODE_DISCOVERY_QUERIES,
+    DEFAULT_DISCOVERY_QUERIES,
+    GitHubClient,
+    GitHubError,
+)
 
 
 def repo_payload(full_name="example/skills"):
@@ -22,6 +27,38 @@ def repo_payload(full_name="example/skills"):
         "license": {"spdx_id": "MIT"},
         "topics": ["agent-skills"],
     }
+
+
+def test_discovery_queries_cover_multiple_skill_surfaces_and_domains() -> None:
+    repository_queries = " ".join(DEFAULT_DISCOVERY_QUERIES).lower()
+    code_queries = " ".join(CODE_DISCOVERY_QUERIES).lower()
+
+    assert "agent skills" in repository_queries
+    assert "skill.md" in repository_queries
+    for surface in (
+        ".agents/skills",
+        ".claude/skills",
+        ".github/skills",
+        "skills/",
+    ):
+        assert surface in code_queries
+    for domain in ("security", "research", "marketing", "data", "testing"):
+        assert domain in code_queries
+    for domain in (
+        "architecture",
+        "orchestration",
+        "business",
+        "sales",
+        "recruiting",
+        "translation",
+        "pdf",
+    ):
+        assert domain in repository_queries
+
+
+def test_discovery_query_counts_stay_within_github_search_budgets() -> None:
+    assert len(DEFAULT_DISCOVERY_QUERIES) <= 30
+    assert len(CODE_DISCOVERY_QUERIES) <= 10
 
 
 def test_github_search_tree_code_and_content() -> None:

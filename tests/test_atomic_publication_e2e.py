@@ -75,7 +75,10 @@ def _skill(name: str, *, stars: int = 10) -> IndexedSkill:
         discovery_source="test",
         indexed_at=NOW,
         last_successful_repo_scan_at=NOW,
-        evidence={"categories": ["engineering"]},
+        evidence={
+            "categories": ["engineering"],
+            "qualification": {"qualified": True},
+        },
     )
 
 

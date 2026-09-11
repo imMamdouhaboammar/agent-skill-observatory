@@ -16,6 +16,25 @@ DEFAULT_DISCOVERY_QUERIES = (
     '"claude skills" in:name,description,readme',
     '"codex skills" in:name,description,readme',
     '"SKILL.md" in:readme',
+    '"agent skills" architecture in:name,description,readme',
+    '"agent skills" orchestration in:name,description,readme',
+    '"agent skills" business in:name,description,readme',
+    '"agent skills" sales in:name,description,readme',
+    '"agent skills" recruiting in:name,description,readme',
+    '"agent skills" translation in:name,description,readme',
+    '"agent skills" pdf in:name,description,readme',
+)
+
+CODE_DISCOVERY_QUERIES = (
+    '"description:" filename:SKILL.md path:.agents/skills',
+    '"description:" filename:SKILL.md path:.claude/skills',
+    '"description:" filename:SKILL.md path:.github/skills',
+    '"description:" filename:SKILL.md path:skills/',
+    "security filename:SKILL.md",
+    "research filename:SKILL.md",
+    "marketing filename:SKILL.md",
+    "data filename:SKILL.md",
+    "testing filename:SKILL.md",
 )
 
 OFFICIAL_SEEDS = (
@@ -129,14 +148,9 @@ class GitHubClient:
                 if previous is None or repo.pushed_at > previous.pushed_at:
                     discovered[key] = repo
         if self.settings.github_token:
-            code_queries = (
-                "description filename:SKILL.md path:.agents/skills",
-                "description filename:SKILL.md path:.claude/skills",
-                "description filename:SKILL.md path:.github/skills",
-            )
-            for code_query in code_queries:
+            for code_query in CODE_DISCOVERY_QUERIES:
                 try:
-                    names = self.search_code_repositories(code_query, per_page=40)
+                    names = self.search_code_repositories(code_query, per_page=25)
                 except GitHubError:
                     continue
                 for name in names:

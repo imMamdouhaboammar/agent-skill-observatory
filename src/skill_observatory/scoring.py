@@ -54,9 +54,7 @@ def score_skill(
     quality_i = _clamp(quality)
     maintenance_i = _clamp(maintenance)
     adoption_i = _clamp(adoption)
-    overall = _clamp(
-        quality_i * 0.35 + security.score * 0.30 + maintenance_i * 0.20 + adoption_i * 0.15
-    )
+    overall = _clamp(quality_i * 0.45 + security.score * 0.35 + maintenance_i * 0.20)
     if repo.archived:
         overall = min(overall, 49)
     if repo.license_spdx:

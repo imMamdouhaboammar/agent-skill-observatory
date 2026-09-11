@@ -48,7 +48,10 @@ def _skill(name: str) -> IndexedSkill:
         archived=False,
         discovery_source="test",
         indexed_at=NOW,
-        evidence={"categories": ["engineering"]},
+        evidence={
+            "categories": ["engineering"],
+            "qualification": {"qualified": True},
+        },
     )
 
 
