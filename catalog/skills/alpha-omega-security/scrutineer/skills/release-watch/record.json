@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "aad692736c02beb555b42628260d55b627e423c68718da0b3274bace6f2ed340",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/release-watch",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "aad692736c02beb555b42628260d55b627e423c68718da0b3274bace6f2ed340",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/release-watch",
+    "compatibility": "Needs network access to the scrutineer skill API and to github.com (or whichever host the upstream lives on). Read-only.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "bdf6b3b5ef4671b1495d5c1feff713a278e7405cf4458e41fe8951fbf3aae89b",
+    "description": "After a finding has been marked fixed, watch the upstream for a release that contains the fix. When one shows up, record the release tag, URL, and timestamp on the finding. Closes the gap between \"the maintainer landed a patch\" and \"consumers have a shipped version they can pin to\".",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "engineering",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/release-watch/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.model": "mid",
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "release_watch",
+      "scrutineer.requires_remote": "True",
+      "scrutineer.version": "1"
+    },
+    "name": "release-watch",
+    "path": "skills/release-watch",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2e6dae120b269bfea0579ae18e9433f8d8e61ee37903160762a728539d773690",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "2e6dae120b269bfea0579ae18e9433f8d8e61ee37903160762a728539d773690"
+}
