@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **120**
+Published skills: **121**
 Repositories: **16**
 
 ## Browse repositories
@@ -114,6 +114,7 @@ Repositories: **16**
 - [generator-evaluator-ko](./skills/andyko18/specops-ko/skills/generator-evaluator-ko/README.md) · `andyko18/specops-ko:skills/generator-evaluator-ko`
 - [improve-codebase-architecture-ko](./skills/andyko18/specops-ko/skills/improve-codebase-architecture-ko/README.md) · `andyko18/specops-ko:skills/improve-codebase-architecture-ko`
 - [karpathy-ko](./skills/andyko18/specops-ko/skills/karpathy-ko/README.md) · `andyko18/specops-ko:skills/karpathy-ko`
+- [planning-ko](./skills/andyko18/specops-ko/skills/planning-ko/README.md) · `andyko18/specops-ko:skills/planning-ko`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
