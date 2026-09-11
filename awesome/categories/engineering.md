@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 81
+Published Skills: 82
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -32,6 +32,7 @@ Published Skills: 81
 | [exam-ready](../skills/iflytek/skillhub/builtin-skills/skills/exam-ready/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Prepare a concise exam review from study materials and a syllabus supplied by the user. Use for topic summaries, recall questions, MCQ cues, and time-limited revision plans that must stay grounded in those materials. |
 | [frontend-design](../skills/iflytek/skillhub/builtin-skills/skills/frontend-design/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
 | [linkedin-post-formatter](../skills/iflytek/skillhub/builtin-skills/skills/linkedin-post-formatter/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Draft or reformat copy-paste-ready LinkedIn posts from user-provided ideas and source material. Use for professional posts, concise thought-leadership drafts, resource announcements, story-led posts, carousel text, or optional Unicode emphasis with an accessible plain-text alternative. |
+| [plugin-scanner](../skills/iflytek/skillhub/builtin-skills/skills/plugin-scanner/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Scan AI agent skills, plugins, MCP servers, and agent tooling for prompt injection, unsafe commands, secret exposure, and supply-chain risks before installing or trusting them. |
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [skill-lifecycle](../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |

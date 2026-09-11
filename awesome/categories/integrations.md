@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 6
+Published Skills: 7
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,4 +9,5 @@ Published Skills: 6
 | [code-mate-qwen-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-qwen-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Qwen Code headlessly for repository analysis and coding tasks. Use when the user asks to delegate work to Qwen Code or obtain a Qwen-based coding-agent result. |
 | [cue-omni-reader](../skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Parse and understand an HTTP(S) URL or an authorized local document, audio, or video source through Cue Omni Reader when the Agent has the official Omni MCP tools. |
 | [diagram-maker](../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards. |
+| [plugin-scanner](../skills/iflytek/skillhub/builtin-skills/skills/plugin-scanner/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Scan AI agent skills, plugins, MCP servers, and agent tooling for prompt injection, unsafe commands, secret exposure, and supply-chain risks before installing or trusting them. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |

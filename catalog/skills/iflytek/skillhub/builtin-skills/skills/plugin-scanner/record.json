@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "44605af94c1cd8d71cd5b19ad4141811c88bd2fa1ff44159414931619c96e251",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/plugin-scanner",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "44605af94c1cd8d71cd5b19ad4141811c88bd2fa1ff44159414931619c96e251",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/plugin-scanner",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f5fb77e79c734427d8c3c9b3e0729c4d6b140e9c8a9ce074df8cb14113fb99ea",
+    "description": "Scan AI agent skills, plugins, MCP servers, and agent tooling for prompt injection, unsafe commands, secret exposure, and supply-chain risks before installing or trusting them.",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "security",
+        "engineering",
+        "integrations",
+        "research",
+        "devops",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/plugin-scanner/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "plugin-scanner",
+    "path": "builtin-skills/skills/plugin-scanner",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2eaf86080db1207b973ac59469a4ca82f0dd0100ca0ad326ce0fb7e2fff82e41",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "2eaf86080db1207b973ac59469a4ca82f0dd0100ca0ad326ce0fb7e2fff82e41"
+}

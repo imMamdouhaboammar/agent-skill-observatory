@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **93**
+Published skills: **94**
 Repositories: **12**
 
 ## Browse repositories
@@ -142,3 +142,4 @@ Repositories: **12**
 - [frontend-design](./skills/iflytek/skillhub/builtin-skills/skills/frontend-design/README.md) · `iflytek/skillhub:builtin-skills/skills/frontend-design`
 - [linkedin-post-formatter](./skills/iflytek/skillhub/builtin-skills/skills/linkedin-post-formatter/README.md) · `iflytek/skillhub:builtin-skills/skills/linkedin-post-formatter`
 - [meeting-note-summarizer](./skills/iflytek/skillhub/builtin-skills/skills/meeting-note-summarizer/README.md) · `iflytek/skillhub:builtin-skills/skills/meeting-note-summarizer`
+- [plugin-scanner](./skills/iflytek/skillhub/builtin-skills/skills/plugin-scanner/README.md) · `iflytek/skillhub:builtin-skills/skills/plugin-scanner`

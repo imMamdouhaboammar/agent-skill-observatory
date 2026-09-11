@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 13
+Published Skills: 14
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,6 +9,7 @@ Published Skills: 13
 | [find-skills](../skills/CherryHQ/cherry-studio/resources/skills/find-skills/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill. |
 | [ai-claim-checker](../skills/iflytek/skillhub/builtin-skills/skills/ai-claim-checker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Evaluate factual claims in AI-generated text and teach a lightweight verification habit. Use when a learner wants to fact-check an AI answer, identify uncertainty, choose appropriate independent sources, or practise critical AI literacy. |
 | [diagram-maker](../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards. |
+| [plugin-scanner](../skills/iflytek/skillhub/builtin-skills/skills/plugin-scanner/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Scan AI agent skills, plugins, MCP servers, and agent tooling for prompt injection, unsafe commands, secret exposure, and supply-chain risks before installing or trusting them. |
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [imagencn](../skills/Agents365-ai/365-skills/plugins/imagencn/skills/imagencn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform AI image generation via DashScope/Ark/Hunyuan/Zhipu/StepFun plus Grok/OpenAI/Gemini/FLUX (international), specializing in Chinese text rendering and photorealistic images |
 | [ttscn](../skills/Agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform Chinese & multilingual TTS text-to-speech via Edge/Doubao/CosyVoice/Qwen3/StepFun/GLM-TTS/Azure/Tencent/Baidu/MiniMax/Xunfei plus ElevenLabs/OpenAI/Google/Atlas Cloud — 15 backends, word-level timestamps, [PAUSE:x] pause markers, pinyin pronunciation overrides |
