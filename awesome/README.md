@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **188**
+Published skills: **189**
 Repositories: **26**
 
 ## Browse repositories
@@ -206,6 +206,7 @@ Repositories: **26**
 - [atm-residue-cleanup](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-residue-cleanup/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-residue-cleanup`
 - [atm-task-intent-resolver](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-task-intent-resolver/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-task-intent-resolver`
 - [atm-upgrade-scan](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-upgrade-scan/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-upgrade-scan`
+- [mailbox-worker-execution](./skills/eaglhuang/ai-atomic-framework/.agents/skills/mailbox-worker-execution/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/mailbox-worker-execution`
 - [seis-integration-guardian](./skills/emirhankudun-ux/seis/.kimi-code/skills/seis-integration-guardian/README.md) · `emirhankudun-ux/seis:.kimi-code/skills/seis-integration-guardian`
 - [seis-automation](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-automation/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-automation`
 - [seis-cloud](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-cloud/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-cloud`

@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework)
 
-Published Skills: 20
+Published Skills: 21
 Categories: agent-orchestration, commerce, content, data, devops, documentation, education, engineering, finance, hr-recruiting, productivity, project-management, research, testing
 Best overall score: 100
-Security distribution: 85+=20, 60-84=0, <60=0
+Security distribution: 85+=21, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -28,4 +28,5 @@ Security distribution: 85+=20, 60-84=0, <60=0
 | [atm-orient](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-orient/README.md) | `.agents/skills/atm-orient` | 100 | 100 | content, data, documentation, engineering, productivity, research |
 | [atm-task-intent-resolver](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | `.agents/skills/atm-task-intent-resolver` | 100 | 100 | content, data, documentation, engineering, productivity, research |
 | [atm-upgrade-scan](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | `.agents/skills/atm-upgrade-scan` | 100 | 100 | content, data, documentation, engineering, productivity, research |
+| [mailbox-worker-execution](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/mailbox-worker-execution/README.md) | `.agents/skills/mailbox-worker-execution` | 100 | 100 | content, devops, documentation, engineering, productivity, research |
 | [atm-residue-cleanup](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | `.agents/skills/atm-residue-cleanup` | 97 | 100 | devops, research, testing |
