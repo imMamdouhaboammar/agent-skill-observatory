@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 48
+Published Skills: 49
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -42,6 +42,7 @@ Published Skills: 48
 | [atm-internal-build-sync](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-internal-build-sync/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Build the ATM framework runner and sync it to explicit internal adopter repositories with skip/exclude controls. |
 | [atm-lock](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-lock/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Check, acquire, or release a governed scope lock. |
 | [atm-memory-consolidate](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index. |
+| [atm-next](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-next/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Recommend the next official ATM guidance action from current state. |
 | [seis-automation](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-automation/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Automation for designing, implementing, documenting, and validating repeatable SEIS workflows, scripts, checks, scheduled jobs, runbooks, CI steps, agent loops, and human-approved automation gates. |
 | [seis-cloud](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-cloud/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Cloud for cloud deployment readiness, public cloud targets, team/workplace VPN cloud targets, provider preflight, GCP Compute planning, static hosting handoff, secrets hygiene, rollback contracts, and infrastructure automation inside SEIS. Trigger when Codex needs to plan, validate, document, or execute cloud work while preserving user confirmation, security, provider neutrality, access policy, and repository governance. |
 | [seis-cloud](../skills/emirhankudun-ux/SEIS/plugins/seis-cloud/skills/seis-cloud/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Cloud for cloud deployment readiness, public cloud targets, team/workplace VPN cloud targets, provider preflight, GCP Compute planning, static hosting handoff, secrets hygiene, rollback contracts, and infrastructure automation inside SEIS. Trigger when Codex needs to plan, validate, document, or execute cloud work while preserving user confirmation, security, provider neutrality, access policy, and repository governance. |

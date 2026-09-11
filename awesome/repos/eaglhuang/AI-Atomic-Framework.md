@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework)
 
-Published Skills: 15
+Published Skills: 16
 Categories: agent-orchestration, commerce, content, data, devops, documentation, education, engineering, finance, hr-recruiting, productivity, project-management, research, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,3 +24,4 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [atm-lock](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-lock/README.md) | `.agents/skills/atm-lock` | 100 | 100 | content, data, devops, documentation, engineering, productivity |
 | [atm-memory-consolidate](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | `.agents/skills/atm-memory-consolidate` | 100 | 100 | content, documentation, engineering, hr-recruiting, productivity, project-management |
 | [atm-minimal-patch-rebuilder](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | `.agents/skills/atm-minimal-patch-rebuilder` | 100 | 100 | commerce, content, engineering, finance, hr-recruiting, productivity |
+| [atm-next](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-next/README.md) | `.agents/skills/atm-next` | 100 | 100 | content, devops, documentation, engineering, productivity, research |

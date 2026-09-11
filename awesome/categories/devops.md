@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 37
+Published Skills: 38
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -23,6 +23,7 @@ Published Skills: 37
 | [atm-framework-quickfix](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-quickfix/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Execute a bounded, evidence-backed ATM framework quickfix for a severe recurring blocker. Use when a captain needs to restore a broken fast path, control-plane latency, commitability, or fail-closed boundary without waiting for a broad governance closeout. |
 | [atm-framework-temp-claim](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-temp-claim/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Governed, tool-first route for scoped ATM framework quickfix work — dedicated skill for framework-mode claim, runner-sync queue-head reservation, sealed runner rebuild, and release, with CLI fallback that stays copy-paste runnable. |
 | [atm-lock](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-lock/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Check, acquire, or release a governed scope lock. |
+| [atm-next](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-next/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Recommend the next official ATM guidance action from current state. |
 | [reconc](../skills/Christopher-Schulze/reconc/skills/reconc/README.md) | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 100 | 100 | 1 | Use when a coding agent should bootstrap, maintain, or obey reconc repository policy. Covers the Repository Control Compiler, install/build choice, minimal daily loop, truthful evidence collection, policy checks, remediation, task-finish gates, CI/release use, and registry-backed platform enforcement limits without adding heavy process or option sprawl. |
 | [seis-automation](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-automation/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Automation for designing, implementing, documenting, and validating repeatable SEIS workflows, scripts, checks, scheduled jobs, runbooks, CI steps, agent loops, and human-approved automation gates. |
 | [seis-cloud](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-cloud/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Cloud for cloud deployment readiness, public cloud targets, team/workplace VPN cloud targets, provider preflight, GCP Compute planning, static hosting handoff, secrets hygiene, rollback contracts, and infrastructure automation inside SEIS. Trigger when Codex needs to plan, validate, document, or execute cloud work while preserving user confirmation, security, provider neutrality, access policy, and repository governance. |
