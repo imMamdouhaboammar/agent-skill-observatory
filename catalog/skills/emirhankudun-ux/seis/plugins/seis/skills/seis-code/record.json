@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "a4f8ff0769d0cfd2f5962e4f62cdb0c8c10cf852b872033f64f717708233a3db",
+  "canonical_key": "emirhankudun-ux/seis:plugins/seis/skills/seis-code",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a4f8ff0769d0cfd2f5962e4f62cdb0c8c10cf852b872033f64f717708233a3db",
+    "archived": false,
+    "canonical_key": "emirhankudun-ux/seis:plugins/seis/skills/seis-code",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6c3aa461bea9932fdb4a9663e5da01949b6719452bead7b2875192b5717a3e78",
+    "description": "Use SEIS Code for architecture-aware implementation, refactors, debugging, tests, repo automation, platform packages, MCP/plugin code, CI quality gates, and code-review fixes inside the SEIS ecosystem. Trigger when Codex needs to build, fix, implement, refactor, validate, or plan code changes under SEIS while preserving user work, main-branch safety, Apple-first priorities, security, and documentation quality.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "documentation",
+        "integrations",
+        "devops",
+        "mobile"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/emirhankudun-ux/SEIS/blob/main/plugins/seis/skills/seis-code/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:13.302101Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:13.302101Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "seis-code",
+    "path": "plugins/seis/skills/seis-code",
+    "pushed_at": "2026-09-11T12:36:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "emirhankudun-ux/SEIS",
+    "repo_url": "https://github.com/emirhankudun-ux/SEIS",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a023137d3955d713f2fc2be102a9d2cb39c866d10693521cdffa686724e4223f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "a023137d3955d713f2fc2be102a9d2cb39c866d10693521cdffa686724e4223f"
+}
