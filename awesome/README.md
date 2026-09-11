@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **85**
+Published skills: **86**
 Repositories: **12**
 
 ## Browse repositories
@@ -39,6 +39,7 @@ Repositories: **12**
 - [other](./categories/other.md)
 - [productivity](./categories/productivity.md)
 - [research](./categories/research.md)
+- [sales](./categories/sales.md)
 - [security](./categories/security.md)
 - [testing](./categories/testing.md)
 
@@ -129,3 +130,4 @@ Repositories: **12**
 - [skill-lifecycle](./skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) · `iflytek/skillhub:.agents/skills/skill-lifecycle`
 - [ai-claim-checker](./skills/iflytek/skillhub/builtin-skills/skills/ai-claim-checker/README.md) · `iflytek/skillhub:builtin-skills/skills/ai-claim-checker`
 - [cue-omni-reader](./skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) · `iflytek/skillhub:builtin-skills/skills/cue-omni-reader`
+- [daily-standup-journal](./skills/iflytek/skillhub/builtin-skills/skills/daily-standup-journal/README.md) · `iflytek/skillhub:builtin-skills/skills/daily-standup-journal`
