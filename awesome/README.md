@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **254**
-Repositories: **40**
+Published skills: **255**
+Repositories: **41**
 
 ## Browse repositories
 
@@ -17,6 +17,7 @@ Repositories: **40**
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
+- [Hoshock/HolodoriOptimizer](./repos/Hoshock/HolodoriOptimizer.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
@@ -301,6 +302,7 @@ Repositories: **40**
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [frontend-design](./skills/hose1021/omp-dotfiles/agent/skills/frontend-design/README.md) · `hose1021/omp-dotfiles:agent/skills/frontend-design`
+- [claude-md-convention](./skills/hoshock/holodorioptimizer/.claude/skills/claude-md-convention/README.md) · `hoshock/holodorioptimizer:.claude/skills/claude-md-convention`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
 - [code-conventions](./skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) · `iflytek/skillhub:.agents/skills/code-conventions`
 - [pr-submission](./skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) · `iflytek/skillhub:.agents/skills/pr-submission`
