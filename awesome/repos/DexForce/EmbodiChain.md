@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain)
 
-Published Skills: 13
+Published Skills: 14
 Categories: ai-ml, commerce, content, data, design, devops, documentation, engineering, marketing, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=13, 60-84=0, <60=0
+Security distribution: 85+=14, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -22,3 +22,4 @@ Security distribution: 85+=13, 60-84=0, <60=0
 | [add-robot](../../skills/DexForce/EmbodiChain/.claude/skills/add-robot/README.md) | `.claude/skills/add-robot` | 97 | 100 | research |
 | [add-solver](../../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | `.claude/skills/add-solver` | 97 | 100 | documentation, engineering, productivity, research, testing |
 | [review-pr](../../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | `.claude/skills/review-pr` | 97 | 100 | engineering, productivity, research |
+| [update-api-docs](../../skills/DexForce/EmbodiChain/.claude/skills/update-api-docs/README.md) | `.claude/skills/update-api-docs` | 97 | 100 | documentation, engineering, research |

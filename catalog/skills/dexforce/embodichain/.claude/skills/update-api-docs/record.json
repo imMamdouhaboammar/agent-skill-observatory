@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "bb2664dc87e1ef66eb8432094535b2c0f6439c90c761d137aafc8fed9193789e",
+  "canonical_key": "dexforce/embodichain:.claude/skills/update-api-docs",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "bb2664dc87e1ef66eb8432094535b2c0f6439c90c761d137aafc8fed9193789e",
+    "archived": false,
+    "canonical_key": "dexforce/embodichain:.claude/skills/update-api-docs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4c36ac738704feb47cdd7c15601d4a639b74538e7afff1bac8e3bc94fd94a4b4",
+    "description": "Claude adapter for the canonical EmbodiChain update-api-docs skill.",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "documentation",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ],
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DexForce/EmbodiChain/blob/main/.claude/skills/update-api-docs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 24,
+    "indexed_at": "2026-09-11T12:37:54.343422Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:37:54.343422Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "update-api-docs",
+    "path": ".claude/skills/update-api-docs",
+    "pushed_at": "2026-09-11T12:36:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DexForce/EmbodiChain",
+    "repo_url": "https://github.com/DexForce/EmbodiChain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 73,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "64d74717e6f1ea742ccf6b75d3ab169986910de03edfe16e4b549a3631a49f18",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 224
+  },
+  "source_fingerprint": "64d74717e6f1ea742ccf6b75d3ab169986910de03edfe16e4b549a3631a49f18"
+}
