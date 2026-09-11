@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "1c8f5c6d29ac23399ffed096a2e0102dbefd563b1c35569cf3026fb54f8dd2ba",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/engineering-gsap-animations",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1c8f5c6d29ac23399ffed096a2e0102dbefd563b1c35569cf3026fb54f8dd2ba",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/engineering-gsap-animations",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f2747e93e748e1c2af426c13c1afc01b00a256031b551bfe3d8cd4939cfe30d6",
+    "description": "Use when GSAP has been selected for React or Next.js animation, especially timelines, ScrollTrigger, pinning, scrub, SplitText, Flip, SVG, responsive animation, plugin lifecycle, cleanup, or animation-related integration bugs.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "integrations",
+        "documentation",
+        "legal-compliance",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/engineering-gsap-animations/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "engineering-gsap-animations",
+    "path": "skills/engineering-gsap-animations",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9de401eb8bd9202217f2b990cc35a9f06e49f7fdfcd5e11c268559426d6b245a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "9de401eb8bd9202217f2b990cc35a9f06e49f7fdfcd5e11c268559426d6b245a"
+}
