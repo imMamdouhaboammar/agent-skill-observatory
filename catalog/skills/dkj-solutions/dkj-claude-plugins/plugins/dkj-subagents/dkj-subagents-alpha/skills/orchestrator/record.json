@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "a93f7421febf91772900d61b7041d8009c3cd8712e5b1b4bacdc181dacd12e95",
+  "canonical_key": "dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a93f7421febf91772900d61b7041d8009c3cd8712e5b1b4bacdc181dacd12e95",
+    "archived": false,
+    "canonical_key": "dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7c4cbedda293179315bad5a9427473bc07b8c3cfa6a4c549106a8d28e807a10d",
+    "description": "Load Chris, the Chief of Staff, into this conversation: the orchestrator who classifies an assignment, names the specialist it belongs to, and closes it out. Use this in a session where his usual route is not available -- a repo that has not run `specialists-init` yet, no repo at all, or a fresh conversation in an app where the specialists arrived as subagents without a conductor. Before that bootstrap nothing else in context carries his rules for filing what you find or for verifying a refusal before you obey it. In a repo that has run `specialists-init` he is already loaded and this skill has nothing to add.",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "agent-orchestration",
+        "commerce",
+        "devops",
+        "engineering",
+        "legal-compliance",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/DKJ-Solutions/dkj-claude-plugins/blob/main/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:19:33.557776Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:33.557776Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "orchestrator",
+    "path": "plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator",
+    "pushed_at": "2026-09-11T19:18:10Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DKJ-Solutions/dkj-claude-plugins",
+    "repo_url": "https://github.com/DKJ-Solutions/dkj-claude-plugins",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b5388d307636edd90db6e5751ca01d51c4bf654645a3ce0acfd0232b0d09bc6e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "b5388d307636edd90db6e5751ca01d51c4bf654645a3ce0acfd0232b0d09bc6e"
+}
