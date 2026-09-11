@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills)
 
-Published Skills: 24
+Published Skills: 25
 Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 99
-Security distribution: 85+=24, 60-84=0, <60=0
+Security distribution: 85+=25, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -32,4 +32,5 @@ Security distribution: 85+=24, 60-84=0, <60=0
 | [designing-ui-systems](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | `skills/designing-ui-systems` | 99 | 100 | design, product, productivity, research, security |
 | [designing-visual-identities](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-visual-identities/README.md) | `skills/designing-visual-identities` | 99 | 100 | content, design, documentation, localization, marketing, media |
 | [documenting-architecture-decisions](../../skills/jhonatan-oliveiradev/agent-skills/skills/documenting-architecture-decisions/README.md) | `skills/documenting-architecture-decisions` | 99 | 100 | architecture, data, design, devops, documentation, research |
+| [editing-for-clarity-and-tone](../../skills/jhonatan-oliveiradev/agent-skills/skills/editing-for-clarity-and-tone/README.md) | `skills/editing-for-clarity-and-tone` | 99 | 100 | content, engineering, legal-compliance, productivity, research |
 | [building-hybrid-game-assets](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | `skills/building-hybrid-game-assets` | 96 | 100 | design, productivity, research |

@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "313ab9dd01c211eed594bbbbef133bc3f96856a8a3757504ab399c254e57d8ee",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/editing-for-clarity-and-tone",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "313ab9dd01c211eed594bbbbef133bc3f96856a8a3757504ab399c254e57d8ee",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/editing-for-clarity-and-tone",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4120969c99d364be1b46eb749b6bbfbc813f309275c794c02896a7f8d1af8e9f",
+    "description": "Use when revising existing prose for clarity, concision, structure, readability, or an explicitly requested tone while preserving the original meaning and factual content.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "engineering",
+        "legal-compliance",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/editing-for-clarity-and-tone/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "editing-for-clarity-and-tone",
+    "path": "skills/editing-for-clarity-and-tone",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "cb84d8955a39692b767350d3e0073db28266b8f8077650dbee58c4e4cbc2ac8b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "cb84d8955a39692b767350d3e0073db28266b8f8077650dbee58c4e4cbc2ac8b"
+}
