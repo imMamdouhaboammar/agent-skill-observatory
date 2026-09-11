@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 250
+Published Skills: 251
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -192,6 +192,7 @@ Published Skills: 250
 | [bootstrapping-modern-web-apps](../skills/jhonatan-oliveiradev/agent-skills/skills/bootstrapping-modern-web-apps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when the user explicitly opts into this opinionated web-app baseline, asks to use the personal starter, or wants this repository's preferred Next.js project conventions. |
 | [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
 | [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
+| [building-reliable-node-api-boundaries](../skills/jhonatan-oliveiradev/agent-skills/skills/building-reliable-node-api-boundaries/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when implementing or reviewing Node.js API or service endpoints that cross trust or data boundaries and require explicit validation, authorization, failure semantics, observability, or retry behavior. |
 | [claude-md-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: CLAUDE.md の基準 — エージェント向けの索引として何を載せ、何をどこへ逃がすかの判定（One Test・Include/Exclude 表・振り分け表）。 Use when: CLAUDE.md を書く・追記する・削る・監査するとき、またはある指示の置き場が CLAUDE.md かスキルかルールかフックかで迷ったとき。 |
 | [frontend](../skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 99 | 100 | 0 | React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke). |
 | [induction](../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: ユーザーのフィードバックを分類し、ルール候補として docs/ai/tmp/rules.md に記録する手順を定める。 Use when: ユーザーがフィードバック・訂正・好みを示したとき(口頭でもファイルの直接編集でも)。記録を求められていなくても適用する。 |

@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "05c7590c9506f20ea0eff02b117d92df0b4124e38868218ac1cd8a1735a879e5",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/building-reliable-node-api-boundaries",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "05c7590c9506f20ea0eff02b117d92df0b4124e38868218ac1cd8a1735a879e5",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/building-reliable-node-api-boundaries",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2495964e462c381d8189e855b0341856848928b2b638d290dc5a0777d8206e6c",
+    "description": "Use when implementing or reviewing Node.js API or service endpoints that cross trust or data boundaries and require explicit validation, authorization, failure semantics, observability, or retry behavior.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "devops",
+        "security",
+        "content",
+        "education"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/building-reliable-node-api-boundaries/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "building-reliable-node-api-boundaries",
+    "path": "skills/building-reliable-node-api-boundaries",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9047c3c1ec09462bec71ff7a9ef39a4e4b9cebfffca6248c59b6334bd0aec239",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "9047c3c1ec09462bec71ff7a9ef39a4e4b9cebfffca6248c59b6334bd0aec239"
+}

@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills)
 
-Published Skills: 12
+Published Skills: 13
 Categories: browser-automation, commerce, content, data, design, devops, documents, education, engineering, finance, integrations, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 99
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,4 +20,5 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [building-developer-career-roadmaps](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | `skills/building-developer-career-roadmaps` | 99 | 100 | commerce, content, education, engineering, finance, research |
 | [building-premium-nextjs-interfaces](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | `skills/building-premium-nextjs-interfaces` | 99 | 100 | browser-automation, commerce, content, design, engineering, media |
 | [building-regression-tests](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | `skills/building-regression-tests` | 99 | 100 | browser-automation, content, data, design, devops, testing |
+| [building-reliable-node-api-boundaries](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-reliable-node-api-boundaries/README.md) | `skills/building-reliable-node-api-boundaries` | 99 | 100 | content, data, devops, education, engineering, security |
 | [building-hybrid-game-assets](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | `skills/building-hybrid-game-assets` | 96 | 100 | design, productivity, research |
