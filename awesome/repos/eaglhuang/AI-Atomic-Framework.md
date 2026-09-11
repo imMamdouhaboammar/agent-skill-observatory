@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework)
 
-Published Skills: 21
+Published Skills: 22
 Categories: agent-orchestration, commerce, content, data, devops, documentation, education, engineering, finance, hr-recruiting, productivity, project-management, research, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,6 +21,7 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [atm-governance-router](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | `.agents/skills/atm-governance-router` | 100 | 100 | commerce, content, documentation, engineering, hr-recruiting, productivity |
 | [atm-handoff](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-handoff/README.md) | `.agents/skills/atm-handoff` | 100 | 100 | content, documentation, engineering, productivity, project-management, research |
 | [atm-internal-build-sync](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-internal-build-sync/README.md) | `.agents/skills/atm-internal-build-sync` | 100 | 100 | content, data, documentation, engineering, productivity, research |
+| [atm-legacy-atomization-guidance](../../skills/eaglhuang/AI-Atomic-Framework/integrations/codex-skills/atm-legacy-atomization-guidance/README.md) | `integrations/codex-skills/atm-legacy-atomization-guidance` | 100 | 100 | devops, documentation, education, productivity, research |
 | [atm-lock](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-lock/README.md) | `.agents/skills/atm-lock` | 100 | 100 | content, data, devops, documentation, engineering, productivity |
 | [atm-memory-consolidate](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | `.agents/skills/atm-memory-consolidate` | 100 | 100 | content, documentation, engineering, hr-recruiting, productivity, project-management |
 | [atm-minimal-patch-rebuilder](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | `.agents/skills/atm-minimal-patch-rebuilder` | 100 | 100 | commerce, content, engineering, finance, hr-recruiting, productivity |
