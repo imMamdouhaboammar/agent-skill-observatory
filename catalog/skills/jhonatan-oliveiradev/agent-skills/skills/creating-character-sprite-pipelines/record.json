@@ -1,0 +1,87 @@
+{
+  "analysis_fingerprint": "d55e367fdefeac700b2e416e375184886a7a6f84e13fe2a0003801f081eb8d7a",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/creating-character-sprite-pipelines",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d55e367fdefeac700b2e416e375184886a7a6f84e13fe2a0003801f081eb8d7a",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/creating-character-sprite-pipelines",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9eb6a70d9328bbaed99804c0e52aa1a03fb03ac2ba666e748b8499bd0ebb3419",
+    "description": "Use when defining, generating, reviewing, or expanding a 2D character sprite set that must remain anatomically consistent across idle, movement, combat, directional, and transition animations.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/creating-character-sprite-pipelines/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "creating-character-sprite-pipelines",
+    "path": "skills/creating-character-sprite-pipelines",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "fa17153bf4dce450320df25a1f0851840d01a73fc7235eb89208a59d46a93c15",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "fa17153bf4dce450320df25a1f0851840d01a73fc7235eb89208a59d46a93c15"
+}
