@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 189
+Published Skills: 190
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -68,6 +68,7 @@ Published Skills: 189
 | [curate-collection](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/curate-collection/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Populate a collection page with editorial content — expanded description, highlighted books, gallery images, sourced quotes. Also audits existing collections for staleness, broken links, and missing content. Use when a collection exists but needs its content built out, or when auditing collection quality. |
 | [curator](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/curator/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
+| [extract-images](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/extract-images/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Extract and catalog illustrations from historical books using AI vision. Generates rich metadata (subjects, figures, symbols, style, technique) and museum-style descriptions. Use when asked to extract images, run image detection, or process book illustrations. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |

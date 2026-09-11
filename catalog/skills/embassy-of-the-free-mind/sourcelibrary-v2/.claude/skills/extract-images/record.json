@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "17f01742365f3e6320f912bfc020a34505eb6e642b1776f95afb72812695f740",
+  "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/extract-images",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "17f01742365f3e6320f912bfc020a34505eb6e642b1776f95afb72812695f740",
+    "archived": false,
+    "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/extract-images",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2b351bfb0033bf54ca90c3b7ef5ae03742bc082665f0e1ea560dec9bcb6131d5",
+    "description": "Extract and catalog illustrations from historical books using AI vision. Generates rich metadata (subjects, figures, symbols, style, technique) and museum-style descriptions. Use when asked to extract images, run image detection, or process book illustrations.",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "commerce",
+        "content",
+        "design",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/extract-images/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 3,
+    "indexed_at": "2026-09-11T21:48:17.888608Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:48:17.888608Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "extract-images",
+    "path": ".claude/skills/extract-images",
+    "pushed_at": "2026-09-11T21:48:00Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 42,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "723c4feaa5de5d47e0da6cb1ac667cd17f2b7dd22795157b3a3eb01f8bc83d05",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "723c4feaa5de5d47e0da6cb1ac667cd17f2b7dd22795157b3a3eb01f8bc83d05"
+}
