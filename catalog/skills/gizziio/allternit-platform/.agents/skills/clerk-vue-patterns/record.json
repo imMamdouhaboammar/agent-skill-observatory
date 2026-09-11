@@ -1,0 +1,104 @@
+{
+  "analysis_fingerprint": "ef921e03d65d1e7a8a522b201d3852af2580e2f52d9bb92faba16b17b1051c14",
+  "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-vue-patterns",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "WebFetch"
+    ],
+    "analysis_fingerprint": "ef921e03d65d1e7a8a522b201d3852af2580e2f52d9bb92faba16b17b1051c14",
+    "archived": false,
+    "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-vue-patterns",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "626fca491d4f46c8b8849015e70fe25b89d0f80b55b762c76696c2f0a916699c",
+    "description": "Vue 3 patterns with Clerk — composables (useAuth, useUser, useClerk, useOrganization), Vue Router guards, Pinia auth store integration. Triggers on: vue clerk, useAuth vue, clerk composables, vue router clerk guard, pinia auth clerk. For Nuxt, use clerk-nuxt-patterns instead.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "integrations",
+        "data",
+        "design",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Gizziio/allternit-platform/blob/main/.agents/skills/clerk-vue-patterns/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:51:13.660809Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:13.660809Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "clerk",
+      "version": "1.0.0"
+    },
+    "name": "clerk-vue-patterns",
+    "path": ".agents/skills/clerk-vue-patterns",
+    "pushed_at": "2026-09-11T16:44:32Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Gizziio/allternit-platform",
+    "repo_url": "https://github.com/Gizziio/allternit-platform",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "169cc5031d424c75cef543eaf1d33799a3829b070d9c0fca9370b6b3f4e76da8",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "169cc5031d424c75cef543eaf1d33799a3829b070d9c0fca9370b6b3f4e76da8"
+}
