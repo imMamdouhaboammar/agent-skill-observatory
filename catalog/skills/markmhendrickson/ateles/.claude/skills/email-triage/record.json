@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "7a7a06de5b29886692943cb085ebed07adeea8d9bf79b9661b7a5bcfab035b4d",
+  "canonical_key": "markmhendrickson/ateles:.claude/skills/email-triage",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7a7a06de5b29886692943cb085ebed07adeea8d9bf79b9661b7a5bcfab035b4d",
+    "archived": false,
+    "canonical_key": "markmhendrickson/ateles:.claude/skills/email-triage",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "dbcb0d47494fa3339ad993a82931d9246684dcb872d4d1ac425fc6b9276c87c9",
+    "description": "Step-by-step email inbox triage workflow with draft generation, data persistence, and archiving. Use when processing emails, triaging inbox, or when user mentions email triage, inbox processing, or email workflow.",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "data",
+        "engineering",
+        "commerce",
+        "content",
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/markmhendrickson/ateles/blob/main/.claude/skills/email-triage/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:00:52.211704Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:00:52.211704Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "email-triage",
+    "path": ".claude/skills/email-triage",
+    "pushed_at": "2026-09-11T07:59:31Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "markmhendrickson/ateles",
+    "repo_url": "https://github.com/markmhendrickson/ateles",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 29,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f52e97631c7710e52c857a6e4b7b373b9ef5e7d840f7142d33bf88100897ec57",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "f52e97631c7710e52c857a6e4b7b373b9ef5e7d840f7142d33bf88100897ec57"
+}
