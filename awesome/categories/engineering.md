@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 195
+Published Skills: 196
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -142,6 +142,7 @@ Published Skills: 195
 | [subagent-ops](../skills/gkd2323c/runed-lexicon/.agents/skills/subagent-ops/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | 子代理协作操作手册（subagent orchestration）。覆盖委派决策、任务卡编译（信息三分法）、体量上限、并行协作纪律（单写者、幂等保护、送达纪律、实例生命周期）、产出验收三查、故障归因与恢复。Use when 派子代理做独立或并行任务、多路批量翻译/审计/扫描、编排多代理协作、验收子代理产出、处理子代理崩溃无产出、控制派单体量，或判断某任务该不该交给子代理。Triggers: subagent, subagents, delegation, dispatch, parallel agents, multi-agent, orchestration, handoff, 子代理, 派单, 派发, 并行, 委派, 验收, 编排. |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [tdd-ko](../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기능·버그픽스·리팩터링 구현 시 구현 코드 작성 전 반드시 사용 — Red-Green-Refactor 사이클 강제, 프로덕션 코드는 실패 테스트 없이 작성 금지 |
+| [theme-factory](../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 100 | 100 | 0 | 為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。 |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
 | [web-design-guidance](../skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Design, build, or review user-facing web UI with adaptive ambiguity-aware discovery, multi-axis design direction, repository-aware design-system preservation, structural-integrity auditing, responsive/accessibility states, anti-AI-slop auditing, and rendered visual verification. Use for substantial web UI/UX work unless the repository or user supplies a stronger design workflow. Repository and user design rules always win. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |

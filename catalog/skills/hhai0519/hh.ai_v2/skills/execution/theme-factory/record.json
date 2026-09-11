@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "0f46d9b6abff4bf64c0fa8e091b890b40e1d137fd7ff819cbd29666903c1cd0f",
+  "canonical_key": "hhai0519/hh.ai_v2:skills/execution/theme-factory",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0f46d9b6abff4bf64c0fa8e091b890b40e1d137fd7ff819cbd29666903c1cd0f",
+    "archived": false,
+    "canonical_key": "hhai0519/hh.ai_v2:skills/execution/theme-factory",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ef112e72d861c635a692524c2c3fc31a46b0dd1583e5a80ebec81b8c22657af2",
+    "description": "為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "documentation",
+        "engineering",
+        "integrations",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/hhai0519/HH.AI_v2/blob/main/skills/execution/theme-factory/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:43:25.976760Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:43:25.976760Z",
+    "license": "Complete terms in LICENSE.txt",
+    "metadata": {},
+    "name": "theme-factory",
+    "path": "skills/execution/theme-factory",
+    "pushed_at": "2026-09-11T12:35:56Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "hhai0519/HH.AI_v2",
+    "repo_url": "https://github.com/hhai0519/HH.AI_v2",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6c88441dc38ba9d6e80a8a64ad5b9b35768b5297c8e1fc1bc3abc56f3bb798a2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "6c88441dc38ba9d6e80a8a64ad5b9b35768b5297c8e1fc1bc3abc56f3bb798a2"
+}
