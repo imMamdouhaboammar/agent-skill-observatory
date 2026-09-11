@@ -1,6 +1,6 @@
 # hr-recruiting
 
-Published Skills: 6
+Published Skills: 7
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -10,3 +10,4 @@ Published Skills: 6
 | [atm-memory-consolidate](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index. |
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |
+| [skyrim-doc-system](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-doc-system/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 项目的文档体系规范：GLOBAL.md、GLOSSARY.md 与每个 MOD 的 CONTEXT.md / DICTIONARY.md / PROGRESS.md 五个文档的职责边界、收录标准、状态体系、术语优先级与维护规则。Use when creating or updating GLOBAL.md, GLOSSARY.md, or any MOD's CONTEXT.md / DICTIONARY.md / PROGRESS.md, deciding where a term or plot fact belongs, choosing term status (CONFIRMED/PROVISIONAL/REVIEW/KEEP), or resolving terminology priority conflicts. |

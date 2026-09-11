@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "a3714be79dcec17626bc77d842cee1629fcae627976babab463cd668ae6971fa",
+  "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/skyrim-doc-system",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a3714be79dcec17626bc77d842cee1629fcae627976babab463cd668ae6971fa",
+    "archived": false,
+    "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/skyrim-doc-system",
+    "compatibility": "Reference rules only; no scripts.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "f9d5463360a97d6a9c536175d1ac28d59c6333214a162a06e4c6b05e9f1ae762",
+    "description": "runed-lexicon 项目的文档体系规范：GLOBAL.md、GLOSSARY.md 与每个 MOD 的 CONTEXT.md / DICTIONARY.md / PROGRESS.md 五个文档的职责边界、收录标准、状态体系、术语优先级与维护规则。Use when creating or updating GLOBAL.md, GLOSSARY.md, or any MOD's CONTEXT.md / DICTIONARY.md / PROGRESS.md, deciding where a term or plot fact belongs, choosing term status (CONFIRMED/PROVISIONAL/REVIEW/KEEP), or resolving terminology priority conflicts.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "hr-recruiting",
+        "localization",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/gkd2323c/runed-lexicon/blob/main/.agents/skills/skyrim-doc-system/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:39:00.478677Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:39:00.478677Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "version": "1.1.0"
+    },
+    "name": "skyrim-doc-system",
+    "path": ".agents/skills/skyrim-doc-system",
+    "pushed_at": "2026-09-11T12:36:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "gkd2323c/runed-lexicon",
+    "repo_url": "https://github.com/gkd2323c/runed-lexicon",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7ab94b73f2a90c39c9cf1dfb30dff644e30862686c2ddba20afc9f9d62c467d6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "7ab94b73f2a90c39c9cf1dfb30dff644e30862686c2ddba20afc9f9d62c467d6"
+}
