@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **66**
+Published skills: **67**
 Repositories: **10**
 
 ## Browse repositories
@@ -104,3 +104,4 @@ Repositories: **10**
 - [code-mate-claude-code](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-claude-code/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-claude-code`
 - [code-mate-codex](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-codex/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-codex`
 - [code-mate-deepseek-harness](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-deepseek-harness/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-deepseek-harness`
+- [code-mate-gemini](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-gemini/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-gemini`

@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "655868ba3ffbcdb2c79297a180e598eada25806a50fcc1b2dfb747ae9c29c3ae",
+  "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-gemini",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "655868ba3ffbcdb2c79297a180e598eada25806a50fcc1b2dfb747ae9c29c3ae",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-gemini",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "921b5a6c22576f10f0c53d67bbf0d006d8f14090ae6d5c717440a20e95e1f42e",
+    "description": "Runs Gemini CLI headlessly for repository analysis and coding tasks. Use when the user asks to delegate work to Gemini CLI or compare its result with another coding agent.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "legal-compliance",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/code-cli-skills/code-mate-gemini/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "code-mate-gemini",
+    "path": "resources/code-cli-skills/code-mate-gemini",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d2dc4581d94b9232867f5b962899c0151b8e8bc8c087ce7a9b09ff01e837c8f4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "d2dc4581d94b9232867f5b962899c0151b8e8bc8c087ce7a9b09ff01e837c8f4"
+}
