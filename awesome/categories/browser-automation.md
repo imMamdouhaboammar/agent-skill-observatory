@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 15
+Published Skills: 16
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,6 +9,7 @@ Published Skills: 15
 | [gh-create-issue](../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format. |
 | [diagram-maker](../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards. |
 | [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
+| [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [feishu](../skills/chnlich/charlie-bot/skills/feishu/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Feishu/Lark documents, search docs in their Feishu workspace, or fetch content from a Feishu wiki or docx URL. |
 | [file-server](../skills/chnlich/charlie-bot/skills/file-server/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Must invoke when presenting a file to the user. The CharlieBot server has a built-in file browser that serves any file on the host filesystem. |

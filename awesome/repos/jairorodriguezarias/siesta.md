@@ -2,11 +2,12 @@
 
 Repository: [https://github.com/jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta)
 
-Published Skills: 1
-Categories: code-review, content, data, engineering, productivity, security
+Published Skills: 2
+Categories: browser-automation, code-review, commerce, content, data, engineering, productivity, security, testing
 Best overall score: 100
-Security distribution: 85+=1, 60-84=0, <60=0
+Security distribution: 85+=2, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [code-simplification](../../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | `.agents/skills/code-simplification` | 100 | 100 | code-review, content, data, engineering, productivity, security |
+| [debugging-and-error-recovery](../../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | `.agents/skills/debugging-and-error-recovery` | 100 | 100 | browser-automation, commerce, content, data, engineering, testing |

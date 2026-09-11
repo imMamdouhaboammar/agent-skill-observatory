@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "5e2c54bf873c2ba87a699c56620a91834a7fc3e6a5f9feb34ffd07b0efde650c",
+  "canonical_key": "jairorodriguezarias/siesta:.agents/skills/debugging-and-error-recovery",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5e2c54bf873c2ba87a699c56620a91834a7fc3e6a5f9feb34ffd07b0efde650c",
+    "archived": false,
+    "canonical_key": "jairorodriguezarias/siesta:.agents/skills/debugging-and-error-recovery",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "67ce2c9442da0c5a6e3515617fc9c4003cfe232ef7c7210da342f40f508f9958",
+    "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "commerce",
+        "data",
+        "testing",
+        "browser-automation",
+        "content"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/jairorodriguezarias/siesta/blob/main/.agents/skills/debugging-and-error-recovery/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 16,
+    "indexed_at": "2026-09-11T16:54:44.967657Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:54:44.967657Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "debugging-and-error-recovery",
+    "path": ".agents/skills/debugging-and-error-recovery",
+    "pushed_at": "2026-09-11T16:44:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jairorodriguezarias/siesta",
+    "repo_url": "https://github.com/jairorodriguezarias/siesta",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 59,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "78cadb32260105d619d7e47da6633cf47ed0d14f2857fcd7adee1ff1b8b3608c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 60
+  },
+  "source_fingerprint": "78cadb32260105d619d7e47da6633cf47ed0d14f2857fcd7adee1ff1b8b3608c"
+}

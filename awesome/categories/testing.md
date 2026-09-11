@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 47
+Published Skills: 48
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -23,6 +23,7 @@ Published Skills: 47
 | [add-robot](../skills/DexForce/EmbodiChain/.agents/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new robot to EmbodiChain — scaffolds a RobotCfg subclass (single-file or package layout) with the _build_defaults hook, build_pk_serial_chain, registration, docs page, and test stub. |
 | [add-test](../skills/DexForce/EmbodiChain/.agents/skills/add-test/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when writing tests for EmbodiChain modules, including observation functors, reward functors, solvers, sensors, environments, or any Python module |
 | [pre-commit-check](../skills/DexForce/EmbodiChain/.agents/skills/pre-commit-check/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use before committing or creating a PR for EmbodiChain to select proportional validation and verify affected code style, tests, headers, annotations, exports, and docstrings |
+| [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [run-evals](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/run-evals/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 기능 구현·수정을 마친 뒤 프로젝트의 EVALS.md 평가 기준을 실행/채점할 때. "evals 돌려줘" 요청이나 완료 게이트 검증에 사용. |

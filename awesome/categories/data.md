@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 84
+Published Skills: 85
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,6 +24,7 @@ Published Skills: 84
 | [add-atomic-action](../skills/DexForce/EmbodiChain/.agents/skills/add-atomic-action/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Add a new simulation atomic action or motion primitive to EmbodiChain's typed planning and execution framework. Use when implementing a new skill, goal contract, action planner, symbolic effect, registration entry, documentation, and tests for AtomicActionEngine. |
 | [pr](../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Create single or stacked pull requests for EmbodiChain following the project's PR template and conventions, including proportional validation, dependency ordering, and proper GitHub repository labels |
 | [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
+| [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [deploy-website](../skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Deploy the markmhendrickson website: sync markdown edits to Neotoma, export website data, regenerate cache, update the CI export secret, push the website repo, and verify GitHub Actions. |
