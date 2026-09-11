@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 127
+Published Skills: 128
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -104,6 +104,7 @@ Published Skills: 127
 | [designing-ui-systems](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features. |
 | [documenting-architecture-decisions](../skills/jhonatan-oliveiradev/agent-skills/skills/documenting-architecture-decisions/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a software decision materially affects structure, quality attributes, dependencies, interfaces, technology choices, or team direction and its rationale must remain reviewable over time. |
 | [editing-for-clarity-and-tone](../skills/jhonatan-oliveiradev/agent-skills/skills/editing-for-clarity-and-tone/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when revising existing prose for clarity, concision, structure, readability, or an explicitly requested tone while preserving the original meaning and factual content. |
+| [evaluating-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer must demonstrate a target capability level against a versioned assessment blueprint, observable rubric criteria, and explicit evidence gates. |
 | [add-robot](../skills/DexForce/EmbodiChain/.claude/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-robot skill. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |

@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 18
+Published Skills: 19
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -22,3 +22,4 @@ Published Skills: 18
 | [choosing-application-architecture](../skills/jhonatan-oliveiradev/agent-skills/skills/choosing-application-architecture/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when starting or reshaping an application where deployment topology, scaling, reliability, ownership, coupling, or delivery constraints make the architectural shape unclear. |
 | [editing-for-clarity-and-tone](../skills/jhonatan-oliveiradev/agent-skills/skills/editing-for-clarity-and-tone/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when revising existing prose for clarity, concision, structure, readability, or an explicitly requested tone while preserving the original meaning and factual content. |
 | [engineering-gsap-animations](../skills/jhonatan-oliveiradev/agent-skills/skills/engineering-gsap-animations/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when GSAP has been selected for React or Next.js animation, especially timelines, ScrollTrigger, pinning, scrub, SplitText, Flip, SVG, responsive animation, plugin lifecycle, cleanup, or animation-related integration bugs. |
+| [evaluating-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer must demonstrate a target capability level against a versioned assessment blueprint, observable rubric criteria, and explicit evidence gates. |
