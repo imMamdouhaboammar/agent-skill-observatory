@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/andyko18/specops-ko](https://github.com/andyko18/specops-ko)
 
-Published Skills: 11
-Categories: ai-ml, commerce, content, data, design, education, engineering, integrations, productivity, project-management, research, security, testing
+Published Skills: 12
+Categories: agent-orchestration, ai-ml, commerce, content, data, design, documentation, education, engineering, integrations, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [structured-artifacts-ko](../../skills/andyko18/specops-ko/skills/structured-artifacts-ko/README.md) | `skills/structured-artifacts-ko` | 100 | 100 | data, engineering, productivity, research |
 | [systematic-debugging-ko](../../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | `skills/systematic-debugging-ko` | 100 | 100 | engineering, integrations, productivity, research, security, testing |
 | [tdd-ko](../../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | `skills/tdd-ko` | 100 | 100 | data, engineering, productivity, testing |
+| [using-specops-ko](../../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | `skills/using-specops-ko` | 100 | 100 | agent-orchestration, design, documentation, engineering, productivity, research |

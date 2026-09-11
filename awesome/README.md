@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **125**
+Published skills: **126**
 Repositories: **16**
 
 ## Browse repositories
@@ -119,6 +119,7 @@ Repositories: **16**
 - [structured-artifacts-ko](./skills/andyko18/specops-ko/skills/structured-artifacts-ko/README.md) · `andyko18/specops-ko:skills/structured-artifacts-ko`
 - [systematic-debugging-ko](./skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) · `andyko18/specops-ko:skills/systematic-debugging-ko`
 - [tdd-ko](./skills/andyko18/specops-ko/skills/tdd-ko/README.md) · `andyko18/specops-ko:skills/tdd-ko`
+- [using-specops-ko](./skills/andyko18/specops-ko/skills/using-specops-ko/README.md) · `andyko18/specops-ko:skills/using-specops-ko`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
