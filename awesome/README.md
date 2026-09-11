@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **114**
-Repositories: **15**
+Published skills: **115**
+Repositories: **16**
 
 ## Browse repositories
 
@@ -15,6 +15,7 @@ Repositories: **15**
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
+- [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -106,6 +107,7 @@ Repositories: **15**
 - [quick-dev](./skills/alizaouane/dev-agent/skills/quick-dev/README.md) · `alizaouane/dev-agent:skills/quick-dev`
 - [scout](./skills/alizaouane/dev-agent/skills/scout/README.md) · `alizaouane/dev-agent:skills/scout`
 - [self-review](./skills/alizaouane/dev-agent/skills/self-review/README.md) · `alizaouane/dev-agent:skills/self-review`
+- [advisor-ko](./skills/andyko18/specops-ko/skills/advisor-ko/README.md) · `andyko18/specops-ko:skills/advisor-ko`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`

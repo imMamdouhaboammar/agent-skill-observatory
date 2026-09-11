@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 13
+Published Skills: 14
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -17,3 +17,4 @@ Published Skills: 13
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |
 | [create-rule](../skills/markmhendrickson/ateles/.claude/skills/create-rule/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create Cursor rule for persistent AI guidance. |
 | [final-review](../skills/markmhendrickson/ateles/.claude/skills/final-review/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Final review workflow per foundation command. |
+| [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |
