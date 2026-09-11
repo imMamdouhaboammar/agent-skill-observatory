@@ -1,6 +1,6 @@
 # education
 
-Published Skills: 13
+Published Skills: 14
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -13,6 +13,7 @@ Published Skills: 13
 | [study-strategy-selector](../skills/iflytek/skillhub/builtin-skills/skills/study-strategy-selector/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Recommend practical study strategies matched to the material, learning goal, assessment, time, and learner constraints. Use for revision planning, homework routines, independent study, replacing ineffective habits, or adapting recall, spacing, explanation, and practice activities. |
 | [factory-learner](../skills/jairorodriguezarias/siesta/factory/skills/factory-learner/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Learns after EACH issue execution, not just at project end. Qwen 2.5 governs this micro-learning loop. Analyzes what happened during the issue — blockers, consultations, proxy decisions, successes — and improves factory skills immediately. Use after every issue is resolved. |
 | [kb-manager](../skills/jairorodriguezarias/siesta/factory/skills/kb-manager/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Manages the JSON-based knowledge graph with progressive disclosure. Use when reading or writing decisions, blockers, learnings, or consultations to the KB. Provides query, append, and link operations. |
+| [fuse-agent](../skills/commontoolsinc/labs/skills/fuse-agent/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Agent-specific interaction patterns for working with FUSE-mounted spaces. Use when deploying patterns via FUSE, working with Activity Logs, Annotations, or coordinating agent workflows that read/write pieces through the filesystem. Triggers include "deploy a pattern", "log an event", "create annotation", "agent workflow", or managing piece lifecycle via FUSE. |
 | [atm-dispatch](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-dispatch/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | ATM Captain dispatch routing for task cards, sidecars, subagents, condition review, mailbox work, and closeout coordination. |
 | [atm-legacy-atomization-guidance](../skills/eaglhuang/AI-Atomic-Framework/integrations/codex-skills/atm-legacy-atomization-guidance/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Legacy compatibility alias for ATM legacy atomization, split, infect, and migration work. Prefer atm-governance-router for new installs. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |

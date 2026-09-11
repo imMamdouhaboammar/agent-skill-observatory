@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **290**
+Published skills: **291**
 Repositories: **46**
 
 ## Browse repositories
@@ -208,6 +208,7 @@ Repositories: **46**
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
 - [pattern-ui](./skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) · `commontoolsinc/labs:packages/cf-harness/fixtures/hostile-skills-root/pattern-ui`
 - [figma-to-code](./skills/commontoolsinc/labs/skills/figma-to-code/README.md) · `commontoolsinc/labs:skills/figma-to-code`
+- [fuse-agent](./skills/commontoolsinc/labs/skills/fuse-agent/README.md) · `commontoolsinc/labs:skills/fuse-agent`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
