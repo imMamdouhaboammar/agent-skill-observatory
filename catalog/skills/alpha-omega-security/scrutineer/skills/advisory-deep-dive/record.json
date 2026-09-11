@@ -1,0 +1,109 @@
+{
+  "analysis_fingerprint": "4d7499b5e28199f66ac3b66203e1a367c75302d2e09022c803f7b8f25a3f70ea",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/advisory-deep-dive",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read,Write,Bash,Grep,Glob,WebFetch,Task"
+    ],
+    "analysis_fingerprint": "4d7499b5e28199f66ac3b66203e1a367c75302d2e09022c803f7b8f25a3f70ea",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/advisory-deep-dive",
+    "compatibility": "Needs the cloned repo with full git history in ./src, the scrutineer API for advisory and mined-history inputs, and network access to read advisory pages. Uses `git` and may use Claude subagents.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "ef302f60b894a770904a2d53d9960498872c6a5589215908076bac39ae6c7975",
+    "description": "Re-audit every past GHSA/CVE advisory published against this repository, anchored on each advisory's fix commit, for four failure modes, a regression of the original bug, a bypass of the fix, an incomplete fix that left a path open, and the same class of bug in sibling code the fix never touched. Records one verdict per advisory (fixed, bypass, variant or regressed) with standalone evidence, opening findings for anything that did not hold, and a fixed verdict backs a public fix-audit certificate. Use when you want to prove that prior fixes actually held rather than trusting that a shipped patch closed the hole. The target is this codebase's own first-party source, not its dependencies.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "security",
+        "testing",
+        "agent-orchestration",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "compatibility metadata names Claude"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/advisory-deep-dive/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.max_turns": "100",
+      "scrutineer.model": "max",
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "advisory_audit",
+      "scrutineer.requires": "['advisories']",
+      "scrutineer.requires_remote": "True",
+      "scrutineer.version": "1"
+    },
+    "name": "advisory-deep-dive",
+    "path": "skills/advisory-deep-dive",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d38b33c43309fd67ddbad73c9b2537b5070685867540e315eb7553e5bee7d912",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "d38b33c43309fd67ddbad73c9b2537b5070685867540e315eb7553e5bee7d912"
+}
