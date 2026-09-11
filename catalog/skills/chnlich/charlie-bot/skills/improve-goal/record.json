@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "e69e29529dbe5f527f31299eb0cf944a68a038241693225dfd158ee57fa5be72",
+  "canonical_key": "chnlich/charlie-bot:skills/improve-goal",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e69e29529dbe5f527f31299eb0cf944a68a038241693225dfd158ee57fa5be72",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/improve-goal",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d0d788d0ef6756aefa48fb84f0c5ff12d931c499c1d55e9feb4329345468182c",
+    "description": "How to write effective improve loop goal prompts — for the master CC agent that writes the --goal-file content.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "productivity",
+        "commerce",
+        "engineering",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/improve-goal/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "improve-goal",
+    "path": "skills/improve-goal",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c85ef0d0e5326f3ebe512533a3105c4cc9e1976fd6a7bcc26dd887b387ae4dcb",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "c85ef0d0e5326f3ebe512533a3105c4cc9e1976fd6a7bcc26dd887b387ae4dcb"
+}
