@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "4342d57d7d1c980277ccb1085cf351617faedbd6b8215a1ca0deed224f9c9489",
+  "canonical_key": "bunhine0452/ocul-pm:plugin/oculpm/skills/oculpm-journal",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "4342d57d7d1c980277ccb1085cf351617faedbd6b8215a1ca0deed224f9c9489",
+    "archived": false,
+    "canonical_key": "bunhine0452/ocul-pm:plugin/oculpm/skills/oculpm-journal",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b4a52e05acfe077f201e88d455e144ce0b85ef03020867cdc0381cbb0064eee0",
+    "description": "ocul-pm recording spec (journal format, planner glyphs/log, discussion docs) for projects with .oculpm/. Use when finishing a unit of work and the oculpm MCP tools are unavailable — prefer journal_write/plan_update when visible.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "integrations",
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bunhine0452/Ocul-PM/blob/main/plugin/oculpm/skills/oculpm-journal/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-11T16:51:07.154762Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:07.154762Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "oculpm-journal",
+    "path": "plugin/oculpm/skills/oculpm-journal",
+    "pushed_at": "2026-09-11T16:44:34Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bunhine0452/Ocul-PM",
+    "repo_url": "https://github.com/bunhine0452/Ocul-PM",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 34,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b551abd649e77c0c91c301f2c61bca1fa9595e00e175f1af9d84e9577a2094a6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 7
+  },
+  "source_fingerprint": "b551abd649e77c0c91c301f2c61bca1fa9595e00e175f1af9d84e9577a2094a6"
+}
