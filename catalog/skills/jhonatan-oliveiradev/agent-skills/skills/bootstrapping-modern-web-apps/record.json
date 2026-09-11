@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "de93bd8cc6aecd03473fe2826168f1d05beee952c4f7abd6faaef0858f33dd3b",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/bootstrapping-modern-web-apps",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "de93bd8cc6aecd03473fe2826168f1d05beee952c4f7abd6faaef0858f33dd3b",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/bootstrapping-modern-web-apps",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ebc0c565d2a0efae998b3f0ef3140d8fbe352b009f11c7e074233b2ced93214a",
+    "description": "Use when the user explicitly opts into this opinionated web-app baseline, asks to use the personal starter, or wants this repository's preferred Next.js project conventions.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "data",
+        "devops",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/bootstrapping-modern-web-apps/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "bootstrapping-modern-web-apps",
+    "path": "skills/bootstrapping-modern-web-apps",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9f861e79d705240677572174c2b100a4eaed5e52af0d776a08558a2bd0eadc83",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "9f861e79d705240677572174c2b100a4eaed5e52af0d776a08558a2bd0eadc83"
+}
