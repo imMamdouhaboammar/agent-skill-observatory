@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 77
+Published Skills: 78
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -28,6 +28,7 @@ Published Skills: 77
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
 | [backend-module-structure](../skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Rules for the SkillHub backend Maven multi-module clean architecture. Ensures agents place new code in the correct module and respect dependency direction. |
 | [code-conventions](../skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code. |
+| [documentation-writer](../skills/iflytek/skillhub/builtin-skills/skills/documentation-writer/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create or revise software documentation using the Diátaxis distinction between tutorials, how-to guides, reference, and explanation. Use for README sections, product and API documentation, operational guides, onboarding material, or restructuring an existing documentation set. |
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [skill-lifecycle](../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |

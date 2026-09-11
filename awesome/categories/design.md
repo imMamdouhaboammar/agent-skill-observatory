@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 51
+Published Skills: 52
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -18,6 +18,7 @@ Published Skills: 51
 | [backend-module-structure](../skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Rules for the SkillHub backend Maven multi-module clean architecture. Ensures agents place new code in the correct module and respect dependency direction. |
 | [code-conventions](../skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code. |
 | [diagram-maker](../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards. |
+| [documentation-writer](../skills/iflytek/skillhub/builtin-skills/skills/documentation-writer/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create or revise software documentation using the Diátaxis distinction between tutorials, how-to guides, reference, and explanation. Use for README sections, product and API documentation, operational guides, onboarding material, or restructuring an existing documentation set. |
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [skill-lifecycle](../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions. |
 | [apple-web-design](../skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Build or review web interfaces that need Apple-style direct manipulation, interruptible gesture motion, velocity-aware settling, restrained translucent materials, deliberate state-transition craft, responsive typography, and motion/transparency accessibility. Use only when the target repository or user asks for this interaction language; target-repository engineering and visual rules always win. |

@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 28
+Published Skills: 29
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,6 +9,7 @@ Published Skills: 28
 | [cue-omni-reader](../skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Parse and understand an HTTP(S) URL or an authorized local document, audio, or video source through Cue Omni Reader when the Agent has the official Omni MCP tools. |
 | [daily-standup-journal](../skills/iflytek/skillhub/builtin-skills/skills/daily-standup-journal/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Generate concise daily standups, reflection prompts, and weekly retrospectives for individuals or teams. Use for planning a day, surfacing blockers, reviewing user-provided entries, or drafting a check-in without assuming prior history. |
 | [decision-matrix](../skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Compare options with weighted scoring, pros and cons, pre-mortems, opportunity costs, and ICE prioritization. Use when a user wants to reason through a choice, expose assumptions, or rank alternatives. |
+| [documentation-writer](../skills/iflytek/skillhub/builtin-skills/skills/documentation-writer/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create or revise software documentation using the Diátaxis distinction between tutorials, how-to guides, reference, and explanation. Use for README sections, product and API documentation, operational guides, onboarding material, or restructuring an existing documentation set. |
 | [skill-lifecycle](../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions. |
 | [apple-web-design](../skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Build or review web interfaces that need Apple-style direct manipulation, interruptible gesture motion, velocity-aware settling, restrained translucent materials, deliberate state-transition craft, responsive typography, and motion/transparency accessibility. Use only when the target repository or user asks for this interaction language; target-repository engineering and visual rules always win. |
 | [agent-native-design](../skills/Agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Use when designing, reviewing, or refactoring a CLI that must serve AI agents alongside humans, or when converting an API or SDK into an agent-usable CLI interface. |
