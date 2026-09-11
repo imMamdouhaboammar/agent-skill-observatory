@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "79fabb702d0d6d09b4c7540474b88dcab1042aeb8b63a142dd33c5a3d4f89dad",
+  "canonical_key": "dexforce/embodichain:.agents/skills/pre-commit-check",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "79fabb702d0d6d09b4c7540474b88dcab1042aeb8b63a142dd33c5a3d4f89dad",
+    "archived": false,
+    "canonical_key": "dexforce/embodichain:.agents/skills/pre-commit-check",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c188366376b9e14e51567ef0dc6c6f32b32db3f2a4cad24fca3e2c403a7eed9f",
+    "description": "Use before committing or creating a PR for EmbodiChain to select proportional validation and verify affected code style, tests, headers, annotations, exports, and docstrings",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "devops",
+        "documentation",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path",
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DexForce/EmbodiChain/blob/main/.agents/skills/pre-commit-check/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 24,
+    "indexed_at": "2026-09-11T12:37:54.343422Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:37:54.343422Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "pre-commit-check",
+    "path": ".agents/skills/pre-commit-check",
+    "pushed_at": "2026-09-11T12:36:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DexForce/EmbodiChain",
+    "repo_url": "https://github.com/DexForce/EmbodiChain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 73,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0bcd731f0e29172f341f80f21f7e5931c056ecb753fad6bb35e42e2facac310d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 224
+  },
+  "source_fingerprint": "0bcd731f0e29172f341f80f21f7e5931c056ecb753fad6bb35e42e2facac310d"
+}
