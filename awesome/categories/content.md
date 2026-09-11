@@ -1,9 +1,10 @@
 # content
 
-Published Skills: 246
+Published Skills: 247
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [academic-paper-review](../skills/bytedance/deer-flow/skills/public/academic-paper-review/README.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82289 | Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, literature positioning, and constructive feedback generation. Trigger on queries involving paper URLs, uploaded PDFs, arXiv links, or requests like "review this paper", "analyze this research", "summarize this study", or "write a peer review". |
 | [code-mate-antigravity](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-antigravity/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Antigravity CLI headlessly for repository analysis and coding tasks. Use when the user asks to delegate work to Antigravity CLI or compare its result with another coding agent. |
 | [code-mate-claude-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-claude-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Claude Code non-interactively for code analysis and implementation tasks. Use when the user asks to delegate repository work to Claude Code or compare its result with another coding agent. |
 | [code-mate-codex](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-codex/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Codex CLI non-interactively for code analysis and implementation tasks. Use when the user asks to delegate repository work to Codex or obtain a second coding-agent result. |
