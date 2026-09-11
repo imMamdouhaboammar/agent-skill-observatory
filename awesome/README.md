@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **86**
+Published skills: **87**
 Repositories: **12**
 
 ## Browse repositories
@@ -31,11 +31,13 @@ Repositories: **12**
 - [documents](./categories/documents.md)
 - [education](./categories/education.md)
 - [engineering](./categories/engineering.md)
+- [finance](./categories/finance.md)
 - [integrations](./categories/integrations.md)
 - [legal-compliance](./categories/legal-compliance.md)
 - [localization](./categories/localization.md)
 - [marketing](./categories/marketing.md)
 - [media](./categories/media.md)
+- [mobile](./categories/mobile.md)
 - [other](./categories/other.md)
 - [productivity](./categories/productivity.md)
 - [research](./categories/research.md)
@@ -131,3 +133,4 @@ Repositories: **12**
 - [ai-claim-checker](./skills/iflytek/skillhub/builtin-skills/skills/ai-claim-checker/README.md) · `iflytek/skillhub:builtin-skills/skills/ai-claim-checker`
 - [cue-omni-reader](./skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) · `iflytek/skillhub:builtin-skills/skills/cue-omni-reader`
 - [daily-standup-journal](./skills/iflytek/skillhub/builtin-skills/skills/daily-standup-journal/README.md) · `iflytek/skillhub:builtin-skills/skills/daily-standup-journal`
+- [decision-matrix](./skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) · `iflytek/skillhub:builtin-skills/skills/decision-matrix`

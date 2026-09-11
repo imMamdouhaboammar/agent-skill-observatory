@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "581d2836cfcca1ef5f19277f531e55d581e61d260ea5e7e669a105b820bcfde0",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/decision-matrix",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "581d2836cfcca1ef5f19277f531e55d581e61d260ea5e7e669a105b820bcfde0",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/decision-matrix",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5d564679a7c1955069f486270694e0c1e9ed3ef572698236b1fc9e0209df66f8",
+    "description": "Compare options with weighted scoring, pros and cons, pre-mortems, opportunity costs, and ICE prioritization. Use when a user wants to reason through a choice, expose assumptions, or rank alternatives.",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "finance",
+        "content",
+        "data",
+        "legal-compliance",
+        "mobile",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/decision-matrix/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "decision-matrix",
+    "path": "builtin-skills/skills/decision-matrix",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6edf5cb391c0b09f4d0c63a9dae6480e36d263ab3ac14e398e88f4f790a26b53",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "6edf5cb391c0b09f4d0c63a9dae6480e36d263ab3ac14e398e88f4f790a26b53"
+}
