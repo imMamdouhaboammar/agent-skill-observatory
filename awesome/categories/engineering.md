@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 221
+Published Skills: 222
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -166,6 +166,7 @@ Published Skills: 221
 | [auditing-dependency-risk](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-dependency-risk/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs software-supply-chain or third-party dependency risk assessed from manifests, lockfiles, advisories, provenance, maintenance signals, and realistic runtime exposure before upgrades or release. |
 | [auditing-pixel-perfect-frontend](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized. |
 | [bootstrapping-modern-web-apps](../skills/jhonatan-oliveiradev/agent-skills/skills/bootstrapping-modern-web-apps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when the user explicitly opts into this opinionated web-app baseline, asks to use the personal starter, or wants this repository's preferred Next.js project conventions. |
+| [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
 | [claude-md-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: CLAUDE.md の基準 — エージェント向けの索引として何を載せ、何をどこへ逃がすかの判定（One Test・Include/Exclude 表・振り分け表）。 Use when: CLAUDE.md を書く・追記する・削る・監査するとき、またはある指示の置き場が CLAUDE.md かスキルかルールかフックかで迷ったとき。 |
 | [induction](../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: ユーザーのフィードバックを分類し、ルール候補として docs/ai/tmp/rules.md に記録する手順を定める。 Use when: ユーザーがフィードバック・訂正・好みを示したとき(口頭でもファイルの直接編集でも)。記録を求められていなくても適用する。 |
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |

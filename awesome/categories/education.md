@@ -1,6 +1,6 @@
 # education
 
-Published Skills: 12
+Published Skills: 13
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -16,3 +16,4 @@ Published Skills: 12
 | [atm-dispatch](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-dispatch/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | ATM Captain dispatch routing for task cards, sidecars, subagents, condition review, mailbox work, and closeout coordination. |
 | [atm-legacy-atomization-guidance](../skills/eaglhuang/AI-Atomic-Framework/integrations/codex-skills/atm-legacy-atomization-guidance/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Legacy compatibility alias for ATM legacy atomization, split, infect, and migration work. Prefer atm-governance-router for new installs. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
+| [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |

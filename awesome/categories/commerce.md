@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 57
+Published Skills: 58
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -61,3 +61,4 @@ Published Skills: 57
 | [xtranslator-xml-writer](../skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | Safely apply validated Skyrim mod translation-result JSON files or minimal atomic patches to xTranslator XML by changing only intended destination text and verifying source version, XML identity, protected tokens, duplicate units, and post-write structure. Use whenever completed translation batches need to become an xTranslator-importable XML file, or when a small revision (a handful of strings) must be applied to an existing translated XML without rebuilding full batch context. This skill writes a new XML by default and must not freely reserialize the source document. |
 | [assessing-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/assessing-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs an evidence-aware diagnosis of current capabilities, confidence, unknowns, and weakly demonstrated areas before deciding what to improve. |
 | [building-conversion-product-pages](../skills/jhonatan-oliveiradev/agent-skills/skills/building-conversion-product-pages/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when designing or improving a landing page, product page, digital-product storefront, pricing page, or marketing flow where visitor comprehension and conversion are primary goals. |
+| [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |

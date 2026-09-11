@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills)
 
-Published Skills: 8
-Categories: browser-automation, commerce, content, data, design, devops, documents, engineering, integrations, marketing, media, mobile, product, productivity, research, security
+Published Skills: 9
+Categories: browser-automation, commerce, content, data, design, devops, documents, education, engineering, finance, integrations, marketing, media, mobile, product, productivity, research, security
 Best overall score: 99
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,3 +17,4 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [bootstrapping-modern-web-apps](../../skills/jhonatan-oliveiradev/agent-skills/skills/bootstrapping-modern-web-apps/README.md) | `skills/bootstrapping-modern-web-apps` | 99 | 100 | content, data, design, devops, engineering, integrations |
 | [building-brand-guidelines](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | `skills/building-brand-guidelines` | 99 | 100 | content, design, documents, marketing, media, productivity |
 | [building-conversion-product-pages](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-conversion-product-pages/README.md) | `skills/building-conversion-product-pages` | 99 | 100 | commerce, content, data, design, marketing, product |
+| [building-developer-career-roadmaps](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | `skills/building-developer-career-roadmaps` | 99 | 100 | commerce, content, education, engineering, finance, research |

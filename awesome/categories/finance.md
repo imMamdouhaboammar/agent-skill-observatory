@@ -1,6 +1,6 @@
 # finance
 
-Published Skills: 6
+Published Skills: 7
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -10,3 +10,4 @@ Published Skills: 6
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
 | [fetch-source](../skills/CultureBotAI/TraitMech/.claude/skills/fetch-source/README.md) | [CultureBotAI/TraitMech](https://github.com/CultureBotAI/TraitMech) | 100 | 100 | 1 | Robust curl pattern for `fetch-<source>` justfile recipes that download an external data release into data/raw/. Use whenever writing a new fetch-* recipe, or auditing/fixing an existing one that fails intermittently in CI — a bare `curl -o` with no retry or timeout turns one flaky network blip into a red PR. |
 | [msx-play](../skills/jeong-sik/masc/skills/msx-play/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Play the shared MSX machine through image observation, sequential key input, disk changes and persistent checkpoints; learn game menus from their visible results. |
+| [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
