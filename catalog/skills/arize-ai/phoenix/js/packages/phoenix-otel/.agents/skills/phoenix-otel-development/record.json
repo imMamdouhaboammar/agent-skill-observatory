@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "a176a879b22ec75668d9dcebb0086dac67259367dba5b1a949fbf588d88b2a7a",
+  "canonical_key": "arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a176a879b22ec75668d9dcebb0086dac67259367dba5b1a949fbf588d88b2a7a",
+    "archived": false,
+    "canonical_key": "arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "86f34dbde28e8e46693f7fcd9c23110057717fb968c3b0440ca297df95084528",
+    "description": "Guide for the phoenix-otel TypeScript package — OTel registration, stack-based global provider management, and provider lifecycle.\n",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "testing",
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1124,
+    "indexed_at": "2026-09-11T23:38:40.586223Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:38:40.586223Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "oss@arize.com",
+      "internal": "True",
+      "languages": "TypeScript",
+      "version": "1.0.0"
+    },
+    "name": "phoenix-otel-development",
+    "path": "js/packages/phoenix-otel/.agents/skills/phoenix-otel-development",
+    "pushed_at": "2026-09-11T23:35:23Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "990d1229da0d76d04ba5521a4ee865281e11414a05f626e2616e13db6e07c12d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11416
+  },
+  "source_fingerprint": "990d1229da0d76d04ba5521a4ee865281e11414a05f626e2616e13db6e07c12d"
+}

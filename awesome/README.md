@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **384**
+Published skills: **385**
 Repositories: **50**
 
 ## Browse repositories
@@ -202,6 +202,7 @@ Repositories: **50**
 - [vercel-react-best-practices](./skills/arize-ai/phoenix/.agents/skills/vercel-react-best-practices/README.md) · `arize-ai/phoenix:.agents/skills/vercel-react-best-practices`
 - [phoenix-cli-development](./skills/arize-ai/phoenix/js/packages/phoenix-cli/.agents/skills/phoenix-cli-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-cli/.agents/skills/phoenix-cli-development`
 - [phoenix-client-development](./skills/arize-ai/phoenix/js/packages/phoenix-client/.agents/skills/phoenix-client-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-client/.agents/skills/phoenix-client-development`
+- [phoenix-otel-development](./skills/arize-ai/phoenix/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
