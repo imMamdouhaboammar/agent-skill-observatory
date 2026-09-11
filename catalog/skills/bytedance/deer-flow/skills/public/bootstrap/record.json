@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "97c54c55c493ded3f2794ad77abeca21cc692f56c6ffcdce41c9b8668c218787",
+  "canonical_key": "bytedance/deer-flow:skills/public/bootstrap",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "97c54c55c493ded3f2794ad77abeca21cc692f56c6ffcdce41c9b8668c218787",
+    "archived": false,
+    "canonical_key": "bytedance/deer-flow:skills/public/bootstrap",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d117997b877f80da7411d33b457878ad9ae0a649f43781a74c8b09707984356d",
+    "description": "Generate a personalized SOUL.md through a warm, adaptive onboarding conversation. Trigger when the user wants to create, set up, or initialize their AI partner's identity — e.g., \"create my SOUL.md\", \"bootstrap my agent\", \"set up my AI partner\", \"define who you are\", \"let's do onboarding\", \"personalize this AI\", \"make you mine\", or when a SOUL.md is missing. Also trigger for updates: \"update my SOUL.md\", \"change my AI's personality\", \"tweak the soul\".",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/bootstrap/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 11345,
+    "indexed_at": "2026-09-11T23:39:20.634091Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:39:20.634091Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "bootstrap",
+    "path": "skills/public/bootstrap",
+    "pushed_at": "2026-09-11T23:35:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bytedance/deer-flow",
+    "repo_url": "https://github.com/bytedance/deer-flow",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "333f09bdbba509376b8ec6407eefbb3b91fe4414f0b5ce340722eb59f4f5e626",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 82289
+  },
+  "source_fingerprint": "333f09bdbba509376b8ec6407eefbb3b91fe4414f0b5ce340722eb59f4f5e626"
+}

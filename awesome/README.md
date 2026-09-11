@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **387**
+Published skills: **388**
 Repositories: **51**
 
 ## Browse repositories
@@ -214,6 +214,7 @@ Repositories: **51**
 - [tdd-workflow](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/tdd-workflow/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/tdd-workflow`
 - [engineer-system-change](./skills/bytedance/deer-flow/.agent/skills/engineer-system-change/README.md) · `bytedance/deer-flow:.agent/skills/engineer-system-change`
 - [academic-paper-review](./skills/bytedance/deer-flow/skills/public/academic-paper-review/README.md) · `bytedance/deer-flow:skills/public/academic-paper-review`
+- [bootstrap](./skills/bytedance/deer-flow/skills/public/bootstrap/README.md) · `bytedance/deer-flow:skills/public/bootstrap`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
