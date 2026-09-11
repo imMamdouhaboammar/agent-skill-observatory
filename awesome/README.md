@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **101**
-Repositories: **12**
+Published skills: **102**
+Repositories: **13**
 
 ## Browse repositories
 
@@ -17,6 +17,7 @@ Repositories: **12**
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
+- [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
 
 ## Browse categories
 
@@ -151,3 +152,4 @@ Repositories: **12**
 - [study-strategy-selector](./skills/iflytek/skillhub/builtin-skills/skills/study-strategy-selector/README.md) · `iflytek/skillhub:builtin-skills/skills/study-strategy-selector`
 - [time-blocking-scheduler](./skills/iflytek/skillhub/builtin-skills/skills/time-blocking-scheduler/README.md) · `iflytek/skillhub:builtin-skills/skills/time-blocking-scheduler`
 - [weather](./skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) · `iflytek/skillhub:builtin-skills/skills/weather`
+- [dev-orchestrator](./skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) · `imeepos/ui-designer:.agents/skills/dev-orchestrator`

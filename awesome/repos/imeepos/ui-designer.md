@@ -1,0 +1,12 @@
+# imeepos/ui-designer
+
+Repository: [https://github.com/imeepos/ui-designer](https://github.com/imeepos/ui-designer)
+
+Published Skills: 1
+Categories: agent-orchestration, architecture, content, design, engineering, productivity
+Best overall score: 100
+Security distribution: 85+=1, 60-84=0, <60=0
+
+| Skill | Path | Score | Security | Categories |
+|---|---|---:|---:|---|
+| [dev-orchestrator](../../skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) | `.agents/skills/dev-orchestrator` | 100 | 100 | agent-orchestration, architecture, content, design, engineering, productivity |

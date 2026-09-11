@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "29f04d2ceb55d1de45895f9951f35d24ad6fe39f4243b17f014651717ad9ea37",
+  "canonical_key": "imeepos/ui-designer:.agents/skills/dev-orchestrator",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "29f04d2ceb55d1de45895f9951f35d24ad6fe39f4243b17f014651717ad9ea37",
+    "archived": false,
+    "canonical_key": "imeepos/ui-designer:.agents/skills/dev-orchestrator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "26b96b5cf05f3e44213c7befe72500ccc8118564d43b06ff45b95748143c8169",
+    "description": "项目负责人技能：掌控开发节奏、制定开发计划，把任务拆分后派发给多个子会话/subagent 执行，验收汇总并管理会话流转与归档、裁决分歧。Use when acting as the project lead or orchestrator — planning multi-session development, writing task briefs and dispatching them to subagents or separate sessions, coordinating parallel worktree work, adjudicating disagreements, integrating and verifying on the main branch. 不适用于子会话内部的具体编码、调试或评审执行本身。",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "agent-orchestration",
+        "engineering",
+        "content",
+        "architecture",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path",
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/imeepos/ui-designer/blob/main/.agents/skills/dev-orchestrator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 11
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:05:56.140635Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:56.140635Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "dev-orchestrator",
+    "path": ".agents/skills/dev-orchestrator",
+    "pushed_at": "2026-09-11T07:58:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "imeepos/ui-designer",
+    "repo_url": "https://github.com/imeepos/ui-designer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 9,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d052740220d0a225472c1237591c75f5f24c40b9756692418bfb616b7dbee8ea",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "d052740220d0a225472c1237591c75f5f24c40b9756692418bfb616b7dbee8ea"
+}
