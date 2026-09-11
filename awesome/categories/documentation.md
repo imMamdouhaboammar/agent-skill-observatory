@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 112
+Published Skills: 113
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -107,6 +107,7 @@ Published Skills: 112
 | [designing-relational-data-models](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-relational-data-models/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when defining or reviewing a relational data model where entities, ownership, cardinality, lifecycle, constraints, or access patterns need explicit decisions before implementation. |
 | [designing-software-boundaries](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-software-boundaries/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when modules, services, packages, or teams have unclear ownership, cyclic dependencies, shared state, change coupling, or responsibilities that are difficult to evolve independently. |
 | [designing-visual-identities](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-visual-identities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand strategy needs a coherent visual identity system across multiple touchpoints, including marks, typography, color, imagery, graphic language, and responsive applications. |
+| [documenting-architecture-decisions](../skills/jhonatan-oliveiradev/agent-skills/skills/documenting-architecture-decisions/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a software decision materially affects structure, quality attributes, dependencies, interfaces, technology choices, or team direction and its rationale must remain reviewable over time. |
 | [claude-md-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: CLAUDE.md の基準 — エージェント向けの索引として何を載せ、何をどこへ逃がすかの判定（One Test・Include/Exclude 表・振り分け表）。 Use when: CLAUDE.md を書く・追記する・削る・監査するとき、またはある指示の置き場が CLAUDE.md かスキルかルールかフックかで迷ったとき。 |
 | [housekeep](../skills/Hoshock/HolodoriOptimizer/.claude/skills/housekeep/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | このリポジトリのドキュメントを棚卸しする — docs/ai/tmp/rules.md のルール候補を恒久の置き場へ昇格し、陳腐化したルール・CLAUDE.md・README のドリフトを直し、揮発性ドキュメントを整理し、コンパクション地点のログを残す。ユーザーが棚卸し（housekeep）を指示したときに使う。 |
 | [induction](../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: ユーザーのフィードバックを分類し、ルール候補として docs/ai/tmp/rules.md に記録する手順を定める。 Use when: ユーザーがフィードバック・訂正・好みを示したとき(口頭でもファイルの直接編集でも)。記録を求められていなくても適用する。 |
