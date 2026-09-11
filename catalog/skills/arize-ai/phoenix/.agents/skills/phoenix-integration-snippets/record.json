@@ -1,0 +1,107 @@
+{
+  "analysis_fingerprint": "93be4cc96150bf6dc7af7bb3da373d8d3b4a8346e290f3f489c4fbf26dadf6d7",
+  "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-integration-snippets",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "93be4cc96150bf6dc7af7bb3da373d8d3b4a8346e290f3f489c4fbf26dadf6d7",
+    "archived": false,
+    "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-integration-snippets",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d4479db789d5990fc091cce91abbbfa9d6dbe47e843e3ecccc03801679feb138",
+    "description": "Generates onboarding code snippets for Phoenix tracing integrations and wires them into the project onboarding UI. Produces install dependencies and implementation sections for SDKs like OpenAI, LangChain, Vercel AI SDK, and others. Supports Python and TypeScript. Use when asked to create onboarding code, tracing setup snippets, quickstart examples, or getting-started code for a framework integration.\n",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "integrations",
+        "testing",
+        "ai-ml",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-integration-snippets/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1124,
+    "indexed_at": "2026-09-11T23:38:40.586223Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:38:40.586223Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "oss@arize.com",
+      "internal": "True",
+      "languages": "Python, TypeScript",
+      "version": "2.0.1"
+    },
+    "name": "phoenix-integration-snippets",
+    "path": ".agents/skills/phoenix-integration-snippets",
+    "pushed_at": "2026-09-11T23:35:23Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3c6434af6a75ca8a105d339901ec0b328a1a40b97415d54c1ed4f7de01e5ee80",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11416
+  },
+  "source_fingerprint": "3c6434af6a75ca8a105d339901ec0b328a1a40b97415d54c1ed4f7de01e5ee80"
+}
