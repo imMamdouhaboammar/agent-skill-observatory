@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **65**
+Published skills: **66**
 Repositories: **10**
 
 ## Browse repositories
@@ -103,3 +103,4 @@ Repositories: **10**
 - [code-mate-antigravity](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-antigravity/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-antigravity`
 - [code-mate-claude-code](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-claude-code/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-claude-code`
 - [code-mate-codex](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-codex/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-codex`
+- [code-mate-deepseek-harness](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-deepseek-harness/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-deepseek-harness`
