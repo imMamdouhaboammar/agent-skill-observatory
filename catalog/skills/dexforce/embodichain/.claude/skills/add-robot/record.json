@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "21d0136f2e767acda3836115fd0565538f8160b6baa720d030bc99396e01f9da",
+  "canonical_key": "dexforce/embodichain:.claude/skills/add-robot",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "21d0136f2e767acda3836115fd0565538f8160b6baa720d030bc99396e01f9da",
+    "archived": false,
+    "canonical_key": "dexforce/embodichain:.claude/skills/add-robot",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "73bfc9829151611cee247b43b9b130dfe1146de60d1854ff22508140632073cb",
+    "description": "Claude adapter for the canonical EmbodiChain add-robot skill.",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ],
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DexForce/EmbodiChain/blob/main/.claude/skills/add-robot/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 24,
+    "indexed_at": "2026-09-11T12:37:54.343422Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:37:54.343422Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "add-robot",
+    "path": ".claude/skills/add-robot",
+    "pushed_at": "2026-09-11T12:36:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DexForce/EmbodiChain",
+    "repo_url": "https://github.com/DexForce/EmbodiChain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 73,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f629e0bac695bddf3f1bfeb47feb0ce567a0c8a14402a7ce8ddfcf52ed045585",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 224
+  },
+  "source_fingerprint": "f629e0bac695bddf3f1bfeb47feb0ce567a0c8a14402a7ce8ddfcf52ed045585"
+}
