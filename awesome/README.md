@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **140**
+Published skills: **141**
 Repositories: **21**
 
 ## Browse repositories
@@ -165,6 +165,7 @@ Repositories: **21**
 - [pr](./skills/dexforce/embodichain/.agents/skills/pr/README.md) · `dexforce/embodichain:.agents/skills/pr`
 - [pre-commit-check](./skills/dexforce/embodichain/.agents/skills/pre-commit-check/README.md) · `dexforce/embodichain:.agents/skills/pre-commit-check`
 - [release](./skills/dexforce/embodichain/.agents/skills/release/README.md) · `dexforce/embodichain:.agents/skills/release`
+- [review-pr](./skills/dexforce/embodichain/.agents/skills/review-pr/README.md) · `dexforce/embodichain:.agents/skills/review-pr`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
