@@ -1,0 +1,105 @@
+{
+  "analysis_fingerprint": "3080d9cc2bd632d7c6bea333e0a261ab9a061adb37ac57b68d5cad827aa1f6b0",
+  "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-react-patterns",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "WebFetch"
+    ],
+    "analysis_fingerprint": "3080d9cc2bd632d7c6bea333e0a261ab9a061adb37ac57b68d5cad827aa1f6b0",
+    "archived": false,
+    "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-react-patterns",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ab22780dd32403d2f4c5e6979a5cc0e721215ea9ec9b1f3e61b49b232c47b251",
+    "description": "React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider setup, useAuth/useUser/useClerk hooks, React Router protected routes, custom sign-in flows. Triggers on: Vite Clerk setup, React Router auth, useAuth hook, protected route, custom sign-in form React.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "design",
+        "documentation",
+        "engineering",
+        "integrations",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Gizziio/allternit-platform/blob/main/.agents/skills/clerk-react-patterns/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:51:13.660809Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:13.660809Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "clerk",
+      "version": "1.0.0"
+    },
+    "name": "clerk-react-patterns",
+    "path": ".agents/skills/clerk-react-patterns",
+    "pushed_at": "2026-09-11T16:44:32Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Gizziio/allternit-platform",
+    "repo_url": "https://github.com/Gizziio/allternit-platform",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "30b8fc56cacc6a336e89d6bd28a2ce83eb20b5ebf7051c667603a32127852967",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "30b8fc56cacc6a336e89d6bd28a2ce83eb20b5ebf7051c667603a32127852967"
+}
