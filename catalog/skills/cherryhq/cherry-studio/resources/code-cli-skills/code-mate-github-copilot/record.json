@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "d007d05a1df30cc463fce6e3c6bf1eb67dc87c962b1b159b8080fe50860a647f",
+  "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-github-copilot",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d007d05a1df30cc463fce6e3c6bf1eb67dc87c962b1b159b8080fe50860a647f",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-github-copilot",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "080eb3cc913bdf5dc71287eb7892ca2a1520abab83a8e47f515e4904bf25d1f3",
+    "description": "Runs GitHub Copilot CLI programmatically for repository analysis and coding tasks. Use when the user asks to delegate work to Copilot CLI or obtain a Copilot coding-agent result.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "design",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/code-cli-skills/code-mate-github-copilot/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "code-mate-github-copilot",
+    "path": "resources/code-cli-skills/code-mate-github-copilot",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0012ba08b95b786d6c8bde85c0274a96f355e88f4a052c2618640fd010ff797f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "0012ba08b95b786d6c8bde85c0274a96f355e88f4a052c2618640fd010ff797f"
+}
