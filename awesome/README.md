@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **246**
-Repositories: **38**
+Published skills: **247**
+Repositories: **39**
 
 ## Browse repositories
 
@@ -38,6 +38,7 @@ Repositories: **38**
 - [giancaremma50-hue/demo-ats](./repos/giancaremma50-hue/demo-ats.md)
 - [gkd2323c/runed-lexicon](./repos/gkd2323c/runed-lexicon.md)
 - [hhai0519/HH.AI_v2](./repos/hhai0519/HH.AI_v2.md)
+- [homeassistant-ai/ha-mcp](./repos/homeassistant-ai/ha-mcp.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -288,6 +289,7 @@ Repositories: **38**
 - [xedit-context-exporter](./skills/gkd2323c/runed-lexicon/.agents/skills/xedit-context-exporter/README.md) · `gkd2323c/runed-lexicon:.agents/skills/xedit-context-exporter`
 - [xtranslator-xml-writer](./skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) · `gkd2323c/runed-lexicon:.agents/skills/xtranslator-xml-writer`
 - [theme-factory](./skills/hhai0519/hh.ai_v2/skills/execution/theme-factory/README.md) · `hhai0519/hh.ai_v2:skills/execution/theme-factory`
+- [bat-adhoc](./skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/bat-adhoc`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 80
+Published Skills: 81
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -14,6 +14,7 @@ Published Skills: 80
 | [meeting-note-summarizer](../skills/iflytek/skillhub/builtin-skills/skills/meeting-note-summarizer/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Turn meeting notes or transcripts into factual summaries, decisions, questions, and action items. Use when a user wants a concise recap or needs explicit owners and deadlines extracted without filling in missing details. |
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [skill-lifecycle](../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions. |
+| [bat-adhoc](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Run bot acceptance tests to validate MCP tools work correctly from a real AI agent's perspective. Use when testing PRs, detecting regressions, or verifying tool changes end-to-end with Claude/Gemini CLIs. |
 | [add-atomic-action](../skills/DexForce/EmbodiChain/.agents/skills/add-atomic-action/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Add a new simulation atomic action or motion primitive to EmbodiChain's typed planning and execution framework. Use when implementing a new skill, goal contract, action planner, symbolic effect, registration entry, documentation, and tests for AtomicActionEngine. |
 | [add-robot](../skills/DexForce/EmbodiChain/.agents/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new robot to EmbodiChain — scaffolds a RobotCfg subclass (single-file or package layout) with the _build_defaults hook, build_pk_serial_chain, registration, docs page, and test stub. |
 | [pr](../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Create single or stacked pull requests for EmbodiChain following the project's PR template and conventions, including proportional validation, dependency ordering, and proper GitHub repository labels |

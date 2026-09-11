@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 45
+Published Skills: 46
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -12,6 +12,7 @@ Published Skills: 45
 | [exam-ready](../skills/iflytek/skillhub/builtin-skills/skills/exam-ready/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Prepare a concise exam review from study materials and a syllabus supplied by the user. Use for topic summaries, recall questions, MCQ cues, and time-limited revision plans that must stay grounded in those materials. |
 | [frontend-design](../skills/iflytek/skillhub/builtin-skills/skills/frontend-design/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
 | [skillhub-cli](../skills/iflytek/skillhub/builtin-skills/skills/skillhub-cli/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Connect an Agent to a SkillHub registry and use the official SkillHub CLI to search, install, list, or explicitly upgrade SkillHub skills. Use when a user asks to connect SkillHub, install a SkillHub skill, or manage skills previously installed from SkillHub. |
+| [bat-adhoc](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Run bot acceptance tests to validate MCP tools work correctly from a real AI agent's perspective. Use when testing PRs, detecting regressions, or verifying tool changes end-to-end with Claude/Gemini CLIs. |
 | [add-test](../skills/DexForce/EmbodiChain/.agents/skills/add-test/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when writing tests for EmbodiChain modules, including observation functors, reward functors, solvers, sensors, environments, or any Python module |
 | [pr](../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Create single or stacked pull requests for EmbodiChain following the project's PR template and conventions, including proportional validation, dependency ordering, and proper GitHub repository labels |
 | [review-pr](../skills/DexForce/EmbodiChain/.agents/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Review EmbodiChain pull requests, branches, commits, patches, or working-tree diffs for correctness regressions, architecture-contract violations, compatibility risks, unsafe resource behavior, and missing tests. Use when asked to review, audit, inspect, assess, or approve an EmbodiChain change; produce prioritized, evidence-backed findings without modifying the change unless the user explicitly asks for fixes. |
