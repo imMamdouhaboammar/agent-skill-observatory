@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **130**
-Repositories: **19**
+Published skills: **131**
+Repositories: **20**
 
 ## Browse repositories
 
@@ -19,6 +19,7 @@ Repositories: **19**
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
+- [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -153,6 +154,7 @@ Repositories: **19**
 - [find-skills](./skills/cherryhq/cherry-studio/resources/skills/find-skills/README.md) · `cherryhq/cherry-studio:resources/skills/find-skills`
 - [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
 - [reconc](./skills/christopher-schulze/reconc/skills/reconc/README.md) · `christopher-schulze/reconc:skills/reconc`
+- [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
