@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **287**
+Published skills: **288**
 Repositories: **45**
 
 ## Browse repositories
@@ -151,6 +151,7 @@ Repositories: **45**
 - [tdd-ko](./skills/andyko18/specops-ko/skills/tdd-ko/README.md) · `andyko18/specops-ko:skills/tdd-ko`
 - [using-specops-ko](./skills/andyko18/specops-ko/skills/using-specops-ko/README.md) · `andyko18/specops-ko:skills/using-specops-ko`
 - [angular-developer](./skills/angular/skills/angular-developer/README.md) · `angular/skills:angular-developer`
+- [angular-new-app](./skills/angular/skills/angular-new-app/README.md) · `angular/skills:angular-new-app`
 - [hicreator](./skills/archivev/hicreator-agent/skills/hicreator/README.md) · `archivev/hicreator-agent:skills/hicreator`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
