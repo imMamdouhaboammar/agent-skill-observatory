@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 151
+Published Skills: 152
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -47,6 +47,7 @@ Published Skills: 151
 | [spec-driven-development](../skills/jairorodriguezarias/siesta/.agents/skills/spec-driven-development/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying. |
 | [fuse-agent](../skills/commontoolsinc/labs/skills/fuse-agent/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Agent-specific interaction patterns for working with FUSE-mounted spaces. Use when deploying patterns via FUSE, working with Activity Logs, Annotations, or coordinating agent workflows that read/write pieces through the filesystem. Triggers include "deploy a pattern", "log an event", "create annotation", "agent workflow", or managing piece lifecycle via FUSE. |
 | [isolated-test-processes](../skills/commontoolsinc/labs/skills/isolated-test-processes/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Guide for writing side-effect-free tests that spawn child processes, especially Deno commands. Use when adding or reviewing tests that call Deno.Command, run deno check/test/run/task/install, generate temporary deno.json files, update goldens, write build artifacts, or otherwise risk changing deno.lock or files in the repository workspace. |
+| [pattern-debug](../skills/commontoolsinc/labs/skills/pattern-debug/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Debug pattern errors systematically |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
 | [tdd-workflow](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/tdd-workflow/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 새 기능·버그 수정을 테스트 먼저(TDD)로 진행할 때. "TDD로 해줘", "테스트 먼저" 요청이나 회귀가 잦은 영역 작업에 사용. |
