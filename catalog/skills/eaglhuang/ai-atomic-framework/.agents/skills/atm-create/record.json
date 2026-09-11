@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "d37ac99db565c4ffda69932477925e82f8ffb1c3788aa13f737f82994eb53272",
+  "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-create",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d37ac99db565c4ffda69932477925e82f8ffb1c3788aa13f737f82994eb53272",
+    "archived": false,
+    "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-create",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2446dc952fd73d4f8c078523d16a274d4dca645553e324ddc97a589397954be9",
+    "description": "Create and register an atom through the provisioning facade.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "content",
+        "documentation",
+        "research",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-create/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T16:46:49.309201Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:49.309201Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "atm-create",
+    "path": ".agents/skills/atm-create",
+    "pushed_at": "2026-09-11T16:44:51Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "eaglhuang/AI-Atomic-Framework",
+    "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 26,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "80ccf725d47868681562a97bf684fc8a4871d11e1c297cc04a281166834de9c5",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "80ccf725d47868681562a97bf684fc8a4871d11e1c297cc04a281166834de9c5"
+}
