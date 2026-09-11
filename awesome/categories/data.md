@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 79
+Published Skills: 80
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -19,6 +19,7 @@ Published Skills: 79
 | [study-strategy-selector](../skills/iflytek/skillhub/builtin-skills/skills/study-strategy-selector/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Recommend practical study strategies matched to the material, learning goal, assessment, time, and learner constraints. Use for revision planning, homework routines, independent study, replacing ineffective habits, or adapting recall, spacing, explanation, and practice activities. |
 | [time-blocking-scheduler](../skills/iflytek/skillhub/builtin-skills/skills/time-blocking-scheduler/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Draft flexible daily or weekly schedules around a user's priorities, availability, energy patterns, and fixed commitments. Use for day planning, deadline reverse-planning, focus protection, or a time audit. |
 | [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
+| [contributors-update](../skills/homeassistant-ai/ha-mcp/.claude/skills/contributors-update/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Find merged PR authors missing from README and update the contributors list after approval |
 | [add-atomic-action](../skills/DexForce/EmbodiChain/.agents/skills/add-atomic-action/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Add a new simulation atomic action or motion primitive to EmbodiChain's typed planning and execution framework. Use when implementing a new skill, goal contract, action planner, symbolic effect, registration entry, documentation, and tests for AtomicActionEngine. |
 | [pr](../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Create single or stacked pull requests for EmbodiChain following the project's PR template and conventions, including proportional validation, dependency ordering, and proper GitHub repository labels |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |

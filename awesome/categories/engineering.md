@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 199
+Published Skills: 200
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -43,6 +43,7 @@ Published Skills: 199
 | [bat-adhoc](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Run bot acceptance tests to validate MCP tools work correctly from a real AI agent's perspective. Use when testing PRs, detecting regressions, or verifying tool changes end-to-end with Claude/Gemini CLIs. |
 | [bat-story-eval](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-story-eval/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Compare MCP tool behavior between target and baseline versions using pre-built and custom stories with diff-based triage. |
 | [contrib-pr-review](../skills/homeassistant-ai/ha-mcp/.claude/skills/contrib-pr-review/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Review a contribution PR for safety, quality, and readiness. Checks for security concerns, test coverage, size appropriateness, and intent alignment. Use when reviewing external contributions. |
+| [contributors-update](../skills/homeassistant-ai/ha-mcp/.claude/skills/contributors-update/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Find merged PR authors missing from README and update the contributors list after approval |
 | [add-atomic-action](../skills/DexForce/EmbodiChain/.agents/skills/add-atomic-action/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Add a new simulation atomic action or motion primitive to EmbodiChain's typed planning and execution framework. Use when implementing a new skill, goal contract, action planner, symbolic effect, registration entry, documentation, and tests for AtomicActionEngine. |
 | [add-test](../skills/DexForce/EmbodiChain/.agents/skills/add-test/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when writing tests for EmbodiChain modules, including observation functors, reward functors, solvers, sensors, environments, or any Python module |
 | [pr](../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Create single or stacked pull requests for EmbodiChain following the project's PR template and conventions, including proportional validation, dependency ordering, and proper GitHub repository labels |
