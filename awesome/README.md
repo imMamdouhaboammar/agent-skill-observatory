@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **84**
+Published skills: **85**
 Repositories: **12**
 
 ## Browse repositories
@@ -128,3 +128,4 @@ Repositories: **12**
 - [pr-submission](./skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) · `iflytek/skillhub:.agents/skills/pr-submission`
 - [skill-lifecycle](./skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) · `iflytek/skillhub:.agents/skills/skill-lifecycle`
 - [ai-claim-checker](./skills/iflytek/skillhub/builtin-skills/skills/ai-claim-checker/README.md) · `iflytek/skillhub:builtin-skills/skills/ai-claim-checker`
+- [cue-omni-reader](./skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) · `iflytek/skillhub:builtin-skills/skills/cue-omni-reader`

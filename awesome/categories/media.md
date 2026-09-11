@@ -1,8 +1,9 @@
 # media
 
-Published Skills: 2
+Published Skills: 3
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [cherry-tool-guide](../skills/CherryHQ/cherry-studio/resources/skills/cherry-tool-guide/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Cherry Studio first-party tool and bundled-shell routing for general agents. For straightforward local work in shell-capable sessions, run JS/TS with `bun <file>` and one-off JS tools with `bun x`; run Python with `uv run [--with <pkg>] python` and one-off Python CLIs with `uvx`; search with `rg`. Load this guide before changing project dependencies, deciding whether a tool should be ephemeral or reusable, reading or converting local Office/PDF files, coordinating or delegating across Agent Sessions, or using Cherry-owned web/browser, knowledge, persistent memory, schedules/notifications, IM channels, image generation, artifact reporting, managed CLI, skill, or MCP-server-registration capabilities—even if the user names no tool. Consult it before shell/file workarounds; live tool schemas are authoritative. |
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
+| [cue-omni-reader](../skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Parse and understand an HTTP(S) URL or an authorized local document, audio, or video source through Cue Omni Reader when the Agent has the official Omni MCP tools. |
