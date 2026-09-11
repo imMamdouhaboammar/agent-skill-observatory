@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
 
-Published Skills: 4
-Categories: agent-orchestration, browser-automation, commerce, content, design, devops, documentation, engineering, legal-compliance, productivity, research, testing
+Published Skills: 5
+Categories: agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, engineering, legal-compliance, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=4, 60-84=0, <60=0
+Security distribution: 85+=5, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -13,3 +13,4 @@ Security distribution: 85+=4, 60-84=0, <60=0
 | [create-skill](../../skills/CherryHQ/cherry-studio/.agents/skills/create-skill/README.md) | `.agents/skills/create-skill` | 100 | 100 | devops, documentation, engineering, legal-compliance, productivity, testing |
 | [gh-create-issue](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | `.agents/skills/gh-create-issue` | 100 | 100 | browser-automation, commerce, content, engineering, productivity, research |
 | [gh-pr-review](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-pr-review/README.md) | `.agents/skills/gh-pr-review` | 100 | 100 | agent-orchestration, commerce, design, documentation, engineering, productivity |
+| [vercel-react-best-practices](../../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | `.agents/skills/vercel-react-best-practices` | 100 | 100 | content, data, engineering, media |

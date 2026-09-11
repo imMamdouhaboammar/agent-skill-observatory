@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "d3af5a91c7cfea0e60d5407cb33053f7a8a86f965debab77123d9d1d7749382c",
+  "canonical_key": "cherryhq/cherry-studio:.agents/skills/vercel-react-best-practices",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d3af5a91c7cfea0e60d5407cb33053f7a8a86f965debab77123d9d1d7749382c",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:.agents/skills/vercel-react-best-practices",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0ae7b4706da6b0603c671fef1de18ec7d365e821401ee598cb29a17c111d4e89",
+    "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "data",
+        "engineering",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/.agents/skills/vercel-react-best-practices/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "vercel",
+      "version": "1.0.0"
+    },
+    "name": "vercel-react-best-practices",
+    "path": ".agents/skills/vercel-react-best-practices",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ebdfd503c98d27c87aecfb3cc43b25b86242bad9d6983182afd350592102be6f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "ebdfd503c98d27c87aecfb3cc43b25b86242bad9d6983182afd350592102be6f"
+}
