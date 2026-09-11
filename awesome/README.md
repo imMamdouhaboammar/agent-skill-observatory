@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **228**
+Published skills: **229**
 Repositories: **36**
 
 ## Browse repositories
@@ -268,6 +268,7 @@ Repositories: **36**
 - [clerk-orgs](./skills/gizziio/allternit-platform/.agents/skills/clerk-orgs/README.md) · `gizziio/allternit-platform:.agents/skills/clerk-orgs`
 - [clerk-react-patterns](./skills/gizziio/allternit-platform/.agents/skills/clerk-react-patterns/README.md) · `gizziio/allternit-platform:.agents/skills/clerk-react-patterns`
 - [clerk-react-router-patterns](./skills/gizziio/allternit-platform/.agents/skills/clerk-react-router-patterns/README.md) · `gizziio/allternit-platform:.agents/skills/clerk-react-router-patterns`
+- [clerk-setup](./skills/gizziio/allternit-platform/.agents/skills/clerk-setup/README.md) · `gizziio/allternit-platform:.agents/skills/clerk-setup`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
