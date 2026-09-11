@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 14
+Published Skills: 15
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -18,3 +18,4 @@ Published Skills: 14
 | [create-rule](../skills/markmhendrickson/ateles/.claude/skills/create-rule/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create Cursor rule for persistent AI guidance. |
 | [create-website](../skills/markmhendrickson/ateles/.claude/skills/create-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new website as a git submodule in execution/website. Use when user says "create new website" or "add website for [domain/name]". Can be invoked via /create-website. |
 | [deploy-website](../skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Deploy the markmhendrickson website: sync markdown edits to Neotoma, export website data, regenerate cache, update the CI export secret, push the website repo, and verify GitHub Actions. |
+| [draft-comparative-neotoma-post](../skills/markmhendrickson/ateles/.claude/skills/draft-comparative-neotoma-post/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Draft a comparative Neotoma post (memory & truth-layer series) that compares a product or API's memory to a truth layer. Use when user says "draft comparative neotoma post", "memory series post", "truth layer comparison post", or similar. Can be invoked via /draft-comparative-neotoma-post. |

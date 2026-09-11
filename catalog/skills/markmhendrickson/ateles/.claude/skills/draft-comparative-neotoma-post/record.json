@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "a047cd6f0d7339d08c71e51b846388deda4d9326a863e0859a96f1e7af54180d",
+  "canonical_key": "markmhendrickson/ateles:.claude/skills/draft-comparative-neotoma-post",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a047cd6f0d7339d08c71e51b846388deda4d9326a863e0859a96f1e7af54180d",
+    "archived": false,
+    "canonical_key": "markmhendrickson/ateles:.claude/skills/draft-comparative-neotoma-post",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7b5240d3c8f16546471aa7bb12683c406655260a5ad7c1f37196e491554c1862",
+    "description": "Draft a comparative Neotoma post (memory & truth-layer series) that compares a product or API's memory to a truth layer. Use when user says \"draft comparative neotoma post\", \"memory series post\", \"truth layer comparison post\", or similar. Can be invoked via /draft-comparative-neotoma-post.",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "product",
+        "content",
+        "documentation",
+        "media",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/markmhendrickson/ateles/blob/main/.claude/skills/draft-comparative-neotoma-post/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:00:52.211704Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:00:52.211704Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "draft-comparative-neotoma-post",
+    "path": ".claude/skills/draft-comparative-neotoma-post",
+    "pushed_at": "2026-09-11T07:59:31Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "markmhendrickson/ateles",
+    "repo_url": "https://github.com/markmhendrickson/ateles",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 29,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8b069e7375e81648a5ce7984eb92bde411fc134412a0e6cf48bbc3955ab8edf4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "8b069e7375e81648a5ce7984eb92bde411fc134412a0e6cf48bbc3955ab8edf4"
+}
