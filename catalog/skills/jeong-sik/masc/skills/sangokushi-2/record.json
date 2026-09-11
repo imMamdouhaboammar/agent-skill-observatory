@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "48aeb7b07c63bb1ce681e3384277a90fa3b1cb83b8f2aaabfc90556a4dd02173",
+  "canonical_key": "jeong-sik/masc:skills/sangokushi-2",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "48aeb7b07c63bb1ce681e3384277a90fa3b1cb83b8f2aaabfc90556a4dd02173",
+    "archived": false,
+    "canonical_key": "jeong-sik/masc:skills/sangokushi-2",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f318604def901bbb5182cece7a3c5372ba340819274c998be5da83eda1b77a52",
+    "description": "Sangokushi II (Koei 1990, Japanese, 3-disk set) on the shared MSX: media set and verified origin slot, the province command menu, in-game save flow, media-change pitfalls, and one-call macros for the two verified key sequences. Apply a fact only when the visible prompt matches it.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "commerce",
+        "data",
+        "marketing",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jeong-sik/masc/blob/main/skills/sangokushi-2/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:19:53.911644Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:53.911644Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "sangokushi-2",
+    "path": "skills/sangokushi-2",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jeong-sik/masc",
+    "repo_url": "https://github.com/jeong-sik/masc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "04a07e316787fd409f5624bb988e8ecd0220a8031596d111da25242f6c1f2cdc",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "04a07e316787fd409f5624bb988e8ecd0220a8031596d111da25242f6c1f2cdc"
+}
