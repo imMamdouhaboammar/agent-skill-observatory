@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
 
-Published Skills: 25
+Published Skills: 26
 Categories: agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, media, other, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=25, 60-84=0, <60=0
+Security distribution: 85+=26, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -28,6 +28,7 @@ Security distribution: 85+=25, 60-84=0, <60=0
 | [code-mate-qwen-code](../../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-qwen-code/README.md) | `resources/code-cli-skills/code-mate-qwen-code` | 100 | 100 | content, design, engineering, integrations, productivity, testing |
 | [create-skill](../../skills/CherryHQ/cherry-studio/.agents/skills/create-skill/README.md) | `.agents/skills/create-skill` | 100 | 100 | devops, documentation, engineering, legal-compliance, productivity, testing |
 | [faq-collector](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector` | 100 | 100 | other |
+| [find-skills](../../skills/CherryHQ/cherry-studio/resources/skills/find-skills/README.md) | `resources/skills/find-skills` | 100 | 100 | design, devops, documentation, engineering, productivity, testing |
 | [gh-create-issue](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | `.agents/skills/gh-create-issue` | 100 | 100 | browser-automation, commerce, content, engineering, productivity, research |
 | [gh-pr-review](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-pr-review/README.md) | `.agents/skills/gh-pr-review` | 100 | 100 | agent-orchestration, commerce, design, documentation, engineering, productivity |
 | [issue-reporter](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter` | 100 | 100 | other |

@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "f9e8d0cbcc633831acd76095d5edb548d41305e2b1ae9d58b56e88d64c89c52d",
+  "canonical_key": "cherryhq/cherry-studio:resources/skills/find-skills",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f9e8d0cbcc633831acd76095d5edb548d41305e2b1ae9d58b56e88d64c89c52d",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/skills/find-skills",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e3a779fabc98b253fc92b9a36dee0796dc147d5c57be3f10853d1514f7fcb3f0",
+    "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "design",
+        "devops",
+        "documentation",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/skills/find-skills/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "find-skills",
+    "path": "resources/skills/find-skills",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "51563d925451f85773d2c40a172329229da7cc263e4f36e7461c21efacbc62dc",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "51563d925451f85773d2c40a172329229da7cc263e4f36e7461c21efacbc62dc"
+}
