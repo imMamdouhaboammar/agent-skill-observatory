@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "2c4ba2f9535bca44875382581350fb28a206780d63cce664b5ccc64c2e235b40",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/critic",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2c4ba2f9535bca44875382581350fb28a206780d63cce664b5ccc64c2e235b40",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/critic",
+    "compatibility": "Needs network access to the scrutineer API (http://host:port/api). Read-only against ./src; does not execute a reproduction or modify the repository.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "a6f00ae720e755220c600b4c83246b312ccaf3ec32701737c8a96efcf32114c1",
+    "description": "Judge whether a validated finding can affect a real release build, and record the attacker position, preconditions, impact, counterevidence, and facts that could change that conclusion. Finding-scoped and read-only.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "engineering",
+        "content",
+        "research",
+        "security",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/critic/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.max_turns": "10",
+      "scrutineer.model": "mid",
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "critic",
+      "scrutineer.version": "1"
+    },
+    "name": "critic",
+    "path": "skills/critic",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9dc80a98af49358387d74fccf50b8cc0792e537182a68dad273886c6a59f6264",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "9dc80a98af49358387d74fccf50b8cc0792e537182a68dad273886c6a59f6264"
+}

@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 49
+Published Skills: 50
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,6 +24,7 @@ Published Skills: 49
 | [audit-memory](../skills/alpha-omega-security/scrutineer/skills/audit-memory/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for reachable memory corruption in first-party C, C++, unsafe Rust, native extensions, and FFI boundaries. |
 | [audit-pii](../skills/alpha-omega-security/scrutineer/skills/audit-pii/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for real personal or customer-identifying data committed to source or exposed through logs, URLs, telemetry, exports, and responses. |
 | [cna-match](../skills/alpha-omega-security/scrutineer/skills/cna-match/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Match the repository to a CVE Numbering Authority so disclosures route to the CNA's security contact when one covers the repo. |
+| [critic](../skills/alpha-omega-security/scrutineer/skills/critic/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Judge whether a validated finding can affect a real release build, and record the attacker position, preconditions, impact, counterevidence, and facts that could change that conclusion. Finding-scoped and read-only. |
 | [security-deep-dive-short](../skills/alpha-omega-security/scrutineer/evals/skills/security-deep-dive-short/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Eval-only short-prompt variant of security-deep-dive for A/B testing against the production prompt. Not loaded as a bundled production skill. |
 | [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |

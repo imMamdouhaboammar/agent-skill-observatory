@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 265
+Published Skills: 266
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -61,6 +61,7 @@ Published Skills: 265
 | [audit-pii](../skills/alpha-omega-security/scrutineer/skills/audit-pii/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for real personal or customer-identifying data committed to source or exposed through logs, URLs, telemetry, exports, and responses. |
 | [breaking-change](../skills/alpha-omega-security/scrutineer/skills/breaking-change/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Decide whether a finding's suggested fix is a breaking change for top dependents. Reads the unified-diff fix on the finding, identifies the public API surface that changes (signatures, exports, removed fields, renamed types), and lists which top dependents are most likely to break. Static analysis on the diff and the dependent metadata from the scrutineer API; never executes dependent code. |
 | [cna-match](../skills/alpha-omega-security/scrutineer/skills/cna-match/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Match the repository to a CVE Numbering Authority so disclosures route to the CNA's security contact when one covers the repo. |
+| [critic](../skills/alpha-omega-security/scrutineer/skills/critic/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Judge whether a validated finding can affect a real release build, and record the attacker position, preconditions, impact, counterevidence, and facts that could change that conclusion. Finding-scoped and read-only. |
 | [security-deep-dive-short](../skills/alpha-omega-security/scrutineer/evals/skills/security-deep-dive-short/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Eval-only short-prompt variant of security-deep-dive for A/B testing against the production prompt. Not loaded as a bundled production skill. |
 | [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
