@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "b9d4298c854c62baf8c8941659e3379e7cea847e3b6d6cef3e9fd240a9f8cba4",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/diagram-maker",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b9d4298c854c62baf8c8941659e3379e7cea847e3b6d6cef3e9fd240a9f8cba4",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/diagram-maker",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "74d9e8bc708a80762c8cb814e6f4e030c5363ef090bf74aca1dcc4a359474653",
+    "description": "Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards.",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "architecture",
+        "browser-automation",
+        "data",
+        "design",
+        "devops",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/diagram-maker/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "diagram-maker",
+    "path": "builtin-skills/skills/diagram-maker",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 2,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "73721f694fb3694f012488b60b954bfeeb97ee7940afd426885450eea622e75d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "73721f694fb3694f012488b60b954bfeeb97ee7940afd426885450eea622e75d"
+}
