@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **292**
+Published skills: **293**
 Repositories: **46**
 
 ## Browse repositories
@@ -210,6 +210,7 @@ Repositories: **46**
 - [figma-to-code](./skills/commontoolsinc/labs/skills/figma-to-code/README.md) · `commontoolsinc/labs:skills/figma-to-code`
 - [fuse-agent](./skills/commontoolsinc/labs/skills/fuse-agent/README.md) · `commontoolsinc/labs:skills/fuse-agent`
 - [isolated-test-processes](./skills/commontoolsinc/labs/skills/isolated-test-processes/README.md) · `commontoolsinc/labs:skills/isolated-test-processes`
+- [knowledge-base](./skills/commontoolsinc/labs/skills/knowledge-base/README.md) · `commontoolsinc/labs:skills/knowledge-base`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
