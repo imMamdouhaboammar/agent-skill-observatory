@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 7
+Published Skills: 8
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -8,6 +8,7 @@ Published Skills: 7
 | [code-mate-claude-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-claude-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Claude Code non-interactively for code analysis and implementation tasks. Use when the user asks to delegate repository work to Claude Code or compare its result with another coding agent. |
 | [code-mate-kimi-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-kimi-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Kimi Code in non-interactive prompt mode and parses its event stream. Use when the user asks to delegate a bounded repository task to Kimi Code. |
 | [code-mate-opencode](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-opencode/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs OpenCode non-interactively for repository analysis and coding tasks. Use when the user asks to delegate work to OpenCode or compare OpenCode with another coding agent. |
+| [code-mate-qoder](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-qoder/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs the Code Mate Qoder CN CLI non-interactively with structured output. Use when the user asks to delegate a bounded coding task to Qoder. |
 | [make-repo-contribution](../skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly. |
 | [notify](../skills/alizaouane/dev-agent/skills/notify/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to fan out gate-transition notifications across push (ntfy/pushover/slack), email (resend), GitHub issue comment, and the project status file. Wraps lib/notify.ts. |
 | [scout](../skills/alizaouane/dev-agent/skills/scout/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to discover candidate features by polling configured sources (GH issues, Vercel logs, Supabase logs, codebase audit, competitive feeds). Generates a daily digest issue with deduplication and rejection-suppression. |
