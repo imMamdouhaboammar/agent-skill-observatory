@@ -1,0 +1,116 @@
+{
+  "analysis_fingerprint": "771cb719616a1bfa86567b074e01c2033a548509b4c0338b306f455935d4c264",
+  "canonical_key": "culturebotai/traitmech:.claude/skills/curate-yaml-record",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Grep,",
+      "Glob,",
+      "WebSearch,",
+      "WebFetch,",
+      "Edit,",
+      "Write"
+    ],
+    "analysis_fingerprint": "771cb719616a1bfa86567b074e01c2033a548509b4c0338b306f455935d4c264",
+    "archived": false,
+    "canonical_key": "culturebotai/traitmech:.claude/skills/curate-yaml-record",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "28aa504133a8423700d5e5adba7713a781e3a31caff4b734bf64fed9720695de",
+    "description": "Review and curate one TraitMech trait YAML record for concept identity, definition, hierarchy, scope, evidence, causal mechanisms, completeness, and resolvable gaps. Use when asked to audit, improve, complete, correct, or add evidence to a named trait; do not use for bulk METPO ingestion, paid research without approval, excluded records, or as permission to contact anyone or mutate GitHub.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "security",
+        "content",
+        "data",
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/CultureBotAI/TraitMech/blob/main/.claude/skills/curate-yaml-record/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:22:38.577984Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:22:38.577984Z",
+    "license": "CC0-1.0",
+    "metadata": {
+      "category": "curation",
+      "requires_database": "False",
+      "requires_internet": "True",
+      "version": "1.0.0"
+    },
+    "name": "curate-yaml-record",
+    "path": ".claude/skills/curate-yaml-record",
+    "pushed_at": "2026-09-11T19:17:38Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CultureBotAI/TraitMech",
+    "repo_url": "https://github.com/CultureBotAI/TraitMech",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license CC0-1.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2ddeb8ee98f3d753ace97db2b706c5781e98bd52e3238bd17d42bd1d47f36e8a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "2ddeb8ee98f3d753ace97db2b706c5781e98bd52e3238bd17d42bd1d47f36e8a"
+}

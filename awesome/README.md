@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **215**
-Repositories: **34**
+Published skills: **216**
+Repositories: **35**
 
 ## Browse repositories
 
@@ -12,6 +12,7 @@ Repositories: **34**
 - [Archivev/hicreator-agent](./repos/Archivev/hicreator-agent.md)
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
+- [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
@@ -193,6 +194,7 @@ Repositories: **34**
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
+- [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
 - [deepworkplan](./skills/dailybothq/deepworkplan-website/.agents/skills/deepworkplan/README.md) · `dailybothq/deepworkplan-website:.agents/skills/deepworkplan`
 - [responsive-lighthouse-audit](./skills/dailybothq/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) · `dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
