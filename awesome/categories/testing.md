@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 49
+Published Skills: 50
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -25,6 +25,7 @@ Published Skills: 49
 | [pre-commit-check](../skills/DexForce/EmbodiChain/.agents/skills/pre-commit-check/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use before committing or creating a PR for EmbodiChain to select proportional validation and verify affected code style, tests, headers, annotations, exports, and docstrings |
 | [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
 | [interview-me](../skills/jairorodriguezarias/siesta/.agents/skills/interview-me/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified ("build me X" without "for whom" or "why now"), when the user explicitly invokes ("interview me", "grill me", "are we sure?", "stress-test my thinking"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists. |
+| [spec-driven-development](../skills/jairorodriguezarias/siesta/.agents/skills/spec-driven-development/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [run-evals](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/run-evals/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 기능 구현·수정을 마친 뒤 프로젝트의 EVALS.md 평가 기준을 실행/채점할 때. "evals 돌려줘" 요청이나 완료 게이트 검증에 사용. |

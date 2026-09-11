@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **264**
+Published skills: **265**
 Repositories: **42**
 
 ## Browse repositories
@@ -337,6 +337,7 @@ Repositories: **42**
 - [code-simplification](./skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) · `jairorodriguezarias/siesta:.agents/skills/code-simplification`
 - [debugging-and-error-recovery](./skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) · `jairorodriguezarias/siesta:.agents/skills/debugging-and-error-recovery`
 - [interview-me](./skills/jairorodriguezarias/siesta/.agents/skills/interview-me/README.md) · `jairorodriguezarias/siesta:.agents/skills/interview-me`
+- [spec-driven-development](./skills/jairorodriguezarias/siesta/.agents/skills/spec-driven-development/README.md) · `jairorodriguezarias/siesta:.agents/skills/spec-driven-development`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`
