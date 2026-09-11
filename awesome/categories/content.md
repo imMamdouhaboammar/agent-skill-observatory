@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 175
+Published Skills: 176
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -53,6 +53,7 @@ Published Skills: 175
 | [prodex-session-prompt-write](../skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) | [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 100 | 100 | 49 | Safely write a user prompt to and observe an already-running plain prodex s session through its default expose MCP bridge. |
 | [figma-to-code](../skills/commontoolsinc/labs/skills/figma-to-code/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Translate a Figma design selection into cf-* Lit component code. Use when implementing a design from Figma, reviewing component alignment, or checking how Figma properties map to code. Triggers include "implement this design", "translate from Figma", "what cf- component matches this", or having a Figma node selected to implement. |
 | [fuse-agent](../skills/commontoolsinc/labs/skills/fuse-agent/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Agent-specific interaction patterns for working with FUSE-mounted spaces. Use when deploying patterns via FUSE, working with Activity Logs, Annotations, or coordinating agent workflows that read/write pieces through the filesystem. Triggers include "deploy a pattern", "log an event", "create annotation", "agent workflow", or managing piece lifecycle via FUSE. |
+| [isolated-test-processes](../skills/commontoolsinc/labs/skills/isolated-test-processes/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Guide for writing side-effect-free tests that spawn child processes, especially Deno commands. Use when adding or reviewing tests that call Deno.Command, run deno check/test/run/task/install, generate temporary deno.json files, update goldens, write build artifacts, or otherwise risk changing deno.lock or files in the repository workspace. |
 | [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
