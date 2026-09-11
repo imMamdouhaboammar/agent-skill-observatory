@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **52**
+Published skills: **53**
 Repositories: **10**
 
 ## Browse repositories
@@ -27,9 +27,11 @@ Repositories: **10**
 - [documentation](./categories/documentation.md)
 - [engineering](./categories/engineering.md)
 - [integrations](./categories/integrations.md)
+- [legal-compliance](./categories/legal-compliance.md)
 - [productivity](./categories/productivity.md)
 - [research](./categories/research.md)
 - [security](./categories/security.md)
+- [testing](./categories/testing.md)
 
 ## All skills
 
@@ -85,3 +87,4 @@ Repositories: **10**
 - [scout](./skills/alizaouane/dev-agent/skills/scout/README.md) · `alizaouane/dev-agent:skills/scout`
 - [self-review](./skills/alizaouane/dev-agent/skills/self-review/README.md) · `alizaouane/dev-agent:skills/self-review`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
+- [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`

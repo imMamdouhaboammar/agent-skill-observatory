@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "35677b81e32948ca899f0d27811fb331053226103aca98b05c36ea519124f074",
+  "canonical_key": "cherryhq/cherry-studio:.agents/skills/create-skill",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "35677b81e32948ca899f0d27811fb331053226103aca98b05c36ea519124f074",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:.agents/skills/create-skill",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "03295dee94f9726035253a54df2eecd1f6e3502906f7af128e91f285dfb651cc",
+    "description": "Create a new skill in the current repository. Use when the user wants to create/add a new skill, or mentions creating a skill from scratch. This skill follows the workflow defined in .agents/skills/README.md and helps scaffold, validate, and sync new skills.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "productivity",
+        "engineering",
+        "devops",
+        "legal-compliance",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/.agents/skills/create-skill/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "create-skill",
+    "path": ".agents/skills/create-skill",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b87cadb3c650674329eb9d707571d862d7b05e2144d5cd7a3e06412c660febee",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "b87cadb3c650674329eb9d707571d862d7b05e2144d5cd7a3e06412c660febee"
+}

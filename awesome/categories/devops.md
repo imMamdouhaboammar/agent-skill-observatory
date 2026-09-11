@@ -1,9 +1,10 @@
 # devops
 
-Published Skills: 7
+Published Skills: 8
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [create-skill](../skills/CherryHQ/cherry-studio/.agents/skills/create-skill/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Create a new skill in the current repository. Use when the user wants to create/add a new skill, or mentions creating a skill from scratch. This skill follows the workflow defined in .agents/skills/README.md and helps scaffold, validate, and sync new skills. |
 | [imagencn](../skills/Agents365-ai/365-skills/plugins/imagencn/skills/imagencn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform AI image generation via DashScope/Ark/Hunyuan/Zhipu/StepFun plus Grok/OpenAI/Gemini/FLUX (international), specializing in Chinese text rendering and photorealistic images |
 | [ttscn](../skills/Agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform Chinese & multilingual TTS text-to-speech via Edge/Doubao/CosyVoice/Qwen3/StepFun/GLM-TTS/Azure/Tencent/Baidu/MiniMax/Xunfei plus ElevenLabs/OpenAI/Google/Atlas Cloud — 15 backends, word-level timestamps, [PAUSE:x] pause markers, pinyin pronunciation overrides |
 | [drawio-skill](../skills/Agents365-ai/365-skills/plugins/drawio/skills/drawio-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 88 | 90 | 44 | Use when the user requests diagrams, flowcharts, architecture diagrams, ER diagrams, UML / sequence / class diagrams, SysML / MBSE diagrams (block definition, internal block, requirement, parametric), BPMN business process diagrams, swimlane / cross-functional flowcharts, network topology, cloud architecture from Terraform or Kubernetes manifests, ML/DL model figures (Transformer/CNN/LSTM), mind maps, or any visualization. Also use proactively when explaining systems with 3+ components, complex data flows, or relationships that benefit from visual representation. Best suited when the diagram needs custom styling, rich shape vocabulary, swimlanes, or exportable images (PNG/SVG/PDF/JPG). Generates .drawio XML and exports locally via the native draw.io desktop CLI. |
