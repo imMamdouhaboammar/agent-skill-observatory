@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "f4b739e364fea1b1e40c4a38bacf0574565584ad5c65002dd3ecf756a9e807f1",
+  "canonical_key": "jairorodriguezarias/siesta:.agents/skills/interview-me",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f4b739e364fea1b1e40c4a38bacf0574565584ad5c65002dd3ecf756a9e807f1",
+    "archived": false,
+    "canonical_key": "jairorodriguezarias/siesta:.agents/skills/interview-me",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1d94741d10d2c826cd0c191aea3981ee94c8abb27ef2a166f6a372117d06448f",
+    "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "testing",
+        "content",
+        "documentation",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/jairorodriguezarias/siesta/blob/main/.agents/skills/interview-me/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 16,
+    "indexed_at": "2026-09-11T16:54:44.967657Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:54:44.967657Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "interview-me",
+    "path": ".agents/skills/interview-me",
+    "pushed_at": "2026-09-11T16:44:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jairorodriguezarias/siesta",
+    "repo_url": "https://github.com/jairorodriguezarias/siesta",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 59,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f271a5931d374e3ab970c79e0461a30b741123271519e599b5b9a29b8db2ffaf",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 60
+  },
+  "source_fingerprint": "f271a5931d374e3ab970c79e0461a30b741123271519e599b5b9a29b8db2ffaf"
+}
