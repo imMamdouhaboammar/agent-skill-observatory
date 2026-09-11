@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 236
+Published Skills: 237
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -70,6 +70,7 @@ Published Skills: 236
 | [pattern-schema](../skills/commontoolsinc/labs/skills/pattern-schema/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design schemas.tsx with Input/Output types for patterns |
 | [pattern-test](../skills/commontoolsinc/labs/skills/pattern-test/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Write and run pattern tests |
 | [pattern-ui](../skills/commontoolsinc/labs/skills/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design and polish pattern UIs with cf- components - theme-first styling via cf-theme, layout with cf-screen/cf-vstack, two-way binding ($value/$checked), and PerSession/PerUser/PerSpace UI-state scoping. Use when styling pattern JSX or writing a UI design doc. |
+| [spec-audit](../skills/commontoolsinc/labs/skills/spec-audit/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Map and verify the CTS/schema documentation corpus against its normative contracts, implementation, tests, fixtures, and runtime consumers. Use for claim-level audits or updates in docs/specs/ts-transformer, docs/specs/schema-generator, package guidance, and author-facing CTS docs, especially after transformer/schema changes or before releases. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
