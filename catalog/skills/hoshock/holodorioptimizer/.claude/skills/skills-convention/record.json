@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "675db3f2b44e98aeac213ada20886804cb50cd4b8ae954b24edda0dd36084466",
+  "canonical_key": "hoshock/holodorioptimizer:.claude/skills/skills-convention",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "675db3f2b44e98aeac213ada20886804cb50cd4b8ae954b24edda0dd36084466",
+    "archived": false,
+    "canonical_key": "hoshock/holodorioptimizer:.claude/skills/skills-convention",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "74ef9389f9f50fe3911a7b32cedaa6635616ff44ab1ffc5a65dc4e9e119fbe14",
+    "description": "What: SKILL.md の構成規約（種別の選び方・段階開示・文体）と、知識型・コマンド型それぞれのリファレンスとコピー用スケルトン。\nUse when: スキルを新規作成するとき、既存の SKILL.md をレビュー・再構成・編集するとき。\n",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "ai-ml",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Hoshock/HolodoriOptimizer/blob/main/.claude/skills/skills-convention/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:46:46.333393Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:46.333393Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "skills-convention",
+    "path": ".claude/skills/skills-convention",
+    "pushed_at": "2026-09-11T16:44:52Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Hoshock/HolodoriOptimizer",
+    "repo_url": "https://github.com/Hoshock/HolodoriOptimizer",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 2,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "165b96ea8638f86ab62a723c8bf5f72b01d29198c43fd39c3696ec460a7bbcdf",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "165b96ea8638f86ab62a723c8bf5f72b01d29198c43fd39c3696ec460a7bbcdf"
+}
