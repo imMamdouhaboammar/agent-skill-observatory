@@ -1,0 +1,107 @@
+{
+  "analysis_fingerprint": "f410b382d0dc6d047baf44f119d207fa135d1756de7d780fce5e24d70a04ba62",
+  "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/issue-analysis",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Glob,",
+      "Grep,",
+      "WebFetch,",
+      "WebSearch"
+    ],
+    "analysis_fingerprint": "f410b382d0dc6d047baf44f119d207fa135d1756de7d780fce5e24d70a04ba62",
+    "archived": false,
+    "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/issue-analysis",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "54874df2426b332e27b4e291271d37d432e51c5997ee79bf1bb2f533d611c37a",
+    "description": "Deep analysis of a single GitHub issue with codebase exploration, implementation planning, and architectural assessment. Use when you need to analyze a GitHub issue, assess its complexity, plan implementation approaches, and post a structured analysis comment. Triggers on \"analyze issue\", \"deep analysis\", \"/issue-analysis <number>\".",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "content",
+        "data",
+        "engineering",
+        "integrations",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/homeassistant-ai/ha-mcp/blob/master/.claude/skills/issue-analysis/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:42:53.335596Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "issue-analysis",
+    "path": ".claude/skills/issue-analysis",
+    "pushed_at": "2026-09-11T12:36:11Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "homeassistant-ai/ha-mcp",
+    "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "36dbf4c13b9c805ef0c51d9b624a4238ecb1f9562c53758becd99910fedeb6ec",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4688
+  },
+  "source_fingerprint": "36dbf4c13b9c805ef0c51d9b624a4238ecb1f9562c53758becd99910fedeb6ec"
+}

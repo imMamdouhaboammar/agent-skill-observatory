@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 97
+Published Skills: 98
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -16,6 +16,7 @@ Published Skills: 97
 | [skill-lifecycle](../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions. |
 | [study-strategy-selector](../skills/iflytek/skillhub/builtin-skills/skills/study-strategy-selector/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Recommend practical study strategies matched to the material, learning goal, assessment, time, and learner constraints. Use for revision planning, homework routines, independent study, replacing ineffective habits, or adapting recall, spacing, explanation, and practice activities. |
 | [bat-story-eval](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-story-eval/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Compare MCP tool behavior between target and baseline versions using pre-built and custom stories with diff-based triage. |
+| [issue-analysis](../skills/homeassistant-ai/ha-mcp/.claude/skills/issue-analysis/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Deep analysis of a single GitHub issue with codebase exploration, implementation planning, and architectural assessment. Use when you need to analyze a GitHub issue, assess its complexity, plan implementation approaches, and post a structured analysis comment. Triggers on "analyze issue", "deep analysis", "/issue-analysis <number>". |
 | [add-task-env](../skills/DexForce/EmbodiChain/.claude/skills/add-task-env/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Claude adapter for routing and creating EmbodiChain task environments, handwritten/Task Program expert demonstrations, and RL tasks. |
 | [release](../skills/DexForce/EmbodiChain/.agents/skills/release/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when preparing, drafting, validating, or publishing an EmbodiChain release, including GitHub release notes, version tags, and release artifacts. |
 | [review-pr](../skills/DexForce/EmbodiChain/.agents/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Review EmbodiChain pull requests, branches, commits, patches, or working-tree diffs for correctness regressions, architecture-contract violations, compatibility risks, unsafe resource behavior, and missing tests. Use when asked to review, audit, inspect, assess, or approve an EmbodiChain change; produce prioritized, evidence-backed findings without modifying the change unless the user explicitly asks for fixes. |

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **250**
+Published skills: **251**
 Repositories: **39**
 
 ## Browse repositories
@@ -294,6 +294,7 @@ Repositories: **39**
 - [bat-story-eval](./skills/homeassistant-ai/ha-mcp/.claude/skills/bat-story-eval/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/bat-story-eval`
 - [contrib-pr-review](./skills/homeassistant-ai/ha-mcp/.claude/skills/contrib-pr-review/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/contrib-pr-review`
 - [contributors-update](./skills/homeassistant-ai/ha-mcp/.claude/skills/contributors-update/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/contributors-update`
+- [issue-analysis](./skills/homeassistant-ai/ha-mcp/.claude/skills/issue-analysis/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/issue-analysis`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
