@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "7818969a0ab29fa290bf5d03d87dd9ca0a06da5d4403cb37de61139f37fb1cd0",
+  "canonical_key": "chnlich/charlie-bot:skills/google-docs",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7818969a0ab29fa290bf5d03d87dd9ca0a06da5d4403cb37de61139f37fb1cd0",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/google-docs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "eddfdc6ecdff4e6e7a6b51168f1e6083a2ed095ac9d88299ff13ad829602073a",
+    "description": "This skill should be used when the user asks to read, create, or edit Google Docs documents, or manage document content through the Google Docs and Drive APIs.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "engineering",
+        "commerce",
+        "data",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/google-docs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "google-docs",
+    "path": "skills/google-docs",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7d65dbc6b0fc93a92cb769d9c2545fb324d9d8aa8b350d3d2545c5ffa0c78814",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "7d65dbc6b0fc93a92cb769d9c2545fb324d9d8aa8b350d3d2545c5ffa0c78814"
+}
