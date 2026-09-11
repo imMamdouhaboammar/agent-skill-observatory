@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM)
 
-Published Skills: 5
-Categories: documentation, engineering, integrations, research, security, testing
+Published Skills: 6
+Categories: documentation, engineering, integrations, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [project-inception](../../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/project-inception/README.md) | `plugin/oculpm/skills/project-inception` | 100 | 100 | engineering, integrations, research |
 | [run-evals](../../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/run-evals/README.md) | `plugin/oculpm/skills/run-evals` | 100 | 100 | engineering, testing |
 | [self-audit](../../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/self-audit/README.md) | `plugin/oculpm/skills/self-audit` | 100 | 100 | engineering, security |
+| [tdd-workflow](../../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/tdd-workflow/README.md) | `plugin/oculpm/skills/tdd-workflow` | 100 | 100 | engineering, productivity, testing |
