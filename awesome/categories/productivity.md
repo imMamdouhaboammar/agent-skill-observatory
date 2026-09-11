@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 159
+Published Skills: 160
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -135,6 +135,7 @@ Published Skills: 159
 | [analyzing-change-blast-radius](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it. |
 | [auditing-dependency-risk](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-dependency-risk/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs software-supply-chain or third-party dependency risk assessed from manifests, lockfiles, advisories, provenance, maintenance signals, and realistic runtime exposure before upgrades or release. |
 | [building-brand-guidelines](../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand identity needs durable rules, assets, examples, accessibility constraints, and governance so multiple people can reproduce it consistently across channels. |
+| [frontend](../skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 99 | 100 | 0 | React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke). |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |

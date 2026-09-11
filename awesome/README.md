@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **308**
-Repositories: **46**
+Published skills: **309**
+Repositories: **47**
 
 ## Browse repositories
 
@@ -33,6 +33,7 @@ Repositories: **46**
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
 - [commontoolsinc/labs](./repos/commontoolsinc/labs.md)
 - [cosyeezz/axiom](./repos/cosyeezz/axiom.md)
+- [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
 - [flext-sh/flext-dbt-ldap](./repos/flext-sh/flext-dbt-ldap.md)
@@ -247,6 +248,7 @@ Repositories: **46**
 - [add-task-env](./skills/dexforce/embodichain/.claude/skills/add-task-env/README.md) · `dexforce/embodichain:.claude/skills/add-task-env`
 - [review-pr](./skills/dexforce/embodichain/.claude/skills/review-pr/README.md) · `dexforce/embodichain:.claude/skills/review-pr`
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
+- [frontend](./skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) · `diegofisi/youtube-downloader:.claude/skills/frontend`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`

@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "cf3c29e767ec6b0998343575223090ec49a660ceef97a2bcb6576c086f719f1a",
+  "canonical_key": "diegofisi/youtube-downloader:.claude/skills/frontend",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "cf3c29e767ec6b0998343575223090ec49a660ceef97a2bcb6576c086f719f1a",
+    "archived": false,
+    "canonical_key": "diegofisi/youtube-downloader:.claude/skills/frontend",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "554b924804d445864e2a876e345125e79634e23d07606ac7705e3fe61b8e8338",
+    "description": "React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke).",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "productivity",
+        "commerce",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/diegofisi/youtube-downloader/blob/main/.claude/skills/frontend/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 11
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T21:55:26.505347Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:55:26.505347Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "frontend",
+    "path": ".claude/skills/frontend",
+    "pushed_at": "2026-09-11T21:47:26Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "diegofisi/youtube-downloader",
+    "repo_url": "https://github.com/diegofisi/youtube-downloader",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 10,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "09723f636e49b645d4357008c11f0f2e5bffab9be39e05154e296d57d481957c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "09723f636e49b645d4357008c11f0f2e5bffab9be39e05154e296d57d481957c"
+}

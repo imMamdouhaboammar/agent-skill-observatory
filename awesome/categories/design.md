@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 129
+Published Skills: 130
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -92,6 +92,7 @@ Published Skills: 129
 | [building-conversion-product-pages](../skills/jhonatan-oliveiradev/agent-skills/skills/building-conversion-product-pages/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when designing or improving a landing page, product page, digital-product storefront, pricing page, or marketing flow where visitor comprehension and conversion are primary goals. |
 | [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
 | [building-regression-tests](../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed. |
+| [frontend](../skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 99 | 100 | 0 | React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke). |
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |
 | [cherry-studio-feedback](../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 97 | 100 | 51666 | Use when Cherry Studio 用户希望报告、提交或整理 BUG、UI/UX 问题或功能建议，但未明确要求创建 GitHub Issue。 |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |

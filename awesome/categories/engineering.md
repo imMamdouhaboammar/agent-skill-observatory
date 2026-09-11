@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 240
+Published Skills: 241
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -184,6 +184,7 @@ Published Skills: 240
 | [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
 | [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
 | [claude-md-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: CLAUDE.md の基準 — エージェント向けの索引として何を載せ、何をどこへ逃がすかの判定（One Test・Include/Exclude 表・振り分け表）。 Use when: CLAUDE.md を書く・追記する・削る・監査するとき、またはある指示の置き場が CLAUDE.md かスキルかルールかフックかで迷ったとき。 |
+| [frontend](../skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 99 | 100 | 0 | React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke). |
 | [induction](../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: ユーザーのフィードバックを分類し、ルール候補として docs/ai/tmp/rules.md に記録する手順を定める。 Use when: ユーザーがフィードバック・訂正・好みを示したとき(口頭でもファイルの直接編集でも)。記録を求められていなくても適用する。 |
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |
 | [skills-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/skills-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: SKILL.md の構成規約（種別の選び方・段階開示・文体）と、知識型・コマンド型それぞれのリファレンスとコピー用スケルトン。 Use when: スキルを新規作成するとき、既存の SKILL.md をレビュー・再構成・編集するとき。 |
