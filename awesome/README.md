@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **159**
-Repositories: **22**
+Published skills: **160**
+Repositories: **23**
 
 ## Browse repositories
 
@@ -9,6 +9,7 @@ Repositories: **22**
 - [707734712/agents-in-sdlc](./repos/707734712/agents-in-sdlc.md)
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
+- [Archivev/hicreator-agent](./repos/Archivev/hicreator-agent.md)
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
@@ -126,6 +127,7 @@ Repositories: **22**
 - [systematic-debugging-ko](./skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) · `andyko18/specops-ko:skills/systematic-debugging-ko`
 - [tdd-ko](./skills/andyko18/specops-ko/skills/tdd-ko/README.md) · `andyko18/specops-ko:skills/tdd-ko`
 - [using-specops-ko](./skills/andyko18/specops-ko/skills/using-specops-ko/README.md) · `andyko18/specops-ko:skills/using-specops-ko`
+- [hicreator](./skills/archivev/hicreator-agent/skills/hicreator/README.md) · `archivev/hicreator-agent:skills/hicreator`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`

@@ -1,6 +1,6 @@
 # product
 
-Published Skills: 8
+Published Skills: 9
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -12,3 +12,4 @@ Published Skills: 8
 | [seis-design](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-design/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Design for product design, UI/UX architecture, design systems, interaction design, accessibility, motion, visual QA, frontend experience planning, Figma/Canva handoff, and design-governed web or app surfaces inside SEIS. Trigger when Codex needs to shape, audit, implement, or document a user-facing SEIS experience while preserving calm technology, accessibility, responsiveness, and premium design quality. |
 | [seis-product](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-product/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Product for turning SEIS ideas into scoped product requirements, roadmap slices, acceptance criteria, UX outcomes, launch readiness, prioritization, open-source positioning, and validation-backed delivery plans. |
 | [seis-research](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-research/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Research for evidence-led technical research, source evaluation, product/architecture discovery, official documentation review, standards/version checks, competitive or ecosystem analysis, and research-to-decision synthesis for SEIS. |
+| [hicreator](../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 100 | 100 | 0 | Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows. |

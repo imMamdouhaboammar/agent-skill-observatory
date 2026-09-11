@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "244e0d6588936bd613a25e12e003acb39e2619f93f6b06e8bba22f1ff6b6dfa8",
+  "canonical_key": "archivev/hicreator-agent:skills/hicreator",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "244e0d6588936bd613a25e12e003acb39e2619f93f6b06e8bba22f1ff6b6dfa8",
+    "archived": false,
+    "canonical_key": "archivev/hicreator-agent:skills/hicreator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7924dcb913534314d4a045e80c0614ee47523043c7dc78a3608d5de2ab0c0d50",
+    "description": "Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "integrations",
+        "product",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Archivev/hicreator-agent/blob/main/skills/hicreator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:46:20.292001Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:20.292001Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "hicreator",
+    "path": "skills/hicreator",
+    "pushed_at": "2026-09-11T16:44:59Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Archivev/hicreator-agent",
+    "repo_url": "https://github.com/Archivev/hicreator-agent",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5bae770d5f34d1730a6399326a1719baba02eb20120acc2c5b497e3285c15d3f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "5bae770d5f34d1730a6399326a1719baba02eb20120acc2c5b497e3285c15d3f"
+}
