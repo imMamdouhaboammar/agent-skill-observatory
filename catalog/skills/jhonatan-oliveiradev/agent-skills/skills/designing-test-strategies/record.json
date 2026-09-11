@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "4643fbb34778e5fe1de7b1b46d2c322a44562840d99536ce86a405ec1bcf819a",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/designing-test-strategies",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "4643fbb34778e5fe1de7b1b46d2c322a44562840d99536ce86a405ec1bcf819a",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/designing-test-strategies",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e34f5f8b74190e09f3dd3444540bcd067de712b96742f4438e14987430001d87",
+    "description": "Use when a feature, service, or release needs a deliberate verification plan and the team is unsure which risks belong in unit, integration, end-to-end, or non-functional tests.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "devops",
+        "integrations",
+        "testing",
+        "commerce",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-test-strategies/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "designing-test-strategies",
+    "path": "skills/designing-test-strategies",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5066c9187f4c9dfa0648d3bb7a6567cc8eab1a7a98cba014b88f6dc528a7647b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "5066c9187f4c9dfa0648d3bb7a6567cc8eab1a7a98cba014b88f6dc528a7647b"
+}

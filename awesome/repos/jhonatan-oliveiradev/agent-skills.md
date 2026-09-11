@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills)
 
-Published Skills: 20
+Published Skills: 21
 Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 99
-Security distribution: 85+=20, 60-84=0, <60=0
+Security distribution: 85+=21, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -28,4 +28,5 @@ Security distribution: 85+=20, 60-84=0, <60=0
 | [designing-developer-portfolio-evidence](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) | `skills/designing-developer-portfolio-evidence` | 99 | 100 | architecture, design, education, finance, product, research |
 | [designing-relational-data-models](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-relational-data-models/README.md) | `skills/designing-relational-data-models` | 99 | 100 | commerce, content, data, documentation, product, productivity |
 | [designing-software-boundaries](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-software-boundaries/README.md) | `skills/designing-software-boundaries` | 99 | 100 | content, data, devops, documentation, engineering, productivity |
+| [designing-test-strategies](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-test-strategies/README.md) | `skills/designing-test-strategies` | 99 | 100 | commerce, data, design, devops, integrations, testing |
 | [building-hybrid-game-assets](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | `skills/building-hybrid-game-assets` | 96 | 100 | design, productivity, research |
