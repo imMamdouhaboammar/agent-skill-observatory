@@ -1,9 +1,10 @@
 # hr-recruiting
 
-Published Skills: 5
+Published Skills: 6
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [llm-context-guideline](../skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Placement and admission policy for content that enters LLM context; its chapters currently govern the memory store (admission whitelist, the three proof questions, entry form and labeling, canon change rules). Reload in full before touching memory content. |
 | [atm-git-pathspec-emergency-commit](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-git-pathspec-emergency-commit/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Emergency-only runbook for a one-time path-bounded native Git commit when ATM governed commit, WIP park, or commit-candidate lanes are blocked and the owner explicitly authorizes anomaly recovery. Not a Plan 3.1 autonomous success path. |
 | [atm-governance-router](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Route natural-language cleanup, refactor, migration, and candidate ranking goals through ATM before local analysis. |
 | [atm-memory-consolidate](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index. |

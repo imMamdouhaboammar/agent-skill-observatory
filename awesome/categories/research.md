@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 80
+Published Skills: 81
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,6 +24,7 @@ Published Skills: 80
 | [project-inception](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/project-inception/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use when kicking off a new project or feature area in an ocul-pm tracked project (.oculpm/ present) — research the stack landscape via web search, then converse with the user (research-backed choices) to settle the optimal spec, and seed a discussion doc, a detailed 3-depth plan (plan_create), EVALS.md done-criteria and starter .claude/rules. |
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [improve-worker](../skills/chnlich/charlie-bot/skills/improve-worker/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | methodology for iterative improve loop workers. |
+| [llm-context-guideline](../skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Placement and admission policy for content that enters LLM context; its chapters currently govern the memory store (admission whitelist, the three proof questions, entry form and labeling, canon change rules). Reload in full before touching memory content. |
 | [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [atm-create](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-create/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Create and register an atom through the provisioning facade. |
 | [atm-diagnostic-loop](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-diagnostic-loop/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence. |
