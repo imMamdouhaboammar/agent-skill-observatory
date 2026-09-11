@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **257**
+Published skills: **258**
 Repositories: **41**
 
 ## Browse repositories
@@ -305,6 +305,7 @@ Repositories: **41**
 - [claude-md-convention](./skills/hoshock/holodorioptimizer/.claude/skills/claude-md-convention/README.md) · `hoshock/holodorioptimizer:.claude/skills/claude-md-convention`
 - [housekeep](./skills/hoshock/holodorioptimizer/.claude/skills/housekeep/README.md) · `hoshock/holodorioptimizer:.claude/skills/housekeep`
 - [induction](./skills/hoshock/holodorioptimizer/.claude/skills/induction/README.md) · `hoshock/holodorioptimizer:.claude/skills/induction`
+- [parameter-calculation](./skills/hoshock/holodorioptimizer/.claude/skills/parameter-calculation/README.md) · `hoshock/holodorioptimizer:.claude/skills/parameter-calculation`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
 - [code-conventions](./skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) · `iflytek/skillhub:.agents/skills/code-conventions`
 - [pr-submission](./skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) · `iflytek/skillhub:.agents/skills/pr-submission`
