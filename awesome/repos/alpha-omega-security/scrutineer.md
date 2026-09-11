@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer)
 
-Published Skills: 25
-Categories: agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, productivity, research, security, testing
+Published Skills: 26
+Categories: agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=25, 60-84=0, <60=0
+Security distribution: 85+=26, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -33,4 +33,5 @@ Security distribution: 85+=25, 60-84=0, <60=0
 | [recon](../../skills/alpha-omega-security/scrutineer/skills/recon/README.md) | `skills/recon` | 100 | 100 | content, data, design, documentation, engineering, security |
 | [release-watch](../../skills/alpha-omega-security/scrutineer/skills/release-watch/README.md) | `skills/release-watch` | 100 | 100 | content, devops, engineering |
 | [repo-overview](../../skills/alpha-omega-security/scrutineer/skills/repo-overview/README.md) | `skills/repo-overview` | 100 | 100 | content, devops, engineering, productivity |
+| [report-upstream](../../skills/alpha-omega-security/scrutineer/skills/report-upstream/README.md) | `skills/report-upstream` | 100 | 100 | commerce, content, devops, engineering, mobile, security |
 | [security-deep-dive-short](../../skills/alpha-omega-security/scrutineer/evals/skills/security-deep-dive-short/README.md) | `evals/skills/security-deep-dive-short` | 100 | 100 | content, documentation, engineering, hr-recruiting, security, testing |
