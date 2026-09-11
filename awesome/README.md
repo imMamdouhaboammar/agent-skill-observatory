@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **50**
-Repositories: **8**
+Published skills: **51**
+Repositories: **9**
 
 ## Browse repositories
 
@@ -9,6 +9,7 @@ Repositories: **8**
 - [707734712/agents-in-sdlc](./repos/707734712/agents-in-sdlc.md)
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
+- [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
@@ -21,6 +22,7 @@ Repositories: **8**
 - [design](./categories/design.md)
 - [devops](./categories/devops.md)
 - [engineering](./categories/engineering.md)
+- [integrations](./categories/integrations.md)
 - [productivity](./categories/productivity.md)
 - [research](./categories/research.md)
 - [security](./categories/security.md)
@@ -35,6 +37,7 @@ Repositories: **8**
 - [publish-to-pages](./skills/707734712/agents-in-sdlc/.github/skills/publish-to-pages/README.md) · `707734712/agents-in-sdlc:.github/skills/publish-to-pages`
 - [update-markdown-file-index](./skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) · `707734712/agents-in-sdlc:.github/skills/update-markdown-file-index`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
+- [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`
 - [afaro-exposure-scan](./skills/afaro-ai/afaro/skills/afaro-exposure-scan/README.md) · `afaro-ai/afaro:skills/afaro-exposure-scan`
 - [afaro-followup](./skills/afaro-ai/afaro/skills/afaro-followup/README.md) · `afaro-ai/afaro:skills/afaro-followup`

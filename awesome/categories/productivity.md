@@ -1,9 +1,10 @@
 # productivity
 
-Published Skills: 23
+Published Skills: 24
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [agent-native-design](../skills/Agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Use when designing, reviewing, or refactoring a CLI that must serve AI agents alongside humans, or when converting an API or SDK into an agent-usable CLI interface. |
 | [asta-skill](../skills/Agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Domain expertise for Ai2 Asta MCP tools (Semantic Scholar corpus). Intent-to-tool routing, safe defaults, workflow patterns, and pitfall warnings for academic paper search, citation traversal, and author discovery. |
 | [bbc-skill](../skills/Agents365-ai/365-skills/plugins/bbc/skills/bbc-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Fetch Bilibili (哔哩哔哩) video comments for UP主 self-analysis. Use when the user asks to collect, download, export, or analyze comments on a Bilibili video (BV号 / URL / UID). Produces JSONL + summary.json suitable for further Claude Code analysis (sentiment, keywords, audience trends). Read-only; does not post/edit/delete. |

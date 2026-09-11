@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "8a6da1e598b562dbc110b3f1b8827df24d2bfc793db075f5d76cad7dbf070c82",
+  "canonical_key": "abnegate/magents:plugins/claude/skills/magents",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8a6da1e598b562dbc110b3f1b8827df24d2bfc793db075f5d76cad7dbf070c82",
+    "archived": false,
+    "canonical_key": "abnegate/magents:plugins/claude/skills/magents",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "202315f25af77597306fca1a120f0da3a2d2b186844e071e6dda8ed0febfe323",
+    "description": "Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "integrations",
+        "productivity",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/abnegate/magents/blob/main/plugins/claude/skills/magents/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T08:05:09.125924Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:09.125924Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "magents",
+    "path": "plugins/claude/skills/magents",
+    "pushed_at": "2026-09-11T07:58:58Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "abnegate/magents",
+    "repo_url": "https://github.com/abnegate/magents",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "722d153f89ecb07e596cf3801e16a23fcf728960ab1b9205f5ab2fca0b4efe72",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "722d153f89ecb07e596cf3801e16a23fcf728960ab1b9205f5ab2fca0b4efe72"
+}
