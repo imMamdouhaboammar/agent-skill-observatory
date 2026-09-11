@@ -1,9 +1,10 @@
 # hr-recruiting
 
-Published Skills: 19
+Published Skills: 20
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [phoenix-error-analysis](../skills/Arize-ai/phoenix/.agents/skills/phoenix-error-analysis/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Find out what is going wrong in LLM or agent traffic by reading sampled Phoenix traces, spans, or sessions, writing free-form notes (open coding), then grouping the notes into a few narrow annotations, one per failure dimension with a small label set and counts, that pick eval targets and fix priorities (axial coding). Use for "what's going wrong with this agent", "I just instrumented my app, where do I start", "review these traces", "the chatbot keeps losing context", "what kinds of mistakes is the model making", "what categories of failures do we have", "what should I build evals for", "how do I prioritize fixes", "group these notes", "MECE breakdown" — or any framing that needs observations or categories grounded in real traces rather than invented top-down, even without naming the technique. |
 | [audit-authz](../skills/alpha-omega-security/scrutineer/skills/audit-authz/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for IDOR, tenant-isolation failures, missing or fail-open authorization guards, privilege escalation, and unverified claims used for access decisions. |
 | [audit-exfil](../skills/alpha-omega-security/scrutineer/skills/audit-exfil/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for attacker-controlled reads, requests, parsers, or error paths that can disclose files, metadata, secrets, or internal responses. |
 | [audit-memory](../skills/alpha-omega-security/scrutineer/skills/audit-memory/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for reachable memory corruption in first-party C, C++, unsafe Rust, native extensions, and FFI boundaries. |

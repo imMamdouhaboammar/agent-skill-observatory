@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "7aded942cd99ff0ed7485bc5259c57d6f4dad450953a132311fc0a97ad4cd0ab",
+  "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-error-analysis",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7aded942cd99ff0ed7485bc5259c57d6f4dad450953a132311fc0a97ad4cd0ab",
+    "archived": false,
+    "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-error-analysis",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d9c8b2535c87041d8dd8d3bb147c149c0c9697fa50213c7e4fabe540faa1ae23",
+    "description": "Find out what is going wrong in LLM or agent traffic by reading sampled Phoenix traces, spans, or sessions, writing free-form notes (open coding), then grouping the notes into a few narrow annotations, one per failure dimension with a small label set and counts, that pick eval targets and fix priorities (axial coding). Use for \"what's going wrong with this agent\", \"I just instrumented my app, where do I start\", \"review these traces\", \"the chatbot keeps losing context\", \"what kinds of mistakes is the model making\", \"what categories of failures do we have\", \"what should I build evals for\", \"how do I prioritize fixes\", \"group these notes\", \"MECE breakdown\" — or any framing that needs observations or categories grounded in real traces rather than invented top-down, even without naming the technique.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "ai-ml",
+        "design",
+        "hr-recruiting",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-error-analysis/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1124,
+    "indexed_at": "2026-09-11T23:38:40.586223Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:38:40.586223Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "arize-ai",
+      "version": "1.0.0"
+    },
+    "name": "phoenix-error-analysis",
+    "path": ".agents/skills/phoenix-error-analysis",
+    "pushed_at": "2026-09-11T23:35:23Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "465bf01ca07e91c1b644902ccdc0c2fd253f0410006088fb78eddaf06c078e0a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11416
+  },
+  "source_fingerprint": "465bf01ca07e91c1b644902ccdc0c2fd253f0410006088fb78eddaf06c078e0a"
+}
