@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 86
+Published Skills: 87
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -49,6 +49,7 @@ Published Skills: 86
 | [clerk-vue-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-vue-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Vue 3 patterns with Clerk — composables (useAuth, useUser, useClerk, useOrganization), Vue Router guards, Pinia auth store integration. Triggers on: vue clerk, useAuth vue, clerk composables, vue router clerk guard, pinia auth clerk. For Nuxt, use clerk-nuxt-patterns instead. |
 | [curate-yaml-record](../skills/CultureBotAI/TraitMech/.claude/skills/curate-yaml-record/README.md) | [CultureBotAI/TraitMech](https://github.com/CultureBotAI/TraitMech) | 100 | 100 | 1 | Review and curate one TraitMech trait YAML record for concept identity, definition, hierarchy, scope, evidence, causal mechanisms, completeness, and resolvable gaps. Use when asked to audit, improve, complete, correct, or add evidence to a named trait; do not use for bulk METPO ingestion, paid research without approval, excluded records, or as permission to contact anyone or mutate GitHub. |
 | [fetch-source](../skills/CultureBotAI/TraitMech/.claude/skills/fetch-source/README.md) | [CultureBotAI/TraitMech](https://github.com/CultureBotAI/TraitMech) | 100 | 100 | 1 | Robust curl pattern for `fetch-<source>` justfile recipes that download an external data release into data/raw/. Use whenever writing a new fetch-* recipe, or auditing/fixing an existing one that fails intermittently in CI — a bare `curl -o` with no retry or timeout turns one flaky network blip into a red PR. |
+| [msx-play](../skills/jeong-sik/masc/skills/msx-play/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Play the shared MSX machine through image observation, sequential key input, disk changes and persistent checkpoints; learn game menus from their visible results. |
 | [seis-code](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-code/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS-Code for architecture-aware implementation, refactors, debugging, tests, CI quality gates, MCP/plugin engineering, Apple-first platform packages, repo automation, and code-review fixes in the SEIS ecosystem. Trigger when Codex needs a full engineering plugin lane rather than a generic coding response. |
 | [seis-integration-guardian](../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Keep SEIS MCP, plugin, skill, and provider integration work safe, documented, and honest. |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |

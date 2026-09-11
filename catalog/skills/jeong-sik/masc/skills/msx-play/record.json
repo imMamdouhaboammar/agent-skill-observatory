@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "508b080692f1e0fc66f51a173efe09c7c23b8951471fddaffd93989ddcb4d57f",
+  "canonical_key": "jeong-sik/masc:skills/msx-play",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "508b080692f1e0fc66f51a173efe09c7c23b8951471fddaffd93989ddcb4d57f",
+    "archived": false,
+    "canonical_key": "jeong-sik/masc:skills/msx-play",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ede203c75227733f32cea32293da75f41e45547d64847585157f906f3600b052",
+    "description": "Play the shared MSX machine through image observation, sequential key input, disk changes and persistent checkpoints; learn game menus from their visible results.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "commerce",
+        "content",
+        "design",
+        "data",
+        "finance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jeong-sik/masc/blob/main/skills/msx-play/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:19:53.911644Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:53.911644Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "msx-play",
+    "path": "skills/msx-play",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jeong-sik/masc",
+    "repo_url": "https://github.com/jeong-sik/masc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "14c49f4187158869ac5d068e5c9e32c1d62f001a57d45a0748d2f372444148f6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "14c49f4187158869ac5d068e5c9e32c1d62f001a57d45a0748d2f372444148f6"
+}
