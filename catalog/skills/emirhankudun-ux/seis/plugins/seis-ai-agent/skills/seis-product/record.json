@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "4c5253476ec5b5bd52b41bede76618e9744c9fcbf71ffd7f602a90a19a9c73f6",
+  "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-product",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "4c5253476ec5b5bd52b41bede76618e9744c9fcbf71ffd7f602a90a19a9c73f6",
+    "archived": false,
+    "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-product",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0d892e8dc826c1d728a0a9c48dddae9c9e0620dcf67fe81508f885dbfe2e1190",
+    "description": "Use SEIS Product for turning SEIS ideas into scoped product requirements, roadmap slices, acceptance criteria, UX outcomes, launch readiness, prioritization, open-source positioning, and validation-backed delivery plans.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "research",
+        "design",
+        "productivity",
+        "devops",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/emirhankudun-ux/SEIS/blob/main/plugins/seis-ai-agent/skills/seis-product/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:13.302101Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:13.302101Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "seis-product",
+    "path": "plugins/seis-ai-agent/skills/seis-product",
+    "pushed_at": "2026-09-11T12:36:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "emirhankudun-ux/SEIS",
+    "repo_url": "https://github.com/emirhankudun-ux/SEIS",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b692ff064c160e0ce283acd7a205f6fe916497310904dd94f809b45364619441",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "b692ff064c160e0ce283acd7a205f6fe916497310904dd94f809b45364619441"
+}
