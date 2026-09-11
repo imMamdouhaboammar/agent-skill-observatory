@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain)
 
-Published Skills: 6
-Categories: ai-ml, commerce, content, data, design, devops, documentation, engineering, marketing, productivity, testing
+Published Skills: 7
+Categories: ai-ml, commerce, content, data, design, devops, documentation, engineering, marketing, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,3 +15,4 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [add-test](../../skills/DexForce/EmbodiChain/.agents/skills/add-test/README.md) | `.agents/skills/add-test` | 100 | 100 | commerce, content, design, devops, engineering, testing |
 | [pr](../../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | `.agents/skills/pr` | 100 | 100 | commerce, content, data, design, documentation, engineering |
 | [pre-commit-check](../../skills/DexForce/EmbodiChain/.agents/skills/pre-commit-check/README.md) | `.agents/skills/pre-commit-check` | 100 | 100 | content, devops, documentation, engineering, productivity, testing |
+| [release](../../skills/DexForce/EmbodiChain/.agents/skills/release/README.md) | `.agents/skills/release` | 100 | 100 | devops, documentation, productivity, research |
