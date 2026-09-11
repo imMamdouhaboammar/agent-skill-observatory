@@ -1,0 +1,108 @@
+{
+  "analysis_fingerprint": "39e3259f5cd3462f57fba9660df1fd6f11a9dad9f4b424c5b8668f2a1a96860b",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/audit-memory",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read,Write,Bash,Grep,Glob"
+    ],
+    "analysis_fingerprint": "39e3259f5cd3462f57fba9660df1fd6f11a9dad9f4b424c5b8668f2a1a96860b",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/audit-memory",
+    "compatibility": "Static and read-only. Needs source in ./src, including initialized Git submodules when available. Reads bundled reference notes in ./references. Does not build, run, install dependencies, or use external network; the worker-provided Scrutineer API at api_base is allowed.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "288c9f9e6cd8da0189ad526072221aaa9e984c48830901c6426fec5cc50f13f8",
+    "description": "Focused static audit for reachable memory corruption in first-party C, C++, unsafe Rust, native extensions, and FFI boundaries.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "commerce",
+        "content",
+        "devops",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/audit-memory/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.ignore_paths": "['**/node_modules/**', '**/build/**', '**/cmake-build-*/**', '**/target/**', '**/dist/**', '**/generated/**', '**/__generated__/**']",
+      "scrutineer.max_turns": "48",
+      "scrutineer.min_confidence": "high",
+      "scrutineer.model": "high",
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "findings",
+      "scrutineer.paths": "['**']",
+      "scrutineer.recurse_submodules": "True",
+      "scrutineer.requires": "['embedded-native']",
+      "scrutineer.version": "1"
+    },
+    "name": "audit-memory",
+    "path": "skills/audit-memory",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 5,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "cf2040b1bac7bed7f65d45a8be720fb3918f759627d049af2826424a50b6651e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "cf2040b1bac7bed7f65d45a8be720fb3918f759627d049af2826424a50b6651e"
+}

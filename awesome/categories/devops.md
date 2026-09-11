@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 67
+Published Skills: 68
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -17,6 +17,7 @@ Published Skills: 67
 | [pre-commit-check](../skills/DexForce/EmbodiChain/.agents/skills/pre-commit-check/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use before committing or creating a PR for EmbodiChain to select proportional validation and verify affected code style, tests, headers, annotations, exports, and docstrings |
 | [release](../skills/DexForce/EmbodiChain/.agents/skills/release/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when preparing, drafting, validating, or publishing an EmbodiChain release, including GitHub release notes, version tags, and release artifacts. |
 | [review-pr](../skills/DexForce/EmbodiChain/.agents/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Review EmbodiChain pull requests, branches, commits, patches, or working-tree diffs for correctness regressions, architecture-contract violations, compatibility risks, unsafe resource behavior, and missing tests. Use when asked to review, audit, inspect, assess, or approve an EmbodiChain change; produce prioritized, evidence-backed findings without modifying the change unless the user explicitly asks for fixes. |
+| [audit-memory](../skills/alpha-omega-security/scrutineer/skills/audit-memory/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for reachable memory corruption in first-party C, C++, unsafe Rust, native extensions, and FFI boundaries. |
 | [fuse-agent](../skills/commontoolsinc/labs/skills/fuse-agent/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Agent-specific interaction patterns for working with FUSE-mounted spaces. Use when deploying patterns via FUSE, working with Activity Logs, Annotations, or coordinating agent workflows that read/write pieces through the filesystem. Triggers include "deploy a pattern", "log an event", "create annotation", "agent workflow", or managing piece lifecycle via FUSE. |
 | [pattern-deploy](../skills/commontoolsinc/labs/skills/pattern-deploy/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Deploy patterns and test with CLI |
 | [pattern-dev](../skills/commontoolsinc/labs/skills/pattern-dev/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Guide for developing Common Fabric patterns (TypeScript modules that define reactive data transformations with UI). Use this skill when creating patterns, modifying existing patterns, or working with the pattern framework. Triggers include requests like "build a pattern", "fix this pattern error", "deploy this piece", or questions about handlers and reactive patterns. |
