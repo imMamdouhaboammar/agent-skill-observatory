@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **385**
-Repositories: **50**
+Published skills: **386**
+Repositories: **51**
 
 ## Browse repositories
 
@@ -30,6 +30,7 @@ Repositories: **50**
 - [angular/skills](./repos/angular/skills.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
+- [bytedance/deer-flow](./repos/bytedance/deer-flow.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
 - [chnlich/charlie-bot](./repos/chnlich/charlie-bot.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
@@ -211,6 +212,7 @@ Repositories: **50**
 - [run-evals](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/run-evals/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/run-evals`
 - [self-audit](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/self-audit/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/self-audit`
 - [tdd-workflow](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/tdd-workflow/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/tdd-workflow`
+- [engineer-system-change](./skills/bytedance/deer-flow/.agent/skills/engineer-system-change/README.md) · `bytedance/deer-flow:.agent/skills/engineer-system-change`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`

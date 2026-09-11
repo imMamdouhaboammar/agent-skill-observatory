@@ -1,9 +1,10 @@
 # commerce
 
-Published Skills: 95
+Published Skills: 96
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [engineer-system-change](../skills/bytedance/deer-flow/.agent/skills/engineer-system-change/README.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82289 | Evaluate and carry out non-trivial software-system changes from first principles. Use when assessing RFCs, issues, designs, features, refactors, migrations, dependency changes, or proposed fields, events, APIs, modules, and services whose need, consumers, system fit, validation, or rollback require scrutiny. Read the actual system, identify the concrete problem and named semantic consumers, choose the smallest sufficient solution, reject pseudo-requirements and speculative abstractions, and require evidence proportional to risk. Do not use for mechanical edits, source-code explanation, or a dedicated review of an already-complete diff. |
 | [cherry-electron-dev](../skills/CherryHQ/cherry-studio/.agents/skills/cherry-electron-dev/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Develop, fix, and profile Cherry Studio in a tracked Electron instance. Use for everyday implementation, UI and interaction work, bug fixing, runtime debugging, DevTools inspection, lag or jank investigation, CPU and memory monitoring, leak checks, and startup-performance analysis; reuse a verified workspace instance across instructions and launch or replace one only when required. |
 | [code-mate-codex](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-codex/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Codex CLI non-interactively for code analysis and implementation tasks. Use when the user asks to delegate repository work to Codex or obtain a second coding-agent result. |
 | [code-mate-kimi-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-kimi-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Kimi Code in non-interactive prompt mode and parses its event stream. Use when the user asks to delegate a bounded repository task to Kimi Code. |
