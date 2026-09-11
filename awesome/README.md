@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **54**
+Published skills: **55**
 Repositories: **10**
 
 ## Browse repositories
@@ -18,6 +18,7 @@ Repositories: **10**
 
 ## Browse categories
 
+- [agent-orchestration](./categories/agent-orchestration.md)
 - [browser-automation](./categories/browser-automation.md)
 - [commerce](./categories/commerce.md)
 - [content](./categories/content.md)
@@ -89,3 +90,4 @@ Repositories: **10**
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
+- [gh-pr-review](./skills/cherryhq/cherry-studio/.agents/skills/gh-pr-review/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-pr-review`
