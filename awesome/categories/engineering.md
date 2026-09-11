@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 138
+Published Skills: 139
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -62,6 +62,7 @@ Published Skills: 138
 | [draft-comparative-neotoma-post](../skills/markmhendrickson/ateles/.claude/skills/draft-comparative-neotoma-post/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Draft a comparative Neotoma post (memory & truth-layer series) that compares a product or API's memory to a truth layer. Use when user says "draft comparative neotoma post", "memory series post", "truth layer comparison post", or similar. Can be invoked via /draft-comparative-neotoma-post. |
 | [email-triage](../skills/markmhendrickson/ateles/.claude/skills/email-triage/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Step-by-step email inbox triage workflow with draft generation, data persistence, and archiving. Use when processing emails, triaging inbox, or when user mentions email triage, inbox processing, or email workflow. |
 | [final-review](../skills/markmhendrickson/ateles/.claude/skills/final-review/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Final review workflow per foundation command. |
+| [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [reconc](../skills/Christopher-Schulze/reconc/skills/reconc/README.md) | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 100 | 100 | 1 | Use when a coding agent should bootstrap, maintain, or obey reconc repository policy. Covers the Repository Control Compiler, install/build choice, minimal daily loop, truthful evidence collection, policy checks, remediation, task-finish gates, CI/release use, and registry-backed platform enforcement limits without adding heavy process or option sprawl. |
 | [seis-automation](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-automation/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Automation for designing, implementing, documenting, and validating repeatable SEIS workflows, scripts, checks, scheduled jobs, runbooks, CI steps, agent loops, and human-approved automation gates. |

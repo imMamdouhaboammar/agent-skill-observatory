@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **168**
-Repositories: **25**
+Published skills: **169**
+Repositories: **26**
 
 ## Browse repositories
 
@@ -24,6 +24,7 @@ Repositories: **25**
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
+- [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
@@ -185,6 +186,7 @@ Repositories: **25**
 - [add-task-env](./skills/dexforce/embodichain/.claude/skills/add-task-env/README.md) · `dexforce/embodichain:.claude/skills/add-task-env`
 - [review-pr](./skills/dexforce/embodichain/.claude/skills/review-pr/README.md) · `dexforce/embodichain:.claude/skills/review-pr`
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
+- [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [seis-integration-guardian](./skills/emirhankudun-ux/seis/.kimi-code/skills/seis-integration-guardian/README.md) · `emirhankudun-ux/seis:.kimi-code/skills/seis-integration-guardian`
 - [seis-automation](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-automation/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-automation`
 - [seis-cloud](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-cloud/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-cloud`
