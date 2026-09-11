@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "ad3e69572b8442bfca49ecf1b6165341e875dd345bce375784e535ae0d3fff1e",
+  "canonical_key": "jeong-sik/masc:skills/slack-web",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ad3e69572b8442bfca49ecf1b6165341e875dd345bce375784e535ae0d3fff1e",
+    "archived": false,
+    "canonical_key": "jeong-sik/masc:skills/slack-web",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1388578458e2a6b385cb2a14d5d22a0b32e726784458eed29b6c421bbbf128b1",
+    "description": "Navigate Slack Web channels and collect messages or threads through Browser Lane, choosing channel search or message search and preserving the observed collection scope.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "content",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jeong-sik/masc/blob/main/skills/slack-web/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:19:53.911644Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:53.911644Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "slack-web",
+    "path": "skills/slack-web",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jeong-sik/masc",
+    "repo_url": "https://github.com/jeong-sik/masc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f9a63f4e1d3bca76fc856a3337ef9099ff72b096647b48a59a32e53f300a7c5f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "f9a63f4e1d3bca76fc856a3337ef9099ff72b096647b48a59a32e53f300a7c5f"
+}
