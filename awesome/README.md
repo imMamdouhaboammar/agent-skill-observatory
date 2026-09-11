@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **196**
-Repositories: **30**
+Published skills: **197**
+Repositories: **31**
 
 ## Browse repositories
 
@@ -14,6 +14,7 @@ Repositories: **30**
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
+- [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
@@ -230,6 +231,7 @@ Repositories: **30**
 - [cn-model-gateway](./skills/fyniujin/devskill/cn-model-gateway/README.md) · `fyniujin/devskill:cn-model-gateway`
 - [gopher](./skills/gemyago/atlacp/.agent/skills/gopher/README.md) · `gemyago/atlacp:.agent/skills/gopher`
 - [ponytail](./skills/giancaremma50-hue/demo-ats/.claude/skills/ponytail/README.md) · `giancaremma50-hue/demo-ats:.claude/skills/ponytail`
+- [clerk](./skills/gizziio/allternit-platform/.agents/skills/clerk/README.md) · `gizziio/allternit-platform:.agents/skills/clerk`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

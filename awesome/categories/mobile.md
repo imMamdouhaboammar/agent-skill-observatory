@@ -1,9 +1,10 @@
 # mobile
 
-Published Skills: 3
+Published Skills: 4
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [decision-matrix](../skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Compare options with weighted scoring, pros and cons, pre-mortems, opportunity costs, and ICE prioritization. Use when a user wants to reason through a choice, expose assumptions, or rank alternatives. |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
+| [clerk](../skills/Gizziio/allternit-platform/.agents/skills/clerk/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Clerk authentication router. Use when user asks about Clerk CLI operations, adding authentication, setting up Clerk, custom sign-in flows, Swift or native iOS auth, native Android auth, Next.js patterns, React patterns, Vue patterns, Nuxt patterns, Astro patterns, TanStack Start patterns, Expo patterns, React Router patterns, Chrome Extension patterns, organizations, billing, subscriptions, payments, pricing, plans, seat-based pricing, feature entitlements, syncing users, testing, impersonating a user, or testing webhooks locally. Automatically routes to the specific skill based on their task. |
 | [seis-code](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-code/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Code for architecture-aware implementation, refactors, debugging, tests, repo automation, platform packages, MCP/plugin code, CI quality gates, and code-review fixes inside the SEIS ecosystem. Trigger when Codex needs to build, fix, implement, refactor, validate, or plan code changes under SEIS while preserving user work, main-branch safety, Apple-first priorities, security, and documentation quality. |
