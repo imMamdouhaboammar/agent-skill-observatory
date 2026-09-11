@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **360**
+Published skills: **361**
 Repositories: **49**
 
 ## Browse repositories
@@ -162,6 +162,7 @@ Repositories: **49**
 - [mitigate](./skills/alpha-omega-security/scrutineer/skills/mitigate/README.md) · `alpha-omega-security/scrutineer:skills/mitigate`
 - [packages](./skills/alpha-omega-security/scrutineer/skills/packages/README.md) · `alpha-omega-security/scrutineer:skills/packages`
 - [posture](./skills/alpha-omega-security/scrutineer/skills/posture/README.md) · `alpha-omega-security/scrutineer:skills/posture`
+- [public-issue](./skills/alpha-omega-security/scrutineer/skills/public-issue/README.md) · `alpha-omega-security/scrutineer:skills/public-issue`
 - [advisor-ko](./skills/andyko18/specops-ko/skills/advisor-ko/README.md) · `andyko18/specops-ko:skills/advisor-ko`
 - [context-resets-ko](./skills/andyko18/specops-ko/skills/context-resets-ko/README.md) · `andyko18/specops-ko:skills/context-resets-ko`
 - [dispatching-parallel-agents-ko](./skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) · `andyko18/specops-ko:skills/dispatching-parallel-agents-ko`
