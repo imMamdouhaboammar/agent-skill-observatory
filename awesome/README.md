@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **322**
+Published skills: **323**
 Repositories: **48**
 
 ## Browse repositories
@@ -287,6 +287,7 @@ Repositories: **48**
 - [quote-background-image](./skills/embassy-of-the-free-mind/sourcelibrary-v2/.claude/skills/quote-background-image/README.md) · `embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/quote-background-image`
 - [scholarly-edition](./skills/embassy-of-the-free-mind/sourcelibrary-v2/.claude/skills/scholarly-edition/README.md) · `embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/scholarly-edition`
 - [source-research](./skills/embassy-of-the-free-mind/sourcelibrary-v2/.claude/skills/source-research/README.md) · `embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/source-research`
+- [status](./skills/embassy-of-the-free-mind/sourcelibrary-v2/.claude/skills/status/README.md) · `embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/status`
 - [seis-integration-guardian](./skills/emirhankudun-ux/seis/.kimi-code/skills/seis-integration-guardian/README.md) · `emirhankudun-ux/seis:.kimi-code/skills/seis-integration-guardian`
 - [seis-automation](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-automation/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-automation`
 - [seis-cloud](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-cloud/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-cloud`
