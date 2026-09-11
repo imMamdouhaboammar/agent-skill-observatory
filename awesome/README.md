@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **128**
-Repositories: **17**
+Published skills: **129**
+Repositories: **18**
 
 ## Browse repositories
 
@@ -17,6 +17,7 @@ Repositories: **17**
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
+- [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -149,6 +150,7 @@ Repositories: **17**
 - [code-mate-qwen-code](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-qwen-code/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-qwen-code`
 - [cherry-tool-guide](./skills/cherryhq/cherry-studio/resources/skills/cherry-tool-guide/README.md) · `cherryhq/cherry-studio:resources/skills/cherry-tool-guide`
 - [find-skills](./skills/cherryhq/cherry-studio/resources/skills/find-skills/README.md) · `cherryhq/cherry-studio:resources/skills/find-skills`
+- [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

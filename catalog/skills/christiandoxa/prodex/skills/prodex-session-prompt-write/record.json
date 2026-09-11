@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "c415fe3c9a33c736df91f157701b49673dc00230327d52871fb1372c60f66008",
+  "canonical_key": "christiandoxa/prodex:skills/prodex-session-prompt-write",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c415fe3c9a33c736df91f157701b49673dc00230327d52871fb1372c60f66008",
+    "archived": false,
+    "canonical_key": "christiandoxa/prodex:skills/prodex-session-prompt-write",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f9fac9c9631dc1b1242cb7317040a35c620bb1ef1ef671c5801efa32760b041a",
+    "description": "Safely write a user prompt to and observe an already-running plain prodex s session through its default expose MCP bridge.",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "integrations",
+        "media",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/christiandoxa/prodex/blob/main/skills/prodex-session-prompt-write/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 8,
+    "indexed_at": "2026-09-11T12:38:10.432935Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:10.432935Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "prodex-session-prompt-write",
+    "path": "skills/prodex-session-prompt-write",
+    "pushed_at": "2026-09-11T12:36:34Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "christiandoxa/prodex",
+    "repo_url": "https://github.com/christiandoxa/prodex",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 55,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "45b6cd3733959eef6d856cf50ee62ce1fb052b6325b4d906fe9f459003dc06b9",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 49
+  },
+  "source_fingerprint": "45b6cd3733959eef6d856cf50ee62ce1fb052b6325b4d906fe9f459003dc06b9"
+}
