@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **309**
-Repositories: **47**
+Published skills: **310**
+Repositories: **48**
 
 ## Browse repositories
 
@@ -16,6 +16,7 @@ Repositories: **47**
 - [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
+- [Embassy-of-the-Free-Mind/sourcelibrary-v2](./repos/Embassy-of-the-Free-Mind/sourcelibrary-v2.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
 - [Hoshock/HolodoriOptimizer](./repos/Hoshock/HolodoriOptimizer.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
@@ -273,6 +274,7 @@ Repositories: **47**
 - [atm-upgrade-scan](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-upgrade-scan/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-upgrade-scan`
 - [mailbox-worker-execution](./skills/eaglhuang/ai-atomic-framework/.agents/skills/mailbox-worker-execution/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/mailbox-worker-execution`
 - [atm-legacy-atomization-guidance](./skills/eaglhuang/ai-atomic-framework/integrations/codex-skills/atm-legacy-atomization-guidance/README.md) · `eaglhuang/ai-atomic-framework:integrations/codex-skills/atm-legacy-atomization-guidance`
+- [book-biography](./skills/embassy-of-the-free-mind/sourcelibrary-v2/.claude/skills/book-biography/README.md) · `embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/book-biography`
 - [seis-integration-guardian](./skills/emirhankudun-ux/seis/.kimi-code/skills/seis-integration-guardian/README.md) · `emirhankudun-ux/seis:.kimi-code/skills/seis-integration-guardian`
 - [seis-automation](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-automation/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-automation`
 - [seis-cloud](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-cloud/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-cloud`

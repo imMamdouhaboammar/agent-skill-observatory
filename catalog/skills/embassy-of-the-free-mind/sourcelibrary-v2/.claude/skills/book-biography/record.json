@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "c54541a50b2c6cb97d7a70d34c4d1d3bc7e8053d40f2cf825cdc2f2f486f94f0",
+  "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/book-biography",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c54541a50b2c6cb97d7a70d34c4d1d3bc7e8053d40f2cf825cdc2f2f486f94f0",
+    "archived": false,
+    "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/book-biography",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b4a70f371b650ba45fb9200fb09b11a9a23ba44a861dba06724dfebecb922dfe",
+    "description": "Bibliographic research agent for analyzing books and manuscripts. Builds comprehensive \"book biographies\" showing production context, textual transmission, related editions, and scholarly networks. Use when asked to research a book's history, find related editions, analyze manuscript transmission, or build bibliographic context.",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "documentation",
+        "commerce",
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/book-biography/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 3,
+    "indexed_at": "2026-09-11T21:48:17.888608Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:48:17.888608Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "book-biography",
+    "path": ".claude/skills/book-biography",
+    "pushed_at": "2026-09-11T21:48:00Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 42,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3fef401125378d5a608008d6768b3585457ea88ac000953c5f115c9c7f36c66e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "3fef401125378d5a608008d6768b3585457ea88ac000953c5f115c9c7f36c66e"
+}
