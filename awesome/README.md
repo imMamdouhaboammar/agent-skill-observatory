@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **129**
-Repositories: **18**
+Published skills: **130**
+Repositories: **19**
 
 ## Browse repositories
 
@@ -10,6 +10,7 @@ Repositories: **18**
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
+- [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
@@ -151,6 +152,7 @@ Repositories: **18**
 - [cherry-tool-guide](./skills/cherryhq/cherry-studio/resources/skills/cherry-tool-guide/README.md) · `cherryhq/cherry-studio:resources/skills/cherry-tool-guide`
 - [find-skills](./skills/cherryhq/cherry-studio/resources/skills/find-skills/README.md) · `cherryhq/cherry-studio:resources/skills/find-skills`
 - [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
+- [reconc](./skills/christopher-schulze/reconc/skills/reconc/README.md) · `christopher-schulze/reconc:skills/reconc`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

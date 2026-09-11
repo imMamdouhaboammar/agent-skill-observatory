@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "3f399957eb96c5b0f64c55c7b5e7d5be3929c494007542002cd13ead751edf00",
+  "canonical_key": "christopher-schulze/reconc:skills/reconc",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3f399957eb96c5b0f64c55c7b5e7d5be3929c494007542002cd13ead751edf00",
+    "archived": false,
+    "canonical_key": "christopher-schulze/reconc:skills/reconc",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f6a2185ef38bbefce1eb8a65a946ea6d8440322875f051374dab1b1a0cab961c",
+    "description": "Use when a coding agent should bootstrap, maintain, or obey reconc repository policy. Covers the Repository Control Compiler, install/build choice, minimal daily loop, truthful evidence collection, policy checks, remediation, task-finish gates, CI/release use, and registry-backed platform enforcement limits without adding heavy process or option sprawl.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "legal-compliance",
+        "research",
+        "content",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Christopher-Schulze/reconc/blob/main/skills/reconc/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:44:55.716984Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:44:55.716984Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "reconc",
+    "path": "skills/reconc",
+    "pushed_at": "2026-09-11T12:35:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Christopher-Schulze/reconc",
+    "repo_url": "https://github.com/Christopher-Schulze/reconc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3f2863b809d043e44a74882933542951fd8d2c3f6415a99ae77fc16f2b73cd05",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "3f2863b809d043e44a74882933542951fd8d2c3f6415a99ae77fc16f2b73cd05"
+}
