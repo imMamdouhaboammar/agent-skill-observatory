@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform)
 
-Published Skills: 7
+Published Skills: 8
 Categories: browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, marketing, media, mobile, productivity, security, testing
 Best overall score: 100
-Security distribution: 85+=7, 60-84=0, <60=0
+Security distribution: 85+=8, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -16,3 +16,4 @@ Security distribution: 85+=7, 60-84=0, <60=0
 | [clerk-cli](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-cli/README.md) | `.agents/skills/clerk-cli` | 100 | 100 | content, devops, engineering, integrations, security, testing |
 | [clerk-custom-ui](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-custom-ui/README.md) | `.agents/skills/clerk-custom-ui` | 100 | 100 | content, design, documentation, marketing, media, productivity |
 | [clerk-expo](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-expo/README.md) | `.agents/skills/clerk-expo` | 100 | 100 | browser-automation, content, engineering, integrations, mobile, productivity |
+| [clerk-nextjs-patterns](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | `.agents/skills/clerk-nextjs-patterns` | 97 | 100 | data, design, documentation, engineering, mobile, productivity |
