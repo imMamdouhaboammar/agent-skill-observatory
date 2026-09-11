@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
 
-Published Skills: 21
+Published Skills: 22
 Categories: agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, other, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -22,6 +22,7 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [code-mate-kimi-code](../../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-kimi-code/README.md) | `resources/code-cli-skills/code-mate-kimi-code` | 100 | 100 | commerce, content, design, engineering, productivity, security |
 | [code-mate-openclaw](../../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-openclaw/README.md) | `resources/code-cli-skills/code-mate-openclaw` | 100 | 100 | content, engineering, productivity |
 | [code-mate-opencode](../../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-opencode/README.md) | `resources/code-cli-skills/code-mate-opencode` | 100 | 100 | content, design, engineering, productivity, security, testing |
+| [code-mate-pi](../../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-pi/README.md) | `resources/code-cli-skills/code-mate-pi` | 100 | 100 | content, engineering, productivity |
 | [create-skill](../../skills/CherryHQ/cherry-studio/.agents/skills/create-skill/README.md) | `.agents/skills/create-skill` | 100 | 100 | devops, documentation, engineering, legal-compliance, productivity, testing |
 | [faq-collector](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector` | 100 | 100 | other |
 | [gh-create-issue](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | `.agents/skills/gh-create-issue` | 100 | 100 | browser-automation, commerce, content, engineering, productivity, research |
