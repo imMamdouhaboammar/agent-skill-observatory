@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "c4a063586cdd5b3b0f06f0f9c40039dfd5c5d5c9e4583a2d55c72468883d7f11",
+  "canonical_key": "hoshock/holodorioptimizer:.claude/skills/housekeep",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c4a063586cdd5b3b0f06f0f9c40039dfd5c5d5c9e4583a2d55c72468883d7f11",
+    "archived": false,
+    "canonical_key": "hoshock/holodorioptimizer:.claude/skills/housekeep",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8d0205466d9f3997737d383a7f628eab89386b209ac7cc8f4f4486f0cf3349bd",
+    "description": "このリポジトリのドキュメントを棚卸しする — docs/ai/tmp/rules.md のルール候補を恒久の置き場へ昇格し、陳腐化したルール・CLAUDE.md・README のドリフトを直し、揮発性ドキュメントを整理し、コンパクション地点のログを残す。ユーザーが棚卸し（housekeep）を指示したときに使う。",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "architecture",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Hoshock/HolodoriOptimizer/blob/main/.claude/skills/housekeep/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:46:46.333393Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:46.333393Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "housekeep",
+    "path": ".claude/skills/housekeep",
+    "pushed_at": "2026-09-11T16:44:52Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Hoshock/HolodoriOptimizer",
+    "repo_url": "https://github.com/Hoshock/HolodoriOptimizer",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "19cbad883a9e3f4ad2049aaf312a920b63ff0137394cd2ff39ed19d6de296920",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "19cbad883a9e3f4ad2049aaf312a920b63ff0137394cd2ff39ed19d6de296920"
+}
