@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/commontoolsinc/labs](https://github.com/commontoolsinc/labs)
 
-Published Skills: 7
+Published Skills: 8
 Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, localization, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=7, 60-84=0, <60=0
+Security distribution: 85+=8, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,4 +15,5 @@ Security distribution: 85+=7, 60-84=0, <60=0
 | [knowledge-base](../../skills/commontoolsinc/labs/skills/knowledge-base/README.md) | `skills/knowledge-base` | 100 | 100 | commerce, design, documentation, education, engineering, research |
 | [pattern-critic](../../skills/commontoolsinc/labs/skills/pattern-critic/README.md) | `skills/pattern-critic` | 100 | 100 | ai-ml, content, data, design, documentation, engineering |
 | [pattern-debug](../../skills/commontoolsinc/labs/skills/pattern-debug/README.md) | `skills/pattern-debug` | 100 | 100 | browser-automation, content, documentation, engineering, productivity, testing |
+| [pattern-deploy](../../skills/commontoolsinc/labs/skills/pattern-deploy/README.md) | `skills/pattern-deploy` | 100 | 100 | data, devops, documentation, engineering, productivity, testing |
 | [pattern-ui](../../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | `packages/cf-harness/fixtures/hostile-skills-root/pattern-ui` | 100 | 100 | content, data, design, documentation, finance, media |
