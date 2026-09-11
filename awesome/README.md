@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **274**
-Repositories: **43**
+Published skills: **275**
+Repositories: **44**
 
 ## Browse repositories
 
@@ -46,6 +46,7 @@ Repositories: **43**
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
 - [jairorodriguezarias/siesta](./repos/jairorodriguezarias/siesta.md)
 - [jeong-sik/masc](./repos/jeong-sik/masc.md)
+- [jhonatan-oliveiradev/agent-skills](./repos/jhonatan-oliveiradev/agent-skills.md)
 - [lightdash/lightdash](./repos/lightdash/lightdash.md)
 - [markmhendrickson/ateles](./repos/markmhendrickson/ateles.md)
 
@@ -348,6 +349,7 @@ Repositories: **43**
 - [observe-act-verify](./skills/jeong-sik/masc/skills/observe-act-verify/README.md) · `jeong-sik/masc:skills/observe-act-verify`
 - [sangokushi-2](./skills/jeong-sik/masc/skills/sangokushi-2/README.md) · `jeong-sik/masc:skills/sangokushi-2`
 - [slack-web](./skills/jeong-sik/masc/skills/slack-web/README.md) · `jeong-sik/masc:skills/slack-web`
+- [analyzing-change-blast-radius](./skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) · `jhonatan-oliveiradev/agent-skills:skills/analyzing-change-blast-radius`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

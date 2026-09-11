@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "3fd15ffdd9ac63c93b07732bb3eb0e4bf5ae001c8388fc15dac3d6ae326cadd4",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/analyzing-change-blast-radius",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3fd15ffdd9ac63c93b07732bb3eb0e4bf5ae001c8388fc15dac3d6ae326cadd4",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/analyzing-change-blast-radius",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "17c0dae508429b819408d5f8d7aa8cfa074a827e68f1bb8f7ea0d2c156756b69",
+    "description": "Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "research",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/analyzing-change-blast-radius/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "analyzing-change-blast-radius",
+    "path": "skills/analyzing-change-blast-radius",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "497ef7de2b8a5c2aee05e85abbc854ba86fdc72dc56caf73559710eaa916be2b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "497ef7de2b8a5c2aee05e85abbc854ba86fdc72dc56caf73559710eaa916be2b"
+}
