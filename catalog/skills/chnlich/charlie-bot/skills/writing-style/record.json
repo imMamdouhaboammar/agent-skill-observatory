@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "c8e5730e27e5b589de4a9d0cc5e327a51f4df74ace380818f5f0de4d24e64ede",
+  "canonical_key": "chnlich/charlie-bot:skills/writing-style",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c8e5730e27e5b589de4a9d0cc5e327a51f4df74ace380818f5f0de4d24e64ede",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/writing-style",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "cfe4e03ea5f3a142175173bed9dada20a43cc76bef92dc0f1d4c2645c37c711c",
+    "description": "Genre style packs for code, READMEs, commits and PRs, bug reports, article shares, and coordination messages. Load the matching genre file at its writing moment. General prose rules live in the master prompt's Writing Style section.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "design",
+        "documentation",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/writing-style/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "writing-style",
+    "path": "skills/writing-style",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "501f31aa1af4de92fa2845c9dbcd3b2cacf6666af05d540d5d7c2b4096ee95d5",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "501f31aa1af4de92fa2845c9dbcd3b2cacf6666af05d540d5d7c2b4096ee95d5"
+}

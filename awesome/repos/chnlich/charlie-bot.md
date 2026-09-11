@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/chnlich/charlie-bot](https://github.com/chnlich/charlie-bot)
 
-Published Skills: 11
+Published Skills: 12
 Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [perfetto](../../skills/chnlich/charlie-bot/skills/perfetto/README.md) | `skills/perfetto` | 100 | 100 | design |
 | [plan-approval](../../skills/chnlich/charlie-bot/skills/plan-approval/README.md) | `skills/plan-approval` | 100 | 100 | commerce, content, data, design, engineering, research |
 | [slack](../../skills/chnlich/charlie-bot/skills/slack/README.md) | `skills/slack` | 100 | 100 | content, documentation, engineering, integrations, productivity, testing |
+| [writing-style](../../skills/chnlich/charlie-bot/skills/writing-style/README.md) | `skills/writing-style` | 100 | 100 | content, design, documentation, engineering, research |
