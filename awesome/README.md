@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **329**
+Published skills: **330**
 Repositories: **48**
 
 ## Browse repositories
@@ -408,6 +408,7 @@ Repositories: **48**
 - [creating-character-sprite-pipelines](./skills/jhonatan-oliveiradev/agent-skills/skills/creating-character-sprite-pipelines/README.md) · `jhonatan-oliveiradev/agent-skills:skills/creating-character-sprite-pipelines`
 - [defining-brand-strategy](./skills/jhonatan-oliveiradev/agent-skills/skills/defining-brand-strategy/README.md) · `jhonatan-oliveiradev/agent-skills:skills/defining-brand-strategy`
 - [designing-action-combat](./skills/jhonatan-oliveiradev/agent-skills/skills/designing-action-combat/README.md) · `jhonatan-oliveiradev/agent-skills:skills/designing-action-combat`
+- [designing-developer-portfolio-evidence](./skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) · `jhonatan-oliveiradev/agent-skills:skills/designing-developer-portfolio-evidence`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`
