@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "1699f8dc9494e2d38026856a6b453954f5cd92eea9320b72577302bf5577a834",
+  "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/local-model-translator",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1699f8dc9494e2d38026856a6b453954f5cd92eea9320b72577302bf5577a834",
+    "archived": false,
+    "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/local-model-translator",
+    "compatibility": "Requires Python 3.10+ and a reachable Ollama HTTP API. Optional dependency opencc (pip install opencc) enables the simplified-Chinese gate; without it the gate degrades to a no-op. The current tested local convention is hy-mt2-32k:latest with num_ctx=32768 and temperature=0. This skill never writes xTranslator XML.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "26fb57557b00b535b80426fc0c9e8b07fb6631fd2487c74d1883d26ae34dd4ef",
+    "description": "Use a local Ollama translation model such as Hy-MT2 as a constrained base-translation worker inside the Skyrim MOD localization pipeline. Use this skill whenever an Agent has already understood the quest/dialogue/book context and wants the local model to translate prepared English strings into Chinese, especially for batch translation with fixed terminology, protected placeholders, deterministic IDs, or a 32K local context window. The high-level Agent remains responsible for semantics, spoiler boundaries, terminology decisions, and review; this skill only delegates the basic translation pass and validates the worker output before it can enter translation-executor results.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "localization",
+        "productivity",
+        "research",
+        "testing",
+        "commerce",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/gkd2323c/runed-lexicon/blob/main/.agents/skills/local-model-translator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:39:00.478677Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:39:00.478677Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "version": "0.2.0"
+    },
+    "name": "local-model-translator",
+    "path": ".agents/skills/local-model-translator",
+    "pushed_at": "2026-09-11T12:36:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "gkd2323c/runed-lexicon",
+    "repo_url": "https://github.com/gkd2323c/runed-lexicon",
+    "resources": {
+      "assets": 1,
+      "other": 1,
+      "references": 1,
+      "scripts": 3
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "635e4bd0c343636eb8453353dc931a4d85bfc48b0967f14394c318605cb5bae1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "635e4bd0c343636eb8453353dc931a4d85bfc48b0967f14394c318605cb5bae1"
+}

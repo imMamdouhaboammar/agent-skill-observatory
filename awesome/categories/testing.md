@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 39
+Published Skills: 40
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -34,6 +34,7 @@ Published Skills: 39
 | [clerk-setup](../skills/Gizziio/allternit-platform/.agents/skills/clerk-setup/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Add Clerk authentication to any project by following the official quickstart guides. |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |
 | [dispatching-parallel-agents-ko](../skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 독립 태스크 2개 이상이 공유 상태·순차 의존 없이 진행 가능할 때 사용 — 병렬 서브에이전트 dispatch로 동시에 처리 |
+| [local-model-translator](../skills/gkd2323c/runed-lexicon/.agents/skills/local-model-translator/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | Use a local Ollama translation model such as Hy-MT2 as a constrained base-translation worker inside the Skyrim MOD localization pipeline. Use this skill whenever an Agent has already understood the quest/dialogue/book context and wants the local model to translate prepared English strings into Chinese, especially for batch translation with fixed terminology, protected placeholders, deterministic IDs, or a 32K local context window. The high-level Agent remains responsible for semantics, spoiler boundaries, terminology decisions, and review; this skill only delegates the basic translation pass and validates the worker output before it can enter translation-executor results. |
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/iNNfo/.agents/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |

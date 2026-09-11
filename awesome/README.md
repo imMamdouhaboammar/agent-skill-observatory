@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **233**
-Repositories: **36**
+Published skills: **234**
+Repositories: **37**
 
 ## Browse repositories
 
@@ -36,6 +36,7 @@ Repositories: **36**
 - [fyniujin/devskill](./repos/fyniujin/devskill.md)
 - [gemyago/atlacp](./repos/gemyago/atlacp.md)
 - [giancaremma50-hue/demo-ats](./repos/giancaremma50-hue/demo-ats.md)
+- [gkd2323c/runed-lexicon](./repos/gkd2323c/runed-lexicon.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -273,6 +274,7 @@ Repositories: **36**
 - [clerk-tanstack-patterns](./skills/gizziio/allternit-platform/.agents/skills/clerk-tanstack-patterns/README.md) · `gizziio/allternit-platform:.agents/skills/clerk-tanstack-patterns`
 - [clerk-testing](./skills/gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) · `gizziio/allternit-platform:.agents/skills/clerk-testing`
 - [clerk-vue-patterns](./skills/gizziio/allternit-platform/.agents/skills/clerk-vue-patterns/README.md) · `gizziio/allternit-platform:.agents/skills/clerk-vue-patterns`
+- [local-model-translator](./skills/gkd2323c/runed-lexicon/.agents/skills/local-model-translator/README.md) · `gkd2323c/runed-lexicon:.agents/skills/local-model-translator`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
