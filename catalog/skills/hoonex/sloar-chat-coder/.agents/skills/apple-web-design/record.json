@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "29a7878e5fe8397124bb16c36411245c8491123757c509cf50a4b23c80a6b43d",
+  "canonical_key": "hoonex/sloar-chat-coder:.agents/skills/apple-web-design",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "29a7878e5fe8397124bb16c36411245c8491123757c509cf50a4b23c80a6b43d",
+    "archived": false,
+    "canonical_key": "hoonex/sloar-chat-coder:.agents/skills/apple-web-design",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2b5faf0241f2930108ad0adabf15dc336b1e623381d4a860890321235001c98f",
+    "description": "Build or review web interfaces that need Apple-style direct manipulation, interruptible gesture motion, velocity-aware settling, restrained translucent materials, deliberate state-transition craft, responsive typography, and motion/transparency accessibility. Use only when the target repository or user asks for this interaction language; target-repository engineering and visual rules always win.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "research",
+        "security",
+        "browser-automation"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/hoonex/sloar-chat-coder/blob/main/.agents/skills/apple-web-design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:04:01.815671Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:04:01.815671Z",
+    "license": "MIT",
+    "metadata": {
+      "adapted": "2026-08-27",
+      "adapted-from": "emilkowalski/skills: skills/apple-design"
+    },
+    "name": "apple-web-design",
+    "path": ".agents/skills/apple-web-design",
+    "pushed_at": "2026-09-11T07:59:12Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "hoonex/sloar-chat-coder",
+    "repo_url": "https://github.com/hoonex/sloar-chat-coder",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c5128bb933205e4b9deb7b3217c7d9f7972438700093cc91c64a3b294a4bae63",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "c5128bb933205e4b9deb7b3217c7d9f7972438700093cc91c64a3b294a4bae63"
+}

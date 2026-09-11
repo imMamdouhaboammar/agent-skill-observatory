@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **77**
-Repositories: **10**
+Published skills: **78**
+Repositories: **11**
 
 ## Browse repositories
 
@@ -15,6 +15,7 @@ Repositories: **10**
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
+- [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 
 ## Browse categories
 
@@ -116,3 +117,4 @@ Repositories: **10**
 - [code-mate-qwen-code](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-qwen-code/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-qwen-code`
 - [cherry-tool-guide](./skills/cherryhq/cherry-studio/resources/skills/cherry-tool-guide/README.md) · `cherryhq/cherry-studio:resources/skills/cherry-tool-guide`
 - [find-skills](./skills/cherryhq/cherry-studio/resources/skills/find-skills/README.md) · `cherryhq/cherry-studio:resources/skills/find-skills`
+- [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
