@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills)
 
-Published Skills: 27
+Published Skills: 28
 Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 99
-Security distribution: 85+=27, 60-84=0, <60=0
+Security distribution: 85+=28, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -35,4 +35,5 @@ Security distribution: 85+=27, 60-84=0, <60=0
 | [editing-for-clarity-and-tone](../../skills/jhonatan-oliveiradev/agent-skills/skills/editing-for-clarity-and-tone/README.md) | `skills/editing-for-clarity-and-tone` | 99 | 100 | content, engineering, legal-compliance, productivity, research |
 | [engineering-gsap-animations](../../skills/jhonatan-oliveiradev/agent-skills/skills/engineering-gsap-animations/README.md) | `skills/engineering-gsap-animations` | 99 | 100 | design, documentation, engineering, integrations, legal-compliance, media |
 | [evaluating-developer-proficiency](../../skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) | `skills/evaluating-developer-proficiency` | 99 | 100 | engineering, hr-recruiting, legal-compliance, product, research |
+| [evolving-postgres-schemas-safely](../../skills/jhonatan-oliveiradev/agent-skills/skills/evolving-postgres-schemas-safely/README.md) | `skills/evolving-postgres-schemas-safely` | 99 | 100 | content, data, devops, documentation, engineering, finance |
 | [building-hybrid-game-assets](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | `skills/building-hybrid-game-assets` | 96 | 100 | design, productivity, research |

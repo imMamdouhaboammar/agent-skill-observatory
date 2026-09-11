@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "13c843793243e28455c92f11ad58147fae5c6ba36d8033785c0fd487092ad261",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/evolving-postgres-schemas-safely",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "13c843793243e28455c92f11ad58147fae5c6ba36d8033785c0fd487092ad261",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/evolving-postgres-schemas-safely",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "549153122544f977c8886a9d92427be7bad73bacf270c49c48fc4e34b68343f5",
+    "description": "Use when changing a PostgreSQL schema that already contains production data or serves live traffic, especially for columns, constraints, indexes, types, backfills, renames, or destructive cleanup.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "data",
+        "content",
+        "devops",
+        "documentation",
+        "engineering",
+        "finance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/evolving-postgres-schemas-safely/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "evolving-postgres-schemas-safely",
+    "path": "skills/evolving-postgres-schemas-safely",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c3a1b5f1811922f31d4279fbc7244da00289f22c9390e29c200ebe6c3710d67b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "c3a1b5f1811922f31d4279fbc7244da00289f22c9390e29c200ebe6c3710d67b"
+}

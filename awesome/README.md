@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **339**
+Published skills: **340**
 Repositories: **48**
 
 ## Browse repositories
@@ -418,6 +418,7 @@ Repositories: **48**
 - [editing-for-clarity-and-tone](./skills/jhonatan-oliveiradev/agent-skills/skills/editing-for-clarity-and-tone/README.md) · `jhonatan-oliveiradev/agent-skills:skills/editing-for-clarity-and-tone`
 - [engineering-gsap-animations](./skills/jhonatan-oliveiradev/agent-skills/skills/engineering-gsap-animations/README.md) · `jhonatan-oliveiradev/agent-skills:skills/engineering-gsap-animations`
 - [evaluating-developer-proficiency](./skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) · `jhonatan-oliveiradev/agent-skills:skills/evaluating-developer-proficiency`
+- [evolving-postgres-schemas-safely](./skills/jhonatan-oliveiradev/agent-skills/skills/evolving-postgres-schemas-safely/README.md) · `jhonatan-oliveiradev/agent-skills:skills/evolving-postgres-schemas-safely`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`
