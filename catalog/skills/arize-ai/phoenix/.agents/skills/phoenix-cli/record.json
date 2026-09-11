@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "4b28eee853d4daae95c2dc4c25917036779d0db44cde837afd8c466b25b3baa6",
+  "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-cli",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "4b28eee853d4daae95c2dc4c25917036779d0db44cde837afd8c466b25b3baa6",
+    "archived": false,
+    "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-cli",
+    "compatibility": "Requires Node.js (for npx) or global install of @arizeai/phoenix-cli. Optionally requires jq for JSON processing.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "bf2af14b804d4f55b1e08fc707aa40c7a2814424df7dbc280f1e15e522039668",
+    "description": "Debug LLM applications using the Phoenix CLI. Fetch traces, spans, and sessions, annotate them, analyze errors, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user works with a Phoenix instance from the terminal.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "ai-ml",
+        "content",
+        "devops",
+        "documentation",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-cli/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1124,
+    "indexed_at": "2026-09-11T23:38:40.586223Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:38:40.586223Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "arize-ai",
+      "version": "3.4.0"
+    },
+    "name": "phoenix-cli",
+    "path": ".agents/skills/phoenix-cli",
+    "pushed_at": "2026-09-11T23:35:23Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3c40f317458dfedb9b69c92cdbc812e08936f9d8ca3cb24241959523766e942d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11416
+  },
+  "source_fingerprint": "3c40f317458dfedb9b69c92cdbc812e08936f9d8ca3cb24241959523766e942d"
+}

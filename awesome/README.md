@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **373**
-Repositories: **49**
+Published skills: **374**
+Repositories: **50**
 
 ## Browse repositories
 
@@ -10,6 +10,7 @@ Repositories: **49**
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
 - [Archivev/hicreator-agent](./repos/Archivev/hicreator-agent.md)
+- [Arize-ai/phoenix](./repos/Arize-ai/phoenix.md)
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
@@ -190,6 +191,7 @@ Repositories: **49**
 - [angular-developer](./skills/angular/skills/angular-developer/README.md) · `angular/skills:angular-developer`
 - [angular-new-app](./skills/angular/skills/angular-new-app/README.md) · `angular/skills:angular-new-app`
 - [hicreator](./skills/archivev/hicreator-agent/skills/hicreator/README.md) · `archivev/hicreator-agent:skills/hicreator`
+- [phoenix-cli](./skills/arize-ai/phoenix/.agents/skills/phoenix-cli/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-cli`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
