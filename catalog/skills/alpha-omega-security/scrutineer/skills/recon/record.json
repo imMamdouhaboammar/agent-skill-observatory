@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "6688ee0da49facf52fcb3615027619942b8c4cacc546971ebf3403085630f640",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/recon",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read,Write,Grep,Glob"
+    ],
+    "analysis_fingerprint": "6688ee0da49facf52fcb3615027619942b8c4cacc546971ebf3403085630f640",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/recon",
+    "compatibility": "Reads ./src and context.json only. Does not execute project code, install dependencies, contact external services, or report vulnerabilities.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "004af7e917dbac8a1ed38de3d21e0a84cb09240d3312e8502738dd48e14c7523",
+    "description": "Map distinct externally reachable input-processing subsystems into focus areas for the threat-model skill to carry into later security audits. This is a short, read-only orientation pass, not a vulnerability scan.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "security",
+        "content",
+        "design",
+        "documentation",
+        "engineering",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/recon/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.max_turns": "30",
+      "scrutineer.model": "mid",
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "freeform",
+      "scrutineer.version": "1"
+    },
+    "name": "recon",
+    "path": "skills/recon",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f86c7b7a10e5b878681372b0d51376b0480cc3936457d69e2171666ccd7d3a16",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "f86c7b7a10e5b878681372b0d51376b0480cc3936457d69e2171666ccd7d3a16"
+}
