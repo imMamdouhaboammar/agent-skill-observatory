@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 53
+Published Skills: 54
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -28,6 +28,7 @@ Published Skills: 53
 | [atm-evidence](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-evidence/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Explain missing evidence or blocked guidance before proceeding. |
 | [atm-framework-temp-claim](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-temp-claim/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Governed, tool-first route for scoped ATM framework quickfix work — dedicated skill for framework-mode claim, runner-sync queue-head reservation, sealed runner rebuild, and release, with CLI fallback that stays copy-paste runnable. |
 | [atm-internal-build-sync](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-internal-build-sync/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Build the ATM framework runner and sync it to explicit internal adopter repositories with skip/exclude controls. |
+| [atm-lock](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-lock/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Check, acquire, or release a governed scope lock. |
 | [seis-code](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-code/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS-Code for architecture-aware implementation, refactors, debugging, tests, CI quality gates, MCP/plugin engineering, Apple-first platform packages, repo automation, and code-review fixes in the SEIS ecosystem. Trigger when Codex needs a full engineering plugin lane rather than a generic coding response. |
 | [seis-integration-guardian](../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Keep SEIS MCP, plugin, skill, and provider integration work safe, documented, and honest. |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |
