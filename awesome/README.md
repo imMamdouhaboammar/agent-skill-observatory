@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **78**
+Published skills: **79**
 Repositories: **11**
 
 ## Browse repositories
@@ -31,6 +31,7 @@ Repositories: **11**
 - [engineering](./categories/engineering.md)
 - [integrations](./categories/integrations.md)
 - [legal-compliance](./categories/legal-compliance.md)
+- [marketing](./categories/marketing.md)
 - [media](./categories/media.md)
 - [other](./categories/other.md)
 - [productivity](./categories/productivity.md)
@@ -118,3 +119,4 @@ Repositories: **11**
 - [cherry-tool-guide](./skills/cherryhq/cherry-studio/resources/skills/cherry-tool-guide/README.md) · `cherryhq/cherry-studio:resources/skills/cherry-tool-guide`
 - [find-skills](./skills/cherryhq/cherry-studio/resources/skills/find-skills/README.md) · `cherryhq/cherry-studio:resources/skills/find-skills`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
+- [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
