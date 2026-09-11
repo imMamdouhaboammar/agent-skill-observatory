@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "7b4536e3eaa92bcf22c9b286d707d27a50e0374ca7de4788542a88e0159e9d04",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/building-regression-tests",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7b4536e3eaa92bcf22c9b286d707d27a50e0374ca7de4788542a88e0159e9d04",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/building-regression-tests",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7c5576a217c1d7ca9fc8c6fc32caa7d6fbd1835d6b46390726c5974dcf23a11d",
+    "description": "Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "testing",
+        "browser-automation",
+        "content",
+        "data",
+        "design",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/building-regression-tests/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "building-regression-tests",
+    "path": "skills/building-regression-tests",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "94d3f01f808948b968816c8b861c0b5eb1af7edbf86673be4279caf0aa0d9baa",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "94d3f01f808948b968816c8b861c0b5eb1af7edbf86673be4279caf0aa0d9baa"
+}
