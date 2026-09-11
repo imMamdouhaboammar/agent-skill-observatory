@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "628167835320546f6d2ada42f059590fbbeefcb9ed7799cd9988c0c1b066ae55",
+  "canonical_key": "hoshock/holodorioptimizer:.claude/skills/rules-convention",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "628167835320546f6d2ada42f059590fbbeefcb9ed7799cd9988c0c1b066ae55",
+    "archived": false,
+    "canonical_key": "hoshock/holodorioptimizer:.claude/skills/rules-convention",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2bd8a42cdde6703b50f4f7b3a37fb17a1b5892d66136bb0f511ee91f08e5c0ae",
+    "description": "What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。\nUse when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。\n",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Hoshock/HolodoriOptimizer/blob/main/.claude/skills/rules-convention/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:46:46.333393Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:46.333393Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "rules-convention",
+    "path": ".claude/skills/rules-convention",
+    "pushed_at": "2026-09-11T16:44:52Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Hoshock/HolodoriOptimizer",
+    "repo_url": "https://github.com/Hoshock/HolodoriOptimizer",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "db11b976a0084e3619415de9ddbd60030a3f0e0cfe1e01264b048bdad0528baf",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "db11b976a0084e3619415de9ddbd60030a3f0e0cfe1e01264b048bdad0528baf"
+}
