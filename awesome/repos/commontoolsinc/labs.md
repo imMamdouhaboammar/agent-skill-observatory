@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/commontoolsinc/labs](https://github.com/commontoolsinc/labs)
 
-Published Skills: 13
-Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, localization, media, productivity, research, testing
+Published Skills: 14
+Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, localization, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=13, 60-84=0, <60=0
+Security distribution: 85+=14, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,4 +21,5 @@ Security distribution: 85+=13, 60-84=0, <60=0
 | [pattern-implement](../../skills/commontoolsinc/labs/skills/pattern-implement/README.md) | `skills/pattern-implement` | 100 | 100 | commerce, content, data, design, documentation, testing |
 | [pattern-schema](../../skills/commontoolsinc/labs/skills/pattern-schema/README.md) | `skills/pattern-schema` | 100 | 100 | ai-ml, data, design, documentation, engineering, testing |
 | [pattern-test](../../skills/commontoolsinc/labs/skills/pattern-test/README.md) | `skills/pattern-test` | 100 | 100 | content, devops, documentation, engineering, productivity, testing |
+| [pattern-test-to-integration](../../skills/commontoolsinc/labs/skills/pattern-test-to-integration/README.md) | `skills/pattern-test-to-integration` | 100 | 100 | browser-automation, design, integrations, media, productivity, testing |
 | [pattern-ui](../../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | `packages/cf-harness/fixtures/hostile-skills-root/pattern-ui` | 100 | 100 | content, data, design, documentation, finance, media |

@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 126
+Published Skills: 127
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -42,6 +42,7 @@ Published Skills: 126
 | [pattern-iframe](../skills/commontoolsinc/labs/skills/pattern-iframe/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Build or generate a Common Fabric pattern whose primary UI is a self-contained `cf-iframe` guest. Use when an agent should turn an input-data shape and a small state/output contract into a working iframe-first pattern without learning the broader pattern framework, including plain DOM, React, D3, Phaser 2D games, Babylon.js 3D scenes, PerSpace/PerUser/PerSession data, path-scoped Cell access, stable array-item handles, mergeable pushes, or bridged SQLite. |
 | [pattern-implement](../skills/commontoolsinc/labs/skills/pattern-implement/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Build Common Fabric patterns and sub-patterns |
 | [pattern-schema](../skills/commontoolsinc/labs/skills/pattern-schema/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design schemas.tsx with Input/Output types for patterns |
+| [pattern-test-to-integration](../skills/commontoolsinc/labs/skills/pattern-test-to-integration/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Convert Common Fabric pattern unit tests (`*.test.tsx` driven by actions and assertions) into browser integration tests (`packages/patterns/integration/*.test.ts`) that exercise the rendered UI, scale to a chosen size, and can be recorded with `deno task demo`. Use when asked to promote, mirror, spot-check, browser-test, or make a video demo from an existing pattern test, including multi-user pattern tests. |
 | [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |

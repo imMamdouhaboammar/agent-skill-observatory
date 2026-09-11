@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "8133aa55e258fde6c3a528fe44f4358ffab8f04710727b68e183b0d67f03bea5",
+  "canonical_key": "commontoolsinc/labs:skills/pattern-test-to-integration",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8133aa55e258fde6c3a528fe44f4358ffab8f04710727b68e183b0d67f03bea5",
+    "archived": false,
+    "canonical_key": "commontoolsinc/labs:skills/pattern-test-to-integration",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "96826b15d8288156d8ba6fe3b313635d908d4fe3905aba8d12f6ad5ab6c599b1",
+    "description": "Convert Common Fabric pattern unit tests (`*.test.tsx` driven by actions and assertions) into browser integration tests (`packages/patterns/integration/*.test.ts`) that exercise the rendered UI, scale to a chosen size, and can be recorded with `deno task demo`. Use when asked to promote, mirror, spot-check, browser-test, or make a video demo from an existing pattern test, including multi-user pattern tests.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "design",
+        "media",
+        "browser-automation",
+        "integrations",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-test-to-integration/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 13,
+    "indexed_at": "2026-09-11T21:52:34.426480Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:52:34.426480Z",
+    "license": "0BSD",
+    "metadata": {},
+    "name": "pattern-test-to-integration",
+    "path": "skills/pattern-test-to-integration",
+    "pushed_at": "2026-09-11T21:47:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "commontoolsinc/labs",
+    "repo_url": "https://github.com/commontoolsinc/labs",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 54,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license 0BSD."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "08ef50474a1ab5ac7a0b72b9f3ab27a68ebeb4356903d6545242efa259f07327",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 38
+  },
+  "source_fingerprint": "08ef50474a1ab5ac7a0b72b9f3ab27a68ebeb4356903d6545242efa259f07327"
+}
