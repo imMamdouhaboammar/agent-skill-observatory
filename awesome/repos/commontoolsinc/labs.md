@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/commontoolsinc/labs](https://github.com/commontoolsinc/labs)
 
-Published Skills: 17
-Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, media, productivity, research, testing
+Published Skills: 18
+Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=17, 60-84=0, <60=0
+Security distribution: 85+=18, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -26,3 +26,4 @@ Security distribution: 85+=17, 60-84=0, <60=0
 | [pattern-ui](../../skills/commontoolsinc/labs/skills/pattern-ui/README.md) | `skills/pattern-ui` | 100 | 100 | commerce, content, design, documentation, engineering, productivity |
 | [spec-audit](../../skills/commontoolsinc/labs/skills/spec-audit/README.md) | `skills/spec-audit` | 100 | 100 | documentation, education, engineering, legal-compliance, productivity, research |
 | [state-inspector](../../skills/commontoolsinc/labs/skills/state-inspector/README.md) | `skills/state-inspector` | 100 | 100 | browser-automation, content, data, documentation, engineering, research |
+| [task-management](../../skills/commontoolsinc/labs/skills/task-management/README.md) | `skills/task-management` | 100 | 100 | agent-orchestration, integrations, productivity, research |
