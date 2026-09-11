@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **237**
+Published skills: **238**
 Repositories: **37**
 
 ## Browse repositories
@@ -278,6 +278,7 @@ Repositories: **37**
 - [shuo-ren-hua](./skills/gkd2323c/runed-lexicon/.agents/skills/shuo-ren-hua/README.md) · `gkd2323c/runed-lexicon:.agents/skills/shuo-ren-hua`
 - [skyrim-doc-system](./skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-doc-system/README.md) · `gkd2323c/runed-lexicon:.agents/skills/skyrim-doc-system`
 - [skyrim-term-contract-workflow](./skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-term-contract-workflow/README.md) · `gkd2323c/runed-lexicon:.agents/skills/skyrim-term-contract-workflow`
+- [skyrim-translation-craft](./skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-translation-craft/README.md) · `gkd2323c/runed-lexicon:.agents/skills/skyrim-translation-craft`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
