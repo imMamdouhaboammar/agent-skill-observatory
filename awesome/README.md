@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **172**
+Published skills: **173**
 Repositories: **26**
 
 ## Browse repositories
@@ -190,6 +190,7 @@ Repositories: **26**
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`
 - [atm-dispatch](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-dispatch/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-dispatch`
+- [atm-error-code-resolver](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-error-code-resolver/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-error-code-resolver`
 - [seis-integration-guardian](./skills/emirhankudun-ux/seis/.kimi-code/skills/seis-integration-guardian/README.md) · `emirhankudun-ux/seis:.kimi-code/skills/seis-integration-guardian`
 - [seis-automation](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-automation/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-automation`
 - [seis-cloud](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-cloud/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-cloud`
