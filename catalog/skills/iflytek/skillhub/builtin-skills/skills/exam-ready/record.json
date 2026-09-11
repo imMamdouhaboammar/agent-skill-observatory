@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "8e189833659bd66df4f1cc3f05be07dd6d28005c9ff74fc32a46b08ccf600b1a",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/exam-ready",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8e189833659bd66df4f1cc3f05be07dd6d28005c9ff74fc32a46b08ccf600b1a",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/exam-ready",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b246c0676f16df11666b4111ac457b270bf0a1183971b792532a2bfdd9a3b3dc",
+    "description": "Prepare a concise exam review from study materials and a syllabus supplied by the user. Use for topic summaries, recall questions, MCQ cues, and time-limited revision plans that must stay grounded in those materials.\n",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "documents",
+        "commerce",
+        "data",
+        "education",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/exam-ready/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "exam-ready",
+    "path": "builtin-skills/skills/exam-ready",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "521ca629e6ee6254aef9f9433566a3624bdd666699f96e95d44eac860fa4d8bc",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "521ca629e6ee6254aef9f9433566a3624bdd666699f96e95d44eac860fa4d8bc"
+}

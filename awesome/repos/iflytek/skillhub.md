@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/iflytek/skillhub](https://github.com/iflytek/skillhub)
 
-Published Skills: 10
-Categories: agent-orchestration, architecture, browser-automation, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, media, mobile, product, productivity, research, sales, security, testing
+Published Skills: 11
+Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, media, mobile, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=10, 60-84=0, <60=0
+Security distribution: 85+=11, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,5 +17,6 @@ Security distribution: 85+=10, 60-84=0, <60=0
 | [decision-matrix](../../skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) | `builtin-skills/skills/decision-matrix` | 100 | 100 | content, data, finance, legal-compliance, mobile, research |
 | [diagram-maker](../../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | `builtin-skills/skills/diagram-maker` | 100 | 100 | architecture, browser-automation, data, design, devops, integrations |
 | [documentation-writer](../../skills/iflytek/skillhub/builtin-skills/skills/documentation-writer/README.md) | `builtin-skills/skills/documentation-writer` | 100 | 100 | design, documentation, engineering, product, productivity, research |
+| [exam-ready](../../skills/iflytek/skillhub/builtin-skills/skills/exam-ready/README.md) | `builtin-skills/skills/exam-ready` | 100 | 100 | commerce, content, data, documents, education, engineering |
 | [pr-submission](../../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | `.agents/skills/pr-submission` | 100 | 100 | agent-orchestration, design, devops, documentation, engineering, testing |
 | [skill-lifecycle](../../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | `.agents/skills/skill-lifecycle` | 100 | 100 | design, documentation, engineering, productivity, research, security |
