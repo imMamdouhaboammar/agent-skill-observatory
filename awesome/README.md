@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **261**
-Repositories: **41**
+Published skills: **262**
+Repositories: **42**
 
 ## Browse repositories
 
@@ -44,6 +44,7 @@ Repositories: **41**
 - [hose1021/omp-dotfiles](./repos/hose1021/omp-dotfiles.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
+- [jairorodriguezarias/siesta](./repos/jairorodriguezarias/siesta.md)
 - [lightdash/lightdash](./repos/lightdash/lightdash.md)
 - [markmhendrickson/ateles](./repos/markmhendrickson/ateles.md)
 
@@ -333,6 +334,7 @@ Repositories: **41**
 - [weather](./skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) · `iflytek/skillhub:builtin-skills/skills/weather`
 - [dev-orchestrator](./skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) · `imeepos/ui-designer:.agents/skills/dev-orchestrator`
 - [rudder-design](./skills/imeepos/ui-designer/skill/rudder-design/README.md) · `imeepos/ui-designer:skill/rudder-design`
+- [code-simplification](./skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) · `jairorodriguezarias/siesta:.agents/skills/code-simplification`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

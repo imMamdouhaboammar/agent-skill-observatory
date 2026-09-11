@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 153
+Published Skills: 154
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -45,6 +45,7 @@ Published Skills: 153
 | [pr](../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Create single or stacked pull requests for EmbodiChain following the project's PR template and conventions, including proportional validation, dependency ordering, and proper GitHub repository labels |
 | [pre-commit-check](../skills/DexForce/EmbodiChain/.agents/skills/pre-commit-check/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use before committing or creating a PR for EmbodiChain to select proportional validation and verify affected code style, tests, headers, annotations, exports, and docstrings |
 | [update-api-docs](../skills/DexForce/EmbodiChain/.agents/skills/update-api-docs/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Generate or update EmbodiChain Sphinx API documentation for public Python exports. Use when the API docs checker or CI reports missing __all__ exports, after adding or changing public APIs, or when asked to fill, generate, or synchronize API-reference pages and their descriptions. |
+| [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [prodex-session-prompt-write](../skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) | [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 100 | 100 | 49 | Safely write a user prompt to and observe an already-running plain prodex s session through its default expose MCP bridge. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
