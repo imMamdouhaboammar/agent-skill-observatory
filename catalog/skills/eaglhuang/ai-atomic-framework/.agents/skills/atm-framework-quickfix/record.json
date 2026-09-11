@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "aaa9eeee53f9eff26bfdeee3a82b3b410cfcc378be367e25ab92d74acdee6b0d",
+  "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-framework-quickfix",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "aaa9eeee53f9eff26bfdeee3a82b3b410cfcc378be367e25ab92d74acdee6b0d",
+    "archived": false,
+    "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-framework-quickfix",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d35de1f7e53354e6712bbf050becc2c2c79712439735f92ec156c5c6c22f9de2",
+    "description": "Execute a bounded, evidence-backed ATM framework quickfix for a severe recurring blocker. Use when a captain needs to restore a broken fast path, control-plane latency, commitability, or fail-closed boundary without waiting for a broad governance closeout.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "engineering",
+        "productivity",
+        "content",
+        "devops",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-framework-quickfix/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T16:46:49.309201Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:49.309201Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "atm-framework-quickfix",
+    "path": ".agents/skills/atm-framework-quickfix",
+    "pushed_at": "2026-09-11T16:44:51Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "eaglhuang/AI-Atomic-Framework",
+    "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 26,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9fcd6587b4a5cfe624e619961a44124b35de675299af90d2de3dddb9ccd55463",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "9fcd6587b4a5cfe624e619961a44124b35de675299af90d2de3dddb9ccd55463"
+}
