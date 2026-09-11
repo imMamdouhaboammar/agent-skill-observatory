@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "063caa053e757ccc2cb9de811a4d017bbb43f750c2fc4a27fc6930f6506d059e",
+  "canonical_key": "markmhendrickson/ateles:.claude/skills/deploy-website",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "063caa053e757ccc2cb9de811a4d017bbb43f750c2fc4a27fc6930f6506d059e",
+    "archived": false,
+    "canonical_key": "markmhendrickson/ateles:.claude/skills/deploy-website",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "373f9478a355c0653df9c356e05eb125e28439f67cea313412fea57ee98c7b6e",
+    "description": "Deploy the markmhendrickson website: sync markdown edits to Neotoma, export website data, regenerate cache, update the CI export secret, push the website repo, and verify GitHub Actions.",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "devops",
+        "data",
+        "security",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/markmhendrickson/ateles/blob/main/.claude/skills/deploy-website/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:00:52.211704Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:00:52.211704Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "deploy-website",
+    "path": ".claude/skills/deploy-website",
+    "pushed_at": "2026-09-11T07:59:31Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "markmhendrickson/ateles",
+    "repo_url": "https://github.com/markmhendrickson/ateles",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 29,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9d6ef71c20641b11ffc81299fb304a453cd65c341e1a735d95441c843cd1d415",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "9d6ef71c20641b11ffc81299fb304a453cd65c341e1a735d95441c843cd1d415"
+}

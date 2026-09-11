@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/markmhendrickson/ateles](https://github.com/markmhendrickson/ateles)
 
-Published Skills: 6
-Categories: browser-automation, business, commerce, content, data, design, devops, documentation, engineering, integrations, product, productivity, research, testing
+Published Skills: 7
+Categories: browser-automation, business, commerce, content, data, design, devops, documentation, engineering, integrations, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,3 +15,4 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [create-prototype](../../skills/markmhendrickson/ateles/.claude/skills/create-prototype/README.md) | `.claude/skills/create-prototype` | 100 | 100 | design, engineering, productivity |
 | [create-rule](../../skills/markmhendrickson/ateles/.claude/skills/create-rule/README.md) | `.claude/skills/create-rule` | 100 | 100 | documentation, engineering, testing |
 | [create-website](../../skills/markmhendrickson/ateles/.claude/skills/create-website/README.md) | `.claude/skills/create-website` | 100 | 100 | devops, documentation, engineering, productivity |
+| [deploy-website](../../skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) | `.claude/skills/deploy-website` | 100 | 100 | data, devops, documentation, engineering, productivity, security |

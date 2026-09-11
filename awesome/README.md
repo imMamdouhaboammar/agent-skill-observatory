@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **110**
+Published skills: **111**
 Repositories: **15**
 
 ## Browse repositories
@@ -165,3 +165,4 @@ Repositories: **15**
 - [create-prototype](./skills/markmhendrickson/ateles/.claude/skills/create-prototype/README.md) · `markmhendrickson/ateles:.claude/skills/create-prototype`
 - [create-rule](./skills/markmhendrickson/ateles/.claude/skills/create-rule/README.md) · `markmhendrickson/ateles:.claude/skills/create-rule`
 - [create-website](./skills/markmhendrickson/ateles/.claude/skills/create-website/README.md) · `markmhendrickson/ateles:.claude/skills/create-website`
+- [deploy-website](./skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) · `markmhendrickson/ateles:.claude/skills/deploy-website`
