@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "ab476c482768d449c2274619acda50146cbbdd7b3c8d356b7661a0a480944af8",
+  "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-security",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ab476c482768d449c2274619acda50146cbbdd7b3c8d356b7661a0a480944af8",
+    "archived": false,
+    "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-security",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e0c467828e76ab8c9464374fadbf7a2cdf38b626605b4e9c482cc5e33ba199d7",
+    "description": "Use SEIS Security for threat modeling, secret-safety review, dependency and permission risk, rollback security, CI/security gates, cloud access safety, SSH/VPN hardening, and release-blocking security checks inside the SEIS repository and SEIS-Agent workflow.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "security",
+        "engineering",
+        "devops",
+        "productivity",
+        "integrations",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/emirhankudun-ux/SEIS/blob/main/plugins/seis-ai-agent/skills/seis-security/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:13.302101Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:13.302101Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "seis-security",
+    "path": "plugins/seis-ai-agent/skills/seis-security",
+    "pushed_at": "2026-09-11T12:36:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "emirhankudun-ux/SEIS",
+    "repo_url": "https://github.com/emirhankudun-ux/SEIS",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8faaf3a5e57579c573e26a6598394fea8b5f4c912b3b6e89de85127b5a117385",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "8faaf3a5e57579c573e26a6598394fea8b5f4c912b3b6e89de85127b5a117385"
+}
