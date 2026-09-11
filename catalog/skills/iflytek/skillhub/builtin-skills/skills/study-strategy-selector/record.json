@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "3958c8ae1d7e6cd6c0f517625311c2190ef5c6ca08b54e826a654ab16ef055d9",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/study-strategy-selector",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3958c8ae1d7e6cd6c0f517625311c2190ef5c6ca08b54e826a654ab16ef055d9",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/study-strategy-selector",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b8ceac6377e2a5b7f61b9000d6e5284dd14762ad4fdda40a778f4643f0a3ee39",
+    "description": "Recommend practical study strategies matched to the material, learning goal, assessment, time, and learner constraints. Use for revision planning, homework routines, independent study, replacing ineffective habits, or adapting recall, spacing, explanation, and practice activities.\n",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "education",
+        "research",
+        "data",
+        "design",
+        "localization"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/study-strategy-selector/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "CC-BY-SA-4.0",
+    "metadata": {},
+    "name": "study-strategy-selector",
+    "path": "builtin-skills/skills/study-strategy-selector",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "38d946ec701631c60e1f6a11157215c7f1b3ccc745f6805502c62646da1ee481",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "38d946ec701631c60e1f6a11157215c7f1b3ccc745f6805502c62646da1ee481"
+}
