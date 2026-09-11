@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework)
 
-Published Skills: 18
+Published Skills: 19
 Categories: agent-orchestration, commerce, content, data, devops, documentation, education, engineering, finance, hr-recruiting, productivity, project-management, research, testing
 Best overall score: 100
-Security distribution: 85+=18, 60-84=0, <60=0
+Security distribution: 85+=19, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -26,4 +26,5 @@ Security distribution: 85+=18, 60-84=0, <60=0
 | [atm-minimal-patch-rebuilder](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | `.agents/skills/atm-minimal-patch-rebuilder` | 100 | 100 | commerce, content, engineering, finance, hr-recruiting, productivity |
 | [atm-next](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-next/README.md) | `.agents/skills/atm-next` | 100 | 100 | content, devops, documentation, engineering, productivity, research |
 | [atm-orient](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-orient/README.md) | `.agents/skills/atm-orient` | 100 | 100 | content, data, documentation, engineering, productivity, research |
+| [atm-task-intent-resolver](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | `.agents/skills/atm-task-intent-resolver` | 100 | 100 | content, data, documentation, engineering, productivity, research |
 | [atm-residue-cleanup](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | `.agents/skills/atm-residue-cleanup` | 97 | 100 | devops, research, testing |
