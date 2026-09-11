@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **160**
-Repositories: **23**
+Published skills: **161**
+Repositories: **24**
 
 ## Browse repositories
 
@@ -20,6 +20,7 @@ Repositories: **23**
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
+- [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
@@ -130,6 +131,7 @@ Repositories: **23**
 - [hicreator](./skills/archivev/hicreator-agent/skills/hicreator/README.md) · `archivev/hicreator-agent:skills/hicreator`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
+- [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
