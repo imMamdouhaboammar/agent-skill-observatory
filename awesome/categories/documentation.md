@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 76
+Published Skills: 77
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -75,6 +75,7 @@ Published Skills: 76
 | [seis-research](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-research/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Research for evidence-led technical research, source evaluation, product/architecture discovery, official documentation review, standards/version checks, competitive or ecosystem analysis, and research-to-decision synthesis for SEIS. |
 | [documentation-criteria](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/documentation-criteria/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | documentation criteria, artifact selection, evidence requirements |
 | [nn-site-generator](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-site-generator/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Create or edit websites, add analytics, or add contact forms. Invoke with /nn-site-generator. |
+| [shuo-ren-hua](../skills/gkd2323c/runed-lexicon/.agents/skills/shuo-ren-hua/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | 把中文改到一遍能读懂：日常用词、完整句子、不用黑话、不吹不虚、不打比方、 不端着。AI 写的和人写的都适用，周报、公告、文档里的官腔一样治。写或改中文 文档、公告、周报、发布说明、README、commit 信息、PR 描述、邮件、演示文稿 时使用，把外文翻译成中文时同样适用。用户说「说人话」「去AI味」「太端着了」「别官腔」「口语化一点」 「简化一下」「去味」「读着别扭」，或调用 /shuo-ren-hua 时使用。规则覆盖 互联网黑话、一逗到底、三连短句排比、量词悬空（例如「给新手的一篇」）、 「不只是X更是Y」、全半角混用。只改文字，不改代码，纯英文写作交给英文的 skill。Rewrites Chinese prose so it reads clearly on the first pass: everyday words, complete sentences, no buzzwords, no hype, no metaphors, and no dangling measure phrases. |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [update-api-docs](../skills/DexForce/EmbodiChain/.claude/skills/update-api-docs/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain update-api-docs skill. |
