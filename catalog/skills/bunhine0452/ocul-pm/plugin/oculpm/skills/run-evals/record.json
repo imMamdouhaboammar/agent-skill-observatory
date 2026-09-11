@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "af6bb741bf3705aba3e0f77251ad2a6108a58347df60b12794d6276e6e2bc0e5",
+  "canonical_key": "bunhine0452/ocul-pm:plugin/oculpm/skills/run-evals",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "af6bb741bf3705aba3e0f77251ad2a6108a58347df60b12794d6276e6e2bc0e5",
+    "archived": false,
+    "canonical_key": "bunhine0452/ocul-pm:plugin/oculpm/skills/run-evals",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b4a750b0a39d6f833188d01955ea453a9cdffdaf0d21970f8a394735b30633c2",
+    "description": "기능 구현·수정을 마친 뒤 프로젝트의 EVALS.md 평가 기준을 실행/채점할 때. \"evals 돌려줘\" 요청이나 완료 게이트 검증에 사용.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bunhine0452/Ocul-PM/blob/main/plugin/oculpm/skills/run-evals/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-11T16:51:07.154762Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:07.154762Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "run-evals",
+    "path": "plugin/oculpm/skills/run-evals",
+    "pushed_at": "2026-09-11T16:44:34Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bunhine0452/Ocul-PM",
+    "repo_url": "https://github.com/bunhine0452/Ocul-PM",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 34,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "fe3c769ffe1068cac52d9247daed2f9d9fec351d2604a337b78b55c956aac73d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 7
+  },
+  "source_fingerprint": "fe3c769ffe1068cac52d9247daed2f9d9fec351d2604a337b78b55c956aac73d"
+}
