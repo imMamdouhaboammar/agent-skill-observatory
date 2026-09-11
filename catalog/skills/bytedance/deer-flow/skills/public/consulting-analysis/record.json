@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "45d3c4275cfc22454d9171a1a50329ab594db262807dd17fc30e37053eb27bce",
+  "canonical_key": "bytedance/deer-flow:skills/public/consulting-analysis",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "45d3c4275cfc22454d9171a1a50329ab594db262807dd17fc30e37053eb27bce",
+    "archived": false,
+    "canonical_key": "bytedance/deer-flow:skills/public/consulting-analysis",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5bc99df7e5f8af5471eaa5d20b85fc46e99895cf3f2642fa9da94108d03ca13e",
+    "description": "Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases — (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "finance",
+        "marketing",
+        "productivity",
+        "research",
+        "business"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/consulting-analysis/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 11345,
+    "indexed_at": "2026-09-11T23:39:20.634091Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:39:20.634091Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "consulting-analysis",
+    "path": "skills/public/consulting-analysis",
+    "pushed_at": "2026-09-11T23:35:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bytedance/deer-flow",
+    "repo_url": "https://github.com/bytedance/deer-flow",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "082b7a7142470be39e1a541c3d46b1a6cf50a544b2e0f74d2b16c3c01119e67e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 82289
+  },
+  "source_fingerprint": "082b7a7142470be39e1a541c3d46b1a6cf50a544b2e0f74d2b16c3c01119e67e"
+}

@@ -1,9 +1,10 @@
 # marketing
 
-Published Skills: 13
+Published Skills: 14
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [consulting-analysis](../skills/bytedance/deer-flow/skills/public/consulting-analysis/README.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82289 | Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases — (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights. |
 | [meeting-note-summarizer](../skills/iflytek/skillhub/builtin-skills/skills/meeting-note-summarizer/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Turn meeting notes or transcripts into factual summaries, decisions, questions, and action items. Use when a user wants a concise recap or needs explicit owners and deadlines extracted without filling in missing details. |
 | [storytelling-advisor](../skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Shape pitches, brand stories, presentations, and creative writing with narrative frameworks such as the Hero's Journey, Story Spine, and Freytag's Pyramid. Use when a user wants to structure, critique, or strengthen a story. |
 | [add-robot](../skills/DexForce/EmbodiChain/.agents/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new robot to EmbodiChain — scaffolds a RobotCfg subclass (single-file or package layout) with the _build_defaults hook, build_pk_serial_chain, registration, docs page, and test stub. |
