@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 290
+Published Skills: 291
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -27,6 +27,7 @@ Published Skills: 290
 | [skills-manager](../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/skills-manager/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | 搜索、安装和协调创建 Claude Code Agent Skills。当用户想要搜索技能、安装工具、创建自定义 Skill，或者说"find a skill"、"搜索技能"、"帮我做个 skill"、"create a skill"时触发。也适用于用户说"有没有做 X 的工具"、"我想扩展 Agent 能力"，或当前能力不足需要先查找可复用方案的场景。 |
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
 | [phoenix-cli](../skills/Arize-ai/phoenix/.agents/skills/phoenix-cli/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Debug LLM applications using the Phoenix CLI. Fetch traces, spans, and sessions, annotate them, analyze errors, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user works with a Phoenix instance from the terminal. |
+| [phoenix-design](../skills/Arize-ai/phoenix/.agents/skills/phoenix-design/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Design system conventions for the Phoenix frontend — layout, dialogs, error display, BEM CSS class naming, and CSS design tokens. Use when building UI, naming CSS classes, creating or consuming tokens, handling errors, or designing dialog interactions in js/app/src/. |
 | [frontend-design](../skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) | [lightdash/lightdash](https://github.com/lightdash/lightdash) | 100 | 100 | 6131 | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics. |
 | [backend-module-structure](../skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Rules for the SkillHub backend Maven multi-module clean architecture. Ensures agents place new code in the correct module and respect dependency direction. |
 | [code-conventions](../skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code. |

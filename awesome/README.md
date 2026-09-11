@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **374**
+Published skills: **375**
 Repositories: **50**
 
 ## Browse repositories
@@ -192,6 +192,7 @@ Repositories: **50**
 - [angular-new-app](./skills/angular/skills/angular-new-app/README.md) · `angular/skills:angular-new-app`
 - [hicreator](./skills/archivev/hicreator-agent/skills/hicreator/README.md) · `archivev/hicreator-agent:skills/hicreator`
 - [phoenix-cli](./skills/arize-ai/phoenix/.agents/skills/phoenix-cli/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-cli`
+- [phoenix-design](./skills/arize-ai/phoenix/.agents/skills/phoenix-design/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-design`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
