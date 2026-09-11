@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 139
+Published Skills: 140
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -101,6 +101,7 @@ Published Skills: 139
 | [defining-brand-strategy](../skills/jhonatan-oliveiradev/agent-skills/skills/defining-brand-strategy/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a new, repositioned, or inconsistent brand needs explicit audience, positioning, differentiation, personality, and decision criteria before naming, identity, or messaging work begins. |
 | [designing-developer-portfolio-evidence](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when roadmap gaps need to become credible portfolio artifacts with explicit evidence contracts showing which capabilities a project must actually demonstrate. |
 | [designing-test-strategies](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-test-strategies/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a feature, service, or release needs a deliberate verification plan and the team is unsure which risks belong in unit, integration, end-to-end, or non-functional tests. |
+| [designing-ui-systems](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features. |
 | [frontend](../skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 99 | 100 | 0 | React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke). |
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |
 | [cherry-studio-feedback](../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 97 | 100 | 51666 | Use when Cherry Studio 用户希望报告、提交或整理 BUG、UI/UX 问题或功能建议，但未明确要求创建 GitHub Issue。 |

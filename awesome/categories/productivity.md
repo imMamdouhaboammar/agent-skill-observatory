@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 171
+Published Skills: 172
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -146,6 +146,7 @@ Published Skills: 171
 | [designing-action-combat](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-action-combat/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or tuning real-time game combat involving attacks, hit reactions, dodge or guard behavior, enemy telegraphs, combos, animation timing, or moment-to-moment combat readability. |
 | [designing-relational-data-models](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-relational-data-models/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when defining or reviewing a relational data model where entities, ownership, cardinality, lifecycle, constraints, or access patterns need explicit decisions before implementation. |
 | [designing-software-boundaries](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-software-boundaries/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when modules, services, packages, or teams have unclear ownership, cyclic dependencies, shared state, change coupling, or responsibilities that are difficult to evolve independently. |
+| [designing-ui-systems](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features. |
 | [frontend](../skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 99 | 100 | 0 | React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke). |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |

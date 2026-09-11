@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **333**
+Published skills: **334**
 Repositories: **48**
 
 ## Browse repositories
@@ -412,6 +412,7 @@ Repositories: **48**
 - [designing-relational-data-models](./skills/jhonatan-oliveiradev/agent-skills/skills/designing-relational-data-models/README.md) · `jhonatan-oliveiradev/agent-skills:skills/designing-relational-data-models`
 - [designing-software-boundaries](./skills/jhonatan-oliveiradev/agent-skills/skills/designing-software-boundaries/README.md) · `jhonatan-oliveiradev/agent-skills:skills/designing-software-boundaries`
 - [designing-test-strategies](./skills/jhonatan-oliveiradev/agent-skills/skills/designing-test-strategies/README.md) · `jhonatan-oliveiradev/agent-skills:skills/designing-test-strategies`
+- [designing-ui-systems](./skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) · `jhonatan-oliveiradev/agent-skills:skills/designing-ui-systems`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

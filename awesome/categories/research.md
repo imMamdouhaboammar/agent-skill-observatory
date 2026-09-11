@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 124
+Published Skills: 125
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -101,6 +101,7 @@ Published Skills: 124
 | [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
 | [defining-brand-strategy](../skills/jhonatan-oliveiradev/agent-skills/skills/defining-brand-strategy/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a new, repositioned, or inconsistent brand needs explicit audience, positioning, differentiation, personality, and decision criteria before naming, identity, or messaging work begins. |
 | [designing-developer-portfolio-evidence](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when roadmap gaps need to become credible portfolio artifacts with explicit evidence contracts showing which capabilities a project must actually demonstrate. |
+| [designing-ui-systems](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features. |
 | [add-robot](../skills/DexForce/EmbodiChain/.claude/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-robot skill. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |

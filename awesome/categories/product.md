@@ -1,6 +1,6 @@
 # product
 
-Published Skills: 16
+Published Skills: 17
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -20,3 +20,4 @@ Published Skills: 16
 | [defining-brand-strategy](../skills/jhonatan-oliveiradev/agent-skills/skills/defining-brand-strategy/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a new, repositioned, or inconsistent brand needs explicit audience, positioning, differentiation, personality, and decision criteria before naming, identity, or messaging work begins. |
 | [designing-developer-portfolio-evidence](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when roadmap gaps need to become credible portfolio artifacts with explicit evidence contracts showing which capabilities a project must actually demonstrate. |
 | [designing-relational-data-models](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-relational-data-models/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when defining or reviewing a relational data model where entities, ownership, cardinality, lifecycle, constraints, or access patterns need explicit decisions before implementation. |
+| [designing-ui-systems](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features. |

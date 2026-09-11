@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "00df41ae306ae7214e5afef72838759488a3e1ac3008c4f5e546184d845dec08",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/designing-ui-systems",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "00df41ae306ae7214e5afef72838759488a3e1ac3008c4f5e546184d845dec08",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/designing-ui-systems",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d3e7dd44b5729558041a192cb069596b01f283a5f4da5dcc72fd957620fd38a4",
+    "description": "Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "product",
+        "productivity",
+        "research",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-ui-systems/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "designing-ui-systems",
+    "path": "skills/designing-ui-systems",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "296b4432c28362f521cb9a4fd2afaa2b5b75836f028bdda19e9f3811eb527f4d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "296b4432c28362f521cb9a4fd2afaa2b5b75836f028bdda19e9f3811eb527f4d"
+}
