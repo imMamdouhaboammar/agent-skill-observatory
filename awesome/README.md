@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **283**
+Published skills: **284**
 Repositories: **44**
 
 ## Browse repositories
@@ -358,6 +358,7 @@ Repositories: **44**
 - [building-brand-guidelines](./skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-brand-guidelines`
 - [building-conversion-product-pages](./skills/jhonatan-oliveiradev/agent-skills/skills/building-conversion-product-pages/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-conversion-product-pages`
 - [building-developer-career-roadmaps](./skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-developer-career-roadmaps`
+- [building-hybrid-game-assets](./skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-hybrid-game-assets`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

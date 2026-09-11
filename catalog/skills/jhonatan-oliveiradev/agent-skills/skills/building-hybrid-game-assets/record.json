@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "ea503dc16e81c4ddda1a576a0d2d0c10c0a273b1d2e5ed8ec9f76c0ceb7bac69",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/building-hybrid-game-assets",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ea503dc16e81c4ddda1a576a0d2d0c10c0a273b1d2e5ed8ec9f76c0ceb7bac69",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/building-hybrid-game-assets",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "44a2c3a47f23f27bded88085f222d7ac53d382825503cd12b25232d6ad4bffad",
+    "description": "Use when a game needs a practical pipeline combining generated, hand-authored, 2D, 3D, procedural, or purchased assets while keeping visual consistency, runtime constraints, and iteration speed under control.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/building-hybrid-game-assets/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "building-hybrid-game-assets",
+    "path": "skills/building-hybrid-game-assets",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 85,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "14f490a549f594502b0267679d514eb35cc571551a5871033be834df26cf6b00",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "14f490a549f594502b0267679d514eb35cc571551a5871033be834df26cf6b00"
+}
