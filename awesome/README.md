@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **194**
-Repositories: **28**
+Published skills: **195**
+Repositories: **29**
 
 ## Browse repositories
 
@@ -28,6 +28,7 @@ Repositories: **28**
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
 - [flext-sh/flext-dbt-ldap](./repos/flext-sh/flext-dbt-ldap.md)
 - [fyniujin/devskill](./repos/fyniujin/devskill.md)
+- [gemyago/atlacp](./repos/gemyago/atlacp.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -226,6 +227,7 @@ Repositories: **28**
 - [documentation-criteria](./skills/flext-sh/flext-dbt-ldap/.gemini/skills/documentation-criteria/README.md) · `flext-sh/flext-dbt-ldap:.gemini/skills/documentation-criteria`
 - [security-review](./skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) · `flext-sh/flext-dbt-ldap:.gemini/skills/security-review`
 - [cn-model-gateway](./skills/fyniujin/devskill/cn-model-gateway/README.md) · `fyniujin/devskill:cn-model-gateway`
+- [gopher](./skills/gemyago/atlacp/.agent/skills/gopher/README.md) · `gemyago/atlacp:.agent/skills/gopher`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

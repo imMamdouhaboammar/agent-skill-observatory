@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "368645f0e3a6ed759132c85f46be0aa3454978679652ca0b4c8e4c23dccca9fe",
+  "canonical_key": "gemyago/atlacp:.agent/skills/gopher",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "368645f0e3a6ed759132c85f46be0aa3454978679652ca0b4c8e4c23dccca9fe",
+    "archived": false,
+    "canonical_key": "gemyago/atlacp:.agent/skills/gopher",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4585c17ebe9766a91f9be6face6faf56d93631325a132fa6c7a48f74aa41b204",
+    "description": "Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "design",
+        "engineering",
+        "commerce",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/gemyago/atlacp/blob/main/.agent/skills/gopher/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T12:44:01.617381Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:44:01.617381Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "gopher",
+    "path": ".agent/skills/gopher",
+    "pushed_at": "2026-09-11T12:35:53Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "gemyago/atlacp",
+    "repo_url": "https://github.com/gemyago/atlacp",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 32,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b2ed0d38dade332f4d3c57a8ffb0b67b1eb4ed2ef88b9e5133139688f6480d90",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 7
+  },
+  "source_fingerprint": "b2ed0d38dade332f4d3c57a8ffb0b67b1eb4ed2ef88b9e5133139688f6480d90"
+}
