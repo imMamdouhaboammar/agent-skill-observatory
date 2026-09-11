@@ -1,0 +1,105 @@
+{
+  "analysis_fingerprint": "dbc08a59c38ff4d9839227a6b05c0a3833164f58cb02230ab04f4a5a391e1346",
+  "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-react-router-patterns",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "WebFetch"
+    ],
+    "analysis_fingerprint": "dbc08a59c38ff4d9839227a6b05c0a3833164f58cb02230ab04f4a5a391e1346",
+    "archived": false,
+    "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-react-router-patterns",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5c019c33aa5b7ef864206311cb415232e80d18728fa0bafbdadbca56a6d2d2b9",
+    "description": "React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders, clerkMiddleware, protected routes, SSR user data, org switching. Triggers on: react-router auth, rootAuthLoader, getAuth loader, react-router protected route, loader authentication, SSR auth react-router, useNavigate may be used only in the context of a Router.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "content",
+        "design",
+        "documentation",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Gizziio/allternit-platform/blob/main/.agents/skills/clerk-react-router-patterns/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:51:13.660809Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:13.660809Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "clerk",
+      "version": "1.1.0"
+    },
+    "name": "clerk-react-router-patterns",
+    "path": ".agents/skills/clerk-react-router-patterns",
+    "pushed_at": "2026-09-11T16:44:32Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Gizziio/allternit-platform",
+    "repo_url": "https://github.com/Gizziio/allternit-platform",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3e427d4f8b5b62a679d75905ed154d19dd41617f5fc24b0c27e9f4bef04071b8",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "3e427d4f8b5b62a679d75905ed154d19dd41617f5fc24b0c27e9f4bef04071b8"
+}
