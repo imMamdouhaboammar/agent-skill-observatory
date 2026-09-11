@@ -1,0 +1,94 @@
+{
+  "analysis_fingerprint": "7eeba65bdfeac34cb930e41cf2d241c7bb1f8dd1bf503afd8f8fe0c168ebd694",
+  "canonical_key": "hoshock/holodorioptimizer:.claude/skills/structure-import",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7eeba65bdfeac34cb930e41cf2d241c7bb1f8dd1bf503afd8f8fe0c168ebd694",
+    "archived": false,
+    "canonical_key": "hoshock/holodorioptimizer:.claude/skills/structure-import",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e48fc481b445bc6bdd517913694ef5349d24bafe6113e51a82f1b681897020cd",
+    "description": "What: 『hololive Dreams』のゲーム内「メンバー一覧」スクリーンショットから、所持している★5カードと開花段階を読み取り、ホロドリ編成お助けツールへ貼り付けて取り込めるJSONを作る。\nUse when: ユーザーがメンバー一覧のスクリーンショットを添付し、所持カードの取り込み用JSON作成を依頼したとき。\n",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "other"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Hoshock/HolodoriOptimizer/blob/main/.claude/skills/structure-import/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:46:46.333393Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:46.333393Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "structure-import",
+    "path": ".claude/skills/structure-import",
+    "pushed_at": "2026-09-11T16:44:52Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Hoshock/HolodoriOptimizer",
+    "repo_url": "https://github.com/Hoshock/HolodoriOptimizer",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ba1d8f7c5cd300bcebcf3e2f2270e78d8035e466ffb3b9b4b57f9d730f790664",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "ba1d8f7c5cd300bcebcf3e2f2270e78d8035e466ffb3b9b4b57f9d730f790664"
+}

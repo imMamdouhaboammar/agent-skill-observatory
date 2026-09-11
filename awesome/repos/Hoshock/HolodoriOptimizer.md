@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer)
 
-Published Skills: 6
-Categories: ai-ml, architecture, data, design, documentation, engineering, testing
+Published Skills: 7
+Categories: ai-ml, architecture, data, design, documentation, engineering, other, testing
 Best overall score: 99
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,4 +14,5 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [induction](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | `.claude/skills/induction` | 99 | 100 | documentation, engineering |
 | [rules-convention](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | `.claude/skills/rules-convention` | 99 | 100 | design, engineering |
 | [skills-convention](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/skills-convention/README.md) | `.claude/skills/skills-convention` | 99 | 100 | ai-ml, engineering |
+| [structure-import](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/structure-import/README.md) | `.claude/skills/structure-import` | 99 | 100 | other |
 | [parameter-calculation](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/parameter-calculation/README.md) | `.claude/skills/parameter-calculation` | 96 | 100 | architecture, data, design, documentation, testing |
