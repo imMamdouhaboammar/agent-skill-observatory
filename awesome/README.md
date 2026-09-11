@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **147**
-Repositories: **21**
+Published skills: **148**
+Repositories: **22**
 
 ## Browse repositories
 
@@ -21,6 +21,7 @@ Repositories: **21**
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
+- [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -172,6 +173,7 @@ Repositories: **21**
 - [add-task-env](./skills/dexforce/embodichain/.claude/skills/add-task-env/README.md) · `dexforce/embodichain:.claude/skills/add-task-env`
 - [review-pr](./skills/dexforce/embodichain/.claude/skills/review-pr/README.md) · `dexforce/embodichain:.claude/skills/review-pr`
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
+- [seis-integration-guardian](./skills/emirhankudun-ux/seis/.kimi-code/skills/seis-integration-guardian/README.md) · `emirhankudun-ux/seis:.kimi-code/skills/seis-integration-guardian`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

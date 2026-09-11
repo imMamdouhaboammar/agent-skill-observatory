@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 13
+Published Skills: 14
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -15,5 +15,6 @@ Published Skills: 13
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
+| [seis-integration-guardian](../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Keep SEIS MCP, plugin, skill, and provider integration work safe, documented, and honest. |
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
