@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **271**
+Published skills: **272**
 Repositories: **43**
 
 ## Browse repositories
@@ -345,6 +345,7 @@ Repositories: **43**
 - [browser-lanes](./skills/jeong-sik/masc/skills/browser-lanes/README.md) · `jeong-sik/masc:skills/browser-lanes`
 - [evidence-review](./skills/jeong-sik/masc/skills/evidence-review/README.md) · `jeong-sik/masc:skills/evidence-review`
 - [msx-play](./skills/jeong-sik/masc/skills/msx-play/README.md) · `jeong-sik/masc:skills/msx-play`
+- [observe-act-verify](./skills/jeong-sik/masc/skills/observe-act-verify/README.md) · `jeong-sik/masc:skills/observe-act-verify`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`
