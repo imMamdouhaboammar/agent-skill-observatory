@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 217
+Published Skills: 218
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -162,6 +162,7 @@ Published Skills: 217
 | [web-design-guidance](../skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Design, build, or review user-facing web UI with adaptive ambiguity-aware discovery, multi-axis design direction, repository-aware design-system preservation, structural-integrity auditing, responsive/accessibility states, anti-AI-slop auditing, and rendered visual verification. Use for substantial web UI/UX work unless the repository or user supplies a stronger design workflow. Repository and user design rules always win. |
 | [analyzing-change-blast-radius](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it. |
 | [analyzing-developer-career-opportunities](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations. |
+| [assessing-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/assessing-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs an evidence-aware diagnosis of current capabilities, confidence, unknowns, and weakly demonstrated areas before deciding what to improve. |
 | [claude-md-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: CLAUDE.md の基準 — エージェント向けの索引として何を載せ、何をどこへ逃がすかの判定（One Test・Include/Exclude 表・振り分け表）。 Use when: CLAUDE.md を書く・追記する・削る・監査するとき、またはある指示の置き場が CLAUDE.md かスキルかルールかフックかで迷ったとき。 |
 | [induction](../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: ユーザーのフィードバックを分類し、ルール候補として docs/ai/tmp/rules.md に記録する手順を定める。 Use when: ユーザーがフィードバック・訂正・好みを示したとき(口頭でもファイルの直接編集でも)。記録を求められていなくても適用する。 |
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |

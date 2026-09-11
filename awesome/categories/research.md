@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 104
+Published Skills: 105
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -82,6 +82,7 @@ Published Skills: 104
 | [xtranslator-xml-writer](../skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | Safely apply validated Skyrim mod translation-result JSON files or minimal atomic patches to xTranslator XML by changing only intended destination text and verifying source version, XML identity, protected tokens, duplicate units, and post-write structure. Use whenever completed translation batches need to become an xTranslator-importable XML file, or when a small revision (a handful of strings) must be applied to an existing translated XML without rebuilding full batch context. This skill writes a new XML by default and must not freely reserialize the source document. |
 | [analyzing-change-blast-radius](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it. |
 | [analyzing-developer-career-opportunities](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations. |
+| [assessing-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/assessing-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs an evidence-aware diagnosis of current capabilities, confidence, unknowns, and weakly demonstrated areas before deciding what to improve. |
 | [add-robot](../skills/DexForce/EmbodiChain/.claude/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-robot skill. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |
