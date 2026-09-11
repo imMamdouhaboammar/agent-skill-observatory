@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "3c04e5c853b74651494234e50ac19d997026de04a1217489a1362e00080596cb",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/packages",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3c04e5c853b74651494234e50ac19d997026de04a1217489a1362e00080596cb",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/packages",
+    "compatibility": "Prefers the scrutineer API's cached ecosyste.ms payload; needs network access to packages.ecosyste.ms only when nothing is cached.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "71387447369553febc8e37c0423f62b2070b78f104ccfb850423ff9b5d9f2e7d",
+    "description": "Look up every package this repository publishes across all registries via packages.ecosyste.ms, with downloads, dependent counts, latest version, registry URL and supply-chain risk flags.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "commerce",
+        "content",
+        "devops",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/packages/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "packages",
+      "scrutineer.requires_remote": "True",
+      "scrutineer.version": "1"
+    },
+    "name": "packages",
+    "path": "skills/packages",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d5823f18177296f80ac0f246c5d40c5d78fb1d5a6bf64ff43821b050685aad62",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "d5823f18177296f80ac0f246c5d40c5d78fb1d5a6bf64ff43821b050685aad62"
+}
