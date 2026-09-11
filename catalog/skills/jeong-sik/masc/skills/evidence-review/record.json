@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "93aab45c9315e1fa4606b132e7d555e9d8fb58b446af724820e0c8a8eca78aa5",
+  "canonical_key": "jeong-sik/masc:skills/evidence-review",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "93aab45c9315e1fa4606b132e7d555e9d8fb58b446af724820e0c8a8eca78aa5",
+    "archived": false,
+    "canonical_key": "jeong-sik/masc:skills/evidence-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4d020c5bc575f2e257e29d46aca857d45392aceb1524f7f59ab8356cb32fad9a",
+    "description": "Task 완료나 Goal 달성의 증거를 검토할 때, 제출 자료와 실행 로그를 요구 항목·리비전·측정 조건에 대조합니다.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jeong-sik/masc/blob/main/skills/evidence-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:19:53.911644Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:53.911644Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "evidence-review",
+    "path": "skills/evidence-review",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jeong-sik/masc",
+    "repo_url": "https://github.com/jeong-sik/masc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7baab29516d6a80614691f9911b99bf045b971f4e4159ea5c0d603a46af48690",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "7baab29516d6a80614691f9911b99bf045b971f4e4159ea5c0d603a46af48690"
+}
