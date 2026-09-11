@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "88f9b8d45f4efa4cf3ef0add3a78a6bfd70686b823e5fd219ab9cb5fa7faea43",
+  "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-kimi-code",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "88f9b8d45f4efa4cf3ef0add3a78a6bfd70686b823e5fd219ab9cb5fa7faea43",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-kimi-code",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8aab7e33410cd0451b70266a544c6fe74c2c2d16089e42fee1b9d439cb24c58b",
+    "description": "Runs Kimi Code in non-interactive prompt mode and parses its event stream. Use when the user asks to delegate a bounded repository task to Kimi Code.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "content",
+        "commerce",
+        "design",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/code-cli-skills/code-mate-kimi-code/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "code-mate-kimi-code",
+    "path": "resources/code-cli-skills/code-mate-kimi-code",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6260bd1b4325e415fc610f86afd7110f293afd9aecbd44f55c91955c4feb8e9c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "6260bd1b4325e415fc610f86afd7110f293afd9aecbd44f55c91955c4feb8e9c"
+}
