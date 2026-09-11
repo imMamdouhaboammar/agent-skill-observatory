@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
 
-Published Skills: 9
+Published Skills: 10
 Categories: architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=9, 60-84=0, <60=0
+Security distribution: 85+=10, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -18,3 +18,4 @@ Security distribution: 85+=9, 60-84=0, <60=0
 | [frontend-design](../../skills/bytedance/deer-flow/skills/public/frontend-design/README.md) | `skills/public/frontend-design` | 100 | 100 | content, design, devops, engineering, integrations |
 | [newsletter-generation](../../skills/bytedance/deer-flow/skills/public/newsletter-generation/README.md) | `skills/public/newsletter-generation` | 100 | 100 | content, data, legal-compliance, marketing, productivity, research |
 | [skill-reviewer](../../skills/bytedance/deer-flow/skills/public/skill-reviewer/README.md) | `skills/public/skill-reviewer` | 100 | 100 | code-review, content, data, design, research, security |
+| [surprise-me](../../skills/bytedance/deer-flow/skills/public/surprise-me/README.md) | `skills/public/surprise-me` | 100 | 100 | data, design, documents, productivity, research |
