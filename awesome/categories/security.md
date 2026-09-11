@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 38
+Published Skills: 39
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -39,6 +39,7 @@ Published Skills: 38
 | [skyrim-term-contract-workflow](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-term-contract-workflow/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 的官方名词契约与质量门禁工作流：新 MOD 开工前与批次收尾后的强制流程（dictionary-noun-audit 候选发现 → Agent 消解 → term-contract-compiler 编译契约 → unit bindings → translation-quality-gate → 确定性写回 → 复扫），含 PASS 声明口径与已知工具行为。Use when starting a new MOD translation, finishing any translation/rectification batch, running or interpreting dictionary-noun-audit / term-contract-compiler / translation-quality-gate / xtranslator-xml-writer results, or writing convergence claims in reports. |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [theme-factory](../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 100 | 100 | 0 | 為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。 |
+| [auditing-dependency-risk](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-dependency-risk/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs software-supply-chain or third-party dependency risk assessed from manifests, lockfiles, advisories, provenance, maintenance signals, and realistic runtime exposure before upgrades or release. |
 | [make-repo-contribution](../skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly. |
 | [notify](../skills/alizaouane/dev-agent/skills/notify/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to fan out gate-transition notifications across push (ntfy/pushover/slack), email (resend), GitHub issue comment, and the project status file. Wraps lib/notify.ts. |
 | [scout](../skills/alizaouane/dev-agent/skills/scout/README.md) | [alizaouane/dev-agent](https://github.com/alizaouane/dev-agent) | 86 | 100 | 0 | Use to discover candidate features by polling configured sources (GH issues, Vercel logs, Supabase logs, codebase audit, competitive feeds). Generates a daily digest issue with deduplication and rejection-suppression. |

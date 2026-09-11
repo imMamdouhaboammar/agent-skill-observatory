@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "38f49ed0f9ed93c9f8f0b59a454bda7e1e099014a5a8f10e82d7a6c7b282dc99",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/auditing-dependency-risk",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "38f49ed0f9ed93c9f8f0b59a454bda7e1e099014a5a8f10e82d7a6c7b282dc99",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/auditing-dependency-risk",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e49b4318e68fa988a55e8aab67c18dd91460b7d95dc8e64d3ef97d452ca3e0c9",
+    "description": "Use when a project needs software-supply-chain or third-party dependency risk assessed from manifests, lockfiles, advisories, provenance, maintenance signals, and realistic runtime exposure before upgrades or release.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "security",
+        "research",
+        "devops",
+        "data",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/auditing-dependency-risk/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "auditing-dependency-risk",
+    "path": "skills/auditing-dependency-risk",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3578fc25a5df5f4e017748a0ff6478ba7c7792f01273c67bbb78f253f6f7309b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "3578fc25a5df5f4e017748a0ff6478ba7c7792f01273c67bbb78f253f6f7309b"
+}
