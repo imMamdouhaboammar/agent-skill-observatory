@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **164**
+Published skills: **165**
 Repositories: **24**
 
 ## Browse repositories
@@ -135,6 +135,7 @@ Repositories: **24**
 - [oculpm-journal](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/oculpm-journal/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/oculpm-journal`
 - [project-inception](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/project-inception/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/project-inception`
 - [run-evals](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/run-evals/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/run-evals`
+- [self-audit](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/self-audit/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/self-audit`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
