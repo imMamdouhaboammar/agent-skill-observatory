@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **80**
+Published skills: **81**
 Repositories: **12**
 
 ## Browse repositories
@@ -32,6 +32,7 @@ Repositories: **12**
 - [engineering](./categories/engineering.md)
 - [integrations](./categories/integrations.md)
 - [legal-compliance](./categories/legal-compliance.md)
+- [localization](./categories/localization.md)
 - [marketing](./categories/marketing.md)
 - [media](./categories/media.md)
 - [other](./categories/other.md)
@@ -122,3 +123,4 @@ Repositories: **12**
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
+- [code-conventions](./skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) · `iflytek/skillhub:.agents/skills/code-conventions`

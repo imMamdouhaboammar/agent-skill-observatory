@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "bb15910f0d44f13ccb1524bb58609fe0ea500e38b568451d5f31a9fd1f934f8d",
+  "canonical_key": "iflytek/skillhub:.agents/skills/code-conventions",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "bb15910f0d44f13ccb1524bb58609fe0ea500e38b568451d5f31a9fd1f934f8d",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:.agents/skills/code-conventions",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ad8d44e46bb498161e89d019c1437de43f4fe4861ae0655d2efd8244efb16609",
+    "description": "Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code.",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "testing",
+        "localization",
+        "content",
+        "design",
+        "security"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/.agents/skills/code-conventions/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "code-conventions",
+    "path": ".agents/skills/code-conventions",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f03c9c0a32df4be9a2fa65ab047b0d420cd47650286deb428450b45f8eb72f6b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "f03c9c0a32df4be9a2fa65ab047b0d420cd47650286deb428450b45f8eb72f6b"
+}
