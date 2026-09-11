@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "4944e8a25539e324ec88ac7fdc95e48b4741f9f69c9e54503b16b64c012ac274",
+  "canonical_key": "commontoolsinc/labs:skills/pattern-test",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "4944e8a25539e324ec88ac7fdc95e48b4741f9f69c9e54503b16b64c012ac274",
+    "archived": false,
+    "canonical_key": "commontoolsinc/labs:skills/pattern-test",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f040cd87bb30890dda2a71f7143f0fe3766b09313d6ce83b43d05a0350a8e336",
+    "description": "Write and run pattern tests",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "engineering",
+        "productivity",
+        "testing",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-test/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 13,
+    "indexed_at": "2026-09-11T21:52:34.426480Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:52:34.426480Z",
+    "license": "0BSD",
+    "metadata": {},
+    "name": "pattern-test",
+    "path": "skills/pattern-test",
+    "pushed_at": "2026-09-11T21:47:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "commontoolsinc/labs",
+    "repo_url": "https://github.com/commontoolsinc/labs",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 54,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license 0BSD."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d29abf678773cefb7ea0e2e04d5f872aa97c2ac9083b53b163ce330ca2310a62",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 38
+  },
+  "source_fingerprint": "d29abf678773cefb7ea0e2e04d5f872aa97c2ac9083b53b163ce330ca2310a62"
+}
