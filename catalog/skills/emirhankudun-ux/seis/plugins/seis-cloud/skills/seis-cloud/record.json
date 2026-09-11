@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "98d7b03ae50145551877aa6d00635b5f09defe9a0ca90e0e7f344c0c9aef919c",
+  "canonical_key": "emirhankudun-ux/seis:plugins/seis-cloud/skills/seis-cloud",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "98d7b03ae50145551877aa6d00635b5f09defe9a0ca90e0e7f344c0c9aef919c",
+    "archived": false,
+    "canonical_key": "emirhankudun-ux/seis:plugins/seis-cloud/skills/seis-cloud",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "bdefdc1ce1416b1b7647b22533c1476adb4657eaabc8629d913bb5cb2c547948",
+    "description": "Use SEIS Cloud for cloud deployment readiness, public cloud targets, team/workplace VPN cloud targets, provider preflight, GCP Compute planning, static hosting handoff, secrets hygiene, rollback contracts, and infrastructure automation inside SEIS. Trigger when Codex needs to plan, validate, document, or execute cloud work while preserving user confirmation, security, provider neutrality, access policy, and repository governance.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "productivity",
+        "engineering",
+        "security",
+        "legal-compliance",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/emirhankudun-ux/SEIS/blob/main/plugins/seis-cloud/skills/seis-cloud/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:13.302101Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:13.302101Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "seis-cloud",
+    "path": "plugins/seis-cloud/skills/seis-cloud",
+    "pushed_at": "2026-09-11T12:36:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "emirhankudun-ux/SEIS",
+    "repo_url": "https://github.com/emirhankudun-ux/SEIS",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "fdb15bcb9b6ca1d3e7dca16c5459a18d134de3b4c4380a11c1f292d7a24a757a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "fdb15bcb9b6ca1d3e7dca16c5459a18d134de3b4c4380a11c1f292d7a24a757a"
+}
