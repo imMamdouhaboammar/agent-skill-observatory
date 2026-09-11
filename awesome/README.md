@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **278**
+Published skills: **279**
 Repositories: **44**
 
 ## Browse repositories
@@ -353,6 +353,7 @@ Repositories: **44**
 - [analyzing-developer-career-opportunities](./skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) · `jhonatan-oliveiradev/agent-skills:skills/analyzing-developer-career-opportunities`
 - [assessing-developer-proficiency](./skills/jhonatan-oliveiradev/agent-skills/skills/assessing-developer-proficiency/README.md) · `jhonatan-oliveiradev/agent-skills:skills/assessing-developer-proficiency`
 - [auditing-dependency-risk](./skills/jhonatan-oliveiradev/agent-skills/skills/auditing-dependency-risk/README.md) · `jhonatan-oliveiradev/agent-skills:skills/auditing-dependency-risk`
+- [auditing-pixel-perfect-frontend](./skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) · `jhonatan-oliveiradev/agent-skills:skills/auditing-pixel-perfect-frontend`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

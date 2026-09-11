@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "ff627b4381a3aa64eda0e036551e1d105644c9f79f787a6e1ad6f8ffee43e2b9",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/auditing-pixel-perfect-frontend",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ff627b4381a3aa64eda0e036551e1d105644c9f79f787a6e1ad6f8ffee43e2b9",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/auditing-pixel-perfect-frontend",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "96ec332162f6447ee9ac35df5c76f467978ff12ff1476562152473582a21289d",
+    "description": "Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "media",
+        "mobile",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/auditing-pixel-perfect-frontend/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "auditing-pixel-perfect-frontend",
+    "path": "skills/auditing-pixel-perfect-frontend",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1599337ceaf32d16675ba53951706827e3714da1cdc9af58d7c177d9b7d35684",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "1599337ceaf32d16675ba53951706827e3714da1cdc9af58d7c177d9b7d35684"
+}
