@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 73
+Published Skills: 74
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -36,6 +36,7 @@ Published Skills: 73
 | [atm-next](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-next/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Recommend the next official ATM guidance action from current state. |
 | [atm-orient](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-orient/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Inspect a repository and emit a guidance orientation report. |
 | [atm-task-intent-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing. |
+| [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
 | [reconc](../skills/Christopher-Schulze/reconc/skills/reconc/README.md) | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 100 | 100 | 1 | Use when a coding agent should bootstrap, maintain, or obey reconc repository policy. Covers the Repository Control Compiler, install/build choice, minimal daily loop, truthful evidence collection, policy checks, remediation, task-finish gates, CI/release use, and registry-backed platform enforcement limits without adding heavy process or option sprawl. |
 | [seis-mcp-runtime](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-mcp-runtime/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS MCP Runtime for MCP endpoint audits, tool boundary reviews, resource exposure checks, and explicit runtime evidence mapping for secure, scoped, AI-native operations. |
 | [seis-product](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-product/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Product for turning SEIS ideas into scoped product requirements, roadmap slices, acceptance criteria, UX outcomes, launch readiness, prioritization, open-source positioning, and validation-backed delivery plans. |

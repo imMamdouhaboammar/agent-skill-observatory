@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "005918fa9de72aaa370498682739ebb5c7650854359d632b73886c77224084c0",
+  "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-upgrade-scan",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "005918fa9de72aaa370498682739ebb5c7650854359d632b73886c77224084c0",
+    "archived": false,
+    "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-upgrade-scan",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4e35bec733cc9f6fddd01fcb7d74cb0a91dbe3b78b8e6507c36984d9b3ed5d4b",
+    "description": "Scan evidence reports and draft governed upgrade proposals.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "engineering",
+        "productivity",
+        "content",
+        "documentation",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-upgrade-scan/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T16:46:49.309201Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:49.309201Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "atm-upgrade-scan",
+    "path": ".agents/skills/atm-upgrade-scan",
+    "pushed_at": "2026-09-11T16:44:51Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "eaglhuang/AI-Atomic-Framework",
+    "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 26,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "eb402decdfef1a5a4981af1285903cc6c155cf344ce6b027f5368db459c8db9d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "eb402decdfef1a5a4981af1285903cc6c155cf344ce6b027f5368db459c8db9d"
+}
