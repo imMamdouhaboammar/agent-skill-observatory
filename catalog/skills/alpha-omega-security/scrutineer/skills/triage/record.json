@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "dc3298ce47d03395c087fe50f0d956feeb1dc23f2396564b9582e033ca5a1955",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/triage",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "dc3298ce47d03395c087fe50f0d956feeb1dc23f2396564b9582e033ca5a1955",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/triage",
+    "compatibility": "Needs network access to the scrutineer API (http://host:port/api). Uses `brief` (github.com/git-pkgs/brief) to classify the repository before deciding which scans to enqueue; falls back to enqueueing everything if brief is unavailable.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "d6480a56f572e8a16932a77a180fe392160a8a65edc61552e44ae46efcb799cc",
+    "description": "Default pipeline scrutineer runs when a repository is added. Triggers a standard set of other skills in parallel, then writes a short summary of what was enqueued. Edit the list below to change the default scan coverage without touching scrutineer's Go code.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "commerce",
+        "content",
+        "design",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/triage/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "freeform",
+      "scrutineer.version": "1"
+    },
+    "name": "triage",
+    "path": "skills/triage",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "99b194997c3f9b515e984b1e24f0795f1afe9b2571f067555aa7829a49d2853c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "99b194997c3f9b515e984b1e24f0795f1afe9b2571f067555aa7829a49d2853c"
+}
