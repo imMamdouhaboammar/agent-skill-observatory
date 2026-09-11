@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **51**
-Repositories: **9**
+Published skills: **52**
+Repositories: **10**
 
 ## Browse repositories
 
@@ -9,6 +9,7 @@ Repositories: **9**
 - [707734712/agents-in-sdlc](./repos/707734712/agents-in-sdlc.md)
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
+- [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
@@ -17,10 +18,13 @@ Repositories: **9**
 
 ## Browse categories
 
+- [browser-automation](./categories/browser-automation.md)
+- [commerce](./categories/commerce.md)
 - [content](./categories/content.md)
 - [data](./categories/data.md)
 - [design](./categories/design.md)
 - [devops](./categories/devops.md)
+- [documentation](./categories/documentation.md)
 - [engineering](./categories/engineering.md)
 - [integrations](./categories/integrations.md)
 - [productivity](./categories/productivity.md)
@@ -80,3 +84,4 @@ Repositories: **9**
 - [quick-dev](./skills/alizaouane/dev-agent/skills/quick-dev/README.md) · `alizaouane/dev-agent:skills/quick-dev`
 - [scout](./skills/alizaouane/dev-agent/skills/scout/README.md) · `alizaouane/dev-agent:skills/scout`
 - [self-review](./skills/alizaouane/dev-agent/skills/self-review/README.md) · `alizaouane/dev-agent:skills/self-review`
+- [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
