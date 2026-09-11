@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 24
+Published Skills: 25
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -22,6 +22,7 @@ Published Skills: 24
 | [email-triage](../skills/markmhendrickson/ateles/.claude/skills/email-triage/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Step-by-step email inbox triage workflow with draft generation, data persistence, and archiving. Use when processing emails, triaging inbox, or when user mentions email triage, inbox processing, or email workflow. |
 | [final-review](../skills/markmhendrickson/ateles/.claude/skills/final-review/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Final review workflow per foundation command. |
 | [atm-error-code-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-error-code-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve ATM_* error codes from CLI JSON, logs, or user reports into canonical meaning, remediation, retryability, and approval guidance. |
+| [atm-governance-router](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Route natural-language cleanup, refactor, migration, and candidate ranking goals through ATM before local analysis. |
 | [seis-integration-guardian](../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Keep SEIS MCP, plugin, skill, and provider integration work safe, documented, and honest. |
 | [seis-mcp-runtime](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-mcp-runtime/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS MCP Runtime for MCP endpoint audits, tool boundary reviews, resource exposure checks, and explicit runtime evidence mapping for secure, scoped, AI-native operations. |
 | [context-resets-ko](../skills/andyko18/specops-ko/skills/context-resets-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 각 Lifecycle 커맨드 종료 시 세션 컨텍스트를 리셋하고 session-progress.md에서만 맥락을 재주입한다 |
