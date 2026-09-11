@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **53**
+Published skills: **54**
 Repositories: **10**
 
 ## Browse repositories
@@ -88,3 +88,4 @@ Repositories: **10**
 - [self-review](./skills/alizaouane/dev-agent/skills/self-review/README.md) · `alizaouane/dev-agent:skills/self-review`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
+- [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`

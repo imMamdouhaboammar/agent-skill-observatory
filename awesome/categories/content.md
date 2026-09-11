@@ -1,9 +1,10 @@
 # content
 
-Published Skills: 35
+Published Skills: 36
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [gh-create-issue](../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [assetseeker](../skills/Agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Search free commercial-use creative assets across multiple online sources — photos, illustrations, icons, video footage, music, sound effects, and fonts. Use when the user needs to find assets for videos, PPTs, articles, or any content creation. Trigger on phrases like "find me a photo of", "search for icons", "I need background music", "find video footage", "search fonts", "找一张图片", "搜素材", "帮我找图标/视频/音乐/字体". Covers Pexels, Unsplash, Pixabay, Iconify, Freesound, Google Fonts and more — with API-backed search where available. |
 | [asta-skill](../skills/Agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Domain expertise for Ai2 Asta MCP tools (Semantic Scholar corpus). Intent-to-tool routing, safe defaults, workflow patterns, and pitfall warnings for academic paper search, citation traversal, and author discovery. |
