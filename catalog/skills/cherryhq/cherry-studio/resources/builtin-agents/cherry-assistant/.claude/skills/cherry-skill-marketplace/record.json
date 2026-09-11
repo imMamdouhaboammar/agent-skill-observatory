@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "0bf14e643756cbf407fe3335b6d7a8b43270d3c1dd9b5c911f8b6a3cd3fc9043",
+  "canonical_key": "cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0bf14e643756cbf407fe3335b6d7a8b43270d3c1dd9b5c911f8b6a3cd3fc9043",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ab10e39c04f5f71da661d3345cc8bc0fb38d67115b464db94128cf09a601b651",
+    "description": "当用户明确要求搜索、安装、查看、卸载或创建 Skill，或内置 Skill / 工具出现能力缺口、无法完成当前任务时触发。通过 `mcp__skills__search_skills` 搜索并用 `mcp__skills__install_skill` 安装；已安装 Skill 的查看和删除通过产品清单导航到 Skills UI；没有合适结果时调用内置 `skill-creator` 创建并验证自定义 Skill，再继续原任务。普通任务仍先尝试内置能力。",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "cherry-skill-marketplace",
+    "path": "resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "67a99eafefc932fa8b02a3807f7ae6cc59f580ce5799b7f5c9c251273ef8dec0",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "67a99eafefc932fa8b02a3807f7ae6cc59f580ce5799b7f5c9c251273ef8dec0"
+}
