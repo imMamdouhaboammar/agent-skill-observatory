@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "ea5359409ed152f21904067bcd63c55b7b24f4ed139cde7e4e96e877c3b32bc6",
+  "canonical_key": "chardigio/pappardelle:examples/skills/do",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ea5359409ed152f21904067bcd63c55b7b24f4ed139cde7e4e96e877c3b32bc6",
+    "archived": false,
+    "canonical_key": "chardigio/pappardelle:examples/skills/do",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "23c2872d70e2be72973179c70c8fad391164815e78eaaa8c5eadcea91a9775d0",
+    "description": "Work through a TODO.md checklist in the worktree root, continuing until all items are checked off.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "commerce",
+        "content",
+        "engineering",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chardigio/pappardelle/blob/main/examples/skills/do/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 4,
+    "indexed_at": "2026-09-11T19:19:50.063530Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:50.063530Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "do",
+    "path": "examples/skills/do",
+    "pushed_at": "2026-09-11T19:18:06Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chardigio/pappardelle",
+    "repo_url": "https://github.com/chardigio/pappardelle",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 43,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7fa5ae6f7eac9a3e033c331e7d8a8e55a3387e2c1453ceea50e4d0da0203c000",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "7fa5ae6f7eac9a3e033c331e7d8a8e55a3387e2c1453ceea50e4d0da0203c000"
+}

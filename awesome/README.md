@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **200**
-Repositories: **31**
+Published skills: **201**
+Repositories: **32**
 
 ## Browse repositories
 
@@ -23,6 +23,7 @@ Repositories: **31**
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
+- [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
@@ -144,6 +145,7 @@ Repositories: **31**
 - [run-evals](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/run-evals/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/run-evals`
 - [self-audit](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/self-audit/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/self-audit`
 - [tdd-workflow](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/tdd-workflow/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/tdd-workflow`
+- [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
