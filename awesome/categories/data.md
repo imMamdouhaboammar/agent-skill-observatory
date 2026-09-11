@@ -1,10 +1,11 @@
 # data
 
-Published Skills: 137
+Published Skills: 138
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
+| [phoenix-evals-new-metric](../skills/Arize-ai/phoenix/.agents/skills/phoenix-evals-new-metric/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Create a new built-in classification evaluator for Phoenix evals. Use this skill whenever the user asks to create a new eval, build a new metric, add a new builtin evaluator, create an LLM-as-a-judge metric, or add a new classification evaluator to Phoenix. |
 | [frontend-design](../skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) | [lightdash/lightdash](https://github.com/lightdash/lightdash) | 100 | 100 | 6131 | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics. |
 | [ai-claim-checker](../skills/iflytek/skillhub/builtin-skills/skills/ai-claim-checker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Evaluate factual claims in AI-generated text and teach a lightweight verification habit. Use when a learner wants to fact-check an AI answer, identify uncertainty, choose appropriate independent sources, or practise critical AI literacy. |
 | [backend-module-structure](../skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Rules for the SkillHub backend Maven multi-module clean architecture. Ensures agents place new code in the correct module and respect dependency direction. |
