@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **379**
+Published skills: **380**
 Repositories: **50**
 
 ## Browse repositories
@@ -197,6 +197,7 @@ Repositories: **50**
 - [phoenix-evals-new-metric](./skills/arize-ai/phoenix/.agents/skills/phoenix-evals-new-metric/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-evals-new-metric`
 - [phoenix-harbor](./skills/arize-ai/phoenix/.agents/skills/phoenix-harbor/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-harbor`
 - [phoenix-integration-snippets](./skills/arize-ai/phoenix/.agents/skills/phoenix-integration-snippets/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-integration-snippets`
+- [phoenix-release-please](./skills/arize-ai/phoenix/.agents/skills/phoenix-release-please/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-release-please`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
