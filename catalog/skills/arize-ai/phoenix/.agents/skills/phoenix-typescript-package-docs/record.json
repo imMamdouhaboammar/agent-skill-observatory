@@ -1,0 +1,107 @@
+{
+  "analysis_fingerprint": "80228d9dc5ccd8d1de0a6ddc2823eeb509e83938870ef854e7573acde4c382a3",
+  "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-typescript-package-docs",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "80228d9dc5ccd8d1de0a6ddc2823eeb509e83938870ef854e7573acde4c382a3",
+    "archived": false,
+    "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-typescript-package-docs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3360e19c60444da9e0ab5fc938b9ee01cbc25eeeaa3a55693f5178880a145b1a",
+    "description": "Maintain the bundled TypeScript package docs that ship inside Phoenix npm packages. Use this skill whenever adding or updating docs for `@arizeai/phoenix-client`, `@arizeai/phoenix-evals`, or `@arizeai/phoenix-otel`, when changing the Mintlify package-doc pages, when keeping `node_modules/.../docs` content aligned with actual exports, or when modifying the sync and publish flow for packaged docs.\n",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "engineering",
+        "productivity",
+        "ai-ml",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-typescript-package-docs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1124,
+    "indexed_at": "2026-09-11T23:38:40.586223Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:38:40.586223Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "oss@arize.com",
+      "internal": "True",
+      "languages": "TypeScript",
+      "version": "1.0.0"
+    },
+    "name": "phoenix-typescript-package-docs",
+    "path": ".agents/skills/phoenix-typescript-package-docs",
+    "pushed_at": "2026-09-11T23:35:23Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6d2a1d7e1b6b6840d85bd5e5f8cd94b38212cef152b5d1dddb181a72c1353112",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11416
+  },
+  "source_fingerprint": "6d2a1d7e1b6b6840d85bd5e5f8cd94b38212cef152b5d1dddb181a72c1353112"
+}
