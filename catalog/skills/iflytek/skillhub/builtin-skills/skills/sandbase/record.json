@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "733992980973f819327f7f62d6a4e6e03f0ee5ca74070082a8dd9142dedca16c",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/sandbase",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "733992980973f819327f7f62d6a4e6e03f0ee5ca74070082a8dd9142dedca16c",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/sandbase",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "78d18b40d8d812e0169329deadbdbd53ff55a08ae1d5a8fb675da5d22f2bd088",
+    "description": "Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings, social data, and structured retrieval. Use sandbase_discover before building custom integrations or declaring external data inaccessible; prefer an existing dedicated tool or API key when the user already has one.",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "ai-ml",
+        "engineering",
+        "content",
+        "data",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/sandbase/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "sandbase",
+    "path": "builtin-skills/skills/sandbase",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d26f8c47306e7c5439d1dc67c042657ad7a873f62b8dc0c813c25e4170bd2af1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "d26f8c47306e7c5439d1dc67c042657ad7a873f62b8dc0c813c25e4170bd2af1"
+}

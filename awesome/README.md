@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **95**
+Published skills: **96**
 Repositories: **12**
 
 ## Browse repositories
@@ -21,6 +21,7 @@ Repositories: **12**
 ## Browse categories
 
 - [agent-orchestration](./categories/agent-orchestration.md)
+- [ai-ml](./categories/ai-ml.md)
 - [architecture](./categories/architecture.md)
 - [browser-automation](./categories/browser-automation.md)
 - [commerce](./categories/commerce.md)
@@ -144,3 +145,4 @@ Repositories: **12**
 - [meeting-note-summarizer](./skills/iflytek/skillhub/builtin-skills/skills/meeting-note-summarizer/README.md) · `iflytek/skillhub:builtin-skills/skills/meeting-note-summarizer`
 - [plugin-scanner](./skills/iflytek/skillhub/builtin-skills/skills/plugin-scanner/README.md) · `iflytek/skillhub:builtin-skills/skills/plugin-scanner`
 - [retrieval-practice-generator](./skills/iflytek/skillhub/builtin-skills/skills/retrieval-practice-generator/README.md) · `iflytek/skillhub:builtin-skills/skills/retrieval-practice-generator`
+- [sandbase](./skills/iflytek/skillhub/builtin-skills/skills/sandbase/README.md) · `iflytek/skillhub:builtin-skills/skills/sandbase`
