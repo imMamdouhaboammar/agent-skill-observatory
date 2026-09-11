@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer)
 
-Published Skills: 32
+Published Skills: 33
 Categories: agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=32, 60-84=0, <60=0
+Security distribution: 85+=33, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -41,3 +41,4 @@ Security distribution: 85+=32, 60-84=0, <60=0
 | [triage](../../skills/alpha-omega-security/scrutineer/skills/triage/README.md) | `skills/triage` | 100 | 100 | commerce, content, design, devops, engineering, security |
 | [variants](../../skills/alpha-omega-security/scrutineer/skills/variants/README.md) | `skills/variants` | 100 | 100 | content, data, documentation, engineering, research, security |
 | [verify](../../skills/alpha-omega-security/scrutineer/skills/verify/README.md) | `skills/verify` | 100 | 100 | content, design, engineering, research, security, testing |
+| [vuln-scan](../../skills/alpha-omega-security/scrutineer/skills/vuln-scan/README.md) | `skills/vuln-scan` | 100 | 100 | agent-orchestration, content, engineering, hr-recruiting, research, security |

@@ -1,0 +1,107 @@
+{
+  "analysis_fingerprint": "b5c8a6d5091abba43f9baa87cb5bf838db98ead115fd25d5d3e413e11ea5fff5",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/vuln-scan",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b5c8a6d5091abba43f9baa87cb5bf838db98ead115fd25d5d3e413e11ea5fff5",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/vuln-scan",
+    "compatibility": "Static and read-only. Needs source in ./src, including initialized Git submodules when available, and may use Claude subagents. Does not build, run, install dependencies, or use network beyond the worker-provided Scrutineer API.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "b21ae71b2133d37ba8adc9119909f1ef2b62513059f69f80dbe9d8c8146b0152",
+    "description": "High-recall static source-code vulnerability scan adapted from Anthropic's defending-code reference harness. Fans out by focus area, ranks candidates by confidence, and emits Scrutineer findings for later verification.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "security",
+        "engineering",
+        "content",
+        "hr-recruiting",
+        "research",
+        "agent-orchestration"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "compatibility metadata names Claude"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/vuln-scan/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.max_turns": "90",
+      "scrutineer.model": "max",
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "findings",
+      "scrutineer.recurse_submodules": "True",
+      "scrutineer.requires": "['embedded-native']",
+      "scrutineer.version": "1"
+    },
+    "name": "vuln-scan",
+    "path": "skills/vuln-scan",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "75d03c14269ac03e608298712261fb4f115de0d260800d13aa20ea6906209e7f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "75d03c14269ac03e608298712261fb4f115de0d260800d13aa20ea6906209e7f"
+}
