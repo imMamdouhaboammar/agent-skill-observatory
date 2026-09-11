@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "5ff4fb42408e94cb7a37da8520ce3dcb626da3987e6405be90c9e4648085d668",
+  "canonical_key": "arize-ai/phoenix:.agents/skills/vercel-react-best-practices",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5ff4fb42408e94cb7a37da8520ce3dcb626da3987e6405be90c9e4648085d668",
+    "archived": false,
+    "canonical_key": "arize-ai/phoenix:.agents/skills/vercel-react-best-practices",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "71ed7794962fa6e803ee83030517b5b93a9f70fbfeb431ec4535c5480a8d8355",
+    "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "data",
+        "engineering",
+        "browser-automation",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/vercel-react-best-practices/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 1124,
+    "indexed_at": "2026-09-11T23:38:40.586223Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:38:40.586223Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "vercel",
+      "version": "1.0.0"
+    },
+    "name": "vercel-react-best-practices",
+    "path": ".agents/skills/vercel-react-best-practices",
+    "pushed_at": "2026-09-11T23:35:23Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "resources": {
+      "assets": 0,
+      "other": 3,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0ce6f4c3e9d38de7ed34aaeebacdd16d21acc98dcbda3c34e7fe8c70e11bbb61",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11416
+  },
+  "source_fingerprint": "0ce6f4c3e9d38de7ed34aaeebacdd16d21acc98dcbda3c34e7fe8c70e11bbb61"
+}
