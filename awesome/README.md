@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **296**
+Published skills: **297**
 Repositories: **46**
 
 ## Browse repositories
@@ -214,6 +214,7 @@ Repositories: **46**
 - [pattern-critic](./skills/commontoolsinc/labs/skills/pattern-critic/README.md) · `commontoolsinc/labs:skills/pattern-critic`
 - [pattern-debug](./skills/commontoolsinc/labs/skills/pattern-debug/README.md) · `commontoolsinc/labs:skills/pattern-debug`
 - [pattern-deploy](./skills/commontoolsinc/labs/skills/pattern-deploy/README.md) · `commontoolsinc/labs:skills/pattern-deploy`
+- [pattern-dev](./skills/commontoolsinc/labs/skills/pattern-dev/README.md) · `commontoolsinc/labs:skills/pattern-dev`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`

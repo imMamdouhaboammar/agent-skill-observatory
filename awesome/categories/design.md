@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 122
+Published Skills: 123
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -38,6 +38,7 @@ Published Skills: 122
 | [fuse-agent](../skills/commontoolsinc/labs/skills/fuse-agent/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Agent-specific interaction patterns for working with FUSE-mounted spaces. Use when deploying patterns via FUSE, working with Activity Logs, Annotations, or coordinating agent workflows that read/write pieces through the filesystem. Triggers include "deploy a pattern", "log an event", "create annotation", "agent workflow", or managing piece lifecycle via FUSE. |
 | [knowledge-base](../skills/commontoolsinc/labs/skills/knowledge-base/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Shared foundation for Oracle & Corrector agents. Establishes the source hierarchy for resolving conflicts between documentation, code, and specs. Load this skill first when investigating how the system works. |
 | [pattern-critic](../skills/commontoolsinc/labs/skills/pattern-critic/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Critic agent that reviews pattern code for violations of documented rules, gotchas, and anti-patterns. Produces categorized checklist output with [PASS]/[FAIL]/[WARN] for each rule. |
+| [pattern-dev](../skills/commontoolsinc/labs/skills/pattern-dev/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Guide for developing Common Fabric patterns (TypeScript modules that define reactive data transformations with UI). Use this skill when creating patterns, modifying existing patterns, or working with the pattern framework. Triggers include requests like "build a pattern", "fix this pattern error", "deploy this piece", or questions about handlers and reactive patterns. |
 | [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
