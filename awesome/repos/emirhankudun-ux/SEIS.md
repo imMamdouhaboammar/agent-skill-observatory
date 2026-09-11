@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS)
 
-Published Skills: 10
+Published Skills: 11
 Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, mobile, product, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=10, 60-84=0, <60=0
+Security distribution: 85+=11, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,6 +15,7 @@ Security distribution: 85+=10, 60-84=0, <60=0
 | [seis-code](../../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-code/README.md) | `plugins/seis-ai-agent/skills/seis-code` | 100 | 100 | data, devops, documentation, engineering, integrations, productivity |
 | [seis-code](../../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-code/README.md) | `plugins/seis/skills/seis-code` | 100 | 100 | devops, documentation, engineering, integrations, mobile, productivity |
 | [seis-design](../../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-design/README.md) | `plugins/seis-ai-agent/skills/seis-design` | 100 | 100 | browser-automation, content, design, engineering, product, productivity |
+| [seis-design](../../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-design/README.md) | `plugins/seis/skills/seis-design` | 100 | 100 | browser-automation, content, design, engineering, product, productivity |
 | [seis-integration-guardian](../../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | `.kimi-code/skills/seis-integration-guardian` | 100 | 100 | commerce, content, data, devops, engineering, integrations |
 | [seis-product](../../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-product/README.md) | `plugins/seis-ai-agent/skills/seis-product` | 100 | 100 | design, devops, engineering, product, productivity, research |
 | [seis-research](../../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-research/README.md) | `plugins/seis-ai-agent/skills/seis-research` | 100 | 100 | architecture, devops, documentation, engineering, product, research |
