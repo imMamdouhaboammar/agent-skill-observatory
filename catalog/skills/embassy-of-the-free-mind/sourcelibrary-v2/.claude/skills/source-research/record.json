@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "56863b24857ebe4ddfc0857d632310a5687ad42bf4a91b448489c84d6e470621",
+  "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/source-research",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "56863b24857ebe4ddfc0857d632310a5687ad42bf4a91b448489c84d6e470621",
+    "archived": false,
+    "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/source-research",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3b0bd4f6bb6d5ea67e73fd597ad33b8788dadd9c20c3ef74a3f8c4757515cb40",
+    "description": "Search and cite primary sources from Source Library. Use when asked what historical authors wrote, to find quotes from old texts, investigate alchemical or philosophical works, or cite translated Latin/German sources.",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "data",
+        "engineering",
+        "localization",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/source-research/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 3,
+    "indexed_at": "2026-09-11T21:48:17.888608Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:48:17.888608Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "source-research",
+    "path": ".claude/skills/source-research",
+    "pushed_at": "2026-09-11T21:48:00Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 42,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "acde16c073b599c50bd34c201a170aad26567c0e33415de62943ba2e50cc4017",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "acde16c073b599c50bd34c201a170aad26567c0e33415de62943ba2e50cc4017"
+}
