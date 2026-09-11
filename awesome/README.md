@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **247**
+Published skills: **248**
 Repositories: **39**
 
 ## Browse repositories
@@ -290,6 +290,7 @@ Repositories: **39**
 - [xtranslator-xml-writer](./skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) · `gkd2323c/runed-lexicon:.agents/skills/xtranslator-xml-writer`
 - [theme-factory](./skills/hhai0519/hh.ai_v2/skills/execution/theme-factory/README.md) · `hhai0519/hh.ai_v2:skills/execution/theme-factory`
 - [bat-adhoc](./skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/bat-adhoc`
+- [bat-story-eval](./skills/homeassistant-ai/ha-mcp/.claude/skills/bat-story-eval/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/bat-story-eval`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
