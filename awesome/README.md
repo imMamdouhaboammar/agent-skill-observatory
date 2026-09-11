@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **267**
+Published skills: **268**
 Repositories: **42**
 
 ## Browse repositories
@@ -340,6 +340,7 @@ Repositories: **42**
 - [spec-driven-development](./skills/jairorodriguezarias/siesta/.agents/skills/spec-driven-development/README.md) · `jairorodriguezarias/siesta:.agents/skills/spec-driven-development`
 - [factory-learner](./skills/jairorodriguezarias/siesta/factory/skills/factory-learner/README.md) · `jairorodriguezarias/siesta:factory/skills/factory-learner`
 - [human-proxy](./skills/jairorodriguezarias/siesta/factory/skills/human-proxy/README.md) · `jairorodriguezarias/siesta:factory/skills/human-proxy`
+- [kb-manager](./skills/jairorodriguezarias/siesta/factory/skills/kb-manager/README.md) · `jairorodriguezarias/siesta:factory/skills/kb-manager`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

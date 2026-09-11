@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta)
 
-Published Skills: 6
+Published Skills: 7
 Categories: browser-automation, code-review, commerce, content, data, design, documentation, education, engineering, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,4 +14,5 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [factory-learner](../../skills/jairorodriguezarias/siesta/factory/skills/factory-learner/README.md) | `factory/skills/factory-learner` | 100 | 100 | education, engineering, testing |
 | [human-proxy](../../skills/jairorodriguezarias/siesta/factory/skills/human-proxy/README.md) | `factory/skills/human-proxy` | 100 | 100 | engineering, research |
 | [interview-me](../../skills/jairorodriguezarias/siesta/.agents/skills/interview-me/README.md) | `.agents/skills/interview-me` | 100 | 100 | content, documentation, engineering, productivity, research, testing |
+| [kb-manager](../../skills/jairorodriguezarias/siesta/factory/skills/kb-manager/README.md) | `factory/skills/kb-manager` | 100 | 100 | content, education |
 | [spec-driven-development](../../skills/jairorodriguezarias/siesta/.agents/skills/spec-driven-development/README.md) | `.agents/skills/spec-driven-development` | 100 | 100 | content, data, design, engineering, productivity, testing |

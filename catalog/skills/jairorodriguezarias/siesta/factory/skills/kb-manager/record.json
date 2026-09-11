@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "73a7d8340c9bdb6957fbedd5855e20f90bab9be0a66822b6516aa6473b3251eb",
+  "canonical_key": "jairorodriguezarias/siesta:factory/skills/kb-manager",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "73a7d8340c9bdb6957fbedd5855e20f90bab9be0a66822b6516aa6473b3251eb",
+    "archived": false,
+    "canonical_key": "jairorodriguezarias/siesta:factory/skills/kb-manager",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7006410d286b50e76105149bb6cd8364bc0d8a60a227a3a51d0353471e3195c1",
+    "description": "Manages the JSON-based knowledge graph with progressive disclosure. Use when reading or writing decisions, blockers, learnings, or consultations to the KB. Provides query, append, and link operations.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "education"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jairorodriguezarias/siesta/blob/main/factory/skills/kb-manager/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 16,
+    "indexed_at": "2026-09-11T16:54:44.967657Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:54:44.967657Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "kb-manager",
+    "path": "factory/skills/kb-manager",
+    "pushed_at": "2026-09-11T16:44:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jairorodriguezarias/siesta",
+    "repo_url": "https://github.com/jairorodriguezarias/siesta",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 59,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b1dacd1ebb233566e1d2484090e31f32361c492c9a8f6a5531123645575698ff",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 60
+  },
+  "source_fingerprint": "b1dacd1ebb233566e1d2484090e31f32361c492c9a8f6a5531123645575698ff"
+}
