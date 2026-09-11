@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 57
+Published Skills: 58
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -30,6 +30,7 @@ Published Skills: 57
 | [isolated-test-processes](../skills/commontoolsinc/labs/skills/isolated-test-processes/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Guide for writing side-effect-free tests that spawn child processes, especially Deno commands. Use when adding or reviewing tests that call Deno.Command, run deno check/test/run/task/install, generate temporary deno.json files, update goldens, write build artifacts, or otherwise risk changing deno.lock or files in the repository workspace. |
 | [pattern-debug](../skills/commontoolsinc/labs/skills/pattern-debug/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Debug pattern errors systematically |
 | [pattern-deploy](../skills/commontoolsinc/labs/skills/pattern-deploy/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Deploy patterns and test with CLI |
+| [pattern-implement](../skills/commontoolsinc/labs/skills/pattern-implement/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Build Common Fabric patterns and sub-patterns |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [run-evals](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/run-evals/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 기능 구현·수정을 마친 뒤 프로젝트의 EVALS.md 평가 기준을 실행/채점할 때. "evals 돌려줘" 요청이나 완료 게이트 검증에 사용. |
