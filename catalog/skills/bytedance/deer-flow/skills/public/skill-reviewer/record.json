@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "43e85053ed95d89c1f3df5365cbf4fa4fe403b5bf20ebe01418f2fbd5f7501d7",
+  "canonical_key": "bytedance/deer-flow:skills/public/skill-reviewer",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "43e85053ed95d89c1f3df5365cbf4fa4fe403b5bf20ebe01418f2fbd5f7501d7",
+    "archived": false,
+    "canonical_key": "bytedance/deer-flow:skills/public/skill-reviewer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "68cff70a729660fed0fbf01b9ff4ec408bab83ea4e5997811508dc394e1c185d",
+    "description": "Reviews DeerFlow skill packages for readiness, triggers, safety boundaries, resources, and evidence. Invoke when users ask to audit, grade, or production-check an existing skill.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "security",
+        "content",
+        "code-review",
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/skill-reviewer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 13
+    },
+    "forks": 11345,
+    "indexed_at": "2026-09-11T23:39:20.634091Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:39:20.634091Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "skill-reviewer",
+    "path": "skills/public/skill-reviewer",
+    "pushed_at": "2026-09-11T23:35:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bytedance/deer-flow",
+    "repo_url": "https://github.com/bytedance/deer-flow",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 5,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "21a4a363084ee4e7945c8a5d9a6a59d6fb2784e1051cdcbf230eece5312b5250",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 82289
+  },
+  "source_fingerprint": "21a4a363084ee4e7945c8a5d9a6a59d6fb2784e1051cdcbf230eece5312b5250"
+}
