@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 38
+Published Skills: 39
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -42,3 +42,4 @@ Published Skills: 38
 | [tdd-ko](../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기능·버그픽스·리팩터링 구현 시 구현 코드 작성 전 반드시 사용 — Red-Green-Refactor 사이클 강제, 프로덕션 코드는 실패 테스트 없이 작성 금지 |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [atm-residue-cleanup](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 97 | 100 | 3 | Diagnose and safely reconcile operation-owned transient ATM residue. |
+| [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |

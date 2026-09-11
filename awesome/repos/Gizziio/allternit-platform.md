@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform)
 
-Published Skills: 15
+Published Skills: 16
 Categories: browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,3 +24,4 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [clerk-swift](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-swift/README.md) | `.agents/skills/clerk-swift` | 100 | 100 | design, documentation, engineering, legal-compliance, mobile, research |
 | [clerk-tanstack-patterns](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-tanstack-patterns/README.md) | `.agents/skills/clerk-tanstack-patterns` | 100 | 100 | browser-automation, design, documentation, productivity |
 | [clerk-nextjs-patterns](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | `.agents/skills/clerk-nextjs-patterns` | 97 | 100 | data, design, documentation, engineering, mobile, productivity |
+| [clerk-testing](../../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | `.agents/skills/clerk-testing` | 97 | 100 | browser-automation, data, design, documentation, engineering, testing |

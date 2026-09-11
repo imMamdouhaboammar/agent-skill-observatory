@@ -1,0 +1,105 @@
+{
+  "analysis_fingerprint": "293911725ca4bc6e55b703703a023064071e71328ff5f6c216fa8b24f20a5035",
+  "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-testing",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "WebFetch"
+    ],
+    "analysis_fingerprint": "293911725ca4bc6e55b703703a023064071e71328ff5f6c216fa8b24f20a5035",
+    "archived": false,
+    "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-testing",
+    "compatibility": "Requires CLERK_TESTING_TOKEN from Clerk dashboard",
+    "consecutive_misses": 0,
+    "content_fingerprint": "0db14edb4d69fe703eb3cf7c2e99421e2283e49c5b1c35b3fd8a22827ae0afbf",
+    "description": "E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "browser-automation",
+        "documentation",
+        "data",
+        "design",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Gizziio/allternit-platform/blob/main/.agents/skills/clerk-testing/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:51:13.660809Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:13.660809Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "clerk",
+      "version": "1.2.0"
+    },
+    "name": "clerk-testing",
+    "path": ".agents/skills/clerk-testing",
+    "pushed_at": "2026-09-11T16:44:32Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Gizziio/allternit-platform",
+    "repo_url": "https://github.com/Gizziio/allternit-platform",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1b5d9c460e4b94e732e82754f9b78bdfb2b91c2b1125bf33f64ccc77f97d806a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "1b5d9c460e4b94e732e82754f9b78bdfb2b91c2b1125bf33f64ccc77f97d806a"
+}
