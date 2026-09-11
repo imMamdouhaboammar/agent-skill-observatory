@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 69
+Published Skills: 70
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -28,6 +28,7 @@ Published Skills: 69
 | [skill-lifecycle](../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | The authoritative skill lifecycle state model including container states, version states, review workflow states, visibility overlay, and governance actions. Ensures agents don't introduce invalid states or transitions. |
 | [study-strategy-selector](../skills/iflytek/skillhub/builtin-skills/skills/study-strategy-selector/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Recommend practical study strategies matched to the material, learning goal, assessment, time, and learner constraints. Use for revision planning, homework routines, independent study, replacing ineffective habits, or adapting recall, spacing, explanation, and practice activities. |
 | [time-blocking-scheduler](../skills/iflytek/skillhub/builtin-skills/skills/time-blocking-scheduler/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Draft flexible daily or weekly schedules around a user's priorities, availability, energy patterns, and fixed commitments. Use for day planning, deadline reverse-planning, focus protection, or a time audit. |
+| [add-functor](../skills/DexForce/EmbodiChain/.agents/skills/add-functor/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new observation, event, reward, action, dataset, or randomization functor to an EmbodiChain environment |
 | [create-prototype](../skills/markmhendrickson/ateles/.claude/skills/create-prototype/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create prototype per foundation command. |
 | [apple-web-design](../skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Build or review web interfaces that need Apple-style direct manipulation, interruptible gesture motion, velocity-aware settling, restrained translucent materials, deliberate state-transition craft, responsive typography, and motion/transparency accessibility. Use only when the target repository or user asks for this interaction language; target-repository engineering and visual rules always win. |
 | [dev-orchestrator](../skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | 项目负责人技能：掌控开发节奏、制定开发计划，把任务拆分后派发给多个子会话/subagent 执行，验收汇总并管理会话流转与归档、裁决分歧。Use when acting as the project lead or orchestrator — planning multi-session development, writing task briefs and dispatching them to subagents or separate sessions, coordinating parallel worktree work, adjudicating disagreements, integrating and verifying on the main branch. 不适用于子会话内部的具体编码、调试或评审执行本身。 |

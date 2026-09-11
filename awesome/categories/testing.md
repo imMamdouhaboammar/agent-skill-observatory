@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 22
+Published Skills: 23
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -15,6 +15,7 @@ Published Skills: 22
 | [code-conventions](../skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code. |
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [add-atomic-action](../skills/DexForce/EmbodiChain/.agents/skills/add-atomic-action/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Add a new simulation atomic action or motion primitive to EmbodiChain's typed planning and execution framework. Use when implementing a new skill, goal contract, action planner, symbolic effect, registration entry, documentation, and tests for AtomicActionEngine. |
+| [add-functor](../skills/DexForce/EmbodiChain/.agents/skills/add-functor/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new observation, event, reward, action, dataset, or randomization functor to an EmbodiChain environment |
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |
 | [create-rule](../skills/markmhendrickson/ateles/.claude/skills/create-rule/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create Cursor rule for persistent AI guidance. |
 | [final-review](../skills/markmhendrickson/ateles/.claude/skills/final-review/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Final review workflow per foundation command. |
