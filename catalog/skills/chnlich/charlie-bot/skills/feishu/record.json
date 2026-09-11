@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "d991b0a7958bb652cbca144a402be4284235101567a49a5f696fbd7bf54cc747",
+  "canonical_key": "chnlich/charlie-bot:skills/feishu",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d991b0a7958bb652cbca144a402be4284235101567a49a5f696fbd7bf54cc747",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/feishu",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1e8286b4ff0736b34a2692f9018518ff7db9227440ad658fde2d6537d4701769",
+    "description": "This skill should be used when the user asks to read, create, or edit Feishu/Lark documents, search docs in their Feishu workspace, or fetch content from a Feishu wiki or docx URL.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "documents",
+        "engineering",
+        "browser-automation",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/feishu/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "feishu",
+    "path": "skills/feishu",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "06203565e0b3ca1e31d4932768bdf4d897c00f65c4f1f1de5aeb296f4ccd4434",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "06203565e0b3ca1e31d4932768bdf4d897c00f65c4f1f1de5aeb296f4ccd4434"
+}
