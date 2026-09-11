@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "3ba6b6d14a03620d4b13b82d70977ec4ce53211d7df497a3ab2da9682051deff",
+  "canonical_key": "dexforce/embodichain:.agents/skills/add-test",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3ba6b6d14a03620d4b13b82d70977ec4ce53211d7df497a3ab2da9682051deff",
+    "archived": false,
+    "canonical_key": "dexforce/embodichain:.agents/skills/add-test",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "75dfa02f75dcb9e1d7836e99f65cf998c664c4448387de2c387b95b724c69f7a",
+    "description": "Use when writing tests for EmbodiChain modules, including observation functors, reward functors, solvers, sensors, environments, or any Python module",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "testing",
+        "commerce",
+        "design",
+        "engineering",
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path",
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DexForce/EmbodiChain/blob/main/.agents/skills/add-test/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 24,
+    "indexed_at": "2026-09-11T12:37:54.343422Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:37:54.343422Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "add-test",
+    "path": ".agents/skills/add-test",
+    "pushed_at": "2026-09-11T12:36:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DexForce/EmbodiChain",
+    "repo_url": "https://github.com/DexForce/EmbodiChain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 73,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "68c7f364f3d0698ccf7986b6e8d7639e6ca3db2b86b27a065085f68098d79de9",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 224
+  },
+  "source_fingerprint": "68c7f364f3d0698ccf7986b6e8d7639e6ca3db2b86b27a065085f68098d79de9"
+}
