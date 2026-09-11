@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "55ed175d42de28543ed09a39e6bcd6820b631d5b9f9803e835f22d8f63d85e0c",
+  "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/xedit-context-exporter",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "55ed175d42de28543ed09a39e6bcd6820b631d5b9f9803e835f22d8f63d85e0c",
+    "archived": false,
+    "canonical_key": "gkd2323c/runed-lexicon:.agents/skills/xedit-context-exporter",
+    "compatibility": "Requires Windows, Python 3.10+, xEdit under tools/xEdit, and an installed Skyrim Special Edition Data directory containing the target plugin's masters. Uses xEdit in command-line Script mode and never modifies the source plugin.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "36b335d5ed3a7ddec51fdfbe30a6d8cc70f3db3c56169b3d90ad906d985d0246",
+    "description": "Export deterministic Skyrim dialogue context from an original ESP/ESM/ESL with xEdit, including DIAL to child INFO relationships, quest/branch/topic metadata, prompts, conditions, responses, and structurally resolved speaker candidates. Use when xTranslator XML no longer preserves enough structure to associate INFO lines with their real dialogue topics or speakers, or when translation needs plugin-grounded dialogue context without using the xEdit GUI.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "hr-recruiting",
+        "commerce",
+        "localization",
+        "research",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/gkd2323c/runed-lexicon/blob/main/.agents/skills/xedit-context-exporter/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:39:00.478677Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:39:00.478677Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "status": "已退役 2026-09-08，由 Mutagen 导出器接替（见下）",
+      "version": "0.5.0"
+    },
+    "name": "xedit-context-exporter",
+    "path": ".agents/skills/xedit-context-exporter",
+    "pushed_at": "2026-09-11T12:36:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "gkd2323c/runed-lexicon",
+    "repo_url": "https://github.com/gkd2323c/runed-lexicon",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 1
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e0d69277fd4ceca816cd7ce01c0632500d1d3e9ab7d83dd8c47158f33f4beac7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "e0d69277fd4ceca816cd7ce01c0632500d1d3e9ab7d83dd8c47158f33f4beac7"
+}
