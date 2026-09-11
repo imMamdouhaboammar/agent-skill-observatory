@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **106**
+Published skills: **107**
 Repositories: **15**
 
 ## Browse repositories
@@ -161,3 +161,4 @@ Repositories: **15**
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`
+- [create-feature-unit](./skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) · `markmhendrickson/ateles:.claude/skills/create-feature-unit`
