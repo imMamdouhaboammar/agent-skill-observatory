@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "a6371034dfa28351b372c7352ee941862ebb31a2fc2cb518257f5b3b3b882503",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/choosing-application-architecture",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a6371034dfa28351b372c7352ee941862ebb31a2fc2cb518257f5b3b3b882503",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/choosing-application-architecture",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7a3594c671eff069f42afc988293fb210c8a5f0f48d2fa1de95178723ed1566a",
+    "description": "Use when starting or reshaping an application where deployment topology, scaling, reliability, ownership, coupling, or delivery constraints make the architectural shape unclear.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "devops",
+        "architecture",
+        "content",
+        "data",
+        "documentation",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/choosing-application-architecture/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "choosing-application-architecture",
+    "path": "skills/choosing-application-architecture",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e64be9f32b1dda126cdfdbe58adeff7576d89b035f47b78f40eb7907b233a113",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "e64be9f32b1dda126cdfdbe58adeff7576d89b035f47b78f40eb7907b233a113"
+}

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **325**
+Published skills: **326**
 Repositories: **48**
 
 ## Browse repositories
@@ -404,6 +404,7 @@ Repositories: **48**
 - [building-premium-nextjs-interfaces](./skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-premium-nextjs-interfaces`
 - [building-regression-tests](./skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-regression-tests`
 - [building-reliable-node-api-boundaries](./skills/jhonatan-oliveiradev/agent-skills/skills/building-reliable-node-api-boundaries/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-reliable-node-api-boundaries`
+- [choosing-application-architecture](./skills/jhonatan-oliveiradev/agent-skills/skills/choosing-application-architecture/README.md) · `jhonatan-oliveiradev/agent-skills:skills/choosing-application-architecture`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`
