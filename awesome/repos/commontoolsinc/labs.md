@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/commontoolsinc/labs](https://github.com/commontoolsinc/labs)
 
-Published Skills: 16
+Published Skills: 17
 Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=16, 60-84=0, <60=0
+Security distribution: 85+=17, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -25,3 +25,4 @@ Security distribution: 85+=16, 60-84=0, <60=0
 | [pattern-ui](../../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | `packages/cf-harness/fixtures/hostile-skills-root/pattern-ui` | 100 | 100 | content, data, design, documentation, finance, media |
 | [pattern-ui](../../skills/commontoolsinc/labs/skills/pattern-ui/README.md) | `skills/pattern-ui` | 100 | 100 | commerce, content, design, documentation, engineering, productivity |
 | [spec-audit](../../skills/commontoolsinc/labs/skills/spec-audit/README.md) | `skills/spec-audit` | 100 | 100 | documentation, education, engineering, legal-compliance, productivity, research |
+| [state-inspector](../../skills/commontoolsinc/labs/skills/state-inspector/README.md) | `skills/state-inspector` | 100 | 100 | browser-automation, content, data, documentation, engineering, research |
