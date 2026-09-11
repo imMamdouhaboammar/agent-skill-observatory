@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **327**
+Published skills: **328**
 Repositories: **48**
 
 ## Browse repositories
@@ -406,6 +406,7 @@ Repositories: **48**
 - [building-reliable-node-api-boundaries](./skills/jhonatan-oliveiradev/agent-skills/skills/building-reliable-node-api-boundaries/README.md) · `jhonatan-oliveiradev/agent-skills:skills/building-reliable-node-api-boundaries`
 - [choosing-application-architecture](./skills/jhonatan-oliveiradev/agent-skills/skills/choosing-application-architecture/README.md) · `jhonatan-oliveiradev/agent-skills:skills/choosing-application-architecture`
 - [creating-character-sprite-pipelines](./skills/jhonatan-oliveiradev/agent-skills/skills/creating-character-sprite-pipelines/README.md) · `jhonatan-oliveiradev/agent-skills:skills/creating-character-sprite-pipelines`
+- [defining-brand-strategy](./skills/jhonatan-oliveiradev/agent-skills/skills/defining-brand-strategy/README.md) · `jhonatan-oliveiradev/agent-skills:skills/defining-brand-strategy`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

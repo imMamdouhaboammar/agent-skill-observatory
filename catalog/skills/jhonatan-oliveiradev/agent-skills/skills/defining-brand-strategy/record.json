@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "204f30d90325534b963754ed4cca2b04379d36a6154b65d99f14acd104763a5e",
+  "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/defining-brand-strategy",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "204f30d90325534b963754ed4cca2b04379d36a6154b65d99f14acd104763a5e",
+    "archived": false,
+    "canonical_key": "jhonatan-oliveiradev/agent-skills:skills/defining-brand-strategy",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f051961e0ef3fa5c5ea18fbf196a134af45c7dcb161077930f64cc12343ad599",
+    "description": "Use when a new, repositioned, or inconsistent brand needs explicit audience, positioning, differentiation, personality, and decision criteria before naming, identity, or messaging work begins.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "marketing",
+        "design",
+        "content",
+        "product",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/defining-brand-strategy/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:47.777084Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:47.777084Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "defining-brand-strategy",
+    "path": "skills/defining-brand-strategy",
+    "pushed_at": "2026-09-11T19:17:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jhonatan-oliveiradev/agent-skills",
+    "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "08feff50947feeceecb3e2cb3ea9ae0c7c4aec454f38bf841e36bdec7bebc9ef",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "08feff50947feeceecb3e2cb3ea9ae0c7c4aec454f38bf841e36bdec7bebc9ef"
+}
