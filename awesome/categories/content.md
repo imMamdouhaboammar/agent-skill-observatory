@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 148
+Published Skills: 149
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -35,6 +35,7 @@ Published Skills: 148
 | [time-blocking-scheduler](../skills/iflytek/skillhub/builtin-skills/skills/time-blocking-scheduler/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Draft flexible daily or weekly schedules around a user's priorities, availability, energy patterns, and fixed commitments. Use for day planning, deadline reverse-planning, focus protection, or a time audit. |
 | [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
 | [bat-story-eval](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-story-eval/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Compare MCP tool behavior between target and baseline versions using pre-built and custom stories with diff-based triage. |
+| [contrib-pr-review](../skills/homeassistant-ai/ha-mcp/.claude/skills/contrib-pr-review/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Review a contribution PR for safety, quality, and readiness. Checks for security concerns, test coverage, size appropriateness, and intent alignment. Use when reviewing external contributions. |
 | [add-functor](../skills/DexForce/EmbodiChain/.agents/skills/add-functor/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new observation, event, reward, action, dataset, or randomization functor to an EmbodiChain environment |
 | [add-robot](../skills/DexForce/EmbodiChain/.agents/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new robot to EmbodiChain — scaffolds a RobotCfg subclass (single-file or package layout) with the _build_defaults hook, build_pk_serial_chain, registration, docs page, and test stub. |
 | [add-test](../skills/DexForce/EmbodiChain/.agents/skills/add-test/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when writing tests for EmbodiChain modules, including observation functors, reward functors, solvers, sensors, environments, or any Python module |

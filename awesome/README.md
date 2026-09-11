@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **248**
+Published skills: **249**
 Repositories: **39**
 
 ## Browse repositories
@@ -52,6 +52,7 @@ Repositories: **39**
 - [architecture](./categories/architecture.md)
 - [browser-automation](./categories/browser-automation.md)
 - [business](./categories/business.md)
+- [code-review](./categories/code-review.md)
 - [commerce](./categories/commerce.md)
 - [content](./categories/content.md)
 - [data](./categories/data.md)
@@ -291,6 +292,7 @@ Repositories: **39**
 - [theme-factory](./skills/hhai0519/hh.ai_v2/skills/execution/theme-factory/README.md) · `hhai0519/hh.ai_v2:skills/execution/theme-factory`
 - [bat-adhoc](./skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/bat-adhoc`
 - [bat-story-eval](./skills/homeassistant-ai/ha-mcp/.claude/skills/bat-story-eval/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/bat-story-eval`
+- [contrib-pr-review](./skills/homeassistant-ai/ha-mcp/.claude/skills/contrib-pr-review/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/contrib-pr-review`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 41
+Published Skills: 42
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -15,6 +15,7 @@ Published Skills: 41
 | [code-conventions](../skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code. |
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [bat-adhoc](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Run bot acceptance tests to validate MCP tools work correctly from a real AI agent's perspective. Use when testing PRs, detecting regressions, or verifying tool changes end-to-end with Claude/Gemini CLIs. |
+| [contrib-pr-review](../skills/homeassistant-ai/ha-mcp/.claude/skills/contrib-pr-review/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Review a contribution PR for safety, quality, and readiness. Checks for security concerns, test coverage, size appropriateness, and intent alignment. Use when reviewing external contributions. |
 | [add-atomic-action](../skills/DexForce/EmbodiChain/.agents/skills/add-atomic-action/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Add a new simulation atomic action or motion primitive to EmbodiChain's typed planning and execution framework. Use when implementing a new skill, goal contract, action planner, symbolic effect, registration entry, documentation, and tests for AtomicActionEngine. |
 | [add-functor](../skills/DexForce/EmbodiChain/.agents/skills/add-functor/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new observation, event, reward, action, dataset, or randomization functor to an EmbodiChain environment |
 | [add-robot](../skills/DexForce/EmbodiChain/.agents/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new robot to EmbodiChain — scaffolds a RobotCfg subclass (single-file or package layout) with the _build_defaults hook, build_pk_serial_chain, registration, docs page, and test stub. |

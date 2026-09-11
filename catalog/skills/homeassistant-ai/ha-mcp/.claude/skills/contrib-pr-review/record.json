@@ -1,0 +1,106 @@
+{
+  "analysis_fingerprint": "d6e084f14c6b70f5e2c0e5d1a1c7f3bdba3c4f5f73c3fc4db39afddf00ad6d35",
+  "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/contrib-pr-review",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Grep,",
+      "Glob,",
+      "WebFetch"
+    ],
+    "analysis_fingerprint": "d6e084f14c6b70f5e2c0e5d1a1c7f3bdba3c4f5f73c3fc4db39afddf00ad6d35",
+    "archived": false,
+    "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/contrib-pr-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "89b9b476f7278d5e72d8a16dfb123c89cacba6435f0a7968f042cc60e85c90b2",
+    "description": "Review a contribution PR for safety, quality, and readiness. Checks for security concerns, test coverage, size appropriateness, and intent alignment. Use when reviewing external contributions.",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "security",
+        "testing",
+        "engineering",
+        "integrations",
+        "code-review",
+        "content"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/homeassistant-ai/ha-mcp/blob/master/.claude/skills/contrib-pr-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:42:53.335596Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "contrib-pr-review",
+    "path": ".claude/skills/contrib-pr-review",
+    "pushed_at": "2026-09-11T12:36:11Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "homeassistant-ai/ha-mcp",
+    "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "16606c4201b6db5d7cbdb222d1e627bfc431a0135d223215e0683bd244b27446",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4688
+  },
+  "source_fingerprint": "16606c4201b6db5d7cbdb222d1e627bfc431a0135d223215e0683bd244b27446"
+}
