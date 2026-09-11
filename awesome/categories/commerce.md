@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 82
+Published Skills: 83
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -26,6 +26,7 @@ Published Skills: 82
 | [audit-exfil](../skills/alpha-omega-security/scrutineer/skills/audit-exfil/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for attacker-controlled reads, requests, parsers, or error paths that can disclose files, metadata, secrets, or internal responses. |
 | [audit-memory](../skills/alpha-omega-security/scrutineer/skills/audit-memory/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for reachable memory corruption in first-party C, C++, unsafe Rust, native extensions, and FFI boundaries. |
 | [cna-match](../skills/alpha-omega-security/scrutineer/skills/cna-match/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Match the repository to a CVE Numbering Authority so disclosures route to the CNA's security contact when one covers the repo. |
+| [disclose](../skills/alpha-omega-security/scrutineer/skills/disclose/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Draft the disclosure content for a finding in GitHub Security Advisory shape. Produces a title, markdown description, affected package block, CVSS vector, CWE list, references, and a suggested-recipients list from CODEOWNERS or git history, then writes them back to the finding so the analyst can paste them into the GHSA form (or POST to GitHub's repository-advisories REST endpoint) rather than composing from scratch. |
 | [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
 | [figma-to-code](../skills/commontoolsinc/labs/skills/figma-to-code/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Translate a Figma design selection into cf-* Lit component code. Use when implementing a design from Figma, reviewing component alignment, or checking how Figma properties map to code. Triggers include "implement this design", "translate from Figma", "what cf- component matches this", or having a Figma node selected to implement. |
 | [knowledge-base](../skills/commontoolsinc/labs/skills/knowledge-base/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Shared foundation for Oracle & Corrector agents. Establishes the source hierarchy for resolving conflicts between documentation, code, and specs. Load this skill first when investigating how the system works. |
