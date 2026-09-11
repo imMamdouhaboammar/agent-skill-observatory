@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **158**
+Published skills: **159**
 Repositories: **22**
 
 ## Browse repositories
@@ -184,6 +184,7 @@ Repositories: **22**
 - [seis-cloud](./skills/emirhankudun-ux/seis/plugins/seis-cloud/skills/seis-cloud/README.md) · `emirhankudun-ux/seis:plugins/seis-cloud/skills/seis-cloud`
 - [seis-code](./skills/emirhankudun-ux/seis/plugins/seis/skills/seis-code/README.md) · `emirhankudun-ux/seis:plugins/seis/skills/seis-code`
 - [seis-design](./skills/emirhankudun-ux/seis/plugins/seis/skills/seis-design/README.md) · `emirhankudun-ux/seis:plugins/seis/skills/seis-design`
+- [seis-mcp-runtime](./skills/emirhankudun-ux/seis/plugins/seis/skills/seis-mcp-runtime/README.md) · `emirhankudun-ux/seis:plugins/seis/skills/seis-mcp-runtime`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`

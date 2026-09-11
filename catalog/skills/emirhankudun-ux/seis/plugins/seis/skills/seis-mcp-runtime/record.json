@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "f039cad1335165ea5d5ecba668ebd0162d9767535b3dcc7426ca60fff98af51c",
+  "canonical_key": "emirhankudun-ux/seis:plugins/seis/skills/seis-mcp-runtime",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f039cad1335165ea5d5ecba668ebd0162d9767535b3dcc7426ca60fff98af51c",
+    "archived": false,
+    "canonical_key": "emirhankudun-ux/seis:plugins/seis/skills/seis-mcp-runtime",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "20d91d744d2045a37cfba9db51c64df0917c13a5fc26980f3c55c4c38ae0db90",
+    "description": "Use SEIS MCP Runtime for MCP endpoint audits, tool boundary reviews, resource exposure checks, and explicit runtime evidence mapping for secure, scoped, AI-native operations.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "integrations",
+        "research",
+        "security",
+        "commerce",
+        "engineering",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/emirhankudun-ux/SEIS/blob/main/plugins/seis/skills/seis-mcp-runtime/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:13.302101Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:13.302101Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "seis-mcp-runtime",
+    "path": "plugins/seis/skills/seis-mcp-runtime",
+    "pushed_at": "2026-09-11T12:36:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "emirhankudun-ux/SEIS",
+    "repo_url": "https://github.com/emirhankudun-ux/SEIS",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1da5444047bcb01bb5d05c884918c76df578238ad2b44abb080721e916822fe9",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "1da5444047bcb01bb5d05c884918c76df578238ad2b44abb080721e916822fe9"
+}
