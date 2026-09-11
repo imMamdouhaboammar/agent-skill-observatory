@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **397**
-Repositories: **51**
+Published skills: **398**
+Repositories: **52**
 
 ## Browse repositories
 
@@ -16,6 +16,7 @@ Repositories: **51**
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
 - [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
+- [DanFashauer/SignalGrid-Review-Hub](./repos/DanFashauer/SignalGrid-Review-Hub.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
 - [Embassy-of-the-Free-Mind/sourcelibrary-v2](./repos/Embassy-of-the-Free-Mind/sourcelibrary-v2.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
@@ -295,6 +296,7 @@ Repositories: **51**
 - [review-open-issues](./skills/culturebotai/traitmech/.claude/skills/review-open-issues/README.md) · `culturebotai/traitmech:.claude/skills/review-open-issues`
 - [deepworkplan](./skills/dailybothq/deepworkplan-website/.agents/skills/deepworkplan/README.md) · `dailybothq/deepworkplan-website:.agents/skills/deepworkplan`
 - [responsive-lighthouse-audit](./skills/dailybothq/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) · `dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit`
+- [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`
