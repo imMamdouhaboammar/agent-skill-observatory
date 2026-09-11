@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "2bf5eedb2b7d0d2dca2dddcec95bd7b8fd8968aa69368f803b198c2fd325bfb6",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/linkedin-post-formatter",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2bf5eedb2b7d0d2dca2dddcec95bd7b8fd8968aa69368f803b198c2fd325bfb6",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/linkedin-post-formatter",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "901938d0ff24f2de2e9502e897e9b4b0178d1c2299e6f964360c5ebda053f975",
+    "description": "Draft or reformat copy-paste-ready LinkedIn posts from user-provided ideas and source material. Use for professional posts, concise thought-leadership drafts, resource announcements, story-led posts, carousel text, or optional Unicode emphasis with an accessible plain-text alternative.\n",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "data",
+        "design",
+        "education",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/linkedin-post-formatter/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "linkedin-post-formatter",
+    "path": "builtin-skills/skills/linkedin-post-formatter",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5afefa74eaee031a9eca4335131d91ffd97da88fba283a23cc09d21f7300343b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "5afefa74eaee031a9eca4335131d91ffd97da88fba283a23cc09d21f7300343b"
+}
