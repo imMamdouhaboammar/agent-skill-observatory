@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **63**
+Published skills: **64**
 Repositories: **10**
 
 ## Browse repositories
@@ -101,3 +101,4 @@ Repositories: **10**
 - [issue-reporter](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter`
 - [skills-manager](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/skills-manager/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/skills-manager`
 - [code-mate-antigravity](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-antigravity/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-antigravity`
+- [code-mate-claude-code](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-claude-code/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-claude-code`
