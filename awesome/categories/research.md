@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 90
+Published Skills: 91
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -65,6 +65,7 @@ Published Skills: 90
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |
 | [security-review](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | security findings, attack surfaces, dependency risk |
 | [skyrim-doc-system](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-doc-system/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 项目的文档体系规范：GLOBAL.md、GLOSSARY.md 与每个 MOD 的 CONTEXT.md / DICTIONARY.md / PROGRESS.md 五个文档的职责边界、收录标准、状态体系、术语优先级与维护规则。Use when creating or updating GLOBAL.md, GLOSSARY.md, or any MOD's CONTEXT.md / DICTIONARY.md / PROGRESS.md, deciding where a term or plot fact belongs, choosing term status (CONFIRMED/PROVISIONAL/REVIEW/KEEP), or resolving terminology priority conflicts. |
+| [skyrim-xml-verification](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-xml-verification/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 的 XML 安全与验证规范：写回前后必须执行的验证清单、哈希与 provenance 的使用边界、性能与验证的职责分离原则。Use before or after any xTranslator XML writeback, when designing or reviewing XML-modifying tools, when deciding whether hashes/provenance need rebuilding, or when judging whether "工程验证通过" can be claimed. |
 | [structured-artifacts-ko](../skills/andyko18/specops-ko/skills/structured-artifacts-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 Lifecycle 커맨드의 Process 첫 스텝 — `.specops/<FID>/` 디렉토리 규약으로 단계 간 파일-기반 통신을 강제한다 |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |

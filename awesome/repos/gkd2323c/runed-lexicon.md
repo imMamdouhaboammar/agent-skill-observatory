@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon)
 
-Published Skills: 5
-Categories: agent-orchestration, commerce, content, data, design, documentation, engineering, hr-recruiting, localization, productivity, research, security, testing
+Published Skills: 6
+Categories: agent-orchestration, ai-ml, commerce, content, data, design, documentation, engineering, hr-recruiting, localization, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [skyrim-doc-system](../../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-doc-system/README.md) | `.agents/skills/skyrim-doc-system` | 100 | 100 | hr-recruiting, localization, research |
 | [skyrim-term-contract-workflow](../../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-term-contract-workflow/README.md) | `.agents/skills/skyrim-term-contract-workflow` | 100 | 100 | agent-orchestration, content, engineering, hr-recruiting, localization, security |
 | [skyrim-translation-craft](../../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-translation-craft/README.md) | `.agents/skills/skyrim-translation-craft` | 100 | 100 | design, localization |
+| [skyrim-xml-verification](../../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-xml-verification/README.md) | `.agents/skills/skyrim-xml-verification` | 100 | 100 | ai-ml, research |
