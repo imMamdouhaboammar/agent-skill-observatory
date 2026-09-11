@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "693fbe8e05f863f99eac6a8a04a46b982ba3d7abce8a727156208c3daffffd50",
+  "canonical_key": "andyko18/specops-ko:skills/systematic-debugging-ko",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "693fbe8e05f863f99eac6a8a04a46b982ba3d7abce8a727156208c3daffffd50",
+    "archived": false,
+    "canonical_key": "andyko18/specops-ko:skills/systematic-debugging-ko",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b7c6bcaeea8ebc6d039102c84d67e11a56514a76e8b7d534806a74fcf1d608ed",
+    "description": "버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "integrations",
+        "productivity",
+        "research",
+        "security",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/andyko18/specops-ko/blob/main/skills/systematic-debugging-ko/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:45:01.262891Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:45:01.262891Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "systematic-debugging-ko",
+    "path": "skills/systematic-debugging-ko",
+    "pushed_at": "2026-09-11T12:35:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "andyko18/specops-ko",
+    "repo_url": "https://github.com/andyko18/specops-ko",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6a3c21b013f8e224a87a80161ef7566cef28cf54211944a7f3b3fa0c5760066f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "6a3c21b013f8e224a87a80161ef7566cef28cf54211944a7f3b3fa0c5760066f"
+}
