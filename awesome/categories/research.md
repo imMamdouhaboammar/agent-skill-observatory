@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 91
+Published Skills: 92
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -68,6 +68,7 @@ Published Skills: 91
 | [skyrim-xml-verification](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-xml-verification/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 的 XML 安全与验证规范：写回前后必须执行的验证清单、哈希与 provenance 的使用边界、性能与验证的职责分离原则。Use before or after any xTranslator XML writeback, when designing or reviewing XML-modifying tools, when deciding whether hashes/provenance need rebuilding, or when judging whether "工程验证通过" can be claimed. |
 | [structured-artifacts-ko](../skills/andyko18/specops-ko/skills/structured-artifacts-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 Lifecycle 커맨드의 Process 첫 스텝 — `.specops/<FID>/` 디렉토리 규약으로 단계 간 파일-기반 통신을 강제한다 |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
+| [translation-batch-preparer](../skills/gkd2323c/runed-lexicon/.agents/skills/translation-batch-preparer/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | Prepare structured translation batches from xTranslator XML for Skyrim mod localization without modifying the source XML. Use this skill whenever a Skyrim mod translation needs to be broken into reviewable batches, untranslated entries need stable identifiers and duplicate counts, or official Skyrim/DLC terminology should be attached before an Agent begins translating. Before any actual translation decisions, fully read the target mod's CONTEXT.md and DICTIONARY.md; if either file is missing, stop and ask the user whether to create it. |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
 | [add-robot](../skills/DexForce/EmbodiChain/.claude/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-robot skill. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
