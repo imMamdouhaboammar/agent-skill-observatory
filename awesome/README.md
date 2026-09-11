@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **253**
-Repositories: **39**
+Published skills: **254**
+Repositories: **40**
 
 ## Browse repositories
 
@@ -40,6 +40,7 @@ Repositories: **39**
 - [hhai0519/HH.AI_v2](./repos/hhai0519/HH.AI_v2.md)
 - [homeassistant-ai/ha-mcp](./repos/homeassistant-ai/ha-mcp.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
+- [hose1021/omp-dotfiles](./repos/hose1021/omp-dotfiles.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
 - [lightdash/lightdash](./repos/lightdash/lightdash.md)
@@ -299,6 +300,7 @@ Repositories: **39**
 - [my-pr-checker](./skills/homeassistant-ai/ha-mcp/.claude/skills/my-pr-checker/README.md) · `homeassistant-ai/ha-mcp:.claude/skills/my-pr-checker`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
+- [frontend-design](./skills/hose1021/omp-dotfiles/agent/skills/frontend-design/README.md) · `hose1021/omp-dotfiles:agent/skills/frontend-design`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
 - [code-conventions](./skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) · `iflytek/skillhub:.agents/skills/code-conventions`
 - [pr-submission](./skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) · `iflytek/skillhub:.agents/skills/pr-submission`
