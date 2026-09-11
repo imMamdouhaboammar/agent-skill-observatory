@@ -1,0 +1,108 @@
+{
+  "analysis_fingerprint": "2ba43065da7b16653d2c10385f0e011a5186749a3cbcf61b6c0cdefd55d7f8d8",
+  "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/my-pr-checker",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Edit,",
+      "Write,",
+      "Glob,",
+      "Grep,",
+      "WebFetch,",
+      "WebSearch"
+    ],
+    "analysis_fingerprint": "2ba43065da7b16653d2c10385f0e011a5186749a3cbcf61b6c0cdefd55d7f8d8",
+    "archived": false,
+    "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/my-pr-checker",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "108ad0718317d27652086bbe5dc159a05ecf93a489d3a4969f61e91f44e23ef2",
+    "description": "Manage your own GitHub pull requests — check CI status, inline review comments, PR-level comments, resolve review threads, fix issues, and iterate until all checks pass and threads are resolved. Use for managing your own PRs (not external contributions). Triggers on \"check my PR\", \"check PR\", \"/my-pr-checker <number>\".",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "commerce",
+        "integrations",
+        "security",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/homeassistant-ai/ha-mcp/blob/master/.claude/skills/my-pr-checker/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:42:53.335596Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "my-pr-checker",
+    "path": ".claude/skills/my-pr-checker",
+    "pushed_at": "2026-09-11T12:36:11Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "homeassistant-ai/ha-mcp",
+    "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c4c4fa59f2729d5ef3bf828e3a1edcb573b41ff58af7fcfe610768f5ba9d04d7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4688
+  },
+  "source_fingerprint": "c4c4fa59f2729d5ef3bf828e3a1edcb573b41ff58af7fcfe610768f5ba9d04d7"
+}
