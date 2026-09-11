@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "4c860c630960e86483c1a7da9ddb468c8f26798e6388cd837cb05a531dbece45",
+  "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-tanstack-patterns",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "WebFetch"
+    ],
+    "analysis_fingerprint": "4c860c630960e86483c1a7da9ddb468c8f26798e6388cd837cb05a531dbece45",
+    "archived": false,
+    "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-tanstack-patterns",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3ac8445c615ab7f0da355d76e901bc37fac6110b83a026d1b41a8bb040b5bd9e",
+    "description": "TanStack React Start auth patterns with @clerk/tanstack-react-start - createServerFn, beforeLoad guards, loaders, Vinxi server. Triggers on: TanStack auth, createServerFn clerk, beforeLoad protection, TanStack Start middleware.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "design",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Gizziio/allternit-platform/blob/main/.agents/skills/clerk-tanstack-patterns/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:51:13.660809Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:13.660809Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "clerk",
+      "version": "1.0.0"
+    },
+    "name": "clerk-tanstack-patterns",
+    "path": ".agents/skills/clerk-tanstack-patterns",
+    "pushed_at": "2026-09-11T16:44:32Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Gizziio/allternit-platform",
+    "repo_url": "https://github.com/Gizziio/allternit-platform",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "da51bb50cb72be22435e48cd3b37bd3e5803c25e5c5dd85a81cd15bef83cf407",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "da51bb50cb72be22435e48cd3b37bd3e5803c25e5c5dd85a81cd15bef83cf407"
+}
