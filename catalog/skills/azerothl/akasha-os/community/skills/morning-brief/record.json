@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "5a9390f1c8f85d51f30d8517089dfd32b12ed5b1d27582ed035f32218168fb6e",
+  "canonical_key": "azerothl/akasha-os:community/skills/morning-brief",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5a9390f1c8f85d51f30d8517089dfd32b12ed5b1d27582ed035f32218168fb6e",
+    "archived": false,
+    "canonical_key": "azerothl/akasha-os:community/skills/morning-brief",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "effdfee5569cf21ff495af9b1df2cf1898108142b1a45375a8fda3a68539cc50",
+    "description": "Short local briefing from memory, open tasks, and notes — no network",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/azerothl/akasha-os/blob/main/community/skills/morning-brief/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:42.350995Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:42.350995Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "morning-brief",
+    "path": "community/skills/morning-brief",
+    "pushed_at": "2026-09-11T12:36:19Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "azerothl/akasha-os",
+    "repo_url": "https://github.com/azerothl/akasha-os",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "97ca753b72a6dc51ace5d4de477ede0d4a35aee16f3945d01b7e0ca7caff39e6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "97ca753b72a6dc51ace5d4de477ede0d4a35aee16f3945d01b7e0ca7caff39e6"
+}

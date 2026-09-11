@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **126**
-Repositories: **16**
+Published skills: **127**
+Repositories: **17**
 
 ## Browse repositories
 
@@ -16,6 +16,7 @@ Repositories: **16**
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
+- [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -120,6 +121,7 @@ Repositories: **16**
 - [systematic-debugging-ko](./skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) · `andyko18/specops-ko:skills/systematic-debugging-ko`
 - [tdd-ko](./skills/andyko18/specops-ko/skills/tdd-ko/README.md) · `andyko18/specops-ko:skills/tdd-ko`
 - [using-specops-ko](./skills/andyko18/specops-ko/skills/using-specops-ko/README.md) · `andyko18/specops-ko:skills/using-specops-ko`
+- [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
