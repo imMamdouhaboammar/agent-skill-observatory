@@ -1,0 +1,108 @@
+{
+  "analysis_fingerprint": "d9dd57c99b5affa04fbcab307332b372807430aee49157becf1f59b005967db7",
+  "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-chrome-extension-patterns",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "WebFetch"
+    ],
+    "analysis_fingerprint": "d9dd57c99b5affa04fbcab307332b372807430aee49157becf1f59b005967db7",
+    "archived": false,
+    "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-chrome-extension-patterns",
+    "compatibility": "Requires PLASMO_PUBLIC_CLERK_PUBLISHABLE_KEY (Plasmo prefix for public env vars) and CLERK_FRONTEND_API.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "364ccf66dd86ae3c1eecf6724d635ccf5bb6b89e0fd76aae938243711f0fc441",
+    "description": "Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel setup, syncHost for OAuth/SAML via web app, createClerkClient for service workers and headless extensions, stable CRX ID. Triggers on: Chrome extension auth, Plasmo clerk, popup sign-in, syncHost, background service worker token, createClerkClient, headless extension.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "integrations",
+        "content",
+        "browser-automation",
+        "design",
+        "engineering",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Gizziio/allternit-platform/blob/main/.agents/skills/clerk-chrome-extension-patterns/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:51:13.660809Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:13.660809Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "clerk",
+      "references": "['references/sync-host.md', 'references/create-clerk-client.md', 'references/content-scripts.md', 'references/headless-extension.md']",
+      "version": "2.0.0"
+    },
+    "name": "clerk-chrome-extension-patterns",
+    "path": ".agents/skills/clerk-chrome-extension-patterns",
+    "pushed_at": "2026-09-11T16:44:32Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Gizziio/allternit-platform",
+    "repo_url": "https://github.com/Gizziio/allternit-platform",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8525b8a734338ddd0f78407233a64fbfe675204275b6a1bf0c40ad4f4e3cf336",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "8525b8a734338ddd0f78407233a64fbfe675204275b6a1bf0c40ad4f4e3cf336"
+}
