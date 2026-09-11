@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "644c4378c8f650bc268ef13e6732eb41633b00c14c40f1d5bcd727462215e29b",
+  "canonical_key": "markmhendrickson/ateles:.claude/skills/final-review",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "644c4378c8f650bc268ef13e6732eb41633b00c14c40f1d5bcd727462215e29b",
+    "archived": false,
+    "canonical_key": "markmhendrickson/ateles:.claude/skills/final-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f54fcb0ab35b72450f2ca96a76c95ff4455e8a857fda16c76d0fc1a5738beb8f",
+    "description": "Final review workflow per foundation command.",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "engineering",
+        "commerce",
+        "documentation",
+        "legal-compliance",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/markmhendrickson/ateles/blob/main/.claude/skills/final-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:00:52.211704Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:00:52.211704Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "final-review",
+    "path": ".claude/skills/final-review",
+    "pushed_at": "2026-09-11T07:59:31Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "markmhendrickson/ateles",
+    "repo_url": "https://github.com/markmhendrickson/ateles",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 29,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8cfaf3053b94d897d7c93734800176fc2c5519cdfd63fe701cd1744e384df9e3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "8cfaf3053b94d897d7c93734800176fc2c5519cdfd63fe701cd1744e384df9e3"
+}

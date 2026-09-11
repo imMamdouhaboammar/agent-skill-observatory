@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **113**
+Published skills: **114**
 Repositories: **15**
 
 ## Browse repositories
@@ -168,3 +168,4 @@ Repositories: **15**
 - [deploy-website](./skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) · `markmhendrickson/ateles:.claude/skills/deploy-website`
 - [draft-comparative-neotoma-post](./skills/markmhendrickson/ateles/.claude/skills/draft-comparative-neotoma-post/README.md) · `markmhendrickson/ateles:.claude/skills/draft-comparative-neotoma-post`
 - [email-triage](./skills/markmhendrickson/ateles/.claude/skills/email-triage/README.md) · `markmhendrickson/ateles:.claude/skills/email-triage`
+- [final-review](./skills/markmhendrickson/ateles/.claude/skills/final-review/README.md) · `markmhendrickson/ateles:.claude/skills/final-review`
