@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp)
 
-Published Skills: 5
+Published Skills: 6
 Categories: code-review, commerce, content, data, devops, documentation, engineering, integrations, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [contrib-pr-review](../../skills/homeassistant-ai/ha-mcp/.claude/skills/contrib-pr-review/README.md) | `.claude/skills/contrib-pr-review` | 100 | 100 | code-review, content, engineering, integrations, security, testing |
 | [contributors-update](../../skills/homeassistant-ai/ha-mcp/.claude/skills/contributors-update/README.md) | `.claude/skills/contributors-update` | 100 | 100 | commerce, content, data, documentation, engineering, integrations |
 | [issue-analysis](../../skills/homeassistant-ai/ha-mcp/.claude/skills/issue-analysis/README.md) | `.claude/skills/issue-analysis` | 100 | 100 | content, data, engineering, integrations, productivity, research |
+| [issue-to-pr-resolver](../../skills/homeassistant-ai/ha-mcp/.claude/skills/issue-to-pr-resolver/README.md) | `.claude/skills/issue-to-pr-resolver` | 100 | 100 | commerce, content, engineering, integrations, testing |

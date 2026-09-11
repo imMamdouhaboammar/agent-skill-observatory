@@ -1,0 +1,108 @@
+{
+  "analysis_fingerprint": "fb41c6300d268ddf7d35b62d34feb264d16e59c445ff215fc1feec61fe83430a",
+  "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/issue-to-pr-resolver",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Edit,",
+      "Write,",
+      "Glob,",
+      "Grep,",
+      "WebFetch,",
+      "WebSearch"
+    ],
+    "analysis_fingerprint": "fb41c6300d268ddf7d35b62d34feb264d16e59c445ff215fc1feec61fe83430a",
+    "archived": false,
+    "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/issue-to-pr-resolver",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3fb43107488e16eff659705dc0fc21d51e1a30236fe858a8358617a31e2eaecc",
+    "description": "Implement a GitHub issue end-to-end — create a worktree branch, implement the feature with tests, create a draft PR, then iteratively resolve all CI failures and review comments until the PR is clean. Use when you need to fully implement a GitHub issue from start to merge-ready. Triggers on \"implement issue\", \"resolve issue\", \"/issue-to-pr-resolver <number>\".",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "testing",
+        "content",
+        "commerce",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/homeassistant-ai/ha-mcp/blob/master/.claude/skills/issue-to-pr-resolver/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:42:53.335596Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "issue-to-pr-resolver",
+    "path": ".claude/skills/issue-to-pr-resolver",
+    "pushed_at": "2026-09-11T12:36:11Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "homeassistant-ai/ha-mcp",
+    "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5d4f03107430b228bdb20d8277856cdd7896ff45109b510a847cb1f3c7045d94",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4688
+  },
+  "source_fingerprint": "5d4f03107430b228bdb20d8277856cdd7896ff45109b510a847cb1f3c7045d94"
+}
