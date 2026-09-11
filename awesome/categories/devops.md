@@ -1,9 +1,10 @@
 # devops
 
-Published Skills: 8
+Published Skills: 9
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
+| [claude-automation-recommender](../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use when user asks for automation recommendations, wants to optimize their Claude Code setup, mentions improving Claude Code workflows, asks how to first set up Claude Code for a project, or wants to know what Claude Code features they should use. |
 | [create-skill](../skills/CherryHQ/cherry-studio/.agents/skills/create-skill/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Create a new skill in the current repository. Use when the user wants to create/add a new skill, or mentions creating a skill from scratch. This skill follows the workflow defined in .agents/skills/README.md and helps scaffold, validate, and sync new skills. |
 | [imagencn](../skills/Agents365-ai/365-skills/plugins/imagencn/skills/imagencn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform AI image generation via DashScope/Ark/Hunyuan/Zhipu/StepFun plus Grok/OpenAI/Gemini/FLUX (international), specializing in Chinese text rendering and photorealistic images |
 | [ttscn](../skills/Agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform Chinese & multilingual TTS text-to-speech via Edge/Doubao/CosyVoice/Qwen3/StepFun/GLM-TTS/Azure/Tencent/Baidu/MiniMax/Xunfei plus ElevenLabs/OpenAI/Google/Atlas Cloud — 15 backends, word-level timestamps, [PAUSE:x] pause markers, pinyin pronunciation overrides |

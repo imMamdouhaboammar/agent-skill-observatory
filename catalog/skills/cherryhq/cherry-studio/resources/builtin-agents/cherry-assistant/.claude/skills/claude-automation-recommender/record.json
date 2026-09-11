@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "8d7a973c87b539b8cb794dacf8cd991ff9f97a6cf59089a5f42f7872233d15bf",
+  "canonical_key": "cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read,",
+      "Glob,",
+      "Grep,",
+      "Bash"
+    ],
+    "analysis_fingerprint": "8d7a973c87b539b8cb794dacf8cd991ff9f97a6cf59089a5f42f7872233d15bf",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a7088d8851ea63ecc93f7867ce392aeb6ecf14245c5fa9e601c587953529ed01",
+    "description": "Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use when user asks for automation recommendations, wants to optimize their Claude Code setup, mentions improving Claude Code workflows, asks how to first set up Claude Code for a project, or wants to know what Claude Code features they should use.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "testing",
+        "agent-orchestration",
+        "devops",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "claude-automation-recommender",
+    "path": "resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 5,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "919dcf4530ddbbd8ae213e423e317f34efc9d463c483ff59022b2972eaae9713",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "919dcf4530ddbbd8ae213e423e317f34efc9d463c483ff59022b2972eaae9713"
+}
