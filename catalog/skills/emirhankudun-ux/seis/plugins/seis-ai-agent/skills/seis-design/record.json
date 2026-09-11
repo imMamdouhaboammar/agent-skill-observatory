@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "80daa827486a0176c1895f31c4b1ab259ec4ea79f8074226032884b1e74bb993",
+  "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-design",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "80daa827486a0176c1895f31c4b1ab259ec4ea79f8074226032884b1e74bb993",
+    "archived": false,
+    "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-design",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "70d89879e26668cdf4d6b628c81d3d8f25b640906aad08287e28037ffc72860f",
+    "description": "Use SEIS-Design for product design, UI/UX architecture, design systems, accessibility, responsive ergonomics, calm motion, visual QA, frontend experience planning, and design-governed SEIS app surfaces. Trigger when Codex needs a full design plugin lane rather than generic visual suggestions.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "productivity",
+        "content",
+        "engineering",
+        "product",
+        "browser-automation"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/emirhankudun-ux/SEIS/blob/main/plugins/seis-ai-agent/skills/seis-design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:13.302101Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:13.302101Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "seis-design",
+    "path": "plugins/seis-ai-agent/skills/seis-design",
+    "pushed_at": "2026-09-11T12:36:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "emirhankudun-ux/SEIS",
+    "repo_url": "https://github.com/emirhankudun-ux/SEIS",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3ade7d436385c21dd9bde45e479587e54d7e56bc64abd1ff1fc62c90445d440d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "3ade7d436385c21dd9bde45e479587e54d7e56bc64abd1ff1fc62c90445d440d"
+}
