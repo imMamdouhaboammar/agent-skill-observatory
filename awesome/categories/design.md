@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 114
+Published Skills: 115
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -78,6 +78,7 @@ Published Skills: 114
 | [bootstrapping-modern-web-apps](../skills/jhonatan-oliveiradev/agent-skills/skills/bootstrapping-modern-web-apps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when the user explicitly opts into this opinionated web-app baseline, asks to use the personal starter, or wants this repository's preferred Next.js project conventions. |
 | [building-brand-guidelines](../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand identity needs durable rules, assets, examples, accessibility constraints, and governance so multiple people can reproduce it consistently across channels. |
 | [building-conversion-product-pages](../skills/jhonatan-oliveiradev/agent-skills/skills/building-conversion-product-pages/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when designing or improving a landing page, product page, digital-product storefront, pricing page, or marketing flow where visitor comprehension and conversion are primary goals. |
+| [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |
 | [cherry-studio-feedback](../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 97 | 100 | 51666 | Use when Cherry Studio 用户希望报告、提交或整理 BUG、UI/UX 问题或功能建议，但未明确要求创建 GitHub Issue。 |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |

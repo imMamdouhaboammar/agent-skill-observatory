@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 58
+Published Skills: 59
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -62,3 +62,4 @@ Published Skills: 58
 | [assessing-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/assessing-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs an evidence-aware diagnosis of current capabilities, confidence, unknowns, and weakly demonstrated areas before deciding what to improve. |
 | [building-conversion-product-pages](../skills/jhonatan-oliveiradev/agent-skills/skills/building-conversion-product-pages/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when designing or improving a landing page, product page, digital-product storefront, pricing page, or marketing flow where visitor comprehension and conversion are primary goals. |
 | [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
+| [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
