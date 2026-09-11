@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 124
+Published Skills: 125
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -54,6 +54,7 @@ Published Skills: 124
 | [improve-goal](../skills/chnlich/charlie-bot/skills/improve-goal/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | How to write effective improve loop goal prompts — for the master CC agent that writes the --goal-file content. |
 | [improve-worker](../skills/chnlich/charlie-bot/skills/improve-worker/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | methodology for iterative improve loop workers. |
 | [linear](../skills/chnlich/charlie-bot/skills/linear/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, update, or search Linear issues, projects, cycles, or teams. |
+| [slack](../skills/chnlich/charlie-bot/skills/slack/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read Slack messages, search Slack conversations, look up Slack users, check DMs, or interact with the Slack workspace in any way. |
 | [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [atm-create](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-create/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Create and register an atom through the provisioning facade. |
 | [atm-dispatch](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-dispatch/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | ATM Captain dispatch routing for task cards, sidecars, subagents, condition review, mailbox work, and closeout coordination. |

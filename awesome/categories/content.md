@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 128
+Published Skills: 129
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -58,6 +58,7 @@ Published Skills: 128
 | [linear](../skills/chnlich/charlie-bot/skills/linear/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, update, or search Linear issues, projects, cycles, or teams. |
 | [llm-context-guideline](../skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Placement and admission policy for content that enters LLM context; its chapters currently govern the memory store (admission whitelist, the three proof questions, entry form and labeling, canon change rules). Reload in full before touching memory content. |
 | [plan-approval](../skills/chnlich/charlie-bot/skills/plan-approval/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Enforces explicit user approval at the CharlieBot master-to-user boundary. Use only when the CharlieBot master is producing an understanding page, presenting a plan, receiving plan feedback, or preparing to delegate implementation. |
+| [slack](../skills/chnlich/charlie-bot/skills/slack/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read Slack messages, search Slack conversations, look up Slack users, check DMs, or interact with the Slack workspace in any way. |
 | [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [atm-create](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-create/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Create and register an atom through the provisioning facade. |
 | [atm-diagnostic-loop](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-diagnostic-loop/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence. |

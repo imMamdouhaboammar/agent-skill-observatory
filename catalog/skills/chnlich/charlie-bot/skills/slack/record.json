@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "562d84305a9447bd22b8d9fb1317b62807d96498a58bebe1c34562322914f7ef",
+  "canonical_key": "chnlich/charlie-bot:skills/slack",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "562d84305a9447bd22b8d9fb1317b62807d96498a58bebe1c34562322914f7ef",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/slack",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b5642e144879b68f638e1afcccb77b05d8b7a7b6c388ae8e0cfd783dc16747f8",
+    "description": "This skill should be used when the user asks to read Slack messages, search Slack conversations, look up Slack users, check DMs, or interact with the Slack workspace in any way.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "engineering",
+        "integrations",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/slack/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "slack",
+    "path": "skills/slack",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4a120af4e854ca20f3454da17b11f09635a5eb75c97e2fbb0fe55bb22bd5a2f8",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "4a120af4e854ca20f3454da17b11f09635a5eb75c97e2fbb0fe55bb22bd5a2f8"
+}
