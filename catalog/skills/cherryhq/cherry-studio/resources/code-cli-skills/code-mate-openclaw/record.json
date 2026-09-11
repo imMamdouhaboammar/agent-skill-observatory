@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "f5417674d3b17191dba8170864858565c5248a164b70158a296b61a9869208f3",
+  "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-openclaw",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f5417674d3b17191dba8170864858565c5248a164b70158a296b61a9869208f3",
+    "archived": false,
+    "canonical_key": "cherryhq/cherry-studio:resources/code-cli-skills/code-mate-openclaw",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "45b0e63168009cb54b06dbbe45a435d0bfa460f71299644837b8655a788dd285",
+    "description": "Runs a local OpenClaw agent non-interactively and returns its structured response. Use when the user asks to delegate a bounded task to the OpenClaw main agent.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "content",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/CherryHQ/cherry-studio/blob/main/resources/code-cli-skills/code-mate-openclaw/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "code-mate-openclaw",
+    "path": "resources/code-cli-skills/code-mate-openclaw",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CherryHQ/cherry-studio",
+    "repo_url": "https://github.com/CherryHQ/cherry-studio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "77e2df6116fa13aa4480b38558e8637339e83ef8a58eceda14e3aaffef1979e7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 51666
+  },
+  "source_fingerprint": "77e2df6116fa13aa4480b38558e8637339e83ef8a58eceda14e3aaffef1979e7"
+}

@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 45
+Published Skills: 46
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -12,6 +12,7 @@ Published Skills: 45
 | [code-mate-github-copilot](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-github-copilot/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs GitHub Copilot CLI programmatically for repository analysis and coding tasks. Use when the user asks to delegate work to Copilot CLI or obtain a Copilot coding-agent result. |
 | [code-mate-hermes](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-hermes/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Hermes Agent in one-shot mode for bounded local tasks. Use when the user explicitly asks to delegate work to Hermes and accepts its automatic tool approval behavior. |
 | [code-mate-kimi-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-kimi-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Kimi Code in non-interactive prompt mode and parses its event stream. Use when the user asks to delegate a bounded repository task to Kimi Code. |
+| [code-mate-openclaw](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-openclaw/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs a local OpenClaw agent non-interactively and returns its structured response. Use when the user asks to delegate a bounded task to the OpenClaw main agent. |
 | [gh-create-issue](../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format. |
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
