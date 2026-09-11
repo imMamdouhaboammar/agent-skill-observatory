@@ -1,12 +1,13 @@
 # finance
 
-Published Skills: 7
+Published Skills: 8
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [decision-matrix](../skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Compare options with weighted scoring, pros and cons, pre-mortems, opportunity costs, and ICE prioritization. Use when a user wants to reason through a choice, expose assumptions, or rank alternatives. |
 | [meeting-note-summarizer](../skills/iflytek/skillhub/builtin-skills/skills/meeting-note-summarizer/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Turn meeting notes or transcripts into factual summaries, decisions, questions, and action items. Use when a user wants a concise recap or needs explicit owners and deadlines extracted without filling in missing details. |
 | [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
+| [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
 | [fetch-source](../skills/CultureBotAI/TraitMech/.claude/skills/fetch-source/README.md) | [CultureBotAI/TraitMech](https://github.com/CultureBotAI/TraitMech) | 100 | 100 | 1 | Robust curl pattern for `fetch-<source>` justfile recipes that download an external data release into data/raw/. Use whenever writing a new fetch-* recipe, or auditing/fixing an existing one that fails intermittently in CI — a bare `curl -o` with no retry or timeout turns one flaky network blip into a red PR. |
 | [msx-play](../skills/jeong-sik/masc/skills/msx-play/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Play the shared MSX machine through image observation, sequential key input, disk changes and persistent checkpoints; learn game menus from their visible results. |

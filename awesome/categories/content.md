@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 172
+Published Skills: 173
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -51,6 +51,7 @@ Published Skills: 172
 | [kb-manager](../skills/jairorodriguezarias/siesta/factory/skills/kb-manager/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Manages the JSON-based knowledge graph with progressive disclosure. Use when reading or writing decisions, blockers, learnings, or consultations to the KB. Provides query, append, and link operations. |
 | [spec-driven-development](../skills/jairorodriguezarias/siesta/.agents/skills/spec-driven-development/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying. |
 | [prodex-session-prompt-write](../skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) | [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 100 | 100 | 49 | Safely write a user prompt to and observe an already-running plain prodex s session through its default expose MCP bridge. |
+| [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |

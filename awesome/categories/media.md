@@ -1,6 +1,6 @@
 # media
 
-Published Skills: 21
+Published Skills: 22
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -10,6 +10,7 @@ Published Skills: 21
 | [sandbase](../skills/iflytek/skillhub/builtin-skills/skills/sandbase/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings, social data, and structured retrieval. Use sandbase_discover before building custom integrations or declaring external data inaccessible; prefer an existing dedicated tool or API key when the user already has one. |
 | [storytelling-advisor](../skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Shape pitches, brand stories, presentations, and creative writing with narrative frameworks such as the Hero's Journey, Story Spine, and Freytag's Pyramid. Use when a user wants to structure, critique, or strengthen a story. |
 | [prodex-session-prompt-write](../skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) | [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 100 | 100 | 49 | Safely write a user prompt to and observe an already-running plain prodex s session through its default expose MCP bridge. |
+| [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
 | [draft-comparative-neotoma-post](../skills/markmhendrickson/ateles/.claude/skills/draft-comparative-neotoma-post/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Draft a comparative Neotoma post (memory & truth-layer series) that compares a product or API's memory to a truth layer. Use when user says "draft comparative neotoma post", "memory series post", "truth layer comparison post", or similar. Can be invoked via /draft-comparative-neotoma-post. |
 | [file-server](../skills/chnlich/charlie-bot/skills/file-server/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Must invoke when presenting a file to the user. The CharlieBot server has a built-in file browser that serves any file on the host filesystem. |
 | [clerk-billing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-billing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Clerk Billing for subscription management - render Clerk's PricingTable and in-app checkout drawer, configure subscription plans, seat-limit plans for B2B, feature entitlements with has(), and billing webhooks. Use for SaaS monetization, plan gating, checkout flows, trials, invoicing, and subscription lifecycle management. |

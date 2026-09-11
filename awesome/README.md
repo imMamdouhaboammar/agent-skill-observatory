@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **288**
-Repositories: **45**
+Published skills: **289**
+Repositories: **46**
 
 ## Browse repositories
 
@@ -31,6 +31,7 @@ Repositories: **45**
 - [chnlich/charlie-bot](./repos/chnlich/charlie-bot.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
+- [commontoolsinc/labs](./repos/commontoolsinc/labs.md)
 - [cosyeezz/axiom](./repos/cosyeezz/axiom.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
@@ -205,6 +206,7 @@ Repositories: **45**
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
+- [pattern-ui](./skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) · `commontoolsinc/labs:packages/cf-harness/fixtures/hostile-skills-root/pattern-ui`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`

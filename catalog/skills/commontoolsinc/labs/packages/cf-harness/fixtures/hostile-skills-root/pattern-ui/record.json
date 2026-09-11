@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "70b625f5097922ab16dae2c59020be98826b667f0d8c0404edb51205c0fdd9e8",
+  "canonical_key": "commontoolsinc/labs:packages/cf-harness/fixtures/hostile-skills-root/pattern-ui",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "70b625f5097922ab16dae2c59020be98826b667f0d8c0404edb51205c0fdd9e8",
+    "archived": false,
+    "canonical_key": "commontoolsinc/labs:packages/cf-harness/fixtures/hostile-skills-root/pattern-ui",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9ecd20d7126fbb94f46ec755e0b57e5a822bf7eac48179dd18259fbdb007683e",
+    "description": "Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md).",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "finance",
+        "data",
+        "documentation",
+        "content",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/commontoolsinc/labs/blob/main/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 13,
+    "indexed_at": "2026-09-11T21:52:34.426480Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:52:34.426480Z",
+    "license": "0BSD",
+    "metadata": {},
+    "name": "pattern-ui",
+    "path": "packages/cf-harness/fixtures/hostile-skills-root/pattern-ui",
+    "pushed_at": "2026-09-11T21:47:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "commontoolsinc/labs",
+    "repo_url": "https://github.com/commontoolsinc/labs",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 54,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license 0BSD."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "dcc146a76cd0c448c04becab4de375f6866cc78c60a864b53e7cc32a58123508",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 38
+  },
+  "source_fingerprint": "dcc146a76cd0c448c04becab4de375f6866cc78c60a864b53e7cc32a58123508"
+}
