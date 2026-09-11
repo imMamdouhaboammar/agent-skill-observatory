@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "39b478a05bce36927c2d34ce682e229ed51a5775f6d4530a7d1878af1dd47b60",
+  "canonical_key": "commontoolsinc/labs:skills/pattern-schema",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "39b478a05bce36927c2d34ce682e229ed51a5775f6d4530a7d1878af1dd47b60",
+    "archived": false,
+    "canonical_key": "commontoolsinc/labs:skills/pattern-schema",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e19ecee6efb92513410057d80d1433c9de7fd8199c1c25560e6f50b0dc50135d",
+    "description": "Design schemas.tsx with Input/Output types for patterns",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "documentation",
+        "testing",
+        "ai-ml",
+        "data",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-schema/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 13,
+    "indexed_at": "2026-09-11T21:52:34.426480Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:52:34.426480Z",
+    "license": "0BSD",
+    "metadata": {},
+    "name": "pattern-schema",
+    "path": "skills/pattern-schema",
+    "pushed_at": "2026-09-11T21:47:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "commontoolsinc/labs",
+    "repo_url": "https://github.com/commontoolsinc/labs",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 54,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license 0BSD."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "debb95f958c526696de513dcd2ad316409581063a8ec28a7871a5c29e6706e7e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 38
+  },
+  "source_fingerprint": "debb95f958c526696de513dcd2ad316409581063a8ec28a7871a5c29e6706e7e"
+}
