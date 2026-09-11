@@ -34,6 +34,336 @@
     "best_score": 100,
     "categories": [
       "agent-orchestration",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "engineering",
+      "hr-recruiting",
+      "legal-compliance",
+      "mobile",
+      "productivity",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 36,
+    "pushed_at": "2026-09-11T23:35:39+00:00",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "security_85_plus_count": 33,
+    "skills": [
+      {
+        "description": "Fetch published GHSA and CVE advisories affecting any package this repository produces, via advisories.ecosyste.ms.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/advisories/SKILL.md",
+        "name": "advisories",
+        "overall_score": 100,
+        "path": "skills/advisories",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Re-audit every past GHSA/CVE advisory published against this repository, anchored on each advisory's fix commit, for four failure modes, a regression of the original bug, a bypass of the fix, an incomplete fix that left a path open, and the same class of bug in sibling code the fix never touched. Records one verdict per advisory (fixed, bypass, variant or regressed) with standalone evidence, opening findings for anything that did not hold, and a fixed verdict backs a public fix-audit certificate. Use when you want to prove that prior fixes actually held rather than trusting that a shipped patch closed the hole. The target is this codebase's own first-party source, not its dependencies.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/advisory-deep-dive/SKILL.md",
+        "name": "advisory-deep-dive",
+        "overall_score": 100,
+        "path": "skills/advisory-deep-dive",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Focused static audit for IDOR, tenant-isolation failures, missing or fail-open authorization guards, privilege escalation, and unverified claims used for access decisions.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/audit-authz/SKILL.md",
+        "name": "audit-authz",
+        "overall_score": 100,
+        "path": "skills/audit-authz",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Focused static audit for attacker-controlled reads, requests, parsers, or error paths that can disclose files, metadata, secrets, or internal responses.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/audit-exfil/SKILL.md",
+        "name": "audit-exfil",
+        "overall_score": 100,
+        "path": "skills/audit-exfil",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Focused static audit for reachable memory corruption in first-party C, C++, unsafe Rust, native extensions, and FFI boundaries.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/audit-memory/SKILL.md",
+        "name": "audit-memory",
+        "overall_score": 100,
+        "path": "skills/audit-memory",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Focused static audit for real personal or customer-identifying data committed to source or exposed through logs, URLs, telemetry, exports, and responses.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/audit-pii/SKILL.md",
+        "name": "audit-pii",
+        "overall_score": 100,
+        "path": "skills/audit-pii",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Decide whether a finding's suggested fix is a breaking change for top dependents. Reads the unified-diff fix on the finding, identifies the public API surface that changes (signatures, exports, removed fields, renamed types), and lists which top dependents are most likely to break. Static analysis on the diff and the dependent metadata from the scrutineer API; never executes dependent code.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/breaking-change/SKILL.md",
+        "name": "breaking-change",
+        "overall_score": 100,
+        "path": "skills/breaking-change",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Match the repository to a CVE Numbering Authority so disclosures route to the CNA's security contact when one covers the repo.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/cna-match/SKILL.md",
+        "name": "cna-match",
+        "overall_score": 100,
+        "path": "skills/cna-match",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Judge whether a validated finding can affect a real release build, and record the attacker position, preconditions, impact, counterevidence, and facts that could change that conclusion. Finding-scoped and read-only.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/critic/SKILL.md",
+        "name": "critic",
+        "overall_score": 100,
+        "path": "skills/critic",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Draft the disclosure content for a finding in GitHub Security Advisory shape. Produces a title, markdown description, affected package block, CVSS vector, CWE list, references, and a suggested-recipients list from CODEOWNERS or git history, then writes them back to the finding so the analyst can paste them into the GHSA form (or POST to GitHub's repository-advisories REST endpoint) rather than composing from scratch.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/disclose/SKILL.md",
+        "name": "disclose",
+        "overall_score": 100,
+        "path": "skills/disclose",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "For one (finding, dependent) pair, decide whether the dependent's code reaches the upstream finding. Emits a CSAF 2.0 product_status verdict with VEX justification.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/exposure/SKILL.md",
+        "name": "exposure",
+        "overall_score": 100,
+        "path": "skills/exposure",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Compare open findings in one repository and record how they relate. Marks same-vulnerability findings as duplicates, findings that another finding's fix will close as subsumed, and findings that combine into a higher-severity attack as a chain.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/finding-dedup/SKILL.md",
+        "name": "finding-dedup",
+        "overall_score": 100,
+        "path": "skills/finding-dedup",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Build a read-only compromise timeline and evidence bundle from local Git history and public forge/archive records. Use after suspected maintainer, account, release, or source-history compromise; it produces evidence, not findings or remediation.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/forensics/SKILL.md",
+        "name": "forensics",
+        "overall_score": 100,
+        "path": "skills/forensics",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Stage a scanned repository into a private repo in the configured GitHub organisation. Creates the repo (no fork relationship), seeds it with the upstream tree, writes scrutineer metadata under the configured metadata directory, files one issue per open finding, and gives an org team push access. The staging repo is the per-project working surface for triage, fix development, and the disclosure paper trail.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/fork/SKILL.md",
+        "name": "fork",
+        "overall_score": 100,
+        "path": "skills/fork",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Normalize an externally-produced security report in an arbitrary format into scrutineer findings. The raw report is staged at import/report by the /v1/import fallback; read it, extract each distinct finding, resolve locations against the checkout, and write the findings report. Runs when no deterministic importer recognised the payload.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/ingest/SKILL.md",
+        "name": "ingest",
+        "overall_score": 100,
+        "path": "skills/ingest",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Fetch repository metadata (description, default branch, languages, license, stars, archived, icon) from repos.ecosyste.ms and save it on the repository row.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/metadata/SKILL.md",
+        "name": "metadata",
+        "overall_score": 100,
+        "path": "skills/metadata",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Draft operational mitigations for a finding consumers can apply before a fix ships. Workarounds (config flags, input restrictions, safe defaults), detection guidance (what to log and what pattern to alert on), and optionally a semgrep rule that flags the same pattern in other code bases. Distinct from disclose, which drafts the public advisory, and from patch, which proposes the code fix.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/mitigate/SKILL.md",
+        "name": "mitigate",
+        "overall_score": 100,
+        "path": "skills/mitigate",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Look up every package this repository publishes across all registries via packages.ecosyste.ms, with downloads, dependent counts, latest version, registry URL and supply-chain risk flags.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/packages/SKILL.md",
+        "name": "packages",
+        "overall_score": 100,
+        "path": "skills/packages",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Assess a repository's security posture and its readiness to receive a vulnerability report. Checks for a security policy, private vulnerability reporting, security.txt, prior advisories, scanning workflows, and other hygiene signals, then rates the project ready / partial / unprepared. Use before disclosure to decide how much hand-holding the maintainer will need, or as a standalone health check.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/posture/SKILL.md",
+        "name": "posture",
+        "overall_score": 100,
+        "path": "skills/posture",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "File a low-severity finding as an ordinary public GitHub issue after explicit analyst confirmation. Use for hardening gaps, defence-in-depth misses, and other bugs that do not warrant coordinated private disclosure.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/public-issue/SKILL.md",
+        "name": "public-issue",
+        "overall_score": 100,
+        "path": "skills/public-issue",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Check whether known sinks in this application's dependencies are reachable from its own trust boundaries. Scrutineer already holds findings against the libraries this app uses; this skill traces each one from the app's entry points to the library call and reports the ones an attacker can reach. Use on applications (Gemfile.lock / package-lock.json present), not on libraries.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/reachability/SKILL.md",
+        "name": "reachability",
+        "overall_score": 100,
+        "path": "skills/reachability",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Map distinct externally reachable input-processing subsystems into focus areas for the threat-model skill to carry into later security audits. This is a short, read-only orientation pass, not a vulnerability scan.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/recon/SKILL.md",
+        "name": "recon",
+        "overall_score": 100,
+        "path": "skills/recon",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "After a finding has been marked fixed, watch the upstream for a release that contains the fix. When one shows up, record the release tag, URL, and timestamp on the finding. Closes the gap between \"the maintainer landed a patch\" and \"consumers have a shipped version they can pin to\".",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/release-watch/SKILL.md",
+        "name": "release-watch",
+        "overall_score": 100,
+        "path": "skills/release-watch",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Run `brief --json` to produce a structured overview of the repository. Used by other skills as orientation.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/repo-overview/SKILL.md",
+        "name": "repo-overview",
+        "overall_score": 100,
+        "path": "skills/repo-overview",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "File a finding on the upstream repository through GitHub's private vulnerability reporting, request the temporary private fork, and push the proposed patch to it when available. Use after disclose has produced a draft and (optionally) patch has produced a gated diff. This is the step that crosses the line to the maintainer; everything before it is internal.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/report-upstream/SKILL.md",
+        "name": "report-upstream",
+        "overall_score": 100,
+        "path": "skills/report-upstream",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Cheap finding classifier. Reads a finding's six-step trace plus git history at its location and decides true_positive, false_positive, already_fixed, or uncertain, with an optional adjusted severity. Read-only; never executes the reproduction. Run automatically over High and Critical findings from security-deep-dive so the human queue is pre-sorted, and over imported findings whose severity is an external tool's unvalidated claim.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/revalidate/SKILL.md",
+        "name": "revalidate",
+        "overall_score": 100,
+        "path": "skills/revalidate",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Eval-only short-prompt variant of security-deep-dive for A/B testing against the production prompt. Not loaded as a bundled production skill.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/evals/skills/security-deep-dive-short/SKILL.md",
+        "name": "security-deep-dive-short",
+        "overall_score": 100,
+        "path": "evals/skills/security-deep-dive-short",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Enumerate scannable sub-folders inside a repository. Identifies monorepo packages, workspaces, and discrete modules so the analyst can scope deep-dive scans to a specific sub-path instead of treating a huge tree as one unit. Runs at repo level; writes back a list that surfaces on the repo overview.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/subprojects/SKILL.md",
+        "name": "subprojects",
+        "overall_score": 100,
+        "path": "skills/subprojects",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Derive a project's security contract from its source and docs, then emit it as structured data other skills can cite. Records what the project assumes about callers and inputs, what properties it claims and disclaims, which code is out of scope, and which recurring tool findings are known-safe. This is not a vulnerability scan; it produces the trust map that security-deep-dive loads instead of re-deriving boundaries per run.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/threat-model/SKILL.md",
+        "name": "threat-model",
+        "overall_score": 100,
+        "path": "skills/threat-model",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Default pipeline scrutineer runs when a repository is added. Triggers a standard set of other skills in parallel, then writes a short summary of what was enqueued. Edit the list below to change the default scan coverage without touching scrutineer's Go code.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/triage/SKILL.md",
+        "name": "triage",
+        "overall_score": 100,
+        "path": "skills/triage",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Starting from one confirmed finding, search this repository's current source for distinct sibling instances of the same root cause and emit only validated new findings.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/variants/SKILL.md",
+        "name": "variants",
+        "overall_score": 100,
+        "path": "skills/variants",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Re-run a finding's reproduction against current HEAD, test its attack tree, grade five fixed evidence criteria, and account for every matched design control.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/verify/SKILL.md",
+        "name": "verify",
+        "overall_score": 100,
+        "path": "skills/verify",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "High-recall static source-code vulnerability scan adapted from Anthropic's defending-code reference harness. Fans out by focus area, ranks candidates by confidence, and emits Scrutineer findings for later verification.",
+        "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/vuln-scan/SKILL.md",
+        "name": "vuln-scan",
+        "overall_score": 100,
+        "path": "skills/vuln-scan",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 33,
+    "spec_valid_count": 33,
+    "stars": 215
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "agent-orchestration",
       "ai-ml",
       "commerce",
       "content",
@@ -204,6 +534,147 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "agent-orchestration",
+      "ai-ml",
+      "browser-automation",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "engineering",
+      "hr-recruiting",
+      "integrations",
+      "media",
+      "productivity",
+      "research",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 1124,
+    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "security_85_plus_count": 12,
+    "skills": [
+      {
+        "description": "Debug LLM applications using the Phoenix CLI. Fetch traces, spans, and sessions, annotate them, analyze errors, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user works with a Phoenix instance from the terminal.",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-cli/SKILL.md",
+        "name": "phoenix-cli",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-cli",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Design and implementation guide for the Phoenix CLI (`px`). Covers the noun-verb command structure, dual-audience design (humans and coding agents), Commander.js patterns, configuration resolution, output formats, exit codes, and conventions for adding or modifying commands. Triggers when working on phoenix-cli commands — adding new commands, modifying existing ones, refactoring command structure, or reviewing CLI code. Also triggers on mentions of `px` commands, CLI design, or adding a new resource to the CLI.\n",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/js/packages/phoenix-cli/.agents/skills/phoenix-cli-development/SKILL.md",
+        "name": "phoenix-cli-development",
+        "overall_score": 100,
+        "path": "js/packages/phoenix-cli/.agents/skills/phoenix-cli-development",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Development guide for the @arizeai/phoenix-client TypeScript SDK — run and resume experiments, manage OpenTelemetry tracer providers with stack-based attach/detach, and write vitest unit and integration tests. Use when adding features to phoenix-client, debugging experiment lifecycle or provider cleanup, modifying dataset/prompt/session/span APIs, or writing tests for the js/packages/phoenix-client/ directory.",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/js/packages/phoenix-client/.agents/skills/phoenix-client-development/SKILL.md",
+        "name": "phoenix-client-development",
+        "overall_score": 100,
+        "path": "js/packages/phoenix-client/.agents/skills/phoenix-client-development",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Design system conventions for the Phoenix frontend — layout, dialogs, error display, BEM CSS class naming, and CSS design tokens. Use when building UI, naming CSS classes, creating or consuming tokens, handling errors, or designing dialog interactions in js/app/src/.",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-design/SKILL.md",
+        "name": "phoenix-design",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-design",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Find out what is going wrong in LLM or agent traffic by reading sampled Phoenix traces, spans, or sessions, writing free-form notes (open coding), then grouping the notes into a few narrow annotations, one per failure dimension with a small label set and counts, that pick eval targets and fix priorities (axial coding). Use for \"what's going wrong with this agent\", \"I just instrumented my app, where do I start\", \"review these traces\", \"the chatbot keeps losing context\", \"what kinds of mistakes is the model making\", \"what categories of failures do we have\", \"what should I build evals for\", \"how do I prioritize fixes\", \"group these notes\", \"MECE breakdown\" — or any framing that needs observations or categories grounded in real traces rather than invented top-down, even without naming the technique.",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-error-analysis/SKILL.md",
+        "name": "phoenix-error-analysis",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-error-analysis",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create a new built-in classification evaluator for Phoenix evals. Use this skill whenever the user asks to create a new eval, build a new metric, add a new builtin evaluator, create an LLM-as-a-judge metric, or add a new classification evaluator to Phoenix.",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-evals-new-metric/SKILL.md",
+        "name": "phoenix-evals-new-metric",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-evals-new-metric",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Configure and interpret the Phoenix plugin for Harbor agent evaluations. Use when adding `arize-phoenix` to Harbor jobs, choosing ATIF tracing, mapping Harbor tasks and rewards to Phoenix experiments, comparing agents or models, resuming jobs, or troubleshooting Harbor records in Phoenix.",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-harbor/SKILL.md",
+        "name": "phoenix-harbor",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-harbor",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generates onboarding code snippets for Phoenix tracing integrations and wires them into the project onboarding UI. Produces install dependencies and implementation sections for SDKs like OpenAI, LangChain, Vercel AI SDK, and others. Supports Python and TypeScript. Use when asked to create onboarding code, tracing setup snippets, quickstart examples, or getting-started code for a framework integration.\n",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-integration-snippets/SKILL.md",
+        "name": "phoenix-integration-snippets",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-integration-snippets",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Guide for the phoenix-otel TypeScript package — OTel registration, stack-based global provider management, and provider lifecycle.\n",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/SKILL.md",
+        "name": "phoenix-otel-development",
+        "overall_score": 100,
+        "path": "js/packages/phoenix-otel/.agents/skills/phoenix-otel-development",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Bump the next release-please version for a Phoenix Python package (arize-phoenix, arize-phoenix-client, arize-phoenix-evals, arize-phoenix-otel) by opening a PR with a Release-As commit footer. Use this skill when the user asks to \"set the release-please version\", \"force a 2.0.0 release\", \"release X as Y\", \"skip a version\", or otherwise wants release-please to propose a specific version on its next run instead of the version it would pick from conventional commits.\n",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-release-please/SKILL.md",
+        "name": "phoenix-release-please",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-release-please",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Maintain the bundled TypeScript package docs that ship inside Phoenix npm packages. Use this skill whenever adding or updating docs for `@arizeai/phoenix-client`, `@arizeai/phoenix-evals`, or `@arizeai/phoenix-otel`, when changing the Mintlify package-doc pages, when keeping `node_modules/.../docs` content aligned with actual exports, or when modifying the sync and publish flow for packaged docs.\n",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-typescript-package-docs/SKILL.md",
+        "name": "phoenix-typescript-package-docs",
+        "overall_score": 100,
+        "path": ".agents/skills/phoenix-typescript-package-docs",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/vercel-react-best-practices/SKILL.md",
+        "name": "vercel-react-best-practices",
+        "overall_score": 100,
+        "path": ".agents/skills/vercel-react-best-practices",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 12,
+    "spec_valid_count": 12,
+    "stars": 11416
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
       "documentation",
       "engineering",
       "integrations",
@@ -277,6 +748,152 @@
     "skills_count": 6,
     "spec_valid_count": 6,
     "stars": 7
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "agent-orchestration",
+      "ai-ml",
+      "architecture",
+      "business",
+      "code-review",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "engineering",
+      "finance",
+      "integrations",
+      "legal-compliance",
+      "marketing",
+      "product",
+      "productivity",
+      "research",
+      "security"
+    ],
+    "default_branch": "main",
+    "forks": 11345,
+    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "repo_full_name": "bytedance/deer-flow",
+    "repo_url": "https://github.com/bytedance/deer-flow",
+    "security_85_plus_count": 12,
+    "skills": [
+      {
+        "description": "Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, literature positioning, and constructive feedback generation. Trigger on queries involving paper URLs, uploaded PDFs, arXiv links, or requests like \"review this paper\", \"analyze this research\", \"summarize this study\", or \"write a peer review\".",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/academic-paper-review/SKILL.md",
+        "name": "academic-paper-review",
+        "overall_score": 100,
+        "path": "skills/public/academic-paper-review",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate a personalized SOUL.md through a warm, adaptive onboarding conversation. Trigger when the user wants to create, set up, or initialize their AI partner's identity — e.g., \"create my SOUL.md\", \"bootstrap my agent\", \"set up my AI partner\", \"define who you are\", \"let's do onboarding\", \"personalize this AI\", \"make you mine\", or when a SOUL.md is missing. Also trigger for updates: \"update my SOUL.md\", \"change my AI's personality\", \"tweak the soul\".",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/bootstrap/SKILL.md",
+        "name": "bootstrap",
+        "overall_score": 100,
+        "path": "skills/public/bootstrap",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill when the user requests to generate, create, or improve documentation for code, APIs, libraries, repositories, or software projects. Supports README generation, API reference documentation, inline code comments, architecture documentation, changelog generation, and developer guides. Trigger on requests like \"document this code\", \"create a README\", \"generate API docs\", \"write developer guide\", or when analyzing codebases for documentation purposes.",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/code-documentation/SKILL.md",
+        "name": "code-documentation",
+        "overall_score": 100,
+        "path": "skills/public/code-documentation",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases — (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights.",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/consulting-analysis/SKILL.md",
+        "name": "consulting-analysis",
+        "overall_score": 100,
+        "path": "skills/public/consulting-analysis",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/deep-research/SKILL.md",
+        "name": "deep-research",
+        "overall_score": 100,
+        "path": "skills/public/deep-research",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Evaluate and carry out non-trivial software-system changes from first principles. Use when assessing RFCs, issues, designs, features, refactors, migrations, dependency changes, or proposed fields, events, APIs, modules, and services whose need, consumers, system fit, validation, or rollback require scrutiny. Read the actual system, identify the concrete problem and named semantic consumers, choose the smallest sufficient solution, reject pseudo-requirements and speculative abstractions, and require evidence proportional to risk. Do not use for mechanical edits, source-code explanation, or a dedicated review of an already-complete diff.",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/.agent/skills/engineer-system-change/SKILL.md",
+        "name": "engineer-system-change",
+        "overall_score": 100,
+        "path": ".agent/skills/engineer-system-change",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/frontend-design/SKILL.md",
+        "name": "frontend-design",
+        "overall_score": 100,
+        "path": "skills/public/frontend-design",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill when the user requests to generate, create, write, or draft a newsletter, email digest, weekly roundup, industry briefing, or curated content summary. Supports topic-based research, content curation from multiple sources, and professional formatting for email or web distribution. Trigger on requests like \"create a newsletter about X\", \"write a weekly digest\", \"generate a tech roundup\", or \"curate news about Y\".",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/newsletter-generation/SKILL.md",
+        "name": "newsletter-generation",
+        "overall_score": 100,
+        "path": "skills/public/newsletter-generation",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Reviews DeerFlow skill packages for readiness, triggers, safety boundaries, resources, and evidence. Invoke when users ask to audit, grade, or production-check an existing skill.",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/skill-reviewer/SKILL.md",
+        "name": "skill-reviewer",
+        "overall_score": 100,
+        "path": "skills/public/skill-reviewer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create a delightful, unexpected \"wow\" experience for the user by dynamically discovering and creatively combining other enabled skills. Triggers when the user says \"surprise me\" or any request expressing a desire for an unexpected creative showcase. Also triggers when the user is bored, wants inspiration, or asks for \"something interesting\".",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/surprise-me/SKILL.md",
+        "name": "surprise-me",
+        "overall_score": 100,
+        "path": "skills/public/surprise-me",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill when the user wants a systematic literature review, survey, or synthesis across multiple academic papers on a topic. Also covers annotated bibliographies and cross-paper comparisons. Searches arXiv and outputs reports in APA, IEEE, or BibTeX format. Not for single-paper tasks — use academic-paper-review for reviewing one paper.",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/systematic-literature-review/SKILL.md",
+        "name": "systematic-literature-review",
+        "overall_score": 100,
+        "path": "skills/public/systematic-literature-review",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/web-design-guidelines/SKILL.md",
+        "name": "web-design-guidelines",
+        "overall_score": 100,
+        "path": "skills/public/web-design-guidelines",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 12,
+    "spec_valid_count": 12,
+    "stars": 82289
   },
   {
     "archived": false,
@@ -841,6 +1458,222 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "agent-orchestration",
+      "ai-ml",
+      "browser-automation",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "education",
+      "engineering",
+      "finance",
+      "integrations",
+      "legal-compliance",
+      "localization",
+      "media",
+      "productivity",
+      "research",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 13,
+    "pushed_at": "2026-09-11T21:47:39+00:00",
+    "repo_full_name": "commontoolsinc/labs",
+    "repo_url": "https://github.com/commontoolsinc/labs",
+    "security_85_plus_count": 20,
+    "skills": [
+      {
+        "description": "Translate a Figma design selection into cf-* Lit component code. Use when implementing a design from Figma, reviewing component alignment, or checking how Figma properties map to code. Triggers include \"implement this design\", \"translate from Figma\", \"what cf- component matches this\", or having a Figma node selected to implement.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/figma-to-code/SKILL.md",
+        "name": "figma-to-code",
+        "overall_score": 100,
+        "path": "skills/figma-to-code",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Agent-specific interaction patterns for working with FUSE-mounted spaces. Use when deploying patterns via FUSE, working with Activity Logs, Annotations, or coordinating agent workflows that read/write pieces through the filesystem. Triggers include \"deploy a pattern\", \"log an event\", \"create annotation\", \"agent workflow\", or managing piece lifecycle via FUSE.\n",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/fuse-agent/SKILL.md",
+        "name": "fuse-agent",
+        "overall_score": 100,
+        "path": "skills/fuse-agent",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Guide for writing side-effect-free tests that spawn child processes, especially Deno commands. Use when adding or reviewing tests that call Deno.Command, run deno check/test/run/task/install, generate temporary deno.json files, update goldens, write build artifacts, or otherwise risk changing deno.lock or files in the repository workspace.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/isolated-test-processes/SKILL.md",
+        "name": "isolated-test-processes",
+        "overall_score": 100,
+        "path": "skills/isolated-test-processes",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Shared foundation for Oracle & Corrector agents. Establishes the source hierarchy for resolving conflicts between documentation, code, and specs. Load this skill first when investigating how the system works.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/knowledge-base/SKILL.md",
+        "name": "knowledge-base",
+        "overall_score": 100,
+        "path": "skills/knowledge-base",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Critic agent that reviews pattern code for violations of documented rules, gotchas, and anti-patterns. Produces categorized checklist output with [PASS]/[FAIL]/[WARN] for each rule.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-critic/SKILL.md",
+        "name": "pattern-critic",
+        "overall_score": 100,
+        "path": "skills/pattern-critic",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Debug pattern errors systematically",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-debug/SKILL.md",
+        "name": "pattern-debug",
+        "overall_score": 100,
+        "path": "skills/pattern-debug",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Deploy patterns and test with CLI",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-deploy/SKILL.md",
+        "name": "pattern-deploy",
+        "overall_score": 100,
+        "path": "skills/pattern-deploy",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Guide for developing Common Fabric patterns (TypeScript modules that define reactive data transformations with UI). Use this skill when creating patterns, modifying existing patterns, or working with the pattern framework. Triggers include requests like \"build a pattern\", \"fix this pattern error\", \"deploy this piece\", or questions about handlers and reactive patterns.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-dev/SKILL.md",
+        "name": "pattern-dev",
+        "overall_score": 100,
+        "path": "skills/pattern-dev",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Build or generate a Common Fabric pattern whose primary UI is a self-contained `cf-iframe` guest. Use when an agent should turn an input-data shape and a small state/output contract into a working iframe-first pattern without learning the broader pattern framework, including plain DOM, React, D3, Phaser 2D games, Babylon.js 3D scenes, PerSpace/PerUser/PerSession data, path-scoped Cell access, stable array-item handles, mergeable pushes, or bridged SQLite.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-iframe/SKILL.md",
+        "name": "pattern-iframe",
+        "overall_score": 100,
+        "path": "skills/pattern-iframe",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Build Common Fabric patterns and sub-patterns",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-implement/SKILL.md",
+        "name": "pattern-implement",
+        "overall_score": 100,
+        "path": "skills/pattern-implement",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Design schemas.tsx with Input/Output types for patterns",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-schema/SKILL.md",
+        "name": "pattern-schema",
+        "overall_score": 100,
+        "path": "skills/pattern-schema",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Write and run pattern tests",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-test/SKILL.md",
+        "name": "pattern-test",
+        "overall_score": 100,
+        "path": "skills/pattern-test",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Convert Common Fabric pattern unit tests (`*.test.tsx` driven by actions and assertions) into browser integration tests (`packages/patterns/integration/*.test.ts`) that exercise the rendered UI, scale to a chosen size, and can be recorded with `deno task demo`. Use when asked to promote, mirror, spot-check, browser-test, or make a video demo from an existing pattern test, including multi-user pattern tests.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-test-to-integration/SKILL.md",
+        "name": "pattern-test-to-integration",
+        "overall_score": 100,
+        "path": "skills/pattern-test-to-integration",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md).",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/SKILL.md",
+        "name": "pattern-ui",
+        "overall_score": 100,
+        "path": "packages/cf-harness/fixtures/hostile-skills-root/pattern-ui",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Design and polish pattern UIs with cf- components - theme-first styling via cf-theme, layout with cf-screen/cf-vstack, two-way binding ($value/$checked), and PerSession/PerUser/PerSpace UI-state scoping. Use when styling pattern JSX or writing a UI design doc.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/pattern-ui/SKILL.md",
+        "name": "pattern-ui",
+        "overall_score": 100,
+        "path": "skills/pattern-ui",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Map and verify the CTS/schema documentation corpus against its normative contracts, implementation, tests, fixtures, and runtime consumers. Use for claim-level audits or updates in docs/specs/ts-transformer, docs/specs/schema-generator, package guidance, and author-facing CTS docs, especially after transformer/schema changes or before releases.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/spec-audit/SKILL.md",
+        "name": "spec-audit",
+        "overall_score": 100,
+        "path": "skills/spec-audit",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Debug Common Fabric runtime/multiplayer state from the durable store, offline, with `cf inspect`. Use when investigating \"what is actually stored\", a cell that looks different for two users, a lost/overwritten write, divergence across spaces, how state reached its current value, who/what touched a space, or any memory-v2 question you'd otherwise guess at from a live runtime. Reads space SQLite DBs read-only — no live server, no capture step.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/state-inspector/SKILL.md",
+        "name": "state-inspector",
+        "overall_score": 100,
+        "path": "skills/state-inspector",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Guide for managing tasks within a session using bd (beads) for subtasks and local todo lists. Use this skill when breaking down plans into issues, tracking progress, managing dependencies, or coordinating work across sessions and agents. Triggers include requests to \"manage tasks\", \"track progress\", \"break down this work\", or questions about bd workflow.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/task-management/SKILL.md",
+        "name": "task-management",
+        "overall_score": 100,
+        "path": "skills/task-management",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Interact with the Common Fabric team's Topics board on Estuary through the Labs cf CLI. Use when reading, creating, or updating Topics; posting Topic progress comments; attaching pull request links; or adding references between Topics.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/topics/SKILL.md",
+        "name": "topics",
+        "overall_score": 100,
+        "path": "skills/topics",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Conventions for writing or changing code in this repository — the two documents to read before the first edit, which document governs the thing you are about to touch, and which conventions no automated gate will catch. Use before writing, changing, or refactoring TypeScript anywhere in the tree. Patterns need `pattern-dev` as well; this skill covers what is true of all code here.",
+        "manifest": "https://github.com/commontoolsinc/labs/blob/main/skills/writing-code/SKILL.md",
+        "name": "writing-code",
+        "overall_score": 100,
+        "path": "skills/writing-code",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 20,
+    "spec_valid_count": 20,
+    "stars": 38
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
       "ai-ml",
       "commerce",
       "content",
@@ -977,6 +1810,83 @@
     "skills_count": 2,
     "spec_valid_count": 2,
     "stars": 15
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "agent-orchestration",
+      "code-review",
+      "commerce",
+      "content",
+      "data",
+      "devops",
+      "documentation",
+      "engineering",
+      "integrations",
+      "localization",
+      "product",
+      "productivity",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "SignalGrid_Alpha",
+    "forks": 0,
+    "pushed_at": "2026-09-11T23:34:39+00:00",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "security_85_plus_count": 5,
+    "skills": [
+      {
+        "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/dispatching-parallel-agents/SKILL.md",
+        "name": "dispatching-parallel-agents",
+        "overall_score": 100,
+        "path": ".claude/skills/dispatching-parallel-agents",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/finishing-a-development-branch/SKILL.md",
+        "name": "finishing-a-development-branch",
+        "overall_score": 100,
+        "path": ".claude/skills/finishing-a-development-branch",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "How to write every reply to the owner. Based on the Google developer documentation style guide (developers.google.com/style). Use for ALL chat replies, status reports, PR summaries the owner reads, and the owner board — any text a person reads on a phone between other tasks. Answer first, steps numbered, jargon translated, filler cut.",
+        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/owner-comms/SKILL.md",
+        "name": "owner-comms",
+        "overall_score": 100,
+        "path": ".claude/skills/owner-comms",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/receiving-code-review/SKILL.md",
+        "name": "receiving-code-review",
+        "overall_score": 100,
+        "path": ".claude/skills/receiving-code-review",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/requesting-code-review/SKILL.md",
+        "name": "requesting-code-review",
+        "overall_score": 100,
+        "path": ".claude/skills/requesting-code-review",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 5,
+    "spec_valid_count": 5,
+    "stars": 1
   },
   {
     "archived": false,
@@ -1406,6 +2316,176 @@
     "skills_count": 22,
     "spec_valid_count": 22,
     "stars": 3
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "agent-orchestration",
+      "business",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "education",
+      "engineering",
+      "hr-recruiting",
+      "legal-compliance",
+      "localization",
+      "media",
+      "productivity",
+      "project-management",
+      "research"
+    ],
+    "default_branch": "main",
+    "forks": 3,
+    "pushed_at": "2026-09-11T21:48:00+00:00",
+    "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "security_85_plus_count": 15,
+    "skills": [
+      {
+        "description": "Bibliographic research agent for analyzing books and manuscripts. Builds comprehensive \"book biographies\" showing production context, textual transmission, related editions, and scholarly networks. Use when asked to research a book's history, find related editions, analyze manuscript transmission, or build bibliographic context.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/book-biography/SKILL.md",
+        "name": "book-biography",
+        "overall_score": 100,
+        "path": ".claude/skills/book-biography",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Populate a collection page with editorial content — expanded description, highlighted books, gallery images, sourced quotes. Also audits existing collections for staleness, broken links, and missing content. Use when a collection exists but needs its content built out, or when auditing collection quality.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/curate-collection/SKILL.md",
+        "name": "curate-collection",
+        "overall_score": 100,
+        "path": ".claude/skills/curate-collection",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/curator/SKILL.md",
+        "name": "curator",
+        "overall_score": 100,
+        "path": ".claude/skills/curator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Extract and catalog illustrations from historical books using AI vision. Generates rich metadata (subjects, figures, symbols, style, technique) and museum-style descriptions. Use when asked to extract images, run image detection, or process book illustrations.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/extract-images/SKILL.md",
+        "name": "extract-images",
+        "overall_score": 100,
+        "path": ".claude/skills/extract-images",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill whenever writing the 'Featured work' description that appears on a Source Library collection page — the short editorial blurb beneath a highlighted book's title, author, and bibliographic stats. Trigger for any request to write, rewrite, or edit a featured-work blurb, curator's pick description, or highlighted-book caption for a collection. The output is about the BOOK itself (what it is, why it matters, what is distinctive about it), never about Source Library, translation, OCR, or digitisation.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/featured-work-description/SKILL.md",
+        "name": "featured-work-description",
+        "overall_score": 100,
+        "path": ".claude/skills/featured-work-description",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Run a Glass Bead Game session — a parlor game played against the Source Library corpus. Players connect verified passages from different books, times, and traditions into a growing string of 'beads,' with Claude as librarian, verifier, and scribe. Trigger when the user says 'glass bead game,' 'let's play beads,' or asks to start/resume/publish a game session. Claude runs the search-verify-display loop; humans do the noticing, choosing, and judging.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/glass-bead-game/SKILL.md",
+        "name": "glass-bead-game",
+        "overall_score": 100,
+        "path": ".claude/skills/glass-bead-game",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Record a lesson learned after fixing a bug or discovering a pattern. Updates domain memory files and checks for contradictions. Use after resolving non-trivial issues.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/lesson/SKILL.md",
+        "name": "lesson",
+        "overall_score": 100,
+        "path": ".claude/skills/lesson",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Load context for pipeline, cron, Lambda, OCR, and translation work. Use when starting any pipeline monitoring, debugging, or processing task.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/pipeline-context/SKILL.md",
+        "name": "pipeline-context",
+        "overall_score": 100,
+        "path": ".claude/skills/pipeline-context",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Sweep Claude's private per-machine memory for team-relevant operational knowledge and propose moving it into the shared repo (or the private ops repo) as draft PRs. Use to promote lessons that accreted privately, or run on a schedule. Never auto-merges; never leaks.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/promote-lessons/SKILL.md",
+        "name": "promote-lessons",
+        "overall_score": 100,
+        "path": ".claude/skills/promote-lessons",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Quality auditor for Source Library. Prioritizes verifying original language texts (not modern translations), auditing metadata accuracy against title pages, USTC alignment, and translation quality. Use for systematic quality control or to identify modern translations that should be replaced with originals.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/qa-audit/SKILL.md",
+        "name": "qa-audit",
+        "overall_score": 100,
+        "path": ".claude/skills/qa-audit",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill whenever choosing or evaluating a background image for the 'quote' section of a Source Library collection page — the wide banner where a sourced quotation is overlaid on an image drawn from the collection's plates or illustrations. Trigger for any request to pick, rank, or judge a background image behind quote text, select a plate for the quote banner, or decide whether a candidate image works as a text background. The goal is a beautiful, legible, on-theme backdrop that the quotation reads cleanly over.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/quote-background-image/SKILL.md",
+        "name": "quote-background-image",
+        "overall_score": 100,
+        "path": ".claude/skills/quote-background-image",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create a DOI-ready scholarly edition of a translated book. Use when asked to publish, create an edition, mint a DOI, or prepare a book for scholarly publication. Generates front matter, creates versioned editions, builds EPUBs, and mints DOIs via Zenodo.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/scholarly-edition/SKILL.md",
+        "name": "scholarly-edition",
+        "overall_score": 100,
+        "path": ".claude/skills/scholarly-edition",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Search and cite primary sources from Source Library. Use when asked what historical authors wrote, to find quotes from old texts, investigate alchemical or philosophical works, or cite translated Latin/German sources.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/source-research/SKILL.md",
+        "name": "source-research",
+        "overall_score": 100,
+        "path": ".claude/skills/source-research",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Quick canon + pipeline health check. Use when asked \"how's it going?\", \"status?\", \"how's the db?\", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/status/SKILL.md",
+        "name": "status",
+        "overall_score": 100,
+        "path": ".claude/skills/status",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Load context for UI, frontend, navigation, and analytics work. Use when starting any visual, interaction, or engagement task.",
+        "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/ui-context/SKILL.md",
+        "name": "ui-context",
+        "overall_score": 100,
+        "path": ".claude/skills/ui-context",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 15,
+    "spec_valid_count": 15,
+    "stars": 17
   },
   {
     "archived": false,
@@ -2777,6 +3857,38 @@
     "archived": false,
     "best_score": 99,
     "categories": [
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "engineering",
+      "productivity"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-11T21:47:26+00:00",
+    "repo_full_name": "diegofisi/youtube-downloader",
+    "repo_url": "https://github.com/diegofisi/youtube-downloader",
+    "security_85_plus_count": 1,
+    "skills": [
+      {
+        "description": "React frontend architecture doctrine. Use when asked to create or modify a view, page, component, hook, store, form, route, feature slice, or any React UI work. Covers React 19 + TypeScript + Tailwind + Shadcn UI + Zustand + React Query, vertical slices, Container/Presentational, and the Adapter Pattern over the transport layer (HTTP client or Tauri invoke).",
+        "manifest": "https://github.com/diegofisi/youtube-downloader/blob/main/.claude/skills/frontend/SKILL.md",
+        "name": "frontend",
+        "overall_score": 99,
+        "path": ".claude/skills/frontend",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 1,
+    "spec_valid_count": 1,
+    "stars": 0
+  },
+  {
+    "archived": false,
+    "best_score": 99,
+    "categories": [
       "ai-ml",
       "architecture",
       "data",
@@ -2865,17 +3977,22 @@
     "archived": false,
     "best_score": 99,
     "categories": [
+      "architecture",
       "browser-automation",
       "commerce",
       "content",
       "data",
       "design",
       "devops",
+      "documentation",
       "documents",
       "education",
       "engineering",
       "finance",
+      "hr-recruiting",
       "integrations",
+      "legal-compliance",
+      "localization",
       "marketing",
       "media",
       "mobile",
@@ -2890,7 +4007,7 @@
     "pushed_at": "2026-09-11T19:17:54+00:00",
     "repo_full_name": "jhonatan-oliveiradev/agent-skills",
     "repo_url": "https://github.com/jhonatan-oliveiradev/agent-skills",
-    "security_85_plus_count": 12,
+    "security_85_plus_count": 28,
     "skills": [
       {
         "description": "Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it.",
@@ -2992,6 +4109,150 @@
         "spec_valid": true
       },
       {
+        "description": "Use when implementing or reviewing Node.js API or service endpoints that cross trust or data boundaries and require explicit validation, authorization, failure semantics, observability, or retry behavior.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/building-reliable-node-api-boundaries/SKILL.md",
+        "name": "building-reliable-node-api-boundaries",
+        "overall_score": 99,
+        "path": "skills/building-reliable-node-api-boundaries",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when starting or reshaping an application where deployment topology, scaling, reliability, ownership, coupling, or delivery constraints make the architectural shape unclear.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/choosing-application-architecture/SKILL.md",
+        "name": "choosing-application-architecture",
+        "overall_score": 99,
+        "path": "skills/choosing-application-architecture",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when defining, generating, reviewing, or expanding a 2D character sprite set that must remain anatomically consistent across idle, movement, combat, directional, and transition animations.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/creating-character-sprite-pipelines/SKILL.md",
+        "name": "creating-character-sprite-pipelines",
+        "overall_score": 99,
+        "path": "skills/creating-character-sprite-pipelines",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when a new, repositioned, or inconsistent brand needs explicit audience, positioning, differentiation, personality, and decision criteria before naming, identity, or messaging work begins.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/defining-brand-strategy/SKILL.md",
+        "name": "defining-brand-strategy",
+        "overall_score": 99,
+        "path": "skills/defining-brand-strategy",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when creating or tuning real-time game combat involving attacks, hit reactions, dodge or guard behavior, enemy telegraphs, combos, animation timing, or moment-to-moment combat readability.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-action-combat/SKILL.md",
+        "name": "designing-action-combat",
+        "overall_score": 99,
+        "path": "skills/designing-action-combat",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when roadmap gaps need to become credible portfolio artifacts with explicit evidence contracts showing which capabilities a project must actually demonstrate.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-developer-portfolio-evidence/SKILL.md",
+        "name": "designing-developer-portfolio-evidence",
+        "overall_score": 99,
+        "path": "skills/designing-developer-portfolio-evidence",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when defining or reviewing a relational data model where entities, ownership, cardinality, lifecycle, constraints, or access patterns need explicit decisions before implementation.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-relational-data-models/SKILL.md",
+        "name": "designing-relational-data-models",
+        "overall_score": 99,
+        "path": "skills/designing-relational-data-models",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when modules, services, packages, or teams have unclear ownership, cyclic dependencies, shared state, change coupling, or responsibilities that are difficult to evolve independently.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-software-boundaries/SKILL.md",
+        "name": "designing-software-boundaries",
+        "overall_score": 99,
+        "path": "skills/designing-software-boundaries",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when a feature, service, or release needs a deliberate verification plan and the team is unsure which risks belong in unit, integration, end-to-end, or non-functional tests.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-test-strategies/SKILL.md",
+        "name": "designing-test-strategies",
+        "overall_score": 99,
+        "path": "skills/designing-test-strategies",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-ui-systems/SKILL.md",
+        "name": "designing-ui-systems",
+        "overall_score": 99,
+        "path": "skills/designing-ui-systems",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when an approved brand strategy needs a coherent visual identity system across multiple touchpoints, including marks, typography, color, imagery, graphic language, and responsive applications.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/designing-visual-identities/SKILL.md",
+        "name": "designing-visual-identities",
+        "overall_score": 99,
+        "path": "skills/designing-visual-identities",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when a software decision materially affects structure, quality attributes, dependencies, interfaces, technology choices, or team direction and its rationale must remain reviewable over time.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/documenting-architecture-decisions/SKILL.md",
+        "name": "documenting-architecture-decisions",
+        "overall_score": 99,
+        "path": "skills/documenting-architecture-decisions",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when revising existing prose for clarity, concision, structure, readability, or an explicitly requested tone while preserving the original meaning and factual content.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/editing-for-clarity-and-tone/SKILL.md",
+        "name": "editing-for-clarity-and-tone",
+        "overall_score": 99,
+        "path": "skills/editing-for-clarity-and-tone",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when GSAP has been selected for React or Next.js animation, especially timelines, ScrollTrigger, pinning, scrub, SplitText, Flip, SVG, responsive animation, plugin lifecycle, cleanup, or animation-related integration bugs.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/engineering-gsap-animations/SKILL.md",
+        "name": "engineering-gsap-animations",
+        "overall_score": 99,
+        "path": "skills/engineering-gsap-animations",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when a developer must demonstrate a target capability level against a versioned assessment blueprint, observable rubric criteria, and explicit evidence gates.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/evaluating-developer-proficiency/SKILL.md",
+        "name": "evaluating-developer-proficiency",
+        "overall_score": 99,
+        "path": "skills/evaluating-developer-proficiency",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when changing a PostgreSQL schema that already contains production data or serves live traffic, especially for columns, constraints, indexes, types, backfills, renames, or destructive cleanup.",
+        "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/evolving-postgres-schemas-safely/SKILL.md",
+        "name": "evolving-postgres-schemas-safely",
+        "overall_score": 99,
+        "path": "skills/evolving-postgres-schemas-safely",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
         "description": "Use when a game needs a practical pipeline combining generated, hand-authored, 2D, 3D, procedural, or purchased assets while keeping visual consistency, runtime constraints, and iteration speed under control.",
         "manifest": "https://github.com/jhonatan-oliveiradev/agent-skills/blob/main/skills/building-hybrid-game-assets/SKILL.md",
         "name": "building-hybrid-game-assets",
@@ -3001,8 +4262,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 12,
-    "spec_valid_count": 12,
+    "skills_count": 28,
+    "spec_valid_count": 28,
     "stars": 1
   },
   {
@@ -3106,6 +4367,49 @@
     "skills_count": 1,
     "spec_valid_count": 1,
     "stars": 0
+  },
+  {
+    "archived": false,
+    "best_score": 96,
+    "categories": [
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "documentation",
+      "engineering",
+      "integrations",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 46,
+    "pushed_at": "2026-09-11T21:47:29+00:00",
+    "repo_full_name": "angular/skills",
+    "repo_url": "https://github.com/angular/skills",
+    "security_85_plus_count": 2,
+    "skills": [
+      {
+        "description": "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling.",
+        "manifest": "https://github.com/angular/skills/blob/main/angular-developer/SKILL.md",
+        "name": "angular-developer",
+        "overall_score": 96,
+        "path": "angular-developer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application.",
+        "manifest": "https://github.com/angular/skills/blob/main/angular-new-app/SKILL.md",
+        "name": "angular-new-app",
+        "overall_score": 96,
+        "path": "angular-new-app",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 2,
+    "spec_valid_count": 2,
+    "stars": 645
   },
   {
     "archived": false,
