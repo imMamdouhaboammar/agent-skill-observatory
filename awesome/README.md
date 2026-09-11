@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **193**
-Repositories: **27**
+Published skills: **194**
+Repositories: **28**
 
 ## Browse repositories
 
@@ -27,6 +27,7 @@ Repositories: **27**
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
 - [flext-sh/flext-dbt-ldap](./repos/flext-sh/flext-dbt-ldap.md)
+- [fyniujin/devskill](./repos/fyniujin/devskill.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -224,6 +225,7 @@ Repositories: **27**
 - [seis-plugin-runtime](./skills/emirhankudun-ux/seis/plugins/seis/skills/seis-plugin-runtime/README.md) · `emirhankudun-ux/seis:plugins/seis/skills/seis-plugin-runtime`
 - [documentation-criteria](./skills/flext-sh/flext-dbt-ldap/.gemini/skills/documentation-criteria/README.md) · `flext-sh/flext-dbt-ldap:.gemini/skills/documentation-criteria`
 - [security-review](./skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) · `flext-sh/flext-dbt-ldap:.gemini/skills/security-review`
+- [cn-model-gateway](./skills/fyniujin/devskill/cn-model-gateway/README.md) · `fyniujin/devskill:cn-model-gateway`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
