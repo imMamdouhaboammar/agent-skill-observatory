@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **217**
+Published skills: **218**
 Repositories: **35**
 
 ## Browse repositories
@@ -196,6 +196,7 @@ Repositories: **35**
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
 - [fetch-source](./skills/culturebotai/traitmech/.claude/skills/fetch-source/README.md) · `culturebotai/traitmech:.claude/skills/fetch-source`
+- [review-open-issues](./skills/culturebotai/traitmech/.claude/skills/review-open-issues/README.md) · `culturebotai/traitmech:.claude/skills/review-open-issues`
 - [deepworkplan](./skills/dailybothq/deepworkplan-website/.agents/skills/deepworkplan/README.md) · `dailybothq/deepworkplan-website:.agents/skills/deepworkplan`
 - [responsive-lighthouse-audit](./skills/dailybothq/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) · `dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`

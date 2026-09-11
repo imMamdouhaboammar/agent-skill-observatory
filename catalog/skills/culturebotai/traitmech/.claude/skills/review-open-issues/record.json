@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "caeadd805cd253e16da02f9ccdeb7bfd2aa742237af0643a3141f8996fa0dd41",
+  "canonical_key": "culturebotai/traitmech:.claude/skills/review-open-issues",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "caeadd805cd253e16da02f9ccdeb7bfd2aa742237af0643a3141f8996fa0dd41",
+    "archived": false,
+    "canonical_key": "culturebotai/traitmech:.claude/skills/review-open-issues",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6cbf30351bc6bf7fd4b8dab3afb0a3e21d78ee0300419891f025aff59e84523f",
+    "description": "Sweep and triage TraitMech's complete open GitHub issue queue — not just NEXT_TASKS.md — using current schema, curated-record, grounding, provenance, and derived-artifact evidence. Fetches every open issue with its comments, places each at the earliest affected curation stage, checks each claim against the live repository for staleness, flags duplicates, and assigns a priority tier plus a separate cost class. Produces a ranked, dependency-ordered report. Use for full backlog triage or deciding what is genuinely urgent; do not use as permission to close issues, run paid research, apply migrations, or implement fixes.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "engineering",
+        "security",
+        "content",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/CultureBotAI/TraitMech/blob/main/.claude/skills/review-open-issues/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:22:38.577984Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:22:38.577984Z",
+    "license": "CC0-1.0",
+    "metadata": {},
+    "name": "review-open-issues",
+    "path": ".claude/skills/review-open-issues",
+    "pushed_at": "2026-09-11T19:17:38Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CultureBotAI/TraitMech",
+    "repo_url": "https://github.com/CultureBotAI/TraitMech",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license CC0-1.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "44d7cb50955613b6e3f3c42d1a467fe0c29179d5461fda39dacf557f6c5bc3fd",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "44d7cb50955613b6e3f3c42d1a467fe0c29179d5461fda39dacf557f6c5bc3fd"
+}
