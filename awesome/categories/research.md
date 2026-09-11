@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 66
+Published Skills: 67
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -30,6 +30,7 @@ Published Skills: 66
 | [atm-evidence](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-evidence/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Explain missing evidence or blocked guidance before proceeding. |
 | [atm-framework-quickfix](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-quickfix/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Execute a bounded, evidence-backed ATM framework quickfix for a severe recurring blocker. Use when a captain needs to restore a broken fast path, control-plane latency, commitability, or fail-closed boundary without waiting for a broad governance closeout. |
 | [atm-framework-temp-claim](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-temp-claim/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Governed, tool-first route for scoped ATM framework quickfix work — dedicated skill for framework-mode claim, runner-sync queue-head reservation, sealed runner rebuild, and release, with CLI fallback that stays copy-paste runnable. |
+| [atm-git-pathspec-emergency-commit](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-git-pathspec-emergency-commit/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Emergency-only runbook for a one-time path-bounded native Git commit when ATM governed commit, WIP park, or commit-candidate lanes are blocked and the owner explicitly authorizes anomaly recovery. Not a Plan 3.1 autonomous success path. |
 | [reconc](../skills/Christopher-Schulze/reconc/skills/reconc/README.md) | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 100 | 100 | 1 | Use when a coding agent should bootstrap, maintain, or obey reconc repository policy. Covers the Repository Control Compiler, install/build choice, minimal daily loop, truthful evidence collection, policy checks, remediation, task-finish gates, CI/release use, and registry-backed platform enforcement limits without adding heavy process or option sprawl. |
 | [seis-mcp-runtime](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-mcp-runtime/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS MCP Runtime for MCP endpoint audits, tool boundary reviews, resource exposure checks, and explicit runtime evidence mapping for secure, scoped, AI-native operations. |
 | [seis-product](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-product/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Product for turning SEIS ideas into scoped product requirements, roadmap slices, acceptance criteria, UX outcomes, launch readiness, prioritization, open-source positioning, and validation-backed delivery plans. |

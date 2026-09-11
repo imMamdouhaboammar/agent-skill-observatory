@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework)
 
-Published Skills: 8
-Categories: agent-orchestration, commerce, content, data, devops, documentation, education, engineering, productivity, research, testing
+Published Skills: 9
+Categories: agent-orchestration, commerce, content, data, devops, documentation, education, engineering, hr-recruiting, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,3 +17,4 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [atm-evidence](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-evidence/README.md) | `.agents/skills/atm-evidence` | 100 | 100 | content, data, documentation, engineering, productivity, research |
 | [atm-framework-quickfix](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-quickfix/README.md) | `.agents/skills/atm-framework-quickfix` | 100 | 100 | content, devops, documentation, engineering, productivity, research |
 | [atm-framework-temp-claim](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-temp-claim/README.md) | `.agents/skills/atm-framework-temp-claim` | 100 | 100 | content, data, devops, documentation, engineering, research |
+| [atm-git-pathspec-emergency-commit](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-git-pathspec-emergency-commit/README.md) | `.agents/skills/atm-git-pathspec-emergency-commit` | 100 | 100 | content, documentation, engineering, hr-recruiting, productivity, research |
