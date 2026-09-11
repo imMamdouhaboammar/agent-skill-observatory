@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **202**
+Published skills: **203**
 Repositories: **33**
 
 ## Browse repositories
@@ -174,6 +174,7 @@ Repositories: **33**
 - [cherry-tool-guide](./skills/cherryhq/cherry-studio/resources/skills/cherry-tool-guide/README.md) · `cherryhq/cherry-studio:resources/skills/cherry-tool-guide`
 - [find-skills](./skills/cherryhq/cherry-studio/resources/skills/find-skills/README.md) · `cherryhq/cherry-studio:resources/skills/find-skills`
 - [feishu](./skills/chnlich/charlie-bot/skills/feishu/README.md) · `chnlich/charlie-bot:skills/feishu`
+- [file-server](./skills/chnlich/charlie-bot/skills/file-server/README.md) · `chnlich/charlie-bot:skills/file-server`
 - [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
 - [reconc](./skills/christopher-schulze/reconc/skills/reconc/README.md) · `christopher-schulze/reconc:skills/reconc`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
