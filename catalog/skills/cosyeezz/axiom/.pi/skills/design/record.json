@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "fad18ecdae65190839fa1555c5e081b14be540f9219e569382a8196373accc6a",
+  "canonical_key": "cosyeezz/axiom:.pi/skills/design",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "fad18ecdae65190839fa1555c5e081b14be540f9219e569382a8196373accc6a",
+    "archived": false,
+    "canonical_key": "cosyeezz/axiom:.pi/skills/design",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d8b87e91e395544577cf8d02350135fed9e5c11b8c1efcc427c1e583d045c276",
+    "description": "项目设计系统。凡涉及 UI、页面、组件、样式、配色的任务，必须先执行此 skill，读取对应风格的设计规范并严格遵循其 token 与规则。",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "ai-ml"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/cosyeezz/axiom/blob/master/.pi/skills/design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:20:14.726162Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:20:14.726162Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "design",
+    "path": ".pi/skills/design",
+    "pushed_at": "2026-09-11T19:17:55Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "cosyeezz/axiom",
+    "repo_url": "https://github.com/cosyeezz/axiom",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d93b37218c8306e343ccfe5029ef8c7b28d5b29b3315979872f1100e479bd005",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "d93b37218c8306e343ccfe5029ef8c7b28d5b29b3315979872f1100e479bd005"
+}
