@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "32532a340f6ebc1fe750fe6bf8351cac588bf14a2fbb441e662203bbd54ebe7f",
+  "canonical_key": "dexforce/embodichain:.claude/skills/add-task-env",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "32532a340f6ebc1fe750fe6bf8351cac588bf14a2fbb441e662203bbd54ebe7f",
+    "archived": false,
+    "canonical_key": "dexforce/embodichain:.claude/skills/add-task-env",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "570275b4391a86399ef6984206db420e7fef9a4cda23cbe4439b93b8d4716b43",
+    "description": "Claude adapter for routing and creating EmbodiChain task environments, handwritten/Task Program expert demonstrations, and RL tasks.",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ],
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DexForce/EmbodiChain/blob/main/.claude/skills/add-task-env/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 24,
+    "indexed_at": "2026-09-11T12:37:54.343422Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:37:54.343422Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "add-task-env",
+    "path": ".claude/skills/add-task-env",
+    "pushed_at": "2026-09-11T12:36:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DexForce/EmbodiChain",
+    "repo_url": "https://github.com/DexForce/EmbodiChain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 73,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9c0bab1dda7f01e7a0638ae32af98f36d095125320f4b83289daebb983ae5568",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 224
+  },
+  "source_fingerprint": "9c0bab1dda7f01e7a0638ae32af98f36d095125320f4b83289daebb983ae5568"
+}
