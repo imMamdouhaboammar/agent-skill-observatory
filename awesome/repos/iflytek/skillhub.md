@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/iflytek/skillhub](https://github.com/iflytek/skillhub)
 
-Published Skills: 18
+Published Skills: 19
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=18, 60-84=0, <60=0
+Security distribution: 85+=19, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -27,3 +27,4 @@ Security distribution: 85+=18, 60-84=0, <60=0
 | [sandbase](../../skills/iflytek/skillhub/builtin-skills/skills/sandbase/README.md) | `builtin-skills/skills/sandbase` | 100 | 100 | ai-ml, content, data, engineering, integrations, media |
 | [skill-lifecycle](../../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | `.agents/skills/skill-lifecycle` | 100 | 100 | design, documentation, engineering, productivity, research, security |
 | [skillhub-cli](../../skills/iflytek/skillhub/builtin-skills/skills/skillhub-cli/README.md) | `builtin-skills/skills/skillhub-cli` | 100 | 100 | commerce, content, data, devops, engineering, security |
+| [storytelling-advisor](../../skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) | `builtin-skills/skills/storytelling-advisor` | 100 | 100 | content, education, engineering, marketing, media, product |

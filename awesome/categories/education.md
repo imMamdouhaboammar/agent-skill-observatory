@@ -1,6 +1,6 @@
 # education
 
-Published Skills: 5
+Published Skills: 6
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,3 +9,4 @@ Published Skills: 5
 | [exam-ready](../skills/iflytek/skillhub/builtin-skills/skills/exam-ready/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Prepare a concise exam review from study materials and a syllabus supplied by the user. Use for topic summaries, recall questions, MCQ cues, and time-limited revision plans that must stay grounded in those materials. |
 | [linkedin-post-formatter](../skills/iflytek/skillhub/builtin-skills/skills/linkedin-post-formatter/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Draft or reformat copy-paste-ready LinkedIn posts from user-provided ideas and source material. Use for professional posts, concise thought-leadership drafts, resource announcements, story-led posts, carousel text, or optional Unicode emphasis with an accessible plain-text alternative. |
 | [retrieval-practice-generator](../skills/iflytek/skillhub/builtin-skills/skills/retrieval-practice-generator/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Generate low-stakes retrieval-practice questions with grounded answer notes and implementation guidance. Use for quiz starters, revision activities, delayed recall, misconception checks, or adapting recall difficulty. |
+| [storytelling-advisor](../skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Shape pitches, brand stories, presentations, and creative writing with narrative frameworks such as the Hero's Journey, Story Spine, and Freytag's Pyramid. Use when a user wants to structure, critique, or strengthen a story. |

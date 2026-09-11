@@ -1,6 +1,6 @@
 # media
 
-Published Skills: 4
+Published Skills: 5
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -8,3 +8,4 @@ Published Skills: 4
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
 | [cue-omni-reader](../skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Parse and understand an HTTP(S) URL or an authorized local document, audio, or video source through Cue Omni Reader when the Agent has the official Omni MCP tools. |
 | [sandbase](../skills/iflytek/skillhub/builtin-skills/skills/sandbase/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Access 2,000+ AI models and API tools through one MCP interface for inference, media generation, search, scraping, embeddings, social data, and structured retrieval. Use sandbase_discover before building custom integrations or declaring external data inaccessible; prefer an existing dedicated tool or API key when the user already has one. |
+| [storytelling-advisor](../skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Shape pitches, brand stories, presentations, and creative writing with narrative frameworks such as the Hero's Journey, Story Spine, and Freytag's Pyramid. Use when a user wants to structure, critique, or strengthen a story. |

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **97**
+Published skills: **98**
 Repositories: **12**
 
 ## Browse repositories
@@ -147,3 +147,4 @@ Repositories: **12**
 - [retrieval-practice-generator](./skills/iflytek/skillhub/builtin-skills/skills/retrieval-practice-generator/README.md) · `iflytek/skillhub:builtin-skills/skills/retrieval-practice-generator`
 - [sandbase](./skills/iflytek/skillhub/builtin-skills/skills/sandbase/README.md) · `iflytek/skillhub:builtin-skills/skills/sandbase`
 - [skillhub-cli](./skills/iflytek/skillhub/builtin-skills/skills/skillhub-cli/README.md) · `iflytek/skillhub:builtin-skills/skills/skillhub-cli`
+- [storytelling-advisor](./skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) · `iflytek/skillhub:builtin-skills/skills/storytelling-advisor`
