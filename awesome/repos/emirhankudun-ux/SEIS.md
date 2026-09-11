@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS)
 
-Published Skills: 12
+Published Skills: 13
 Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, mobile, product, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -18,6 +18,7 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [seis-design](../../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-design/README.md) | `plugins/seis/skills/seis-design` | 100 | 100 | browser-automation, content, design, engineering, product, productivity |
 | [seis-integration-guardian](../../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | `.kimi-code/skills/seis-integration-guardian` | 100 | 100 | commerce, content, data, devops, engineering, integrations |
 | [seis-mcp-runtime](../../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-mcp-runtime/README.md) | `plugins/seis/skills/seis-mcp-runtime` | 100 | 100 | commerce, engineering, integrations, legal-compliance, research, security |
+| [seis-plugin-runtime](../../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-plugin-runtime/README.md) | `plugins/seis/skills/seis-plugin-runtime` | 100 | 100 | commerce, devops, engineering, integrations, productivity, research |
 | [seis-product](../../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-product/README.md) | `plugins/seis-ai-agent/skills/seis-product` | 100 | 100 | design, devops, engineering, product, productivity, research |
 | [seis-research](../../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-research/README.md) | `plugins/seis-ai-agent/skills/seis-research` | 100 | 100 | architecture, devops, documentation, engineering, product, research |
 | [seis-security](../../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-security/README.md) | `plugins/seis-ai-agent/skills/seis-security` | 100 | 100 | devops, engineering, integrations, productivity, research, security |
