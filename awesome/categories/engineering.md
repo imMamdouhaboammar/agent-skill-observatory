@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 292
+Published Skills: 293
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -29,6 +29,7 @@ Published Skills: 292
 | [phoenix-cli](../skills/Arize-ai/phoenix/.agents/skills/phoenix-cli/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Debug LLM applications using the Phoenix CLI. Fetch traces, spans, and sessions, annotate them, analyze errors, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user works with a Phoenix instance from the terminal. |
 | [phoenix-design](../skills/Arize-ai/phoenix/.agents/skills/phoenix-design/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Design system conventions for the Phoenix frontend — layout, dialogs, error display, BEM CSS class naming, and CSS design tokens. Use when building UI, naming CSS classes, creating or consuming tokens, handling errors, or designing dialog interactions in js/app/src/. |
 | [phoenix-evals-new-metric](../skills/Arize-ai/phoenix/.agents/skills/phoenix-evals-new-metric/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Create a new built-in classification evaluator for Phoenix evals. Use this skill whenever the user asks to create a new eval, build a new metric, add a new builtin evaluator, create an LLM-as-a-judge metric, or add a new classification evaluator to Phoenix. |
+| [phoenix-harbor](../skills/Arize-ai/phoenix/.agents/skills/phoenix-harbor/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | Configure and interpret the Phoenix plugin for Harbor agent evaluations. Use when adding `arize-phoenix` to Harbor jobs, choosing ATIF tracing, mapping Harbor tasks and rewards to Phoenix experiments, comparing agents or models, resuming jobs, or troubleshooting Harbor records in Phoenix. |
 | [frontend-design](../skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) | [lightdash/lightdash](https://github.com/lightdash/lightdash) | 100 | 100 | 6131 | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics. |
 | [backend-module-structure](../skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Rules for the SkillHub backend Maven multi-module clean architecture. Ensures agents place new code in the correct module and respect dependency direction. |
 | [code-conventions](../skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code. |

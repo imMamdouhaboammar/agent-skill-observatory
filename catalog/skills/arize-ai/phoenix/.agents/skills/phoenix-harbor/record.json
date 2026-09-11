@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "93c5d735819cb81023af763ef079ad97e980ebe602611010e73ddac5baa3b1cf",
+  "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-harbor",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "93c5d735819cb81023af763ef079ad97e980ebe602611010e73ddac5baa3b1cf",
+    "archived": false,
+    "canonical_key": "arize-ai/phoenix:.agents/skills/phoenix-harbor",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d62cdd17f6567bb232b4c1459809e0e41dfce7372c05e6d720b193c72fafc691",
+    "description": "Configure and interpret the Phoenix plugin for Harbor agent evaluations. Use when adding `arize-phoenix` to Harbor jobs, choosing ATIF tracing, mapping Harbor tasks and rewards to Phoenix experiments, comparing agents or models, resuming jobs, or troubleshooting Harbor records in Phoenix.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "media",
+        "content",
+        "documentation",
+        "agent-orchestration",
+        "ai-ml"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/phoenix-harbor/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1124,
+    "indexed_at": "2026-09-11T23:38:40.586223Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:38:40.586223Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "oss@arize.com",
+      "version": "1.0.0"
+    },
+    "name": "phoenix-harbor",
+    "path": ".agents/skills/phoenix-harbor",
+    "pushed_at": "2026-09-11T23:35:23Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Arize-ai/phoenix",
+    "repo_url": "https://github.com/Arize-ai/phoenix",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3de1dc56fdc982f37efc44217003408c3fcb5b29db672c395e9a6fc7fe93d773",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11416
+  },
+  "source_fingerprint": "3de1dc56fdc982f37efc44217003408c3fcb5b29db672c395e9a6fc7fe93d773"
+}
