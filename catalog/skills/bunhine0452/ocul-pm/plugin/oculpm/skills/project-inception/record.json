@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "54b444a11b91af0c28b0a60a5bba751af6cbe7d11763859373ce6b574dd703a8",
+  "canonical_key": "bunhine0452/ocul-pm:plugin/oculpm/skills/project-inception",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "54b444a11b91af0c28b0a60a5bba751af6cbe7d11763859373ce6b574dd703a8",
+    "archived": false,
+    "canonical_key": "bunhine0452/ocul-pm:plugin/oculpm/skills/project-inception",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c18a1507ef2b13532a680c552b269ac1a58f005ea0ead23641de33d9589ae64f",
+    "description": "Use when kicking off a new project or feature area in an ocul-pm tracked project (.oculpm/ present) — research the stack landscape via web search, then converse with the user (research-backed choices) to settle the optimal spec, and seed a discussion doc, a detailed 3-depth plan (plan_create), EVALS.md done-criteria and starter .claude/rules.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "engineering",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bunhine0452/Ocul-PM/blob/main/plugin/oculpm/skills/project-inception/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-11T16:51:07.154762Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:51:07.154762Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "project-inception",
+    "path": "plugin/oculpm/skills/project-inception",
+    "pushed_at": "2026-09-11T16:44:34Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bunhine0452/Ocul-PM",
+    "repo_url": "https://github.com/bunhine0452/Ocul-PM",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 34,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "33570feb452c5642bb1de7b0cdfec3f2eba3e89a92bc2b1ab2dc5cc8591ff4a0",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 7
+  },
+  "source_fingerprint": "33570feb452c5642bb1de7b0cdfec3f2eba3e89a92bc2b1ab2dc5cc8591ff4a0"
+}
