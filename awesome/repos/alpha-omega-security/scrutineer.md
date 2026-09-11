@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer)
 
-Published Skills: 21
-Categories: agent-orchestration, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, legal-compliance, research, security, testing
+Published Skills: 22
+Categories: agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, research, security, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -29,4 +29,5 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [packages](../../skills/alpha-omega-security/scrutineer/skills/packages/README.md) | `skills/packages` | 100 | 100 | commerce, content, devops, documentation, engineering, research |
 | [posture](../../skills/alpha-omega-security/scrutineer/skills/posture/README.md) | `skills/posture` | 100 | 100 | content, data, documentation, engineering, legal-compliance, security |
 | [public-issue](../../skills/alpha-omega-security/scrutineer/skills/public-issue/README.md) | `skills/public-issue` | 100 | 100 | content, engineering, research, security |
+| [reachability](../../skills/alpha-omega-security/scrutineer/skills/reachability/README.md) | `skills/reachability` | 100 | 100 | commerce, content, data, documentation, documents, engineering |
 | [security-deep-dive-short](../../skills/alpha-omega-security/scrutineer/evals/skills/security-deep-dive-short/README.md) | `evals/skills/security-deep-dive-short` | 100 | 100 | content, documentation, engineering, hr-recruiting, security, testing |
