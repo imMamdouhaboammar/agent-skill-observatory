@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2)
 
-Published Skills: 10
+Published Skills: 11
 Categories: agent-orchestration, business, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, legal-compliance, localization, media, productivity, research
 Best overall score: 100
-Security distribution: 85+=10, 60-84=0, <60=0
+Security distribution: 85+=11, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -19,3 +19,4 @@ Security distribution: 85+=10, 60-84=0, <60=0
 | [pipeline-context](../../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/pipeline-context/README.md) | `.claude/skills/pipeline-context` | 100 | 100 | data, devops, documentation, engineering, localization, productivity |
 | [promote-lessons](../../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/promote-lessons/README.md) | `.claude/skills/promote-lessons` | 100 | 100 | business, commerce, content, data, devops, engineering |
 | [qa-audit](../../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/qa-audit/README.md) | `.claude/skills/qa-audit` | 100 | 100 | agent-orchestration, commerce, data, localization, productivity, research |
+| [quote-background-image](../../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/quote-background-image/README.md) | `.claude/skills/quote-background-image` | 100 | 100 | content, design, hr-recruiting, media, research |
