@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "26fcdd2fd246beaf6204da6f7a417fe8f5f31089809751bd97451fa6ad3467b4",
+  "canonical_key": "chnlich/charlie-bot:skills/google-sheets",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "26fcdd2fd246beaf6204da6f7a417fe8f5f31089809751bd97451fa6ad3467b4",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/google-sheets",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9ccd277262d26a1ed3349a52cd03f577ade1e0fd1b7ea8cda2367a81b1cc2fcb",
+    "description": "This skill should be used when the user asks to read, create, or edit Google Sheets spreadsheets, or manage cell data through the Google Sheets API.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "content",
+        "documentation",
+        "design",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/google-sheets/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "google-sheets",
+    "path": "skills/google-sheets",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5d9e6bb24fbf56022fa3cbc721635968af10a17def9d7c627076bda7b6fad56f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "5d9e6bb24fbf56022fa3cbc721635968af10a17def9d7c627076bda7b6fad56f"
+}
