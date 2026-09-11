@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "b06d0f43ca2bb2cc40cc3d4c8a143d4aac0edcc850e4b1caba222b944e8956c0",
+  "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-dispatch",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b06d0f43ca2bb2cc40cc3d4c8a143d4aac0edcc850e4b1caba222b944e8956c0",
+    "archived": false,
+    "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-dispatch",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "651037066cf08ea16db6d81a5925ae2b250136846b43058dab1df75db4298ce5",
+    "description": "ATM Captain dispatch routing for task cards, sidecars, subagents, condition review, mailbox work, and closeout coordination.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "content",
+        "agent-orchestration",
+        "engineering",
+        "documentation",
+        "education"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-dispatch/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T16:46:49.309201Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:49.309201Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "atm-dispatch",
+    "path": ".agents/skills/atm-dispatch",
+    "pushed_at": "2026-09-11T16:44:51Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "eaglhuang/AI-Atomic-Framework",
+    "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 26,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5a7f6ac7842446f3850c5c24f1e6880cfe69d70807c8ff799ce0ddef47506000",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "5a7f6ac7842446f3850c5c24f1e6880cfe69d70807c8ff799ce0ddef47506000"
+}
