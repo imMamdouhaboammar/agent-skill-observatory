@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "9014a35525d7cef571e8535670490e4a1e1f76e6d2624a90e3ad8b9e490bdcd4",
+  "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop",
+  "publication_event": "add",
+  "published_at": "2026-09-11T16:55:08.871829Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9014a35525d7cef571e8535670490e4a1e1f76e6d2624a90e3ad8b9e490bdcd4",
+    "archived": false,
+    "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6ff6a643844ea9cdc4af933d0a94751e86c9a2678a918db2b0971656fa81eade",
+    "description": "Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "testing",
+        "engineering",
+        "content",
+        "devops",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-diagnostic-loop/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T16:46:49.309201Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:49.309201Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "atm-diagnostic-loop",
+    "path": ".agents/skills/atm-diagnostic-loop",
+    "pushed_at": "2026-09-11T16:44:51Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "eaglhuang/AI-Atomic-Framework",
+    "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 26,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d3e08552bc1be3da27ecd07476698d3afbb9a16987483024090084f9aa8524fe",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "d3e08552bc1be3da27ecd07476698d3afbb9a16987483024090084f9aa8524fe"
+}
