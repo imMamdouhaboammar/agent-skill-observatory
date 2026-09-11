@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon)
 
-Published Skills: 8
+Published Skills: 9
 Categories: agent-orchestration, ai-ml, commerce, content, data, design, documentation, engineering, hr-recruiting, localization, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,3 +17,4 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [skyrim-xml-verification](../../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-xml-verification/README.md) | `.agents/skills/skyrim-xml-verification` | 100 | 100 | ai-ml, research |
 | [subagent-ops](../../skills/gkd2323c/runed-lexicon/.agents/skills/subagent-ops/README.md) | `.agents/skills/subagent-ops` | 100 | 100 | agent-orchestration, engineering, productivity |
 | [translation-batch-preparer](../../skills/gkd2323c/runed-lexicon/.agents/skills/translation-batch-preparer/README.md) | `.agents/skills/translation-batch-preparer` | 100 | 100 | commerce, content, design, hr-recruiting, localization, research |
+| [translation-context-builder](../../skills/gkd2323c/runed-lexicon/.agents/skills/translation-context-builder/README.md) | `.agents/skills/translation-context-builder` | 100 | 100 | ai-ml, commerce, content, data, localization, research |
