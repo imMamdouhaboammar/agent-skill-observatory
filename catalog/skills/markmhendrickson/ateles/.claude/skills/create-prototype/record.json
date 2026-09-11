@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "a8a158dd284121c4882184cb55d67f22924b671474e10ac887c2671868d4cd2d",
+  "canonical_key": "markmhendrickson/ateles:.claude/skills/create-prototype",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a8a158dd284121c4882184cb55d67f22924b671474e10ac887c2671868d4cd2d",
+    "archived": false,
+    "canonical_key": "markmhendrickson/ateles:.claude/skills/create-prototype",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c5058c4da6802c566b51d8be5c4303cf55421e0cbb1363f624e2e368880683f5",
+    "description": "Create prototype per foundation command.",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/markmhendrickson/ateles/blob/main/.claude/skills/create-prototype/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T08:00:52.211704Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:00:52.211704Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "create-prototype",
+    "path": ".claude/skills/create-prototype",
+    "pushed_at": "2026-09-11T07:59:31Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "markmhendrickson/ateles",
+    "repo_url": "https://github.com/markmhendrickson/ateles",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 29,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "562e9ec2cfe66bd634c665b7c1164c588bcec080d6aa0bfc21bd7e30b3e23801",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "562e9ec2cfe66bd634c665b7c1164c588bcec080d6aa0bfc21bd7e30b3e23801"
+}
