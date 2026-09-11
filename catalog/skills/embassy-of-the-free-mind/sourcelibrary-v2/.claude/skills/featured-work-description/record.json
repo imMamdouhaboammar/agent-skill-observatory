@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "014a2874f73f490b8187113e107cb7ac1e3c97812d059ccf3a42776e5fe5b531",
+  "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/featured-work-description",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "014a2874f73f490b8187113e107cb7ac1e3c97812d059ccf3a42776e5fe5b531",
+    "archived": false,
+    "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/featured-work-description",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "68249319e0efeb93fd585be53887999da928c636a55da8219f8f8c75222f4ada",
+    "description": "Use this skill whenever writing the 'Featured work' description that appears on a Source Library collection page — the short editorial blurb beneath a highlighted book's title, author, and bibliographic stats. Trigger for any request to write, rewrite, or edit a featured-work blurb, curator's pick description, or highlighted-book caption for a collection. The output is about the BOOK itself (what it is, why it matters, what is distinctive about it), never about Source Library, translation, OCR, or digitisation.",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "localization",
+        "legal-compliance",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/featured-work-description/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 3,
+    "indexed_at": "2026-09-11T21:48:17.888608Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:48:17.888608Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "featured-work-description",
+    "path": ".claude/skills/featured-work-description",
+    "pushed_at": "2026-09-11T21:48:00Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 42,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1cd9d460019a159245de500455cc554cbdb0041e2af0e0b0a26c96e0d6a7cfd6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "1cd9d460019a159245de500455cc554cbdb0041e2af0e0b0a26c96e0d6a7cfd6"
+}
