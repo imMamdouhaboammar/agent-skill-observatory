@@ -1,6 +1,6 @@
 # education
 
-Published Skills: 10
+Published Skills: 11
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -11,6 +11,7 @@ Published Skills: 10
 | [retrieval-practice-generator](../skills/iflytek/skillhub/builtin-skills/skills/retrieval-practice-generator/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Generate low-stakes retrieval-practice questions with grounded answer notes and implementation guidance. Use for quiz starters, revision activities, delayed recall, misconception checks, or adapting recall difficulty. |
 | [storytelling-advisor](../skills/iflytek/skillhub/builtin-skills/skills/storytelling-advisor/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Shape pitches, brand stories, presentations, and creative writing with narrative frameworks such as the Hero's Journey, Story Spine, and Freytag's Pyramid. Use when a user wants to structure, critique, or strengthen a story. |
 | [study-strategy-selector](../skills/iflytek/skillhub/builtin-skills/skills/study-strategy-selector/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Recommend practical study strategies matched to the material, learning goal, assessment, time, and learner constraints. Use for revision planning, homework routines, independent study, replacing ineffective habits, or adapting recall, spacing, explanation, and practice activities. |
+| [factory-learner](../skills/jairorodriguezarias/siesta/factory/skills/factory-learner/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Learns after EACH issue execution, not just at project end. Qwen 2.5 governs this micro-learning loop. Analyzes what happened during the issue — blockers, consultations, proxy decisions, successes — and improves factory skills immediately. Use after every issue is resolved. |
 | [atm-dispatch](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-dispatch/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | ATM Captain dispatch routing for task cards, sidecars, subagents, condition review, mailbox work, and closeout coordination. |
 | [atm-legacy-atomization-guidance](../skills/eaglhuang/AI-Atomic-Framework/integrations/codex-skills/atm-legacy-atomization-guidance/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Legacy compatibility alias for ATM legacy atomization, split, infect, and migration work. Prefer atm-governance-router for new installs. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
