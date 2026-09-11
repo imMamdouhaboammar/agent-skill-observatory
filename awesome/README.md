@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **127**
+Published skills: **128**
 Repositories: **17**
 
 ## Browse repositories
@@ -122,6 +122,7 @@ Repositories: **17**
 - [tdd-ko](./skills/andyko18/specops-ko/skills/tdd-ko/README.md) · `andyko18/specops-ko:skills/tdd-ko`
 - [using-specops-ko](./skills/andyko18/specops-ko/skills/using-specops-ko/README.md) · `andyko18/specops-ko:skills/using-specops-ko`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
+- [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
