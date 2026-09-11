@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **191**
-Repositories: **26**
+Published skills: **192**
+Repositories: **27**
 
 ## Browse repositories
 
@@ -26,6 +26,7 @@ Repositories: **26**
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
+- [flext-sh/flext-dbt-ldap](./repos/flext-sh/flext-dbt-ldap.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
@@ -221,6 +222,7 @@ Repositories: **26**
 - [seis-design](./skills/emirhankudun-ux/seis/plugins/seis/skills/seis-design/README.md) · `emirhankudun-ux/seis:plugins/seis/skills/seis-design`
 - [seis-mcp-runtime](./skills/emirhankudun-ux/seis/plugins/seis/skills/seis-mcp-runtime/README.md) · `emirhankudun-ux/seis:plugins/seis/skills/seis-mcp-runtime`
 - [seis-plugin-runtime](./skills/emirhankudun-ux/seis/plugins/seis/skills/seis-plugin-runtime/README.md) · `emirhankudun-ux/seis:plugins/seis/skills/seis-plugin-runtime`
+- [documentation-criteria](./skills/flext-sh/flext-dbt-ldap/.gemini/skills/documentation-criteria/README.md) · `flext-sh/flext-dbt-ldap:.gemini/skills/documentation-criteria`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
 - [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
