@@ -1,10 +1,11 @@
 # security
 
-Published Skills: 67
+Published Skills: 68
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [skill-reviewer](../skills/bytedance/deer-flow/skills/public/skill-reviewer/README.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82289 | Reviews DeerFlow skill packages for readiness, triggers, safety boundaries, resources, and evidence. Invoke when users ask to audit, grade, or production-check an existing skill. |
+| [web-design-guidelines](../skills/bytedance/deer-flow/skills/public/web-design-guidelines/README.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82289 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | [code-mate-antigravity](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-antigravity/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Antigravity CLI headlessly for repository analysis and coding tasks. Use when the user asks to delegate work to Antigravity CLI or compare its result with another coding agent. |
 | [code-mate-claude-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-claude-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Claude Code non-interactively for code analysis and implementation tasks. Use when the user asks to delegate repository work to Claude Code or compare its result with another coding agent. |
 | [code-mate-kimi-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-kimi-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Kimi Code in non-interactive prompt mode and parses its event stream. Use when the user asks to delegate a bounded repository task to Kimi Code. |

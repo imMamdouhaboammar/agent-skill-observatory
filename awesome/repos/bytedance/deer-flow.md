@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
 
-Published Skills: 11
+Published Skills: 12
 Categories: agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [skill-reviewer](../../skills/bytedance/deer-flow/skills/public/skill-reviewer/README.md) | `skills/public/skill-reviewer` | 100 | 100 | code-review, content, data, design, research, security |
 | [surprise-me](../../skills/bytedance/deer-flow/skills/public/surprise-me/README.md) | `skills/public/surprise-me` | 100 | 100 | data, design, documents, productivity, research |
 | [systematic-literature-review](../../skills/bytedance/deer-flow/skills/public/systematic-literature-review/README.md) | `skills/public/systematic-literature-review` | 100 | 100 | agent-orchestration, ai-ml, content, design, productivity, research |
+| [web-design-guidelines](../../skills/bytedance/deer-flow/skills/public/web-design-guidelines/README.md) | `skills/public/web-design-guidelines` | 100 | 100 | content, design, engineering, legal-compliance, research, security |

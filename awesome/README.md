@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **396**
+Published skills: **397**
 Repositories: **51**
 
 ## Browse repositories
@@ -223,6 +223,7 @@ Repositories: **51**
 - [skill-reviewer](./skills/bytedance/deer-flow/skills/public/skill-reviewer/README.md) · `bytedance/deer-flow:skills/public/skill-reviewer`
 - [surprise-me](./skills/bytedance/deer-flow/skills/public/surprise-me/README.md) · `bytedance/deer-flow:skills/public/surprise-me`
 - [systematic-literature-review](./skills/bytedance/deer-flow/skills/public/systematic-literature-review/README.md) · `bytedance/deer-flow:skills/public/systematic-literature-review`
+- [web-design-guidelines](./skills/bytedance/deer-flow/skills/public/web-design-guidelines/README.md) · `bytedance/deer-flow:skills/public/web-design-guidelines`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`

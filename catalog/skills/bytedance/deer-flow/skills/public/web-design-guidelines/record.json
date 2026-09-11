@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "ff25737e1a7438e5ce526345aefe59274ee9597922b5ab2ca28e5fc2bbc4a166",
+  "canonical_key": "bytedance/deer-flow:skills/public/web-design-guidelines",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ff25737e1a7438e5ce526345aefe59274ee9597922b5ab2ca28e5fc2bbc4a166",
+    "archived": false,
+    "canonical_key": "bytedance/deer-flow:skills/public/web-design-guidelines",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "legal-compliance",
+        "engineering",
+        "security",
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/web-design-guidelines/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 11345,
+    "indexed_at": "2026-09-11T23:39:20.634091Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:39:20.634091Z",
+    "license": "MIT",
+    "metadata": {
+      "argument-hint": "<file-or-pattern>",
+      "author": "vercel",
+      "version": "1.0.0"
+    },
+    "name": "web-design-guidelines",
+    "path": "skills/public/web-design-guidelines",
+    "pushed_at": "2026-09-11T23:35:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bytedance/deer-flow",
+    "repo_url": "https://github.com/bytedance/deer-flow",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 82289
+  },
+  "source_fingerprint": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+}
