@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "6c08cc6dfa7aafefbd1ab47efd5043f1720b00764546424bb950a47da47ff546",
+  "canonical_key": "iflytek/skillhub:builtin-skills/skills/retrieval-practice-generator",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6c08cc6dfa7aafefbd1ab47efd5043f1720b00764546424bb950a47da47ff546",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:builtin-skills/skills/retrieval-practice-generator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "caabd3301d07f4700163a4334ceaafc06698cc5fb6487afad6911e8d1918eca2",
+    "description": "Generate low-stakes retrieval-practice questions with grounded answer notes and implementation guidance. Use for quiz starters, revision activities, delayed recall, misconception checks, or adapting recall difficulty.\n",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "education",
+        "content",
+        "productivity",
+        "data",
+        "design",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/retrieval-practice-generator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "CC-BY-SA-4.0",
+    "metadata": {},
+    "name": "retrieval-practice-generator",
+    "path": "builtin-skills/skills/retrieval-practice-generator",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4859a7c6e00b36250a76663dcbd984be96a0613d32f30d0d436b490a84c23c5b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "4859a7c6e00b36250a76663dcbd984be96a0613d32f30d0d436b490a84c23c5b"
+}

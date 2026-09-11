@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/iflytek/skillhub](https://github.com/iflytek/skillhub)
 
-Published Skills: 15
+Published Skills: 16
 Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -23,4 +23,5 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [meeting-note-summarizer](../../skills/iflytek/skillhub/builtin-skills/skills/meeting-note-summarizer/README.md) | `builtin-skills/skills/meeting-note-summarizer` | 100 | 100 | content, design, documentation, finance, marketing, productivity |
 | [plugin-scanner](../../skills/iflytek/skillhub/builtin-skills/skills/plugin-scanner/README.md) | `builtin-skills/skills/plugin-scanner` | 100 | 100 | devops, engineering, integrations, legal-compliance, research, security |
 | [pr-submission](../../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | `.agents/skills/pr-submission` | 100 | 100 | agent-orchestration, design, devops, documentation, engineering, testing |
+| [retrieval-practice-generator](../../skills/iflytek/skillhub/builtin-skills/skills/retrieval-practice-generator/README.md) | `builtin-skills/skills/retrieval-practice-generator` | 100 | 100 | content, data, design, education, productivity, research |
 | [skill-lifecycle](../../skills/iflytek/skillhub/.agents/skills/skill-lifecycle/README.md) | `.agents/skills/skill-lifecycle` | 100 | 100 | design, documentation, engineering, productivity, research, security |
