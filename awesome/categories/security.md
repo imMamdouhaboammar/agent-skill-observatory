@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 28
+Published Skills: 29
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -20,6 +20,7 @@ Published Skills: 28
 | [self-audit](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/self-audit/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 작업을 "완료"라고 보고하기 직전, 스스로 결과를 감사할 때. 커밋/PR 직전 최종 점검에도 사용. |
 | [deploy-website](../skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Deploy the markmhendrickson website: sync markdown edits to Neotoma, export website data, regenerate cache, update the CI export secret, push the website repo, and verify GitHub Actions. |
 | [improve-goal](../skills/chnlich/charlie-bot/skills/improve-goal/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | How to write effective improve loop goal prompts — for the master CC agent that writes the --goal-file content. |
+| [linear](../skills/chnlich/charlie-bot/skills/linear/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, update, or search Linear issues, projects, cycles, or teams. |
 | [clerk-billing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-billing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Clerk Billing for subscription management - render Clerk's PricingTable and in-app checkout drawer, configure subscription plans, seat-limit plans for B2B, feature entitlements with has(), and billing webhooks. Use for SaaS monetization, plan gating, checkout flows, trials, invoicing, and subscription lifecycle management. |
 | [seis-cloud](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-cloud/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Cloud for cloud deployment readiness, public cloud targets, team/workplace VPN cloud targets, provider preflight, GCP Compute planning, static hosting handoff, secrets hygiene, rollback contracts, and infrastructure automation inside SEIS. Trigger when Codex needs to plan, validate, document, or execute cloud work while preserving user confirmation, security, provider neutrality, access policy, and repository governance. |
 | [seis-cloud](../skills/emirhankudun-ux/SEIS/plugins/seis-cloud/skills/seis-cloud/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Cloud for cloud deployment readiness, public cloud targets, team/workplace VPN cloud targets, provider preflight, GCP Compute planning, static hosting handoff, secrets hygiene, rollback contracts, and infrastructure automation inside SEIS. Trigger when Codex needs to plan, validate, document, or execute cloud work while preserving user confirmation, security, provider neutrality, access policy, and repository governance. |

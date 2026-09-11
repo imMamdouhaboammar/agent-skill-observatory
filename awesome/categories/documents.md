@@ -1,6 +1,6 @@
 # documents
 
-Published Skills: 4
+Published Skills: 5
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -8,3 +8,4 @@ Published Skills: 4
 | [backend-module-structure](../skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Rules for the SkillHub backend Maven multi-module clean architecture. Ensures agents place new code in the correct module and respect dependency direction. |
 | [exam-ready](../skills/iflytek/skillhub/builtin-skills/skills/exam-ready/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Prepare a concise exam review from study materials and a syllabus supplied by the user. Use for topic summaries, recall questions, MCQ cues, and time-limited revision plans that must stay grounded in those materials. |
 | [feishu](../skills/chnlich/charlie-bot/skills/feishu/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Feishu/Lark documents, search docs in their Feishu workspace, or fetch content from a Feishu wiki or docx URL. |
+| [linear](../skills/chnlich/charlie-bot/skills/linear/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, update, or search Linear issues, projects, cycles, or teams. |
