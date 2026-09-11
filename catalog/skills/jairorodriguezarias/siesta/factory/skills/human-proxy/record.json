@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "2eefcce708c629962b5636673467aa196416d2124c89000ec115b8197fc16e5c",
+  "canonical_key": "jairorodriguezarias/siesta:factory/skills/human-proxy",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2eefcce708c629962b5636673467aa196416d2124c89000ec115b8197fc16e5c",
+    "archived": false,
+    "canonical_key": "jairorodriguezarias/siesta:factory/skills/human-proxy",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7a65617b2134a0e1fb32eb1a390857becb2e1924b971ef2ada7034a0c2217c46",
+    "description": "Acts as the human stand-in when skills expect human approval. Reads the KB graph for context, evaluates decisions against the original human intent, approves or rejects, and logs its decision to the KB. Use when an addyosmani skill says \"ask the user\", \"wait for approval\", or \"confirm with the human\".",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jairorodriguezarias/siesta/blob/main/factory/skills/human-proxy/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 16,
+    "indexed_at": "2026-09-11T16:54:44.967657Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:54:44.967657Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "human-proxy",
+    "path": "factory/skills/human-proxy",
+    "pushed_at": "2026-09-11T16:44:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jairorodriguezarias/siesta",
+    "repo_url": "https://github.com/jairorodriguezarias/siesta",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 59,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d4d72b4ddcb9500c727fd54fb773913e838b34b2a256a30c8e9743a2f9b5897d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 60
+  },
+  "source_fingerprint": "d4d72b4ddcb9500c727fd54fb773913e838b34b2a256a30c8e9743a2f9b5897d"
+}
