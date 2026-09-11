@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **102**
+Published skills: **103**
 Repositories: **13**
 
 ## Browse repositories
@@ -35,6 +35,7 @@ Repositories: **13**
 - [education](./categories/education.md)
 - [engineering](./categories/engineering.md)
 - [finance](./categories/finance.md)
+- [hr-recruiting](./categories/hr-recruiting.md)
 - [integrations](./categories/integrations.md)
 - [legal-compliance](./categories/legal-compliance.md)
 - [localization](./categories/localization.md)
@@ -153,3 +154,4 @@ Repositories: **13**
 - [time-blocking-scheduler](./skills/iflytek/skillhub/builtin-skills/skills/time-blocking-scheduler/README.md) · `iflytek/skillhub:builtin-skills/skills/time-blocking-scheduler`
 - [weather](./skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) · `iflytek/skillhub:builtin-skills/skills/weather`
 - [dev-orchestrator](./skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) · `imeepos/ui-designer:.agents/skills/dev-orchestrator`
+- [rudder-design](./skills/imeepos/ui-designer/skill/rudder-design/README.md) · `imeepos/ui-designer:skill/rudder-design`
