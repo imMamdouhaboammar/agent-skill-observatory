@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "b309ad2034f7d4936c0675ca5533b4a5324d85bf110d39c9730fe9b63abf080d",
+  "canonical_key": "hoshock/holodorioptimizer:.claude/skills/induction",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b309ad2034f7d4936c0675ca5533b4a5324d85bf110d39c9730fe9b63abf080d",
+    "archived": false,
+    "canonical_key": "hoshock/holodorioptimizer:.claude/skills/induction",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c19a4887a9397e8646b27546de859750af36fef3d2af9861911aa80f836f49c1",
+    "description": "What: ユーザーのフィードバックを分類し、ルール候補として docs/ai/tmp/rules.md に記録する手順を定める。\nUse when: ユーザーがフィードバック・訂正・好みを示したとき(口頭でもファイルの直接編集でも)。記録を求められていなくても適用する。\n",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Hoshock/HolodoriOptimizer/blob/main/.claude/skills/induction/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T16:46:46.333393Z",
+    "last_successful_repo_scan_at": "2026-09-11T16:46:46.333393Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "induction",
+    "path": ".claude/skills/induction",
+    "pushed_at": "2026-09-11T16:44:52Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Hoshock/HolodoriOptimizer",
+    "repo_url": "https://github.com/Hoshock/HolodoriOptimizer",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e6130122bfd2b1db27d571fc3f20373e7c4336ed8fc61b1e0f681811b7b1a4b6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "e6130122bfd2b1db27d571fc3f20373e7c4336ed8fc61b1e0f681811b7b1a4b6"
+}
