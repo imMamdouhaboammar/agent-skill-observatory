@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)
 
-Published Skills: 9
+Published Skills: 10
 Categories: agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, other, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=9, 60-84=0, <60=0
+Security distribution: 85+=10, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -16,5 +16,6 @@ Security distribution: 85+=9, 60-84=0, <60=0
 | [faq-collector](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector` | 100 | 100 | other |
 | [gh-create-issue](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | `.agents/skills/gh-create-issue` | 100 | 100 | browser-automation, commerce, content, engineering, productivity, research |
 | [gh-pr-review](../../skills/CherryHQ/cherry-studio/.agents/skills/gh-pr-review/README.md) | `.agents/skills/gh-pr-review` | 100 | 100 | agent-orchestration, commerce, design, documentation, engineering, productivity |
+| [issue-reporter](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter` | 100 | 100 | other |
 | [vercel-react-best-practices](../../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | `.agents/skills/vercel-react-best-practices` | 100 | 100 | content, data, engineering, media |
 | [cherry-studio-feedback](../../skills/CherryHQ/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback/README.md) | `resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback` | 97 | 100 | design |

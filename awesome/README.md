@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **60**
+Published skills: **61**
 Repositories: **10**
 
 ## Browse repositories
@@ -98,3 +98,4 @@ Repositories: **10**
 - [cherry-studio-feedback](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback`
 - [claude-automation-recommender](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender`
 - [faq-collector](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector`
+- [issue-reporter](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter`
