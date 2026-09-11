@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **340**
-Repositories: **48**
+Published skills: **341**
+Repositories: **49**
 
 ## Browse repositories
 
@@ -24,6 +24,7 @@ Repositories: **48**
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
+- [alpha-omega-security/scrutineer](./repos/alpha-omega-security/scrutineer.md)
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [angular/skills](./repos/angular/skills.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
@@ -141,6 +142,7 @@ Repositories: **48**
 - [quick-dev](./skills/alizaouane/dev-agent/skills/quick-dev/README.md) · `alizaouane/dev-agent:skills/quick-dev`
 - [scout](./skills/alizaouane/dev-agent/skills/scout/README.md) · `alizaouane/dev-agent:skills/scout`
 - [self-review](./skills/alizaouane/dev-agent/skills/self-review/README.md) · `alizaouane/dev-agent:skills/self-review`
+- [security-deep-dive-short](./skills/alpha-omega-security/scrutineer/evals/skills/security-deep-dive-short/README.md) · `alpha-omega-security/scrutineer:evals/skills/security-deep-dive-short`
 - [advisor-ko](./skills/andyko18/specops-ko/skills/advisor-ko/README.md) · `andyko18/specops-ko:skills/advisor-ko`
 - [context-resets-ko](./skills/andyko18/specops-ko/skills/context-resets-ko/README.md) · `andyko18/specops-ko:skills/context-resets-ko`
 - [dispatching-parallel-agents-ko](./skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) · `andyko18/specops-ko:skills/dispatching-parallel-agents-ko`
