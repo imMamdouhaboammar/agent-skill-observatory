@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **343**
+Published skills: **344**
 Repositories: **49**
 
 ## Browse repositories
@@ -145,6 +145,7 @@ Repositories: **49**
 - [security-deep-dive-short](./skills/alpha-omega-security/scrutineer/evals/skills/security-deep-dive-short/README.md) · `alpha-omega-security/scrutineer:evals/skills/security-deep-dive-short`
 - [advisories](./skills/alpha-omega-security/scrutineer/skills/advisories/README.md) · `alpha-omega-security/scrutineer:skills/advisories`
 - [advisory-deep-dive](./skills/alpha-omega-security/scrutineer/skills/advisory-deep-dive/README.md) · `alpha-omega-security/scrutineer:skills/advisory-deep-dive`
+- [audit-authz](./skills/alpha-omega-security/scrutineer/skills/audit-authz/README.md) · `alpha-omega-security/scrutineer:skills/audit-authz`
 - [advisor-ko](./skills/andyko18/specops-ko/skills/advisor-ko/README.md) · `andyko18/specops-ko:skills/advisor-ko`
 - [context-resets-ko](./skills/andyko18/specops-ko/skills/context-resets-ko/README.md) · `andyko18/specops-ko:skills/context-resets-ko`
 - [dispatching-parallel-agents-ko](./skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) · `andyko18/specops-ko:skills/dispatching-parallel-agents-ko`

@@ -1,0 +1,106 @@
+{
+  "analysis_fingerprint": "bddb0742fce412fa7af19b6094fcad12db003ed89bc90709bc99122845c1e741",
+  "canonical_key": "alpha-omega-security/scrutineer:skills/audit-authz",
+  "publication_event": "add",
+  "published_at": "2026-09-11T23:41:04.105755Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read,Write,Bash,Grep,Glob"
+    ],
+    "analysis_fingerprint": "bddb0742fce412fa7af19b6094fcad12db003ed89bc90709bc99122845c1e741",
+    "archived": false,
+    "canonical_key": "alpha-omega-security/scrutineer:skills/audit-authz",
+    "compatibility": "Static and read-only. Needs source in ./src. Reads bundled reference notes in ./references. Does not build, run, install dependencies, or use external network; the worker-provided Scrutineer API at api_base is allowed.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "5244e6dc0a3f887c67b119cd2398a36d499a1ce9f0af07648709d603045cab1b",
+    "description": "Focused static audit for IDOR, tenant-isolation failures, missing or fail-open authorization guards, privilege escalation, and unverified claims used for access decisions.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "security",
+        "engineering",
+        "commerce",
+        "content",
+        "data",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/alpha-omega-security/scrutineer/blob/main/skills/audit-authz/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 10
+    },
+    "forks": 36,
+    "indexed_at": "2026-09-11T23:36:10.775186Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:36:10.775186Z",
+    "license": "MIT",
+    "metadata": {
+      "scrutineer.ignore_paths": "['**/node_modules/**', '**/dist/**', '**/generated/**', '**/__generated__/**', '**/*.min.js', '**/*.min.css']",
+      "scrutineer.max_turns": "48",
+      "scrutineer.min_confidence": "high",
+      "scrutineer.model": "high",
+      "scrutineer.output_file": "report.json",
+      "scrutineer.output_kind": "findings",
+      "scrutineer.paths": "['**']",
+      "scrutineer.version": "1"
+    },
+    "name": "audit-authz",
+    "path": "skills/audit-authz",
+    "pushed_at": "2026-09-11T23:35:39Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "alpha-omega-security/scrutineer",
+    "repo_url": "https://github.com/alpha-omega-security/scrutineer",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 8,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 74,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d6d527363edde358486bcafa047c1d43d3fcac87c1b04e80c5646b5c1247e567",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 215
+  },
+  "source_fingerprint": "d6d527363edde358486bcafa047c1d43d3fcac87c1b04e80c5646b5c1247e567"
+}
