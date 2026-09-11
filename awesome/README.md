@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **75**
+Published skills: **76**
 Repositories: **10**
 
 ## Browse repositories
@@ -26,6 +26,7 @@ Repositories: **10**
 - [design](./categories/design.md)
 - [devops](./categories/devops.md)
 - [documentation](./categories/documentation.md)
+- [documents](./categories/documents.md)
 - [engineering](./categories/engineering.md)
 - [integrations](./categories/integrations.md)
 - [legal-compliance](./categories/legal-compliance.md)
@@ -113,3 +114,4 @@ Repositories: **10**
 - [code-mate-pi](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-pi/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-pi`
 - [code-mate-qoder](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-qoder/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-qoder`
 - [code-mate-qwen-code](./skills/cherryhq/cherry-studio/resources/code-cli-skills/code-mate-qwen-code/README.md) · `cherryhq/cherry-studio:resources/code-cli-skills/code-mate-qwen-code`
+- [cherry-tool-guide](./skills/cherryhq/cherry-studio/resources/skills/cherry-tool-guide/README.md) · `cherryhq/cherry-studio:resources/skills/cherry-tool-guide`
