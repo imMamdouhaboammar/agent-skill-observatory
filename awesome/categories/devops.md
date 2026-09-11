@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 29
+Published Skills: 30
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -25,6 +25,7 @@ Published Skills: 29
 | [seis-code](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-code/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS-Code for architecture-aware implementation, refactors, debugging, tests, CI quality gates, MCP/plugin engineering, Apple-first platform packages, repo automation, and code-review fixes in the SEIS ecosystem. Trigger when Codex needs a full engineering plugin lane rather than a generic coding response. |
 | [seis-integration-guardian](../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Keep SEIS MCP, plugin, skill, and provider integration work safe, documented, and honest. |
 | [seis-product](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-product/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Product for turning SEIS ideas into scoped product requirements, roadmap slices, acceptance criteria, UX outcomes, launch readiness, prioritization, open-source positioning, and validation-backed delivery plans. |
+| [seis-research](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-research/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Research for evidence-led technical research, source evaluation, product/architecture discovery, official documentation review, standards/version checks, competitive or ecosystem analysis, and research-to-decision synthesis for SEIS. |
 | [nn-site-generator](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-site-generator/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Create or edit websites, add analytics, or add contact forms. Invoke with /nn-site-generator. |
 | [imagencn](../skills/Agents365-ai/365-skills/plugins/imagencn/skills/imagencn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform AI image generation via DashScope/Ark/Hunyuan/Zhipu/StepFun plus Grok/OpenAI/Gemini/FLUX (international), specializing in Chinese text rendering and photorealistic images |
 | [ttscn](../skills/Agents365-ai/365-skills/plugins/ttscn/skills/ttscn/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Multi-platform Chinese & multilingual TTS text-to-speech via Edge/Doubao/CosyVoice/Qwen3/StepFun/GLM-TTS/Azure/Tencent/Baidu/MiniMax/Xunfei plus ElevenLabs/OpenAI/Google/Atlas Cloud — 15 backends, word-level timestamps, [PAUSE:x] pause markers, pinyin pronunciation overrides |

@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "968704da45f1c751e2ef1fbbc5df19de14401960a6efdcb2314b33b13c8f25f7",
+  "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-research",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "968704da45f1c751e2ef1fbbc5df19de14401960a6efdcb2314b33b13c8f25f7",
+    "archived": false,
+    "canonical_key": "emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-research",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f92f560fe715e693e14906ea9443a067ad888abcba6a42a4c1dcca249f17d7cf",
+    "description": "Use SEIS Research for evidence-led technical research, source evaluation, product/architecture discovery, official documentation review, standards/version checks, competitive or ecosystem analysis, and research-to-decision synthesis for SEIS.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "documentation",
+        "product",
+        "devops",
+        "engineering",
+        "architecture"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/emirhankudun-ux/SEIS/blob/main/plugins/seis-ai-agent/skills/seis-research/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T12:38:13.302101Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:38:13.302101Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "seis-research",
+    "path": "plugins/seis-ai-agent/skills/seis-research",
+    "pushed_at": "2026-09-11T12:36:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "emirhankudun-ux/SEIS",
+    "repo_url": "https://github.com/emirhankudun-ux/SEIS",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "41b349ff240c1858aa99c950f2d460b54134a4c7904a26e031eb553eabef89df",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "41b349ff240c1858aa99c950f2d460b54134a4c7904a26e031eb553eabef89df"
+}
