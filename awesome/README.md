@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **206**
+Published skills: **207**
 Repositories: **33**
 
 ## Browse repositories
@@ -178,6 +178,7 @@ Repositories: **33**
 - [google-docs](./skills/chnlich/charlie-bot/skills/google-docs/README.md) · `chnlich/charlie-bot:skills/google-docs`
 - [google-sheets](./skills/chnlich/charlie-bot/skills/google-sheets/README.md) · `chnlich/charlie-bot:skills/google-sheets`
 - [improve-goal](./skills/chnlich/charlie-bot/skills/improve-goal/README.md) · `chnlich/charlie-bot:skills/improve-goal`
+- [improve-worker](./skills/chnlich/charlie-bot/skills/improve-worker/README.md) · `chnlich/charlie-bot:skills/improve-worker`
 - [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
 - [reconc](./skills/christopher-schulze/reconc/skills/reconc/README.md) · `christopher-schulze/reconc:skills/reconc`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`

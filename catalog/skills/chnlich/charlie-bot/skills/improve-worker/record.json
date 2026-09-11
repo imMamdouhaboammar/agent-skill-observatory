@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "62ca09bb2c2c9ad33cb2bc7bf2c9ce2c44db6e2c5d9eb915acf320683fd2cf55",
+  "canonical_key": "chnlich/charlie-bot:skills/improve-worker",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "62ca09bb2c2c9ad33cb2bc7bf2c9ce2c44db6e2c5d9eb915acf320683fd2cf55",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/improve-worker",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "09b8230fc719802a6d6eb319be530ac75e81e882a615a218cabe28708e251b5f",
+    "description": "methodology for iterative improve loop workers.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "productivity",
+        "data",
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/improve-worker/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "improve-worker",
+    "path": "skills/improve-worker",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3f28f451e2a1efd56abd2c03b4870a18bb57ac6828baa7e1684ae63b5a5201e3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "3f28f451e2a1efd56abd2c03b4870a18bb57ac6828baa7e1684ae63b5a5201e3"
+}

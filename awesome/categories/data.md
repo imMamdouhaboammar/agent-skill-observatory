@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 63
+Published Skills: 64
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -27,6 +27,7 @@ Published Skills: 63
 | [email-triage](../skills/markmhendrickson/ateles/.claude/skills/email-triage/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Step-by-step email inbox triage workflow with draft generation, data persistence, and archiving. Use when processing emails, triaging inbox, or when user mentions email triage, inbox processing, or email workflow. |
 | [google-docs](../skills/chnlich/charlie-bot/skills/google-docs/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Google Docs documents, or manage document content through the Google Docs and Drive APIs. |
 | [google-sheets](../skills/chnlich/charlie-bot/skills/google-sheets/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Google Sheets spreadsheets, or manage cell data through the Google Sheets API. |
+| [improve-worker](../skills/chnlich/charlie-bot/skills/improve-worker/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | methodology for iterative improve loop workers. |
 | [atm-create](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-create/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Create and register an atom through the provisioning facade. |
 | [atm-evidence](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-evidence/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Explain missing evidence or blocked guidance before proceeding. |
 | [atm-framework-temp-claim](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-framework-temp-claim/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Governed, tool-first route for scoped ATM framework quickfix work — dedicated skill for framework-mode claim, runner-sync queue-head reservation, sealed runner rebuild, and release, with CLI fallback that stays copy-paste runnable. |
