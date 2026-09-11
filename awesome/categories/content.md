@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 68
+Published Skills: 69
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -19,6 +19,7 @@ Published Skills: 68
 | [code-mate-qwen-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-qwen-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Qwen Code headlessly for repository analysis and coding tasks. Use when the user asks to delegate work to Qwen Code or obtain a Qwen-based coding-agent result. |
 | [gh-create-issue](../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format. |
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
+| [frontend-design](../skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) | [lightdash/lightdash](https://github.com/lightdash/lightdash) | 100 | 100 | 6131 | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics. |
 | [code-conventions](../skills/iflytek/skillhub/.agents/skills/code-conventions/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Code style, logging, and testing conventions for SkillHub backend (Java) and frontend (TypeScript). Use when writing or reviewing code. |
 | [cue-omni-reader](../skills/iflytek/skillhub/builtin-skills/skills/cue-omni-reader/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Parse and understand an HTTP(S) URL or an authorized local document, audio, or video source through Cue Omni Reader when the Agent has the official Omni MCP tools. |
 | [daily-standup-journal](../skills/iflytek/skillhub/builtin-skills/skills/daily-standup-journal/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Generate concise daily standups, reflection prompts, and weekly retrospectives for individuals or teams. Use for planning a day, surfacing blockers, reviewing user-provided entries, or drafting a check-in without assuming prior history. |

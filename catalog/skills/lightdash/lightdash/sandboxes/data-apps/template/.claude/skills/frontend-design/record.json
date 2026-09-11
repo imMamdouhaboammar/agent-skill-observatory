@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "ff00830fdacd2391745b3cd8ac53a632aa113f6046a9c07392b3157694c8c790",
+  "canonical_key": "lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ff00830fdacd2391745b3cd8ac53a632aa113f6046a9c07392b3157694c8c790",
+    "archived": false,
+    "canonical_key": "lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6dde8f3efb37937100d8a426f32c5fc4673004e5845ada2f77fd0a98269fff3f",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/lightdash/lightdash/blob/main/sandboxes/data-apps/template/.claude/skills/frontend-design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 772,
+    "indexed_at": "2026-09-11T08:05:31.798566Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:05:31.798566Z",
+    "license": "Complete terms in LICENSE.txt",
+    "metadata": {},
+    "name": "frontend-design",
+    "path": "sandboxes/data-apps/template/.claude/skills/frontend-design",
+    "pushed_at": "2026-09-11T07:58:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "lightdash/lightdash",
+    "repo_url": "https://github.com/lightdash/lightdash",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "dc624fe03793f67b12adb9d617f43b843a839f9969adb07af8094181edb83d0b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6131
+  },
+  "source_fingerprint": "dc624fe03793f67b12adb9d617f43b843a839f9969adb07af8094181edb83d0b"
+}

@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **103**
-Repositories: **13**
+Published skills: **104**
+Repositories: **14**
 
 ## Browse repositories
 
@@ -18,6 +18,7 @@ Repositories: **13**
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
+- [lightdash/lightdash](./repos/lightdash/lightdash.md)
 
 ## Browse categories
 
@@ -155,3 +156,4 @@ Repositories: **13**
 - [weather](./skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) · `iflytek/skillhub:builtin-skills/skills/weather`
 - [dev-orchestrator](./skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) · `imeepos/ui-designer:.agents/skills/dev-orchestrator`
 - [rudder-design](./skills/imeepos/ui-designer/skill/rudder-design/README.md) · `imeepos/ui-designer:skill/rudder-design`
+- [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
