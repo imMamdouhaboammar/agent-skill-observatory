@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "3e1b389496ad07193ef58929ebb8a33cec9251178722639e571d93fdc7941c1f",
+  "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curate-collection",
+  "publication_event": "add",
+  "published_at": "2026-09-11T21:56:05.203905Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3e1b389496ad07193ef58929ebb8a33cec9251178722639e571d93fdc7941c1f",
+    "archived": false,
+    "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curate-collection",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6478599daacb2b8638c39ab885638a21ca2bbdda1e6d687f1e3aa4f567f5c674",
+    "description": "Populate a collection page with editorial content — expanded description, highlighted books, gallery images, sourced quotes. Also audits existing collections for staleness, broken links, and missing content. Use when a collection exists but needs its content built out, or when auditing collection quality.",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "data",
+        "design",
+        "media",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2/blob/main/.claude/skills/curate-collection/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 3,
+    "indexed_at": "2026-09-11T21:48:17.888608Z",
+    "last_successful_repo_scan_at": "2026-09-11T21:48:17.888608Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "curate-collection",
+    "path": ".claude/skills/curate-collection",
+    "pushed_at": "2026-09-11T21:48:00Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 42,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ba234a2c021f964b2110d5d804ed870e6603aa422d216eb802173c218e367284",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "ba234a2c021f964b2110d5d804ed870e6603aa422d216eb802173c218e367284"
+}

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **310**
+Published skills: **311**
 Repositories: **48**
 
 ## Browse repositories
@@ -275,6 +275,7 @@ Repositories: **48**
 - [mailbox-worker-execution](./skills/eaglhuang/ai-atomic-framework/.agents/skills/mailbox-worker-execution/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/mailbox-worker-execution`
 - [atm-legacy-atomization-guidance](./skills/eaglhuang/ai-atomic-framework/integrations/codex-skills/atm-legacy-atomization-guidance/README.md) · `eaglhuang/ai-atomic-framework:integrations/codex-skills/atm-legacy-atomization-guidance`
 - [book-biography](./skills/embassy-of-the-free-mind/sourcelibrary-v2/.claude/skills/book-biography/README.md) · `embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/book-biography`
+- [curate-collection](./skills/embassy-of-the-free-mind/sourcelibrary-v2/.claude/skills/curate-collection/README.md) · `embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curate-collection`
 - [seis-integration-guardian](./skills/emirhankudun-ux/seis/.kimi-code/skills/seis-integration-guardian/README.md) · `emirhankudun-ux/seis:.kimi-code/skills/seis-integration-guardian`
 - [seis-automation](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-automation/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-automation`
 - [seis-cloud](./skills/emirhankudun-ux/seis/plugins/seis-ai-agent/skills/seis-cloud/README.md) · `emirhankudun-ux/seis:plugins/seis-ai-agent/skills/seis-cloud`
