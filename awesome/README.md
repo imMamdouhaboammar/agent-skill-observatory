@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **268**
-Repositories: **42**
+Published skills: **269**
+Repositories: **43**
 
 ## Browse repositories
 
@@ -45,6 +45,7 @@ Repositories: **42**
 - [iflytek/skillhub](./repos/iflytek/skillhub.md)
 - [imeepos/ui-designer](./repos/imeepos/ui-designer.md)
 - [jairorodriguezarias/siesta](./repos/jairorodriguezarias/siesta.md)
+- [jeong-sik/masc](./repos/jeong-sik/masc.md)
 - [lightdash/lightdash](./repos/lightdash/lightdash.md)
 - [markmhendrickson/ateles](./repos/markmhendrickson/ateles.md)
 
@@ -341,6 +342,7 @@ Repositories: **42**
 - [factory-learner](./skills/jairorodriguezarias/siesta/factory/skills/factory-learner/README.md) · `jairorodriguezarias/siesta:factory/skills/factory-learner`
 - [human-proxy](./skills/jairorodriguezarias/siesta/factory/skills/human-proxy/README.md) · `jairorodriguezarias/siesta:factory/skills/human-proxy`
 - [kb-manager](./skills/jairorodriguezarias/siesta/factory/skills/kb-manager/README.md) · `jairorodriguezarias/siesta:factory/skills/kb-manager`
+- [browser-lanes](./skills/jeong-sik/masc/skills/browser-lanes/README.md) · `jeong-sik/masc:skills/browser-lanes`
 - [frontend-design](./skills/lightdash/lightdash/sandboxes/data-apps/template/.claude/skills/frontend-design/README.md) · `lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design`
 - [analyze](./skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) · `markmhendrickson/ateles:.claude/skills/analyze`
 - [create-execution-plan](./skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) · `markmhendrickson/ateles:.claude/skills/create-execution-plan`

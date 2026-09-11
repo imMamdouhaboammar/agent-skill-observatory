@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "0d22c7adf5e23fd8610ab8b17de9d65c7194d03e78cc6ec4bcbd83f50a244988",
+  "canonical_key": "jeong-sik/masc:skills/browser-lanes",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0d22c7adf5e23fd8610ab8b17de9d65c7194d03e78cc6ec4bcbd83f50a244988",
+    "archived": false,
+    "canonical_key": "jeong-sik/masc:skills/browser-lanes",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7a359c08e6048917a543c4cbe6d35b4f15fcb575ebd5c990cbc6ee46d8d1ada7",
+    "description": "Use MASC Browser tools to read or operate Firefox/Zen tabs, inspect images, and verify requested web actions. Use for Browser Lane work and session, selector, or browser connection failures.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "content",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/jeong-sik/masc/blob/main/skills/browser-lanes/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T19:19:53.911644Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:53.911644Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "browser-lanes",
+    "path": "skills/browser-lanes",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "jeong-sik/masc",
+    "repo_url": "https://github.com/jeong-sik/masc",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "dc4f464a46837ae2c01d43fa8ee5e0e570536636866248c56388b13d848893cf",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "dc4f464a46837ae2c01d43fa8ee5e0e570536636866248c56388b13d848893cf"
+}
