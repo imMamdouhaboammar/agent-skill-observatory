@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework)
 
-Published Skills: 11
+Published Skills: 12
 Categories: agent-orchestration, commerce, content, data, devops, documentation, education, engineering, hr-recruiting, productivity, project-management, research, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [atm-git-pathspec-emergency-commit](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-git-pathspec-emergency-commit/README.md) | `.agents/skills/atm-git-pathspec-emergency-commit` | 100 | 100 | content, documentation, engineering, hr-recruiting, productivity, research |
 | [atm-governance-router](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | `.agents/skills/atm-governance-router` | 100 | 100 | commerce, content, documentation, engineering, hr-recruiting, productivity |
 | [atm-handoff](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-handoff/README.md) | `.agents/skills/atm-handoff` | 100 | 100 | content, documentation, engineering, productivity, project-management, research |
+| [atm-internal-build-sync](../../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-internal-build-sync/README.md) | `.agents/skills/atm-internal-build-sync` | 100 | 100 | content, data, documentation, engineering, productivity, research |
