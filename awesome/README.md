@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **57**
+Published skills: **58**
 Repositories: **10**
 
 ## Browse repositories
@@ -94,3 +94,4 @@ Repositories: **10**
 - [gh-pr-review](./skills/cherryhq/cherry-studio/.agents/skills/gh-pr-review/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-pr-review`
 - [vercel-react-best-practices](./skills/cherryhq/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) · `cherryhq/cherry-studio:.agents/skills/vercel-react-best-practices`
 - [cherry-skill-marketplace](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace`
+- [cherry-studio-feedback](./skills/cherryhq/cherry-studio/resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback/README.md) · `cherryhq/cherry-studio:resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback`
