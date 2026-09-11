@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **218**
-Repositories: **35**
+Published skills: **219**
+Repositories: **36**
 
 ## Browse repositories
 
@@ -13,6 +13,7 @@ Repositories: **35**
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
+- [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
@@ -213,6 +214,7 @@ Repositories: **35**
 - [add-task-env](./skills/dexforce/embodichain/.claude/skills/add-task-env/README.md) · `dexforce/embodichain:.claude/skills/add-task-env`
 - [review-pr](./skills/dexforce/embodichain/.claude/skills/review-pr/README.md) · `dexforce/embodichain:.claude/skills/review-pr`
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
+- [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`

@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 36
+Published Skills: 37
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -31,6 +31,7 @@ Published Skills: 36
 | [atm-error-code-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-error-code-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve ATM_* error codes from CLI JSON, logs, or user reports into canonical meaning, remediation, retryability, and approval guidance. |
 | [atm-governance-router](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Route natural-language cleanup, refactor, migration, and candidate ranking goals through ATM before local analysis. |
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
+| [check-policy-drift](../skills/DKJ-Solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) | [DKJ-Solutions/dkj-claude-plugins](https://github.com/DKJ-Solutions/dkj-claude-plugins) | 100 | 100 | 1 | Lay out every document that legislates in this repo in RANK ORDER -- the installed plugins' portable pages above this repo's own workflow folder, above its always-on CLAUDE.md closure -- and then read them against each other for contradictions. Use it when adopting this workflow into a repo that already had its own rules, when a session and a page disagree about how the cycle works, or before folding a shared rule into a root CLAUDE.md. The script locates and hands over; the judgement is yours, and nothing is ever edited. |
 | [clerk-billing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-billing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Clerk Billing for subscription management - render Clerk's PricingTable and in-app checkout drawer, configure subscription plans, seat-limit plans for B2B, feature entitlements with has(), and billing webhooks. Use for SaaS monetization, plan gating, checkout flows, trials, invoicing, and subscription lifecycle management. |
 | [seis-integration-guardian](../skills/emirhankudun-ux/SEIS/.kimi-code/skills/seis-integration-guardian/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Keep SEIS MCP, plugin, skill, and provider integration work safe, documented, and honest. |
 | [seis-mcp-runtime](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-mcp-runtime/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS MCP Runtime for MCP endpoint audits, tool boundary reviews, resource exposure checks, and explicit runtime evidence mapping for secure, scoped, AI-native operations. |
