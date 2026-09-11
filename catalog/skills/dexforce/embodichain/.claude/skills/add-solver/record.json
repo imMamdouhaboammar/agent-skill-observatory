@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "b28edc01ff492362aa091443c379c63f5b18ffbb6dfce0c1bd810913a68237f5",
+  "canonical_key": "dexforce/embodichain:.claude/skills/add-solver",
+  "publication_event": "add",
+  "published_at": "2026-09-11T12:45:25.786306Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b28edc01ff492362aa091443c379c63f5b18ffbb6dfce0c1bd810913a68237f5",
+    "archived": false,
+    "canonical_key": "dexforce/embodichain:.claude/skills/add-solver",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1db1e246a6385ea99d3ea642595293e2ee0c6b03559dff02fb398961ad3e3198",
+    "description": "Claude adapter for the canonical EmbodiChain add-solver skill.",
+    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "engineering",
+        "productivity",
+        "research",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DexForce/EmbodiChain/blob/main/.claude/skills/add-solver/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 24,
+    "indexed_at": "2026-09-11T12:37:54.343422Z",
+    "last_successful_repo_scan_at": "2026-09-11T12:37:54.343422Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "add-solver",
+    "path": ".claude/skills/add-solver",
+    "pushed_at": "2026-09-11T12:36:50Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "DexForce/EmbodiChain",
+    "repo_url": "https://github.com/DexForce/EmbodiChain",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 73,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "78e651c451f51d47eaa359ad74721e89107299182dc926e89558c49c6a6ab5aa",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 224
+  },
+  "source_fingerprint": "78e651c451f51d47eaa359ad74721e89107299182dc926e89558c49c6a6ab5aa"
+}
