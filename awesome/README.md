@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **209**
+Published skills: **210**
 Repositories: **33**
 
 ## Browse repositories
@@ -181,6 +181,7 @@ Repositories: **33**
 - [improve-worker](./skills/chnlich/charlie-bot/skills/improve-worker/README.md) · `chnlich/charlie-bot:skills/improve-worker`
 - [linear](./skills/chnlich/charlie-bot/skills/linear/README.md) · `chnlich/charlie-bot:skills/linear`
 - [llm-context-guideline](./skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) · `chnlich/charlie-bot:skills/llm-context-guideline`
+- [perfetto](./skills/chnlich/charlie-bot/skills/perfetto/README.md) · `chnlich/charlie-bot:skills/perfetto`
 - [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
 - [reconc](./skills/christopher-schulze/reconc/skills/reconc/README.md) · `christopher-schulze/reconc:skills/reconc`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`

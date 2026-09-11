@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "0bf14e643756cbf407fe3335b6d7a8b43270d3c1dd9b5c911f8b6a3cd3fc9043",
+  "canonical_key": "chnlich/charlie-bot:skills/perfetto",
+  "publication_event": "add",
+  "published_at": "2026-09-11T19:23:00.429355Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0bf14e643756cbf407fe3335b6d7a8b43270d3c1dd9b5c911f8b6a3cd3fc9043",
+    "archived": false,
+    "canonical_key": "chnlich/charlie-bot:skills/perfetto",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a57dc9ce429dda0d14f6c5b763c4636d0d359d065a031dba57faeb1b0ae859ad",
+    "description": "Use when the user wants to view, inspect, or share Perfetto/Chrome trace files -- triggered by words like \"trace\", \"perf\", \"perfetto\", \"profiling\", \"trace viewer\", or when dealing with trace JSON files from training runs.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chnlich/charlie-bot/blob/main/skills/perfetto/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T19:19:57.470617Z",
+    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "perfetto",
+    "path": "skills/perfetto",
+    "pushed_at": "2026-09-11T19:18:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chnlich/charlie-bot",
+    "repo_url": "https://github.com/chnlich/charlie-bot",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 31,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a2e11a530d0c1c76ad0bd207bbf840265d0d36ecc88bdf9b459cb73732c1fc01",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 6
+  },
+  "source_fingerprint": "a2e11a530d0c1c76ad0bd207bbf840265d0d36ecc88bdf9b459cb73732c1fc01"
+}
