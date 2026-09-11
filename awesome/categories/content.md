@@ -1,11 +1,12 @@
 # content
 
-Published Skills: 39
+Published Skills: 40
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [code-mate-antigravity](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-antigravity/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Antigravity CLI headlessly for repository analysis and coding tasks. Use when the user asks to delegate work to Antigravity CLI or compare its result with another coding agent. |
 | [code-mate-claude-code](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-claude-code/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Claude Code non-interactively for code analysis and implementation tasks. Use when the user asks to delegate repository work to Claude Code or compare its result with another coding agent. |
+| [code-mate-codex](../skills/CherryHQ/cherry-studio/resources/code-cli-skills/code-mate-codex/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Runs Codex CLI non-interactively for code analysis and implementation tasks. Use when the user asks to delegate repository work to Codex or obtain a second coding-agent result. |
 | [gh-create-issue](../skills/CherryHQ/cherry-studio/.agents/skills/gh-create-issue/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | Use when user wants to create a GitHub issue for the current repository. Must read and follow the repository's issue template format. |
 | [vercel-react-best-practices](../skills/CherryHQ/cherry-studio/.agents/skills/vercel-react-best-practices/README.md) | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 100 | 100 | 51666 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
