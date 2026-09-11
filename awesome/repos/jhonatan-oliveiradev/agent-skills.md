@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills)
 
-Published Skills: 22
-Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
+Published Skills: 23
+Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 99
-Security distribution: 85+=22, 60-84=0, <60=0
+Security distribution: 85+=23, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -30,4 +30,5 @@ Security distribution: 85+=22, 60-84=0, <60=0
 | [designing-software-boundaries](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-software-boundaries/README.md) | `skills/designing-software-boundaries` | 99 | 100 | content, data, devops, documentation, engineering, productivity |
 | [designing-test-strategies](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-test-strategies/README.md) | `skills/designing-test-strategies` | 99 | 100 | commerce, data, design, devops, integrations, testing |
 | [designing-ui-systems](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | `skills/designing-ui-systems` | 99 | 100 | design, product, productivity, research, security |
+| [designing-visual-identities](../../skills/jhonatan-oliveiradev/agent-skills/skills/designing-visual-identities/README.md) | `skills/designing-visual-identities` | 99 | 100 | content, design, documentation, localization, marketing, media |
 | [building-hybrid-game-assets](../../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | `skills/building-hybrid-game-assets` | 96 | 100 | design, productivity, research |
