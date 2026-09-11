@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "13e3b58c0e2e0c6a3f8607dba6c19bdc05d00091d035bd1e20b6f86be23ee537",
+  "canonical_key": "iflytek/skillhub:.agents/skills/backend-module-structure",
+  "publication_event": "add",
+  "published_at": "2026-09-11T08:07:15.832049Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "13e3b58c0e2e0c6a3f8607dba6c19bdc05d00091d035bd1e20b6f86be23ee537",
+    "archived": false,
+    "canonical_key": "iflytek/skillhub:.agents/skills/backend-module-structure",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "59fe19b2efec3b0475e848ae9ef5856d96a3c0b7fe8c2a776e0e0ccb2b1a25f0",
+    "description": "Rules for the SkillHub backend Maven multi-module clean architecture. Ensures agents place new code in the correct module and respect dependency direction.",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "data",
+        "design",
+        "documents",
+        "security",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/iflytek/skillhub/blob/main/.agents/skills/backend-module-structure/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 832,
+    "indexed_at": "2026-09-11T08:01:52.333501Z",
+    "last_successful_repo_scan_at": "2026-09-11T08:01:52.333501Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "backend-module-structure",
+    "path": ".agents/skills/backend-module-structure",
+    "pushed_at": "2026-09-11T07:59:22Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "iflytek/skillhub",
+    "repo_url": "https://github.com/iflytek/skillhub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "df27829fee2bc39bd56b6ec45e1e0ba65274f0e374b87987e8f679f7b27be57c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 5082
+  },
+  "source_fingerprint": "df27829fee2bc39bd56b6ec45e1e0ba65274f0e374b87987e8f679f7b27be57c"
+}

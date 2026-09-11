@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **79**
-Repositories: **11**
+Published skills: **80**
+Repositories: **12**
 
 ## Browse repositories
 
@@ -16,6 +16,7 @@ Repositories: **11**
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 - [hoonex/sloar-chat-coder](./repos/hoonex/sloar-chat-coder.md)
+- [iflytek/skillhub](./repos/iflytek/skillhub.md)
 
 ## Browse categories
 
@@ -120,3 +121,4 @@ Repositories: **11**
 - [find-skills](./skills/cherryhq/cherry-studio/resources/skills/find-skills/README.md) · `cherryhq/cherry-studio:resources/skills/find-skills`
 - [apple-web-design](./skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) · `hoonex/sloar-chat-coder:.agents/skills/apple-web-design`
 - [web-design-guidance](./skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) · `hoonex/sloar-chat-coder:.agents/skills/web-design-guidance`
+- [backend-module-structure](./skills/iflytek/skillhub/.agents/skills/backend-module-structure/README.md) · `iflytek/skillhub:.agents/skills/backend-module-structure`
