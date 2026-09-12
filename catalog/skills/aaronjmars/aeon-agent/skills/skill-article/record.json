@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "0ede84df9c79d3f7689c706a0aee48d5de964cb73a325c8edff0bc92c86f4489",
+  "canonical_key": "aaronjmars/aeon-agent:skills/skill-article",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0ede84df9c79d3f7689c706a0aee48d5de964cb73a325c8edff0bc92c86f4489",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/skill-article",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7826b9d27920419beae3826ae2c91593510d37900e09eced55233dfa6654ef3e",
+    "description": "Turn any skill in this instance into a publish-ready launch article - proof-stat headline, one contrarian thesis, mechanics, war stories from real run history, a mental-model reframe, and the full SKILL.md embedded verbatim so readers can steal it. Optional Higgsfield title banner with --banner.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "commerce",
+        "design",
+        "hr-recruiting",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/skill-article/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "basics",
+      "tags": "['content', 'meta']",
+      "title": "Skill Article",
+      "var": ""
+    },
+    "name": "skill-article",
+    "path": "skills/skill-article",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e08d88ccc80496ca8cd21e722c4b88e32b84d064fca46db1b94f8db90f316dbf",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "e08d88ccc80496ca8cd21e722c4b88e32b84d064fca46db1b94f8db90f316dbf"
+}

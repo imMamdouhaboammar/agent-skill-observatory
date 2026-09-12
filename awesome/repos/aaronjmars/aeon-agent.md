@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 23
+Published Skills: 24
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, localization, marketing, media, product, productivity, project-management, research, security
 Best overall score: 100
-Security distribution: 85+=23, 60-84=0, <60=0
+Security distribution: 85+=24, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -32,3 +32,4 @@ Security distribution: 85+=23, 60-84=0, <60=0
 | [pm-manipulation](../../skills/aaronjmars/aeon-agent/skills/pm-manipulation/README.md) | `skills/pm-manipulation` | 100 | 100 | commerce, content, data, hr-recruiting, localization, research |
 | [rightstack](../../skills/aaronjmars/aeon-agent/skills/rightstack/README.md) | `skills/rightstack` | 100 | 100 | browser-automation, devops, documentation, documents, engineering, productivity |
 | [schedule-ads](../../skills/aaronjmars/aeon-agent/skills/schedule-ads/README.md) | `skills/schedule-ads` | 100 | 100 | commerce, content, engineering, finance, marketing, security |
+| [skill-article](../../skills/aaronjmars/aeon-agent/skills/skill-article/README.md) | `skills/skill-article` | 100 | 100 | commerce, content, design, engineering, hr-recruiting, integrations |
