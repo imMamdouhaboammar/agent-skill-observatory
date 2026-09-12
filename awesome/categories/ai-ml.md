@@ -1,6 +1,6 @@
 # ai-ml
 
-Published Skills: 43
+Published Skills: 44
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -29,6 +29,7 @@ Published Skills: 43
 | [tavily-search](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/tavily-search/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Real-time web search using Tavily API - search the web, extract page content, and get up-to-date information for RAG and research tasks |
 | [llm-context-guideline](../skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Placement and admission policy for content that enters LLM context; its chapters currently govern the memory store (admission whitelist, the three proof questions, entry form and labeling, canon change rules). Reload in full before touching memory content. |
 | [sage-brinewick](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sage-brinewick/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Guide writers through PlotPickle curriculum and story questions as Sage Brinewick. Use for LEARN Creative Room conversation, curriculum explanations, lesson application, and ordinary follow-up conversation where Sage is the visible mentor. |
+| [iterative-retrieval](../skills/dileep-kishore/zendots/dot_agents/skills/iterative-retrieval/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Pattern for progressively refining context retrieval to solve the subagent context problem |
 | [backend-patterns](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/backend-patterns/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. Use when building or reviewing Node.js, Express, or Next.js API routes and their data access. |
 | [eval-harness](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/eval-harness/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles. Use when a Claude Code workflow needs a formal eval before it is trusted or changed. |
 | [add-proteins-to-graphs](../skills/CultureBotAI/NaturalProductMech/.claude/skills/add-proteins-to-graphs/README.md) | [CultureBotAI/NaturalProductMech](https://github.com/CultureBotAI/NaturalProductMech) | 100 | 100 | 0 | Add evidence-backed proteins, enzymes and complexes to NaturalProductMech biosynthetic pathways, causal graphs and molecular targets; ground graph nodes and pick UniProtKB protein examples without confusing a family, complex or reaction with an organism-specific protein. |

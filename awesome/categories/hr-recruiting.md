@@ -1,6 +1,6 @@
 # hr-recruiting
 
-Published Skills: 40
+Published Skills: 41
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -34,6 +34,7 @@ Published Skills: 40
 | [atm-governance-router](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Route natural-language cleanup, refactor, migration, and candidate ranking goals through ATM before local analysis. |
 | [atm-memory-consolidate](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index. |
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
+| [iterative-retrieval](../skills/dileep-kishore/zendots/dot_agents/skills/iterative-retrieval/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Pattern for progressively refining context retrieval to solve the subagent context problem |
 | [novel-plan](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-plan/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Plan a novel already scaffolded. Use for 人设/世界观, 金手指, book/volume outlines. Not for 章纲, batch freeze, prose, or review. |
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |
 | [skyrim-doc-system](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-doc-system/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 项目的文档体系规范：GLOBAL.md、GLOSSARY.md 与每个 MOD 的 CONTEXT.md / DICTIONARY.md / PROGRESS.md 五个文档的职责边界、收录标准、状态体系、术语优先级与维护规则。Use when creating or updating GLOBAL.md, GLOSSARY.md, or any MOD's CONTEXT.md / DICTIONARY.md / PROGRESS.md, deciding where a term or plot fact belongs, choosing term status (CONFIRMED/PROVISIONAL/REVIEW/KEEP), or resolving terminology priority conflicts. |
