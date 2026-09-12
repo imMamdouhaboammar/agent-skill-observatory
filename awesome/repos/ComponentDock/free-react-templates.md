@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 35
-Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, other, productivity, research, security, testing
+Published Skills: 36
+Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=35, 60-84=0, <60=0
+Security distribution: 85+=36, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -27,6 +27,7 @@ Security distribution: 85+=35, 60-84=0, <60=0
 | [codex](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | `skills/autonomous-ai-agents/codex` | 97 | 100 | commerce, content, data, engineering, integrations, productivity |
 | [colorlib-template-replication](../../skills/ComponentDock/free-react-templates/skills/research/colorlib-template-replication/README.md) | `skills/research/colorlib-template-replication` | 97 | 100 | browser-automation, commerce, content, design, engineering, media |
 | [design-md](../../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | `skills/creative/design-md` | 97 | 100 | commerce, content, design, engineering, localization, marketing |
+| [fallow](../../skills/ComponentDock/free-react-templates/skills/software-development/fallow/README.md) | `skills/software-development/fallow` | 97 | 100 | commerce, content, engineering, hr-recruiting, research, security |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
 | [gif-search](../../skills/ComponentDock/free-react-templates/skills/media/gif-search/README.md) | `skills/media/gif-search` | 97 | 100 | content, design, devops, engineering, media |
 | [github-bulk-repo-ops](../../skills/ComponentDock/free-react-templates/skills/github/github-bulk-repo-ops/README.md) | `skills/github/github-bulk-repo-ops` | 97 | 100 | commerce, documentation, engineering, productivity |

@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 179
+Published Skills: 180
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -175,6 +175,7 @@ Published Skills: 179
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [colorlib-template-replication](../skills/ComponentDock/free-react-templates/skills/research/colorlib-template-replication/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Recreate ColorLib templates faithfully from preview and CSS. |
 | [design-md](../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Author/validate/export Google's DESIGN.md token spec files. |
+| [fallow](../skills/ComponentDock/free-react-templates/skills/software-development/fallow/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Fallow: Rust static analysis for TS/JS codebases. |
 | [github-bulk-repo-ops](../skills/ComponentDock/free-react-templates/skills/github/github-bulk-repo-ops/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub ops: parallel API, deletion, scopes, cleanup. |
 | [github-org-automation](../skills/ComponentDock/free-react-templates/skills/github/github-org-automation/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Headless GitHub org automation: auth, scopes, bulk repo ops. |
 | [github-org-bulk-operations](../skills/ComponentDock/free-react-templates/skills/github/github-org-bulk-operations/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub org cleanup: inventory, classify, delete. |

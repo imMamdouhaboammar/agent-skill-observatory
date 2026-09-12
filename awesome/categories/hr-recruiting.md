@@ -1,6 +1,6 @@
 # hr-recruiting
 
-Published Skills: 37
+Published Skills: 38
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -41,3 +41,4 @@ Published Skills: 37
 | [xtranslator-xml-writer](../skills/gkd2323c/runed-lexicon/.agents/skills/xtranslator-xml-writer/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | Safely apply validated Skyrim mod translation-result JSON files or minimal atomic patches to xTranslator XML by changing only intended destination text and verifying source version, XML identity, protected tokens, duplicate units, and post-write structure. Use whenever completed translation batches need to become an xTranslator-importable XML file, or when a small revision (a handful of strings) must be applied to an existing translated XML without rebuilding full batch context. This skill writes a new XML by default and must not freely reserialize the source document. |
 | [next-steps](../skills/a-lottes/aSPARK/skills/next-steps/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Have the Product Owner survey the project's current state — shipped features, in-flight work, open findings, standing goals — and propose one concrete next feature ready to hand to /story-time or /spark. Use when the user has no idea in hand and asks "what should we build next", when a loop just closed and the next cycle needs a starting point, or when the backlog feels stale and needs a grounded suggestion instead of a guess. |
 | [evaluating-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer must demonstrate a target capability level against a versioned assessment blueprint, observable rubric criteria, and explicit evidence gates. |
+| [fallow](../skills/ComponentDock/free-react-templates/skills/software-development/fallow/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Fallow: Rust static analysis for TS/JS codebases. |

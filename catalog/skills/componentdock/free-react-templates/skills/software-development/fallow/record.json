@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "d372686b88367b150faac8c3e479daed751235d10e3b4f013f3190722b8c5234",
+  "canonical_key": "componentdock/free-react-templates:skills/software-development/fallow",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d372686b88367b150faac8c3e479daed751235d10e3b4f013f3190722b8c5234",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/software-development/fallow",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9707b02e2f42b57d671b040d0ab3a8723d4e6ffeefb00cba00d040d00714a0ab",
+    "description": "Fallow: Rust static analysis for TS/JS codebases.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "security",
+        "commerce",
+        "content",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/software-development/fallow/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['static-analysis', 'typescript', 'javascript', 'linting', 'code-quality'], 'related_skills': ['codebase-inspection', 'requesting-code-review', 'github-org-administration']}"
+    },
+    "name": "fallow",
+    "path": "skills/software-development/fallow",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8d2bcfe3a6fb8eb156233ebe89f1fad324e5089de693196e4fd9c034be6ac0f3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "8d2bcfe3a6fb8eb156233ebe89f1fad324e5089de693196e4fd9c034be6ac0f3"
+}
