@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "ed75052030fcfee96f779d1676aeddfb6e2a3ecfce1bce7b008585f27e6f2771",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:.pi/skills/code-quality",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ed75052030fcfee96f779d1676aeddfb6e2a3ecfce1bce7b008585f27e6f2771",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:.pi/skills/code-quality",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ef188b2e30afbebd3309549aeaf6d8b67c86863e1147ad707762c8c6e2c0d071",
+    "description": "Drive static-analysis code quality in pi-agent-dashboard with Biome (analyze → fix → test), in changed-files or whole-repo mode. Use when asked to \"improve code quality\", \"lint and fix\", \"clean up warnings\", \"fix Biome issues\", \"run static analysis\", or when setting a code-quality goal. Skip for one-line edits.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "testing",
+        "content",
+        "documentation",
+        "integrations",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/.pi/skills/code-quality/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "code-quality",
+    "path": ".pi/skills/code-quality",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1fc2edcac86e0b83f3c9ffa96b885233a94f9cdb8ae72ad61f3a803a6f3e3b1b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "1fc2edcac86e0b83f3c9ffa96b885233a94f9cdb8ae72ad61f3a803a6f3e3b1b"
+}

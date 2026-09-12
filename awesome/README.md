@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **481**
-Repositories: **60**
+Published skills: **482**
+Repositories: **61**
 
 ## Browse repositories
 
@@ -12,6 +12,7 @@ Repositories: **60**
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
 - [Archivev/hicreator-agent](./repos/Archivev/hicreator-agent.md)
 - [Arize-ai/phoenix](./repos/Arize-ai/phoenix.md)
+- [BlackBeltTechnology/pi-agent-dashboard](./repos/BlackBeltTechnology/pi-agent-dashboard.md)
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
@@ -281,6 +282,7 @@ Repositories: **60**
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
+- [code-quality](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/code-quality`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
