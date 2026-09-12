@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 51
+Published Skills: 52
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=51, 60-84=0, <60=0
+Security distribution: 85+=52, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -60,3 +60,4 @@ Security distribution: 85+=51, 60-84=0, <60=0
 | [threejs-postprocessing](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | `.agents/skills/threejs-postprocessing` | 100 | 100 | design, media, mobile, testing |
 | [threejs-shaders](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-shaders/README.md) | `.agents/skills/threejs-shaders` | 100 | 100 | content, data, design, engineering, media |
 | [threejs-textures](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-textures/README.md) | `.agents/skills/threejs-textures` | 100 | 100 | content, data, media, mobile, testing |
+| [vercel-composition-patterns](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/vercel-composition-patterns/README.md) | `.agents/skills/vercel-composition-patterns` | 100 | 100 | engineering, media |
