@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 275
+Published Skills: 276
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -155,6 +155,7 @@ Published Skills: 275
 | [atm-task-intent-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing. |
 | [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
 | [ant](../skills/dpatel-93/alfred/skills/ant/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Structured, enterprise-focused design system emphasizing clarity, consistency, and efficiency for data-dense web applications. |
+| [backtesting-frameworks](../skills/dpatel-93/alfred/skills/backtesting-frameworks/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
 | [document-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Long-form workplace docs as GFM `.md` (default). Not for slide decks or spreadsheets — those are Univer IR / CSV. Edit with write/edit/apply_patch; do not invent parallel JSON docs unless path is already `.udoc.json`. |
