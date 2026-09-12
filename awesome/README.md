@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **483**
+Published skills: **484**
 Repositories: **61**
 
 ## Browse repositories
@@ -284,6 +284,7 @@ Repositories: **61**
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [code-quality](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/code-quality`
 - [plan-proposal](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/plan-proposal`
+- [release-revoke](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/release-revoke`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
