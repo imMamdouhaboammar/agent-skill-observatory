@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "3d2bd7927a2b6a7662612e1dd62994feb18fc197a206959660f7f34a88302d80",
+  "canonical_key": "deploy-forward/convoy:plugins/convoy/skills/convoy-end",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3d2bd7927a2b6a7662612e1dd62994feb18fc197a206959660f7f34a88302d80",
+    "archived": false,
+    "canonical_key": "deploy-forward/convoy:plugins/convoy/skills/convoy-end",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "653b144150d3b7dab603580d759e9dfb96b0e66a1bfcf9d968e8fcee1e477dba",
+    "description": "Record the current Convoy task's final heartbeat and, only when explicitly requested, push the current clean branch to its configured upstream. Use when the user asks to end, close out, or finalize a Convoy task, especially with --push.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Deploy-Forward/convoy/blob/main/plugins/convoy/skills/convoy-end/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T21:43:04.583983Z",
+    "last_successful_repo_scan_at": "2026-09-12T21:43:04.583983Z",
+    "license": "MIT",
+    "metadata": {
+      "installation-consent": "Installing enables a reviewed Codex or Claude Stop hook to append a token-free turn heartbeat to the active worktree's Convoy thread. It never authorizes git push.",
+      "permission-model": "Only the literal user-invoked --push flag authorizes one plain git push of a clean attached branch to its configured upstream."
+    },
+    "name": "convoy-end",
+    "path": "plugins/convoy/skills/convoy-end",
+    "pushed_at": "2026-09-12T21:29:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Deploy-Forward/convoy",
+    "repo_url": "https://github.com/Deploy-Forward/convoy",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "14109b540bd1497e6769c991622e7a136bc9d8dba9ecc79265cff06a1553f5ab",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "14109b540bd1497e6769c991622e7a136bc9d8dba9ecc79265cff06a1553f5ab"
+}
