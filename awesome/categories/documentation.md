@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 212
+Published Skills: 213
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -210,6 +210,7 @@ Published Skills: 212
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
 | [apple-reminders](../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Apple Reminders via remindctl: add, list, complete. |
 | [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |
+| [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
 | [pretext](../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Build creative browser demos with DOM-free text layout. |
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |

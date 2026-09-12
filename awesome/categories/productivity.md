@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 288
+Published Skills: 289
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -260,6 +260,7 @@ Published Skills: 288
 | [claude-design](../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Design one-off HTML artifacts (landing, deck, prototype). |
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [findmy](../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Track Apple devices/AirTags via FindMy.app on macOS. |
+| [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
 | [imessage](../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Send and receive iMessages/SMS via the imsg CLI on macOS. |
 | [opencode](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenCode CLI (features, PR review). |

@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 439
+Published Skills: 440
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -396,6 +396,7 @@ Published Skills: 439
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [design-md](../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Author/validate/export Google's DESIGN.md token spec files. |
 | [findmy](../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Track Apple devices/AirTags via FindMy.app on macOS. |
+| [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
 | [imessage](../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Send and receive iMessages/SMS via the imsg CLI on macOS. |
 | [opencode](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenCode CLI (features, PR review). |

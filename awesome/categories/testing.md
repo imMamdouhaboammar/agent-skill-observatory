@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 123
+Published Skills: 124
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -124,6 +124,7 @@ Published Skills: 123
 | [prompt-enhancer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/prompt-enhancer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 97 | 100 | 11 | 提示词增强 - 分析用户意图，注入项目上下文，重写提示词以提高AI回复质量 |
 | [atm-residue-cleanup](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 97 | 100 | 3 | Diagnose and safely reconcile operation-owned transient ATM residue. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
+| [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [opencode](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenCode CLI (features, PR review). |
 | [angular-developer](../skills/angular/skills/angular-developer/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling. |
 | [parameter-calculation](../skills/Hoshock/HolodoriOptimizer/.claude/skills/parameter-calculation/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 96 | 100 | 0 | What: ホロドリのユニット編成画面の「総合力」の構造（6 項目の加算・素値基準・切り上げ。2026-09-08 実機内訳で確定）と、カード詳細画面に表示される P/T/S がどう計算されるか（レベル・開花・青/緑ホロメンボード・所属ボーナスの反映と、赤ボード・メモリー・強化ボーナス・スキルの不反映）と、ユニットスコア計算で別枠として扱う要素の定義。青ホロメンボードの全ホロメン共通ノード構成（31 マスの座標・効果・左右型）、緑ホロメンボードの全ホロメン共通ノード構成（24 マスの座標・効果・所属別の値）、黄ホロメンボードの全ホロメン共通ノード構成（31 マスの座標・楽曲スコアボーナスとホロワーク報酬の効果・左右型。アカウント全体に効き上限 10.0%、曲選択時はスコアボーナスのホロメンボード効果欄に入る — 2026-09-11 実機確定）、赤ホロメンボードの全ホロメン共通ノード構成（63 マスを上 / ライフ系 / ステータス系の 3 エリアで。リーダー用でメンバー 5 人に効く。左右は lifeSide）、4 色ボードの全体配置（赤上・緑下・青黄左右、左右はホロメン別に固定）も持つ。実機観測で確定した「変わらない事実」だけを持つ。 Use when: スコア計算エンジン（src/engine/、src/data/bloom.ts）やカードデータ（src/data/cards.json の stats）を設計・変更するとき、実測したカード値とデータを照合するとき、ホロメンボード補正の入力方式を設計するとき、ユーザーが「パラメータ」「ボード」「開花の上昇量」「メモリー」「強化ボーナス」に触れたとき。 |
