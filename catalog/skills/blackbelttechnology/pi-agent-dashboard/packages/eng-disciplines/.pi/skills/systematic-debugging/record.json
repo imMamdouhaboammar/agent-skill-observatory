@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "2d100ce9a750ffe5d82b80bb6897e1190837f09ebde0cf8f65b633c48f097395",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/systematic-debugging",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2d100ce9a750ffe5d82b80bb6897e1190837f09ebde0cf8f65b633c48f097395",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/systematic-debugging",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d978a8f081e0fe17c6d33c43dfa91b9ca6d4bb51535e192fe5d07e2bdab72fb0",
+    "description": "Root-cause a bug already in front of you, instead of guessing at fixes. Use on triggers like \"root cause this\", \"why is this failing\", \"debug systematically\", \"this test is flaky\", \"it works locally but not in CI\", or when a fix attempt has already failed once. Enforces a phased evidence-first process before any code change. Not a feature-build or ship workflow.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "testing",
+        "research",
+        "productivity",
+        "content",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/systematic-debugging/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "systematic-debugging",
+    "path": "packages/eng-disciplines/.pi/skills/systematic-debugging",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a462fd6a30c644d66f09249ce01833b6f81f8a549d61845fe9da2d06b8d8c5c7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "a462fd6a30c644d66f09249ce01833b6f81f8a549d61845fe9da2d06b8d8c5c7"
+}
