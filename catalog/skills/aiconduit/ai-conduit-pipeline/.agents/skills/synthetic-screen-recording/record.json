@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "bea035ab96378f5d195491ae26ea88f617fa9b4fe227a600751ca3b50891cdaa",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/synthetic-screen-recording",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "bea035ab96378f5d195491ae26ea88f617fa9b4fe227a600751ca3b50891cdaa",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/synthetic-screen-recording",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "352bcc1435ef931bcdcb37422354b4c91bfe117c573f006aaf6db11601db5397",
+    "description": "Synthetic terminal-style screen recording guidance for Remotion `TerminalScene`.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "engineering",
+        "browser-automation",
+        "media",
+        "ai-ml"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/synthetic-screen-recording/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "synthetic-screen-recording",
+    "path": ".agents/skills/synthetic-screen-recording",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7d68bc9bb6411f9c48be4234a3a1b3b5fe4e78f97d67789a71d3656f83e9d14c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "7d68bc9bb6411f9c48be4234a3a1b3b5fe4e78f97d67789a71d3656f83e9d14c"
+}

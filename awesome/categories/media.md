@@ -1,6 +1,6 @@
 # media
 
-Published Skills: 59
+Published Skills: 60
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -57,6 +57,7 @@ Published Skills: 59
 | [sound-effects](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/sound-effects/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, generating audio textures, producing ambient sounds, cinematic impacts, UI sounds, or any audio that isn't speech. Supports looping, duration control, and prompt influence tuning. |
 | [speech-to-text](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/speech-to-text/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content. |
 | [svg-character-animation](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/svg-character-animation/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Animate SVG character rigs with GSAP, CSS transforms, Remotion frame control, and HyperFrames-compatible browser previews. |
+| [synthetic-screen-recording](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/synthetic-screen-recording/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Synthetic terminal-style screen recording guidance for Remotion `TerminalScene`. |
 | [auditing-pixel-perfect-frontend](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized. |
 | [building-brand-guidelines](../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand identity needs durable rules, assets, examples, accessibility constraints, and governance so multiple people can reproduce it consistently across channels. |
 | [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
