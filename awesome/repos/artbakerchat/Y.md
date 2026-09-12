@@ -2,13 +2,14 @@
 
 Repository: [https://github.com/artbakerchat/Y](https://github.com/artbakerchat/Y)
 
-Published Skills: 4
-Categories: design, legal-compliance, other
+Published Skills: 5
+Categories: design, legal-compliance, other, productivity, security
 Best overall score: 100
-Security distribution: 85+=4, 60-84=0, <60=0
+Security distribution: 85+=5, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
+| [account-troubleshooting](../../skills/artbakerchat/Y/center/03-skills/skills/account-troubleshooting/README.md) | `center/03-skills/skills/account-troubleshooting` | 100 | 100 | productivity, security |
 | [civic-knowledge](../../skills/artbakerchat/Y/app/ForgeAgent/skills/civic-knowledge/README.md) | `app/ForgeAgent/skills/civic-knowledge` | 100 | 100 | legal-compliance |
 | [food-bank-operations](../../skills/artbakerchat/Y/app/ForgeAgent/skills/food-bank-operations/README.md) | `app/ForgeAgent/skills/food-bank-operations` | 100 | 100 | design, legal-compliance |
 | [mutual-aid-coordination](../../skills/artbakerchat/Y/app/ForgeAgent/skills/mutual-aid-coordination/README.md) | `app/ForgeAgent/skills/mutual-aid-coordination` | 97 | 100 | other |

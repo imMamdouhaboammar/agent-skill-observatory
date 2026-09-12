@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **679**
+Published skills: **680**
 Repositories: **73**
 
 ## Browse repositories
@@ -341,6 +341,7 @@ Repositories: **73**
 - [food-bank-operations](./skills/artbakerchat/y/app/forgeagent/skills/food-bank-operations/README.md) · `artbakerchat/y:app/forgeagent/skills/food-bank-operations`
 - [mutual-aid-coordination](./skills/artbakerchat/y/app/forgeagent/skills/mutual-aid-coordination/README.md) · `artbakerchat/y:app/forgeagent/skills/mutual-aid-coordination`
 - [nonprofit-helpdesk](./skills/artbakerchat/y/app/forgeagent/skills/nonprofit-helpdesk/README.md) · `artbakerchat/y:app/forgeagent/skills/nonprofit-helpdesk`
+- [account-troubleshooting](./skills/artbakerchat/y/center/03-skills/skills/account-troubleshooting/README.md) · `artbakerchat/y:center/03-skills/skills/account-troubleshooting`
 - [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
 - [portos-file-issue](./skills/atomantic/portos/.claude/skills/portos-file-issue/README.md) · `atomantic/portos:.claude/skills/portos-file-issue`
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
