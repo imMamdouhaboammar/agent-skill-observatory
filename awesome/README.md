@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **626**
-Repositories: **67**
+Published skills: **627**
+Repositories: **68**
 
 ## Browse repositories
 
@@ -17,6 +17,7 @@ Repositories: **67**
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [ChronoAIProject/nyx-skills](./repos/ChronoAIProject/nyx-skills.md)
+- [ComponentDock/free-react-templates](./repos/ComponentDock/free-react-templates.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
 - [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
@@ -529,6 +530,7 @@ Repositories: **67**
 - [task-management](./skills/commontoolsinc/labs/skills/task-management/README.md) · `commontoolsinc/labs:skills/task-management`
 - [topics](./skills/commontoolsinc/labs/skills/topics/README.md) · `commontoolsinc/labs:skills/topics`
 - [writing-code](./skills/commontoolsinc/labs/skills/writing-code/README.md) · `commontoolsinc/labs:skills/writing-code`
+- [openspec-apply-change](./skills/componentdock/free-react-templates/.opencode/skills/openspec-apply-change/README.md) · `componentdock/free-react-templates:.opencode/skills/openspec-apply-change`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
