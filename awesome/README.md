@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **456**
+Published skills: **457**
 Repositories: **53**
 
 ## Browse repositories
@@ -191,6 +191,7 @@ Repositories: **53**
 - [vercel-composition-patterns](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/vercel-composition-patterns/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/vercel-composition-patterns`
 - [vercel-react-best-practices](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/vercel-react-best-practices/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/vercel-react-best-practices`
 - [video-download](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/video-download/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/video-download`
+- [video-translate](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/video-translate/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/video-translate`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
