@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **543**
-Repositories: **61**
+Published skills: **544**
+Repositories: **62**
 
 ## Browse repositories
 
@@ -13,6 +13,7 @@ Repositories: **61**
 - [Archivev/hicreator-agent](./repos/Archivev/hicreator-agent.md)
 - [Arize-ai/phoenix](./repos/Arize-ai/phoenix.md)
 - [BlackBeltTechnology/pi-agent-dashboard](./repos/BlackBeltTechnology/pi-agent-dashboard.md)
+- [BryanHarrisScripts/PlotPickle](./repos/BryanHarrisScripts/PlotPickle.md)
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
@@ -325,6 +326,7 @@ Repositories: **61**
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
 - [last-20-percent](./skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) · `bossmiizlol/ai-workflow:skills/shared/last-20-percent`
 - [test-driven-development](./skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) · `bossmiizlol/ai-workflow:skills/shared/test-driven-development`
+- [ben-code-quality](./skills/bryanharrisscripts/plotpickle/.agents/skills/ben-code-quality/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/ben-code-quality`
 - [buildd-mcp-consumer](./skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) · `buildd-ai/buildd:.claude/skills/buildd-mcp-consumer`
 - [buildd-workflow](./skills/buildd-ai/buildd/.claude/skills/buildd-workflow/README.md) · `buildd-ai/buildd:.claude/skills/buildd-workflow`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`

@@ -1,0 +1,105 @@
+{
+  "analysis_fingerprint": "78a2d5a6fa4851455c8ed50eeea9a1c62d8036930dacb95a3695bbe37570cca9",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/ben-code-quality",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "78a2d5a6fa4851455c8ed50eeea9a1c62d8036930dacb95a3695bbe37570cca9",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/ben-code-quality",
+    "compatibility": "PlotPickle repository; coding and repair workers; BEN deterministic code-quality observer.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e4d82c189c836e6f74f49fe2ebc803a464467a20382bcbdc17fd79b77c3c63b7",
+    "description": "Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "security",
+        "content",
+        "documentation",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/ben-code-quality/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "owner": "plotpickle",
+      "role": "code-quality-review",
+      "source-attribution": "Adapted from modem-dev/skills write-discoverable-code (MIT)",
+      "version": "1"
+    },
+    "name": "ben-code-quality",
+    "path": ".agents/skills/ben-code-quality",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5a9ccfa91a62044760dabea78116e9865ebd0d4cdc722be15541c48495dc84b3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "5a9ccfa91a62044760dabea78116e9865ebd0d4cdc722be15541c48495dc84b3"
+}
