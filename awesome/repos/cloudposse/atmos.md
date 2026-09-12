@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 5
+Published Skills: 6
 Categories: ai-ml, commerce, content, data, design, devops, documentation, engineering, integrations, media, product, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [changelog](../../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | `.claude/skills/changelog` | 100 | 100 | ai-ml, content, documentation, engineering, product, productivity |
 | [component-development](../../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | `.claude/skills/component-development` | 100 | 100 | commerce, devops, documentation, engineering, integrations, research |
 | [docs](../../skills/cloudposse/atmos/.claude/skills/docs/README.md) | `.claude/skills/docs` | 100 | 100 | commerce, content, devops, documentation, engineering, product |
+| [field-test](../../skills/cloudposse/atmos/.claude/skills/field-test/README.md) | `.claude/skills/field-test` | 100 | 100 | commerce, content, devops, documentation, engineering, testing |
