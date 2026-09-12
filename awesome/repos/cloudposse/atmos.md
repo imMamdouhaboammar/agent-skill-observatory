@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 34
+Published Skills: 35
 Categories: ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=34, 60-84=0, <60=0
+Security distribution: 85+=35, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -23,6 +23,7 @@ Security distribution: 85+=34, 60-84=0, <60=0
 | [atmos-profiles](../../skills/cloudposse/atmos/agent-skills/skills/atmos-profiles/README.md) | `agent-skills/skills/atmos-profiles` | 100 | 100 | design, devops, engineering |
 | [atmos-project-layout](../../skills/cloudposse/atmos/agent-skills/skills/atmos-project-layout/README.md) | `agent-skills/skills/atmos-project-layout` | 100 | 100 | commerce, design, devops, engineering, productivity |
 | [atmos-scaffold](../../skills/cloudposse/atmos/agent-skills/skills/atmos-scaffold/README.md) | `agent-skills/skills/atmos-scaffold` | 100 | 100 | commerce, content, data, devops, engineering, marketing |
+| [atmos-settings](../../skills/cloudposse/atmos/agent-skills/skills/atmos-settings/README.md) | `agent-skills/skills/atmos-settings` | 100 | 100 | design, documentation, engineering, productivity |
 | [changelog](../../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | `.claude/skills/changelog` | 100 | 100 | ai-ml, content, documentation, engineering, product, productivity |
 | [component-development](../../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | `.claude/skills/component-development` | 100 | 100 | commerce, devops, documentation, engineering, integrations, research |
 | [docs](../../skills/cloudposse/atmos/.claude/skills/docs/README.md) | `.claude/skills/docs` | 100 | 100 | commerce, content, devops, documentation, engineering, product |

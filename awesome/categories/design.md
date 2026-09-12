@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 248
+Published Skills: 249
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -46,6 +46,7 @@ Published Skills: 248
 | [atmos-design-patterns](../skills/cloudposse/atmos/agent-skills/skills/atmos-design-patterns/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Design patterns: stack organization, component catalogs, inheritance, configuration composition, version management, layered configuration |
 | [atmos-profiles](../skills/cloudposse/atmos/agent-skills/skills/atmos-profiles/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos profiles: profile directories, --profile and ATMOS_PROFILE activation, profile merge behavior, environment switching, and routing profile-specific auth/toolchain/config overrides |
 | [atmos-project-layout](../skills/cloudposse/atmos/agent-skills/skills/atmos-project-layout/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos project layout: base_path, relative path resolution, root stacks/components/workflows/schemas directories, atmos.d modular config, and repository path conventions |
+| [atmos-settings](../skills/cloudposse/atmos/agent-skills/skills/atmos-settings/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos global settings: settings, logs, errors, env, docs, metadata, version requirements, terminal behavior, telemetry, experimental flags, and non-subsystem atmos.yaml options |
 | [speckit-checklist](../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate a custom checklist for the current feature based on user requirements. |
 | [speckit-clarify](../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec. |
 | [speckit-plan](../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation planning workflow using the plan template to generate design artifacts. |
