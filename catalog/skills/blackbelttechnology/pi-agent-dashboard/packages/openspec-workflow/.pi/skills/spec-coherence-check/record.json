@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "48bc81ab4e83704ed0caf616e4d0964a5ef247292c13d9afb08af949a50fc136",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/openspec-workflow/.pi/skills/spec-coherence-check",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "48bc81ab4e83704ed0caf616e4d0964a5ef247292c13d9afb08af949a50fc136",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/openspec-workflow/.pi/skills/spec-coherence-check",
+    "compatibility": "Requires openspec CLI and git.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "178ce409727e8148821c16feb27b40433ddb04a6d2c18e8141b4f1263d9039f0",
+    "description": "Sweep all active OpenSpec proposals for staleness, conflicts, and obsolescence against the current codebase and archived changes. Use when proposals may be outdated, when checking cross-proposal conflicts, or before starting a batch of implementations. Produces a gap-analysis report, updates a priority queue file, and can auto-fix trivial issues or guide conversations for complex ones.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "research",
+        "ai-ml",
+        "commerce",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/openspec-workflow/.pi/skills/spec-coherence-check/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "robson",
+      "version": "1.0"
+    },
+    "name": "spec-coherence-check",
+    "path": "packages/openspec-workflow/.pi/skills/spec-coherence-check",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "34735a6a516c350aaeb96972a20369b81051fc166bfae1c82ec3247fd51e791f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "34735a6a516c350aaeb96972a20369b81051fc166bfae1c82ec3247fd51e791f"
+}
