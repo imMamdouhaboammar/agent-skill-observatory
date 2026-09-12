@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "daced26c36f8ef9e6f9886d9cb79049553716707a9bd95dd4a15f693076a4d21",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:.pi/skills/run-dashboard-e2e-local-changes",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "daced26c36f8ef9e6f9886d9cb79049553716707a9bd95dd4a15f693076a4d21",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:.pi/skills/run-dashboard-e2e-local-changes",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "32c3a30425780c5beabd733766fd9c2af7fd4df9f46277c32d22606366bf086a",
+    "description": "Run Playwright E2E (tests/e2e/) against the docker/ all-in-one harness so it reflects LOCAL code changes, not a stale cached image.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "testing",
+        "browser-automation",
+        "engineering",
+        "devops",
+        "media",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/.pi/skills/run-dashboard-e2e-local-changes/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "run-dashboard-e2e-local-changes",
+    "path": ".pi/skills/run-dashboard-e2e-local-changes",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "cd8314802600cc280b40df153fcb52cc2b55281087d272b37e2fe0c5135f6aa9",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "cd8314802600cc280b40df153fcb52cc2b55281087d272b37e2fe0c5135f6aa9"
+}
