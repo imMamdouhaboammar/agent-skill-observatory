@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 21
+Published Skills: 22
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -30,3 +30,4 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [gsap-performance](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-performance/README.md) | `.agents/skills/gsap-performance` | 100 | 100 | browser-automation, content, design, engineering, localization, testing |
 | [gsap-plugins](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-plugins/README.md) | `.agents/skills/gsap-plugins` | 100 | 100 | content, data, design, devops, documentation, engineering |
 | [gsap-react](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-react/README.md) | `.agents/skills/gsap-react` | 100 | 100 | browser-automation, content, engineering, media |
+| [gsap-scrolltrigger](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-scrolltrigger/README.md) | `.agents/skills/gsap-scrolltrigger` | 100 | 100 | commerce, content, design, documentation |
