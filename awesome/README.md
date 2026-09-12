@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **787**
+Published skills: **788**
 Repositories: **87**
 
 ## Browse repositories
@@ -705,6 +705,7 @@ Repositories: **87**
 - [novel-write](./skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-write/README.md) · `danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-write`
 - [re-frame2-implementor](./skills/day8/re-frame2/skills/re-frame2-implementor/README.md) · `day8/re-frame2:skills/re-frame2-implementor`
 - [re-frame2-improver](./skills/day8/re-frame2/skills/re-frame2-improver/README.md) · `day8/re-frame2:skills/re-frame2-improver`
+- [re-frame2-setup](./skills/day8/re-frame2/skills/re-frame2-setup/README.md) · `day8/re-frame2:skills/re-frame2-setup`
 - [convoy](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy`
 - [convoy-wizard](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy-wizard`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
