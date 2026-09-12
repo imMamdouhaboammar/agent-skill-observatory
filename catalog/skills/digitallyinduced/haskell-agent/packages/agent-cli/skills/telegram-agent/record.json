@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "e10d02688bf6ab7226151caf2cfd2e4ea5956f77f963913f13fd22b88f1ef994",
+  "canonical_key": "digitallyinduced/haskell-agent:packages/agent-cli/skills/telegram-agent",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e10d02688bf6ab7226151caf2cfd2e4ea5956f77f963913f13fd22b88f1ef994",
+    "archived": false,
+    "canonical_key": "digitallyinduced/haskell-agent:packages/agent-cli/skills/telegram-agent",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6ddc2c9c0d3989a5a4ea500b67c04eaeebf7047b8075cfee0d7c0f5d7f9935e2",
+    "description": "Set up, start, stop, or troubleshoot a Telegram bot backed by the local agent harness.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "security",
+        "engineering",
+        "legal-compliance",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/digitallyinduced/haskell-agent/blob/master/packages/agent-cli/skills/telegram-agent/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T11:10:08.068617Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:10:08.068617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "telegram-agent",
+    "path": "packages/agent-cli/skills/telegram-agent",
+    "pushed_at": "2026-09-12T11:03:32Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "digitallyinduced/haskell-agent",
+    "repo_url": "https://github.com/digitallyinduced/haskell-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 46,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "473fec31d4e29d170a191f3c0f828b41071320bceb10bf775b2a924514046409",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 29
+  },
+  "source_fingerprint": "473fec31d4e29d170a191f3c0f828b41071320bceb10bf775b2a924514046409"
+}

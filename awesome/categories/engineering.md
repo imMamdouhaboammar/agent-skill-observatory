@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 561
+Published Skills: 562
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -193,6 +193,7 @@ Published Skills: 561
 | [add-model](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/add-model/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Configure a local or hosted model, add an OpenRouter model, or register a newly released OpenAI or xAI model. |
 | [learn-about-user](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/learn-about-user/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Build or refresh a consent-reviewed technical user profile from a confirmed public GitHub account and save it as durable user-scoped guidance. |
 | [post-task-learning-review](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/post-task-learning-review/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Review substantial completed tasks for durable lessons and store only high-value reusable guidance. |
+| [telegram-agent](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/telegram-agent/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Set up, start, stop, or troubleshoot a Telegram bot backed by the local agent harness. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [extract-images](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/extract-images/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Extract and catalog illustrations from historical books using AI vision. Generates rich metadata (subjects, figures, symbols, style, technique) and museum-style descriptions. Use when asked to extract images, run image detection, or process book illustrations. |
 | [glass-bead-game](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/glass-bead-game/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Run a Glass Bead Game session — a parlor game played against the Source Library corpus. Players connect verified passages from different books, times, and traditions into a growing string of 'beads,' with Claude as librarian, verifier, and scribe. Trigger when the user says 'glass bead game,' 'let's play beads,' or asks to start/resume/publish a game session. Claude runs the search-verify-display loop; humans do the noticing, choosing, and judging. |
