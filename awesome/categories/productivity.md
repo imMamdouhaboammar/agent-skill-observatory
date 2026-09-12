@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 284
+Published Skills: 285
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -257,6 +257,7 @@ Published Skills: 284
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |
 | [apple-notes](../skills/ComponentDock/free-react-templates/skills/apple/apple-notes/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Manage Apple Notes via memo CLI: create, search, edit. |
 | [apple-reminders](../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Apple Reminders via remindctl: add, list, complete. |
+| [claude-design](../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Design one-off HTML artifacts (landing, deck, prototype). |
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [findmy](../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Track Apple devices/AirTags via FindMy.app on macOS. |
 | [imessage](../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Send and receive iMessages/SMS via the imsg CLI on macOS. |

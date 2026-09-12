@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "cc4f31d3bf32885ce4f4e5440fa29ce9350483bc30c90bad9df45535da62f302",
+  "canonical_key": "componentdock/free-react-templates:skills/creative/claude-design",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "cc4f31d3bf32885ce4f4e5440fa29ce9350483bc30c90bad9df45535da62f302",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/creative/claude-design",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0629a1265ea75e5a013d2e53c858f98c283860dce4e863be66f77b7ef07eae57",
+    "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "documents",
+        "engineering",
+        "productivity",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/creative/claude-design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['design', 'html', 'prototype', 'ux', 'ui', 'creative', 'artifact', 'deck', 'motion', 'design-system'], 'related_skills': ['design-md', 'popular-web-designs', 'excalidraw', 'architecture-diagram']}"
+    },
+    "name": "claude-design",
+    "path": "skills/creative/claude-design",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "cacd0cba44af836782f761f3c5b48adb94d40dcdc5b7c5de39c0cdbcf39adcee",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "cacd0cba44af836782f761f3c5b48adb94d40dcdc5b7c5de39c0cdbcf39adcee"
+}

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **695**
+Published skills: **696**
 Repositories: **73**
 
 ## Browse repositories
@@ -604,6 +604,7 @@ Repositories: **73**
 - [codex](./skills/componentdock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) · `componentdock/free-react-templates:skills/autonomous-ai-agents/codex`
 - [opencode](./skills/componentdock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) · `componentdock/free-react-templates:skills/autonomous-ai-agents/opencode`
 - [architecture-diagram](./skills/componentdock/free-react-templates/skills/creative/architecture-diagram/README.md) · `componentdock/free-react-templates:skills/creative/architecture-diagram`
+- [claude-design](./skills/componentdock/free-react-templates/skills/creative/claude-design/README.md) · `componentdock/free-react-templates:skills/creative/claude-design`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`

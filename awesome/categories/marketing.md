@@ -1,6 +1,6 @@
 # marketing
 
-Published Skills: 35
+Published Skills: 36
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -38,4 +38,5 @@ Published Skills: 35
 | [defining-brand-strategy](../skills/jhonatan-oliveiradev/agent-skills/skills/defining-brand-strategy/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a new, repositioned, or inconsistent brand needs explicit audience, positioning, differentiation, personality, and decision criteria before naming, identity, or messaging work begins. |
 | [designing-visual-identities](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-visual-identities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand strategy needs a coherent visual identity system across multiple touchpoints, including marks, typography, color, imagery, graphic language, and responsive applications. |
 | [deslopify](../skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | De-slop pass for any text. Scans for the statistical fingerprints of AI writing (negative parallelism / "not X but Y", em-dash density, rule-of-three, false ranges, puffery vocabulary, uniform cadence, hedged both-sidesing), rewrites by meaning, then re-scans until the text is clean and sits in the right register for its genre: academic article, tweet, reddit post, email, blog, docs, marketing. Use when the user says "deslopify", "deslop", "de-slop this", "fuck slop", "f*ck slop", "remove the AI tells", "humanize this", "make this not sound like AI", or invokes /deslopify (or the old /fuck-slop name). Also use before publishing any agent-drafted prose. |
+| [claude-design](../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Design one-off HTML artifacts (landing, deck, prototype). |
 | [public-copy-release-guard](../skills/ChronoAIProject/nyx-skills/public-copy-release-guard/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Portable checklist for gating public-facing copy before release. Use when captions, posts, manifests, topics, titles, or launch copy must be checked for generic AI wording, leaked internal labels, forbidden experiment or tool names, platform topic allowlists, CTA spam, and unsupported overclaims. |
