@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 16
+Published Skills: 17
 Categories: ai-ml, commerce, content, data, design, devops, documentation, engineering, finance, integrations, legal-compliance, media, product, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=16, 60-84=0, <60=0
+Security distribution: 85+=17, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -25,3 +25,4 @@ Security distribution: 85+=16, 60-84=0, <60=0
 | [speckit-git-feature](../../skills/cloudposse/atmos/.claude/skills/speckit-git-feature/README.md) | `.claude/skills/speckit-git-feature` | 100 | 100 | commerce, engineering, productivity |
 | [speckit-git-initialize](../../skills/cloudposse/atmos/.claude/skills/speckit-git-initialize/README.md) | `.claude/skills/speckit-git-initialize` | 100 | 100 | engineering |
 | [speckit-git-remote](../../skills/cloudposse/atmos/.claude/skills/speckit-git-remote/README.md) | `.claude/skills/speckit-git-remote` | 100 | 100 | engineering, integrations |
+| [speckit-git-validate](../../skills/cloudposse/atmos/.claude/skills/speckit-git-validate/README.md) | `.claude/skills/speckit-git-validate` | 100 | 100 | engineering |
