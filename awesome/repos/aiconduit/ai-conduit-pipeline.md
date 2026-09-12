@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 11
+Published Skills: 12
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [d3-viz](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/d3-viz/README.md) | `.agents/skills/d3-viz` | 100 | 100 | commerce, content, data, design, engineering, integrations |
 | [dashscope](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/dashscope/README.md) | `.agents/skills/dashscope` | 100 | 100 | ai-ml, content, data, devops, integrations, media |
 | [doubao-tts](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/doubao-tts/README.md) | `.agents/skills/doubao-tts` | 100 | 100 | content, engineering, media, productivity, research, security |
+| [faceswap](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/faceswap/README.md) | `.agents/skills/faceswap` | 100 | 100 | content, data, documents, engineering, media, research |
