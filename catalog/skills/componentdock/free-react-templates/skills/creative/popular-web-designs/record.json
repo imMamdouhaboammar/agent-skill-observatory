@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "1cd1ec4ca8f52122727bbde54afebe7352cd59ad2d00f21e8a52da069b421e24",
+  "canonical_key": "componentdock/free-react-templates:skills/creative/popular-web-designs",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1cd1ec4ca8f52122727bbde54afebe7352cd59ad2d00f21e8a52da069b421e24",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/creative/popular-web-designs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c05d4a33eb909807e8da371162349013d460a146e3138e5e7e85bc54c8c1957b",
+    "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "media",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/creative/popular-web-designs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "popular-web-designs",
+    "path": "skills/creative/popular-web-designs",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a797cbcf38843395d7a1bd13c4651b16b33451ea8d7d83e96e43e15262491ea1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "a797cbcf38843395d7a1bd13c4651b16b33451ea8d7d83e96e43e15262491ea1"
+}

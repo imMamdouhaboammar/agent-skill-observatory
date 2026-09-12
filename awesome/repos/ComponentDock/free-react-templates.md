@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 17
+Published Skills: 18
 Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=17, 60-84=0, <60=0
+Security distribution: 85+=18, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -26,3 +26,4 @@ Security distribution: 85+=17, 60-84=0, <60=0
 | [humanizer](../../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | `skills/creative/humanizer` | 97 | 100 | commerce, content, documentation, engineering, productivity, research |
 | [imessage](../../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | `skills/apple/imessage` | 97 | 100 | content, legal-compliance, media, productivity, security |
 | [opencode](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | `skills/autonomous-ai-agents/opencode` | 97 | 100 | content, data, engineering, integrations, productivity, testing |
+| [popular-web-designs](../../skills/ComponentDock/free-react-templates/skills/creative/popular-web-designs/README.md) | `skills/creative/popular-web-designs` | 97 | 100 | content, design, engineering, marketing, media, productivity |
