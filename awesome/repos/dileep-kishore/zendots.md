@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dileep-kishore/zendots](https://github.com/dileep-kishore/zendots)
 
-Published Skills: 15
+Published Skills: 16
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,3 +24,4 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [iterative-retrieval](../../skills/dileep-kishore/zendots/dot_agents/skills/iterative-retrieval/README.md) | `dot_agents/skills/iterative-retrieval` | 100 | 100 | agent-orchestration, ai-ml, content, education, engineering, hr-recruiting |
 | [open-pr](../../skills/dileep-kishore/zendots/dot_agents/skills/open-pr/README.md) | `dot_agents/skills/open-pr` | 100 | 100 | commerce, content, documentation, engineering, finance, testing |
 | [orca-cli](../../skills/dileep-kishore/zendots/dot_agents/skills/orca-cli/README.md) | `dot_agents/skills/orca-cli` | 100 | 100 | browser-automation, commerce, design, engineering, productivity, testing |
+| [orca-linear](../../skills/dileep-kishore/zendots/dot_agents/skills/orca-linear/README.md) | `dot_agents/skills/orca-linear` | 100 | 100 | commerce, data, productivity |
