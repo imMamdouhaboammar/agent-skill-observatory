@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "c06d191e102bfcbe2f20eb6dfd9bd9a446b5ec0ac0984d7a472d6dd184f9f84a",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/mcp-connectors",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c06d191e102bfcbe2f20eb6dfd9bd9a446b5ec0ac0984d7a472d6dd184f9f84a",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/mcp-connectors",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "290cede32b9a9704ac495300790439b2ae3cd7cc722962ba667c732559c6827c",
+    "description": "Use product connectors (MCP under the hood) and auth gateways without stuffing every action schema into context.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "integrations",
+        "product",
+        "security",
+        "design",
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/home/skills/mcp-connectors/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "mcp-connectors",
+    "path": "core/resource/home/skills/mcp-connectors",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "28ceb4c02f732634fc36e978acc0e7140f3fe1009e8c12ee24d40a506bc5160b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "28ceb4c02f732634fc36e978acc0e7140f3fe1009e8c12ee24d40a506bc5160b"
+}
