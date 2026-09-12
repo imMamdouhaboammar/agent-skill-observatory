@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **835**
+Published skills: **836**
 Repositories: **91**
 
 ## Browse repositories
@@ -791,6 +791,7 @@ Repositories: **91**
 - [cache-guardian](./skills/dpatel-93/alfred/skills/cache-guardian/README.md) · `dpatel-93/alfred:skills/cache-guardian`
 - [cafe](./skills/dpatel-93/alfred/skills/cafe/README.md) · `dpatel-93/alfred:skills/cafe`
 - [claude](./skills/dpatel-93/alfred/skills/claude/README.md) · `dpatel-93/alfred:skills/claude`
+- [claymorphism](./skills/dpatel-93/alfred/skills/claymorphism/README.md) · `dpatel-93/alfred:skills/claymorphism`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`
