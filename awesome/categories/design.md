@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 305
+Published Skills: 306
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -136,6 +136,7 @@ Published Skills: 305
 | [sf-integration-rules](../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 100 | 100 | 3 | Integration grammar router — invoke when adding a backend module, a frontend page, an API endpoint, a React Query hook, a form, an RBAC permission, or any cross-cutting wire-up in a SaaSFoundryAI-generated project. Triggers on phrases like "add a module", "add a page", "wire RBAC", "add a hook", "add a form", "add an endpoint", "add a Prisma model", "add an entity", "scaffold a CRUD", "create a controller". |
 | [agentic](../skills/dpatel-93/alfred/skills/agentic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Conversational AI-first interface with minimal controls, clear outcomes, and delegated task flows for agentic workflows. |
 | [ant](../skills/dpatel-93/alfred/skills/ant/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Structured, enterprise-focused design system emphasizing clarity, consistency, and efficiency for data-dense web applications. |
+| [artistic](../skills/dpatel-93/alfred/skills/artistic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-contrast, expressive style with creative typography and bold color choices for visually striking interfaces. |
 | [assemble](../skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Compose a task-specific agent, or a small organ of agents, at the moment of need — with an explicit role, scope, named skills, a done-test and an evidence tier — instead of routing to a standing agent definition. Use when a task needs delegating but no chartered agent fits cleanly, when the work spans two surfaces that no single owner covers, when a one-off specialty is needed that does not deserve a permanent charter, or when the operator says "spin up an agent for this". Do NOT use when a chartered agent already owns the surface — route to that owner instead. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
