@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **531**
+Published skills: **532**
 Repositories: **61**
 
 ## Browse repositories
@@ -364,6 +364,7 @@ Repositories: **61**
 - [google-workspace](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/google-workspace/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/google-workspace`
 - [humanizer](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer`
 - [memory-insights](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights`
+- [multi-model-router](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`

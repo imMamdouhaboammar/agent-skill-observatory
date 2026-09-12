@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "36661ebfe9648039cfc70129a25d8bfb9c7acd9850407d2fde07e6b5c22d14f3",
+  "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "36661ebfe9648039cfc70129a25d8bfb9c7acd9850407d2fde07e6b5c22d14f3",
+    "archived": false,
+    "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4c3543c7394a7b965467f8cdf5d086a7f2fe466c582cfdcd2f14fe99f00b3292",
+    "description": "多模型智能路由 - 根据任务复杂度评分选择最优模型，平衡成本与质量",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 6,
+    "indexed_at": "2026-09-12T01:38:39.359809Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:38:39.359809Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "multi-model-router",
+    "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router",
+    "pushed_at": "2026-09-12T01:31:09Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chainlesschain/chainlesschain",
+    "repo_url": "https://github.com/chainlesschain/chainlesschain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 41,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c48b85a26f7726bd75e20e756b9e8d6f9ddf37bce2e8edc0962c1fe5b5200219",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "c48b85a26f7726bd75e20e756b9e8d6f9ddf37bce2e8edc0962c1fe5b5200219"
+}

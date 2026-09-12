@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain)
 
-Published Skills: 19
+Published Skills: 20
 Categories: browser-automation, business, commerce, content, data, design, devops, documentation, documents, engineering, integrations, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=19, 60-84=0, <60=0
+Security distribution: 85+=20, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -28,3 +28,4 @@ Security distribution: 85+=19, 60-84=0, <60=0
 | [memory-insights](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights` | 100 | 100 | data |
 | [changelog-generator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator` | 97 | 100 | documentation, engineering, testing |
 | [code-translator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator` | 97 | 100 | engineering |
+| [multi-model-router](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router` | 97 | 100 | engineering |
