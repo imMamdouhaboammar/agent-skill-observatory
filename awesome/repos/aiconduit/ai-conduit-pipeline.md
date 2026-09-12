@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 30
+Published Skills: 31
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=30, 60-84=0, <60=0
+Security distribution: 85+=31, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -39,3 +39,4 @@ Security distribution: 85+=30, 60-84=0, <60=0
 | [lottie-bodymovin](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/lottie-bodymovin/README.md) | `.agents/skills/lottie-bodymovin` | 100 | 100 | data, design |
 | [ltx2](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ltx2/README.md) | `.agents/skills/ltx2` | 100 | 100 | content, data, design, devops, documents, media |
 | [manim-composer](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/manim-composer/README.md) | `.agents/skills/manim-composer` | 100 | 100 | commerce, content, design, engineering, media, research |
+| [manimce-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/manimce-best-practices/README.md) | `.agents/skills/manimce-best-practices` | 100 | 100 | content, design, documentation, engineering, media |
