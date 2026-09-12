@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "b5abe7de6a22e08eecae6e96212e9dcda314f0f57a6371ddb877f1639e272a87",
+  "canonical_key": "componentdock/free-react-templates:skills/apple/apple-reminders",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b5abe7de6a22e08eecae6e96212e9dcda314f0f57a6371ddb877f1639e272a87",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/apple/apple-reminders",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a71eb07dccb1d1b39d65ae86e3e68bf80787f6a40ba5eb4427a02f47b6d7bdc8",
+    "description": "Apple Reminders via remindctl: add, list, complete.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "content",
+        "design",
+        "documentation",
+        "mobile",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/apple/apple-reminders/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['Reminders', 'tasks', 'todo', 'macOS', 'Apple']}"
+    },
+    "name": "apple-reminders",
+    "path": "skills/apple/apple-reminders",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "85563c7c71518184135cdfe81b489e9ac054e5cfa9cec882383e99cb4977569d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "85563c7c71518184135cdfe81b489e9ac054e5cfa9cec882383e99cb4977569d"
+}
