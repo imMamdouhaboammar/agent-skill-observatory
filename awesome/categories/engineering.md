@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 351
+Published Skills: 352
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -298,6 +298,7 @@ Published Skills: 351
 | [last-20-percent](../skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Finds and finishes the last 20% of a built solution — the experiential layer agents skip: what the output actually reads like, which pages or screens should exist, first-run and empty states, opinionated defaults, the golden path. Use when the user explicitly asks to plan or audit the experiential layer, or says "last 20%", "finish this", "make it actually good", "is this actually done", or "why does this feel flat". Do not invoke automatically for ordinary builds or completion checks. |
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |
 | [skills-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/skills-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: SKILL.md の構成規約（種別の選び方・段階開示・文体）と、知識型・コマンド型それぞれのリファレンスとコピー用スケルトン。 Use when: スキルを新規作成するとき、既存の SKILL.md をレビュー・再構成・編集するとき。 |
+| [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |
 | [update-api-docs](../skills/DexForce/EmbodiChain/.claude/skills/update-api-docs/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain update-api-docs skill. |

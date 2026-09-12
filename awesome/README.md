@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **465**
+Published skills: **466**
 Repositories: **55**
 
 ## Browse repositories
@@ -274,6 +274,7 @@ Repositories: **55**
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
 - [last-20-percent](./skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) · `bossmiizlol/ai-workflow:skills/shared/last-20-percent`
+- [test-driven-development](./skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) · `bossmiizlol/ai-workflow:skills/shared/test-driven-development`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
 - [oculpm-journal](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/oculpm-journal/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/oculpm-journal`
 - [project-inception](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/project-inception/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/project-inception`

@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 153
+Published Skills: 154
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -151,6 +151,7 @@ Published Skills: 153
 | [grill-me](../skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Calibrated grilling session for stress-testing a plan, design, idea, or decision. First assesses the user's topic knowledge, confidence, and desired pressure level, then asks one question at a time with recommended answers. Use when user says "grill me", "stress-test this", "challenge my plan", "interview me", or wants a plan probed without being overwhelmed. For document-backed review, use the domain reference. |
 | [housekeep](../skills/Hoshock/HolodoriOptimizer/.claude/skills/housekeep/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | このリポジトリのドキュメントを棚卸しする — docs/ai/tmp/rules.md のルール候補を恒久の置き場へ昇格し、陳腐化したルール・CLAUDE.md・README のドリフトを直し、揮発性ドキュメントを整理し、コンパクション地点のログを残す。ユーザーが棚卸し（housekeep）を指示したときに使う。 |
 | [induction](../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: ユーザーのフィードバックを分類し、ルール候補として docs/ai/tmp/rules.md に記録する手順を定める。 Use when: ユーザーがフィードバック・訂正・好みを示したとき(口頭でもファイルの直接編集でも)。記録を求められていなくても適用する。 |
+| [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [update-api-docs](../skills/DexForce/EmbodiChain/.claude/skills/update-api-docs/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain update-api-docs skill. |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |

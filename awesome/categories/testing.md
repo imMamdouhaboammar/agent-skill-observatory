@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 84
+Published Skills: 85
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -83,6 +83,7 @@ Published Skills: 84
 | [claude-md-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: CLAUDE.md の基準 — エージェント向けの索引として何を載せ、何をどこへ逃がすかの判定（One Test・Include/Exclude 表・振り分け表）。 Use when: CLAUDE.md を書く・追記する・削る・監査するとき、またはある指示の置き場が CLAUDE.md かスキルかルールかフックかで迷ったとき。 |
 | [grill-me](../skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Calibrated grilling session for stress-testing a plan, design, idea, or decision. First assesses the user's topic knowledge, confidence, and desired pressure level, then asks one question at a time with recommended answers. Use when user says "grill me", "stress-test this", "challenge my plan", "interview me", or wants a plan probed without being overwhelmed. For document-backed review, use the domain reference. |
 | [housekeep](../skills/Hoshock/HolodoriOptimizer/.claude/skills/housekeep/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | このリポジトリのドキュメントを棚卸しする — docs/ai/tmp/rules.md のルール候補を恒久の置き場へ昇格し、陳腐化したルール・CLAUDE.md・README のドリフトを直し、揮発性ドキュメントを整理し、コンパクション地点のログを残す。ユーザーが棚卸し（housekeep）を指示したときに使う。 |
+| [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [atm-residue-cleanup](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 97 | 100 | 3 | Diagnose and safely reconcile operation-owned transient ATM residue. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
