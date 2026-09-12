@@ -1,6 +1,6 @@
 # documents
 
-Published Skills: 19
+Published Skills: 20
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -14,6 +14,7 @@ Published Skills: 19
 | [reachability](../skills/alpha-omega-security/scrutineer/skills/reachability/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Check whether known sinks in this application's dependencies are reachable from its own trust boundaries. Scrutineer already holds findings against the libraries this app uses; this skill traces each one from the app's entry points to the library call and reports the ones an attacker can reach. Use on applications (Gemfile.lock / package-lock.json present), not on libraries. |
 | [curator](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/curator/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition. |
 | [content-publisher](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | AI-powered content generation and multi-platform publishing - create infographics, slide decks, cover images, comics, and format content for social platforms |
+| [rightstack](../skills/aaronjmars/aeon-agent/skills/rightstack/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Use RightStack as a read-only Web3 stack advisor for architecture recommendations, workflow inspection, tool comparisons, and package-migration checks. Use for planning; do not treat corpus output as implementation proof. |
 | [summarizer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/summarizer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Summarize URLs, PDFs, YouTube videos, and text content - extract key points and generate concise summaries |
 | [feishu](../skills/chnlich/charlie-bot/skills/feishu/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Feishu/Lark documents, search docs in their Feishu workspace, or fetch content from a Feishu wiki or docx URL. |
 | [linear](../skills/chnlich/charlie-bot/skills/linear/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, update, or search Linear issues, projects, cycles, or teams. |

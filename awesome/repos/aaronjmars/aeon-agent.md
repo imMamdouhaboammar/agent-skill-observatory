@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 21
-Categories: agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, localization, marketing, media, product, productivity, project-management, research, security
+Published Skills: 22
+Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, localization, marketing, media, product, productivity, project-management, research, security
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -30,3 +30,4 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [operator-scorecard](../../skills/aaronjmars/aeon-agent/skills/operator-scorecard/README.md) | `skills/operator-scorecard` | 100 | 100 | commerce, content, data, design, devops, engineering |
 | [picks-tracker](../../skills/aaronjmars/aeon-agent/skills/picks-tracker/README.md) | `skills/picks-tracker` | 100 | 100 | content, engineering, finance, media, productivity, security |
 | [pm-manipulation](../../skills/aaronjmars/aeon-agent/skills/pm-manipulation/README.md) | `skills/pm-manipulation` | 100 | 100 | commerce, content, data, hr-recruiting, localization, research |
+| [rightstack](../../skills/aaronjmars/aeon-agent/skills/rightstack/README.md) | `skills/rightstack` | 100 | 100 | browser-automation, devops, documentation, documents, engineering, productivity |

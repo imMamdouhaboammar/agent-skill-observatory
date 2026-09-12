@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 149
+Published Skills: 150
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -81,6 +81,7 @@ Published Skills: 149
 | [github-trending](../skills/aaronjmars/aeon-agent/skills/github-trending/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Curated trending across GitHub repos and the Hugging Face Hub (models, datasets, spaces) - filtered, clustered, and labeled by momentum with a one-line why-notable per pick. |
 | [investigation-report](../skills/aaronjmars/aeon-agent/skills/investigation-report/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | One-shot Base-token investigation - runs any subset of six onchain-security checks (rug-scan, contract-audit, deployer-trace, holder-concentration, honeypot, lp-lock) into one verdict. Keyless core. |
 | [operator-scorecard](../skills/aaronjmars/aeon-agent/skills/operator-scorecard/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Three recap modes - default synthesizes agent health, community growth, and economic activity into a was-it-worth-it verdict; ops recaps what shipped and failed; push ranks push impact. |
+| [rightstack](../skills/aaronjmars/aeon-agent/skills/rightstack/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Use RightStack as a read-only Web3 stack advisor for architecture recommendations, workflow inspection, tool comparisons, and package-migration checks. Use for planning; do not treat corpus output as implementation proof. |
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |
 | [terraform-iac](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/terraform-iac/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Terraform and OpenTofu infrastructure as code best practices - generate HCL configurations, module patterns, state management, CI/CD workflows, and cloud provider templates for AWS, GCP, Azure |
 | [create-website](../skills/markmhendrickson/ateles/.claude/skills/create-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new website as a git submodule in execution/website. Use when user says "create new website" or "add website for [domain/name]". Can be invoked via /create-website. |

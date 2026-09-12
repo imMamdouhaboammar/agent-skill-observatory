@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 268
+Published Skills: 269
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -115,6 +115,7 @@ Published Skills: 268
 | [notion](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace |
 | [obsidian](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Obsidian vault operations - create notes, search vault, manage tags, link notes, and sync with Obsidian markdown files |
 | [picks-tracker](../skills/aaronjmars/aeon-agent/skills/picks-tracker/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Retrospective on past token and prediction market picks - what hit, what flopped, what the score is |
+| [rightstack](../skills/aaronjmars/aeon-agent/skills/rightstack/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Use RightStack as a read-only Web3 stack advisor for architecture recommendations, workflow inspection, tool comparisons, and package-migration checks. Use for planning; do not treat corpus output as implementation proof. |
 | [skill-creator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/skill-creator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Propose, test, validate, and improve Skill candidates without changing active files - generate reviewable SKILL.md and handler.js drafts, run test evaluations, and optimize descriptions for better triggering |
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |
 | [ultrathink](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/ultrathink/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Activate extended thinking mode for complex problems - deep reasoning, chain-of-thought decomposition, multi-step analysis, and thorough exploration before answering |

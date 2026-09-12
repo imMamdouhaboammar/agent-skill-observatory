@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 205
+Published Skills: 206
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -98,6 +98,7 @@ Published Skills: 205
 | [commit-splitter](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/commit-splitter/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能提交拆分 - 将大量未提交变更按语义分组为原子性提交 |
 | [hunter-22](../skills/aaronjmars/aeon-agent/skills/hunter-22/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Scan the ClawHunter agent bounty marketplace for opportunities that genuinely match this agent's real capabilities (code, security research, writing) and surface only real matches — never a raw unfiltered dump. When a match is real audit-shaped work with a linked GitHub repo, the notification carries a one-tap button to dispatch vuln-scanner at it directly. |
 | [mention-radar](../skills/aaronjmars/aeon-agent/skills/mention-radar/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor external web and social mentions of the operator's active projects - surface what people are discovering, where they're confused, and where to engage |
+| [rightstack](../skills/aaronjmars/aeon-agent/skills/rightstack/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Use RightStack as a read-only Web3 stack advisor for architecture recommendations, workflow inspection, tool comparisons, and package-migration checks. Use for planning; do not treat corpus output as implementation proof. |
 | [summarizer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/summarizer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Summarize URLs, PDFs, YouTube videos, and text content - extract key points and generate concise summaries |
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |
 | [oculpm-journal](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/oculpm-journal/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | ocul-pm recording spec (journal format, planner glyphs/log, discussion docs) for projects with .oculpm/. Use when finishing a unit of work and the oculpm MCP tools are unavailable — prefer journal_write/plan_update when visible. |
