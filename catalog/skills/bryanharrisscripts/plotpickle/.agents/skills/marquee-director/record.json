@@ -1,0 +1,104 @@
+{
+  "analysis_fingerprint": "2c293e5d77552e2c0af63cd97ff272af565c6341da2d206b4aac078e51b7ebd9",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/marquee-director",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2c293e5d77552e2c0af63cd97ff272af565c6341da2d206b4aac078e51b7ebd9",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/marquee-director",
+    "compatibility": "PlotPickle LEARN Creative Room; Mastra visual-director role; provider capabilities and PPF writes remain host-granted.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "3dadff1c42f8ca43e428c329442db0aabb94c51e4433c097f00f0182fb6ce072",
+    "description": "Act as PlotPickle's private Key Art & Trailer Director after Foundations, using a narrow PPF-derived Marketing Context while the host controls generation and Marketing Reference storage.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "marketing",
+        "devops",
+        "localization",
+        "productivity",
+        "research",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/marquee-director/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "owner": "plotpickle",
+      "role": "visual-director",
+      "version": "3"
+    },
+    "name": "marquee-director",
+    "path": ".agents/skills/marquee-director",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3dbb16d6b214f58eabd961844ed47fbae6c40261d638ff1e7fa0f9c8c1162491",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "3dbb16d6b214f58eabd961844ed47fbae6c40261d638ff1e7fa0f9c8c1162491"
+}

@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle)
 
-Published Skills: 7
-Categories: commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, legal-compliance, media, product, productivity, research, security, testing
+Published Skills: 8
+Categories: commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=7, 60-84=0, <60=0
+Security distribution: 85+=8, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -16,3 +16,4 @@ Security distribution: 85+=7, 60-84=0, <60=0
 | [diagnosis](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/diagnosis/README.md) | `.agents/skills/diagnosis` | 100 | 100 | commerce, design, engineering, product, research, testing |
 | [engineering-discipline](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/engineering-discipline/README.md) | `.agents/skills/engineering-discipline` | 100 | 100 | data, engineering, productivity, research, security, testing |
 | [lazy-frames-animatic](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/lazy-frames-animatic/README.md) | `.agents/skills/lazy-frames-animatic` | 100 | 100 | data, design, devops, media, productivity, research |
+| [marquee-director](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/marquee-director/README.md) | `.agents/skills/marquee-director` | 100 | 100 | design, devops, localization, marketing, productivity, research |
