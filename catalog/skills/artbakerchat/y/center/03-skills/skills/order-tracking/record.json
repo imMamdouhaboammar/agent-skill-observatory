@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "1b0b4aab0aaf5a3b1c1531c9efe99494969de4f2e010ab2243c252ce3bea2d3f",
+  "canonical_key": "artbakerchat/y:center/03-skills/skills/order-tracking",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1b0b4aab0aaf5a3b1c1531c9efe99494969de4f2e010ab2243c252ce3bea2d3f",
+    "archived": false,
+    "canonical_key": "artbakerchat/y:center/03-skills/skills/order-tracking",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b5ed99d046dbb0d2b316d07c678671f3dde80983468023531d73672a8f91c88d",
+    "description": "Help customers check the status of their orders, understand delivery timelines, and escalate delayed shipments.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/artbakerchat/Y/blob/main/center/03-skills/skills/order-tracking/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:06:48.908824Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:48.908824Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "order-tracking",
+    "path": "center/03-skills/skills/order-tracking",
+    "pushed_at": "2026-09-12T17:04:36Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "artbakerchat/Y",
+    "repo_url": "https://github.com/artbakerchat/Y",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a40c7f24b00de87cccf6bcb67b98dba8499fd22fc12ff7eaa6df05bd2a7dad73",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "a40c7f24b00de87cccf6bcb67b98dba8499fd22fc12ff7eaa6df05bd2a7dad73"
+}
