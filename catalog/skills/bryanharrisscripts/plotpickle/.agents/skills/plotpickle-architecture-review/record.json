@@ -1,0 +1,104 @@
+{
+  "analysis_fingerprint": "4eb31f8e5d71b6f99a0ecb8d09b336be37fe5d332e58c7e7efed661e90d64144",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/plotpickle-architecture-review",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "4eb31f8e5d71b6f99a0ecb8d09b336be37fe5d332e58c7e7efed661e90d64144",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/plotpickle-architecture-review",
+    "compatibility": "PlotPickle repository; read-only Pi/Cline reviewer contexts.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "446f50c28829d7e8d01ea8116755e0a003095477af8dd836c804a0ca51a50321",
+    "description": "Scout PlotPickle architecture before non-trivial changes and independently review an exact diff/head against architecture, engineering standards, and the originating spec.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "security",
+        "content",
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/plotpickle-architecture-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "owner": "plotpickle",
+      "role": "architecture-review",
+      "version": "1"
+    },
+    "name": "plotpickle-architecture-review",
+    "path": ".agents/skills/plotpickle-architecture-review",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b00adb0797690cabd099522d8c7867aa8b7999ce459125fc87b1ba82e8e73ba2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "b00adb0797690cabd099522d8c7867aa8b7999ce459125fc87b1ba82e8e73ba2"
+}
