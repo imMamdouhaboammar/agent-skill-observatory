@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **561**
+Published skills: **562**
 Repositories: **63**
 
 ## Browse repositories
@@ -365,6 +365,7 @@ Repositories: **63**
 - [systematic-literature-review](./skills/bytedance/deer-flow/skills/public/systematic-literature-review/README.md) · `bytedance/deer-flow:skills/public/systematic-literature-review`
 - [web-design-guidelines](./skills/bytedance/deer-flow/skills/public/web-design-guidelines/README.md) · `bytedance/deer-flow:skills/public/web-design-guidelines`
 - [semantic-compression](./skills/can1357/oh-my-pi/.omp/skills/semantic-compression/README.md) · `can1357/oh-my-pi:.omp/skills/semantic-compression`
+- [system-prompts](./skills/can1357/oh-my-pi/.omp/skills/system-prompts/README.md) · `can1357/oh-my-pi:.omp/skills/system-prompts`
 - [agent-browser](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser`
 - [api-gateway](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway`
 - [architect-mode](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode`
