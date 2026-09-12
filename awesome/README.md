@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **466**
-Repositories: **55**
+Published skills: **467**
+Repositories: **56**
 
 ## Browse repositories
 
@@ -33,6 +33,7 @@ Repositories: **55**
 - [atomantic/PortOS](./repos/atomantic/PortOS.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [bossmiizlol/ai-workflow](./repos/bossmiizlol/ai-workflow.md)
+- [buildd-ai/buildd](./repos/buildd-ai/buildd.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [bytedance/deer-flow](./repos/bytedance/deer-flow.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
@@ -275,6 +276,7 @@ Repositories: **55**
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
 - [last-20-percent](./skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) · `bossmiizlol/ai-workflow:skills/shared/last-20-percent`
 - [test-driven-development](./skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) · `bossmiizlol/ai-workflow:skills/shared/test-driven-development`
+- [buildd-mcp-consumer](./skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) · `buildd-ai/buildd:.claude/skills/buildd-mcp-consumer`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
 - [oculpm-journal](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/oculpm-journal/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/oculpm-journal`
 - [project-inception](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/project-inception/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/project-inception`

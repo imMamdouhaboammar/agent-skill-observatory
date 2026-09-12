@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "956aa1f3e640cb047786ae2f67c5e63f8f3fee50c665f7173bc079519e8ab95d",
+  "canonical_key": "buildd-ai/buildd:.claude/skills/buildd-mcp-consumer",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "956aa1f3e640cb047786ae2f67c5e63f8f3fee50c665f7173bc079519e8ab95d",
+    "archived": false,
+    "canonical_key": "buildd-ai/buildd:.claude/skills/buildd-mcp-consumer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "826216b1b729f49d22637bd9219c015ea5f8667bf22694849f73038637749ffd",
+    "description": "Use whenever the buildd MCP tools (`buildd`, `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "integrations",
+        "productivity",
+        "security",
+        "design",
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/buildd-ai/buildd/blob/dev/.claude/skills/buildd-mcp-consumer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:35:36.795026Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:36.795026Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "buildd-mcp-consumer",
+    "path": ".claude/skills/buildd-mcp-consumer",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "dev",
+    "repo_full_name": "buildd-ai/buildd",
+    "repo_url": "https://github.com/buildd-ai/buildd",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "144d06cb5c0bc17a52d0ea405f21c3e150b862bade844cb920c376a372a6e3a3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "144d06cb5c0bc17a52d0ea405f21c3e150b862bade844cb920c376a372a6e3a3"
+}
