@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **769**
-Repositories: **81**
+Published skills: **770**
+Repositories: **82**
 
 ## Browse repositories
 
@@ -68,6 +68,7 @@ Repositories: **81**
 - [danmo-ai/danmo-work](./repos/danmo-ai/danmo-work.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [digitallyinduced/haskell-agent](./repos/digitallyinduced/haskell-agent.md)
+- [dpatel-93/alfred](./repos/dpatel-93/alfred.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
 - [flext-sh/flext-dbt-ldap](./repos/flext-sh/flext-dbt-ldap.md)
@@ -715,6 +716,7 @@ Repositories: **81**
 - [wait-for-ci](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/wait-for-ci/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/wait-for-ci`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
+- [assemble](./skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) · `dpatel-93/alfred:_archive/2026-08-14-icm/skills/assemble`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`
