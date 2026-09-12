@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 144
+Published Skills: 145
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -120,6 +120,7 @@ Published Skills: 144
 | [verification-loop](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/verification-loop/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | A comprehensive verification system for Claude Code sessions. Use when verifying a Claude Code session's work before claiming it is complete. |
 | [account-troubleshooting](../skills/artbakerchat/Y/center/03-skills/skills/account-troubleshooting/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 | Guide for helping customers with account issues including password resets, identity verification, and account updates. |
 | [apple-web-design](../skills/hoonex/sloar-chat-coder/.agents/skills/apple-web-design/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Build or review web interfaces that need Apple-style direct manipulation, interruptible gesture motion, velocity-aware settling, restrained translucent materials, deliberate state-transition craft, responsive typography, and motion/transparency accessibility. Use only when the target repository or user asks for this interaction language; target-repository engineering and visual rules always win. |
+| [convoy](../skills/Deploy-Forward/convoy/plugins/convoy/skills/convoy/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Coordinate multiple AI coding harnesses on one Convoy thread using only the configured Convoy MCP server's live capabilities. Use for guided setup, neuron discovery, crew launch, routing, and acknowledgement checks. |
 | [doubao-tts](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/doubao-tts/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate Mandarin and multilingual narration with Volcengine Doubao Speech 2.0. Use when creating Chinese voiceovers, when the user prefers Doubao/Volcengine/火山引擎/豆包 TTS, or when narration needs character-level timestamp metadata for subtitles. |
 | [google-routes](../skills/Command1264/agent-skills/skills/google-routes/README.md) | [Command1264/agent-skills](https://github.com/Command1264/agent-skills) | 100 | 100 | 0 | 使用 Google Routes API 查詢明確起點、終點與未來出發時間的汽車或機車路線，並輸出穩定、最小化的結構化結果。當使用者需要單筆或批次 Route API 查詢、交通時間、距離、交通感知預測，或其他 Skill 需要路線查詢能力時使用；需要工作日展開、住家公司設定、平均通勤或公司排序時改用 commute-analyzer。 |
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |

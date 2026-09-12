@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 582
+Published Skills: 583
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -405,6 +405,7 @@ Published Skills: 582
 | [comfyui](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/comfyui/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Use when working with ComfyUI workflows in OpenMontage, including comfyui_image/comfyui_video, custom workflow_json/workflow_path inputs, output_node selection, missing model setup, LoRAs, low-VRAM workflow choices, and community workflow imports. |
 | [context-resets-ko](../skills/andyko18/specops-ko/skills/context-resets-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 각 Lifecycle 커맨드 종료 시 세션 컨텍스트를 리셋하고 session-progress.md에서만 맥락을 재주입한다 |
 | [convoy](../skills/Deploy-Forward/convoy/plugin/convoy/skills/convoy/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | /convoy orchestrates Convoy using live tools/list, never a frozen catalog. |
+| [convoy](../skills/Deploy-Forward/convoy/plugins/convoy/skills/convoy/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Coordinate multiple AI coding harnesses on one Convoy thread using only the configured Convoy MCP server's live capabilities. Use for guided setup, neuron discovery, crew launch, routing, and acknowledgement checks. |
 | [convoy-wizard](../skills/Deploy-Forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Optional @convoy wizard: fail-closed live-tool preflight, then ONE card (harness -> model -> effort \| attach, usage remaining per harness) that drives GitHub gate, repo selection, N neurons, one-window launch and observed connects. |
 | [d3-viz](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/d3-viz/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment. |
 | [dev-orchestrator](../skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | 项目负责人技能：掌控开发节奏、制定开发计划，把任务拆分后派发给多个子会话/subagent 执行，验收汇总并管理会话流转与归档、裁决分歧。Use when acting as the project lead or orchestrator — planning multi-session development, writing task briefs and dispatching them to subagents or separate sessions, coordinating parallel worktree work, adjudicating disagreements, integrating and verifying on the main branch. 不适用于子会话内部的具体编码、调试或评审执行本身。 |
