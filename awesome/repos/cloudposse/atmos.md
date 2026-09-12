@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 38
+Published Skills: 39
 Categories: ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=38, 60-84=0, <60=0
+Security distribution: 85+=39, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -27,6 +27,7 @@ Security distribution: 85+=38, 60-84=0, <60=0
 | [atmos-stores](../../skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) | `agent-skills/skills/atmos-stores` | 100 | 100 | data, devops, engineering, integrations, productivity, security |
 | [atmos-templates](../../skills/cloudposse/atmos/agent-skills/skills/atmos-templates/README.md) | `agent-skills/skills/atmos-templates` | 100 | 100 | commerce, data, devops, engineering, security, testing |
 | [atmos-terraform-state-migrations](../../skills/cloudposse/atmos/agent-skills/skills/atmos-terraform-state-migrations/README.md) | `agent-skills/skills/atmos-terraform-state-migrations` | 100 | 100 | commerce, content, devops, engineering, productivity, research |
+| [atmos-validation](../../skills/cloudposse/atmos/agent-skills/skills/atmos-validation/README.md) | `agent-skills/skills/atmos-validation` | 100 | 100 | commerce, devops, engineering, legal-compliance, media, testing |
 | [changelog](../../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | `.claude/skills/changelog` | 100 | 100 | ai-ml, content, documentation, engineering, product, productivity |
 | [component-development](../../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | `.claude/skills/component-development` | 100 | 100 | commerce, devops, documentation, engineering, integrations, research |
 | [docs](../../skills/cloudposse/atmos/.claude/skills/docs/README.md) | `.claude/skills/docs` | 100 | 100 | commerce, content, devops, documentation, engineering, product |

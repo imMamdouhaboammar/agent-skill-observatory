@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 462
+Published Skills: 463
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -81,6 +81,7 @@ Published Skills: 462
 | [atmos-stores](../skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Store backends: AWS SSM, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, Redis, Artifactory configuration, hooks integration, cross-component data sharing, atmos store CLI CRUD, type: store workflow step |
 | [atmos-templates](../skills/cloudposse/atmos/agent-skills/skills/atmos-templates/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Go templates: Sprig/Gomplate functions, Atmos's own collectKeys, atmos.Component, atmos.GomplateDatasource, atmos.Store, template configuration, evaluations |
 | [atmos-terraform-state-migrations](../skills/cloudposse/atmos/agent-skills/skills/atmos-terraform-state-migrations/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Terraform state migration workflow with tfmigrate in Atmos: writing migration HCL, running atmos terraform migrate plan/apply/list, wiring kind: tfmigrate hooks, configuring history mode, and handling state refactors, rerun safety, workspace context, backend history variables, and CI-safe migrations. |
+| [atmos-validation](../skills/cloudposse/atmos/agent-skills/skills/atmos-validation/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Validate Atmos projects, components, arbitrary JSON Schema inputs, EditorConfig, and GitHub Actions; use affected-file selection and native CI annotations |
 | [changelog](../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Blog post authoring for Atmos: MDX template, frontmatter, website/blog/tags.yml and authors.yml rules, problem-first framing, backtick-opening ban, optional cast embeds, and no-Go-internals leakage. Invoke when writing, editing, or reviewing a website/blog/*.mdx changelog post. |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [docs](../skills/cloudposse/atmos/.claude/skills/docs/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks |
