@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 214
+Published Skills: 215
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -211,6 +211,7 @@ Published Skills: 214
 | [apple-reminders](../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Apple Reminders via remindctl: add, list, complete. |
 | [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |
 | [codebase-inspection](../skills/ComponentDock/free-react-templates/skills/github/codebase-inspection/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Inspect codebases w/ pygount: LOC, languages, ratios. |
+| [github-bulk-repo-ops](../skills/ComponentDock/free-react-templates/skills/github/github-bulk-repo-ops/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub ops: parallel API, deletion, scopes, cleanup. |
 | [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
 | [pretext](../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Build creative browser demos with DOM-free text layout. |
