@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **421**
+Published skills: **422**
 Repositories: **53**
 
 ## Browse repositories
@@ -156,6 +156,7 @@ Repositories: **53**
 - [gsap-core](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-core/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/gsap-core`
 - [gsap-frameworks](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-frameworks/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/gsap-frameworks`
 - [gsap-performance](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-performance/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/gsap-performance`
+- [gsap-plugins](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-plugins/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/gsap-plugins`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
