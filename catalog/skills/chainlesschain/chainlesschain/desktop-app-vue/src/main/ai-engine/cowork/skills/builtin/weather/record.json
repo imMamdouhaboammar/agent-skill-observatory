@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "6c0d485e857a612140a8c851b6ce0310e83735a0368404ab75744ef7786b8c3d",
+  "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6c0d485e857a612140a8c851b6ce0310e83735a0368404ab75744ef7786b8c3d",
+    "archived": false,
+    "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c89e7123c3099b8faf022d5e5133a2c98f3ed74d7e04dd6d2b42b7d57f488ede",
+    "description": "Weather queries - get current weather, forecasts, and weather alerts for any location worldwide",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "finance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 6,
+    "indexed_at": "2026-09-12T01:38:39.359809Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:38:39.359809Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "weather",
+    "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather",
+    "pushed_at": "2026-09-12T01:31:09Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chainlesschain/chainlesschain",
+    "repo_url": "https://github.com/chainlesschain/chainlesschain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 41,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "80484a24c44ac98ce92586fe5baff891dafd66c7010ddb9a9459cdf479b9f46b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "80484a24c44ac98ce92586fe5baff891dafd66c7010ddb9a9459cdf479b9f46b"
+}

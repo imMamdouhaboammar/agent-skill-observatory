@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 419
+Published Skills: 420
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -184,6 +184,7 @@ Published Skills: 419
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |
 | [tavily-search](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/tavily-search/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Real-time web search using Tavily API - search the web, extract page content, and get up-to-date information for RAG and research tasks |
 | [terraform-iac](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/terraform-iac/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Terraform and OpenTofu infrastructure as code best practices - generate HCL configurations, module patterns, state management, CI/CD workflows, and cloud provider templates for AWS, GCP, Azure |
+| [weather](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Weather queries - get current weather, forecasts, and weather alerts for any location worldwide |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [oculpm-codex](../skills/bunhine0452/Ocul-PM/plugin/oculpm-codex/skills/oculpm-codex/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use ocul-pm journals and planners from Codex without relying on Claude-only plugin variables. |
 | [oculpm-journal](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/oculpm-journal/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | ocul-pm recording spec (journal format, planner glyphs/log, discussion docs) for projects with .oculpm/. Use when finishing a unit of work and the oculpm MCP tools are unavailable — prefer journal_write/plan_update when visible. |

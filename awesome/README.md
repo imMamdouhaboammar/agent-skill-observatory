@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **566**
+Published skills: **567**
 Repositories: **63**
 
 ## Browse repositories
@@ -401,6 +401,7 @@ Repositories: **63**
 - [tavily-search](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/tavily-search/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/tavily-search`
 - [terraform-iac](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/terraform-iac/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/terraform-iac`
 - [ultrathink](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/ultrathink/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/ultrathink`
+- [weather](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`

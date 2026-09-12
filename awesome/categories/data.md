@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 205
+Published Skills: 206
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -94,6 +94,7 @@ Published Skills: 205
 | [memory-insights](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Knowledge base analytics and health monitoring - file statistics, health scoring, keyword extraction, activity trends, gap detection, and comprehensive reporting |
 | [notion](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace |
 | [remotion-video](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Create programmatic videos with React using Remotion - generate animations, compositions, text effects, transitions, captions, and render MP4 videos from code |
+| [weather](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Weather queries - get current weather, forecasts, and weather alerts for any location worldwide |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [deploy-website](../skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Deploy the markmhendrickson website: sync markdown edits to Neotoma, export website data, regenerate cache, update the CI export secret, push the website repo, and verify GitHub Actions. |
