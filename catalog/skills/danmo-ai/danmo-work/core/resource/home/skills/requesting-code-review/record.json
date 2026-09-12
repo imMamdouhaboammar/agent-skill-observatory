@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "8669f864c04b58bccdc4c3ee8b01e8fa60224dfd52b5a97cf820008078d47783",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/requesting-code-review",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8669f864c04b58bccdc4c3ee8b01e8fa60224dfd52b5a97cf820008078d47783",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/requesting-code-review",
+    "compatibility": "Requires read_file, grep, glob; git via exec_shell when available",
+    "consecutive_misses": 0,
+    "content_fingerprint": "3e1dfdd04f79bc2cf4c164fe828ba5f6bcefe536264f00a002ece683b870126b",
+    "description": "Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "code-review",
+        "content",
+        "data",
+        "product"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/home/skills/requesting-code-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "adapted_from": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
+      "author": "danmo-work",
+      "category": "coding",
+      "upstream_license": "MIT",
+      "version": "1.0"
+    },
+    "name": "requesting-code-review",
+    "path": "core/resource/home/skills/requesting-code-review",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1e9a12b7a92c27ee11894c3cbb312f3d2465885cd77356320f158fd09cfce752",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "1e9a12b7a92c27ee11894c3cbb312f3d2465885cd77356320f158fd09cfce752"
+}
