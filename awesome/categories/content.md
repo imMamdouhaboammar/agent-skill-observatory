@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 301
+Published Skills: 302
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -111,6 +111,7 @@ Published Skills: 301
 | [pattern-test](../skills/commontoolsinc/labs/skills/pattern-test/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Write and run pattern tests |
 | [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
 | [pattern-ui](../skills/commontoolsinc/labs/skills/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design and polish pattern UIs with cf- components - theme-first styling via cf-theme, layout with cf-screen/cf-vstack, two-way binding ($value/$checked), and PerSession/PerUser/PerSpace UI-state scoping. Use when styling pattern JSX or writing a UI design doc. |
+| [portos-file-issue](../skills/atomantic/PortOS/.claude/skills/portos-file-issue/README.md) | [atomantic/PortOS](https://github.com/atomantic/PortOS) | 100 | 100 | 38 | PortOS conventions for filing GitHub issues and capturing deferred work — decide-don't-defer, ready-to-work bodies, and when the future / blocked / needs-input labels are actually correct. Invoke when filing a follow-up issue, triaging, or claiming an ambiguous issue. |
 | [state-inspector](../skills/commontoolsinc/labs/skills/state-inspector/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Debug Common Fabric runtime/multiplayer state from the durable store, offline, with `cf inspect`. Use when investigating "what is actually stored", a cell that looks different for two users, a lost/overwritten write, divergence across spaces, how state reached its current value, who/what touched a space, or any memory-v2 question you'd otherwise guess at from a live runtime. Reads space SQLite DBs read-only — no live server, no capture step. |
 | [topics](../skills/commontoolsinc/labs/skills/topics/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Interact with the Common Fabric team's Topics board on Estuary through the Labs cf CLI. Use when reading, creating, or updating Topics; posting Topic progress comments; attaching pull request links; or adding references between Topics. |
 | [writing-code](../skills/commontoolsinc/labs/skills/writing-code/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Conventions for writing or changing code in this repository — the two documents to read before the first edit, which document governs the thing you are about to touch, and which conventions no automated gate will catch. Use before writing, changing, or refactoring TypeScript anywhere in the tree. Patterns need `pattern-dev` as well; this skill covers what is true of all code here. |
