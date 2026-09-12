@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 109
+Published Skills: 110
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -65,6 +65,7 @@ Published Skills: 109
 | [clerk-react-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-react-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider setup, useAuth/useUser/useClerk hooks, React Router protected routes, custom sign-in flows. Triggers on: Vite Clerk setup, React Router auth, useAuth hook, protected route, custom sign-in form React. |
 | [clerk-setup](../skills/Gizziio/allternit-platform/.agents/skills/clerk-setup/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Add Clerk authentication to any project by following the official quickstart guides. |
 | [clerk-vue-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-vue-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Vue 3 patterns with Clerk — composables (useAuth, useUser, useClerk, useOrganization), Vue Router guards, Pinia auth store integration. Triggers on: vue clerk, useAuth vue, clerk composables, vue router clerk guard, pinia auth clerk. For Nuxt, use clerk-nuxt-patterns instead. |
+| [clickhouse-io](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. Use when writing ClickHouse schemas or queries, or when an analytical query is too slow. |
 | [dispatching-parallel-agents](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/dispatching-parallel-agents/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies |
 | [finishing-a-development-branch](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/finishing-a-development-branch/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work |
 | [seis-automation](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-automation/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Automation for designing, implementing, documenting, and validating repeatable SEIS workflows, scripts, checks, scheduled jobs, runbooks, CI steps, agent loops, and human-approved automation gates. |

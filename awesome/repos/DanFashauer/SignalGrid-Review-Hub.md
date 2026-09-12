@@ -2,14 +2,15 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 14
-Categories: agent-orchestration, ai-ml, code-review, commerce, content, data, design, devops, documentation, engineering, integrations, localization, mobile, product, productivity, research, security, testing
+Published Skills: 15
+Categories: agent-orchestration, ai-ml, code-review, commerce, content, data, design, devops, documentation, engineering, integrations, localization, marketing, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=14, 60-84=0, <60=0
+Security distribution: 85+=15, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [backend-patterns](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/backend-patterns/README.md) | `third_party/everything-claude-code/skills/backend-patterns` | 100 | 100 | ai-ml, commerce, data, design, engineering, security |
+| [clickhouse-io](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) | `third_party/everything-claude-code/skills/clickhouse-io` | 100 | 100 | commerce, content, data, design, integrations, marketing |
 | [dispatching-parallel-agents](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/dispatching-parallel-agents/README.md) | `.claude/skills/dispatching-parallel-agents` | 100 | 100 | agent-orchestration, engineering, integrations, productivity, research, testing |
 | [finishing-a-development-branch](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/finishing-a-development-branch/README.md) | `.claude/skills/finishing-a-development-branch` | 100 | 100 | commerce, engineering, integrations, research, testing |
 | [owner-comms](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/owner-comms/README.md) | `.claude/skills/owner-comms` | 100 | 100 | commerce, content, documentation, engineering, localization, security |

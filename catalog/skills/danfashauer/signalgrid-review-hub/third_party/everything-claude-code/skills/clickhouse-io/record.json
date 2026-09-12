@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "20762897a23976a4a0b066a6e0947194791b5d544b80732bc1e1d0caf88ed7ae",
+  "canonical_key": "danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/clickhouse-io",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "20762897a23976a4a0b066a6e0947194791b5d544b80732bc1e1d0caf88ed7ae",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/clickhouse-io",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9f0f2b632f3feb1bd4ca7bae119fe05454668ab763b7d3c3d304f8740b8fd415",
+    "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. Use when writing ClickHouse schemas or queries, or when an analytical query is too slow.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "content",
+        "commerce",
+        "design",
+        "integrations",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/third_party/everything-claude-code/skills/clickhouse-io/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T23:40:40.592461Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:40.592461Z",
+    "license": "MIT",
+    "metadata": {
+      "origin": "ECC"
+    },
+    "name": "clickhouse-io",
+    "path": "third_party/everything-claude-code/skills/clickhouse-io",
+    "pushed_at": "2026-09-11T23:34:39Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "abf8ff1ba55313f0ae200d6b73bec82119e01cf94d295392293341c46f29861b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "abf8ff1ba55313f0ae200d6b73bec82119e01cf94d295392293341c46f29861b"
+}

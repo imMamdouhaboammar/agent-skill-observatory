@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **738**
+Published skills: **739**
 Repositories: **78**
 
 ## Browse repositories
@@ -664,6 +664,7 @@ Repositories: **78**
 - [verification-before-completion](./skills/danfashauer/signalgrid-review-hub/.claude/skills/verification-before-completion/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/verification-before-completion`
 - [writing-plans](./skills/danfashauer/signalgrid-review-hub/.claude/skills/writing-plans/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/writing-plans`
 - [backend-patterns](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/backend-patterns/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/backend-patterns`
+- [clickhouse-io](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/clickhouse-io`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`
