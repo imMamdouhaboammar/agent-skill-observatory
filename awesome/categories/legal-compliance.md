@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 49
+Published Skills: 50
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -32,6 +32,7 @@ Published Skills: 49
 | [critics-circle](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/critics-circle/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Give independent PlotPickle critique of story, world, characters, structure, pacing, dialogue, continuity, audience clarity and commercial positioning using bounded supplied evidence. |
 | [qfai-prototyping](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-prototyping/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Iterate one prototype through up to 10 cycles of generate-capture-review against a frozen DESIGN.md, focusing on information architecture, navigation flow, usability, and functionality. |
 | [web-research](../skills/aganesy/QFAI/.qfai/assistant/skills/web-research/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | 8-stage web research pipeline with MCP integration, caching, and citation generation. |
+| [create-skill](../skills/dileep-kishore/zendots/dot_agents/skills/create-skill/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when the user asks to create, author, or add a new agent skill to the shared ~/.agents/skills store so Claude Code, Codex, Pi, and OpenCode all pick it up. |
 | [agent-builder](../skills/dpatel-93/alfred/skills/agent-builder/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Scaffolds a new Alfred org agent (VP, manager, or employee) that satisfies the full charter contract in skills/orgagent/references/ORG.md §4 and passes helpers/validate-org.mjs on the first run — not a rough draft to be fixed up later. Use when a real, recurring workload has no owner in the current org (a genuine capability gap, not just "this would be nice"), when adding a new department under an existing VP, or when the CEO says "we need an agent for X." Do NOT use for one-off tasks that fit an existing agent, or for framework-level meta-skills (those are just skills, not agents — see the `skill-builder` skill instead). |
 | [computer-use](../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate desktop applications through the computer tool: find and focus windows, take screenshots to see the screen, then click, type, and press keys. Use for GUI automation of real apps a human would drive by hand. |
 | [clerk-swift](../skills/Gizziio/allternit-platform/.agents/skills/clerk-swift/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Implement Clerk authentication for native Swift and iOS apps using ClerkKit and ClerkKitUI source-guided patterns. Use for prebuilt AuthView or custom native flows. Do not use for Expo or React Native projects. |
