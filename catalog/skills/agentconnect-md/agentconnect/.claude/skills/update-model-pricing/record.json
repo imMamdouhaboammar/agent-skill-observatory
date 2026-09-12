@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "260d49101ab49f93014686a4a66464c9479ba0cb2e64f0d21dba1a403fb73e77",
+  "canonical_key": "agentconnect-md/agentconnect:.claude/skills/update-model-pricing",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "260d49101ab49f93014686a4a66464c9479ba0cb2e64f0d21dba1a403fb73e77",
+    "archived": false,
+    "canonical_key": "agentconnect-md/agentconnect:.claude/skills/update-model-pricing",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ea290671622a70fc369d998f732824f0a189b96aa677316018138127f0836315",
+    "description": "Verify and refresh AgentConnect's daemon-side public OpenAI fallback pricing, exact model aliases, long-context and cache rules, and regression tests. Use when OpenAI model prices or IDs change, fallback cost becomes missing or stale, codex-acp changes its token mapping, or someone asks to audit or update packages/daemon/src/usage/openai-public-pricing.ts.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "engineering",
+        "security",
+        "content",
+        "devops",
+        "product"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ],
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/agentconnect-md/agentconnect/blob/main/.claude/skills/update-model-pricing/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 44,
+    "indexed_at": "2026-09-12T11:07:55.473766Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:07:55.473766Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "update-model-pricing",
+    "path": ".claude/skills/update-model-pricing",
+    "pushed_at": "2026-09-12T11:03:57Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "agentconnect-md/agentconnect",
+    "repo_url": "https://github.com/agentconnect-md/agentconnect",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 78,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f716cff61d05a9cd7cd8e9bfb330ad1021603ff53b6cfc98ba3cb1c7d7547e24",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1358
+  },
+  "source_fingerprint": "f716cff61d05a9cd7cd8e9bfb330ad1021603ff53b6cfc98ba3cb1c7d7547e24"
+}

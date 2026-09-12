@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **480**
-Repositories: **59**
+Published skills: **481**
+Repositories: **60**
 
 ## Browse repositories
 
@@ -25,6 +25,7 @@ Repositories: **59**
 - [a620906209/ticket-hub](./repos/a620906209/ticket-hub.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
+- [agentconnect-md/agentconnect](./repos/agentconnect-md/agentconnect.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 - [aiconduit/ai-conduit-pipeline](./repos/aiconduit/ai-conduit-pipeline.md)
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
@@ -121,6 +122,7 @@ Repositories: **59**
 - [afaro-followup](./skills/afaro-ai/afaro/skills/afaro-followup/README.md) · `afaro-ai/afaro:skills/afaro-followup`
 - [afaro-orchestrator](./skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) · `afaro-ai/afaro:skills/afaro-orchestrator`
 - [afaro-removal-verify](./skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) · `afaro-ai/afaro:skills/afaro-removal-verify`
+- [update-model-pricing](./skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) · `agentconnect-md/agentconnect:.claude/skills/update-model-pricing`
 - [agent-native-design](./skills/agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`
 - [assetseeker](./skills/agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) · `agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker`
 - [asta-skill](./skills/agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) · `agents365-ai/365-skills:plugins/asta/skills/asta-skill`
