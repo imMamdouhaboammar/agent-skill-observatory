@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "60ccf6df10d8785e06776f6fec0f348bbbbd490921551db55aaf3a8aa056cb68",
+  "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-terraform-state-migrations",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "60ccf6df10d8785e06776f6fec0f348bbbbd490921551db55aaf3a8aa056cb68",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-terraform-state-migrations",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a3a0089b35216332ebdf101fdd5850cddccb666929ad79f7df3999bbdc82d2de",
+    "description": "Terraform state migration workflow with tfmigrate in Atmos: writing migration HCL, running atmos terraform migrate plan/apply/list, wiring kind: tfmigrate hooks, configuring history mode, and handling state refactors, rerun safety, workspace context, backend history variables, and CI-safe migrations.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "devops",
+        "productivity",
+        "content",
+        "commerce",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-terraform-state-migrations/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "category": "state-versioning",
+      "copyright": "Copyright Cloud Posse, LLC 2026",
+      "version": "1.0.0"
+    },
+    "name": "atmos-terraform-state-migrations",
+    "path": "agent-skills/skills/atmos-terraform-state-migrations",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9a9a044938a6172d95c45a15418edb264e6e61ceb7d03d1b850ddd42b4b35784",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "9a9a044938a6172d95c45a15418edb264e6e61ceb7d03d1b850ddd42b4b35784"
+}
