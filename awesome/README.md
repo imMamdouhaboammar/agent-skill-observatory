@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **669**
-Repositories: **71**
+Published skills: **670**
+Repositories: **72**
 
 ## Browse repositories
 
@@ -32,6 +32,7 @@ Repositories: **71**
 - [aaronjmars/miroshark-aeon](./repos/aaronjmars/miroshark-aeon.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
+- [aganesy/QFAI](./repos/aganesy/QFAI.md)
 - [agentconnect-md/agentconnect](./repos/agentconnect-md/agentconnect.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
 - [aiconduit/ai-conduit-pipeline](./repos/aiconduit/ai-conduit-pipeline.md)
@@ -175,6 +176,7 @@ Repositories: **71**
 - [afaro-followup](./skills/afaro-ai/afaro/skills/afaro-followup/README.md) · `afaro-ai/afaro:skills/afaro-followup`
 - [afaro-orchestrator](./skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) · `afaro-ai/afaro:skills/afaro-orchestrator`
 - [afaro-removal-verify](./skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) · `afaro-ai/afaro:skills/afaro-removal-verify`
+- [conflict-resolve](./skills/aganesy/qfai/.agents/skills/conflict-resolve/README.md) · `aganesy/qfai:.agents/skills/conflict-resolve`
 - [update-model-pricing](./skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) · `agentconnect-md/agentconnect:.claude/skills/update-model-pricing`
 - [agent-native-design](./skills/agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`
 - [assetseeker](./skills/agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) · `agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker`

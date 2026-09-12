@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "5f597415ad90bab460d8bdb7d9f48ed187a5d6bed2699613c3711f5a9226e4c7",
+  "canonical_key": "aganesy/qfai:.agents/skills/conflict-resolve",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5f597415ad90bab460d8bdb7d9f48ed187a5d6bed2699613c3711f5a9226e4c7",
+    "archived": false,
+    "canonical_key": "aganesy/qfai:.agents/skills/conflict-resolve",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "01a8851c6109c6ba2822ef3f8224eeb8d389137cc33e27d6d56c5a2fb008bf5d",
+    "description": "最新のベースブランチ取り込みで発生したGit競合を、ours/theirs双方の修正意図を分析して共存解決し、コミット/プッシュまで完了する。競合解消が必要なときに使用する。",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aganesy/QFAI/blob/main/.agents/skills/conflict-resolve/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-12T17:06:20.023267Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:20.023267Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "conflict-resolve",
+    "path": ".agents/skills/conflict-resolve",
+    "pushed_at": "2026-09-12T17:04:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aganesy/QFAI",
+    "repo_url": "https://github.com/aganesy/QFAI",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 28,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5a5274452e3776984c857837c73983e2985b12d626e593a074b870ae2df24eb3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "5a5274452e3776984c857837c73983e2985b12d626e593a074b870ae2df24eb3"
+}

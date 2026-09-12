@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 493
+Published Skills: 494
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -276,6 +276,7 @@ Published Skills: 493
 | [ben-code-quality](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/ben-code-quality/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle. |
 | [buzz-guildhall-reporting](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/buzz-guildhall-reporting/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Operational reporting procedure for summarizing and routing PlotPickle agent activity into appropriate BUZZ Guildhall rooms. |
 | [character-visual-development](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/character-visual-development/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Develop a revision-bound candidate visual package for one canonical PlotPickle character from approved and observed evidence without changing canon or accepting generated work. |
+| [conflict-resolve](../skills/aganesy/QFAI/.agents/skills/conflict-resolve/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | 最新のベースブランチ取り込みで発生したGit競合を、ours/theirs双方の修正意図を分析して共存解決し、コミット/プッシュまで完了する。競合解消が必要なときに使用する。 |
 | [diagnosis](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/diagnosis/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Diagnose non-trivial PlotPickle bugs from the narrowest exact, red-capable feedback loop before speculative source changes. |
 | [engineering-discipline](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/engineering-discipline/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Keep PlotPickle coding and repair work assumption-aware, minimal, task-scoped, and driven by explicit verification criteria before implementation begins. |
 | [plotpickle-architecture-review](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plotpickle-architecture-review/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Scout PlotPickle architecture before non-trivial changes and independently review an exact diff/head against architecture, engineering standards, and the originating spec. |
