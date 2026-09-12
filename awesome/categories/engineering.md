@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 616
+Published Skills: 617
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -362,6 +362,7 @@ Published Skills: 616
 | [claymorphism](../skills/dpatel-93/alfred/skills/claymorphism/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Soft, rounded 3D-like shapes mimicking malleable clay with playful, puffy elements and colorful surfaces. |
 | [clean](../skills/dpatel-93/alfred/skills/clean/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Simplicity-focused design with ample whitespace, legible typography, and a limited color palette to reduce visual clutter. |
 | [codex](../skills/dpatel-93/alfred/skills/codex/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A radically minimal, blank-canvas interface built as a pure edge-to-edge surface, with almost no color and typography carrying the visual weight. Black serves as the only filled color, the only divider, and the sole surface tone cards. |
+| [colorful](../skills/dpatel-93/alfred/skills/colorful/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Vibrant, high-contrast palettes and gradients for engaging, memorable, and modern user experiences. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
 | [github](../skills/danmo-ai/danmo-work/core/resource/plugins/github/skills/github/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate GitHub via bound MCP when configured, else gh CLI, else plain git (remotes/push/fetch only). Use for GitHub platform / hosting work. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |

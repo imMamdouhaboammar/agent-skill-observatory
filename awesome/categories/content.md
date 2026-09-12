@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 539
+Published Skills: 540
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -318,6 +318,7 @@ Published Skills: 539
 | [claymorphism](../skills/dpatel-93/alfred/skills/claymorphism/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Soft, rounded 3D-like shapes mimicking malleable clay with playful, puffy elements and colorful surfaces. |
 | [clean](../skills/dpatel-93/alfred/skills/clean/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Simplicity-focused design with ample whitespace, legible typography, and a limited color palette to reduce visual clutter. |
 | [codex](../skills/dpatel-93/alfred/skills/codex/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A radically minimal, blank-canvas interface built as a pure edge-to-edge surface, with almost no color and typography carrying the visual weight. Black serves as the only filled color, the only divider, and the sole surface tone cards. |
+| [colorful](../skills/dpatel-93/alfred/skills/colorful/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Vibrant, high-contrast palettes and gradients for engaging, memorable, and modern user experiences. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
 | [deep-research](../skills/danmo-ai/danmo-work/core/resource/home/skills/deep-research/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Disciplined multi-source research with triangulation, citations, and adversarial review. Use for high-stakes questions, comparisons, strategy groundwork, or hypothesis validation — not quick fact-checks. |
 | [document-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Long-form workplace docs as GFM `.md` (default). Not for slide decks or spreadsheets — those are Univer IR / CSV. Edit with write/edit/apply_patch; do not invent parallel JSON docs unless path is already `.udoc.json`. |
