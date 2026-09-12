@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "59adb6591c095eec2a626efe01f0b3ecc8be96b27f45e5cce611124877063924",
+  "canonical_key": "danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/security-review",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "59adb6591c095eec2a626efe01f0b3ecc8be96b27f45e5cce611124877063924",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/security-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fe6f9151fb15c1dffd47a55080c3ad147af7c95dd0ad3714735dec6824b060b7",
+    "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "data",
+        "testing",
+        "content",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/third_party/everything-claude-code/skills/security-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T23:40:40.592461Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:40.592461Z",
+    "license": "MIT",
+    "metadata": {
+      "origin": "ECC"
+    },
+    "name": "security-review",
+    "path": "third_party/everything-claude-code/skills/security-review",
+    "pushed_at": "2026-09-11T23:34:39Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6521251623c453d0b40363eb6fda40c53db9e1af71cf31997ea0a95f8a9e1787",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "6521251623c453d0b40363eb6fda40c53db9e1af71cf31997ea0a95f8a9e1787"
+}

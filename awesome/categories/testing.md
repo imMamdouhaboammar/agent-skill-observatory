@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 137
+Published Skills: 138
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -91,6 +91,7 @@ Published Skills: 137
 | [finishing-a-development-branch](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/finishing-a-development-branch/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work |
 | [receiving-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/receiving-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation |
 | [sangokushi-2](../skills/jeong-sik/masc/skills/sangokushi-2/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Sangokushi II (Koei 1990, Japanese, 3-disk set) on the shared MSX: media set and verified origin slot, the province command menu, in-game save flow, media-change pitfalls, and one-call macros for the two verified key sequences. Apply a fact only when the visible prompt matches it. |
+| [security-review](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/security-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns. |
 | [signalgrid-reviewer](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-reviewer/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | The adversarial second reviewer for SignalGrid. Use when a change is ready for review, before any push or PR, or when asked to check whether a claim about the repo is true. This role verifies and reports; it never fixes, never authors, and never merges. Covers the repo's known defect classes, how to falsify a guard, and how to write findings the owner can act on without reading code. |
 | [systematic-debugging](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [test-driven-development](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementing any feature or bugfix, before writing implementation code |
