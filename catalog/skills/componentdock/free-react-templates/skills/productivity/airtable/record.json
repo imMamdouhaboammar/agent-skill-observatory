@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "65e84a99e588a96028e5a6bf27c8065f8afaa4d4b5b41e265f78974d0e8a541a",
+  "canonical_key": "componentdock/free-react-templates:skills/productivity/airtable",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "65e84a99e588a96028e5a6bf27c8065f8afaa4d4b5b41e265f78974d0e8a541a",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/productivity/airtable",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "31edc9f0ab62d7c9bf7d47d54b8a42e1b0b91223f7f10d101e521fd664319d39",
+    "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "integrations",
+        "productivity",
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/productivity/airtable/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['Airtable', 'Productivity', 'Database', 'API'], 'homepage': 'https://airtable.com/developers/web/api/introduction'}"
+    },
+    "name": "airtable",
+    "path": "skills/productivity/airtable",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "06e502454e8200ea1c20d0070402eaa15e88335eb1b8805f0ff4f47fce6e545d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "06e502454e8200ea1c20d0070402eaa15e88335eb1b8805f0ff4f47fce6e545d"
+}

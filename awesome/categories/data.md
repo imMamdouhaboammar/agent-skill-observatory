@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 253
+Published Skills: 254
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -230,6 +230,7 @@ Published Skills: 253
 | [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
+| [airtable](../skills/ComponentDock/free-react-templates/skills/productivity/airtable/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Airtable REST API via curl. Records CRUD, filters, upserts. |
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [github-org-bulk-operations](../skills/ComponentDock/free-react-templates/skills/github/github-org-bulk-operations/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub org cleanup: inventory, classify, delete. |
 | [opencode](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenCode CLI (features, PR review). |
