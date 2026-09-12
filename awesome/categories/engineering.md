@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 483
+Published Skills: 484
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -228,6 +228,7 @@ Published Skills: 483
 | [notion](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace |
 | [obsidian](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Obsidian vault operations - create notes, search vault, manage tags, link notes, and sync with Obsidian markdown files |
 | [onchain-monitor](../skills/aaronjmars/aeon-agent/skills/onchain-monitor/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor blockchain addresses and contracts for notable activity |
+| [operator-scorecard](../skills/aaronjmars/aeon-agent/skills/operator-scorecard/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Three recap modes - default synthesizes agent health, community growth, and economic activity into a was-it-worth-it verdict; ops recaps what shipped and failed; push ranks push impact. |
 | [proactive-agent](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/proactive-agent/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Autonomous proactive agent that monitors conditions and triggers actions - watches for file changes, error patterns, performance thresholds, and schedules periodic checks without user intervention |
 | [remotion-video](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Create programmatic videos with React using Remotion - generate animations, compositions, text effects, transitions, captions, and render MP4 videos from code |
 | [screenshot-to-code](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 截图转代码 - 将UI截图/设计稿转换为Vue/React/HTML组件代码 |

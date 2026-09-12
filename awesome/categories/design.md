@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 258
+Published Skills: 259
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -105,6 +105,7 @@ Published Skills: 258
 | [base-mcp](../skills/aaronjmars/aeon-agent/skills/base-mcp/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Access a Base Account via the Base MCP server (mcp.base.org) - wallet, portfolio, sending, swapping, signing, x402 payments, batched calls, and transaction history. |
 | [content-publisher](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | AI-powered content generation and multi-platform publishing - create infographics, slide decks, cover images, comics, and format content for social platforms |
 | [distribute-tokens](../skills/aaronjmars/aeon-agent/skills/distribute-tokens/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Two-phase contributor rewards - plan builds a tier-priced payout from the repo's merged-PR ranking; send executes it on-chain via Bankr Wallet API with per-recipient idempotency and dry-run. |
+| [operator-scorecard](../skills/aaronjmars/aeon-agent/skills/operator-scorecard/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Three recap modes - default synthesizes agent health, community growth, and economic activity into a was-it-worth-it verdict; ops recaps what shipped and failed; push ranks push impact. |
 | [screenshot-to-code](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 截图转代码 - 将UI截图/设计稿转换为Vue/React/HTML组件代码 |
 | [ultrathink](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/ultrathink/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Activate extended thinking mode for complex problems - deep reasoning, chain-of-thought decomposition, multi-step analysis, and thorough exploration before answering |
 | [webapp-testing](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Test local web applications using browser automation - verify frontend functionality, debug UI behavior, capture screenshots, view console logs, run E2E scenarios, and check accessibility |
