@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "e7f473f36c39ccbb05e99cd9ac85a414e404becdfa43cc664bdb74e9b9f30baf",
+  "canonical_key": "a-lottes/aspark:skills/next-steps",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e7f473f36c39ccbb05e99cd9ac85a414e404becdfa43cc664bdb74e9b9f30baf",
+    "archived": false,
+    "canonical_key": "a-lottes/aspark:skills/next-steps",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "16072dcd3911f38a86e5903a7d56ab1984bf8711386258fc33851f88a0a2266d",
+    "description": "Have the Product Owner survey the project's current state — shipped features, in-flight work, open findings, standing goals — and propose one concrete next feature ready to hand to /story-time or /spark. Use when the user has no idea in hand and asks \"what should we build next\", when a loop just closed and the next cycle needs a starting point, or when the backlog feels stale and needs a grounded suggestion instead of a guess.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "engineering",
+        "project-management",
+        "content",
+        "hr-recruiting",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/a-lottes/aSPARK/blob/main/skills/next-steps/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:08:12.380048Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:08:12.380048Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "next-steps",
+    "path": "skills/next-steps",
+    "pushed_at": "2026-09-12T17:04:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "a-lottes/aSPARK",
+    "repo_url": "https://github.com/a-lottes/aSPARK",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "13d91efd36cfa0102c1dee97e08cd71e0f9c51c4522819c0aeb14bd117a126c7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 20
+  },
+  "source_fingerprint": "13d91efd36cfa0102c1dee97e08cd71e0f9c51c4522819c0aeb14bd117a126c7"
+}

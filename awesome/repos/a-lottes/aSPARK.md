@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/a-lottes/aSPARK](https://github.com/a-lottes/aSPARK)
 
-Published Skills: 5
-Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, engineering, localization, marketing, productivity, project-management, research, security, testing
+Published Skills: 6
+Categories: architecture, browser-automation, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, localization, marketing, product, productivity, project-management, research, security, testing
 Best overall score: 99
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [go-live](../../skills/a-lottes/aSPARK/skills/go-live/README.md) | `skills/go-live` | 99 | 100 | devops, documentation, productivity |
 | [increment](../../skills/a-lottes/aSPARK/skills/increment/README.md) | `skills/increment` | 99 | 100 | architecture, content, design, engineering, productivity, project-management |
 | [look-and-feel](../../skills/a-lottes/aSPARK/skills/look-and-feel/README.md) | `skills/look-and-feel` | 99 | 100 | browser-automation, content, design, localization, marketing, research |
+| [next-steps](../../skills/a-lottes/aSPARK/skills/next-steps/README.md) | `skills/next-steps` | 99 | 100 | content, engineering, hr-recruiting, product, productivity, project-management |
