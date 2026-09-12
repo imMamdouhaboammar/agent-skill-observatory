@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "7519eba9ffe0a172a49d20371f60ecf8303f8ca0cf1fb17b4bc87bb0160c490a",
+  "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-helmfile",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7519eba9ffe0a172a49d20371f60ecf8303f8ca0cf1fb17b4bc87bb0160c490a",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-helmfile",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "776519e2b6a499374c80afd20f5f09983fe93b690d09a0f6158f8e26dbd838e9",
+    "description": "Helmfile orchestration: sync/apply/destroy/diff, Kubernetes deployments, varfile generation, EKS integration, source management",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "integrations",
+        "research",
+        "engineering",
+        "commerce",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-helmfile/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "category": "orchestrators",
+      "copyright": "Copyright Cloud Posse, LLC 2026",
+      "version": "1.0.0"
+    },
+    "name": "atmos-helmfile",
+    "path": "agent-skills/skills/atmos-helmfile",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bdb2af1aef0b2ca3306816245710ae49e64e9e2b561675e01221db4572893f5d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "bdb2af1aef0b2ca3306816245710ae49e64e9e2b561675e01221db4572893f5d"
+}
