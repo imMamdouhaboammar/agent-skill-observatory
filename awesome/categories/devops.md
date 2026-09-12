@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 129
+Published Skills: 130
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -22,6 +22,7 @@ Published Skills: 129
 | [atmos-asciicast](../skills/cloudposse/atmos/.claude/skills/atmos-asciicast/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds. |
 | [atmos-aws-ecr](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-ecr/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS ECR commands in Atmos: atmos aws ecr login, ECR auth integrations, Docker credential writes, registry login via identity or explicit registry |
 | [atmos-aws-eks](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-eks/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS EKS commands in Atmos: atmos aws eks update-kubeconfig, atmos aws eks token, kubeconfig generation, kubectl exec credentials, EKS auth integrations |
+| [atmos-aws-security](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-security/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS security finding analysis: analyze findings, map to Atmos components/stacks, generate structured remediation with exact Terraform changes and deploy commands |
 | [atmos-core-component-development](../skills/cloudposse/atmos/.claude/skills/atmos-core-component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos CORE contributor guide for adding/modifying a component TYPE in the Go codebase (terraform/helmfile/packer/ansible/container): the component registry & provider, the CLI command group, the describe/list type whitelist, custom-component inheritance & deep-merge, schema, and tests. NOT for authoring user components in stacks (that is the atmos-components skill). |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [docs](../skills/cloudposse/atmos/.claude/skills/docs/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks |

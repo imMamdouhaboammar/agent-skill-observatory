@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 103
+Published Skills: 104
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -23,6 +23,7 @@ Published Skills: 103
 | [atmos-aws-compliance](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-compliance/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS compliance commands in Atmos: atmos aws compliance report, Security Hub standards, CIS AWS, PCI DSS, SOC2, HIPAA, NIST, report formats, AI summaries |
 | [atmos-aws-ecr](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-ecr/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS ECR commands in Atmos: atmos aws ecr login, ECR auth integrations, Docker credential writes, registry login via identity or explicit registry |
 | [atmos-aws-eks](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-eks/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS EKS commands in Atmos: atmos aws eks update-kubeconfig, atmos aws eks token, kubeconfig generation, kubectl exec credentials, EKS auth integrations |
+| [atmos-aws-security](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-security/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS security finding analysis: analyze findings, map to Atmos components/stacks, generate structured remediation with exact Terraform changes and deploy commands |
 | [security-remediate](../skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open. |
 | [speckit-analyze](../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation. |
 | [speckit-checklist](../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate a custom checklist for the current feature based on user requirements. |

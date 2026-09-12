@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 195
+Published Skills: 196
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -27,6 +27,7 @@ Published Skills: 195
 | [bat-adhoc](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-adhoc/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Run bot acceptance tests to validate MCP tools work correctly from a real AI agent's perspective. Use when testing PRs, detecting regressions, or verifying tool changes end-to-end with Claude/Gemini CLIs. |
 | [contributors-update](../skills/homeassistant-ai/ha-mcp/.claude/skills/contributors-update/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Find merged PR authors missing from README and update the contributors list after approval |
 | [atmos-asciicast](../skills/cloudposse/atmos/.claude/skills/atmos-asciicast/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds. |
+| [atmos-aws-security](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-security/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS security finding analysis: analyze findings, map to Atmos components/stacks, generate structured remediation with exact Terraform changes and deploy commands |
 | [atmos-core-component-development](../skills/cloudposse/atmos/.claude/skills/atmos-core-component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos CORE contributor guide for adding/modifying a component TYPE in the Go codebase (terraform/helmfile/packer/ansible/container): the component registry & provider, the CLI command group, the describe/list type whitelist, custom-component inheritance & deep-merge, schema, and tests. NOT for authoring user components in stacks (that is the atmos-components skill). |
 | [changelog](../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Blog post authoring for Atmos: MDX template, frontmatter, website/blog/tags.yml and authors.yml rules, problem-first framing, backtick-opening ban, optional cast embeds, and no-Go-internals leakage. Invoke when writing, editing, or reviewing a website/blog/*.mdx changelog post. |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
