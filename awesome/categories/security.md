@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 89
+Published Skills: 90
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -64,6 +64,7 @@ Published Skills: 89
 | [improve-goal](../skills/chnlich/charlie-bot/skills/improve-goal/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | How to write effective improve loop goal prompts — for the master CC agent that writes the --goal-file content. |
 | [linear](../skills/chnlich/charlie-bot/skills/linear/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, update, or search Linear issues, projects, cycles, or teams. |
 | [ben-code-quality](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/ben-code-quality/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle. |
+| [engineering-discipline](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/engineering-discipline/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Keep PlotPickle coding and repair work assumption-aware, minimal, task-scoped, and driven by explicit verification criteria before implementation begins. |
 | [buildd-mcp-consumer](../skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 100 | 100 | 1 | Use whenever the buildd MCP tools (`buildd`, `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target. |
 | [buildd-workflow](../skills/buildd-ai/buildd/.claude/skills/buildd-workflow/README.md) | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 100 | 100 | 1 | Workflow skill that helps agents work effectively in buildd. Enforces disciplined development — TDD, quality gates, proper planning, progress reporting, and no shortcuts. |
 | [clerk-billing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-billing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Clerk Billing for subscription management - render Clerk's PricingTable and in-app checkout drawer, configure subscription plans, seat-limit plans for B2B, feature entitlements with has(), and billing webhooks. Use for SaaS monetization, plan gating, checkout flows, trials, invoicing, and subscription lifecycle management. |

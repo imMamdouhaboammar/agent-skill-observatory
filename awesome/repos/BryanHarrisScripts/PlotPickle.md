@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle)
 
-Published Skills: 5
-Categories: commerce, content, data, design, documentation, engineering, hr-recruiting, integrations, legal-compliance, media, product, research, security, testing
+Published Skills: 6
+Categories: commerce, content, data, design, documentation, engineering, hr-recruiting, integrations, legal-compliance, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [character-visual-development](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/character-visual-development/README.md) | `.agents/skills/character-visual-development` | 100 | 100 | content, design, engineering, hr-recruiting, media, research |
 | [critics-circle](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/critics-circle/README.md) | `.agents/skills/critics-circle` | 100 | 100 | content, data, legal-compliance, research |
 | [diagnosis](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/diagnosis/README.md) | `.agents/skills/diagnosis` | 100 | 100 | commerce, design, engineering, product, research, testing |
+| [engineering-discipline](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/engineering-discipline/README.md) | `.agents/skills/engineering-discipline` | 100 | 100 | data, engineering, productivity, research, security, testing |

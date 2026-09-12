@@ -1,0 +1,109 @@
+{
+  "analysis_fingerprint": "a9786d0bc6b5389237c6e4b88ba15da1e9638843ea6e8ec123803c322a8cb7ed",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/engineering-discipline",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a9786d0bc6b5389237c6e4b88ba15da1e9638843ea6e8ec123803c322a8cb7ed",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/engineering-discipline",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "799a26c36fb281aa6be03c25b1b1b786d83d4544ba1b67f6316465599e9f880a",
+    "description": "Keep PlotPickle coding and repair work assumption-aware, minimal, task-scoped, and driven by explicit verification criteria before implementation begins.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "engineering",
+        "security",
+        "research",
+        "testing",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/engineering-discipline/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "PlotPickle",
+      "compatibility": "PlotPickle coding and repair workers",
+      "progressiveDisclosure": "True",
+      "source-attribution": "Adapted from multica-ai/andrej-karpathy-skills at 2c606141936f1eeef17fa3043a72095b4765b9c2 (MIT)",
+      "uri": "skill://plotpickle/engineering-discipline",
+      "version": "1.0.0"
+    },
+    "name": "engineering-discipline",
+    "path": ".agents/skills/engineering-discipline",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8918120c628cea84fc1be08a462eedaa77c71c9eb960472162b70970f0da9ba4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "8918120c628cea84fc1be08a462eedaa77c71c9eb960472162b70970f0da9ba4"
+}
