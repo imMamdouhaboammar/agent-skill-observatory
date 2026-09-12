@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain)
 
-Published Skills: 21
-Categories: browser-automation, business, commerce, content, data, design, devops, documentation, documents, engineering, integrations, media, mobile, productivity, research, security, testing
+Published Skills: 22
+Categories: browser-automation, business, commerce, content, data, design, devops, documentation, documents, engineering, integrations, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -27,6 +27,7 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [humanizer](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer` | 100 | 100 | content, productivity |
 | [memory-insights](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights` | 100 | 100 | data |
 | [news-monitor](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor` | 100 | 100 | content, engineering, research |
+| [notion](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion` | 100 | 100 | content, data, engineering, integrations, product, productivity |
 | [changelog-generator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator` | 97 | 100 | documentation, engineering, testing |
 | [code-translator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator` | 97 | 100 | engineering |
 | [multi-model-router](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router` | 97 | 100 | engineering |
