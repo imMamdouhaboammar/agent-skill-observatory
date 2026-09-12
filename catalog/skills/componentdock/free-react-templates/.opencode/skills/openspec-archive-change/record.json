@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "937aeb937276b64c34f2d3049d293701aa8b22c228d4f547927d6153133780c9",
+  "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-archive-change",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(openspec:*)"
+    ],
+    "analysis_fingerprint": "937aeb937276b64c34f2d3049d293701aa8b22c228d4f547927d6153133780c9",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-archive-change",
+    "compatibility": "Requires openspec CLI.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "4c7b6459aea02ddef3f3a366291270962c77a37a6075e2365c6f4ccc3f93711c",
+    "description": "Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/.opencode/skills/openspec-archive-change/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "openspec",
+      "generatedBy": "1.7.0",
+      "version": "1.0"
+    },
+    "name": "openspec-archive-change",
+    "path": ".opencode/skills/openspec-archive-change",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "01f35f2a14c5b465428638bbc2f8fbfae5ffb68708e755cdb4a32de000c50831",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "01f35f2a14c5b465428638bbc2f8fbfae5ffb68708e755cdb4a32de000c50831"
+}
