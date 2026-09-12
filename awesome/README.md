@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **485**
+Published skills: **486**
 Repositories: **61**
 
 ## Browse repositories
@@ -286,6 +286,7 @@ Repositories: **61**
 - [plan-proposal](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/plan-proposal`
 - [release-revoke](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/release-revoke`
 - [run-dashboard-e2e-local-changes](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/run-dashboard-e2e-local-changes/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/run-dashboard-e2e-local-changes`
+- [theme-system](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/theme-system/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/theme-system`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`

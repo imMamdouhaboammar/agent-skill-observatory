@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 203
+Published Skills: 204
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -42,6 +42,7 @@ Published Skills: 203
 | [time-blocking-scheduler](../skills/iflytek/skillhub/builtin-skills/skills/time-blocking-scheduler/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Draft flexible daily or weekly schedules around a user's priorities, availability, energy patterns, and fixed commitments. Use for day planning, deadline reverse-planning, focus protection, or a time audit. |
 | [plan-proposal](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Develop-side planning orchestrator for an OpenSpec change: artifact creation → doubt-driven-review → scenario-design → fold of automated scenarios into tasks.md, then STOPS at the git-worktree boundary. Main interactive session only; never a subagent. Triggers: "plan this change", "draft the proposal and plan", "scaffold + review + fold", "prep a change for building". |
 | [run-dashboard-e2e-local-changes](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/run-dashboard-e2e-local-changes/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Run Playwright E2E (tests/e2e/) against the docker/ all-in-one harness so it reflects LOCAL code changes, not a stale cached image. |
+| [theme-system](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/theme-system/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | CSS custom properties theme architecture for 4 themes (studio, earth, athlete, gradient) with data-theme attribute switching and theme-aware components. Use when implementing theme switching, defining color schemes, or creating theme-responsive UI elements. |
 | [add-functor](../skills/DexForce/EmbodiChain/.agents/skills/add-functor/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new observation, event, reward, action, dataset, or randomization functor to an EmbodiChain environment |
 | [add-robot](../skills/DexForce/EmbodiChain/.agents/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when adding a new robot to EmbodiChain — scaffolds a RobotCfg subclass (single-file or package layout) with the _build_defaults hook, build_pk_serial_chain, registration, docs page, and test stub. |
 | [add-test](../skills/DexForce/EmbodiChain/.agents/skills/add-test/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Use when writing tests for EmbodiChain modules, including observation functors, reward functors, solvers, sensors, environments, or any Python module |

@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 179
+Published Skills: 180
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -30,6 +30,7 @@ Published Skills: 179
 | [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
 | [contributors-update](../skills/homeassistant-ai/ha-mcp/.claude/skills/contributors-update/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Find merged PR authors missing from README and update the contributors list after approval |
 | [issue-analysis](../skills/homeassistant-ai/ha-mcp/.claude/skills/issue-analysis/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Deep analysis of a single GitHub issue with codebase exploration, implementation planning, and architectural assessment. Use when you need to analyze a GitHub issue, assess its complexity, plan implementation approaches, and post a structured analysis comment. Triggers on "analyze issue", "deep analysis", "/issue-analysis <number>". |
+| [theme-system](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/theme-system/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | CSS custom properties theme architecture for 4 themes (studio, earth, athlete, gradient) with data-theme attribute switching and theme-aware components. Use when implementing theme switching, defining color schemes, or creating theme-responsive UI elements. |
 | [add-atomic-action](../skills/DexForce/EmbodiChain/.agents/skills/add-atomic-action/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Add a new simulation atomic action or motion primitive to EmbodiChain's typed planning and execution framework. Use when implementing a new skill, goal contract, action planner, symbolic effect, registration entry, documentation, and tests for AtomicActionEngine. |
 | [pr](../skills/DexForce/EmbodiChain/.agents/skills/pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 | Create single or stacked pull requests for EmbodiChain following the project's PR template and conventions, including proportional validation, dependency ordering, and proper GitHub repository labels |
 | [audit-authz](../skills/alpha-omega-security/scrutineer/skills/audit-authz/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for IDOR, tenant-isolation failures, missing or fail-open authorization guards, privilege escalation, and unverified claims used for access decisions. |
