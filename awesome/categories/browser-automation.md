@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 37
+Published Skills: 38
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -10,6 +10,7 @@ Published Skills: 37
 | [vercel-react-best-practices](../skills/Arize-ai/phoenix/.agents/skills/vercel-react-best-practices/README.md) | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 100 | 100 | 11416 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
 | [diagram-maker](../skills/iflytek/skillhub/builtin-skills/skills/diagram-maker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Create standalone SVG/HTML or editable Excalidraw diagrams for concepts, architecture, processes, flows, and whiteboards. |
 | [weather](../skills/iflytek/skillhub/builtin-skills/skills/weather/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Retrieve and summarize current weather and forecasts for locations, rain, temperature, and travel planning using an available web tool or wttr.in over HTTPS. |
+| [autofix](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly |
 | [run-dashboard-e2e-local-changes](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/run-dashboard-e2e-local-changes/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Run Playwright E2E (tests/e2e/) against the docker/ all-in-one harness so it reflects LOCAL code changes, not a stale cached image. |
 | [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
 | [pattern-debug](../skills/commontoolsinc/labs/skills/pattern-debug/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Debug pattern errors systematically |
