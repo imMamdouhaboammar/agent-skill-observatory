@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "91ba77e2a98c52c23dc6973cd29e56ebc22fe88625d1524aeef42999f4f911be",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/shorebird-patch",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(bash:*),",
+      "Bash(shorebird:*),",
+      "Bash(dart:*),",
+      "Bash(xcrun:*),",
+      "Bash(grep:*),",
+      "Read"
+    ],
+    "analysis_fingerprint": "91ba77e2a98c52c23dc6973cd29e56ebc22fe88625d1524aeef42999f4f911be",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/shorebird-patch",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "813a0671aa35d2f9106033247b7b7feffba3e693d83a534b9d18440171cc1431",
+    "description": "Shorebird OTA パッチの作成・staging 配布（stable 昇格はユーザー実施）",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "mobile",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/shorebird-patch/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "shorebird-patch",
+    "path": "bridge/.claude/skills/shorebird-patch",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1ae71e6f461d7a1f169ad6ae046d7247c909ede4c80b3dcdb66b74422eaa29a4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "1ae71e6f461d7a1f169ad6ae046d7247c909ede4c80b3dcdb66b74422eaa29a4"
+}

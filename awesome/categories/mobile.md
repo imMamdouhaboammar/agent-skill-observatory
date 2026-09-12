@@ -1,6 +1,6 @@
 # mobile
 
-Published Skills: 20
+Published Skills: 21
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -20,6 +20,7 @@ Published Skills: 20
 | [flutter-upgrade](../skills/chenyynx/claudio/bridge/.claude/skills/flutter-upgrade/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter SDKバージョンアップグレード対応。新バージョンのリリースノート・Breaking Changes調査、コードベース影響分析、mise/CI/Shorebird含むプロジェクト全体の対応タスクリスト作成と実行。「Flutterアップグレード」「Flutter X.Y.Zがリリースされた」「Flutter最新化」「Flutter更新」と言われたとき、またはFlutterの新バージョンについて言及されたときに使用する。 |
 | [mobile-automation](../skills/chenyynx/claudio/bridge/.claude/skills/mobile-automation/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | MCP (dart-mcp + Marionette) を使ったFlutterアプリのE2E自動化・UI検証ガイド。シミュレーターでのUI動作確認、モックプレビュー検証、Bridge経由のE2Eテスト、スクリーンショット撮影など、アプリの動作検証が必要なときに使う。「動作確認して」「UIを検証して」「E2Eテスト」「シミュレーターで確認」「モックで確認」と言われたときや、UI変更後の検証フェーズで使用すること。 |
 | [release-bridge](../skills/chenyynx/claudio/bridge/.claude/skills/release-bridge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Bridge Server のリリース（バージョンbump + CHANGELOG + タグ → GH Actions で npm publish） |
+| [shorebird-patch](../skills/chenyynx/claudio/bridge/.claude/skills/shorebird-patch/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Shorebird OTA パッチの作成・staging 配布（stable 昇格はユーザー実施） |
 | [threejs-postprocessing](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
 | [threejs-textures](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-textures/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization. |
 | [auditing-pixel-perfect-frontend](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized. |
