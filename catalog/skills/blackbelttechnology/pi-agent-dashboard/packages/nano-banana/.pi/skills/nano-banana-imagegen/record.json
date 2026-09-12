@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "9954be43b09d153c25d5cd982a4a50c3cf0c9223c1f9f1224449ca80b4d3db2f",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/nano-banana/.pi/skills/nano-banana-imagegen",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9954be43b09d153c25d5cd982a4a50c3cf0c9223c1f9f1224449ca80b4d3db2f",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/nano-banana/.pi/skills/nano-banana-imagegen",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d7487a54c6188c263d8c7590aa98baf2b5d56d80ec2891fd90371e79dc45fb56",
+    "description": "Generate and edit images using Google Gemini image models via the nano-banana CLI. Use when the user asks to create, generate, make, or edit images with AI. Supports text-to-image, image editing, style transfer, and multi-image composition. Trigger on requests like \"create an image\", \"generate a picture\", \"make me a logo\", \"edit this photo\", \"add X to this image\".",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "media",
+        "engineering",
+        "content",
+        "design",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/nano-banana/.pi/skills/nano-banana-imagegen/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "nano-banana-imagegen",
+    "path": "packages/nano-banana/.pi/skills/nano-banana-imagegen",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 6,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bdad46f3c1c60df1f96fd03f34227964a2ae096f9e4253bcb8764c612e79dfd2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "bdad46f3c1c60df1f96fd03f34227964a2ae096f9e4253bcb8764c612e79dfd2"
+}
