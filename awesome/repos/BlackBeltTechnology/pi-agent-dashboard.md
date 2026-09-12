@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 32
+Published Skills: 33
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=32, 60-84=0, <60=0
+Security distribution: 85+=33, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -29,6 +29,7 @@ Security distribution: 85+=32, 60-84=0, <60=0
 | [kb-setup](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/kb/skill/kb-setup/README.md) | `packages/kb/skill/kb-setup` | 100 | 100 | content, documentation, engineering, research |
 | [nano-banana-imagegen](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/nano-banana/.pi/skills/nano-banana-imagegen/README.md) | `packages/nano-banana/.pi/skills/nano-banana-imagegen` | 100 | 100 | content, design, engineering, media, productivity |
 | [plan-proposal](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) | `.pi/skills/plan-proposal` | 100 | 100 | agent-orchestration, content, design, engineering, productivity, testing |
+| [pre-scaffold-openspec-coherence-check](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/openspec-workflow/.pi/skills/pre-scaffold-openspec-coherence-check/README.md) | `packages/openspec-workflow/.pi/skills/pre-scaffold-openspec-coherence-check` | 100 | 100 | agent-orchestration, content, design, engineering, integrations, research |
 | [project-init](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/extension/.pi/skills/project-init/README.md) | `packages/extension/.pi/skills/project-init` | 100 | 100 | agent-orchestration, content, documentation, engineering, testing |
 | [release-revoke](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) | `.pi/skills/release-revoke` | 100 | 100 | devops, engineering |
 | [responsive-mobile-first](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/responsive-mobile-first/README.md) | `packages/frontend-patterns/.pi/skills/responsive-mobile-first` | 100 | 100 | content, design, media, mobile |
