@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 32
+Published Skills: 33
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=32, 60-84=0, <60=0
+Security distribution: 85+=33, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,6 +24,7 @@ Security distribution: 85+=32, 60-84=0, <60=0
 | [claude-design](../../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | `skills/creative/claude-design` | 97 | 100 | content, design, documents, engineering, marketing, productivity |
 | [codebase-inspection](../../skills/ComponentDock/free-react-templates/skills/github/codebase-inspection/README.md) | `skills/github/codebase-inspection` | 97 | 100 | browser-automation, content, documentation, engineering |
 | [codex](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | `skills/autonomous-ai-agents/codex` | 97 | 100 | commerce, content, data, engineering, integrations, productivity |
+| [colorlib-template-replication](../../skills/ComponentDock/free-react-templates/skills/research/colorlib-template-replication/README.md) | `skills/research/colorlib-template-replication` | 97 | 100 | browser-automation, commerce, content, design, engineering, media |
 | [design-md](../../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | `skills/creative/design-md` | 97 | 100 | commerce, content, design, engineering, localization, marketing |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
 | [gif-search](../../skills/ComponentDock/free-react-templates/skills/media/gif-search/README.md) | `skills/media/gif-search` | 97 | 100 | content, design, devops, engineering, media |

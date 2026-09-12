@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **716**
+Published skills: **717**
 Repositories: **76**
 
 ## Browse repositories
@@ -628,6 +628,7 @@ Repositories: **76**
 - [nano-pdf](./skills/componentdock/free-react-templates/skills/productivity/nano-pdf/README.md) · `componentdock/free-react-templates:skills/productivity/nano-pdf`
 - [teams-meeting-pipeline](./skills/componentdock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) · `componentdock/free-react-templates:skills/productivity/teams-meeting-pipeline`
 - [blogwatcher](./skills/componentdock/free-react-templates/skills/research/blogwatcher/README.md) · `componentdock/free-react-templates:skills/research/blogwatcher`
+- [colorlib-template-replication](./skills/componentdock/free-react-templates/skills/research/colorlib-template-replication/README.md) · `componentdock/free-react-templates:skills/research/colorlib-template-replication`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`

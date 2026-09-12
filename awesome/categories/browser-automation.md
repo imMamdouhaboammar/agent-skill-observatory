@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 61
+Published Skills: 62
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -61,6 +61,7 @@ Published Skills: 61
 | [architecture-diagram](../skills/ComponentDock/free-react-templates/skills/creative/architecture-diagram/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Dark-themed SVG architecture/cloud/infra diagrams as HTML. |
 | [blogwatcher](../skills/ComponentDock/free-react-templates/skills/research/blogwatcher/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool. |
 | [codebase-inspection](../skills/ComponentDock/free-react-templates/skills/github/codebase-inspection/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Inspect codebases w/ pygount: LOC, languages, ratios. |
+| [colorlib-template-replication](../skills/ComponentDock/free-react-templates/skills/research/colorlib-template-replication/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Recreate ColorLib templates faithfully from preview and CSS. |
 | [github-org-automation](../skills/ComponentDock/free-react-templates/skills/github/github-org-automation/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Headless GitHub org automation: auth, scopes, bulk repo ops. |
 | [pretext](../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Build creative browser demos with DOM-free text layout. |
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |

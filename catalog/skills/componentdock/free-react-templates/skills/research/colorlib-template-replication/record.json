@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "6f4c91bfa87e1a6c34cf65aceb50fbec28fff7e09c5ecf22700d0da8f65309fc",
+  "canonical_key": "componentdock/free-react-templates:skills/research/colorlib-template-replication",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6f4c91bfa87e1a6c34cf65aceb50fbec28fff7e09c5ecf22700d0da8f65309fc",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/research/colorlib-template-replication",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1cc33fba5056ca0a6c23721a331ce2f30b69be5aa4cbe2fc77bffc1bb337d0dd",
+    "description": "Recreate ColorLib templates faithfully from preview and CSS.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "media",
+        "browser-automation",
+        "commerce",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/research/colorlib-template-replication/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['colorlib', 'templates', 'replication', 'design', 'css', 'react', 'frontend'], 'related_skills': ['web-catalog-scraping', 'vite-react-monorepo-tooling', 'autonomous-cron-pipelines']}"
+    },
+    "name": "colorlib-template-replication",
+    "path": "skills/research/colorlib-template-replication",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "577959a4d76e956267a67682ee4cf1b916382c08a0926fe482bbda6e13dd0b34",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "577959a4d76e956267a67682ee4cf1b916382c08a0926fe482bbda6e13dd0b34"
+}
