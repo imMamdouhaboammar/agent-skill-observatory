@@ -1,0 +1,104 @@
+{
+  "analysis_fingerprint": "ac599159b0cb6eef8e0f9cdc1dc18dae616eee579303e4200ddd45aa57c91241",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/diagnosis",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ac599159b0cb6eef8e0f9cdc1dc18dae616eee579303e4200ddd45aa57c91241",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/diagnosis",
+    "compatibility": "PlotPickle repository; Pi, Cline, and developer repair workers.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "4c61b6bca323822ce13e08948376299e05db83ca3f35ba5dd164adc9f59fa964",
+    "description": "Diagnose non-trivial PlotPickle bugs from the narrowest exact, red-capable feedback loop before speculative source changes.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "product",
+        "testing",
+        "commerce",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/diagnosis/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "owner": "plotpickle",
+      "role": "diagnosis",
+      "version": "1"
+    },
+    "name": "diagnosis",
+    "path": ".agents/skills/diagnosis",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "373d58d177a60cbad43204c001dfd2c58218547e8fa39b466d59fab70490acf2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "373d58d177a60cbad43204c001dfd2c58218547e8fa39b466d59fab70490acf2"
+}

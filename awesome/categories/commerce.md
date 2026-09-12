@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 119
+Published Skills: 120
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -76,6 +76,7 @@ Published Skills: 119
 | [google-docs](../skills/chnlich/charlie-bot/skills/google-docs/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Google Docs documents, or manage document content through the Google Docs and Drive APIs. |
 | [improve-goal](../skills/chnlich/charlie-bot/skills/improve-goal/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | How to write effective improve loop goal prompts — for the master CC agent that writes the --goal-file content. |
 | [plan-approval](../skills/chnlich/charlie-bot/skills/plan-approval/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Enforces explicit user approval at the CharlieBot master-to-user boundary. Use only when the CharlieBot master is producing an understanding page, presenting a plan, receiving plan feedback, or preparing to delegate implementation. |
+| [diagnosis](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/diagnosis/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Diagnose non-trivial PlotPickle bugs from the narrowest exact, red-capable feedback loop before speculative source changes. |
 | [atm-error-code-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-error-code-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve ATM_* error codes from CLI JSON, logs, or user reports into canonical meaning, remediation, retryability, and approval guidance. |
 | [atm-governance-router](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Route natural-language cleanup, refactor, migration, and candidate ranking goals through ATM before local analysis. |
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
