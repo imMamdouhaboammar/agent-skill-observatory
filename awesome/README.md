@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **546**
+Published skills: **547**
 Repositories: **62**
 
 ## Browse repositories
@@ -329,6 +329,7 @@ Repositories: **62**
 - [ben-code-quality](./skills/bryanharrisscripts/plotpickle/.agents/skills/ben-code-quality/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/ben-code-quality`
 - [buzz-guildhall-reporting](./skills/bryanharrisscripts/plotpickle/.agents/skills/buzz-guildhall-reporting/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/buzz-guildhall-reporting`
 - [character-visual-development](./skills/bryanharrisscripts/plotpickle/.agents/skills/character-visual-development/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/character-visual-development`
+- [critics-circle](./skills/bryanharrisscripts/plotpickle/.agents/skills/critics-circle/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/critics-circle`
 - [buildd-mcp-consumer](./skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) · `buildd-ai/buildd:.claude/skills/buildd-mcp-consumer`
 - [buildd-workflow](./skills/buildd-ai/buildd/.claude/skills/buildd-workflow/README.md) · `buildd-ai/buildd:.claude/skills/buildd-workflow`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`

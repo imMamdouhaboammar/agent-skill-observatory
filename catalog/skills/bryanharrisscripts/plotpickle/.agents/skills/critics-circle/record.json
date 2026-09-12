@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "98a00a2d02b7f99fd07cc24421cca55b90955967ce3426ae95fce9e2fd1929f5",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/critics-circle",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "98a00a2d02b7f99fd07cc24421cca55b90955967ce3426ae95fce9e2fd1929f5",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/critics-circle",
+    "compatibility": "PlotPickle Community/Guildhall; Mastra critic role; local/optional provider routing supplied by the host.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e370d7204de00a7fcc44bc931b53914b0f0bdcc3bd6dd8fcdd49f4909e59653c",
+    "description": "Give independent PlotPickle critique of story, world, characters, structure, pacing, dialogue, continuity, audience clarity and commercial positioning using bounded supplied evidence.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "legal-compliance",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/critics-circle/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "owner": "plotpickle",
+      "role": "critic",
+      "version": "1"
+    },
+    "name": "critics-circle",
+    "path": ".agents/skills/critics-circle",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0004c473e9477366e0db5b6490356c3d6338803e651c1eaa5eb94faa6a972033",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "0004c473e9477366e0db5b6490356c3d6338803e651c1eaa5eb94faa6a972033"
+}
