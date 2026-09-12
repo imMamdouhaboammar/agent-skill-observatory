@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 143
+Published Skills: 144
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -81,6 +81,7 @@ Published Skills: 143
 | [web-research](../skills/aganesy/QFAI/.qfai/assistant/skills/web-research/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | 8-stage web research pipeline with MCP integration, caching, and citation generation. |
 | [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [atm-diagnostic-loop](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-diagnostic-loop/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence. |
+| [sf-integration-rules](../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 100 | 100 | 3 | Integration grammar router — invoke when adding a backend module, a frontend page, an API endpoint, a React Query hook, a form, an RBAC permission, or any cross-cutting wire-up in a SaaSFoundryAI-generated project. Triggers on phrases like "add a module", "add a page", "wire RBAC", "add a hook", "add a form", "add an endpoint", "add a Prisma model", "add an entity", "scaffold a CRUD", "create a controller". |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
 | [test-driven-development](../skills/danmo-ai/danmo-work/core/resource/home/skills/test-driven-development/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | RED-GREEN-REFACTOR before writing production code. Use when implementing features, bug fixes, behavior changes, or refactoring — before writing implementation code. |
 | [writing-plans](../skills/danmo-ai/danmo-work/core/resource/home/skills/writing-plans/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Write file-level, bite-sized implementation plans before coding. Use when you have a spec or multi-step requirements and need an actionable plan before touching implementation. |

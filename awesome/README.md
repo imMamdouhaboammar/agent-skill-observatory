@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **763**
-Repositories: **79**
+Published skills: **764**
+Repositories: **80**
 
 ## Browse repositories
 
@@ -26,6 +26,7 @@ Repositories: **79**
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DanFashauer/SignalGrid-Review-Hub](./repos/DanFashauer/SignalGrid-Review-Hub.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
+- [DiamondForgeFr/SaasFoundryAI](./repos/DiamondForgeFr/SaasFoundryAI.md)
 - [Embassy-of-the-Free-Mind/sourcelibrary-v2](./repos/Embassy-of-the-Free-Mind/sourcelibrary-v2.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
 - [Hoshock/HolodoriOptimizer](./repos/Hoshock/HolodoriOptimizer.md)
@@ -704,6 +705,7 @@ Repositories: **79**
 - [add-task-env](./skills/dexforce/embodichain/.claude/skills/add-task-env/README.md) · `dexforce/embodichain:.claude/skills/add-task-env`
 - [review-pr](./skills/dexforce/embodichain/.claude/skills/review-pr/README.md) · `dexforce/embodichain:.claude/skills/review-pr`
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
+- [sf-integration-rules](./skills/diamondforgefr/saasfoundryai/.agents/skills/sf-integration-rules/README.md) · `diamondforgefr/saasfoundryai:.agents/skills/sf-integration-rules`
 - [frontend](./skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) · `diegofisi/youtube-downloader:.claude/skills/frontend`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`

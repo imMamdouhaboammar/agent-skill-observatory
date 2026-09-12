@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 301
+Published Skills: 302
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -133,6 +133,7 @@ Published Skills: 301
 | [visual-contract](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-contract/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation. |
 | [visual-qa](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-qa/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence. |
 | [writer-in-residence](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/writer-in-residence/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings. |
+| [sf-integration-rules](../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 100 | 100 | 3 | Integration grammar router — invoke when adding a backend module, a frontend page, an API endpoint, a React Query hook, a form, an RBAC permission, or any cross-cutting wire-up in a SaaSFoundryAI-generated project. Triggers on phrases like "add a module", "add a page", "wire RBAC", "add a hook", "add a form", "add an endpoint", "add a Prisma model", "add an entity", "scaffold a CRUD", "create a controller". |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [computer-use](../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate desktop applications through the computer tool: find and focus windows, take screenshots to see the screen, then click, type, and press keys. Use for GUI automation of real apps a human would drive by hand. |

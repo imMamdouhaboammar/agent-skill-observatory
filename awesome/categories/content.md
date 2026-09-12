@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 483
+Published Skills: 484
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -268,6 +268,7 @@ Published Skills: 483
 | [atm-task-intent-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing. |
 | [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
 | [mailbox-worker-execution](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/mailbox-worker-execution/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Mailbox worker execution workflow for agents that claim dispatch cards, complete scoped work, run required checks, and report done or blocked with evidence. |
+| [sf-integration-rules](../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 100 | 100 | 3 | Integration grammar router — invoke when adding a backend module, a frontend page, an API endpoint, a React Query hook, a form, an RBAC permission, or any cross-cutting wire-up in a SaaSFoundryAI-generated project. Triggers on phrases like "add a module", "add a page", "wire RBAC", "add a hook", "add a form", "add an endpoint", "add a Prisma model", "add an entity", "scaffold a CRUD", "create a controller". |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
