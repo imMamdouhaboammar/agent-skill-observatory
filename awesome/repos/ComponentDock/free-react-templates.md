@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 39
+Published Skills: 40
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=39, 60-84=0, <60=0
+Security distribution: 85+=40, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -47,4 +47,5 @@ Security distribution: 85+=39, 60-84=0, <60=0
 | [simplify-code](../../skills/ComponentDock/free-react-templates/skills/software-development/simplify-code/README.md) | `skills/software-development/simplify-code` | 97 | 100 | agent-orchestration, commerce, content, design, engineering, research |
 | [sketch](../../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | `skills/creative/sketch` | 97 | 100 | browser-automation, content, design, documentation, engineering, productivity |
 | [songsee](../../skills/ComponentDock/free-react-templates/skills/media/songsee/README.md) | `skills/media/songsee` | 97 | 100 | media |
+| [spike](../../skills/ComponentDock/free-react-templates/skills/software-development/spike/README.md) | `skills/software-development/spike` | 97 | 100 | agent-orchestration, ai-ml, documentation, integrations, productivity, research |
 | [teams-meeting-pipeline](../../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | `skills/productivity/teams-meeting-pipeline` | 97 | 100 | documentation, engineering, integrations, productivity, testing |

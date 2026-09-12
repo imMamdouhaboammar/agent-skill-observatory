@@ -1,6 +1,6 @@
 # agent-orchestration
 
-Published Skills: 38
+Published Skills: 39
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -42,3 +42,4 @@ Published Skills: 38
 | [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |
 | [plan](../skills/ComponentDock/free-react-templates/skills/software-development/plan/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Write a markdown plan to .hermes/plans/; no execution. |
 | [simplify-code](../skills/ComponentDock/free-react-templates/skills/software-development/simplify-code/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Parallel 4-agent cleanup of recent code changes. |
+| [spike](../skills/ComponentDock/free-react-templates/skills/software-development/spike/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway experiments to validate an idea before build. |
