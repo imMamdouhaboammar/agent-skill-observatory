@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **795**
+Published skills: **796**
 Repositories: **89**
 
 ## Browse repositories
@@ -717,6 +717,7 @@ Repositories: **89**
 - [convoy-wizard](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy-wizard`
 - [convoy](./skills/deploy-forward/convoy/plugins/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugins/convoy/skills/convoy`
 - [convoy-end](./skills/deploy-forward/convoy/plugins/convoy/skills/convoy-end/README.md) · `deploy-forward/convoy:plugins/convoy/skills/convoy-end`
+- [convoy](./skills/deploy-forward/convoy/skills/convoy/README.md) · `deploy-forward/convoy:skills/convoy`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`
