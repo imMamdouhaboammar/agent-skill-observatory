@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 42
+Published Skills: 43
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -46,3 +46,4 @@ Published Skills: 42
 | [engineering-gsap-animations](../skills/jhonatan-oliveiradev/agent-skills/skills/engineering-gsap-animations/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when GSAP has been selected for React or Next.js animation, especially timelines, ScrollTrigger, pinning, scrub, SplitText, Flip, SVG, responsive animation, plugin lifecycle, cleanup, or animation-related integration bugs. |
 | [evaluating-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer must demonstrate a target capability level against a versioned assessment blueprint, observable rubric criteria, and explicit evidence gates. |
 | [last-20-percent](../skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Finds and finishes the last 20% of a built solution — the experiential layer agents skip: what the output actually reads like, which pages or screens should exist, first-run and empty states, opinionated defaults, the golden path. Use when the user explicitly asks to plan or audit the experiential layer, or says "last 20%", "finish this", "make it actually good", "is this actually done", or "why does this feel flat". Do not invoke automatically for ordinary builds or completion checks. |
+| [nonprofit-helpdesk](../skills/artbakerchat/Y/app/ForgeAgent/skills/nonprofit-helpdesk/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 97 | 100 | 0 | Help small nonprofits create practical, lightweight administrative materials. |

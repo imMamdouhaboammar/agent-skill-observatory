@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "159b0a853b3ed8537b5061711963cfa2fe552d00705df5e366063168c77ea7cb",
+  "canonical_key": "artbakerchat/y:app/forgeagent/skills/nonprofit-helpdesk",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "159b0a853b3ed8537b5061711963cfa2fe552d00705df5e366063168c77ea7cb",
+    "archived": false,
+    "canonical_key": "artbakerchat/y:app/forgeagent/skills/nonprofit-helpdesk",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "48c68850193511bc6f106e53223364a3ae0a1f83597220016542b7c305e366a4",
+    "description": "Help small nonprofits create practical, lightweight administrative materials.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/artbakerchat/Y/blob/main/app/ForgeAgent/skills/nonprofit-helpdesk/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:06:48.908824Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:48.908824Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "nonprofit-helpdesk",
+    "path": "app/ForgeAgent/skills/nonprofit-helpdesk",
+    "pushed_at": "2026-09-12T17:04:36Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "artbakerchat/Y",
+    "repo_url": "https://github.com/artbakerchat/Y",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3612145eacf2fa55337d6326ad1ed7b70f4ae74469ebb6f2dcc7a542b2f6ba82",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "3612145eacf2fa55337d6326ad1ed7b70f4ae74469ebb6f2dcc7a542b2f6ba82"
+}
