@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 4
-Categories: commerce, content, data, design, devops, documentation, engineering, integrations, productivity, research
+Published Skills: 5
+Categories: commerce, content, data, design, devops, documentation, engineering, integrations, marketing, productivity, research
 Best overall score: 100
-Security distribution: 85+=4, 60-84=0, <60=0
+Security distribution: 85+=5, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -13,3 +13,4 @@ Security distribution: 85+=4, 60-84=0, <60=0
 | [openspec-archive-change](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-archive-change/README.md) | `.opencode/skills/openspec-archive-change` | 100 | 100 | content, productivity, research |
 | [openspec-explore](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-explore/README.md) | `.opencode/skills/openspec-explore` | 100 | 100 | content, data, design, devops, integrations, productivity |
 | [openspec-propose](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-propose/README.md) | `.opencode/skills/openspec-propose` | 100 | 100 | commerce, content, design, productivity |
+| [openspec-sync-specs](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-sync-specs/README.md) | `.opencode/skills/openspec-sync-specs` | 100 | 100 | content, engineering, marketing, productivity, research |

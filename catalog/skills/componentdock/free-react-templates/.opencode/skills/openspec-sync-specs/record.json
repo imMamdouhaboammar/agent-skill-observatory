@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "7160ec0396e0f63a25adf13520807295fc51c8d26b834d189f411419f806e214",
+  "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-sync-specs",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(openspec:*)"
+    ],
+    "analysis_fingerprint": "7160ec0396e0f63a25adf13520807295fc51c8d26b834d189f411419f806e214",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-sync-specs",
+    "compatibility": "Requires openspec CLI.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "13be8daaacaee16017d374c91802f2661ac7109d30e25e186499087cb3e18220",
+    "description": "Sync delta specs from a change to main specs. Use when the user wants to update main specs with changes from a delta spec, without archiving the change.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "marketing",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/.opencode/skills/openspec-sync-specs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "openspec",
+      "generatedBy": "1.7.0",
+      "version": "1.0"
+    },
+    "name": "openspec-sync-specs",
+    "path": ".opencode/skills/openspec-sync-specs",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ea99b7d8bfc07ea4e9073ef343b84324491b00b207f05c0ff50b3277cd2b8717",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "ea99b7d8bfc07ea4e9073ef343b84324491b00b207f05c0ff50b3277cd2b8717"
+}
