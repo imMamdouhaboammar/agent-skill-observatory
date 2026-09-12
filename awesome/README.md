@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **727**
+Published skills: **728**
 Repositories: **77**
 
 ## Browse repositories
@@ -642,6 +642,7 @@ Repositories: **77**
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [add-proteins-to-graphs](./skills/culturebotai/naturalproductmech/.claude/skills/add-proteins-to-graphs/README.md) · `culturebotai/naturalproductmech:.claude/skills/add-proteins-to-graphs`
+- [review-open-issues](./skills/culturebotai/naturalproductmech/.claude/skills/review-open-issues/README.md) · `culturebotai/naturalproductmech:.claude/skills/review-open-issues`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
 - [fetch-source](./skills/culturebotai/traitmech/.claude/skills/fetch-source/README.md) · `culturebotai/traitmech:.claude/skills/fetch-source`
 - [review-open-issues](./skills/culturebotai/traitmech/.claude/skills/review-open-issues/README.md) · `culturebotai/traitmech:.claude/skills/review-open-issues`

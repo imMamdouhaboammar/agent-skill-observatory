@@ -1,6 +1,6 @@
 # project-management
 
-Published Skills: 10
+Published Skills: 11
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -12,5 +12,6 @@ Published Skills: 10
 | [atm-memory-consolidate](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index. |
 | [karpathy-ko](../skills/andyko18/specops-ko/skills/karpathy-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 작성·검토·리팩터링 시 항상 적용 — Think·Simplicity·Surgical·Goal 4원칙으로 LLM 코딩 실수 방지 (Karpathy 관찰 한국어 재창작) |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
+| [review-open-issues](../skills/CultureBotAI/NaturalProductMech/.claude/skills/review-open-issues/README.md) | [CultureBotAI/NaturalProductMech](https://github.com/CultureBotAI/NaturalProductMech) | 100 | 100 | 0 | Sweep and triage the full open-issue queue for NaturalProductMech. Fetches every open issue, checks each against the committed corpus, the inventories, the schema and the code, flags duplicates and stale figures, and assigns a priority tier (P0 something wrong that every gate passes, P1 real-but-schedulable, P2 low-severity/process/doc, P3 backlog). Produces a short ranked report; only writes to GitHub when asked. Use when the user asks to review issues, prioritize the backlog, or triage, or after a review pass files a batch of new issues. |
 | [increment](../skills/a-lottes/aSPARK/skills/increment/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day. |
 | [next-steps](../skills/a-lottes/aSPARK/skills/next-steps/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Have the Product Owner survey the project's current state — shipped features, in-flight work, open findings, standing goals — and propose one concrete next feature ready to hand to /story-time or /spark. Use when the user has no idea in hand and asks "what should we build next", when a loop just closed and the next cycle needs a starting point, or when the backlog feels stale and needs a grounded suggestion instead of a guess. |

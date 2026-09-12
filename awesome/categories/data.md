@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 256
+Published Skills: 257
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -196,6 +196,7 @@ Published Skills: 256
 | [pose-library-design](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/pose-library-design/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Design reusable 2D character pose libraries, action cycles, and expression states for data-driven animation. |
 | [refund-processing](../skills/artbakerchat/Y/center/03-skills/skills/refund-processing/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 | Step-by-step process for handling customer refund requests, including order verification, return window checks, and refund issuance. |
 | [remotion-best-practices](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/remotion-best-practices/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Best practices for Remotion - Video creation in React |
+| [review-open-issues](../skills/CultureBotAI/NaturalProductMech/.claude/skills/review-open-issues/README.md) | [CultureBotAI/NaturalProductMech](https://github.com/CultureBotAI/NaturalProductMech) | 100 | 100 | 0 | Sweep and triage the full open-issue queue for NaturalProductMech. Fetches every open issue, checks each against the committed corpus, the inventories, the schema and the code, flags duplicates and stale figures, and assigns a priority tier (P0 something wrong that every gate passes, P1 real-but-schedulable, P2 low-severity/process/doc, P3 backlog). Produces a short ranked report; only writes to GitHub when asked. Use when the user asks to review issues, prioritize the backlog, or triage, or after a review pass files a batch of new issues. |
 | [security-review](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | security findings, attack surfaces, dependency risk |
 | [speech-to-text](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/speech-to-text/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content. |
 | [structured-artifacts-ko](../skills/andyko18/specops-ko/skills/structured-artifacts-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 Lifecycle 커맨드의 Process 첫 스텝 — `.specops/<FID>/` 디렉토리 규약으로 단계 간 파일-기반 통신을 강제한다 |
