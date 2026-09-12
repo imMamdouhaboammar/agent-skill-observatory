@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 447
+Published Skills: 448
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -66,6 +66,7 @@ Published Skills: 447
 | [my-pr-checker](../skills/homeassistant-ai/ha-mcp/.claude/skills/my-pr-checker/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Manage your own GitHub pull requests — check CI status, inline review comments, PR-level comments, resolve review threads, fix issues, and iterate until all checks pass and threads are resolved. Use for managing your own PRs (not external contributions). Triggers on "check my PR", "check PR", "/my-pr-checker <number>". |
 | [atmos-asciicast](../skills/cloudposse/atmos/.claude/skills/atmos-asciicast/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds. |
 | [atmos-aws-compliance](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-compliance/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS compliance commands in Atmos: atmos aws compliance report, Security Hub standards, CIS AWS, PCI DSS, SOC2, HIPAA, NIST, report formats, AI summaries |
+| [atmos-aws-ecr](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-ecr/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS ECR commands in Atmos: atmos aws ecr login, ECR auth integrations, Docker credential writes, registry login via identity or explicit registry |
 | [changelog](../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Blog post authoring for Atmos: MDX template, frontmatter, website/blog/tags.yml and authors.yml rules, problem-first framing, backtick-opening ban, optional cast embeds, and no-Go-internals leakage. Invoke when writing, editing, or reviewing a website/blog/*.mdx changelog post. |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [docs](../skills/cloudposse/atmos/.claude/skills/docs/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks |

@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 101
+Published Skills: 102
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -21,6 +21,7 @@ Published Skills: 101
 | [contrib-pr-review](../skills/homeassistant-ai/ha-mcp/.claude/skills/contrib-pr-review/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Review a contribution PR for safety, quality, and readiness. Checks for security concerns, test coverage, size appropriateness, and intent alignment. Use when reviewing external contributions. |
 | [my-pr-checker](../skills/homeassistant-ai/ha-mcp/.claude/skills/my-pr-checker/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Manage your own GitHub pull requests — check CI status, inline review comments, PR-level comments, resolve review threads, fix issues, and iterate until all checks pass and threads are resolved. Use for managing your own PRs (not external contributions). Triggers on "check my PR", "check PR", "/my-pr-checker <number>". |
 | [atmos-aws-compliance](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-compliance/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS compliance commands in Atmos: atmos aws compliance report, Security Hub standards, CIS AWS, PCI DSS, SOC2, HIPAA, NIST, report formats, AI summaries |
+| [atmos-aws-ecr](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-ecr/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS ECR commands in Atmos: atmos aws ecr login, ECR auth integrations, Docker credential writes, registry login via identity or explicit registry |
 | [security-remediate](../skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open. |
 | [speckit-analyze](../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation. |
 | [speckit-checklist](../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate a custom checklist for the current feature based on user requirements. |
