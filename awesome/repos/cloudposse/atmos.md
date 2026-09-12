@@ -2,16 +2,17 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 24
+Published Skills: 25
 Categories: ai-ml, commerce, content, data, design, devops, documentation, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=24, 60-84=0, <60=0
+Security distribution: 85+=25, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [atmos-asciicast](../../skills/cloudposse/atmos/.claude/skills/atmos-asciicast/README.md) | `.claude/skills/atmos-asciicast` | 100 | 100 | content, devops, documentation, engineering, media, testing |
 | [atmos-aws-compliance](../../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-compliance/README.md) | `agent-skills/skills/atmos-aws-compliance` | 100 | 100 | data, engineering, legal-compliance, productivity, security |
 | [atmos-aws-ecr](../../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-ecr/README.md) | `agent-skills/skills/atmos-aws-ecr` | 100 | 100 | devops, engineering, integrations, productivity, security |
+| [atmos-aws-eks](../../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-eks/README.md) | `agent-skills/skills/atmos-aws-eks` | 100 | 100 | devops, engineering, integrations, productivity, security |
 | [atmos-core-component-development](../../skills/cloudposse/atmos/.claude/skills/atmos-core-component-development/README.md) | `.claude/skills/atmos-core-component-development` | 100 | 100 | commerce, data, design, devops, documentation, productivity |
 | [changelog](../../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | `.claude/skills/changelog` | 100 | 100 | ai-ml, content, documentation, engineering, product, productivity |
 | [component-development](../../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | `.claude/skills/component-development` | 100 | 100 | commerce, devops, documentation, engineering, integrations, research |
