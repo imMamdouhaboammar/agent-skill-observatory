@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "b09a597bcbb19ada7030072e71a0b052424a7effba339ddb2e1779fd41b00f6f",
+  "canonical_key": "cloudposse/atmos:.claude/skills/speckit-git-commit",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b09a597bcbb19ada7030072e71a0b052424a7effba339ddb2e1779fd41b00f6f",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:.claude/skills/speckit-git-commit",
+    "compatibility": "Requires spec-kit project structure with .specify/ directory",
+    "consecutive_misses": 0,
+    "content_fingerprint": "18ade7acd557ea1eccad2c25493a75efe48e30ac8711fbddbb57476db2980d00",
+    "description": "Auto-commit changes after a Spec Kit command completes",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-commit/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "github-spec-kit",
+      "source": "git:commands/speckit.git.commit.md"
+    },
+    "name": "speckit-git-commit",
+    "path": ".claude/skills/speckit-git-commit",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a6f0c9f5d7fa74d0a28a301dd3f7dcb63c67309d74bad2b2d7831c8af94223c8",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "a6f0c9f5d7fa74d0a28a301dd3f7dcb63c67309d74bad2b2d7831c8af94223c8"
+}
