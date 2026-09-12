@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "6658f66a70c6f5209856c5dbcbed45fd5c63dc9c70b25078ea773b83a7bdd53a",
+  "canonical_key": "dpatel-93/alfred:skills/browser",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6658f66a70c6f5209856c5dbcbed45fd5c63dc9c70b25078ea773b83a7bdd53a",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/browser",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "66240b5d7e8468192947e41328f7a66bc9006819ba7ec9e1c1931318d7a63f42",
+    "description": "Web browser automation with AI-optimized snapshots for alfred-flow agents",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "browser-automation",
+        "design",
+        "integrations",
+        "content",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/browser/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "browser",
+    "path": "skills/browser",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "194cf05610ac252018fba4ae79ef337fc460291402c35f578bab02fc4c5609f9",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "194cf05610ac252018fba4ae79ef337fc460291402c35f578bab02fc4c5609f9"
+}
