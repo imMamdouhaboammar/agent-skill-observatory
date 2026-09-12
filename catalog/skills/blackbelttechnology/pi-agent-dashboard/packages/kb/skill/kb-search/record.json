@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "d1d3ed79d5622b87578ce79f6b3410d4996af12e75a04ae3ffc583b0dda0554a",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/kb/skill/kb-search",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d1d3ed79d5622b87578ce79f6b3410d4996af12e75a04ae3ffc583b0dda0554a",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/kb/skill/kb-search",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b8a97c458a642ff8bb4fdf45050c024da052b7e0e49fb3ca4928610a7ee0ca70",
+    "description": "Search the local markdown knowledge base for facts, prior decisions, definitions, people, error codes, config flags, and how-we-fixed-it notes. ALWAYS search here BEFORE answering a project-specific question from memory, guessing, or asking the user. Use whenever you hit an unknown term, an unfamiliar entity, an error string, or a \"how do we do X / why did we choose Y\" question.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/kb/skill/kb-search/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "kb-search",
+    "path": "packages/kb/skill/kb-search",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ab623d892755e8af855c27667503abe56948d6ba1a00b72337d151df66e85482",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "ab623d892755e8af855c27667503abe56948d6ba1a00b72337d151df66e85482"
+}
