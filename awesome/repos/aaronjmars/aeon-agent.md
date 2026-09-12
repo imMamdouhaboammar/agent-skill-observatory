@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 11
-Categories: agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, media, product, productivity, research, security
+Published Skills: 12
+Categories: agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, media, product, productivity, project-management, research, security
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [github-trending](../../skills/aaronjmars/aeon-agent/skills/github-trending/README.md) | `skills/github-trending` | 100 | 100 | ai-ml, content, data, devops, engineering, media |
 | [heartbeat](../../skills/aaronjmars/aeon-agent/skills/heartbeat/README.md) | `skills/heartbeat` | 100 | 100 | commerce, content, engineering, hr-recruiting, research, security |
 | [hunter-22](../../skills/aaronjmars/aeon-agent/skills/hunter-22/README.md) | `skills/hunter-22` | 100 | 100 | content, documentation, engineering, hr-recruiting, research, security |
+| [idea-forge](../../skills/aaronjmars/aeon-agent/skills/idea-forge/README.md) | `skills/idea-forge` | 100 | 100 | content, data, engineering, hr-recruiting, project-management, research |

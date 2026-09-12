@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "8c243eab0b78a5effb3dec7854d1a2db5cb5104a5a954b3fb6cf560af4c7d5a4",
+  "canonical_key": "aaronjmars/aeon-agent:skills/idea-forge",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8c243eab0b78a5effb3dec7854d1a2db5cb5104a5a954b3fb6cf560af4c7d5a4",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/idea-forge",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8b16fc222319719b9d00e4cec28b00951a51e8cbb81b2d13f46a6f0372d54568",
+    "description": "Three-mode idea engine - generate collides the week's zeitgeist with what you can ship into scored wedges; validate viability-screens the idea backlog; memo writes evidence-backed startup memos.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "project-management",
+        "data",
+        "engineering",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/idea-forge/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "basics",
+      "tags": "['research', 'ideas', 'creative', 'meta']",
+      "title": "Idea Forge",
+      "var": ""
+    },
+    "name": "idea-forge",
+    "path": "skills/idea-forge",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1d11b47b0736cd79633306102192fb79a8619f67bab2786ff0a4fa56be7d0a56",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "1d11b47b0736cd79633306102192fb79a8619f67bab2786ff0a4fa56be7d0a56"
+}
