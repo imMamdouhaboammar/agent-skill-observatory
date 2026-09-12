@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 23
+Published Skills: 24
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=23, 60-84=0, <60=0
+Security distribution: 85+=24, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -32,3 +32,4 @@ Security distribution: 85+=23, 60-84=0, <60=0
 | [gsap-react](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-react/README.md) | `.agents/skills/gsap-react` | 100 | 100 | browser-automation, content, engineering, media |
 | [gsap-scrolltrigger](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-scrolltrigger/README.md) | `.agents/skills/gsap-scrolltrigger` | 100 | 100 | commerce, content, design, documentation |
 | [gsap-timeline](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-timeline/README.md) | `.agents/skills/gsap-timeline` | 100 | 100 | commerce |
+| [gsap-utils](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-utils/README.md) | `.agents/skills/gsap-utils` | 100 | 100 | commerce, content, documentation, engineering |
