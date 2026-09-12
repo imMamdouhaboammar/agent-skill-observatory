@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **785**
-Repositories: **86**
+Published skills: **786**
+Repositories: **87**
 
 ## Browse repositories
 
@@ -70,6 +70,7 @@ Repositories: **86**
 - [commontoolsinc/labs](./repos/commontoolsinc/labs.md)
 - [cosyeezz/axiom](./repos/cosyeezz/axiom.md)
 - [danmo-ai/danmo-work](./repos/danmo-ai/danmo-work.md)
+- [day8/re-frame2](./repos/day8/re-frame2.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [digitallyinduced/haskell-agent](./repos/digitallyinduced/haskell-agent.md)
 - [dpatel-93/alfred](./repos/dpatel-93/alfred.md)
@@ -702,6 +703,7 @@ Repositories: **86**
 - [novel-plan](./skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-plan/README.md) · `danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-plan`
 - [novel-review](./skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-review/README.md) · `danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-review`
 - [novel-write](./skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-write/README.md) · `danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-write`
+- [re-frame2-implementor](./skills/day8/re-frame2/skills/re-frame2-implementor/README.md) · `day8/re-frame2:skills/re-frame2-implementor`
 - [convoy](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy`
 - [convoy-wizard](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy-wizard`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
