@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **704**
-Repositories: **73**
+Published skills: **705**
+Repositories: **74**
 
 ## Browse repositories
 
@@ -9,6 +9,7 @@ Repositories: **73**
 - [2AMLogic/klayout-tools](./repos/2AMLogic/klayout-tools.md)
 - [707734712/agents-in-sdlc](./repos/707734712/agents-in-sdlc.md)
 - [Abhishekrazy/Exalere](./repos/Abhishekrazy/Exalere.md)
+- [Agentic-AI-UIUC/54-workshop](./repos/Agentic-AI-UIUC/54-workshop.md)
 - [Agents365-ai/365-skills](./repos/Agents365-ai/365-skills.md)
 - [Archivev/hicreator-agent](./repos/Archivev/hicreator-agent.md)
 - [Arize-ai/phoenix](./repos/Arize-ai/phoenix.md)
@@ -184,6 +185,7 @@ Repositories: **73**
 - [qfai-prototyping](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-prototyping/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-prototyping`
 - [web-research](./skills/aganesy/qfai/.qfai/assistant/skills/web-research/README.md) · `aganesy/qfai:.qfai/assistant/skills/web-research`
 - [update-model-pricing](./skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) · `agentconnect-md/agentconnect:.claude/skills/update-model-pricing`
+- [your-product](./skills/agentic-ai-uiuc/54-workshop/.cursor/skills/your-product/README.md) · `agentic-ai-uiuc/54-workshop:.cursor/skills/your-product`
 - [agent-native-design](./skills/agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`
 - [assetseeker](./skills/agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) · `agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker`
 - [asta-skill](./skills/agents365-ai/365-skills/plugins/asta/skills/asta-skill/README.md) · `agents365-ai/365-skills:plugins/asta/skills/asta-skill`

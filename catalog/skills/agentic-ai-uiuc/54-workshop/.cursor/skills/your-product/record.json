@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "5723a8b538040f9c0b8a77b77430fa98c29659620ded3670292c44f859c8efb4",
+  "canonical_key": "agentic-ai-uiuc/54-workshop:.cursor/skills/your-product",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5723a8b538040f9c0b8a77b77430fa98c29659620ded3670292c44f859c8efb4",
+    "archived": false,
+    "canonical_key": "agentic-ai-uiuc/54-workshop:.cursor/skills/your-product",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "73ad84047f6b6b5a77bdcb9ba2bdb5a115df939564d47830d53f72660e8b1f21",
+    "description": "How to use and demo our product. Use when asked to run, demo, extend, or explain the product.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Agentic-AI-UIUC/54-workshop/blob/main/.cursor/skills/your-product/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:20:39.964946Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:20:39.964946Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "your-product",
+    "path": ".cursor/skills/your-product",
+    "pushed_at": "2026-09-12T19:15:49Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Agentic-AI-UIUC/54-workshop",
+    "repo_url": "https://github.com/Agentic-AI-UIUC/54-workshop",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 85,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f703063b00212e603b89e7dc6664c9c0731efbda03e87b2f8947763cac0a98f1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "f703063b00212e603b89e7dc6664c9c0731efbda03e87b2f8947763cac0a98f1"
+}

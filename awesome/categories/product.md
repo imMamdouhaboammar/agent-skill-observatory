@@ -1,6 +1,6 @@
 # product
 
-Published Skills: 40
+Published Skills: 41
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -44,3 +44,4 @@ Published Skills: 40
 | [designing-relational-data-models](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-relational-data-models/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when defining or reviewing a relational data model where entities, ownership, cardinality, lifecycle, constraints, or access patterns need explicit decisions before implementation. |
 | [designing-ui-systems](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features. |
 | [evaluating-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer must demonstrate a target capability level against a versioned assessment blueprint, observable rubric criteria, and explicit evidence gates. |
+| [your-product](../skills/Agentic-AI-UIUC/54-workshop/.cursor/skills/your-product/README.md) | [Agentic-AI-UIUC/54-workshop](https://github.com/Agentic-AI-UIUC/54-workshop) | 96 | 100 | 0 | How to use and demo our product. Use when asked to run, demo, extend, or explain the product. |
