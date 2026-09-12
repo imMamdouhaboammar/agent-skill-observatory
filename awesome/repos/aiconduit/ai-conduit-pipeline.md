@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 25
-Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
+Published Skills: 26
+Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=25, 60-84=0, <60=0
+Security distribution: 85+=26, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -34,3 +34,4 @@ Security distribution: 85+=25, 60-84=0, <60=0
 | [gsap-timeline](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-timeline/README.md) | `.agents/skills/gsap-timeline` | 100 | 100 | commerce |
 | [gsap-utils](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-utils/README.md) | `.agents/skills/gsap-utils` | 100 | 100 | commerce, content, documentation, engineering |
 | [heygen](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/heygen/README.md) | `.agents/skills/heygen` | 100 | 100 | content, design, devops, integrations, media, productivity |
+| [hyperframes-core](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/hyperframes-core/README.md) | `.agents/skills/hyperframes-core` | 100 | 100 | agent-orchestration, content, data, design, engineering, media |
