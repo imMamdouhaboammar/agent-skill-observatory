@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 323
+Published Skills: 324
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -154,6 +154,7 @@ Published Skills: 323
 | [artistic](../skills/dpatel-93/alfred/skills/artistic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-contrast, expressive style with creative typography and bold color choices for visually striking interfaces. |
 | [assemble](../skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Compose a task-specific agent, or a small organ of agents, at the moment of need — with an explicit role, scope, named skills, a done-test and an evidence tier — instead of routing to a standing agent definition. Use when a task needs delegating but no chartered agent fits cleanly, when the work spans two surfaces that no single owner covers, when a one-off specialty is needed that does not deserve a permanent charter, or when the operator says "spin up an agent for this". Do NOT use when a chartered agent already owns the surface — route to that owner instead. |
 | [basic](../skills/dpatel-93/alfred/skills/basic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Print-inspired visual language for books, magazines, and reports with editorial grids and expressive typography. |
+| [bento](../skills/dpatel-93/alfred/skills/bento/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Modular grid layout with card-like blocks, clear hierarchy, soft spacing, and subtle visual contrast for organized, scannable interfaces. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [computer-use](../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate desktop applications through the computer tool: find and focus windows, take screenshots to see the screen, then click, type, and press keys. Use for GUI automation of real apps a human would drive by hand. |

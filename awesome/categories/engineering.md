@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 607
+Published Skills: 608
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -351,6 +351,7 @@ Published Skills: 607
 | [async-supervisor](../skills/dpatel-93/alfred/skills/async-supervisor/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Run long subagents in the background and reattach when they complete. Use for tasks that take more than ~30 seconds (test suites, large refactors, multi-step research) so the parent agent stays responsive instead of blocking. Pairs with run_in_background and the Monitor tool. |
 | [azure-runbook](../skills/dpatel-93/alfred/skills/azure-runbook/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Scaffolds an Azure Automation runbook (PowerShell) in this framework's production shape for Entra/Graph/Table Storage automations — phased structure, Managed Identity + Key Vault auth chain, retry/backoff, health checks, idempotency, and exit codes. Use when the user asks to write, scaffold, or review an Azure Automation runbook, a scheduled PowerShell automation, or a "sync"/"alert" script that authenticates via Managed Identity. |
 | [basic](../skills/dpatel-93/alfred/skills/basic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Print-inspired visual language for books, magazines, and reports with editorial grids and expressive typography. |
+| [bento](../skills/dpatel-93/alfred/skills/bento/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Modular grid layout with card-like blocks, clear hierarchy, soft spacing, and subtle visual contrast for organized, scannable interfaces. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |

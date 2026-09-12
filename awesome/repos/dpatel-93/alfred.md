@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 10
+Published Skills: 11
 Categories: agent-orchestration, code-review, commerce, content, data, design, devops, engineering, finance, legal-compliance, marketing, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=10, 60-84=0, <60=0
+Security distribution: 85+=11, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -19,3 +19,4 @@ Security distribution: 85+=10, 60-84=0, <60=0
 | [backtesting-frameworks](../../skills/dpatel-93/alfred/skills/backtesting-frameworks/README.md) | `skills/backtesting-frameworks` | 100 | 100 | data, testing |
 | [basic](../../skills/dpatel-93/alfred/skills/basic/README.md) | `skills/basic` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [before-you-build](../../skills/dpatel-93/alfred/skills/before-you-build/README.md) | `skills/before-you-build` | 100 | 100 | content, data, finance, product, productivity, research |
+| [bento](../../skills/dpatel-93/alfred/skills/bento/README.md) | `skills/bento` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
