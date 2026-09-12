@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "7780b72f5c7731ee9b20602a58563bbc024b6a7ed2bf0e0312983ac9f3bc482f",
+  "canonical_key": "atomantic/portos:.claude/skills/portos-add-page",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7780b72f5c7731ee9b20602a58563bbc024b6a7ed2bf0e0312983ac9f3bc482f",
+    "archived": false,
+    "canonical_key": "atomantic/portos:.claude/skills/portos-add-page",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2028608dd7a6e895be94ec2974e4acf1ab12030ebc7d29be7aece7ab95b9a105",
+    "description": "Register a new PortOS page or voice/palette action end to end — the NAV_COMMANDS entry shape in server/lib/navManifest.js, ⌘K palette wiring, voice ui_navigate aliases, and the fail-fast guards. Invoke when adding a route, a sidebar link, or a new voice-tool action.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "research",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/atomantic/PortOS/blob/main/.claude/skills/portos-add-page/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 27,
+    "indexed_at": "2026-09-12T01:37:06.802435Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:06.802435Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "portos-add-page",
+    "path": ".claude/skills/portos-add-page",
+    "pushed_at": "2026-09-12T01:31:27Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "atomantic/PortOS",
+    "repo_url": "https://github.com/atomantic/PortOS",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 57,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bb7057dbad9abab11d64f9dbb86fe9a5e025616ca9870f8f58972ff4589c9b33",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 38
+  },
+  "source_fingerprint": "bb7057dbad9abab11d64f9dbb86fe9a5e025616ca9870f8f58972ff4589c9b33"
+}

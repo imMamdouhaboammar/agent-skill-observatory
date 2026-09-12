@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **458**
-Repositories: **53**
+Published skills: **459**
+Repositories: **54**
 
 ## Browse repositories
 
@@ -30,6 +30,7 @@ Repositories: **53**
 - [alpha-omega-security/scrutineer](./repos/alpha-omega-security/scrutineer.md)
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [angular/skills](./repos/angular/skills.md)
+- [atomantic/PortOS](./repos/atomantic/PortOS.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [bytedance/deer-flow](./repos/bytedance/deer-flow.md)
@@ -263,6 +264,7 @@ Repositories: **53**
 - [phoenix-cli-development](./skills/arize-ai/phoenix/js/packages/phoenix-cli/.agents/skills/phoenix-cli-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-cli/.agents/skills/phoenix-cli-development`
 - [phoenix-client-development](./skills/arize-ai/phoenix/js/packages/phoenix-client/.agents/skills/phoenix-client-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-client/.agents/skills/phoenix-client-development`
 - [phoenix-otel-development](./skills/arize-ai/phoenix/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development`
+- [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`

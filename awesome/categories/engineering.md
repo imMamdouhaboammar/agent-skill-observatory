@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 347
+Published Skills: 348
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -118,6 +118,7 @@ Published Skills: 347
 | [pattern-schema](../skills/commontoolsinc/labs/skills/pattern-schema/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design schemas.tsx with Input/Output types for patterns |
 | [pattern-test](../skills/commontoolsinc/labs/skills/pattern-test/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Write and run pattern tests |
 | [pattern-ui](../skills/commontoolsinc/labs/skills/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design and polish pattern UIs with cf- components - theme-first styling via cf-theme, layout with cf-screen/cf-vstack, two-way binding ($value/$checked), and PerSession/PerUser/PerSpace UI-state scoping. Use when styling pattern JSX or writing a UI design doc. |
+| [portos-add-page](../skills/atomantic/PortOS/.claude/skills/portos-add-page/README.md) | [atomantic/PortOS](https://github.com/atomantic/PortOS) | 100 | 100 | 38 | Register a new PortOS page or voice/palette action end to end — the NAV_COMMANDS entry shape in server/lib/navManifest.js, ⌘K palette wiring, voice ui_navigate aliases, and the fail-fast guards. Invoke when adding a route, a sidebar link, or a new voice-tool action. |
 | [spec-audit](../skills/commontoolsinc/labs/skills/spec-audit/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Map and verify the CTS/schema documentation corpus against its normative contracts, implementation, tests, fixtures, and runtime consumers. Use for claim-level audits or updates in docs/specs/ts-transformer, docs/specs/schema-generator, package guidance, and author-facing CTS docs, especially after transformer/schema changes or before releases. |
 | [state-inspector](../skills/commontoolsinc/labs/skills/state-inspector/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Debug Common Fabric runtime/multiplayer state from the durable store, offline, with `cf inspect`. Use when investigating "what is actually stored", a cell that looks different for two users, a lost/overwritten write, divergence across spaces, how state reached its current value, who/what touched a space, or any memory-v2 question you'd otherwise guess at from a live runtime. Reads space SQLite DBs read-only — no live server, no capture step. |
 | [topics](../skills/commontoolsinc/labs/skills/topics/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Interact with the Common Fabric team's Topics board on Estuary through the Labs cf CLI. Use when reading, creating, or updating Topics; posting Topic progress comments; attaching pull request links; or adding references between Topics. |
