@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "93be8a91eff0dd84659ef89cd21dccdd5ac77274098267c69c1e7fcc1c798463",
+  "canonical_key": "aaronjmars/aeon-agent:skills/mention-radar",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "93be8a91eff0dd84659ef89cd21dccdd5ac77274098267c69c1e7fcc1c798463",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/mention-radar",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "41875dfe0e2762cf83b34d277033c9d452d1662d07df37f838d767e35e6b497d",
+    "description": "Monitor external web and social mentions of the operator's active projects - surface what people are discovering, where they're confused, and where to engage",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "data",
+        "documentation",
+        "marketing",
+        "product"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/mention-radar/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "productivity",
+      "commits": "False",
+      "requires": "['XAI_API_KEY?']",
+      "schedule": "25 7 2/2 * *",
+      "tags": "['social', 'dev']",
+      "title": "Mention Radar",
+      "var": ""
+    },
+    "name": "mention-radar",
+    "path": "skills/mention-radar",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a9c85332b3f5256bece0851044fdea1b5a3d40b0f666f90e437622e256d91900",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "a9c85332b3f5256bece0851044fdea1b5a3d40b0f666f90e437622e256d91900"
+}
