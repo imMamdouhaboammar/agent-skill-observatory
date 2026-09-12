@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 70
+Published Skills: 71
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -64,6 +64,7 @@ Published Skills: 70
 | [doubao-tts](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/doubao-tts/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate Mandarin and multilingual narration with Volcengine Doubao Speech 2.0. Use when creating Chinese voiceovers, when the user prefers Doubao/Volcengine/火山引擎/豆包 TTS, or when narration needs character-level timestamp metadata for subtitles. |
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |
 | [security-review](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | security findings, attack surfaces, dependency risk |
+| [setup-api-key](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/setup-api-key/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed. |
 | [skyrim-term-contract-workflow](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-term-contract-workflow/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 的官方名词契约与质量门禁工作流：新 MOD 开工前与批次收尾后的强制流程（dictionary-noun-audit 候选发现 → Agent 消解 → term-contract-compiler 编译契约 → unit bindings → translation-quality-gate → 确定性写回 → 复扫），含 PASS 声明口径与已知工具行为。Use when starting a new MOD translation, finishing any translation/rectification batch, running or interpreting dictionary-noun-audit / term-contract-compiler / translation-quality-gate / xtranslator-xml-writer results, or writing convergence claims in reports. |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [theme-factory](../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 100 | 100 | 0 | 為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。 |

@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 196
+Published Skills: 197
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -155,6 +155,7 @@ Published Skills: 196
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |
 | [security-review](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | security findings, attack surfaces, dependency risk |
+| [setup-api-key](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/setup-api-key/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed. |
 | [structured-artifacts-ko](../skills/andyko18/specops-ko/skills/structured-artifacts-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 Lifecycle 커맨드의 Process 첫 스텝 — `.specops/<FID>/` 디렉토리 규약으로 단계 간 파일-기반 통신을 강제한다 |
 | [subagent-ops](../skills/gkd2323c/runed-lexicon/.agents/skills/subagent-ops/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | 子代理协作操作手册（subagent orchestration）。覆盖委派决策、任务卡编译（信息三分法）、体量上限、并行协作纪律（单写者、幂等保护、送达纪律、实例生命周期）、产出验收三查、故障归因与恢复。Use when 派子代理做独立或并行任务、多路批量翻译/审计/扫描、编排多代理协作、验收子代理产出、处理子代理崩溃无产出、控制派单体量，或判断某任务该不该交给子代理。Triggers: subagent, subagents, delegation, dispatch, parallel agents, multi-agent, orchestration, handoff, 子代理, 派单, 派发, 并行, 委派, 验收, 编排. |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
