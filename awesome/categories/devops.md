@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 165
+Published Skills: 166
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -133,6 +133,7 @@ Published Skills: 165
 | [gsap-plugins](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-plugins/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools. Use when the user asks about a GSAP plugin, scroll-to, flip animations, draggable, SVG drawing, or plugin registration. |
 | [heygen](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/heygen/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | [DEPRECATED] Use `create-video` for prompt-based video generation or `avatar-video` for precise avatar/scene control. This legacy skill combines both workflows — the newer focused skills provide clearer guidance. |
 | [ltx2](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ltx2/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | AI video generation with LTX-2.3 22B — text-to-video, image-to-video clips for video production. Use when generating video clips, animating images, creating b-roll, animated backgrounds, or motion content. Triggers include video generation, animate image, b-roll, motion, video clip, text-to-video, image-to-video. |
+| [neuron-identity](../skills/Deploy-Forward/convoy/skills/neuron-identity/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Use on first turn and whenever identity, pane, thread, convoy_id, synapse send, or dying usage comes up. You are a Convoy neuron on a cvy_id, not Grok Bot. |
 | [nn-site-generator](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-site-generator/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Create or edit websites, add analytics, or add contact forms. Invoke with /nn-site-generator. |
 | [openspec-explore](../skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
 | [openspec-explore](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-explore/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
