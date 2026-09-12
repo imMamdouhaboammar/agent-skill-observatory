@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 12
-Categories: agent-orchestration, code-review, commerce, content, data, design, devops, engineering, finance, legal-compliance, marketing, product, productivity, research, security, testing
+Published Skills: 13
+Categories: agent-orchestration, code-review, commerce, content, data, design, devops, documents, engineering, finance, legal-compliance, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,3 +21,4 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [before-you-build](../../skills/dpatel-93/alfred/skills/before-you-build/README.md) | `skills/before-you-build` | 100 | 100 | content, data, finance, product, productivity, research |
 | [bento](../../skills/dpatel-93/alfred/skills/bento/README.md) | `skills/bento` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [bold](../../skills/dpatel-93/alfred/skills/bold/README.md) | `skills/bold` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
+| [brandkit](../../skills/dpatel-93/alfred/skills/brandkit/README.md) | `skills/brandkit` | 100 | 100 | content, design, documents, marketing, media, security |
