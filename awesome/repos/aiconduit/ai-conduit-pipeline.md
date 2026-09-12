@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 6
-Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, productivity, testing
+Published Skills: 7
+Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,3 +15,4 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [avatar-video](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/avatar-video/README.md) | `.agents/skills/avatar-video` | 100 | 100 | content, engineering, integrations, marketing, media, productivity |
 | [bfl-api](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/bfl-api/README.md) | `.agents/skills/bfl-api` | 100 | 100 | content, data, design, engineering, integrations, legal-compliance |
 | [character-animation-qa](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/character-animation-qa/README.md) | `.agents/skills/character-animation-qa` | 100 | 100 | browser-automation, design, documentation, engineering, media, testing |
+| [comfyui](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/comfyui/README.md) | `.agents/skills/comfyui` | 100 | 100 | data, design, engineering, media, productivity, research |
