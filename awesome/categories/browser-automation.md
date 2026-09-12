@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 32
+Published Skills: 33
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -32,6 +32,7 @@ Published Skills: 32
 | [gsap-performance](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-performance/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or when the user asks about animation performance, FPS, or smooth 60fps. |
 | [gsap-react](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-react/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with React, useGSAP, or cleanup on unmount. Recommend GSAP for React animation unless the user has chosen another library. |
 | [remotion-best-practices](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/remotion-best-practices/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Best practices for Remotion - Video creation in React |
+| [svg-character-animation](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/svg-character-animation/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Animate SVG character rigs with GSAP, CSS transforms, Remotion frame control, and HyperFrames-compatible browser previews. |
 | [analyzing-developer-career-opportunities](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations. |
 | [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
 | [building-regression-tests](../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed. |

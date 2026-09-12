@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "bba447eb19642cb7e182a7ea22abc615c8a89ceefc90af5b540e1e4e7e1b8cd9",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/svg-character-animation",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "bba447eb19642cb7e182a7ea22abc615c8a89ceefc90af5b540e1e4e7e1b8cd9",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/svg-character-animation",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b6c51f692d0afe547ebdda56c19d4e501664c169f42c96b9245c9d4a0bd95c3c",
+    "description": "Animate SVG character rigs with GSAP, CSS transforms, Remotion frame control, and HyperFrames-compatible browser previews.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "design",
+        "documentation",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/svg-character-animation/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "svg-character-animation",
+    "path": ".agents/skills/svg-character-animation",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4233253b4c25a2b37414c1ba4a18fd4b051b2fdd4dcd5dadae3e61720284435a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "4233253b4c25a2b37414c1ba4a18fd4b051b2fdd4dcd5dadae3e61720284435a"
+}
