@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 271
+Published Skills: 272
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -236,6 +236,7 @@ Published Skills: 271
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
 | [morning-brief](../skills/azerothl/akasha-os/community/skills/morning-brief/README.md) | [azerothl/akasha-os](https://github.com/azerothl/akasha-os) | 97 | 100 | 1 | Short local briefing from memory, open tasks, and notes — no network |
 | [apple-reminders](../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Apple Reminders via remindctl: add, list, complete. |
+| [architecture-diagram](../skills/ComponentDock/free-react-templates/skills/creative/architecture-diagram/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Dark-themed SVG architecture/cloud/infra diagrams as HTML. |
 | [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |
 | [findmy](../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Track Apple devices/AirTags via FindMy.app on macOS. |
 | [ponytail](../skills/giancaremma50-hue/demo-ats/.claude/skills/ponytail/README.md) | [giancaremma50-hue/demo-ats](https://github.com/giancaremma50-hue/demo-ats) | 97 | 100 | 0 | Forces the laziest solution that actually works, simplest, shortest, most minimal. Channels a senior dev who has seen everything: question whether the task needs to exist at all (YAGNI), reach for the standard library before custom code, native platform features before dependencies, one line before fifty. Supports intensity levels: lite, full (default), ultra. Use on ANY coding task: writing, adding, refactoring, fixing, reviewing, or designing code, and choosing libraries or dependencies. Also use whenever the user says "ponytail", "be lazy", "lazy mode", "simplest solution", "minimal solution", "yagni", "do less", or "shortest path", or complains about over-engineering, bloat, boilerplate, or unnecessary dependencies. Do NOT use for non-coding requests (general knowledge, prose, translation, summaries, recipes). |

@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 55
+Published Skills: 56
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -58,4 +58,5 @@ Published Skills: 55
 | [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
 | [building-regression-tests](../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
+| [architecture-diagram](../skills/ComponentDock/free-react-templates/skills/creative/architecture-diagram/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Dark-themed SVG architecture/cloud/infra diagrams as HTML. |
 | [chatgpt-image-short-video](../skills/ChronoAIProject/nyx-skills/chatgpt-image-short-video/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Method for producing short vertical videos from ChatGPT image generation through a fixed browser tab, local TTS narration, timed subtitle burn-in, cover exports, and a manifest. Use when an operator needs a reproducible image-to-short workflow with pinned session consistency, per-beat visual prompts, 1080x1920 safe-area rules, local ffmpeg/PIL assembly, and private access kept outside the skill. |

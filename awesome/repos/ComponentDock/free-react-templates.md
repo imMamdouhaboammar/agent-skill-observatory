@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 13
-Categories: agent-orchestration, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing
+Published Skills: 14
+Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=13, 60-84=0, <60=0
+Security distribution: 85+=14, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,6 +17,7 @@ Security distribution: 85+=13, 60-84=0, <60=0
 | [openspec-update-change](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-update-change/README.md) | `.opencode/skills/openspec-update-change` | 100 | 100 | commerce, content, design, engineering, productivity |
 | [apple-notes](../../skills/ComponentDock/free-react-templates/skills/apple/apple-notes/README.md) | `skills/apple/apple-notes` | 97 | 100 | legal-compliance, productivity |
 | [apple-reminders](../../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | `skills/apple/apple-reminders` | 97 | 100 | content, design, documentation, mobile, productivity, security |
+| [architecture-diagram](../../skills/ComponentDock/free-react-templates/skills/creative/architecture-diagram/README.md) | `skills/creative/architecture-diagram` | 97 | 100 | architecture, browser-automation, commerce, design, devops, engineering |
 | [autonomous-cron-pipelines](../../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | `skills/automation/autonomous-cron-pipelines` | 97 | 100 | agent-orchestration, commerce, content, design, documentation, engineering |
 | [codex](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | `skills/autonomous-ai-agents/codex` | 97 | 100 | commerce, content, data, engineering, integrations, productivity |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
