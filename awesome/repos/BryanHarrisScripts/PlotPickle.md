@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle)
 
-Published Skills: 6
-Categories: commerce, content, data, design, documentation, engineering, hr-recruiting, integrations, legal-compliance, media, product, productivity, research, security, testing
+Published Skills: 7
+Categories: commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, legal-compliance, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,3 +15,4 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [critics-circle](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/critics-circle/README.md) | `.agents/skills/critics-circle` | 100 | 100 | content, data, legal-compliance, research |
 | [diagnosis](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/diagnosis/README.md) | `.agents/skills/diagnosis` | 100 | 100 | commerce, design, engineering, product, research, testing |
 | [engineering-discipline](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/engineering-discipline/README.md) | `.agents/skills/engineering-discipline` | 100 | 100 | data, engineering, productivity, research, security, testing |
+| [lazy-frames-animatic](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/lazy-frames-animatic/README.md) | `.agents/skills/lazy-frames-animatic` | 100 | 100 | data, design, devops, media, productivity, research |
