@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "2ffcf3647cb68fae8c8db553e1f64aaaa4d07a3fbeb47cb885327aaf48956dd4",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-write",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2ffcf3647cb68fae8c8db553e1f64aaaa4d07a3fbeb47cb885327aaf48956dd4",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-write",
+    "compatibility": "Requires write, edit, read_file, grep, glob, exec_shell; Core table_*, memory_*, search_kb; ask_user",
+    "consecutive_misses": 0,
+    "content_fingerprint": "738968531d6bcc4372e271bea0f8cbb2851848c1dd876a887715d2b71ed57074",
+    "description": "Chapter outline and first-draft prose only. Use for 章纲, batch freeze, drafting/continuing chapters, and Frozen_Canon continuation. Not for 扩写, deslop, review, or Continuity Commit — those are novel-review (separate turn / model).",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/plugins/novel/skills/novel-write/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 10
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "danmo-work",
+      "category": "creative-writing",
+      "version": "2.7"
+    },
+    "name": "novel-write",
+    "path": "core/resource/plugins/novel/skills/novel-write",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 2,
+      "other": 0,
+      "references": 7,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "cf7b7b25989a31a606785a10144a7702d3ea949e8f388a948ede0a33a0d6ecc1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "cf7b7b25989a31a606785a10144a7702d3ea949e8f388a948ede0a33a0d6ecc1"
+}
