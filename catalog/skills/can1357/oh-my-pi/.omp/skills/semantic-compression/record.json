@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "1de2dbcb1e435da8c31fa9f83a9517f2774366c50b177b65f2964f7ae7d04192",
+  "canonical_key": "can1357/oh-my-pi:.omp/skills/semantic-compression",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1de2dbcb1e435da8c31fa9f83a9517f2774366c50b177b65f2964f7ae7d04192",
+    "archived": false,
+    "canonical_key": "can1357/oh-my-pi:.omp/skills/semantic-compression",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "11e5ee26fccf39d9eab3adcd02899acbb12ab2d2a4fb9a92220580bc34dab701",
+    "description": "Re-encode verbose prose into a dense telegraphic register — punctuation as connectives, label frames, verbless assertions — without losing normativity or precision. Use when compressing system prompts, tool/function descriptions, skill bodies, or agent instructions; reducing token count or context bloat; making documentation token-efficient for LLM input; or rewriting text in compressed notation.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "commerce",
+        "documentation",
+        "engineering",
+        "ai-ml",
+        "content",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/can1357/oh-my-pi/blob/main/.omp/skills/semantic-compression/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 3195,
+    "indexed_at": "2026-09-12T14:08:09.844133Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:08:09.844133Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "semantic-compression",
+    "path": ".omp/skills/semantic-compression",
+    "pushed_at": "2026-09-12T14:04:06Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "can1357/oh-my-pi",
+    "repo_url": "https://github.com/can1357/oh-my-pi",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9b0119b4fd2e039abb884feffc82ee7d57538790b8178d5069c2d674a0729ada",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 30801
+  },
+  "source_fingerprint": "9b0119b4fd2e039abb884feffc82ee7d57538790b8178d5069c2d674a0729ada"
+}
