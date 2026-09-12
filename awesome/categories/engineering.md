@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 340
+Published Skills: 341
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -266,6 +266,7 @@ Published Skills: 340
 | [tdd-ko](../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기능·버그픽스·리팩터링 구현 시 구현 코드 작성 전 반드시 사용 — Red-Green-Refactor 사이클 강제, 프로덕션 코드는 실패 테스트 없이 작성 금지 |
 | [theme-factory](../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 100 | 100 | 0 | 為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。 |
 | [threejs-interaction](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-interaction/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences. |
+| [threejs-materials](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-materials/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance. |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
 | [web-design-guidance](../skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Design, build, or review user-facing web UI with adaptive ambiguity-aware discovery, multi-axis design direction, repository-aware design-system preservation, structural-integrity auditing, responsive/accessibility states, anti-AI-slop auditing, and rendered visual verification. Use for substantial web UI/UX work unless the repository or user supplies a stronger design workflow. Repository and user design rules always win. |
 | [analyzing-change-blast-radius](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it. |

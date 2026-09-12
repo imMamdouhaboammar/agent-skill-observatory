@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "415ffee656e0c7d2f33fb4e6cfb5fac8dd8712ffd85b6d0e5fbec6e998b42c19",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/threejs-materials",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "415ffee656e0c7d2f33fb4e6cfb5fac8dd8712ffd85b6d0e5fbec6e998b42c19",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/threejs-materials",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d5846d1b8254b903eacb3014486efbe331101518604b451098fd31989c3e7fe7",
+    "description": "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-materials/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "threejs-materials",
+    "path": ".agents/skills/threejs-materials",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2db5f21e0f599625f2bf4271b1d26370d0aaff4c65b427a2c3305e54cd26e274",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "2db5f21e0f599625f2bf4271b1d26370d0aaff4c65b427a2c3305e54cd26e274"
+}
