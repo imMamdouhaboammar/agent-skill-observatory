@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "7e6c72c6d54b3b43957e8a907770321076bf3822bbff747022f9df8dd2592e30",
+  "canonical_key": "chronoaiproject/nyx-skills:public-copy-release-guard",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7e6c72c6d54b3b43957e8a907770321076bf3822bbff747022f9df8dd2592e30",
+    "archived": false,
+    "canonical_key": "chronoaiproject/nyx-skills:public-copy-release-guard",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "eb0d4ff5b3a7473fd6f84413bc1a283ef8c55e67417743aa482a8a3f117a766e",
+    "description": "Portable checklist for gating public-facing copy before release. Use when captions, posts, manifests, topics, titles, or launch copy must be checked for generic AI wording, leaked internal labels, forbidden experiment or tool names, platform topic allowlists, CTA spam, and unsupported overclaims.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "devops",
+        "marketing",
+        "productivity",
+        "research",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/public-copy-release-guard/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:08:31.372724Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:08:31.372724Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "plain",
+      "tag": "['public-copy', 'release-gate', 'content-safety']"
+    },
+    "name": "public-copy-release-guard",
+    "path": "public-copy-release-guard",
+    "pushed_at": "2026-09-12T14:04:06Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ChronoAIProject/nyx-skills",
+    "repo_url": "https://github.com/ChronoAIProject/nyx-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 92,
+      "reasons": [
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a5b45b765ecc24be6379ab20fd6f9bbe9cbdc384ac8b5cdbe2b21c7386eebf76",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "a5b45b765ecc24be6379ab20fd6f9bbe9cbdc384ac8b5cdbe2b21c7386eebf76"
+}

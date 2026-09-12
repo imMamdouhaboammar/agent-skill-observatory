@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **583**
+Published skills: **584**
 Repositories: **66**
 
 ## Browse repositories
@@ -462,6 +462,7 @@ Repositories: **66**
 - [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
 - [reconc](./skills/christopher-schulze/reconc/skills/reconc/README.md) · `christopher-schulze/reconc:skills/reconc`
 - [chatgpt-image-short-video](./skills/chronoaiproject/nyx-skills/chatgpt-image-short-video/README.md) · `chronoaiproject/nyx-skills:chatgpt-image-short-video`
+- [public-copy-release-guard](./skills/chronoaiproject/nyx-skills/public-copy-release-guard/README.md) · `chronoaiproject/nyx-skills:public-copy-release-guard`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
