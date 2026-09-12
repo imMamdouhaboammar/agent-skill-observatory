@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "ab746265b88057aafcef3f7521302830357f10a039c485608552a56c77f85333",
+  "canonical_key": "aaronjmars/aeon-agent:skills/pm-manipulation",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ab746265b88057aafcef3f7521302830357f10a039c485608552a56c77f85333",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/pm-manipulation",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b831a6b4547ab022bf8c14a0a486c43696b9534ccd4593658d32c7069a44e8c7",
+    "description": "Detect suspected manipulation on prediction markets over the past 3 days by cross-referencing price/volume/comment anomalies with multilingual local-press coverage",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "localization",
+        "content",
+        "hr-recruiting",
+        "research",
+        "commerce",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/pm-manipulation/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "crypto",
+      "tags": "['crypto', 'research', 'security']",
+      "title": "PM Manipulation"
+    },
+    "name": "pm-manipulation",
+    "path": "skills/pm-manipulation",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bfc55cb6c1bf92c5a6b450a6914840387991e016da53541ff930ff8cec938a20",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "bfc55cb6c1bf92c5a6b450a6914840387991e016da53541ff930ff8cec938a20"
+}
