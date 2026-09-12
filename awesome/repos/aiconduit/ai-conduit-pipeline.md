@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 53
+Published Skills: 54
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=53, 60-84=0, <60=0
+Security distribution: 85+=54, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -62,3 +62,4 @@ Security distribution: 85+=53, 60-84=0, <60=0
 | [threejs-textures](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-textures/README.md) | `.agents/skills/threejs-textures` | 100 | 100 | content, data, media, mobile, testing |
 | [vercel-composition-patterns](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/vercel-composition-patterns/README.md) | `.agents/skills/vercel-composition-patterns` | 100 | 100 | engineering, media |
 | [vercel-react-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/vercel-react-best-practices/README.md) | `.agents/skills/vercel-react-best-practices` | 100 | 100 | browser-automation, content, data, engineering, media |
+| [video-download](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/video-download/README.md) | `.agents/skills/video-download` | 100 | 100 | content, engineering, media |
