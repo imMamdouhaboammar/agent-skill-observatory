@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **411**
+Published skills: **412**
 Repositories: **53**
 
 ## Browse repositories
@@ -146,6 +146,7 @@ Repositories: **53**
 - [comfyui](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/comfyui/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/comfyui`
 - [create-video](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/create-video/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/create-video`
 - [d3-viz](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/d3-viz/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/d3-viz`
+- [dashscope](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/dashscope/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/dashscope`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
