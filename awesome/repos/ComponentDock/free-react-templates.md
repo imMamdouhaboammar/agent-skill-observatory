@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 15
-Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing
+Published Skills: 16
+Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,6 +21,7 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [autonomous-cron-pipelines](../../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | `skills/automation/autonomous-cron-pipelines` | 97 | 100 | agent-orchestration, commerce, content, design, documentation, engineering |
 | [claude-design](../../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | `skills/creative/claude-design` | 97 | 100 | content, design, documents, engineering, marketing, productivity |
 | [codex](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | `skills/autonomous-ai-agents/codex` | 97 | 100 | commerce, content, data, engineering, integrations, productivity |
+| [design-md](../../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | `skills/creative/design-md` | 97 | 100 | commerce, content, design, engineering, localization, marketing |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
 | [imessage](../../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | `skills/apple/imessage` | 97 | 100 | content, legal-compliance, media, productivity, security |
 | [opencode](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | `skills/autonomous-ai-agents/opencode` | 97 | 100 | content, data, engineering, integrations, productivity, testing |
