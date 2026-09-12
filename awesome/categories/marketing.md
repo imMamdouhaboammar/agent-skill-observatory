@@ -1,6 +1,6 @@
 # marketing
 
-Published Skills: 20
+Published Skills: 21
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,3 +24,4 @@ Published Skills: 20
 | [building-conversion-product-pages](../skills/jhonatan-oliveiradev/agent-skills/skills/building-conversion-product-pages/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when designing or improving a landing page, product page, digital-product storefront, pricing page, or marketing flow where visitor comprehension and conversion are primary goals. |
 | [defining-brand-strategy](../skills/jhonatan-oliveiradev/agent-skills/skills/defining-brand-strategy/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a new, repositioned, or inconsistent brand needs explicit audience, positioning, differentiation, personality, and decision criteria before naming, identity, or messaging work begins. |
 | [designing-visual-identities](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-visual-identities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand strategy needs a coherent visual identity system across multiple touchpoints, including marks, typography, color, imagery, graphic language, and responsive applications. |
+| [deslopify](../skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | De-slop pass for any text. Scans for the statistical fingerprints of AI writing (negative parallelism / "not X but Y", em-dash density, rule-of-three, false ranges, puffery vocabulary, uniform cadence, hedged both-sidesing), rewrites by meaning, then re-scans until the text is clean and sits in the right register for its genre: academic article, tweet, reddit post, email, blog, docs, marketing. Use when the user says "deslopify", "deslop", "de-slop this", "fuck slop", "f*ck slop", "remove the AI tells", "humanize this", "make this not sound like AI", or invokes /deslopify (or the old /fuck-slop name). Also use before publishing any agent-drafted prose. |

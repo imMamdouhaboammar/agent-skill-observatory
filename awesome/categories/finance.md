@@ -1,6 +1,6 @@
 # finance
 
-Published Skills: 12
+Published Skills: 13
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -16,3 +16,4 @@ Published Skills: 12
 | [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
 | [designing-developer-portfolio-evidence](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when roadmap gaps need to become credible portfolio artifacts with explicit evidence contracts showing which capabilities a project must actually demonstrate. |
 | [evolving-postgres-schemas-safely](../skills/jhonatan-oliveiradev/agent-skills/skills/evolving-postgres-schemas-safely/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when changing a PostgreSQL schema that already contains production data or serves live traffic, especially for columns, constraints, indexes, types, backfills, renames, or destructive cleanup. |
+| [deslopify](../skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | De-slop pass for any text. Scans for the statistical fingerprints of AI writing (negative parallelism / "not X but Y", em-dash density, rule-of-three, false ranges, puffery vocabulary, uniform cadence, hedged both-sidesing), rewrites by meaning, then re-scans until the text is clean and sits in the right register for its genre: academic article, tweet, reddit post, email, blog, docs, marketing. Use when the user says "deslopify", "deslop", "de-slop this", "fuck slop", "f*ck slop", "remove the AI tells", "humanize this", "make this not sound like AI", or invokes /deslopify (or the old /fuck-slop name). Also use before publishing any agent-drafted prose. |

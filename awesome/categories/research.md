@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 168
+Published Skills: 169
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -145,6 +145,7 @@ Published Skills: 168
 | [documenting-architecture-decisions](../skills/jhonatan-oliveiradev/agent-skills/skills/documenting-architecture-decisions/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a software decision materially affects structure, quality attributes, dependencies, interfaces, technology choices, or team direction and its rationale must remain reviewable over time. |
 | [editing-for-clarity-and-tone](../skills/jhonatan-oliveiradev/agent-skills/skills/editing-for-clarity-and-tone/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when revising existing prose for clarity, concision, structure, readability, or an explicitly requested tone while preserving the original meaning and factual content. |
 | [evaluating-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/evaluating-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer must demonstrate a target capability level against a versioned assessment blueprint, observable rubric criteria, and explicit evidence gates. |
+| [deslopify](../skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | De-slop pass for any text. Scans for the statistical fingerprints of AI writing (negative parallelism / "not X but Y", em-dash density, rule-of-three, false ranges, puffery vocabulary, uniform cadence, hedged both-sidesing), rewrites by meaning, then re-scans until the text is clean and sits in the right register for its genre: academic article, tweet, reddit post, email, blog, docs, marketing. Use when the user says "deslopify", "deslop", "de-slop this", "fuck slop", "f*ck slop", "remove the AI tells", "humanize this", "make this not sound like AI", or invokes /deslopify (or the old /fuck-slop name). Also use before publishing any agent-drafted prose. |
 | [add-robot](../skills/DexForce/EmbodiChain/.claude/skills/add-robot/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-robot skill. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |
