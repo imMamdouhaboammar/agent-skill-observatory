@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "aad74c7847b62df02fb3c011c5f33e60aab4db2f08103cc65116eaafdc4f64c7",
+  "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "aad74c7847b62df02fb3c011c5f33e60aab4db2f08103cc65116eaafdc4f64c7",
+    "archived": false,
+    "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8feef61c0535b495e2dd46d645cda03f0379ea9ad4291b40dcd6852f1897df4b",
+    "description": "GitHub operations - manage issues, pull requests, repositories, and workflows via GitHub API",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "mobile",
+        "productivity",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 6,
+    "indexed_at": "2026-09-12T01:38:39.359809Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:38:39.359809Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "github-manager",
+    "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager",
+    "pushed_at": "2026-09-12T01:31:09Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chainlesschain/chainlesschain",
+    "repo_url": "https://github.com/chainlesschain/chainlesschain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 41,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0cc8be77785d8de9825b81c8f8db748949467f44e62ef4e65d94298f420f2809",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "0cc8be77785d8de9825b81c8f8db748949467f44e62ef4e65d94298f420f2809"
+}
