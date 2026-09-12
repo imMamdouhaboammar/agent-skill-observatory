@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 157
+Published Skills: 158
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -66,6 +66,7 @@ Published Skills: 157
 | [pipeline-context](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/pipeline-context/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Load context for pipeline, cron, Lambda, OCR, and translation work. Use when starting any pipeline monitoring, debugging, or processing task. |
 | [scholarly-edition](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/scholarly-edition/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Create a DOI-ready scholarly edition of a translated book. Use when asked to publish, create an edition, mint a DOI, or prepare a book for scholarly publication. Generates front matter, creates versioned editions, builds EPUBs, and mints DOIs via Zenodo. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
+| [commit-splitter](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/commit-splitter/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能提交拆分 - 将大量未提交变更按语义分组为原子性提交 |
 | [oculpm-journal](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/oculpm-journal/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | ocul-pm recording spec (journal format, planner glyphs/log, discussion docs) for projects with .oculpm/. Use when finishing a unit of work and the oculpm MCP tools are unavailable — prefer journal_write/plan_update when visible. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [create-rule](../skills/markmhendrickson/ateles/.claude/skills/create-rule/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create Cursor rule for persistent AI guidance. |
