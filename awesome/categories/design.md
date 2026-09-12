@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 327
+Published Skills: 328
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -160,6 +160,7 @@ Published Skills: 327
 | [brandkit](../skills/dpatel-93/alfred/skills/brandkit/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [browser](../skills/dpatel-93/alfred/skills/browser/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Web browser automation with AI-optimized snapshots for alfred-flow agents |
+| [brutalism](../skills/dpatel-93/alfred/skills/brutalism/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Raw, anti-design aesthetic inspired by concrete architecture with unadorned elements, jarring layouts, and functional minimalism. |
 | [computer-use](../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate desktop applications through the computer tool: find and focus windows, take screenshots to see the screen, then click, type, and press keys. Use for GUI automation of real apps a human would drive by hand. |
 | [document-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Long-form workplace docs as GFM `.md` (default). Not for slide decks or spreadsheets — those are Univer IR / CSV. Edit with write/edit/apply_patch; do not invent parallel JSON docs unless path is already `.udoc.json`. |
 | [mcp-connectors](../skills/danmo-ai/danmo-work/core/resource/home/skills/mcp-connectors/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Use product connectors (MCP under the hood) and auth gateways without stuffing every action schema into context. |

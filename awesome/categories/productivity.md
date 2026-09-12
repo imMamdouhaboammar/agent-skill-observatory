@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 351
+Published Skills: 352
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -196,6 +196,7 @@ Published Skills: 351
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [browser](../skills/dpatel-93/alfred/skills/browser/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Web browser automation with AI-optimized snapshots for alfred-flow agents |
+| [brutalism](../skills/dpatel-93/alfred/skills/brutalism/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Raw, anti-design aesthetic inspired by concrete architecture with unadorned elements, jarring layouts, and functional minimalism. |
 | [computer-use](../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate desktop applications through the computer tool: find and focus windows, take screenshots to see the screen, then click, type, and press keys. Use for GUI automation of real apps a human would drive by hand. |
 | [danmo-make](../skills/danmo-ai/danmo-work/core/resource/plugins/danmo-make/skills/danmo-make/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Create and edit images/videos/audio via the Danmo Make MCP connector. Use when the user or parent agent needs local generation (Danmo Make / danqing). |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
