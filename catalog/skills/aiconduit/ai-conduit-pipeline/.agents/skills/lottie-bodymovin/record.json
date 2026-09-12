@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "877eccd0f857ed06d7b16fbde8be3dbbcb8573d5fad18577a8a791af22fb49be",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/lottie-bodymovin",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "877eccd0f857ed06d7b16fbde8be3dbbcb8573d5fad18577a8a791af22fb49be",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/lottie-bodymovin",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "bbd7786a3c5fb998e6b2565beb305fed796ce50bcf9fd3a7604b113a9e2bcdda",
+    "description": "Use when implementing Disney's 12 animation principles with Lottie animations exported from After Effects",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/lottie-bodymovin/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "lottie-bodymovin",
+    "path": ".agents/skills/lottie-bodymovin",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "fde2eb2bf9a6e97261817535ec78cff7c8b9e57f38b0ad3cd84a3f69028a3505",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "fde2eb2bf9a6e97261817535ec78cff7c8b9e57f38b0ad3cd84a3f69028a3505"
+}

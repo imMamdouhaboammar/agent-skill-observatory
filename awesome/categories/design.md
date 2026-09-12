@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 174
+Published Skills: 175
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -115,6 +115,7 @@ Published Skills: 174
 | [heygen](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/heygen/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | [DEPRECATED] Use `create-video` for prompt-based video generation or `avatar-video` for precise avatar/scene control. This legacy skill combines both workflows — the newer focused skills provide clearer guidance. |
 | [hyperframes-core](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/hyperframes-core/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class="clip"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Read before writing composition HTML. |
 | [improve-codebase-architecture-ko](../skills/andyko18/specops-ko/skills/improve-codebase-architecture-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드베이스 파일/모듈 경계 정적 분석 — deep module 원칙(단순한 인터페이스+복잡한 구현) 기준으로 책임 과부하(800줄+)·과잉 분해(50줄 미만 클러스터) 탐지 및 split/merge 권고안 제시 |
+| [lottie-bodymovin](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/lottie-bodymovin/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Use when implementing Disney's 12 animation principles with Lottie animations exported from After Effects |
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/iNNfo/.agents/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [nn-site-generator](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-site-generator/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Create or edit websites, add analytics, or add contact forms. Invoke with /nn-site-generator. |
