@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 536
+Published Skills: 537
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -351,6 +351,7 @@ Published Skills: 536
 | [signalgrid-reviewer](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-reviewer/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | The adversarial second reviewer for SignalGrid. Use when a change is ready for review, before any push or PR, or when asked to check whether a claim about the repo is true. This role verifies and reports; it never fixes, never authors, and never merges. Covers the repo's known defect classes, how to falsify a guard, and how to write findings the owner can act on without reading code. |
 | [slack-web](../skills/jeong-sik/masc/skills/slack-web/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Navigate Slack Web channels and collect messages or threads through Browser Lane, choosing channel search or message search and preserving the observed collection scope. |
 | [systematic-debugging](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
+| [test-driven-development](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementing any feature or bugfix, before writing implementation code |
 | [acestep](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/acestep/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | AI music generation with ACE-Step 1.5 — background music, vocal tracks, covers, stem extraction for video production. Use when generating music, soundtracks, jingles, or working with audio stems. Triggers include background music, soundtrack, jingle, music generation, stem extraction, cover, style transfer, or musical composition tasks. |
 | [add-proteins-to-graphs](../skills/CultureBotAI/NaturalProductMech/.claude/skills/add-proteins-to-graphs/README.md) | [CultureBotAI/NaturalProductMech](https://github.com/CultureBotAI/NaturalProductMech) | 100 | 100 | 0 | Add evidence-backed proteins, enzymes and complexes to NaturalProductMech biosynthetic pathways, causal graphs and molecular targets; ground graph nodes and pick UniProtKB protein examples without confusing a family, complex or reaction with an organism-specific protein. |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |

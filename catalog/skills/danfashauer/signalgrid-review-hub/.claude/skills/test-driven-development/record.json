@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "ed721680822655c2fec6735690271e95d3bf3a1812fc63a8e8cab3fda98ef18a",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/test-driven-development",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ed721680822655c2fec6735690271e95d3bf3a1812fc63a8e8cab3fda98ef18a",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/test-driven-development",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "bf1b8216e523851a411e91d429a7c1c2a173e79d88957bc78e348218d50edd54",
+    "description": "Use when implementing any feature or bugfix, before writing implementation code",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "testing",
+        "data",
+        "design",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/test-driven-development/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T23:40:40.592461Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:40.592461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "test-driven-development",
+    "path": ".claude/skills/test-driven-development",
+    "pushed_at": "2026-09-11T23:34:39Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0ff8639af929add22342c8fbd7accfd26529c64c9998e2b65e78dfe73e19b48c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "0ff8639af929add22342c8fbd7accfd26529c64c9998e2b65e78dfe73e19b48c"
+}
