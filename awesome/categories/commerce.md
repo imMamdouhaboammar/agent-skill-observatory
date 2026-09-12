@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 134
+Published Skills: 135
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -21,6 +21,7 @@ Published Skills: 134
 | [contributors-update](../skills/homeassistant-ai/ha-mcp/.claude/skills/contributors-update/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Find merged PR authors missing from README and update the contributors list after approval |
 | [issue-to-pr-resolver](../skills/homeassistant-ai/ha-mcp/.claude/skills/issue-to-pr-resolver/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Implement a GitHub issue end-to-end — create a worktree branch, implement the feature with tests, create a draft PR, then iteratively resolve all CI failures and review comments until the PR is clean. Use when you need to fully implement a GitHub issue from start to merge-ready. Triggers on "implement issue", "resolve issue", "/issue-to-pr-resolver <number>". |
 | [my-pr-checker](../skills/homeassistant-ai/ha-mcp/.claude/skills/my-pr-checker/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Manage your own GitHub pull requests — check CI status, inline review comments, PR-level comments, resolve review threads, fix issues, and iterate until all checks pass and threads are resolved. Use for managing your own PRs (not external contributions). Triggers on "check my PR", "check PR", "/my-pr-checker <number>". |
+| [atmos-components](../skills/cloudposse/atmos/agent-skills/skills/atmos-components/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Component architecture: Terraform root modules, remote source provisioning, abstract components, component inheritance, versioning, mixins, catalog patterns |
 | [atmos-core-component-development](../skills/cloudposse/atmos/.claude/skills/atmos-core-component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos CORE contributor guide for adding/modifying a component TYPE in the Go codebase (terraform/helmfile/packer/ansible/container): the component registry & provider, the CLI command group, the describe/list type whitelist, custom-component inheritance & deep-merge, schema, and tests. NOT for authoring user components in stacks (that is the atmos-components skill). |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [docs](../skills/cloudposse/atmos/.claude/skills/docs/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks |
