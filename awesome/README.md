@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **664**
+Published skills: **665**
 Repositories: **70**
 
 ## Browse repositories
@@ -162,6 +162,7 @@ Repositories: **70**
 - [token-movers](./skills/aaronjmars/aeon-agent/skills/token-movers/README.md) · `aaronjmars/aeon-agent:skills/token-movers`
 - [token-pick](./skills/aaronjmars/aeon-agent/skills/token-pick/README.md) · `aaronjmars/aeon-agent:skills/token-pick`
 - [tx-explain](./skills/aaronjmars/aeon-agent/skills/tx-explain/README.md) · `aaronjmars/aeon-agent:skills/tx-explain`
+- [unlock-monitor](./skills/aaronjmars/aeon-agent/skills/unlock-monitor/README.md) · `aaronjmars/aeon-agent:skills/unlock-monitor`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`
