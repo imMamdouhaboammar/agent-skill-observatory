@@ -1,0 +1,87 @@
+{
+  "analysis_fingerprint": "573b7cb7484191e34eb2d8e68520bab8c379fbb8844a11298a1a6e81a1bec23f",
+  "canonical_key": "chen647208/hongyue-creation:src/core/ai/skills/builtin/golden-three-chapters",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "573b7cb7484191e34eb2d8e68520bab8c379fbb8844a11298a1a6e81a1bec23f",
+    "archived": false,
+    "canonical_key": "chen647208/hongyue-creation:src/core/ai/skills/builtin/golden-three-chapters",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2c03e9fd85da3ab7bc9ca8dd9eb70a4ff4fa69bc239121d0d8a84a2ae055beab",
+    "description": "评估/重写网文开篇三章：钩子、金手指亮相、期待感曲线。触发词：开篇、黄金三章",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "other"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chen647208/hongyue-creation/blob/main/src/core/ai/skills/builtin/golden-three-chapters/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 8,
+    "indexed_at": "2026-09-12T01:39:32.341237Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:39:32.341237Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "golden-three-chapters",
+    "path": "src/core/ai/skills/builtin/golden-three-chapters",
+    "pushed_at": "2026-09-12T01:31:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chen647208/hongyue-creation",
+    "repo_url": "https://github.com/chen647208/hongyue-creation",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 51,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 78,
+      "reasons": [
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bb0c2e64e8c5c60a006f1e1f3d63cd0047ad2d0aa14d10235a56157c641ee985",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 33
+  },
+  "source_fingerprint": "bb0c2e64e8c5c60a006f1e1f3d63cd0047ad2d0aa14d10235a56157c641ee985"
+}

@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **568**
-Repositories: **63**
+Published skills: **569**
+Repositories: **64**
 
 ## Browse repositories
 
@@ -44,6 +44,7 @@ Repositories: **63**
 - [can1357/oh-my-pi](./repos/can1357/oh-my-pi.md)
 - [chainlesschain/chainlesschain](./repos/chainlesschain/chainlesschain.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
+- [chen647208/hongyue-creation](./repos/chen647208/hongyue-creation.md)
 - [chnlich/charlie-bot](./repos/chnlich/charlie-bot.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
@@ -404,6 +405,7 @@ Repositories: **63**
 - [weather](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather`
 - [webapp-testing](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
+- [golden-three-chapters](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/golden-three-chapters/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/golden-three-chapters`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
