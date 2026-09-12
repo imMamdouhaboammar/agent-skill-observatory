@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **479**
+Published skills: **480**
 Repositories: **59**
 
 ## Browse repositories
@@ -113,6 +113,7 @@ Repositories: **59**
 - [openspec-apply-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-apply-change`
 - [openspec-archive-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-archive-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-archive-change`
 - [openspec-explore](./skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-explore`
+- [openspec-propose](./skills/a620906209/ticket-hub/.claude/skills/openspec-propose/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-propose`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`

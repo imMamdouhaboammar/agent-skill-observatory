@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "c3645b00514c2ffb6cbf71850d9f4bdd1a989897b81f408c9f478bd3f8ff9023",
+  "canonical_key": "a620906209/ticket-hub:.claude/skills/openspec-propose",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c3645b00514c2ffb6cbf71850d9f4bdd1a989897b81f408c9f478bd3f8ff9023",
+    "archived": false,
+    "canonical_key": "a620906209/ticket-hub:.claude/skills/openspec-propose",
+    "compatibility": "Requires openspec CLI.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "88ad070e30256107d8989c2bf4b0ff9e4ee1c8976dd32829675c88f00618dad6",
+    "description": "Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "design",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/a620906209/ticket-hub/blob/master/.claude/skills/openspec-propose/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:07:57.744468Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:07:57.744468Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "openspec",
+      "generatedBy": "1.3.1",
+      "version": "1.0"
+    },
+    "name": "openspec-propose",
+    "path": ".claude/skills/openspec-propose",
+    "pushed_at": "2026-09-12T11:03:57Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "a620906209/ticket-hub",
+    "repo_url": "https://github.com/a620906209/ticket-hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "eda6ebedd18a61c2b2dee5010755549fc16402240ea7d51a9f870b61e551b012",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "eda6ebedd18a61c2b2dee5010755549fc16402240ea7d51a9f870b61e551b012"
+}
