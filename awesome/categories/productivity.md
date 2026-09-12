@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 316
+Published Skills: 317
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -98,6 +98,7 @@ Published Skills: 316
 | [task-management](../skills/commontoolsinc/labs/skills/task-management/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Guide for managing tasks within a session using bd (beads) for subtasks and local todo lists. Use this skill when breaking down plans into issues, tracking progress, managing dependencies, or coordinating work across sessions and agents. Triggers include requests to "manage tasks", "track progress", "break down this work", or questions about bd workflow. |
 | [post-task-learning-review](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/post-task-learning-review/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Review substantial completed tasks for durable lessons and store only high-value reusable guidance. |
 | [telegram-agent](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/telegram-agent/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Set up, start, stop, or troubleshoot a Telegram bot backed by the local agent harness. |
+| [wait-for-ci](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/wait-for-ci/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Wait for continuous-integration checks to finish and respond to their final result instead of ending while checks are pending. |
 | [curator](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/curator/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [pipeline-context](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/pipeline-context/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Load context for pipeline, cron, Lambda, OCR, and translation work. Use when starting any pipeline monitoring, debugging, or processing task. |

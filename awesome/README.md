@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **768**
+Published skills: **769**
 Repositories: **81**
 
 ## Browse repositories
@@ -712,6 +712,7 @@ Repositories: **81**
 - [learn-about-user](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/learn-about-user/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/learn-about-user`
 - [post-task-learning-review](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/post-task-learning-review/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/post-task-learning-review`
 - [telegram-agent](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/telegram-agent/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/telegram-agent`
+- [wait-for-ci](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/wait-for-ci/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/wait-for-ci`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`

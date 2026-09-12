@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "8b155855451b509858203a7f0af164f51824b71f8637eaccce034bc0bd6a22ec",
+  "canonical_key": "digitallyinduced/haskell-agent:packages/agent-cli/skills/wait-for-ci",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8b155855451b509858203a7f0af164f51824b71f8637eaccce034bc0bd6a22ec",
+    "archived": false,
+    "canonical_key": "digitallyinduced/haskell-agent:packages/agent-cli/skills/wait-for-ci",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "38012d66023afb5c6e84aa19c8eacd6889370a10869f66a25bd4284d7806a241",
+    "description": "Wait for continuous-integration checks to finish and respond to their final result instead of ending while checks are pending.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "integrations",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/digitallyinduced/haskell-agent/blob/master/packages/agent-cli/skills/wait-for-ci/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T11:10:08.068617Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:10:08.068617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "wait-for-ci",
+    "path": "packages/agent-cli/skills/wait-for-ci",
+    "pushed_at": "2026-09-12T11:03:32Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "digitallyinduced/haskell-agent",
+    "repo_url": "https://github.com/digitallyinduced/haskell-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 46,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8f4813d73d201bec5a8f891a51a1d3f7b05560c12879b961dc5cc0c15e241d35",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 29
+  },
+  "source_fingerprint": "8f4813d73d201bec5a8f891a51a1d3f7b05560c12879b961dc5cc0c15e241d35"
+}
