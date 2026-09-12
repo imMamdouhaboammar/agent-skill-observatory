@@ -43,9 +43,9 @@ Publication is atomic per semantic Skill event. Each add, update, reindex, or co
 The scheduled refresh checks GitHub every 15 minutes. After the bounded Skill event loop, `AWESOME.md` and `data/*` are rebuilt as reproducible materialized views. Aggregate files are not used to decide whether a Skill changed, and a timestamp-only refresh does not create a catalog commit. The root README remains human-owned outside the generated marker block below.
 
 <!-- AWESOME_INDEX_START -->
-Published skills: **770**
+Published skills: **771**
 Repositories: **82**
-Latest Skill event: **add** · `dpatel-93/alfred:_archive/2026-08-14-icm/skills/assemble`
+Latest Skill event: **add** · `dpatel-93/alfred:skills/agent-builder`
 
 [Browse the GitHub directory](./awesome/README.md) · [Open AWESOME.md](./AWESOME.md)
 <!-- AWESOME_INDEX_END -->

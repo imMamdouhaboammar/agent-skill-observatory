@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **770**
+Published skills: **771**
 Repositories: **82**
 
 ## Browse repositories
@@ -717,6 +717,7 @@ Repositories: **82**
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [assemble](./skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) · `dpatel-93/alfred:_archive/2026-08-14-icm/skills/assemble`
+- [agent-builder](./skills/dpatel-93/alfred/skills/agent-builder/README.md) · `dpatel-93/alfred:skills/agent-builder`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`
