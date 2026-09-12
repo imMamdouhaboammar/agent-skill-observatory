@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 60
+Published Skills: 61
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -59,6 +59,7 @@ Published Skills: 60
 | [building-regression-tests](../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
 | [architecture-diagram](../skills/ComponentDock/free-react-templates/skills/creative/architecture-diagram/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Dark-themed SVG architecture/cloud/infra diagrams as HTML. |
+| [blogwatcher](../skills/ComponentDock/free-react-templates/skills/research/blogwatcher/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool. |
 | [codebase-inspection](../skills/ComponentDock/free-react-templates/skills/github/codebase-inspection/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Inspect codebases w/ pygount: LOC, languages, ratios. |
 | [github-org-automation](../skills/ComponentDock/free-react-templates/skills/github/github-org-automation/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Headless GitHub org automation: auth, scopes, bulk repo ops. |
 | [pretext](../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Build creative browser demos with DOM-free text layout. |
