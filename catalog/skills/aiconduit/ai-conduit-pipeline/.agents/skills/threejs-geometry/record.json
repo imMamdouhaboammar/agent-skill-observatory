@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "c54cb00a3d592377fcf02976e69a4dd268262c82931541afd506a36ce05ef0fa",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/threejs-geometry",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c54cb00a3d592377fcf02976e69a4dd268262c82931541afd506a36ce05ef0fa",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/threejs-geometry",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8337bcf86621411f54ef39727b338c84890815e4b3612ce635d593dd9c321a3e",
+    "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "data",
+        "design",
+        "devops",
+        "localization",
+        "media"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-geometry/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "threejs-geometry",
+    "path": ".agents/skills/threejs-geometry",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "da6f552d2ad8f1eac2c79866ecc9d1a8e3c5687ec62348040c3adaa4df122b41",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "da6f552d2ad8f1eac2c79866ecc9d1a8e3c5687ec62348040c3adaa4df122b41"
+}

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **446**
+Published skills: **447**
 Repositories: **53**
 
 ## Browse repositories
@@ -181,6 +181,7 @@ Repositories: **53**
 - [tailwind-design-system](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/tailwind-design-system/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/tailwind-design-system`
 - [threejs-animation](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-animation/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/threejs-animation`
 - [threejs-fundamentals](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-fundamentals/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/threejs-fundamentals`
+- [threejs-geometry](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-geometry/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/threejs-geometry`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
