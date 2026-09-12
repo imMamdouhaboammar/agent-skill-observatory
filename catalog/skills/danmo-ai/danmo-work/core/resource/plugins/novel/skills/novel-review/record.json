@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "1a547e89d29e92d7ed22af73b91f87662241b42f33746837f81bafceee98cd72",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-review",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1a547e89d29e92d7ed22af73b91f87662241b42f33746837f81bafceee98cd72",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-review",
+    "compatibility": "Requires write, edit, read_file, grep, exec_shell; Core table_*, memory_*, search_kb; ask_user",
+    "consecutive_misses": 0,
+    "content_fingerprint": "4867b6b0c14b49c00e8a668563e47d35fde6930c408f5fbb0a8a2a6c8774928f",
+    "description": "Post-draft finalize for novels — 字数扩写, review, deslop, and Continuity Commit. Use after a drafted chapter when expanding thin prose, 审稿, 去AI味, batch review, 卷收束, or committing continuity. Not for opening a book or writing first drafts (those stay novel-write / better model).",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/plugins/novel/skills/novel-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "danmo-work",
+      "category": "creative-writing",
+      "version": "2.6"
+    },
+    "name": "novel-review",
+    "path": "core/resource/plugins/novel/skills/novel-review",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 5,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c537ce8744c12ee8696513fbe74a9986c78e8e154fd7a62d94488bb651e9c58a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "c537ce8744c12ee8696513fbe74a9986c78e8e154fd7a62d94488bb651e9c58a"
+}
