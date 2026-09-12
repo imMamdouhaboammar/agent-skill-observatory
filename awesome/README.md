@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **702**
+Published skills: **703**
 Repositories: **73**
 
 ## Browse repositories
@@ -611,6 +611,7 @@ Repositories: **73**
 - [pretext](./skills/componentdock/free-react-templates/skills/creative/pretext/README.md) · `componentdock/free-react-templates:skills/creative/pretext`
 - [sketch](./skills/componentdock/free-react-templates/skills/creative/sketch/README.md) · `componentdock/free-react-templates:skills/creative/sketch`
 - [himalaya](./skills/componentdock/free-react-templates/skills/email/himalaya/README.md) · `componentdock/free-react-templates:skills/email/himalaya`
+- [codebase-inspection](./skills/componentdock/free-react-templates/skills/github/codebase-inspection/README.md) · `componentdock/free-react-templates:skills/github/codebase-inspection`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`

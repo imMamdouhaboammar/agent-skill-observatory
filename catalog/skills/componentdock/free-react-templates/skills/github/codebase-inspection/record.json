@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "3e5ef70cc686d35d5880afd91bc7dfae065f32a0206fafb0d7134217b75bce3f",
+  "canonical_key": "componentdock/free-react-templates:skills/github/codebase-inspection",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3e5ef70cc686d35d5880afd91bc7dfae065f32a0206fafb0d7134217b75bce3f",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/github/codebase-inspection",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c347775fb644636afe16c67124f06a96cf344818422b3e27f2bd490b1b1b8c5f",
+    "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "engineering",
+        "browser-automation",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/github/codebase-inspection/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['LOC', 'Code Analysis', 'pygount', 'Codebase', 'Metrics', 'Repository'], 'related_skills': ['github-repo-management']}"
+    },
+    "name": "codebase-inspection",
+    "path": "skills/github/codebase-inspection",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "094a3c72d90f76f6613a8de6a64fe7d79df361b9afdc9cd079529ab8c5adf072",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "094a3c72d90f76f6613a8de6a64fe7d79df361b9afdc9cd079529ab8c5adf072"
+}
