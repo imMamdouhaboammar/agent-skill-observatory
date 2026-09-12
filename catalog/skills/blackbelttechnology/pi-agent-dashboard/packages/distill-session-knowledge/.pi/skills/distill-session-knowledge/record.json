@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "1bc890ab1eea3e35bf8281eeaa60ac40f2b625a2f2aa2630668149e98be4ad22",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/distill-session-knowledge/.pi/skills/distill-session-knowledge",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1bc890ab1eea3e35bf8281eeaa60ac40f2b625a2f2aa2630668149e98be4ad22",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/distill-session-knowledge/.pi/skills/distill-session-knowledge",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5f6c7bdcc10ebcb65a1a740e9dcc366ac10065e4be6322d145a4a314401c1883",
+    "description": "Offline-mine this project's pi session JSONL logs into reusable, verified knowledge: extracts faults, decisions, corrections, procedures and docs, promotes only recurring patterns, and routes artifacts into skill_manage, memory and docs. Use on \"mine my sessions\", \"distill session knowledge\", \"extract lessons from logs\", \"turn my pi history into skills/memory\".",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "hr-recruiting",
+        "agent-orchestration",
+        "content",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/distill-session-knowledge/.pi/skills/distill-session-knowledge/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "distill-session-knowledge",
+    "path": "packages/distill-session-knowledge/.pi/skills/distill-session-knowledge",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7665a4eac89432ee6a195168bae8968366edcd6dad1035312b4909948ba5225d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "7665a4eac89432ee6a195168bae8968366edcd6dad1035312b4909948ba5225d"
+}
