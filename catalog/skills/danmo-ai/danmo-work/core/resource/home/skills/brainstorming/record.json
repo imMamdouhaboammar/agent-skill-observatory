@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "6d78951fe28ed8b116f73ff4ad28003d12c84ef32b40fa8d2653dc84735e01b1",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/brainstorming",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6d78951fe28ed8b116f73ff4ad28003d12c84ef32b40fa8d2653dc84735e01b1",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/brainstorming",
+    "compatibility": "Requires read_file, grep, glob; web_search optional",
+    "consecutive_misses": 0,
+    "content_fingerprint": "9f4727268b053e42a7bc1cee1590bedb8e70cb591b00ec335147526c5dd1e9d8",
+    "description": "Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "design",
+        "productivity",
+        "data",
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/home/skills/brainstorming/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "adapted_from": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+      "author": "danmo-work",
+      "category": "work",
+      "upstream_license": "MIT",
+      "version": "1.0"
+    },
+    "name": "brainstorming",
+    "path": "core/resource/home/skills/brainstorming",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4be9c122135803645806d9e57dd4e829f006cc6070593f44a0f73405fd98e35e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "4be9c122135803645806d9e57dd4e829f006cc6070593f44a0f73405fd98e35e"
+}

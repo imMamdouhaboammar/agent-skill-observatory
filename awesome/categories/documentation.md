@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 226
+Published Skills: 227
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -138,6 +138,7 @@ Published Skills: 226
 | [atm-task-intent-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing. |
 | [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
 | [mailbox-worker-execution](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/mailbox-worker-execution/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Mailbox worker execution workflow for agents that claim dispatch cards, complete scoped work, run required checks, and report done or blocked with evidence. |
+| [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [buildd-mcp-consumer](../skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 100 | 100 | 1 | Use whenever the buildd MCP tools (`buildd`, `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target. |
 | [buildd-workflow](../skills/buildd-ai/buildd/.claude/skills/buildd-workflow/README.md) | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 100 | 100 | 1 | Workflow skill that helps agents work effectively in buildd. Enforces disciplined development — TDD, quality gates, proper planning, progress reporting, and no shortcuts. |
 | [check-policy-drift](../skills/DKJ-Solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) | [DKJ-Solutions/dkj-claude-plugins](https://github.com/DKJ-Solutions/dkj-claude-plugins) | 100 | 100 | 1 | Lay out every document that legislates in this repo in RANK ORDER -- the installed plugins' portable pages above this repo's own workflow folder, above its always-on CLAUDE.md closure -- and then read them against each other for contradictions. Use it when adopting this workflow into a repo that already had its own rules, when a session and a page disagree about how the cycle works, or before folding a shared rule into a root CLAUDE.md. The script locates and hands over; the judgement is yours, and nothing is ever edited. |

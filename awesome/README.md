@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **746**
-Repositories: **78**
+Published skills: **747**
+Repositories: **79**
 
 ## Browse repositories
 
@@ -64,6 +64,7 @@ Repositories: **78**
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
 - [commontoolsinc/labs](./repos/commontoolsinc/labs.md)
 - [cosyeezz/axiom](./repos/cosyeezz/axiom.md)
+- [danmo-ai/danmo-work](./repos/danmo-ai/danmo-work.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
@@ -672,6 +673,7 @@ Repositories: **78**
 - [security-review](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/security-review/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/security-review`
 - [strategic-compact](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/strategic-compact/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/strategic-compact`
 - [verification-loop](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/verification-loop/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/verification-loop`
+- [brainstorming](./skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) · `danmo-ai/danmo-work:core/resource/home/skills/brainstorming`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`
