@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **779**
-Repositories: **83**
+Published skills: **780**
+Repositories: **84**
 
 ## Browse repositories
 
@@ -25,6 +25,7 @@ Repositories: **83**
 - [DahanItamar/uilint](./repos/DahanItamar/uilint.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DanFashauer/SignalGrid-Review-Hub](./repos/DanFashauer/SignalGrid-Review-Hub.md)
+- [Deploy-Forward/convoy](./repos/Deploy-Forward/convoy.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
 - [DiamondForgeFr/SaasFoundryAI](./repos/DiamondForgeFr/SaasFoundryAI.md)
 - [Embassy-of-the-Free-Mind/sourcelibrary-v2](./repos/Embassy-of-the-Free-Mind/sourcelibrary-v2.md)
@@ -695,6 +696,7 @@ Repositories: **83**
 - [novel-plan](./skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-plan/README.md) · `danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-plan`
 - [novel-review](./skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-review/README.md) · `danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-review`
 - [novel-write](./skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-write/README.md) · `danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-write`
+- [convoy](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`
