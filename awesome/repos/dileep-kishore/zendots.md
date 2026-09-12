@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dileep-kishore/zendots](https://github.com/dileep-kishore/zendots)
 
-Published Skills: 18
-Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, productivity, research, testing
+Published Skills: 19
+Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=18, 60-84=0, <60=0
+Security distribution: 85+=19, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -27,3 +27,4 @@ Security distribution: 85+=18, 60-84=0, <60=0
 | [orca-linear](../../skills/dileep-kishore/zendots/dot_agents/skills/orca-linear/README.md) | `dot_agents/skills/orca-linear` | 100 | 100 | commerce, data, productivity |
 | [orca-worktree-hooks](../../skills/dileep-kishore/zendots/dot_agents/skills/orca-worktree-hooks/README.md) | `dot_agents/skills/orca-worktree-hooks` | 100 | 100 | commerce, content, data, devops, documentation, research |
 | [orchestration](../../skills/dileep-kishore/zendots/dot_agents/skills/orchestration/README.md) | `dot_agents/skills/orchestration` | 100 | 100 | agent-orchestration, browser-automation, commerce, design, productivity, testing |
+| [python-patterns](../../skills/dileep-kishore/zendots/dot_agents/skills/python-patterns/README.md) | `dot_agents/skills/python-patterns` | 100 | 100 | commerce, content, data, engineering, security, testing |
