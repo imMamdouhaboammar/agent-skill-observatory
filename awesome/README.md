@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **639**
+Published skills: **640**
 Repositories: **70**
 
 ## Browse repositories
@@ -137,6 +137,7 @@ Repositories: **70**
 - [openspec-propose](./skills/a620906209/ticket-hub/.claude/skills/openspec-propose/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-propose`
 - [action-converter](./skills/aaronjmars/aeon-agent/skills/action-converter/README.md) · `aaronjmars/aeon-agent:skills/action-converter`
 - [autoresearch](./skills/aaronjmars/aeon-agent/skills/autoresearch/README.md) · `aaronjmars/aeon-agent:skills/autoresearch`
+- [base-mcp](./skills/aaronjmars/aeon-agent/skills/base-mcp/README.md) · `aaronjmars/aeon-agent:skills/base-mcp`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`
