@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 457
+Published Skills: 458
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -76,6 +76,7 @@ Published Skills: 457
 | [atmos-introspection](../skills/cloudposse/atmos/agent-skills/skills/atmos-introspection/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Introspection & Querying: describe/list commands, config filtering, workspace introspection, dependency graphs, YQ integration, --help=<topic> scoped CLI help |
 | [atmos-profiles](../skills/cloudposse/atmos/agent-skills/skills/atmos-profiles/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos profiles: profile directories, --profile and ATMOS_PROFILE activation, profile merge behavior, environment switching, and routing profile-specific auth/toolchain/config overrides |
 | [atmos-project-layout](../skills/cloudposse/atmos/agent-skills/skills/atmos-project-layout/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos project layout: base_path, relative path resolution, root stacks/components/workflows/schemas directories, atmos.d modular config, and repository path conventions |
+| [atmos-scaffold](../skills/cloudposse/atmos/agent-skills/skills/atmos-scaffold/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Scaffold templates: authoring scaffold.yaml, form fields (types, validation, conditional when:), conditional file generation, step-backed hooks (pre/post-generate), update-safe 3-way merge, and atmos scaffold generate/list/validate |
 | [changelog](../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Blog post authoring for Atmos: MDX template, frontmatter, website/blog/tags.yml and authors.yml rules, problem-first framing, backtick-opening ban, optional cast embeds, and no-Go-internals leakage. Invoke when writing, editing, or reviewing a website/blog/*.mdx changelog post. |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [docs](../skills/cloudposse/atmos/.claude/skills/docs/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks |

@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 137
+Published Skills: 138
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -31,6 +31,7 @@ Published Skills: 137
 | [atmos-introspection](../skills/cloudposse/atmos/agent-skills/skills/atmos-introspection/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Introspection & Querying: describe/list commands, config filtering, workspace introspection, dependency graphs, YQ integration, --help=<topic> scoped CLI help |
 | [atmos-profiles](../skills/cloudposse/atmos/agent-skills/skills/atmos-profiles/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos profiles: profile directories, --profile and ATMOS_PROFILE activation, profile merge behavior, environment switching, and routing profile-specific auth/toolchain/config overrides |
 | [atmos-project-layout](../skills/cloudposse/atmos/agent-skills/skills/atmos-project-layout/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos project layout: base_path, relative path resolution, root stacks/components/workflows/schemas directories, atmos.d modular config, and repository path conventions |
+| [atmos-scaffold](../skills/cloudposse/atmos/agent-skills/skills/atmos-scaffold/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Scaffold templates: authoring scaffold.yaml, form fields (types, validation, conditional when:), conditional file generation, step-backed hooks (pre/post-generate), update-safe 3-way merge, and atmos scaffold generate/list/validate |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [docs](../skills/cloudposse/atmos/.claude/skills/docs/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks |
 | [field-test](../skills/cloudposse/atmos/.claude/skills/field-test/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Hands-on manual DX test pass of a feature or CLI command: read the real implementation and tests, hypothesize plausible user misunderstandings and misuse automated tests don't cover, build durable fixtures, execute for real against real state, and report ranked findings. Investigation only — never fixes anything found. Defaults to testing whatever the current branch changed vs its base branch when no explicit target is given. Invoke on explicit requests like 'field test X' / 'do a DX test pass on X' / 'find vibe-coded slop in X' / 'field test this branch'. |
