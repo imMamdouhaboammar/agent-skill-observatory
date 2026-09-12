@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 5
-Categories: agent-orchestration, code-review, commerce, content, data, devops, documentation, engineering, integrations, localization, product, productivity, research, security, testing
+Published Skills: 6
+Categories: agent-orchestration, code-review, commerce, content, data, devops, documentation, engineering, integrations, localization, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [owner-comms](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/owner-comms/README.md) | `.claude/skills/owner-comms` | 100 | 100 | commerce, content, documentation, engineering, localization, security |
 | [receiving-code-review](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/receiving-code-review/README.md) | `.claude/skills/receiving-code-review` | 100 | 100 | code-review, content, data, engineering, research, testing |
 | [requesting-code-review](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/requesting-code-review/README.md) | `.claude/skills/requesting-code-review` | 100 | 100 | agent-orchestration, code-review, devops, documentation, engineering, product |
+| [signalgrid-native](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-native/README.md) | `.claude/skills/signalgrid-native` | 100 | 100 | content, documentation, engineering, integrations, mobile, research |

@@ -1,6 +1,6 @@
 # mobile
 
-Published Skills: 25
+Published Skills: 26
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -17,6 +17,7 @@ Published Skills: 25
 | [clerk-setup](../skills/Gizziio/allternit-platform/.agents/skills/clerk-setup/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Add Clerk authentication to any project by following the official quickstart guides. |
 | [clerk-swift](../skills/Gizziio/allternit-platform/.agents/skills/clerk-swift/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Implement Clerk authentication for native Swift and iOS apps using ClerkKit and ClerkKitUI source-guided patterns. Use for prebuilt AuthView or custom native flows. Do not use for Expo or React Native projects. |
 | [seis-code](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-code/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Code for architecture-aware implementation, refactors, debugging, tests, repo automation, platform packages, MCP/plugin code, CI quality gates, and code-review fixes inside the SEIS ecosystem. Trigger when Codex needs to build, fix, implement, refactor, validate, or plan code changes under SEIS while preserving user work, main-branch safety, Apple-first priorities, security, and documentation quality. |
+| [signalgrid-native](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-native/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | The native-platform maintainer for SignalGrid — iOS, Android, Tauri desktop, Rust dock firmware, and the Mac validation harness. Use for any work under native/ or firmware/. This role maintains and does not extend; it covers the byte-faithful port rule, platform honesty, the macOS toolchain wrinkles, and why four surfaces are already more than the org can carry. |
 | [flutter-ui-design](../skills/chenyynx/claudio/bridge/.claude/skills/flutter-ui-design/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter UI実装のアーキテクチャ規約・コンポーネント分割・状態管理ガイド（Bloc/Cubit版） |
 | [flutter-upgrade](../skills/chenyynx/claudio/bridge/.claude/skills/flutter-upgrade/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter SDKバージョンアップグレード対応。新バージョンのリリースノート・Breaking Changes調査、コードベース影響分析、mise/CI/Shorebird含むプロジェクト全体の対応タスクリスト作成と実行。「Flutterアップグレード」「Flutter X.Y.Zがリリースされた」「Flutter最新化」「Flutter更新」と言われたとき、またはFlutterの新バージョンについて言及されたときに使用する。 |
 | [mobile-automation](../skills/chenyynx/claudio/bridge/.claude/skills/mobile-automation/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | MCP (dart-mcp + Marionette) を使ったFlutterアプリのE2E自動化・UI検証ガイド。シミュレーターでのUI動作確認、モックプレビュー検証、Bridge経由のE2Eテスト、スクリーンショット撮影など、アプリの動作検証が必要なときに使う。「動作確認して」「UIを検証して」「E2Eテスト」「シミュレーターで確認」「モックで確認」と言われたときや、UI変更後の検証フェーズで使用すること。 |
