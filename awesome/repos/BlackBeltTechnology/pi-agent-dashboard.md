@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 15
+Published Skills: 16
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,6 +14,7 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [autofix](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | `packages/code-review-toolkit/.pi/skills/autofix` | 100 | 100 | browser-automation, content, data, devops, engineering, security |
 | [code-quality](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) | `.pi/skills/code-quality` | 100 | 100 | content, documentation, engineering, integrations, legal-compliance, testing |
 | [code-review](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/code-review/README.md) | `packages/code-review-toolkit/.pi/skills/code-review` | 100 | 100 | code-review, commerce, content, documentation, engineering, security |
+| [code-simplification](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/code-simplification/README.md) | `packages/eng-disciplines/.pi/skills/code-simplification` | 100 | 100 | code-review, content, data, engineering, productivity, security |
 | [dashboard-plugin-scaffold](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold/README.md) | `packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold` | 100 | 100 | ai-ml, commerce, design, devops, documentation, engineering |
 | [distill-session-knowledge](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/distill-session-knowledge/.pi/skills/distill-session-knowledge/README.md) | `packages/distill-session-knowledge/.pi/skills/distill-session-knowledge` | 100 | 100 | agent-orchestration, content, documentation, engineering, hr-recruiting, productivity |
 | [doc-summarizer](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/document-converter/.pi/skills/doc-summarizer/README.md) | `packages/document-converter/.pi/skills/doc-summarizer` | 100 | 100 | agent-orchestration, data, devops, documents, engineering, finance |

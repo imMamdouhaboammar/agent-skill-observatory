@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "2c83d7cae422ce2fdc7a3b22c97a5b5927278d95ca58e76c667f8cb2af2cdab8",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/code-simplification",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2c83d7cae422ce2fdc7a3b22c97a5b5927278d95ca58e76c667f8cb2af2cdab8",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/code-simplification",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a08903dce0648b455a13db22654a061d25354c3059a5f3789378bad6e74eae23",
+    "description": "Active simplify pass for working code. Use when explicitly asked to \"simplify this\", \"reduce complexity\", \"clean this up\", \"make this clearer\", or when behavior-preserving readability/maintainability is the goal. Complements the project's passive simplicity-first rule by running a deliberate complexity-reduction loop. Not a spec, plan, or review workflow — does not change behavior.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "code-review",
+        "content",
+        "data",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/code-simplification/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "code-simplification",
+    "path": "packages/eng-disciplines/.pi/skills/code-simplification",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "12aee47b58cb55666e3c3b288f36f188253e1fd72dca4b4dec51794210e4fa35",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "12aee47b58cb55666e3c3b288f36f188253e1fd72dca4b4dec51794210e4fa35"
+}
