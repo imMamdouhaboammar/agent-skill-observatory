@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "43c9da7626b73daaf84021f0755afca12ff7106d000cc903dcdf64573d58e2b1",
+  "canonical_key": "deploy-forward/convoy:plugin/convoy/skills/convoy-wizard",
+  "publication_event": "add",
+  "published_at": "2026-09-12T21:43:32.096344Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "43c9da7626b73daaf84021f0755afca12ff7106d000cc903dcdf64573d58e2b1",
+    "archived": false,
+    "canonical_key": "deploy-forward/convoy:plugin/convoy/skills/convoy-wizard",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0bfb938115e1bb7753d3d6ca89c37e299c51665572272742340f476da5aadfbe",
+    "description": "Optional @convoy wizard: fail-closed live-tool preflight, then ONE card (harness -> model -> effort | attach, usage remaining per harness) that drives GitHub gate, repo selection, N neurons, one-window launch and observed connects.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "commerce",
+        "content",
+        "devops",
+        "data",
+        "documentation",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Deploy-Forward/convoy/blob/main/plugin/convoy/skills/convoy-wizard/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T21:43:04.583983Z",
+    "last_successful_repo_scan_at": "2026-09-12T21:43:04.583983Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "convoy-wizard",
+    "path": "plugin/convoy/skills/convoy-wizard",
+    "pushed_at": "2026-09-12T21:29:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Deploy-Forward/convoy",
+    "repo_url": "https://github.com/Deploy-Forward/convoy",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d1822531ab3b493ef5d38bb8d6d3d8ddf5c30b413d58ae6f7f477d18670730ff",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "d1822531ab3b493ef5d38bb8d6d3d8ddf5c30b413d58ae6f7f477d18670730ff"
+}
