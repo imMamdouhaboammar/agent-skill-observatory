@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **569**
+Published skills: **570**
 Repositories: **64**
 
 ## Browse repositories
@@ -406,6 +406,7 @@ Repositories: **64**
 - [webapp-testing](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [golden-three-chapters](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/golden-three-chapters/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/golden-three-chapters`
+- [snowflake](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/snowflake/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/snowflake`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`

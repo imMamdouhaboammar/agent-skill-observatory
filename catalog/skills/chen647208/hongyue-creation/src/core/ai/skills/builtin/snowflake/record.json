@@ -1,0 +1,87 @@
+{
+  "analysis_fingerprint": "573b7cb7484191e34eb2d8e68520bab8c379fbb8844a11298a1a6e81a1bec23f",
+  "canonical_key": "chen647208/hongyue-creation:src/core/ai/skills/builtin/snowflake",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "573b7cb7484191e34eb2d8e68520bab8c379fbb8844a11298a1a6e81a1bec23f",
+    "archived": false,
+    "canonical_key": "chen647208/hongyue-creation:src/core/ai/skills/builtin/snowflake",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "26dfabc54e669352209d2b40de869bf795c277201dc11bbb55e9a20fd8068ffc",
+    "description": "雪片法大纲：从一句话到完整大纲的十步展开，适合从零起书或重构大纲。触发词：雪片、大纲展开",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "other"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chen647208/hongyue-creation/blob/main/src/core/ai/skills/builtin/snowflake/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 8,
+    "indexed_at": "2026-09-12T01:39:32.341237Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:39:32.341237Z",
+    "license": "AGPL-3.0",
+    "metadata": {},
+    "name": "snowflake",
+    "path": "src/core/ai/skills/builtin/snowflake",
+    "pushed_at": "2026-09-12T01:31:02Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chen647208/hongyue-creation",
+    "repo_url": "https://github.com/chen647208/hongyue-creation",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 51,
+      "maintenance": 100,
+      "overall": 93,
+      "quality": 78,
+      "reasons": [
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "31d86ef9ac8a7a4ff3388b35771bffc136851080b54157377c2a04f0c79faa4e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 33
+  },
+  "source_fingerprint": "31d86ef9ac8a7a4ff3388b35771bffc136851080b54157377c2a04f0c79faa4e"
+}
