@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 12
-Categories: agent-orchestration, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security
+Published Skills: 13
+Categories: agent-orchestration, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,3 +21,4 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [codex](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | `skills/autonomous-ai-agents/codex` | 97 | 100 | commerce, content, data, engineering, integrations, productivity |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
 | [imessage](../../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | `skills/apple/imessage` | 97 | 100 | content, legal-compliance, media, productivity, security |
+| [opencode](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | `skills/autonomous-ai-agents/opencode` | 97 | 100 | content, data, engineering, integrations, productivity, testing |

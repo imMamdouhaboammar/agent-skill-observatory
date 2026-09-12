@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "9f4e2cb9234ff1cdf7f3ad8404eebb0581409f1d12dc0408e58b685844cda077",
+  "canonical_key": "componentdock/free-react-templates:skills/autonomous-ai-agents/opencode",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9f4e2cb9234ff1cdf7f3ad8404eebb0581409f1d12dc0408e58b685844cda077",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/autonomous-ai-agents/opencode",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e565dcfcde48a9d986b216cf102251b86210cce81da9e16f902a38a4b6dd528b",
+    "description": "Delegate coding to OpenCode CLI (features, PR review).",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "testing",
+        "content",
+        "data",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/autonomous-ai-agents/opencode/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['Coding-Agent', 'OpenCode', 'Autonomous', 'Refactoring', 'Code-Review'], 'related_skills': ['claude-code', 'codex', 'hermes-agent']}"
+    },
+    "name": "opencode",
+    "path": "skills/autonomous-ai-agents/opencode",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "620f47c8b16bcdc7855419b7defbb5632c543596492d4236c30dd789ca2c3466",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "620f47c8b16bcdc7855419b7defbb5632c543596492d4236c30dd789ca2c3466"
+}
