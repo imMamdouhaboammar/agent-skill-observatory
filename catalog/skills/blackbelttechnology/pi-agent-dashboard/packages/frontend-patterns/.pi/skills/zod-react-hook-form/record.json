@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "8c04ca0d34b87637192e78cf3d64635538e2c40fdf5fd25fa63c742288dcebe6",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/zod-react-hook-form",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8c04ca0d34b87637192e78cf3d64635538e2c40fdf5fd25fa63c742288dcebe6",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/zod-react-hook-form",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1f375423f5a4e7ba5b53b6ed1644c96e4b32e3eb8da9c7a0f2c93327fede4cd2",
+    "description": "Form validation combining Zod schemas with React Hook Form, including localized error messages, Server Action integration, and shadcn/ui Form components. Use when building forms, validating user input, handling form submissions, or implementing Server Actions with validation.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "integrations",
+        "localization",
+        "data",
+        "engineering",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/zod-react-hook-form/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "zod-react-hook-form",
+    "path": "packages/frontend-patterns/.pi/skills/zod-react-hook-form",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a453fc41e259ec1c7935f75a99c03d98644a1f691ea8936cd6b85eb1a2607271",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "a453fc41e259ec1c7935f75a99c03d98644a1f691ea8936cd6b85eb1a2607271"
+}
