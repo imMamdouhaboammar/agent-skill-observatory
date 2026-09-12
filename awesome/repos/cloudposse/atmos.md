@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 36
+Published Skills: 37
 Categories: ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=36, 60-84=0, <60=0
+Security distribution: 85+=37, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -25,6 +25,7 @@ Security distribution: 85+=36, 60-84=0, <60=0
 | [atmos-scaffold](../../skills/cloudposse/atmos/agent-skills/skills/atmos-scaffold/README.md) | `agent-skills/skills/atmos-scaffold` | 100 | 100 | commerce, content, data, devops, engineering, marketing |
 | [atmos-settings](../../skills/cloudposse/atmos/agent-skills/skills/atmos-settings/README.md) | `agent-skills/skills/atmos-settings` | 100 | 100 | design, documentation, engineering, productivity |
 | [atmos-stores](../../skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) | `agent-skills/skills/atmos-stores` | 100 | 100 | data, devops, engineering, integrations, productivity, security |
+| [atmos-templates](../../skills/cloudposse/atmos/agent-skills/skills/atmos-templates/README.md) | `agent-skills/skills/atmos-templates` | 100 | 100 | commerce, data, devops, engineering, security, testing |
 | [changelog](../../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | `.claude/skills/changelog` | 100 | 100 | ai-ml, content, documentation, engineering, product, productivity |
 | [component-development](../../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | `.claude/skills/component-development` | 100 | 100 | commerce, devops, documentation, engineering, integrations, research |
 | [docs](../../skills/cloudposse/atmos/.claude/skills/docs/README.md) | `.claude/skills/docs` | 100 | 100 | commerce, content, devops, documentation, engineering, product |
