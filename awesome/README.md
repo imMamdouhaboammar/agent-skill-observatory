@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **788**
+Published skills: **789**
 Repositories: **87**
 
 ## Browse repositories
@@ -706,6 +706,7 @@ Repositories: **87**
 - [re-frame2-implementor](./skills/day8/re-frame2/skills/re-frame2-implementor/README.md) · `day8/re-frame2:skills/re-frame2-implementor`
 - [re-frame2-improver](./skills/day8/re-frame2/skills/re-frame2-improver/README.md) · `day8/re-frame2:skills/re-frame2-improver`
 - [re-frame2-setup](./skills/day8/re-frame2/skills/re-frame2-setup/README.md) · `day8/re-frame2:skills/re-frame2-setup`
+- [re-frame2-xray](./skills/day8/re-frame2/skills/re-frame2-xray/README.md) · `day8/re-frame2:skills/re-frame2-xray`
 - [convoy](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy`
 - [convoy-wizard](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy-wizard`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
