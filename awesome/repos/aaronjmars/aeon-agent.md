@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 26
+Published Skills: 27
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, localization, marketing, media, product, productivity, project-management, research, security
 Best overall score: 100
-Security distribution: 85+=26, 60-84=0, <60=0
+Security distribution: 85+=27, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -35,3 +35,4 @@ Security distribution: 85+=26, 60-84=0, <60=0
 | [skill-article](../../skills/aaronjmars/aeon-agent/skills/skill-article/README.md) | `skills/skill-article` | 100 | 100 | commerce, content, design, engineering, hr-recruiting, integrations |
 | [token-movers](../../skills/aaronjmars/aeon-agent/skills/token-movers/README.md) | `skills/token-movers` | 100 | 100 | commerce, content, data, devops, marketing, security |
 | [token-pick](../../skills/aaronjmars/aeon-agent/skills/token-pick/README.md) | `skills/token-pick` | 100 | 100 | commerce, content, data, engineering, finance, hr-recruiting |
+| [tx-explain](../../skills/aaronjmars/aeon-agent/skills/tx-explain/README.md) | `skills/tx-explain` | 100 | 100 | content, engineering, research, security |
