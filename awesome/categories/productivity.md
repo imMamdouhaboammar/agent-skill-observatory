@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 232
+Published Skills: 233
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -187,6 +187,7 @@ Published Skills: 232
 | [openspec-archive-change](../skills/a620906209/ticket-hub/.claude/skills/openspec-archive-change/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete. |
 | [openspec-explore](../skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
+| [playwright-cli](../skills/chenyynx/claudio/bridge/.claude/skills/playwright-cli/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages. |
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |
 | [security-review](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | security findings, attack surfaces, dependency risk |
 | [setup-api-key](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/setup-api-key/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed. |

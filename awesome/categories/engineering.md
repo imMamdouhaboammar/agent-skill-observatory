@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 424
+Published Skills: 425
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -321,6 +321,7 @@ Published Skills: 424
 | [music](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/music/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata. |
 | [openspec-apply-change](../skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
+| [playwright-cli](../skills/chenyynx/claudio/bridge/.claude/skills/playwright-cli/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages. |
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |
 | [setup-api-key](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/setup-api-key/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed. |

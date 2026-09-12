@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "c52c153e56342f34347a08d4cecd639408b2edf90b3fa8b94b461693c6d68772",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/playwright-cli",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(playwright-cli:*)"
+    ],
+    "analysis_fingerprint": "c52c153e56342f34347a08d4cecd639408b2edf90b3fa8b94b461693c6d68772",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/playwright-cli",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d3d4ae2a282617c0c3894b2f0425fbfc9c661599cfbb64b6c075747a341cfdd9",
+    "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "browser-automation",
+        "data",
+        "engineering",
+        "productivity",
+        "documents"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/playwright-cli/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 8
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "playwright-cli",
+    "path": "bridge/.claude/skills/playwright-cli",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 7,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bf194aa050badd9ac60a96fae7913511b23ccfc9be2bcf4b513b7357391cb98b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "bf194aa050badd9ac60a96fae7913511b23ccfc9be2bcf4b513b7357391cb98b"
+}
