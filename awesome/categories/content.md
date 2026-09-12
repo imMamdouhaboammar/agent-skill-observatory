@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 442
+Published Skills: 443
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -398,6 +398,7 @@ Published Skills: 442
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [design-md](../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Author/validate/export Google's DESIGN.md token spec files. |
 | [findmy](../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Track Apple devices/AirTags via FindMy.app on macOS. |
+| [github-org-administration](../skills/ComponentDock/free-react-templates/skills/github/github-org-administration/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub org admin: classify and delete repos at scale. |
 | [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
 | [imessage](../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Send and receive iMessages/SMS via the imsg CLI on macOS. |

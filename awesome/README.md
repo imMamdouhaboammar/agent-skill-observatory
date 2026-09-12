@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **707**
+Published skills: **708**
 Repositories: **76**
 
 ## Browse repositories
@@ -619,6 +619,7 @@ Repositories: **76**
 - [himalaya](./skills/componentdock/free-react-templates/skills/email/himalaya/README.md) · `componentdock/free-react-templates:skills/email/himalaya`
 - [codebase-inspection](./skills/componentdock/free-react-templates/skills/github/codebase-inspection/README.md) · `componentdock/free-react-templates:skills/github/codebase-inspection`
 - [github-bulk-repo-ops](./skills/componentdock/free-react-templates/skills/github/github-bulk-repo-ops/README.md) · `componentdock/free-react-templates:skills/github/github-bulk-repo-ops`
+- [github-org-administration](./skills/componentdock/free-react-templates/skills/github/github-org-administration/README.md) · `componentdock/free-react-templates:skills/github/github-org-administration`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`

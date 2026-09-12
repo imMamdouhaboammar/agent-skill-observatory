@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 239
+Published Skills: 240
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -216,6 +216,7 @@ Published Skills: 239
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |
 | [update-api-docs](../skills/DexForce/EmbodiChain/.claude/skills/update-api-docs/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain update-api-docs skill. |
 | [atm-residue-cleanup](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 97 | 100 | 3 | Diagnose and safely reconcile operation-owned transient ATM residue. |
+| [github-org-administration](../skills/ComponentDock/free-react-templates/skills/github/github-org-administration/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub org admin: classify and delete repos at scale. |
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
 | [building-hybrid-game-assets](../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 96 | 100 | 1 | Use when a game needs a practical pipeline combining generated, hand-authored, 2D, 3D, procedural, or purchased assets while keeping visual consistency, runtime constraints, and iteration speed under control. |
 | [chatgpt-image-short-video](../skills/ChronoAIProject/nyx-skills/chatgpt-image-short-video/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Method for producing short vertical videos from ChatGPT image generation through a fixed browser tab, local TTS narration, timed subtitle burn-in, cover exports, and a manifest. Use when an operator needs a reproducible image-to-short workflow with pinned session consistency, per-beat visual prompts, 1080x1920 safe-area rules, local ffmpeg/PIL assembly, and private access kept outside the skill. |

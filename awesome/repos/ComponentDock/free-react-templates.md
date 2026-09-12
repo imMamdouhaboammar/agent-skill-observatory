@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 23
+Published Skills: 24
 Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=23, 60-84=0, <60=0
+Security distribution: 85+=24, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -25,6 +25,7 @@ Security distribution: 85+=23, 60-84=0, <60=0
 | [design-md](../../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | `skills/creative/design-md` | 97 | 100 | commerce, content, design, engineering, localization, marketing |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
 | [github-bulk-repo-ops](../../skills/ComponentDock/free-react-templates/skills/github/github-bulk-repo-ops/README.md) | `skills/github/github-bulk-repo-ops` | 97 | 100 | commerce, documentation, engineering, productivity |
+| [github-org-administration](../../skills/ComponentDock/free-react-templates/skills/github/github-org-administration/README.md) | `skills/github/github-org-administration` | 97 | 100 | content, documentation, engineering, productivity, research |
 | [himalaya](../../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | `skills/email/himalaya` | 97 | 100 | content, documentation, engineering, integrations, productivity, testing |
 | [humanizer](../../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | `skills/creative/humanizer` | 97 | 100 | commerce, content, documentation, engineering, productivity, research |
 | [imessage](../../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | `skills/apple/imessage` | 97 | 100 | content, legal-compliance, media, productivity, security |
