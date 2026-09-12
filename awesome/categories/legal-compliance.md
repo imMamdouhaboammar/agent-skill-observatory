@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 45
+Published Skills: 46
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -48,4 +48,5 @@ Published Skills: 45
 | [last-20-percent](../skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Finds and finishes the last 20% of a built solution — the experiential layer agents skip: what the output actually reads like, which pages or screens should exist, first-run and empty states, opinionated defaults, the golden path. Use when the user explicitly asks to plan or audit the experiential layer, or says "last 20%", "finish this", "make it actually good", "is this actually done", or "why does this feel flat". Do not invoke automatically for ordinary builds or completion checks. |
 | [apple-notes](../skills/ComponentDock/free-react-templates/skills/apple/apple-notes/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Manage Apple Notes via memo CLI: create, search, edit. |
 | [findmy](../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Track Apple devices/AirTags via FindMy.app on macOS. |
+| [imessage](../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Send and receive iMessages/SMS via the imsg CLI on macOS. |
 | [nonprofit-helpdesk](../skills/artbakerchat/Y/app/ForgeAgent/skills/nonprofit-helpdesk/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 97 | 100 | 0 | Help small nonprofits create practical, lightweight administrative materials. |

@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 9
+Published Skills: 10
 Categories: commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=9, 60-84=0, <60=0
+Security distribution: 85+=10, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -18,3 +18,4 @@ Security distribution: 85+=9, 60-84=0, <60=0
 | [apple-notes](../../skills/ComponentDock/free-react-templates/skills/apple/apple-notes/README.md) | `skills/apple/apple-notes` | 97 | 100 | legal-compliance, productivity |
 | [apple-reminders](../../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | `skills/apple/apple-reminders` | 97 | 100 | content, design, documentation, mobile, productivity, security |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
+| [imessage](../../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | `skills/apple/imessage` | 97 | 100 | content, legal-compliance, media, productivity, security |
