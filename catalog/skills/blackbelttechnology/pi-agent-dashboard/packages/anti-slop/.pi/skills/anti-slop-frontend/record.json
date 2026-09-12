@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "a1fd3f2d27ba42b787fbcb3d2617238ef055529345a3a3ecfb43d2cc6ec8c318",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/anti-slop/.pi/skills/anti-slop-frontend",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a1fd3f2d27ba42b787fbcb3d2617238ef055529345a3a3ecfb43d2cc6ec8c318",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/anti-slop/.pi/skills/anti-slop-frontend",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6e6927d5cf5ce299b22232e2c2b3f4f8a66261ae5d658effc43490e92183e123",
+    "description": "A mechanical, countable anti-slop checklist for AI-generated frontend. Catches the specific signatures an undirected model defaults to: AI-purple glows, Inter-everywhere, em-dashes, div-based fake screenshots, eyebrow-on-every-section, beige+brass \"premium\" palettes, generic Jane Doe / Acme data. Advisory layer that pairs with frontend-mockup-loop (which owns the cite-a-source loop plus WCAG gates) but works standalone in any React/Tailwind/HTML project. Triggers: \"does this look AI-generated\", \"anti-slop pass\", \"remove the AI tells\", \"why does this look templated\", \"design review for slop\".",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "engineering",
+        "data",
+        "research",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/anti-slop/.pi/skills/anti-slop-frontend/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {
+      "adapted_from": "Leonxlnx/taste-skill (design-taste-frontend, MIT) - countable rules distilled, stack-coupling removed, scoped universal vs marketing-only.",
+      "author": "blackbelt-technology",
+      "version": "0.1"
+    },
+    "name": "anti-slop-frontend",
+    "path": "packages/anti-slop/.pi/skills/anti-slop-frontend",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0ab6fac3212045371fa1259212544167dd7c90ad893e23b7ede208e86db7cc8e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "0ab6fac3212045371fa1259212544167dd7c90ad893e23b7ede208e86db7cc8e"
+}
