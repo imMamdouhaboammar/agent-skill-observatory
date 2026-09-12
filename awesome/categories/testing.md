@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 82
+Published Skills: 83
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -44,6 +44,7 @@ Published Skills: 82
 | [pattern-test](../skills/commontoolsinc/labs/skills/pattern-test/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Write and run pattern tests |
 | [pattern-test-to-integration](../skills/commontoolsinc/labs/skills/pattern-test-to-integration/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Convert Common Fabric pattern unit tests (`*.test.tsx` driven by actions and assertions) into browser integration tests (`packages/patterns/integration/*.test.ts`) that exercise the rendered UI, scale to a chosen size, and can be recorded with `deno task demo`. Use when asked to promote, mirror, spot-check, browser-test, or make a video demo from an existing pattern test, including multi-user pattern tests. |
 | [portos-add-page](../skills/atomantic/PortOS/.claude/skills/portos-add-page/README.md) | [atomantic/PortOS](https://github.com/atomantic/PortOS) | 100 | 100 | 38 | Register a new PortOS page or voice/palette action end to end — the NAV_COMMANDS entry shape in server/lib/navManifest.js, ⌘K palette wiring, voice ui_navigate aliases, and the fail-fast guards. Invoke when adding a route, a sidebar link, or a new voice-tool action. |
+| [portos-socket-ui](../skills/atomantic/PortOS/.claude/skills/portos-socket-ui/README.md) | [atomantic/PortOS](https://github.com/atomantic/PortOS) | 100 | 100 | 38 | Socket.IO lifecycle conventions for PortOS client views — event-driven state swaps, single-subscriber resources (PTY shells, agent runs), pending-request tracking, stale-response filtering, and deferred-work guards. Invoke before wiring or debugging a socket-driven UI. |
 | [writing-code](../skills/commontoolsinc/labs/skills/writing-code/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Conventions for writing or changing code in this repository — the two documents to read before the first edit, which document governs the thing you are about to touch, and which conventions no automated gate will catch. Use before writing, changing, or refactoring TypeScript anywhere in the tree. Patterns need `pattern-dev` as well; this skill covers what is true of all code here. |
 | [do](../skills/chardigio/pappardelle/examples/skills/do/README.md) | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 100 | 100 | 17 | Work through a TODO.md checklist in the worktree root, continuing until all items are checked off. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |

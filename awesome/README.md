@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **460**
+Published skills: **461**
 Repositories: **54**
 
 ## Browse repositories
@@ -266,6 +266,7 @@ Repositories: **54**
 - [phoenix-otel-development](./skills/arize-ai/phoenix/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development`
 - [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
 - [portos-file-issue](./skills/atomantic/portos/.claude/skills/portos-file-issue/README.md) · `atomantic/portos:.claude/skills/portos-file-issue`
+- [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`

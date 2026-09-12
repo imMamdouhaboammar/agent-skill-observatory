@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "372c7a3e7fcc0d5aea75bbed47d11a8280b718845e2c9e35433fdea67464d679",
+  "canonical_key": "atomantic/portos:.claude/skills/portos-socket-ui",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "372c7a3e7fcc0d5aea75bbed47d11a8280b718845e2c9e35433fdea67464d679",
+    "archived": false,
+    "canonical_key": "atomantic/portos:.claude/skills/portos-socket-ui",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b671ebed628ade315d8981d99bad03a51a2ae372a22c4a50a6f3ec24a06bf0e3",
+    "description": "Socket.IO lifecycle conventions for PortOS client views — event-driven state swaps, single-subscriber resources (PTY shells, agent runs), pending-request tracking, stale-response filtering, and deferred-work guards. Invoke before wiring or debugging a socket-driven UI.",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "media",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/atomantic/PortOS/blob/main/.claude/skills/portos-socket-ui/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 27,
+    "indexed_at": "2026-09-12T01:37:06.802435Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:06.802435Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "portos-socket-ui",
+    "path": ".claude/skills/portos-socket-ui",
+    "pushed_at": "2026-09-12T01:31:27Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "atomantic/PortOS",
+    "repo_url": "https://github.com/atomantic/PortOS",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 57,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3ae266cb54c5eae0fd5b6d1976e1a760035818376c16055be1eba5183cc7bd7b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 38
+  },
+  "source_fingerprint": "3ae266cb54c5eae0fd5b6d1976e1a760035818376c16055be1eba5183cc7bd7b"
+}
