@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 108
+Published Skills: 109
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -57,6 +57,7 @@ Published Skills: 108
 | [qa-audit](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/qa-audit/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Quality auditor for Source Library. Prioritizes verifying original language texts (not modern translations), auditing metadata accuracy against title pages, USTC alignment, and translation quality. Use for systematic quality control or to identify modern translations that should be replaced with originals. |
 | [status](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/status/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Quick canon + pipeline health check. Use when asked "how's it going?", "status?", "how's the db?", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
+| [architect-mode](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 双阶段架构模式 - 先规划后编辑，分离推理与代码修改，提升多文件编辑准确率 |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |

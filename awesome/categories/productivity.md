@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 202
+Published Skills: 203
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -77,6 +77,7 @@ Published Skills: 202
 | [ui-context](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/ui-context/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Load context for UI, frontend, navigation, and analytics work. Use when starting any visual, interaction, or engagement task. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
 | [agent-browser](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Advanced browser automation for AI agents with snapshot-ref interaction pattern - navigate, snapshot interactive elements with refs, click/fill/select by refs, manage sessions, and extract structured data |
+| [architect-mode](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 双阶段架构模式 - 先规划后编辑，分离推理与代码修改，提升多文件编辑准确率 |
 | [tdd-workflow](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/tdd-workflow/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 새 기능·버그 수정을 테스트 먼저(TDD)로 진행할 때. "TDD로 해줘", "테스트 먼저" 요청이나 회귀가 잦은 영역 작업에 사용. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |

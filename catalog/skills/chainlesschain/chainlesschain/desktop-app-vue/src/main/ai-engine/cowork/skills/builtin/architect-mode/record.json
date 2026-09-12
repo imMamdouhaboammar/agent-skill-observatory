@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "5f409ecdd5b6dc86007b6a9d8f4df4b9cf2c856b77d03455393712caa126b729",
+  "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5f409ecdd5b6dc86007b6a9d8f4df4b9cf2c856b77d03455393712caa126b729",
+    "archived": false,
+    "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "38d567508e2279bd2e355261583496da4729180add1a5fbd23a5eca1dd910a03",
+    "description": "双阶段架构模式 - 先规划后编辑，分离推理与代码修改，提升多文件编辑准确率",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "commerce",
+        "content",
+        "data",
+        "design",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 6,
+    "indexed_at": "2026-09-12T01:38:39.359809Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:38:39.359809Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "architect-mode",
+    "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode",
+    "pushed_at": "2026-09-12T01:31:09Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chainlesschain/chainlesschain",
+    "repo_url": "https://github.com/chainlesschain/chainlesschain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 41,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ea5ab0c09f0a6453cfe253e201abd15a3c86185ac28a940addef7b0e1d614c4b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "ea5ab0c09f0a6453cfe253e201abd15a3c86185ac28a940addef7b0e1d614c4b"
+}
