@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 13
+Published Skills: 14
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=13, 60-84=0, <60=0
+Security distribution: 85+=14, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -22,3 +22,4 @@ Security distribution: 85+=13, 60-84=0, <60=0
 | [doubao-tts](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/doubao-tts/README.md) | `.agents/skills/doubao-tts` | 100 | 100 | content, engineering, media, productivity, research, security |
 | [faceswap](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/faceswap/README.md) | `.agents/skills/faceswap` | 100 | 100 | content, data, documents, engineering, media, research |
 | [ffmpeg](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ffmpeg/README.md) | `.agents/skills/ffmpeg` | 100 | 100 | browser-automation, content, data, marketing, media, productivity |
+| [flux-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/flux-best-practices/README.md) | `.agents/skills/flux-best-practices` | 100 | 100 | design, engineering, integrations, marketing, media |
