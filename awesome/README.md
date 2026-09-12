@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **748**
+Published skills: **749**
 Repositories: **79**
 
 ## Browse repositories
@@ -675,6 +675,7 @@ Repositories: **79**
 - [verification-loop](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/verification-loop/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/verification-loop`
 - [brainstorming](./skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) · `danmo-ai/danmo-work:core/resource/home/skills/brainstorming`
 - [debugging](./skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) · `danmo-ai/danmo-work:core/resource/home/skills/debugging`
+- [deep-research](./skills/danmo-ai/danmo-work/core/resource/home/skills/deep-research/README.md) · `danmo-ai/danmo-work:core/resource/home/skills/deep-research`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`
