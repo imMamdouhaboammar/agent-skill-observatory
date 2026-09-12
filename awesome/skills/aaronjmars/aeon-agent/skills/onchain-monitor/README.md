@@ -1,0 +1,47 @@
+# onchain-monitor
+
+Source repository: [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
+
+Canonical key: `aaronjmars/aeon-agent:skills/onchain-monitor`
+
+Manifest: [https://github.com/aaronjmars/aeon-agent/blob/main/skills/onchain-monitor/SKILL.md](https://github.com/aaronjmars/aeon-agent/blob/main/skills/onchain-monitor/SKILL.md)
+
+## Description
+
+Monitor blockchain addresses and contracts for notable activity
+
+## Classification
+
+Categories: content, engineering, research, security
+Client compatibility: not explicitly detected
+License: MIT
+
+## Resources
+
+Scripts: 0
+References: 0
+Assets: 0
+Other: 0
+
+## Scores
+
+Overall: 100
+Quality: 93
+Security: 100
+Maintenance: 100
+Adoption: 38
+
+## Static security findings
+
+No static findings recorded
+
+Static analysis is not malware certification
+
+## Publication metadata
+
+First seen: unknown
+Indexed: 2026-09-12T17:06:59.998541+00:00
+Published: 2026-09-12T17:12:14.927651+00:00
+Publication event: add
+Source fingerprint: `34b60bc1a3de399351c7a042b514ba9bb9f11244ae2822e9695c53e2bde4e451`
+Analysis fingerprint: `cceb2fb564f3ede7906f28e958c9e542fa516c8b23b9e7a37d55356f45a993ae`
