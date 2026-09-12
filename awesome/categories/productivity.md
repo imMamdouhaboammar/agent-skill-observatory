@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 303
+Published Skills: 304
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -195,6 +195,7 @@ Published Skills: 303
 | [strategic-compact](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/strategic-compact/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a context limit and a task phase is a natural place to compact. |
 | [using-superpowers](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-superpowers/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions |
 | [verification-before-completion](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always |
+| [verification-loop](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/verification-loop/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | A comprehensive verification system for Claude Code sessions. Use when verifying a Claude Code session's work before claiming it is complete. |
 | [writing-plans](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/writing-plans/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when you have a spec or requirements for a multi-step task, before touching code |
 | [account-troubleshooting](../skills/artbakerchat/Y/center/03-skills/skills/account-troubleshooting/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 | Guide for helping customers with account issues including password resets, identity verification, and account updates. |
 | [acestep](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/acestep/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | AI music generation with ACE-Step 1.5 — background music, vocal tracks, covers, stem extraction for video production. Use when generating music, soundtracks, jingles, or working with audio stems. Triggers include background music, soundtrack, jingle, music generation, stem extraction, cover, style transfer, or musical composition tasks. |
