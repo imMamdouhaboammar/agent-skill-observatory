@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **605**
+Published skills: **606**
 Repositories: **67**
 
 ## Browse repositories
@@ -485,6 +485,7 @@ Repositories: **67**
 - [speckit-git-validate](./skills/cloudposse/atmos/.claude/skills/speckit-git-validate/README.md) · `cloudposse/atmos:.claude/skills/speckit-git-validate`
 - [speckit-implement](./skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) · `cloudposse/atmos:.claude/skills/speckit-implement`
 - [speckit-plan](./skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) · `cloudposse/atmos:.claude/skills/speckit-plan`
+- [speckit-specify](./skills/cloudposse/atmos/.claude/skills/speckit-specify/README.md) · `cloudposse/atmos:.claude/skills/speckit-specify`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`

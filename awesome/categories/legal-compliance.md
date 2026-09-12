@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 34
+Published Skills: 35
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -14,6 +14,7 @@ Published Skills: 34
 | [security-remediate](../skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open. |
 | [speckit-clarify](../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec. |
 | [speckit-constitution](../skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync. |
+| [speckit-specify](../skills/cloudposse/atmos/.claude/skills/speckit-specify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the feature specification from a natural language feature description. |
 | [accessibility-a11y](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/accessibility-a11y/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Semantic HTML, keyboard navigation, focus states, ARIA labels, skip links, and WCAG contrast requirements. Use when ensuring accessibility compliance, implementing keyboard navigation, or adding screen reader support. |
 | [code-quality](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Drive static-analysis code quality in pi-agent-dashboard with Biome (analyze → fix → test), in changed-files or whole-repo mode. Use when asked to "improve code quality", "lint and fix", "clean up warnings", "fix Biome issues", "run static analysis", or when setting a code-quality goal. Skip for one-line edits. |
 | [veo-showreel-production-kit](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/video-production/.pi/skills/veo-showreel-production-kit/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Turn a video timeline + voiceover into a reproducible, sliceable Veo 3.1 prompt package with a consistency anchor and AI storyboard sketches. |

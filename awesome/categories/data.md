@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 215
+Published Skills: 216
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -36,6 +36,7 @@ Published Skills: 215
 | [speckit-clarify](../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec. |
 | [speckit-implement](../skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation plan by processing and executing all tasks defined in tasks.md |
 | [speckit-plan](../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation planning workflow using the plan template to generate design artifacts. |
+| [speckit-specify](../skills/cloudposse/atmos/.claude/skills/speckit-specify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the feature specification from a natural language feature description. |
 | [anti-slop-frontend](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/anti-slop/.pi/skills/anti-slop-frontend/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | A mechanical, countable anti-slop checklist for AI-generated frontend. Catches the specific signatures an undirected model defaults to: AI-purple glows, Inter-everywhere, em-dashes, div-based fake screenshots, eyebrow-on-every-section, beige+brass "premium" palettes, generic Jane Doe / Acme data. Advisory layer that pairs with frontend-mockup-loop (which owns the cite-a-source loop plus WCAG gates) but works standalone in any React/Tailwind/HTML project. Triggers: "does this look AI-generated", "anti-slop pass", "remove the AI tells", "why does this look templated", "design review for slop". |
 | [apple-tools](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/apple-tools/.pi/skills/apple-tools/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Reach Apple PIM data (Calendar, Contacts, Reminders, Messages, Location, Maps, Weather) from a pi session via iMCP + pi-mcp-adapter on macOS. Use when the user asks to read/search their Apple Calendar, Contacts, Reminders, iMessages, current Location, Maps, or Weather. Does NOT cover Apple Mail — iMCP exposes no Mail service; use apple-mail-fast-export for email. |
 | [autofix](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly |
