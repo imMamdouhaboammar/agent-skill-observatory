@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "bcc34ee74bd1062125fd4cc062e03411ec4bf1c7f891570f06debf271ee47695",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/extension/.pi/skills/doctor",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "bcc34ee74bd1062125fd4cc062e03411ec4bf1c7f891570f06debf271ee47695",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/extension/.pi/skills/doctor",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0fbcb362669e2f5cd9ac58b603cf43ad586e67ffe0bcaed921e24ef2efa6902b",
+    "description": "Diagnose why pi-flows, the Anthropic-messages bridge, model resolution, a pi install, a peer, a plugin/bridge, or a build/reload is broken in the pi-agent-dashboard. Derives every fact live (works with the server down). Use on \"flow won't show\", \"bridge waiting_peers\", \"pi version mismatch\", \"which pi is this using\", \"diagnose the dashboard\", \"doctor\".",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "commerce",
+        "devops",
+        "documentation",
+        "integrations",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/extension/.pi/skills/doctor/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "doctor",
+    "path": "packages/extension/.pi/skills/doctor",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "374a290bbdbb813936e72e9df1f5b1e5bd9b3ae20347f163a527f5e5ebc06ddb",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "374a290bbdbb813936e72e9df1f5b1e5bd9b3ae20347f163a527f5e5ebc06ddb"
+}
