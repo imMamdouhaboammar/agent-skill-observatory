@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "631ccbeb6d212db8d443f7192735faeef61b474880526e4c61934c2ecb14fd93",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/document-writing",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "631ccbeb6d212db8d443f7192735faeef61b474880526e4c61934c2ecb14fd93",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/document-writing",
+    "compatibility": "Requires write, edit, apply_patch, read_file",
+    "consecutive_misses": 0,
+    "content_fingerprint": "7460646564b1fbd35848f9dd48fbc13c57692b844645f8ffc1ddbb766564d25c",
+    "description": "Long-form workplace docs as GFM `.md` (default). Not for slide decks or spreadsheets — those are Univer IR / CSV. Edit with write/edit/apply_patch; do not invent parallel JSON docs unless path is already `.udoc.json`.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "data",
+        "documentation",
+        "documents",
+        "productivity",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/home/skills/document-writing/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "adapted_from": "https://github.com/alirezarezvani/claude-skills/tree/main/markdown-html/skills/md-document",
+      "author": "danmo-work",
+      "category": "work",
+      "upstream_license": "MIT",
+      "version": "2.0"
+    },
+    "name": "document-writing",
+    "path": "core/resource/home/skills/document-writing",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c5a84c505165f3616b3ac34c57b7a499450e822868fb1f80db972ebffc128fb7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "c5a84c505165f3616b3ac34c57b7a499450e822868fb1f80db972ebffc128fb7"
+}
