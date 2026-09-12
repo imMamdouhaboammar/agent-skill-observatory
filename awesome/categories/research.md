@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 188
+Published Skills: 189
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -83,6 +83,7 @@ Published Skills: 188
 | [find-skills](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/find-skills/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Discover and recommend skills from the registry based on task requirements - search installed skills, suggest matching skills for current task, and browse skill categories |
 | [free-model-manager](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/free-model-manager/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Free AI model management - discover, download, and manage free/open-source AI models from Ollama, HuggingFace, and other sources |
 | [news-monitor](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Monitor news feeds, tech blogs, and competitive intelligence sources - track keywords, summarize articles, detect trends, and deliver digests on schedule |
+| [obsidian](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Obsidian vault operations - create notes, search vault, manage tags, link notes, and sync with Obsidian markdown files |
 | [project-inception](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/project-inception/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use when kicking off a new project or feature area in an ocul-pm tracked project (.oculpm/ present) — research the stack landscape via web search, then converse with the user (research-backed choices) to settle the optimal spec, and seed a discussion doc, a detailed 3-depth plan (plan_create), EVALS.md done-criteria and starter .claude/rules. |
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [improve-worker](../skills/chnlich/charlie-bot/skills/improve-worker/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | methodology for iterative improve loop workers. |

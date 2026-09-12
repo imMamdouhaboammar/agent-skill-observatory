@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 219
+Published Skills: 220
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -91,6 +91,7 @@ Published Skills: 219
 | [github-manager](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | GitHub operations - manage issues, pull requests, repositories, and workflows via GitHub API |
 | [humanizer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Remove AI writing traces - rewrite text to sound more natural and human, adjust tone, add personality, and reduce repetitive AI patterns |
 | [notion](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace |
+| [obsidian](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Obsidian vault operations - create notes, search vault, manage tags, link notes, and sync with Obsidian markdown files |
 | [tdd-workflow](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/tdd-workflow/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 새 기능·버그 수정을 테스트 먼저(TDD)로 진행할 때. "TDD로 해줘", "테스트 먼저" 요청이나 회귀가 잦은 영역 작업에 사용. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |
