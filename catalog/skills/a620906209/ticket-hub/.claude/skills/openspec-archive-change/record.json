@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "145513a3632df1fc7dd4f8d6345b07bad8326de39a50832ed173550b1851af41",
+  "canonical_key": "a620906209/ticket-hub:.claude/skills/openspec-archive-change",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "145513a3632df1fc7dd4f8d6345b07bad8326de39a50832ed173550b1851af41",
+    "archived": false,
+    "canonical_key": "a620906209/ticket-hub:.claude/skills/openspec-archive-change",
+    "compatibility": "Requires openspec CLI.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e111d71216167eea10cec26abe8f6e15d925efeef2fd9925ffa219f55145acce",
+    "description": "Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/a620906209/ticket-hub/blob/master/.claude/skills/openspec-archive-change/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:07:57.744468Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:07:57.744468Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "openspec",
+      "generatedBy": "1.3.1",
+      "version": "1.0"
+    },
+    "name": "openspec-archive-change",
+    "path": ".claude/skills/openspec-archive-change",
+    "pushed_at": "2026-09-12T11:03:57Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "a620906209/ticket-hub",
+    "repo_url": "https://github.com/a620906209/ticket-hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "edb2cdca57567632c2304c0d2a55f4df3ed9303c8247517617aa5247c9875317",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "edb2cdca57567632c2304c0d2a55f4df3ed9303c8247517617aa5247c9875317"
+}
