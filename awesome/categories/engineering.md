@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 317
+Published Skills: 318
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -230,6 +230,7 @@ Published Skills: 317
 | [d3-viz](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/d3-viz/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment. |
 | [dev-orchestrator](../skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | 项目负责人技能：掌控开发节奏、制定开发计划，把任务拆分后派发给多个子会话/subagent 执行，验收汇总并管理会话流转与归档、裁决分歧。Use when acting as the project lead or orchestrator — planning multi-session development, writing task briefs and dispatching them to subagents or separate sessions, coordinating parallel worktree work, adjudicating disagreements, integrating and verifying on the main branch. 不适用于子会话内部的具体编码、调试或评审执行本身。 |
 | [dispatching-parallel-agents-ko](../skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 독립 태스크 2개 이상이 공유 상태·순차 의존 없이 진행 가능할 때 사용 — 병렬 서브에이전트 dispatch로 동시에 처리 |
+| [doubao-tts](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/doubao-tts/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate Mandarin and multilingual narration with Volcengine Doubao Speech 2.0. Use when creating Chinese voiceovers, when the user prefers Doubao/Volcengine/火山引擎/豆包 TTS, or when narration needs character-level timestamp metadata for subtitles. |
 | [frontend-design](../skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | frontend-design |
 | [frontend-design](../skills/hose1021/omp-dotfiles/agent/skills/frontend-design/README.md) | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 100 | 100 | 0 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
 | [generator-evaluator-ko](../skills/andyko18/specops-ko/skills/generator-evaluator-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 생성 에이전트와 평가 에이전트를 엄격히 분리하여 자기평가 편향을 차단한다 (OMC 흡수) |
