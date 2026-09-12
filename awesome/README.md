@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **777**
+Published skills: **778**
 Repositories: **82**
 
 ## Browse repositories
@@ -724,6 +724,7 @@ Repositories: **82**
 - [async-supervisor](./skills/dpatel-93/alfred/skills/async-supervisor/README.md) · `dpatel-93/alfred:skills/async-supervisor`
 - [azure-runbook](./skills/dpatel-93/alfred/skills/azure-runbook/README.md) · `dpatel-93/alfred:skills/azure-runbook`
 - [backtesting-frameworks](./skills/dpatel-93/alfred/skills/backtesting-frameworks/README.md) · `dpatel-93/alfred:skills/backtesting-frameworks`
+- [basic](./skills/dpatel-93/alfred/skills/basic/README.md) · `dpatel-93/alfred:skills/basic`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`
