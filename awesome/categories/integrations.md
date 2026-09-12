@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 124
+Published Skills: 125
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -58,6 +58,7 @@ Published Skills: 124
 | [slack](../skills/chnlich/charlie-bot/skills/slack/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read Slack messages, search Slack conversations, look up Slack users, check DMs, or interact with the Slack workspace in any way. |
 | [ben-code-quality](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/ben-code-quality/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle. |
 | [web-research](../skills/aganesy/QFAI/.qfai/assistant/skills/web-research/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | 8-stage web research pipeline with MCP integration, caching, and citation generation. |
+| [babysit-pr](../skills/dileep-kishore/zendots/dot_agents/skills/babysit-pr/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when review comments on a pull request need answering — "address the comments on the PR", "look at what the review bot found", "babysit PR 15", "respond to the review feedback". Closes every unresolved review thread by fixing or rebutting it, replying in the thread, and resolving it. |
 | [sf-integration-rules](../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 100 | 100 | 3 | Integration grammar router — invoke when adding a backend module, a frontend page, an API endpoint, a React Query hook, a form, an RBAC permission, or any cross-cutting wire-up in a SaaSFoundryAI-generated project. Triggers on phrases like "add a module", "add a page", "wire RBAC", "add a hook", "add a form", "add an endpoint", "add a Prisma model", "add an entity", "scaffold a CRUD", "create a controller". |
 | [danmo-make](../skills/danmo-ai/danmo-work/core/resource/plugins/danmo-make/skills/danmo-make/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Create and edit images/videos/audio via the Danmo Make MCP connector. Use when the user or parent agent needs local generation (Danmo Make / danqing). |
 | [github](../skills/danmo-ai/danmo-work/core/resource/plugins/github/skills/github/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate GitHub via bound MCP when configured, else gh CLI, else plain git (remotes/push/fetch only). Use for GitHub platform / hosting work. |

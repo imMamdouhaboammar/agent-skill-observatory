@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "da63a4313d4afd649810d31badf17627141e1b616bbbc4664c7a3ab19f33c7bd",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/babysit-pr",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "da63a4313d4afd649810d31badf17627141e1b616bbbc4664c7a3ab19f33c7bd",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/babysit-pr",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2f70301c8483c2a87f4aeeeb0008818c2350353df55c097101463efd7f6a7606",
+    "description": "Use when review comments on a pull request need answering — \"address the comments on the PR\", \"look at what the review bot found\", \"babysit PR 15\", \"respond to the review feedback\". Closes every unresolved review thread by fixing or rebutting it, replying in the thread, and resolving it.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "commerce",
+        "integrations",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/babysit-pr/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "babysit-pr",
+    "path": "dot_agents/skills/babysit-pr",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c14f80a566213f1931509a72df8a2a1e832660ef91945e38f3b9bae71dbbd68f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "c14f80a566213f1931509a72df8a2a1e832660ef91945e38f3b9bae71dbbd68f"
+}
