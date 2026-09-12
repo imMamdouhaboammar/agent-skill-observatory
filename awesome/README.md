@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **519**
+Published skills: **520**
 Repositories: **61**
 
 ## Browse repositories
@@ -352,6 +352,7 @@ Repositories: **61**
 - [code-translator](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator`
 - [commit-splitter](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/commit-splitter/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/commit-splitter`
 - [content-publisher](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher`
+- [cron-scheduler](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cron-scheduler/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cron-scheduler`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
