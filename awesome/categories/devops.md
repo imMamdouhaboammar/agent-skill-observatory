@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 144
+Published Skills: 145
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -125,6 +125,7 @@ Published Skills: 144
 | [threejs-geometry](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-geometry/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering. |
 | [triage](../skills/chenyynx/claudio/bridge/.claude/skills/triage/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | GitHub Issue・PRを低トークンでトリアージし、要望、実現難易度、重複、リスク、対応判断をレポートする。Issue/PR番号、トリアージ、優先度、対応判断、PRレビュー準備判定を依頼されたときに使用する。PRはReadiness、CI、CodeRabbitを先に確認し、未通過ならdiffを読まず終了する。 |
 | [go-live](../skills/a-lottes/aSPARK/skills/go-live/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Keep phase of the SPARK loop: the Release Manager runs fresh pre-flight checks, writes the user-facing changelog, prepares tag/PR/ deploy, publishes on the user's explicit go, and records the cycle's learnings. Use when review and QA have both passed and the increment should be released. |
+| [spark](../skills/a-lottes/aSPARK/skills/spark/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Run the full SPARK loop end-to-end for one feature: Specify → Plan → Act → Review → Keep, pausing at every gate for the user's decision. Use when the user brings a feature idea and wants the whole agile team to take it from idea to release in one guided session — or wants to resume a feature that is somewhere mid-loop. |
 | [auditing-dependency-risk](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-dependency-risk/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs software-supply-chain or third-party dependency risk assessed from manifests, lockfiles, advisories, provenance, maintenance signals, and realistic runtime exposure before upgrades or release. |
 | [bootstrapping-modern-web-apps](../skills/jhonatan-oliveiradev/agent-skills/skills/bootstrapping-modern-web-apps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when the user explicitly opts into this opinionated web-app baseline, asks to use the personal starter, or wants this repository's preferred Next.js project conventions. |
 | [building-regression-tests](../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed. |

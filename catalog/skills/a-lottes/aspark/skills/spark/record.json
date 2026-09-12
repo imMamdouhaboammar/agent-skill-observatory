@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "52c3caf6f3804921e1bf94760021e3336b9d04943218beb11cae815b3f0d92ce",
+  "canonical_key": "a-lottes/aspark:skills/spark",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "52c3caf6f3804921e1bf94760021e3336b9d04943218beb11cae815b3f0d92ce",
+    "archived": false,
+    "canonical_key": "a-lottes/aspark:skills/spark",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e5e6122b8710f0d949f233a1e66782472de25e23c92706bf0d540f872c8a0900",
+    "description": "Run the full SPARK loop end-to-end for one feature: Specify → Plan → Act → Review → Keep, pausing at every gate for the user's decision. Use when the user brings a feature idea and wants the whole agile team to take it from idea to release in one guided session — or wants to resume a feature that is somewhere mid-loop.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "devops",
+        "productivity",
+        "browser-automation",
+        "data",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/a-lottes/aSPARK/blob/main/skills/spark/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:08:12.380048Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:08:12.380048Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "spark",
+    "path": "skills/spark",
+    "pushed_at": "2026-09-12T17:04:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "a-lottes/aSPARK",
+    "repo_url": "https://github.com/a-lottes/aSPARK",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "054e72f1f772a8927c3224fa23f2cd87672ef2bcfcf9ce664f00b0e473492d09",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 20
+  },
+  "source_fingerprint": "054e72f1f772a8927c3224fa23f2cd87672ef2bcfcf9ce664f00b0e473492d09"
+}

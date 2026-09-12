@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/a-lottes/aSPARK](https://github.com/a-lottes/aSPARK)
 
-Published Skills: 7
+Published Skills: 8
 Categories: architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, localization, marketing, product, productivity, project-management, research, security, testing
 Best overall score: 99
-Security distribution: 85+=7, 60-84=0, <60=0
+Security distribution: 85+=8, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -16,3 +16,4 @@ Security distribution: 85+=7, 60-84=0, <60=0
 | [look-and-feel](../../skills/a-lottes/aSPARK/skills/look-and-feel/README.md) | `skills/look-and-feel` | 99 | 100 | browser-automation, content, design, localization, marketing, research |
 | [next-steps](../../skills/a-lottes/aSPARK/skills/next-steps/README.md) | `skills/next-steps` | 99 | 100 | content, engineering, hr-recruiting, product, productivity, project-management |
 | [peer-review](../../skills/a-lottes/aSPARK/skills/peer-review/README.md) | `skills/peer-review` | 99 | 100 | browser-automation, code-review, engineering, productivity, security, testing |
+| [spark](../../skills/a-lottes/aSPARK/skills/spark/README.md) | `skills/spark` | 99 | 100 | browser-automation, data, design, devops, documentation, productivity |

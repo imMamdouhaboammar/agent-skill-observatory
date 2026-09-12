@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 51
+Published Skills: 52
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -50,6 +50,7 @@ Published Skills: 51
 | [demo-day](../skills/a-lottes/aSPARK/skills/demo-day/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Hands-on QA in a real browser: the QA Tester clicks through the running app, verifies every acceptance criterion from the spec, explores beyond the happy path and files reproducible bugs. Use after /peer-review passes, or to re-test after fixes. Requires a running app and browser tooling. |
 | [look-and-feel](../skills/a-lottes/aSPARK/skills/look-and-feel/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Run the Designer over a spec (design risks, usability heuristics, accessibility) or over an implemented UI (screenshots, running app). Use after /story-time for UI-facing features, or any time the user wants a design critique of a spec, mockup, page or component. |
 | [peer-review](../skills/a-lottes/aSPARK/skills/peer-review/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Review phase of the SPARK loop: the Reviewer audits the diff produced by /increment — plan conformance, correctness, edge cases, security, test quality — and writes the review report. Use after /increment reports done, or to re-review after fixes. |
+| [spark](../skills/a-lottes/aSPARK/skills/spark/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Run the full SPARK loop end-to-end for one feature: Specify → Plan → Act → Review → Keep, pausing at every gate for the user's decision. Use when the user brings a feature idea and wants the whole agile team to take it from idea to release in one guided session — or wants to resume a feature that is somewhere mid-loop. |
 | [analyzing-developer-career-opportunities](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations. |
 | [building-premium-nextjs-interfaces](../skills/jhonatan-oliveiradev/agent-skills/skills/building-premium-nextjs-interfaces/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or redesigning a polished Next.js or React interface where visual distinction, strong hierarchy, responsive behavior, accessibility, and production readiness matter. |
 | [building-regression-tests](../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed. |
