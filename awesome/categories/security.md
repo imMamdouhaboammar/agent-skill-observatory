@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 121
+Published Skills: 122
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -83,6 +83,7 @@ Published Skills: 121
 | [onchain-monitor](../skills/aaronjmars/aeon-agent/skills/onchain-monitor/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor blockchain addresses and contracts for notable activity |
 | [picks-tracker](../skills/aaronjmars/aeon-agent/skills/picks-tracker/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Retrospective on past token and prediction market picks - what hit, what flopped, what the score is |
 | [proactive-agent](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/proactive-agent/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Autonomous proactive agent that monitors conditions and triggers actions - watches for file changes, error patterns, performance thresholds, and schedules periodic checks without user intervention |
+| [schedule-ads](../skills/aaronjmars/aeon-agent/skills/schedule-ads/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Manage paid ads on AdManage.ai from declarative config - default schedules launches across Meta/TikTok/Snapchat/Pinterest/LinkedIn (always PAUSED); create provisions Meta campaigns and ad sets. |
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |
 | [terraform-iac](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/terraform-iac/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Terraform and OpenTofu infrastructure as code best practices - generate HCL configurations, module patterns, state management, CI/CD workflows, and cloud provider templates for AWS, GCP, Azure |
 | [self-audit](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/self-audit/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 작업을 "완료"라고 보고하기 직전, 스스로 결과를 감사할 때. 커밋/PR 직전 최종 점검에도 사용. |

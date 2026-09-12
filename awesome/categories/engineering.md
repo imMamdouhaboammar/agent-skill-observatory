@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 486
+Published Skills: 487
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -233,6 +233,7 @@ Published Skills: 486
 | [proactive-agent](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/proactive-agent/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Autonomous proactive agent that monitors conditions and triggers actions - watches for file changes, error patterns, performance thresholds, and schedules periodic checks without user intervention |
 | [remotion-video](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Create programmatic videos with React using Remotion - generate animations, compositions, text effects, transitions, captions, and render MP4 videos from code |
 | [rightstack](../skills/aaronjmars/aeon-agent/skills/rightstack/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Use RightStack as a read-only Web3 stack advisor for architecture recommendations, workflow inspection, tool comparisons, and package-migration checks. Use for planning; do not treat corpus output as implementation proof. |
+| [schedule-ads](../skills/aaronjmars/aeon-agent/skills/schedule-ads/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Manage paid ads on AdManage.ai from declarative config - default schedules launches across Meta/TikTok/Snapchat/Pinterest/LinkedIn (always PAUSED); create provisions Meta campaigns and ad sets. |
 | [screenshot-to-code](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 截图转代码 - 将UI截图/设计稿转换为Vue/React/HTML组件代码 |
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |
 | [tavily-search](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/tavily-search/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Real-time web search using Tavily API - search the web, extract page content, and get up-to-date information for RAG and research tasks |

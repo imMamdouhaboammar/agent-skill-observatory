@@ -1,6 +1,6 @@
 # finance
 
-Published Skills: 20
+Published Skills: 21
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -15,6 +15,7 @@ Published Skills: 20
 | [investigation-report](../skills/aaronjmars/aeon-agent/skills/investigation-report/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | One-shot Base-token investigation - runs any subset of six onchain-security checks (rug-scan, contract-audit, deployer-trace, holder-concentration, honeypot, lp-lock) into one verdict. Keyless core. |
 | [monitor-polymarket](../skills/aaronjmars/aeon-agent/skills/monitor-polymarket/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor Polymarket and/or Kalshi prediction markets for 24h price moves, volume changes, fresh comments, and high-conviction alerts |
 | [picks-tracker](../skills/aaronjmars/aeon-agent/skills/picks-tracker/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Retrospective on past token and prediction market picks - what hit, what flopped, what the score is |
+| [schedule-ads](../skills/aaronjmars/aeon-agent/skills/schedule-ads/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Manage paid ads on AdManage.ai from declarative config - default schedules launches across Meta/TikTok/Snapchat/Pinterest/LinkedIn (always PAUSED); create provisions Meta campaigns and ad sets. |
 | [weather](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Weather queries - get current weather, forecasts, and weather alerts for any location worldwide |
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
 | [fetch-source](../skills/CultureBotAI/TraitMech/.claude/skills/fetch-source/README.md) | [CultureBotAI/TraitMech](https://github.com/CultureBotAI/TraitMech) | 100 | 100 | 1 | Robust curl pattern for `fetch-<source>` justfile recipes that download an external data release into data/raw/. Use whenever writing a new fetch-* recipe, or auditing/fixing an existing one that fails intermittently in CI — a bare `curl -o` with no retry or timeout turns one flaky network blip into a red PR. |
