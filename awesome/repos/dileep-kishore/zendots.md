@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dileep-kishore/zendots](https://github.com/dileep-kishore/zendots)
 
-Published Skills: 11
-Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, marketing, productivity, research, testing
+Published Skills: 12
+Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [frontend-slides](../../skills/dileep-kishore/zendots/dot_agents/skills/frontend-slides/README.md) | `dot_agents/skills/frontend-slides` | 100 | 100 | commerce, content, design, documents, engineering, productivity |
 | [grill-with-docs](../../skills/dileep-kishore/zendots/dot_agents/skills/grill-with-docs/README.md) | `dot_agents/skills/grill-with-docs` | 100 | 100 | architecture, content, design, documentation, productivity, testing |
 | [handoff](../../skills/dileep-kishore/zendots/dot_agents/skills/handoff/README.md) | `dot_agents/skills/handoff` | 100 | 100 | commerce, content, data, engineering, productivity, research |
+| [independent-review](../../skills/dileep-kishore/zendots/dot_agents/skills/independent-review/README.md) | `dot_agents/skills/independent-review` | 100 | 100 | agent-orchestration, commerce, content, engineering, finance, productivity |

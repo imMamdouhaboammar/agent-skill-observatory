@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 338
+Published Skills: 339
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -173,6 +173,7 @@ Published Skills: 338
 | [frontend-slides](../skills/dileep-kishore/zendots/dot_agents/skills/frontend-slides/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices. |
 | [grill-with-docs](../skills/dileep-kishore/zendots/dot_agents/skills/grill-with-docs/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when the user asks to grill, stress-test, or sharpen a plan, design, or decision through a short interview, and wants the resulting decisions recorded in the project's docs. |
 | [handoff](../skills/dileep-kishore/zendots/dot_agents/skills/handoff/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when the user asks to hand off, transfer, or compact the current work so a fresh agent session, possibly on another machine, can continue without this conversation. |
+| [independent-review](../skills/dileep-kishore/zendots/dot_agents/skills/independent-review/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Run a fresh-context second opinion on a PR, branch, or working changes using available subagents or external reviewer processes. Use when the user requests independent review, or total review with both Claude and Codex. |
 | [mac-app](../skills/dbpprt/dieter/.agents/skills/mac-app/README.md) | [dbpprt/dieter](https://github.com/dbpprt/dieter) | 100 | 100 | 3 | Operate Dieter's native macOS app in the visible local desktop from end to end. Use for Mac app development, incremental SwiftPM builds, packaging or launching Dieter.app, inspecting and clicking through the live SwiftUI interface, collecting screenshots and accessibility evidence, running unit or native UI smoke tests, diagnosing launch, connection, rendering, hang, crash, duplicate-process, or build-cache failures, and gracefully closing every app process the task owns. |
 | [mailbox-worker-execution](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/mailbox-worker-execution/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Mailbox worker execution workflow for agents that claim dispatch cards, complete scoped work, run required checks, and report done or blocked with evidence. |
 | [agentic](../skills/dpatel-93/alfred/skills/agentic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Conversational AI-first interface with minimal controls, clear outcomes, and delegated task flows for agentic workflows. |
