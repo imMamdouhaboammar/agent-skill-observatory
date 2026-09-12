@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "e86f61f3c3f92305c879b4b7f42261fb7955a33e6bbde722cf09d8eed2720ed8",
+  "canonical_key": "bossmiizlol/ai-workflow:skills/shared/last-20-percent",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e86f61f3c3f92305c879b4b7f42261fb7955a33e6bbde722cf09d8eed2720ed8",
+    "archived": false,
+    "canonical_key": "bossmiizlol/ai-workflow:skills/shared/last-20-percent",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "81755198c70993b480e8c6caba1ed1dc22564c9cdb1c71ff4ed11443401e64c1",
+    "description": "Finds and finishes the last 20% of a built solution — the experiential layer agents skip: what the output actually reads like, which pages or screens should exist, first-run and empty states, opinionated defaults, the golden path. Use when the user explicitly asks to plan or audit the experiential layer, or says \"last 20%\", \"finish this\", \"make it actually good\", \"is this actually done\", or \"why does this feel flat\". Do not invoke automatically for ordinary builds or completion checks.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "security",
+        "ai-ml",
+        "commerce",
+        "content",
+        "engineering",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/bossmiizlol/ai-workflow/blob/main/skills/shared/last-20-percent/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:20.693575Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:20.693575Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "last-20-percent",
+    "path": "skills/shared/last-20-percent",
+    "pushed_at": "2026-09-12T01:31:14Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "bossmiizlol/ai-workflow",
+    "repo_url": "https://github.com/bossmiizlol/ai-workflow",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "c6ec3b913d1b6dfca49e5cfac3fb6768a33c806248580ee5e23455e55d1a3589",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "c6ec3b913d1b6dfca49e5cfac3fb6768a33c806248580ee5e23455e55d1a3589"
+}
