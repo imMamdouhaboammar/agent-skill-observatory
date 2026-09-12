@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain)
 
-Published Skills: 12
+Published Skills: 13
 Categories: browser-automation, business, commerce, content, data, design, devops, documentation, documents, engineering, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -19,5 +19,6 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [database-query](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/database-query/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/database-query` | 100 | 100 | data |
 | [deep-research](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/deep-research/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/deep-research` | 100 | 100 | business, content, research |
 | [diff-previewer](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/diff-previewer/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/diff-previewer` | 100 | 100 | data, engineering |
+| [docker-compose-generator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/docker-compose-generator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/docker-compose-generator` | 100 | 100 | data, devops, media |
 | [changelog-generator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator` | 97 | 100 | documentation, engineering, testing |
 | [code-translator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator` | 97 | 100 | engineering |
