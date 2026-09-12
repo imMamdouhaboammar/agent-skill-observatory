@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "14a13406cfe62f23f48f2ec4fe9c56f2d565482caee2dfb8d5216d6f32887fcb",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/github/skills/github",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "14a13406cfe62f23f48f2ec4fe9c56f2d565482caee2dfb8d5216d6f32887fcb",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/github/skills/github",
+    "compatibility": "Builtin github MCP (mcp_github_*) when PAT/OAuth is configured; else GitHub CLI (gh); else git on PATH / WORK_GIT_BIN (limited).",
+    "consecutive_misses": 0,
+    "content_fingerprint": "94784fd5fd68d0253f58691c482c7391607751ec8b9c1dc2619378e13efe0a5d",
+    "description": "Operate GitHub via bound MCP when configured, else gh CLI, else plain git (remotes/push/fetch only). Use for GitHub platform / hosting work.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "integrations",
+        "commerce",
+        "devops",
+        "product",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/plugins/github/skills/github/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "danmo",
+      "category": "coding",
+      "version": "0.4.0"
+    },
+    "name": "github",
+    "path": "core/resource/plugins/github/skills/github",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4b211f807d99802a81330017d74dcd41ea4ccea206ab8af6c4f9bc6ff3152146",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "4b211f807d99802a81330017d74dcd41ea4ccea206ab8af6c4f9bc6ff3152146"
+}
