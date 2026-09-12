@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "dac6d1aa2ecf98987f4e2f7fac2c03d02bcdc3782145e2464178d967201226ab",
+  "canonical_key": "dbpprt/dieter:.agents/skills/mac-app",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "dac6d1aa2ecf98987f4e2f7fac2c03d02bcdc3782145e2464178d967201226ab",
+    "archived": false,
+    "canonical_key": "dbpprt/dieter:.agents/skills/mac-app",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b434bf5e8c992a42897bcd157d7dcea9f4d900af7d48b994dee819b2701478db",
+    "description": "Operate Dieter's native macOS app in the visible local desktop from end to end. Use for Mac app development, incremental SwiftPM builds, packaging or launching Dieter.app, inspecting and clicking through the live SwiftUI interface, collecting screenshots and accessibility evidence, running unit or native UI smoke tests, diagnosing launch, connection, rendering, hang, crash, duplicate-process, or build-cache failures, and gracefully closing every app process the task owns.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "productivity",
+        "research",
+        "browser-automation",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path",
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/dbpprt/dieter/blob/main/.agents/skills/mac-app/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T23:17:49.310315Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:49.310315Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "mac-app",
+    "path": ".agents/skills/mac-app",
+    "pushed_at": "2026-09-12T23:09:07Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dbpprt/dieter",
+    "repo_url": "https://github.com/dbpprt/dieter",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 27,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "fa3d22686d48a37bc3b3b65c4612bee6113f9ff161aea7251e78cb1e3e21124e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "fa3d22686d48a37bc3b3b65c4612bee6113f9ff161aea7251e78cb1e3e21124e"
+}

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **791**
+Published skills: **792**
 Repositories: **88**
 
 ## Browse repositories
@@ -710,6 +710,7 @@ Repositories: **88**
 - [re-frame2-xray](./skills/day8/re-frame2/skills/re-frame2-xray/README.md) · `day8/re-frame2:skills/re-frame2-xray`
 - [reagent-migration](./skills/day8/re-frame2/skills/reagent-migration/README.md) · `day8/re-frame2:skills/reagent-migration`
 - [android-emulator](./skills/dbpprt/dieter/.agents/skills/android-emulator/README.md) · `dbpprt/dieter:.agents/skills/android-emulator`
+- [mac-app](./skills/dbpprt/dieter/.agents/skills/mac-app/README.md) · `dbpprt/dieter:.agents/skills/mac-app`
 - [convoy](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy`
 - [convoy-wizard](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy-wizard`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
