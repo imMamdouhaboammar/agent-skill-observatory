@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 220
+Published Skills: 221
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -34,6 +34,7 @@ Published Skills: 220
 | [atmos-aws-security](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-security/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS security finding analysis: analyze findings, map to Atmos components/stacks, generate structured remediation with exact Terraform changes and deploy commands |
 | [atmos-components](../skills/cloudposse/atmos/agent-skills/skills/atmos-components/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Component architecture: Terraform root modules, remote source provisioning, abstract components, component inheritance, versioning, mixins, catalog patterns |
 | [atmos-core-component-development](../skills/cloudposse/atmos/.claude/skills/atmos-core-component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos CORE contributor guide for adding/modifying a component TYPE in the Go codebase (terraform/helmfile/packer/ansible/container): the component registry & provider, the CLI command group, the describe/list type whitelist, custom-component inheritance & deep-merge, schema, and tests. NOT for authoring user components in stacks (that is the atmos-components skill). |
+| [atmos-design-patterns](../skills/cloudposse/atmos/agent-skills/skills/atmos-design-patterns/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Design patterns: stack organization, component catalogs, inheritance, configuration composition, version management, layered configuration |
 | [roadmap](../skills/cloudposse/atmos/.claude/skills/roadmap/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Maintain and update the Atmos roadmap page (website/src/data/roadmap.js): milestone/initiative/quarter schema, progress-percentage math, the curated featured[] cap (max 6, never auto-modified), and the no-changelog-for-internal-refactors gate. Invoke when adding/updating milestones, initiatives, or quarters, or linking a milestone to a changelog post. |
 | [speckit-analyze](../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation. |
 | [speckit-clarify](../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec. |
