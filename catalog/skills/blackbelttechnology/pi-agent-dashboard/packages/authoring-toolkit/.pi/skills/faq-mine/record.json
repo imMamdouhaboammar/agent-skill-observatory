@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "7dd3f99647fb20e7f31f0c3f32d7b8a73808439940f32b5e42edb63df8f02536",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/authoring-toolkit/.pi/skills/faq-mine",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7dd3f99647fb20e7f31f0c3f32d7b8a73808439940f32b5e42edb63df8f02536",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/authoring-toolkit/.pi/skills/faq-mine",
+    "compatibility": "Requires @fast subagents (general-purpose) + write access to docs/ + read access to ~/.pi/agent hermes stores.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "af6e8732b20628c4624ca8f152309af7d4a89b317d39fd96cbe921dd2d200590",
+    "description": "Mine docs/faq.md from README.md, docs/*.md, and the pi-hermes memory stores. Dispatches @fast subagents per source, dedupes against the existing FAQ, and merges entries in caveman style. Use when asked to \"build / regenerate / extend the FAQ\", \"mine docs into FAQ\", \"mine hermes memory into FAQ\", \"surface runtime problems in the FAQ\", or \"create FAQ from README + docs\".",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "agent-orchestration",
+        "research",
+        "content",
+        "engineering",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/authoring-toolkit/.pi/skills/faq-mine/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "robson",
+      "version": "2.0"
+    },
+    "name": "faq-mine",
+    "path": "packages/authoring-toolkit/.pi/skills/faq-mine",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "62e51755257a95d5b8f30f32d47186130178513f52efd925b229ca5af8bd976c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "62e51755257a95d5b8f30f32d47186130178513f52efd925b229ca5af8bd976c"
+}
