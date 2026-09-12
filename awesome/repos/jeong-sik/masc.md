@@ -9,7 +9,7 @@ Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [browser-lanes](../../skills/jeong-sik/masc/skills/browser-lanes/README.md) | `skills/browser-lanes` | 100 | 100 | browser-automation, content, productivity, research |
+| [browser-lanes](../../skills/jeong-sik/masc/skills/browser-lanes/README.md) | `skills/browser-lanes` | 100 | 100 | browser-automation, content, productivity |
 | [evidence-review](../../skills/jeong-sik/masc/skills/evidence-review/README.md) | `skills/evidence-review` | 100 | 100 | productivity |
 | [msx-play](../../skills/jeong-sik/masc/skills/msx-play/README.md) | `skills/msx-play` | 100 | 100 | commerce, content, data, design, finance, media |
 | [observe-act-verify](../../skills/jeong-sik/masc/skills/observe-act-verify/README.md) | `skills/observe-act-verify` | 100 | 100 | commerce, content, devops, media, productivity, research |

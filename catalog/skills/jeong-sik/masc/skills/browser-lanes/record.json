@@ -1,25 +1,24 @@
 {
-  "analysis_fingerprint": "0d22c7adf5e23fd8610ab8b17de9d65c7194d03e78cc6ec4bcbd83f50a244988",
+  "analysis_fingerprint": "b0c8cb617f0d733d90d6cd747a0d60f1d82b15574bad730bb659ee0a0d985fd6",
   "canonical_key": "jeong-sik/masc:skills/browser-lanes",
-  "publication_event": "add",
-  "published_at": "2026-09-11T19:23:00.429355Z",
+  "publication_event": "update",
+  "published_at": "2026-09-12T17:12:14.927651Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
-    "analysis_fingerprint": "0d22c7adf5e23fd8610ab8b17de9d65c7194d03e78cc6ec4bcbd83f50a244988",
+    "analysis_fingerprint": "b0c8cb617f0d733d90d6cd747a0d60f1d82b15574bad730bb659ee0a0d985fd6",
     "archived": false,
     "canonical_key": "jeong-sik/masc:skills/browser-lanes",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "7a359c08e6048917a543c4cbe6d35b4f15fcb575ebd5c990cbc6ee46d8d1ada7",
+    "content_fingerprint": "6e3ea26f00a79eee164488476ecd4bcdb3e348fcd903a3bfe191e747e66576df",
     "description": "Use MASC Browser tools to read or operate Firefox/Zen tabs, inspect images, and verify requested web actions. Use for Browser Lane work and session, selector, or browser connection failures.",
     "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "browser-automation",
         "content",
-        "productivity",
-        "research"
+        "productivity"
       ],
       "client_compatibility_evidence": {},
       "duplicate_of": null,
@@ -45,23 +44,23 @@
       "repo_has_tests": true,
       "source_tier": "community",
       "star_velocity_7d": 0.0,
-      "tree_files_scanned": 4
+      "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-11T19:19:53.911644Z",
-    "last_successful_repo_scan_at": "2026-09-11T19:19:53.911644Z",
+    "indexed_at": "2026-09-12T17:07:24.760311Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:07:24.760311Z",
     "license": "MIT",
     "metadata": {},
     "name": "browser-lanes",
     "path": "skills/browser-lanes",
-    "pushed_at": "2026-09-11T19:18:02Z",
+    "pushed_at": "2026-09-12T17:04:33Z",
     "repo_default_branch": "main",
     "repo_full_name": "jeong-sik/masc",
     "repo_url": "https://github.com/jeong-sik/masc",
     "resources": {
       "assets": 0,
       "other": 0,
-      "references": 3,
+      "references": 5,
       "scripts": 0
     },
     "score": {
@@ -79,7 +78,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "dc4f464a46837ae2c01d43fa8ee5e0e570536636866248c56388b13d848893cf",
+    "source_fingerprint": "29a7903b5d06f63e345adfe7ef56c1614ca51b091e18164a317b2745c5043ee7",
     "spec": {
       "errors": [],
       "valid": true,
@@ -87,5 +86,5 @@
     },
     "stars": 1
   },
-  "source_fingerprint": "dc4f464a46837ae2c01d43fa8ee5e0e570536636866248c56388b13d848893cf"
+  "source_fingerprint": "29a7903b5d06f63e345adfe7ef56c1614ca51b091e18164a317b2745c5043ee7"
 }

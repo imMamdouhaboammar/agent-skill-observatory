@@ -45,7 +45,7 @@ The scheduled refresh checks GitHub every 15 minutes. After the bounded Skill ev
 <!-- AWESOME_INDEX_START -->
 Published skills: **627**
 Repositories: **68**
-Latest Skill event: **add** · `componentdock/free-react-templates:.opencode/skills/openspec-apply-change`
+Latest Skill event: **update** · `jeong-sik/masc:skills/browser-lanes`
 
 [Browse the GitHub directory](./awesome/README.md) · [Open AWESOME.md](./AWESOME.md)
 <!-- AWESOME_INDEX_END -->
