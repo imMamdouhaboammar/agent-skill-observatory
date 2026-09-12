@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 152
+Published Skills: 153
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -81,6 +81,7 @@ Published Skills: 152
 | [engineering-discipline](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/engineering-discipline/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Keep PlotPickle coding and repair work assumption-aware, minimal, task-scoped, and driven by explicit verification criteria before implementation begins. |
 | [uat-repair](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Repair one concrete PlotPickle UAT blocker inside an isolated repository worktree. Use for focused UAT, exhaustive UI/UX UAT, startup-health, or Writer-in-Residence findings that require a tested code change. |
 | [web-research](../skills/aganesy/QFAI/.qfai/assistant/skills/web-research/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | 8-stage web research pipeline with MCP integration, caching, and citation generation. |
+| [android-emulator](../skills/dbpprt/dieter/.agents/skills/android-emulator/README.md) | [dbpprt/dieter](https://github.com/dbpprt/dieter) | 100 | 100 | 3 | Operate Dieter's native Android app in the visible local emulator from end to end. Use for Android app development, building or installing the debug APK, launching the Pixel_9_API_37_1 AVD, inspecting or clicking through live UI, collecting screenshots and UI hierarchy evidence, running unit or instrumentation tests, diagnosing ADB, boot, rendering, connection, crash, ANR, or process-leak failures, and gracefully closing the app or emulator. |
 | [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [atm-diagnostic-loop](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-diagnostic-loop/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence. |
 | [sf-integration-rules](../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 100 | 100 | 3 | Integration grammar router — invoke when adding a backend module, a frontend page, an API endpoint, a React Query hook, a form, an RBAC permission, or any cross-cutting wire-up in a SaaSFoundryAI-generated project. Triggers on phrases like "add a module", "add a page", "wire RBAC", "add a hook", "add a form", "add an endpoint", "add a Prisma model", "add an entity", "scaffold a CRUD", "create a controller". |

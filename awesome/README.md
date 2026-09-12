@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **790**
-Repositories: **87**
+Published skills: **791**
+Repositories: **88**
 
 ## Browse repositories
 
@@ -71,6 +71,7 @@ Repositories: **87**
 - [cosyeezz/axiom](./repos/cosyeezz/axiom.md)
 - [danmo-ai/danmo-work](./repos/danmo-ai/danmo-work.md)
 - [day8/re-frame2](./repos/day8/re-frame2.md)
+- [dbpprt/dieter](./repos/dbpprt/dieter.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [digitallyinduced/haskell-agent](./repos/digitallyinduced/haskell-agent.md)
 - [dpatel-93/alfred](./repos/dpatel-93/alfred.md)
@@ -708,6 +709,7 @@ Repositories: **87**
 - [re-frame2-setup](./skills/day8/re-frame2/skills/re-frame2-setup/README.md) · `day8/re-frame2:skills/re-frame2-setup`
 - [re-frame2-xray](./skills/day8/re-frame2/skills/re-frame2-xray/README.md) · `day8/re-frame2:skills/re-frame2-xray`
 - [reagent-migration](./skills/day8/re-frame2/skills/reagent-migration/README.md) · `day8/re-frame2:skills/reagent-migration`
+- [android-emulator](./skills/dbpprt/dieter/.agents/skills/android-emulator/README.md) · `dbpprt/dieter:.agents/skills/android-emulator`
 - [convoy](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy`
 - [convoy-wizard](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy-wizard`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`

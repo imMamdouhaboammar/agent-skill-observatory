@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "6d711d847a8d28300c772962ef383fde7399153ab93fe9f36b6ed600da10468a",
+  "canonical_key": "dbpprt/dieter:.agents/skills/android-emulator",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6d711d847a8d28300c772962ef383fde7399153ab93fe9f36b6ed600da10468a",
+    "archived": false,
+    "canonical_key": "dbpprt/dieter:.agents/skills/android-emulator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b2183c5cf95d8803daa4f732136d2378adf981ff842368cf8a0fffdef6aac238",
+    "description": "Operate Dieter's native Android app in the visible local emulator from end to end. Use for Android app development, building or installing the debug APK, launching the Pixel_9_API_37_1 AVD, inspecting or clicking through live UI, collecting screenshots and UI hierarchy evidence, running unit or instrumentation tests, diagnosing ADB, boot, rendering, connection, crash, ANR, or process-leak failures, and gracefully closing the app or emulator.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "mobile",
+        "research",
+        "testing",
+        "content"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path",
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/dbpprt/dieter/blob/main/.agents/skills/android-emulator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T23:17:49.310315Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:49.310315Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "android-emulator",
+    "path": ".agents/skills/android-emulator",
+    "pushed_at": "2026-09-12T23:09:07Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dbpprt/dieter",
+    "repo_url": "https://github.com/dbpprt/dieter",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 27,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d804f18c91c2a39e83610d867bdcc42c335695a62ed62c55a258e9da38cfcfc4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "d804f18c91c2a39e83610d867bdcc42c335695a62ed62c55a258e9da38cfcfc4"
+}
