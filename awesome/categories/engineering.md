@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 496
+Published Skills: 497
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -282,6 +282,7 @@ Published Skills: 496
 | [plotpickle-architecture-review](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plotpickle-architecture-review/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Scout PlotPickle architecture before non-trivial changes and independently review an exact diff/head against architecture, engineering standards, and the originating spec. |
 | [qfai-grill](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-grill/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Run a grilling session on anything: a design, a product direction, a piece of writing. Needs no repository and writes no files. Invoked by the user, never by the agent. |
 | [qfai-grilling](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-grilling/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Interrogate an unfixed design in rounds: a tree of open decisions, a frontier of the ones answerable now, facts read rather than asked, and an end condition the user holds. |
+| [qfai-prototyping](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-prototyping/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Iterate one prototype through up to 10 cycles of generate-capture-review against a frozen DESIGN.md, focusing on information architecture, navigation flow, usability, and functionality. |
 | [sequence-director](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sequence-director/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Provider-neutral procedure for turning one approved 24/96 Mini-Block into PLAN intent, STORYBOARD visual beats, PREVIS timing, deterministic render-clip prompts and post-generation Sequence Evidence. |
 | [uat-repair](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Repair one concrete PlotPickle UAT blocker inside an isolated repository worktree. Use for focused UAT, exhaustive UI/UX UAT, startup-health, or Writer-in-Residence findings that require a tested code change. |
 | [visual-contract](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-contract/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation. |

@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 163
+Published Skills: 164
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -115,6 +115,7 @@ Published Skills: 163
 | [qfai-discussion](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-discussion/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Run structured discussion that defines exploration conditions, evaluation rubric, and anti-goals for downstream prototyping. |
 | [qfai-grill](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-grill/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Run a grilling session on anything: a design, a product direction, a piece of writing. Needs no repository and writes no files. Invoked by the user, never by the agent. |
 | [qfai-grilling](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-grilling/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Interrogate an unfixed design in rounds: a tree of open decisions, a frontier of the ones answerable now, facts read rather than asked, and an end condition the user holds. |
+| [qfai-prototyping](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-prototyping/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Iterate one prototype through up to 10 cycles of generate-capture-review against a frozen DESIGN.md, focusing on information architecture, navigation flow, usability, and functionality. |
 | [visual-contract](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-contract/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation. |
 | [atm-error-code-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-error-code-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve ATM_* error codes from CLI JSON, logs, or user reports into canonical meaning, remediation, retryability, and approval guidance. |
 | [atm-governance-router](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-governance-router/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Route natural-language cleanup, refactor, migration, and candidate ranking goals through ATM before local analysis. |

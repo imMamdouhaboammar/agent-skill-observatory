@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 232
+Published Skills: 233
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -123,6 +123,7 @@ Published Skills: 232
 | [plotpickle-architecture-review](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plotpickle-architecture-review/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Scout PlotPickle architecture before non-trivial changes and independently review an exact diff/head against architecture, engineering standards, and the originating spec. |
 | [plotpickle-human-acceptance](../skills/BryanHarrisScripts/PlotPickle/tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Exercise PlotPickle through its rendered UI like a first-time human user, preserve story context across the workflow, and report reproducible PASS, WARN, or FAIL findings with evidence. |
 | [qfai-discussion](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-discussion/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Run structured discussion that defines exploration conditions, evaluation rubric, and anti-goals for downstream prototyping. |
+| [qfai-prototyping](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-prototyping/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Iterate one prototype through up to 10 cycles of generate-capture-review against a frozen DESIGN.md, focusing on information architecture, navigation flow, usability, and functionality. |
 | [sequence-director](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sequence-director/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Provider-neutral procedure for turning one approved 24/96 Mini-Block into PLAN intent, STORYBOARD visual beats, PREVIS timing, deterministic render-clip prompts and post-generation Sequence Evidence. |
 | [visual-contract](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-contract/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation. |
 | [visual-qa](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-qa/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence. |

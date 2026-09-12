@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "ed7f51f080ae6f5f498627c43ba5108d99ed007ea9ba6b5cfb02cb21b54b9342",
+  "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-prototyping",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ed7f51f080ae6f5f498627c43ba5108d99ed007ea9ba6b5cfb02cb21b54b9342",
+    "archived": false,
+    "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-prototyping",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8c28d656e635a3d03f497dcf6cc9638b30a3fe1d008ae1da589af64ca66b63d9",
+    "description": "Iterate one prototype through up to 10 cycles of generate-capture-review against a frozen DESIGN.md, focusing on information architecture, navigation flow, usability, and functionality.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "engineering",
+        "commerce",
+        "legal-compliance",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aganesy/QFAI/blob/main/.qfai/assistant/skills/qfai-prototyping/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 8
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-12T17:06:20.023267Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:20.023267Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "qfai-prototyping",
+    "path": ".qfai/assistant/skills/qfai-prototyping",
+    "pushed_at": "2026-09-12T17:04:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aganesy/QFAI",
+    "repo_url": "https://github.com/aganesy/QFAI",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 7,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 28,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7cc475bdc372b3877eb1d5dd3c401487ec521f09af73b740f0a4b25b837d2a9b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "7cc475bdc372b3877eb1d5dd3c401487ec521f09af73b740f0a4b25b837d2a9b"
+}
