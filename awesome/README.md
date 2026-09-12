@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **468**
-Repositories: **56**
+Published skills: **469**
+Repositories: **57**
 
 ## Browse repositories
 
@@ -36,6 +36,7 @@ Repositories: **56**
 - [buildd-ai/buildd](./repos/buildd-ai/buildd.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [bytedance/deer-flow](./repos/bytedance/deer-flow.md)
+- [chainlesschain/chainlesschain](./repos/chainlesschain/chainlesschain.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
 - [chnlich/charlie-bot](./repos/chnlich/charlie-bot.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
@@ -296,6 +297,7 @@ Repositories: **56**
 - [surprise-me](./skills/bytedance/deer-flow/skills/public/surprise-me/README.md) · `bytedance/deer-flow:skills/public/surprise-me`
 - [systematic-literature-review](./skills/bytedance/deer-flow/skills/public/systematic-literature-review/README.md) · `bytedance/deer-flow:skills/public/systematic-literature-review`
 - [web-design-guidelines](./skills/bytedance/deer-flow/skills/public/web-design-guidelines/README.md) · `bytedance/deer-flow:skills/public/web-design-guidelines`
+- [agent-browser](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser`
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
