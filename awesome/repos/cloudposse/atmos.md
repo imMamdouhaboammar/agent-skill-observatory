@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 11
+Published Skills: 12
 Categories: ai-ml, commerce, content, data, design, devops, documentation, engineering, finance, integrations, legal-compliance, media, product, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [speckit-analyze](../../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | `.claude/skills/speckit-analyze` | 100 | 100 | commerce, content, data, documentation, productivity, security |
 | [speckit-checklist](../../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | `.claude/skills/speckit-checklist` | 100 | 100 | content, design, devops, engineering, media, security |
 | [speckit-clarify](../../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | `.claude/skills/speckit-clarify` | 100 | 100 | content, data, design, legal-compliance, productivity, security |
+| [speckit-constitution](../../skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) | `.claude/skills/speckit-constitution` | 100 | 100 | content, devops, documentation, engineering, legal-compliance, productivity |
