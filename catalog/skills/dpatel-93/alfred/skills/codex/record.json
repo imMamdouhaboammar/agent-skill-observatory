@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "dee04fbbbce5fa49522d241261cc77b40bcdb58e3e9b56e835fe9e6423f484d3",
+  "canonical_key": "dpatel-93/alfred:skills/codex",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "dee04fbbbce5fa49522d241261cc77b40bcdb58e3e9b56e835fe9e6423f484d3",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/codex",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "cfbaf5bc5ce1690dc58f5fb0df4a0981889ee22e68fee7d49e2cb81793a9b501",
+    "description": "A radically minimal, blank-canvas interface built as a pure edge-to-edge surface, with almost no color and typography carrying the visual weight. Black serves as the only filled color, the only divider, and the sole surface tone cards.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/codex/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "codex",
+    "path": "skills/codex",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e373f3b8383703ba0ad39437310a86443cce565b891ef4f0f43d8d8b7a210b34",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "e373f3b8383703ba0ad39437310a86443cce565b891ef4f0f43d8d8b7a210b34"
+}
