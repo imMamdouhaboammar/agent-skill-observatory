@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "974b5e2a4fcda39d757fb15929a78ec7488c53da49001629bdb0be3bb13ccf7c",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/scenario-design",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "974b5e2a4fcda39d757fb15929a78ec7488c53da49001629bdb0be3bb13ccf7c",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/scenario-design",
+    "compatibility": "Optional: OpenSpec change spec as input. Reads a change/feature spec; writes test-plan.md.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "dc18e29298f6269858e7eada1115e2f2000d773d20de4baf130da47388462840",
+    "description": "Draft real-life test SCENARIOS (not smoke tests) from a change/feature spec. Derives edge-case, performance, frontend-quirk and error-handling scenarios with ISTQB techniques, routes each to a test level, and writes test-plan.md, emitting clarification questions on a spec gap. Use on \"design test scenarios\", \"what should we test\", \"build a test plan\", \"find edge cases\".",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "testing",
+        "browser-automation",
+        "commerce",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/scenario-design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "robson",
+      "version": "1.0"
+    },
+    "name": "scenario-design",
+    "path": "packages/eng-disciplines/.pi/skills/scenario-design",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 2,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "40549cb82ed5e85b8e1b90f0534469a9b66106ca5452e6a5a753a554c49cef8f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "40549cb82ed5e85b8e1b90f0534469a9b66106ca5452e6a5a753a554c49cef8f"
+}
