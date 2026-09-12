@@ -1,6 +1,6 @@
 # documents
 
-Published Skills: 21
+Published Skills: 22
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -25,3 +25,4 @@ Published Skills: 21
 | [playwright-cli](../skills/chenyynx/claudio/bridge/.claude/skills/playwright-cli/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages. |
 | [building-brand-guidelines](../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand identity needs durable rules, assets, examples, accessibility constraints, and governance so multiple people can reproduce it consistently across channels. |
 | [claude-design](../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Design one-off HTML artifacts (landing, deck, prototype). |
+| [nano-pdf](../skills/ComponentDock/free-react-templates/skills/productivity/nano-pdf/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Edit text in existing PDFs via natural-language prompts. |
