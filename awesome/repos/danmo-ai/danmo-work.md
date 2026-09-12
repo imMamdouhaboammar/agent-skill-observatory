@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work)
 
-Published Skills: 5
+Published Skills: 6
 Categories: content, data, design, documentation, documents, engineering, integrations, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [deep-research](../../skills/danmo-ai/danmo-work/core/resource/home/skills/deep-research/README.md) | `core/resource/home/skills/deep-research` | 100 | 100 | content, documentation, research |
 | [document-writing](../../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | `core/resource/home/skills/document-writing` | 100 | 100 | content, data, design, documentation, documents, productivity |
 | [mcp-connectors](../../skills/danmo-ai/danmo-work/core/resource/home/skills/mcp-connectors/README.md) | `core/resource/home/skills/mcp-connectors` | 100 | 100 | design, documentation, engineering, integrations, product, security |
+| [playable-slides](../../skills/danmo-ai/danmo-work/core/resource/home/skills/playable-slides/README.md) | `core/resource/home/skills/playable-slides` | 100 | 100 | content, data, design, documentation, documents, productivity |

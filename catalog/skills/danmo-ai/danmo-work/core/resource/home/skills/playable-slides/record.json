@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "64191dd1e655201c6f7c8fe64f8ea46b554b4ebdbb92207328c9025318d9a078",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/playable-slides",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "64191dd1e655201c6f7c8fe64f8ea46b554b4ebdbb92207328c9025318d9a078",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/playable-slides",
+    "compatibility": "Requires write, edit, apply_patch, read_file; optional read_skill",
+    "consecutive_misses": 0,
+    "content_fingerprint": "ee6924b75529c1765e684907db9526320f5a9cd3bb9fd307c8b898db7c10e3df",
+    "description": "Author/edit slide decks as Univer IR `.uslides.json` using write/edit/apply_patch. Never Marp Markdown, never web-search Univer docs — IR shape lives in this skill's references/ and kb-office-ir.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "documents",
+        "data",
+        "design",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/home/skills/playable-slides/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "danmo-work",
+      "category": "work",
+      "version": "3.0"
+    },
+    "name": "playable-slides",
+    "path": "core/resource/home/skills/playable-slides",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9fbbc9d03f2182be0d5276d2e0010043109fe1886a3a3c43b11424319ea11d77",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "9fbbc9d03f2182be0d5276d2e0010043109fe1886a3a3c43b11424319ea11d77"
+}
