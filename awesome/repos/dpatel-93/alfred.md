@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 5
+Published Skills: 6
 Categories: agent-orchestration, code-review, commerce, content, data, design, devops, engineering, legal-compliance, marketing, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=5, 60-84=0, <60=0
+Security distribution: 85+=6, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -14,3 +14,4 @@ Security distribution: 85+=5, 60-84=0, <60=0
 | [ant](../../skills/dpatel-93/alfred/skills/ant/README.md) | `skills/ant` | 100 | 100 | code-review, content, data, design, engineering, marketing |
 | [artistic](../../skills/dpatel-93/alfred/skills/artistic/README.md) | `skills/artistic` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [assemble](../../skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) | `_archive/2026-08-14-icm/skills/assemble` | 100 | 100 | agent-orchestration, design, productivity, research, testing |
+| [async-supervisor](../../skills/dpatel-93/alfred/skills/async-supervisor/README.md) | `skills/async-supervisor` | 100 | 100 | agent-orchestration, content, engineering, productivity, research, testing |

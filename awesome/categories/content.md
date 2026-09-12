@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 488
+Published Skills: 489
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -273,6 +273,7 @@ Published Skills: 488
 | [agentic](../skills/dpatel-93/alfred/skills/agentic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Conversational AI-first interface with minimal controls, clear outcomes, and delegated task flows for agentic workflows. |
 | [ant](../skills/dpatel-93/alfred/skills/ant/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Structured, enterprise-focused design system emphasizing clarity, consistency, and efficiency for data-dense web applications. |
 | [artistic](../skills/dpatel-93/alfred/skills/artistic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-contrast, expressive style with creative typography and bold color choices for visually striking interfaces. |
+| [async-supervisor](../skills/dpatel-93/alfred/skills/async-supervisor/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Run long subagents in the background and reattach when they complete. Use for tasks that take more than ~30 seconds (test suites, large refactors, multi-step research) so the parent agent stays responsive instead of blocking. Pairs with run_in_background and the Monitor tool. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
