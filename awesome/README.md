@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **668**
-Repositories: **70**
+Published skills: **669**
+Repositories: **71**
 
 ## Browse repositories
 
@@ -29,6 +29,7 @@ Repositories: **70**
 - [a-lottes/aSPARK](./repos/a-lottes/aSPARK.md)
 - [a620906209/ticket-hub](./repos/a620906209/ticket-hub.md)
 - [aaronjmars/aeon-agent](./repos/aaronjmars/aeon-agent.md)
+- [aaronjmars/miroshark-aeon](./repos/aaronjmars/miroshark-aeon.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [agentconnect-md/agentconnect](./repos/agentconnect-md/agentconnect.md)
@@ -166,6 +167,7 @@ Repositories: **70**
 - [video-script](./skills/aaronjmars/aeon-agent/skills/video-script/README.md) · `aaronjmars/aeon-agent:skills/video-script`
 - [weekly-aeoncard](./skills/aaronjmars/aeon-agent/skills/weekly-aeoncard/README.md) · `aaronjmars/aeon-agent:skills/weekly-aeoncard`
 - [you-web-search](./skills/aaronjmars/aeon-agent/skills/you-web-search/README.md) · `aaronjmars/aeon-agent:skills/you-web-search`
+- [holdings](./skills/aaronjmars/miroshark-aeon/skills/holdings/README.md) · `aaronjmars/miroshark-aeon:skills/holdings`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`

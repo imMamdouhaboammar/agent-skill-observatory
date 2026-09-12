@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "2c548b4bd7b9009c2bfbf95d8352ca9ffa4e9e9a62b2dacab9a235ba09143f14",
+  "canonical_key": "aaronjmars/miroshark-aeon:skills/holdings",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2c548b4bd7b9009c2bfbf95d8352ca9ffa4e9e9a62b2dacab9a235ba09143f14",
+    "archived": false,
+    "canonical_key": "aaronjmars/miroshark-aeon:skills/holdings",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8bcc3a479e7310564f9ddd3622ebbecc2bb739be7e6d0faf556137c6cfa613b4",
+    "description": "Report your wallet holdings of the instance's token - amount held, % of total supply, and 7d/30d amount growth, via public RPC (no dollar value)",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "browser-automation",
+        "commerce",
+        "data",
+        "engineering",
+        "finance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/miroshark-aeon/blob/main/skills/holdings/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-12T17:07:40.952452Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:07:40.952452Z",
+    "license": "MIT",
+    "metadata": {
+      "capabilities": "['external_api']",
+      "category": "crypto",
+      "mode": "write",
+      "requires": "['BASE_RPC_URL?', 'SOLANA_RPC_URL?']",
+      "tags": "['crypto']",
+      "title": "Holdings",
+      "var": ""
+    },
+    "name": "holdings",
+    "path": "skills/holdings",
+    "pushed_at": "2026-09-12T17:04:29Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/miroshark-aeon",
+    "repo_url": "https://github.com/aaronjmars/miroshark-aeon",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 40,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5d020df51b9d7f548fb17f870b6ef4f1949ac7444cae92f4e159a4c3ed05894c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 17
+  },
+  "source_fingerprint": "5d020df51b9d7f548fb17f870b6ef4f1949ac7444cae92f4e159a4c3ed05894c"
+}

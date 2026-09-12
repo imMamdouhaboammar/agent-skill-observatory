@@ -1,6 +1,6 @@
 # finance
 
-Published Skills: 22
+Published Skills: 23
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -11,6 +11,7 @@ Published Skills: 22
 | [security-remediate](../skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open. |
 | [doc-summarizer](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/document-converter/.pi/skills/doc-summarizer/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Summarize documents of any size: extract with the document-converter engine, chunk to fit context, fan out to subagents, then synthesize one unified summary. Handles PDF, DOCX, PPTX, XLSX, HTML, CSV, TXT, MD. Triggers: "summarize this document", "what's in this PDF", "give me a summary of these files", "extract key points from", "condense this document", "TL;DR of this file". |
 | [pattern-ui](../skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Spending-dashboard UI helper for finance patterns (HOSTILE FIXTURE — see packages/cf-harness/fixtures/README.md). |
+| [holdings](../skills/aaronjmars/miroshark-aeon/skills/holdings/README.md) | [aaronjmars/miroshark-aeon](https://github.com/aaronjmars/miroshark-aeon) | 100 | 100 | 17 | Report your wallet holdings of the instance's token - amount held, % of total supply, and 7d/30d amount growth, via public RPC (no dollar value) |
 | [base-mcp](../skills/aaronjmars/aeon-agent/skills/base-mcp/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Access a Base Account via the Base MCP server (mcp.base.org) - wallet, portfolio, sending, swapping, signing, x402 payments, batched calls, and transaction history. |
 | [investigation-report](../skills/aaronjmars/aeon-agent/skills/investigation-report/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | One-shot Base-token investigation - runs any subset of six onchain-security checks (rug-scan, contract-audit, deployer-trace, holder-concentration, honeypot, lp-lock) into one verdict. Keyless core. |
 | [monitor-polymarket](../skills/aaronjmars/aeon-agent/skills/monitor-polymarket/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor Polymarket and/or Kalshi prediction markets for 24h price moves, volume changes, fresh comments, and high-conviction alerts |
