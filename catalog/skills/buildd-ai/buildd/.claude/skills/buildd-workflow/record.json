@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "57d6f1b1b10537052b3326087b67d7af0113f1aa492250aacb168b478d3688a1",
+  "canonical_key": "buildd-ai/buildd:.claude/skills/buildd-workflow",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "57d6f1b1b10537052b3326087b67d7af0113f1aa492250aacb168b478d3688a1",
+    "archived": false,
+    "canonical_key": "buildd-ai/buildd:.claude/skills/buildd-workflow",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1131f85aba0f67a4be9c21ba61eddcee29289ca7477dfc7a974a78f4b6245272",
+    "description": "Workflow skill that helps agents work effectively in buildd. Enforces disciplined development — TDD, quality gates, proper planning, progress reporting, and no shortcuts.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "engineering",
+        "content",
+        "design",
+        "documentation",
+        "security"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/buildd-ai/buildd/blob/dev/.claude/skills/buildd-workflow/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:35:36.795026Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:36.795026Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "buildd-workflow",
+    "path": ".claude/skills/buildd-workflow",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "dev",
+    "repo_full_name": "buildd-ai/buildd",
+    "repo_url": "https://github.com/buildd-ai/buildd",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "68af0443feafcbeb6ea42fbccc7eaec9b56d3173978c12c13c264cdb30aa7ce6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "68af0443feafcbeb6ea42fbccc7eaec9b56d3173978c12c13c264cdb30aa7ce6"
+}
