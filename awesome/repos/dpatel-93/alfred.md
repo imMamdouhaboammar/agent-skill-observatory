@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 17
+Published Skills: 18
 Categories: agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=17, 60-84=0, <60=0
+Security distribution: 85+=18, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -26,3 +26,4 @@ Security distribution: 85+=17, 60-84=0, <60=0
 | [brutalism](../../skills/dpatel-93/alfred/skills/brutalism/README.md) | `skills/brutalism` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [cache-guardian](../../skills/dpatel-93/alfred/skills/cache-guardian/README.md) | `skills/cache-guardian` | 100 | 100 | agent-orchestration, commerce, content, documentation, engineering, integrations |
 | [cafe](../../skills/dpatel-93/alfred/skills/cafe/README.md) | `skills/cafe` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
+| [claude](../../skills/dpatel-93/alfred/skills/claude/README.md) | `skills/claude` | 100 | 100 | code-review, content, design, engineering, finance, research |
