@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dileep-kishore/zendots](https://github.com/dileep-kishore/zendots)
 
-Published Skills: 21
+Published Skills: 22
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -30,3 +30,4 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [python-patterns](../../skills/dileep-kishore/zendots/dot_agents/skills/python-patterns/README.md) | `dot_agents/skills/python-patterns` | 100 | 100 | commerce, content, data, engineering, security, testing |
 | [python-testing](../../skills/dileep-kishore/zendots/dot_agents/skills/python-testing/README.md) | `dot_agents/skills/python-testing` | 100 | 100 | content, data, engineering, integrations, productivity, testing |
 | [recall](../../skills/dileep-kishore/zendots/dot_agents/skills/recall/README.md) | `dot_agents/skills/recall` | 100 | 100 | agent-orchestration, commerce, content, engineering, hr-recruiting, productivity |
+| [security-review](../../skills/dileep-kishore/zendots/dot_agents/skills/security-review/README.md) | `dot_agents/skills/security-review` | 100 | 100 | content, data, devops, engineering, security, testing |
