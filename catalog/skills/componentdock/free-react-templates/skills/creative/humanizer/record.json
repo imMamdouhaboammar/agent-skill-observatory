@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "3a0c85027218f053e7cadbaf25d6a041d86cfbeb7926cb7eef7ed864e8fb5943",
+  "canonical_key": "componentdock/free-react-templates:skills/creative/humanizer",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3a0c85027218f053e7cadbaf25d6a041d86cfbeb7926cb7eef7ed864e8fb5943",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/creative/humanizer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "dded4baf04ba8e0b6c6d2961c6bfb119eb98fcb4f30cd481d0172711e0a1db28",
+    "description": "Humanize text: strip AI-isms and add real voice.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "productivity",
+        "commerce",
+        "documentation",
+        "engineering",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/creative/humanizer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['writing', 'editing', 'humanize', 'anti-ai-slop', 'voice', 'prose', 'text'], 'category': 'creative', 'homepage': 'https://github.com/blader/humanizer', 'related_skills': ['songwriting-and-ai-music']}"
+    },
+    "name": "humanizer",
+    "path": "skills/creative/humanizer",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5987902909339dd59b911b641bcb434a3a09e64682c7c1512fcd6b3f10b35b16",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "5987902909339dd59b911b641bcb434a3a09e64682c7c1512fcd6b3f10b35b16"
+}
