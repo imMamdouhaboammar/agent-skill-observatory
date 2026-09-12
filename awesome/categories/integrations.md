@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 58
+Published Skills: 59
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -51,6 +51,7 @@ Published Skills: 58
 | [acestep](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/acestep/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | AI music generation with ACE-Step 1.5 — background music, vocal tracks, covers, stem extraction for video production. Use when generating music, soundtracks, jingles, or working with audio stems. Triggers include background music, soundtrack, jingle, music generation, stem extraction, cover, style transfer, or musical composition tasks. |
 | [agents](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/agents/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience. |
 | [avatar-video](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/avatar-video/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Create AI avatar videos with precise control over avatars, voices, scripts, scenes, and backgrounds using HeyGen's v2 API. Use when: (1) Choosing a specific avatar and voice for a video, (2) Writing exact scripts for an avatar to speak, (3) Building multi-scene videos with different backgrounds per scene, (4) Creating transparent WebM videos for compositing, (5) Using talking photos as video presenters, (6) Integrating HeyGen avatars with Remotion, (7) Batch video generation with exact specs, (8) Brand-consistent production videos with precise control. |
+| [bfl-api](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/bfl-api/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | BFL FLUX API integration guide covering endpoints, async polling patterns, rate limiting, error handling, webhooks, and regional endpoints with Python and TypeScript code examples. |
 | [frontend-design](../skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | frontend-design |
 | [frontend-design](../skills/hose1021/omp-dotfiles/agent/skills/frontend-design/README.md) | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 100 | 100 | 0 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
 | [hicreator](../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 100 | 100 | 0 | Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows. |
