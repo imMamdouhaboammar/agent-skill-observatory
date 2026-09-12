@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "b8f24d5bd4a57a9f9a2bbb15b30f783b82dad6fe1ba4283bb0f5bb87295154ad",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/context-reentry",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b8f24d5bd4a57a9f9a2bbb15b30f783b82dad6fe1ba4283bb0f5bb87295154ad",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/context-reentry",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "35f05fefa9232875f08fd753ecc243c1457d7a193eb226361d85f7f3478fcb15",
+    "description": "Use when a user is juggling multiple projects or concurrent sessions and may return without remembering the prior scrollback.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "commerce",
+        "content",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/context-reentry/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "context-reentry",
+    "path": "dot_agents/skills/context-reentry",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "01b80a39eed0810ba67668e10e44637a9883b74ae75a78a66468d678f97468e2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "01b80a39eed0810ba67668e10e44637a9883b74ae75a78a66468d678f97468e2"
+}
