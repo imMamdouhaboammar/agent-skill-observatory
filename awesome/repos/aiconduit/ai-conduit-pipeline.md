@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 17
+Published Skills: 18
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=17, 60-84=0, <60=0
+Security distribution: 85+=18, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -26,3 +26,4 @@ Security distribution: 85+=17, 60-84=0, <60=0
 | [framer-motion](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/framer-motion/README.md) | `.agents/skills/framer-motion` | 100 | 100 | design, engineering |
 | [grok-media](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/grok-media/README.md) | `.agents/skills/grok-media` | 100 | 100 | content, data, engineering, media, product, research |
 | [gsap-core](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-core/README.md) | `.agents/skills/gsap-core` | 100 | 100 | commerce, content, data, design, documentation, engineering |
+| [gsap-frameworks](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-frameworks/README.md) | `.agents/skills/gsap-frameworks` | 100 | 100 | content, data, design, engineering, media |

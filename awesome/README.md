@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **419**
+Published skills: **420**
 Repositories: **53**
 
 ## Browse repositories
@@ -154,6 +154,7 @@ Repositories: **53**
 - [framer-motion](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/framer-motion/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/framer-motion`
 - [grok-media](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/grok-media/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/grok-media`
 - [gsap-core](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-core/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/gsap-core`
+- [gsap-frameworks](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/gsap-frameworks/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/gsap-frameworks`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
