@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 16
+Published Skills: 17
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=16, 60-84=0, <60=0
+Security distribution: 85+=17, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,6 +20,7 @@ Security distribution: 85+=16, 60-84=0, <60=0
 | [doc-summarizer](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/document-converter/.pi/skills/doc-summarizer/README.md) | `packages/document-converter/.pi/skills/doc-summarizer` | 100 | 100 | agent-orchestration, data, devops, documents, engineering, finance |
 | [document-converter](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/document-converter/.pi/skills/document-converter/README.md) | `packages/document-converter/.pi/skills/document-converter` | 100 | 100 | content, devops, documentation, documents, engineering, media |
 | [faq-mine](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/authoring-toolkit/.pi/skills/faq-mine/README.md) | `packages/authoring-toolkit/.pi/skills/faq-mine` | 100 | 100 | agent-orchestration, content, documentation, engineering, hr-recruiting, research |
+| [interview-me](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/interview-me/README.md) | `packages/eng-disciplines/.pi/skills/interview-me` | 100 | 100 | content, documentation, engineering, productivity, research, testing |
 | [plan-proposal](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) | `.pi/skills/plan-proposal` | 100 | 100 | agent-orchestration, content, design, engineering, productivity, testing |
 | [release-revoke](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) | `.pi/skills/release-revoke` | 100 | 100 | devops, engineering |
 | [run-dashboard-e2e-local-changes](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/run-dashboard-e2e-local-changes/README.md) | `.pi/skills/run-dashboard-e2e-local-changes` | 100 | 100 | browser-automation, design, devops, engineering, media, testing |

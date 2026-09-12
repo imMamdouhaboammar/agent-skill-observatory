@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "cd7ae388db1dc4d38804af794cd98e1a94ad7a06ff95858b5164d298a891b5ed",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/interview-me",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "cd7ae388db1dc4d38804af794cd98e1a94ad7a06ff95858b5164d298a891b5ed",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/interview-me",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c98f91f4c1cac131b70a42c416eb409efdba68ee3a19a9f20111ee180669bfe1",
+    "description": "Pre-spec intent extraction — one question at a time until ~95% confidence about what the user actually wants, BEFORE any openspec proposal exists. Use when an ask is underspecified (missing who/why/success/constraint), or on \"interview me\", \"grill me\", \"stress-test my thinking\". Upstream of openspec-explore; writes no specs. Interactive only — never in CI or autonomous loops.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "testing",
+        "content",
+        "documentation",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/interview-me/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "interview-me",
+    "path": "packages/eng-disciplines/.pi/skills/interview-me",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6430b9839ab6e0409d4f59468fdf13a2b1ed447cc41bdf57119574039117b637",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "6430b9839ab6e0409d4f59468fdf13a2b1ed447cc41bdf57119574039117b637"
+}
