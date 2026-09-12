@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "3727bbebb85770be8674c98483a73dc47ad1a9944b4fd8137f8d3672f50a30de",
+  "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-discussion",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3727bbebb85770be8674c98483a73dc47ad1a9944b4fd8137f8d3672f50a30de",
+    "archived": false,
+    "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-discussion",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "21cd3b2d0380df2e50bf557c7314a8ddeb91ec6171c23594f09853fc695965fa",
+    "description": "Run structured discussion that defines exploration conditions, evaluation rubric, and anti-goals for downstream prototyping.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "productivity",
+        "research",
+        "commerce",
+        "agent-orchestration"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aganesy/QFAI/blob/main/.qfai/assistant/skills/qfai-discussion/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 14
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-12T17:06:20.023267Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:20.023267Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "qfai-discussion",
+    "path": ".qfai/assistant/skills/qfai-discussion",
+    "pushed_at": "2026-09-12T17:04:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aganesy/QFAI",
+    "repo_url": "https://github.com/aganesy/QFAI",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 13,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 28,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ede085409e6c8150644790d8f75097e31452117794aeab2e9fea3e9f0cf1f57f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "ede085409e6c8150644790d8f75097e31452117794aeab2e9fea3e9f0cf1f57f"
+}
