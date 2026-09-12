@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 15
-Categories: agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documents, engineering, finance, integrations, legal-compliance, marketing, media, product, productivity, research, security, testing
+Published Skills: 16
+Categories: agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,3 +24,4 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [brandkit](../../skills/dpatel-93/alfred/skills/brandkit/README.md) | `skills/brandkit` | 100 | 100 | content, design, documents, marketing, media, security |
 | [browser](../../skills/dpatel-93/alfred/skills/browser/README.md) | `skills/browser` | 100 | 100 | browser-automation, content, data, design, integrations, productivity |
 | [brutalism](../../skills/dpatel-93/alfred/skills/brutalism/README.md) | `skills/brutalism` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
+| [cache-guardian](../../skills/dpatel-93/alfred/skills/cache-guardian/README.md) | `skills/cache-guardian` | 100 | 100 | agent-orchestration, commerce, content, documentation, engineering, integrations |
