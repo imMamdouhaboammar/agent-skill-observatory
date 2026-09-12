@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "e7799ab9a5d7f37d79d6cd461f77b925240aa9e467239e231e81181a2ac99f56",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/code-review-toolkit/.pi/skills/code-review",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e7799ab9a5d7f37d79d6cd461f77b925240aa9e467239e231e81181a2ac99f56",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/code-review-toolkit/.pi/skills/code-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "72b2ed4070067604e5389075f965db9ec45c70d4e93ac1546b913b60d6f29f3e",
+    "description": "AI-powered code review using CodeRabbit. Default code-review skill. Trigger for any explicit review request AND autonomously when the agent thinks a review is needed (code/PR/quality/security). Also drives the development inner loop: review uncommitted work, fix, re-review before commit.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "code-review",
+        "security",
+        "content",
+        "documentation",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/code-review-toolkit/.pi/skills/code-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {
+      "version": "0.2.0"
+    },
+    "name": "code-review",
+    "path": "packages/code-review-toolkit/.pi/skills/code-review",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "455201422fb5fe188b3e0db7806129794b89970182d9c81e65de9051073692ad",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "455201422fb5fe188b3e0db7806129794b89970182d9c81e65de9051073692ad"
+}

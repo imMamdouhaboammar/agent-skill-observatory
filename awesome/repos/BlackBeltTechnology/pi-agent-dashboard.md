@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 10
-Categories: agent-orchestration, browser-automation, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, legal-compliance, marketing, media, productivity, research, security, testing
+Published Skills: 11
+Categories: agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=10, 60-84=0, <60=0
+Security distribution: 85+=11, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -13,6 +13,7 @@ Security distribution: 85+=10, 60-84=0, <60=0
 | [apple-tools](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/apple-tools/.pi/skills/apple-tools/README.md) | `packages/apple-tools/.pi/skills/apple-tools` | 100 | 100 | data, engineering, integrations, security |
 | [autofix](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | `packages/code-review-toolkit/.pi/skills/autofix` | 100 | 100 | browser-automation, content, data, devops, engineering, security |
 | [code-quality](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) | `.pi/skills/code-quality` | 100 | 100 | content, documentation, engineering, integrations, legal-compliance, testing |
+| [code-review](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/code-review/README.md) | `packages/code-review-toolkit/.pi/skills/code-review` | 100 | 100 | code-review, commerce, content, documentation, engineering, security |
 | [faq-mine](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/authoring-toolkit/.pi/skills/faq-mine/README.md) | `packages/authoring-toolkit/.pi/skills/faq-mine` | 100 | 100 | agent-orchestration, content, documentation, engineering, hr-recruiting, research |
 | [plan-proposal](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) | `.pi/skills/plan-proposal` | 100 | 100 | agent-orchestration, content, design, engineering, productivity, testing |
 | [release-revoke](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) | `.pi/skills/release-revoke` | 100 | 100 | devops, engineering |
