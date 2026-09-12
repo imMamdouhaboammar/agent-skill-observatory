@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **800**
-Repositories: **90**
+Published skills: **801**
+Repositories: **91**
 
 ## Browse repositories
 
@@ -76,6 +76,7 @@ Repositories: **90**
 - [dcostenco/prism-coder](./repos/dcostenco/prism-coder.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [digitallyinduced/haskell-agent](./repos/digitallyinduced/haskell-agent.md)
+- [dileep-kishore/zendots](./repos/dileep-kishore/zendots.md)
 - [dpatel-93/alfred](./repos/dpatel-93/alfred.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
@@ -744,6 +745,7 @@ Repositories: **90**
 - [post-task-learning-review](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/post-task-learning-review/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/post-task-learning-review`
 - [telegram-agent](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/telegram-agent/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/telegram-agent`
 - [wait-for-ci](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/wait-for-ci/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/wait-for-ci`
+- [article-writing](./skills/dileep-kishore/zendots/dot_agents/skills/article-writing/README.md) · `dileep-kishore/zendots:dot_agents/skills/article-writing`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [assemble](./skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) · `dpatel-93/alfred:_archive/2026-08-14-icm/skills/assemble`
