@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "cee13b5fd558f44f6a9a3be323d645ba9865b8f63263bbe47337d23291d569c6",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/find-docs",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "cee13b5fd558f44f6a9a3be323d645ba9865b8f63263bbe47337d23291d569c6",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/find-docs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a8c2306dc8d4a9483cf24ed937486eca1365a93a0484889693c776f3e78e7a9d",
+    "description": "Retrieves up-to-date documentation, API references, and code examples for any developer technology. Use this skill whenever the user asks about a specific library, framework, SDK, CLI tool, or cloud service -- even for well-known ones like React, Next.js, Prisma, Express, Tailwind, Django, or Spring Boot. Your training data may not reflect recent API changes or version updates.\nAlways use for: API syntax questions, configuration options, version migration issues, \"how do I\" questions mentioning a library name, debugging that involves library-specific behavior, setup instructions, and CLI tool usage.\nUse even when you think you know the answer -- do not rely on training data for API details, signatures, or configuration options as they are frequently outdated. Always verify against current docs. Prefer this over web search for library documentation and API details.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "documentation",
+        "data",
+        "content",
+        "devops",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/find-docs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "find-docs",
+    "path": "dot_agents/skills/find-docs",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "06d8dd8c7435ae88aa22e10689a3ce28c89e2028cdf3c4ccf39af02227777a07",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "06d8dd8c7435ae88aa22e10689a3ce28c89e2028cdf3c4ccf39af02227777a07"
+}
