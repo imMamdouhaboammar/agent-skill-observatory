@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "e240e1638aab314a2311f2f178f66155bed5ef66e3453e410498edd80140d6d4",
+  "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-introspection",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e240e1638aab314a2311f2f178f66155bed5ef66e3453e410498edd80140d6d4",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-introspection",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f2172aec88daa8263bf3cc3b412071a3723d25667d3440c5dd0cc6e6df7c7961",
+    "description": "Introspection & Querying: describe/list commands, config filtering, workspace introspection, dependency graphs, YQ integration, --help=<topic> scoped CLI help",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "integrations",
+        "devops",
+        "data",
+        "documentation",
+        "product"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-introspection/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "category": "dev-tooling",
+      "copyright": "Copyright Cloud Posse, LLC 2026",
+      "version": "1.0.0"
+    },
+    "name": "atmos-introspection",
+    "path": "agent-skills/skills/atmos-introspection",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "23edc0058b2944ae62b2ca4993412acff445442a309aa282eaa35518eb14d1df",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "23edc0058b2944ae62b2ca4993412acff445442a309aa282eaa35518eb14d1df"
+}

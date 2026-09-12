@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 454
+Published Skills: 455
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -73,6 +73,7 @@ Published Skills: 454
 | [atmos-design-patterns](../skills/cloudposse/atmos/agent-skills/skills/atmos-design-patterns/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Design patterns: stack organization, component catalogs, inheritance, configuration composition, version management, layered configuration |
 | [atmos-diagnostics](../skills/cloudposse/atmos/agent-skills/skills/atmos-diagnostics/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos diagnostics: machine-readable JSONL event streams, diagnostics.enabled/file/include_output, subprocess start/end/output events, masking, and debugging Atmos execution |
 | [atmos-helmfile](../skills/cloudposse/atmos/agent-skills/skills/atmos-helmfile/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Helmfile orchestration: sync/apply/destroy/diff, Kubernetes deployments, varfile generation, EKS integration, source management |
+| [atmos-introspection](../skills/cloudposse/atmos/agent-skills/skills/atmos-introspection/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Introspection & Querying: describe/list commands, config filtering, workspace introspection, dependency graphs, YQ integration, --help=<topic> scoped CLI help |
 | [changelog](../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Blog post authoring for Atmos: MDX template, frontmatter, website/blog/tags.yml and authors.yml rules, problem-first framing, backtick-opening ban, optional cast embeds, and no-Go-internals leakage. Invoke when writing, editing, or reviewing a website/blog/*.mdx changelog post. |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [docs](../skills/cloudposse/atmos/.claude/skills/docs/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks |
