@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 4
-Categories: commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, media, product, productivity, security
+Published Skills: 5
+Categories: commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, media, product, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=4, 60-84=0, <60=0
+Security distribution: 85+=5, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -13,3 +13,4 @@ Security distribution: 85+=4, 60-84=0, <60=0
 | [autoresearch](../../skills/aaronjmars/aeon-agent/skills/autoresearch/README.md) | `skills/autoresearch` | 100 | 100 | commerce, content, data, engineering, productivity, security |
 | [base-mcp](../../skills/aaronjmars/aeon-agent/skills/base-mcp/README.md) | `skills/base-mcp` | 100 | 100 | commerce, content, data, design, finance, integrations |
 | [bd-radar](../../skills/aaronjmars/aeon-agent/skills/bd-radar/README.md) | `skills/bd-radar` | 100 | 100 | content, documentation, engineering, hr-recruiting, product, security |
+| [cortx-reliability](../../skills/aaronjmars/aeon-agent/skills/cortx-reliability/README.md) | `skills/cortx-reliability` | 100 | 100 | data, engineering, research, security |

@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "40d04fe845d9da786a2bd85189e2518926dbbf7e5f87f3eee5835aaee6a5479a",
+  "canonical_key": "aaronjmars/aeon-agent:skills/cortx-reliability",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "40d04fe845d9da786a2bd85189e2518926dbbf7e5f87f3eee5835aaee6a5479a",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/cortx-reliability",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "35046f50614be666d0dd1a24d1540c24385f9c2d457b7bb35bb74abb2847595c",
+    "description": "Check whether an x402 payment endpoint is reliably delivering value before spending USDC on it. Returns paid delivery rate, active incidents, latency, and a clear proceed/warn/block recommendation.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "research",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/cortx-reliability/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "capabilities": "['external_api']",
+      "category": "crypto",
+      "mode": "write",
+      "tags": "['x402', 'payments', 'reliability']",
+      "var": ""
+    },
+    "name": "cortx-reliability",
+    "path": "skills/cortx-reliability",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bb6a59a4b7b120ba141daa4f4c7424f0557e67e2f9bc499642de36ec95a4b188",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "bb6a59a4b7b120ba141daa4f4c7424f0557e67e2f9bc499642de36ec95a4b188"
+}
