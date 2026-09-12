@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "2899194a255ea7f4ab68895bd9a4595a52afcb7de31e0f92a517479de531aeac",
+  "canonical_key": "chronoaiproject/nyx-skills:research-claim-fidelity-reviewer",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2899194a255ea7f4ab68895bd9a4595a52afcb7de31e0f92a517479de531aeac",
+    "archived": false,
+    "canonical_key": "chronoaiproject/nyx-skills:research-claim-fidelity-reviewer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4ca2668c0c96ee6ffdedf63749128f8ff98886ab1bac337a7336ad3adaf7f42e",
+    "description": "Severity-weighted BLOCK, WARN, OK reviewer method for technical and research posts. Use when reviewing X threads, announcements, captions, or launch copy for hook strength, thread arc, generic AI vocabulary, source fidelity, claim support, numeric-claim verification, and thread format before recommending publish.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "devops",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/research-claim-fidelity-reviewer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:08:31.372724Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:08:31.372724Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "plain",
+      "tag": "['research-review', 'claim-fidelity', 'severity-rubric']"
+    },
+    "name": "research-claim-fidelity-reviewer",
+    "path": "research-claim-fidelity-reviewer",
+    "pushed_at": "2026-09-12T14:04:06Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ChronoAIProject/nyx-skills",
+    "repo_url": "https://github.com/ChronoAIProject/nyx-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 92,
+      "reasons": [
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e248324e5cf1cace8c5efcf883b1bccb5155bc1db226cba8f538db73a56fa203",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "e248324e5cf1cace8c5efcf883b1bccb5155bc1db226cba8f538db73a56fa203"
+}
