@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 240
+Published Skills: 241
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -180,6 +180,7 @@ Published Skills: 240
 | [writing-plans](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/writing-plans/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when you have a spec or requirements for a multi-step task, before touching code |
 | [character-animation-qa](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/character-animation-qa/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Review local character animation with schema checks, Playwright browser previews, frame sampling, and FFmpeg/ffprobe final output checks. |
 | [codex-guide](../skills/chenyynx/claudio/bridge/.claude/skills/codex-guide/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Codex の使い方、CLI/app/IDE、rules・hooks・AGENTS.md・skills・subagents・config などを案内する。Codex や OpenAI 製品の仕様を答える前に必ず公式ドキュメントを確認し、rules/approval は `codex execpolicy check` で実検証すること。 |
+| [convoy-nudge](../skills/Deploy-Forward/convoy/skills/convoy-nudge/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Lead-side recovery when a neuron pane goes deaf (rows waiting, no drain, body alive or dead). Detect from the tape, then relaunch dead chairs or nudge an idle pane with a title-verified keystroke. Use whenever `rail`/`inbox` shows rows waiting and no ack for minutes. |
 | [convoy-wizard](../skills/Deploy-Forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Optional @convoy wizard: fail-closed live-tool preflight, then ONE card (harness -> model -> effort \| attach, usage remaining per harness) that drives GitHub gate, repo selection, N neurons, one-window launch and observed connects. |
 | [documentation-criteria](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/documentation-criteria/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | documentation criteria, artifact selection, evidence requirements |
 | [flutter-ui-design](../skills/chenyynx/claudio/bridge/.claude/skills/flutter-ui-design/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter UI実装のアーキテクチャ規約・コンポーネント分割・状態管理ガイド（Bloc/Cubit版） |

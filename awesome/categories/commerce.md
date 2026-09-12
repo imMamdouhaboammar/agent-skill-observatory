@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 206
+Published Skills: 207
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -155,6 +155,7 @@ Published Skills: 206
 | [convoy](../skills/Deploy-Forward/convoy/plugin/convoy/skills/convoy/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | /convoy orchestrates Convoy using live tools/list, never a frozen catalog. |
 | [convoy](../skills/Deploy-Forward/convoy/plugins/convoy/skills/convoy/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Coordinate multiple AI coding harnesses on one Convoy thread using only the configured Convoy MCP server's live capabilities. Use for guided setup, neuron discovery, crew launch, routing, and acknowledgement checks. |
 | [convoy](../skills/Deploy-Forward/convoy/skills/convoy/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Canonical /convoy slash sheet — renders the public Convoy MCP tools 1:1. The MCP tools/list is the source of truth; this skill only renders it. |
+| [convoy-nudge](../skills/Deploy-Forward/convoy/skills/convoy-nudge/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Lead-side recovery when a neuron pane goes deaf (rows waiting, no drain, body alive or dead). Detect from the tape, then relaunch dead chairs or nudge an idle pane with a title-verified keystroke. Use whenever `rail`/`inbox` shows rows waiting and no ack for minutes. |
 | [convoy-wizard](../skills/Deploy-Forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | Optional @convoy wizard: fail-closed live-tool preflight, then ONE card (harness -> model -> effort \| attach, usage remaining per harness) that drives GitHub gate, repo selection, N neurons, one-window launch and observed connects. |
 | [d3-viz](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/d3-viz/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment. |
 | [frontend-design](../skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | frontend-design |
