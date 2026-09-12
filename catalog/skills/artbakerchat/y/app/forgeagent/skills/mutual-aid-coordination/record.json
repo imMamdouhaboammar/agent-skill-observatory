@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "b39978c9db9b98642dbc822f09056b502ac7c89d9fecafbfc7f2fb927d000d08",
+  "canonical_key": "artbakerchat/y:app/forgeagent/skills/mutual-aid-coordination",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b39978c9db9b98642dbc822f09056b502ac7c89d9fecafbfc7f2fb927d000d08",
+    "archived": false,
+    "canonical_key": "artbakerchat/y:app/forgeagent/skills/mutual-aid-coordination",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "cc5b4d2c1ce434c51168d78381956e2b621c03b94c750af0b2c030a99dfa242e",
+    "description": "Structure safe, consent-based mutual-aid requests, offers, and follow-up.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "other"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/artbakerchat/Y/blob/main/app/ForgeAgent/skills/mutual-aid-coordination/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:06:48.908824Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:48.908824Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "mutual-aid-coordination",
+    "path": "app/ForgeAgent/skills/mutual-aid-coordination",
+    "pushed_at": "2026-09-12T17:04:36Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "artbakerchat/Y",
+    "repo_url": "https://github.com/artbakerchat/Y",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "923757d01c7db0dc7de957d929fc8ca0be005f8658ae77d716b18a88ba348414",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "923757d01c7db0dc7de957d929fc8ca0be005f8658ae77d716b18a88ba348414"
+}
