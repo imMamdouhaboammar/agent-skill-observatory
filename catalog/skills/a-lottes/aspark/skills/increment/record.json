@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "35293a44fd369965d1723c08b4b18390440597c72e0f1c2042086cdf50859145",
+  "canonical_key": "a-lottes/aspark:skills/increment",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "35293a44fd369965d1723c08b4b18390440597c72e0f1c2042086cdf50859145",
+    "archived": false,
+    "canonical_key": "a-lottes/aspark:skills/increment",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "787d9ad9baef27dbcea83605d6af34da7c59af83f2033b1781fc8156cff2b39c",
+    "description": "Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "project-management",
+        "architecture",
+        "content",
+        "design",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/a-lottes/aSPARK/blob/main/skills/increment/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:08:12.380048Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:08:12.380048Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "increment",
+    "path": "skills/increment",
+    "pushed_at": "2026-09-12T17:04:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "a-lottes/aSPARK",
+    "repo_url": "https://github.com/a-lottes/aSPARK",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4f8107ff81cb491640f0a4cdde658bf6c56e5b9e90be882ea9d8694cc83fd459",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 20
+  },
+  "source_fingerprint": "4f8107ff81cb491640f0a4cdde658bf6c56e5b9e90be882ea9d8694cc83fd459"
+}

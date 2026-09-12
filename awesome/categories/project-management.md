@@ -1,6 +1,6 @@
 # project-management
 
-Published Skills: 6
+Published Skills: 7
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -10,3 +10,4 @@ Published Skills: 6
 | [atm-memory-consolidate](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index. |
 | [karpathy-ko](../skills/andyko18/specops-ko/skills/karpathy-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 작성·검토·리팩터링 시 항상 적용 — Think·Simplicity·Surgical·Goal 4원칙으로 LLM 코딩 실수 방지 (Karpathy 관찰 한국어 재창작) |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
+| [increment](../skills/a-lottes/aSPARK/skills/increment/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day. |
