@@ -1,6 +1,6 @@
 # education
 
-Published Skills: 31
+Published Skills: 32
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -18,6 +18,7 @@ Published Skills: 31
 | [knowledge-base](../skills/commontoolsinc/labs/skills/knowledge-base/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Shared foundation for Oracle & Corrector agents. Establishes the source hierarchy for resolving conflicts between documentation, code, and specs. Load this skill first when investigating how the system works. |
 | [pattern-iframe](../skills/commontoolsinc/labs/skills/pattern-iframe/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Build or generate a Common Fabric pattern whose primary UI is a self-contained `cf-iframe` guest. Use when an agent should turn an input-data shape and a small state/output contract into a working iframe-first pattern without learning the broader pattern framework, including plain DOM, React, D3, Phaser 2D games, Babylon.js 3D scenes, PerSpace/PerUser/PerSession data, path-scoped Cell access, stable array-item handles, mergeable pushes, or bridged SQLite. |
 | [spec-audit](../skills/commontoolsinc/labs/skills/spec-audit/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Map and verify the CTS/schema documentation corpus against its normative contracts, implementation, tests, fixtures, and runtime consumers. Use for claim-level audits or updates in docs/specs/ts-transformer, docs/specs/schema-generator, package guidance, and author-facing CTS docs, especially after transformer/schema changes or before releases. |
+| [post-task-learning-review](../skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/post-task-learning-review/README.md) | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 100 | 100 | 29 | Review substantial completed tasks for durable lessons and store only high-value reusable guidance. |
 | [lesson](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/lesson/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Record a lesson learned after fixing a bug or discovering a pattern. Updates domain memory files and checks for contradictions. Use after resolving non-trivial issues. |
 | [action-converter](../skills/aaronjmars/aeon-agent/skills/action-converter/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | 5 concrete real-life actions, leverage-scored against open loops with specificity and anti-fluff gates |
 | [self-improving-agent](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/self-improving-agent/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 自动学习改进，记录错误和修正 - Auto-learn from mistakes, track errors and corrections, analyze patterns, and improve responses over time |
