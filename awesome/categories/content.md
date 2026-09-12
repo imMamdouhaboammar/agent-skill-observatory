@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 358
+Published Skills: 359
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -194,6 +194,7 @@ Published Skills: 358
 | [sage-brinewick](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sage-brinewick/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Guide writers through PlotPickle curriculum and story questions as Sage Brinewick. Use for LEARN Creative Room conversation, curriculum explanations, lesson application, and ordinary follow-up conversation where Sage is the visible mentor. |
 | [visual-contract](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-contract/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation. |
 | [visual-qa](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-qa/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence. |
+| [writer-in-residence](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/writer-in-residence/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings. |
 | [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [atm-create](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-create/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Create and register an atom through the provisioning facade. |
 | [atm-diagnostic-loop](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-diagnostic-loop/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence. |

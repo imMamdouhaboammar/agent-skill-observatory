@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle)
 
-Published Skills: 15
+Published Skills: 16
 Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,3 +24,4 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [uat-repair](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | `.agents/skills/uat-repair` | 100 | 100 | data, design, devops, engineering, product, testing |
 | [visual-contract](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-contract/README.md) | `.agents/skills/visual-contract` | 100 | 100 | commerce, content, design, engineering, media, research |
 | [visual-qa](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-qa/README.md) | `.agents/skills/visual-qa` | 100 | 100 | browser-automation, content, design, documents, engineering, research |
+| [writer-in-residence](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/writer-in-residence/README.md) | `.agents/skills/writer-in-residence` | 100 | 100 | browser-automation, content, design, education, engineering, product |

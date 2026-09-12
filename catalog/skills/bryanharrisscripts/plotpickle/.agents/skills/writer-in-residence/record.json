@@ -1,0 +1,108 @@
+{
+  "analysis_fingerprint": "07ce17a11c128a3a5fa079bb81fdd9955c4507686c5ea653ff8c2b9604564f4f",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/writer-in-residence",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "07ce17a11c128a3a5fa079bb81fdd9955c4507686c5ea653ff8c2b9604564f4f",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/writer-in-residence",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c827bff1d2137113d69aa9a34ecb64fb1415f20ac4ffd19809c738ca4aa38677",
+    "description": "User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "design",
+        "engineering",
+        "browser-automation",
+        "content",
+        "education"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/writer-in-residence/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "PlotPickle",
+      "compatibility": "PlotPickle host runtime",
+      "progressiveDisclosure": "True",
+      "uri": "skill://plotpickle/writer-in-residence",
+      "version": "1.0.0"
+    },
+    "name": "writer-in-residence",
+    "path": ".agents/skills/writer-in-residence",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 5,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "af7771c94aceac0dc8692c56e4b4929360673196c52cdd83f59912d5745c382e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "af7771c94aceac0dc8692c56e4b4929360673196c52cdd83f59912d5745c382e"
+}
