@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **674**
+Published skills: **675**
 Repositories: **72**
 
 ## Browse repositories
@@ -181,6 +181,7 @@ Repositories: **72**
 - [qfai-grill](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-grill/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-grill`
 - [qfai-grilling](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-grilling/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-grilling`
 - [qfai-prototyping](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-prototyping/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-prototyping`
+- [web-research](./skills/aganesy/qfai/.qfai/assistant/skills/web-research/README.md) · `aganesy/qfai:.qfai/assistant/skills/web-research`
 - [update-model-pricing](./skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) · `agentconnect-md/agentconnect:.claude/skills/update-model-pricing`
 - [agent-native-design](./skills/agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`
 - [assetseeker](./skills/agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) · `agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker`

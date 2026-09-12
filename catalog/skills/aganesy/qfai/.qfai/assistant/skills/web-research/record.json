@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "eb3c8420afc95e70f3d2a4e60fbd9804695bf9ee5ea58ab95d628a7f47c5fb5c",
+  "canonical_key": "aganesy/qfai:.qfai/assistant/skills/web-research",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "eb3c8420afc95e70f3d2a4e60fbd9804695bf9ee5ea58ab95d628a7f47c5fb5c",
+    "archived": false,
+    "canonical_key": "aganesy/qfai:.qfai/assistant/skills/web-research",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "8be61a7d38cf121f39525bcf7c683024124a3ca2dd11458287629aaee1cb8ee2",
+    "description": "8-stage web research pipeline with MCP integration, caching, and citation generation.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "integrations",
+        "testing",
+        "agent-orchestration",
+        "browser-automation",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aganesy/QFAI/blob/main/.qfai/assistant/skills/web-research/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-12T17:06:20.023267Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:20.023267Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "web-research",
+    "path": ".qfai/assistant/skills/web-research",
+    "pushed_at": "2026-09-12T17:04:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aganesy/QFAI",
+    "repo_url": "https://github.com/aganesy/QFAI",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 28,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "809c58699b49acedc951bd3baad8acf8d68ef1d96fdb4f749973b883844519f7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "809c58699b49acedc951bd3baad8acf8d68ef1d96fdb4f749973b883844519f7"
+}
