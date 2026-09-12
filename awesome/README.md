@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **783**
+Published skills: **784**
 Repositories: **85**
 
 ## Browse repositories
@@ -403,6 +403,7 @@ Repositories: **85**
 - [video-transcription](./skills/blackbelttechnology/pi-agent-dashboard/packages/video-transcription/.pi/skills/video-transcription/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/video-transcription/.pi/skills/video-transcription`
 - [frontend-design](./skills/boardx/workspacex/.agents/skills/frontend-design/README.md) · `boardx/workspacex:.agents/skills/frontend-design`
 - [web-artifact](./skills/boardx/workspacex/skills/standard-web/web-artifact/README.md) · `boardx/workspacex:skills/standard-web/web-artifact`
+- [web-research](./skills/boardx/workspacex/skills/standard-web/web-research/README.md) · `boardx/workspacex:skills/standard-web/web-research`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`

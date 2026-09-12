@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 324
+Published Skills: 325
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -302,6 +302,7 @@ Published Skills: 324
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |
 | [spike](../skills/ComponentDock/free-react-templates/skills/software-development/spike/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway experiments to validate an idea before build. |
 | [teams-meeting-pipeline](../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Teams meeting summaries, job replay, Graph subscriptions. |
+| [web-research](../skills/boardx/workspacex/skills/standard-web/web-research/README.md) | [boardx/workspacex](https://github.com/boardx/workspacex) | 97 | 100 | 0 | 针对需要联网查证、比较方案或形成带引用研究报告的问题，制定有界研究计划，读取公开原文并保留冲突和缺口。适用于公开网络研究，不用于读取登录页面或绕过站点限制。 |
 | [building-hybrid-game-assets](../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 96 | 100 | 1 | Use when a game needs a practical pipeline combining generated, hand-authored, 2D, 3D, procedural, or purchased assets while keeping visual consistency, runtime constraints, and iteration speed under control. |
 | [chatgpt-image-short-video](../skills/ChronoAIProject/nyx-skills/chatgpt-image-short-video/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Method for producing short vertical videos from ChatGPT image generation through a fixed browser tab, local TTS narration, timed subtitle burn-in, cover exports, and a manifest. Use when an operator needs a reproducible image-to-short workflow with pinned session consistency, per-beat visual prompts, 1080x1920 safe-area rules, local ffmpeg/PIL assembly, and private access kept outside the skill. |
 | [public-copy-release-guard](../skills/ChronoAIProject/nyx-skills/public-copy-release-guard/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Portable checklist for gating public-facing copy before release. Use when captions, posts, manifests, topics, titles, or launch copy must be checked for generic AI wording, leaked internal labels, forbidden experiment or tool names, platform topic allowlists, CTA spam, and unsupported overclaims. |

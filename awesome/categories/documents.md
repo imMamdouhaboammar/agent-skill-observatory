@@ -1,6 +1,6 @@
 # documents
 
-Published Skills: 24
+Published Skills: 25
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -28,3 +28,4 @@ Published Skills: 24
 | [building-brand-guidelines](../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand identity needs durable rules, assets, examples, accessibility constraints, and governance so multiple people can reproduce it consistently across channels. |
 | [claude-design](../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Design one-off HTML artifacts (landing, deck, prototype). |
 | [nano-pdf](../skills/ComponentDock/free-react-templates/skills/productivity/nano-pdf/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Edit text in existing PDFs via natural-language prompts. |
+| [web-research](../skills/boardx/workspacex/skills/standard-web/web-research/README.md) | [boardx/workspacex](https://github.com/boardx/workspacex) | 97 | 100 | 0 | 针对需要联网查证、比较方案或形成带引用研究报告的问题，制定有界研究计划，读取公开原文并保留冲突和缺口。适用于公开网络研究，不用于读取登录页面或绕过站点限制。 |
