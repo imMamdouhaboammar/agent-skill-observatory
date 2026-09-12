@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **799**
-Repositories: **89**
+Published skills: **800**
+Repositories: **90**
 
 ## Browse repositories
 
@@ -29,6 +29,7 @@ Repositories: **89**
 - [Deploy-Forward/convoy](./repos/Deploy-Forward/convoy.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
 - [DiamondForgeFr/SaasFoundryAI](./repos/DiamondForgeFr/SaasFoundryAI.md)
+- [Dicklesworthstone/beads_rust](./repos/Dicklesworthstone/beads_rust.md)
 - [Embassy-of-the-Free-Mind/sourcelibrary-v2](./repos/Embassy-of-the-Free-Mind/sourcelibrary-v2.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
 - [Hoshock/HolodoriOptimizer](./repos/Hoshock/HolodoriOptimizer.md)
@@ -736,6 +737,7 @@ Repositories: **89**
 - [review-pr](./skills/dexforce/embodichain/.claude/skills/review-pr/README.md) · `dexforce/embodichain:.claude/skills/review-pr`
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
 - [sf-integration-rules](./skills/diamondforgefr/saasfoundryai/.agents/skills/sf-integration-rules/README.md) · `diamondforgefr/saasfoundryai:.agents/skills/sf-integration-rules`
+- [br](./skills/dicklesworthstone/beads_rust/.claude/skills/br/README.md) · `dicklesworthstone/beads_rust:.claude/skills/br`
 - [frontend](./skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) · `diegofisi/youtube-downloader:.claude/skills/frontend`
 - [add-model](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/add-model/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/add-model`
 - [learn-about-user](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/learn-about-user/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/learn-about-user`

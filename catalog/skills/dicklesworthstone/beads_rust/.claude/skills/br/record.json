@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "9fe9cc8b62d677e5713b8650281cfb748eeb6a1f5f4b4500109179d770fec4f3",
+  "canonical_key": "dicklesworthstone/beads_rust:.claude/skills/br",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9fe9cc8b62d677e5713b8650281cfb748eeb6a1f5f4b4500109179d770fec4f3",
+    "archived": false,
+    "canonical_key": "dicklesworthstone/beads_rust:.claude/skills/br",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9bec4f308df6544f8379239344f88f2ffe32fe71d5f80d9660a8d16b94b67707",
+    "description": "Official skill for beads_rust (`br`), a local-first, dependency-aware issue tracker for AI agents. Use when creating issues, triaging backlogs, managing dependencies, finding ready work, updating status, or syncing to git via JSONL.",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "data",
+        "productivity",
+        "agent-orchestration",
+        "content",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/Dicklesworthstone/beads_rust/blob/main/.claude/skills/br/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 121,
+    "indexed_at": "2026-09-12T21:33:01.425764Z",
+    "last_successful_repo_scan_at": "2026-09-12T21:33:01.425764Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "Dicklesworthstone",
+      "version": "1.0.0"
+    },
+    "name": "br",
+    "path": ".claude/skills/br",
+    "pushed_at": "2026-09-12T21:30:05Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Dicklesworthstone/beads_rust",
+    "repo_url": "https://github.com/Dicklesworthstone/beads_rust",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2b015ec3494ad9ae9e13fceb628a96d1f903e1ae44d7e50e359162a77aa0888f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1090
+  },
+  "source_fingerprint": "2b015ec3494ad9ae9e13fceb628a96d1f903e1ae44d7e50e359162a77aa0888f"
+}
