@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain)
 
-Published Skills: 17
+Published Skills: 18
 Categories: browser-automation, business, commerce, content, data, design, devops, documentation, documents, engineering, integrations, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=17, 60-84=0, <60=0
+Security distribution: 85+=18, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,5 +24,6 @@ Security distribution: 85+=17, 60-84=0, <60=0
 | [free-model-manager](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/free-model-manager/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/free-model-manager` | 100 | 100 | engineering, research |
 | [github-manager](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager` | 100 | 100 | engineering, mobile, productivity, security |
 | [google-workspace](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/google-workspace/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/google-workspace` | 100 | 100 | engineering, integrations, security |
+| [humanizer](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer` | 100 | 100 | content, productivity |
 | [changelog-generator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator` | 97 | 100 | documentation, engineering, testing |
 | [code-translator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator` | 97 | 100 | engineering |
