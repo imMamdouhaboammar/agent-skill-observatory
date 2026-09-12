@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **653**
+Published skills: **654**
 Repositories: **70**
 
 ## Browse repositories
@@ -151,6 +151,7 @@ Repositories: **70**
 - [mention-radar](./skills/aaronjmars/aeon-agent/skills/mention-radar/README.md) · `aaronjmars/aeon-agent:skills/mention-radar`
 - [monitor-polymarket](./skills/aaronjmars/aeon-agent/skills/monitor-polymarket/README.md) · `aaronjmars/aeon-agent:skills/monitor-polymarket`
 - [narrative-convergence](./skills/aaronjmars/aeon-agent/skills/narrative-convergence/README.md) · `aaronjmars/aeon-agent:skills/narrative-convergence`
+- [narrative-tracker](./skills/aaronjmars/aeon-agent/skills/narrative-tracker/README.md) · `aaronjmars/aeon-agent:skills/narrative-tracker`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`
