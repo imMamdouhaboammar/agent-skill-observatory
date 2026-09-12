@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **430**
+Published skills: **431**
 Repositories: **53**
 
 ## Browse repositories
@@ -165,6 +165,7 @@ Repositories: **53**
 - [hyperframes-core](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/hyperframes-core/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/hyperframes-core`
 - [hyperframes-registry](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/hyperframes-registry/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/hyperframes-registry`
 - [lottie-bodymovin](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/lottie-bodymovin/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/lottie-bodymovin`
+- [ltx2](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/ltx2/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/ltx2`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`

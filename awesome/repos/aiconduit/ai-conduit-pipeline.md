@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 28
+Published Skills: 29
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=28, 60-84=0, <60=0
+Security distribution: 85+=29, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -37,3 +37,4 @@ Security distribution: 85+=28, 60-84=0, <60=0
 | [hyperframes-core](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/hyperframes-core/README.md) | `.agents/skills/hyperframes-core` | 100 | 100 | agent-orchestration, content, data, design, engineering, media |
 | [hyperframes-registry](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/hyperframes-registry/README.md) | `.agents/skills/hyperframes-registry` | 100 | 100 | content, data, engineering, integrations, productivity |
 | [lottie-bodymovin](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/lottie-bodymovin/README.md) | `.agents/skills/lottie-bodymovin` | 100 | 100 | data, design |
+| [ltx2](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ltx2/README.md) | `.agents/skills/ltx2` | 100 | 100 | content, data, design, devops, documents, media |
