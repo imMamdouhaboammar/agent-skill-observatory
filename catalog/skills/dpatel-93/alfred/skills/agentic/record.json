@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "1189ea99fd90dea66c391cff1613366b38eed5c0a238c4e85d7cc3940a55fc16",
+  "canonical_key": "dpatel-93/alfred:skills/agentic",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "1189ea99fd90dea66c391cff1613366b38eed5c0a238c4e85d7cc3940a55fc16",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/agentic",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0533b39444aaf29d9d844db0861c7e76a54d6c559cf0eeb738a0f55653c53a80",
+    "description": "Conversational AI-first interface with minimal controls, clear outcomes, and delegated task flows for agentic workflows.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "productivity",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/agentic/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "agentic",
+    "path": "skills/agentic",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b192ba50e9090f3bb59245b49104778800649eaba5ac10900327652050d7173a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "b192ba50e9090f3bb59245b49104778800649eaba5ac10900327652050d7173a"
+}
