@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 8
+Published Skills: 9
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,3 +17,4 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [character-animation-qa](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/character-animation-qa/README.md) | `.agents/skills/character-animation-qa` | 100 | 100 | browser-automation, design, documentation, engineering, media, testing |
 | [comfyui](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/comfyui/README.md) | `.agents/skills/comfyui` | 100 | 100 | data, design, engineering, media, productivity, research |
 | [create-video](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/create-video/README.md) | `.agents/skills/create-video` | 100 | 100 | content, design, integrations, marketing, media, productivity |
+| [d3-viz](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/d3-viz/README.md) | `.agents/skills/d3-viz` | 100 | 100 | commerce, content, data, design, engineering, integrations |
