@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 395
+Published Skills: 396
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -183,6 +183,7 @@ Published Skills: 395
 | [content-publisher](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | AI-powered content generation and multi-platform publishing - create infographics, slide decks, cover images, comics, and format content for social platforms |
 | [deep-research](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/deep-research/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Enterprise-grade deep research with multi-phase pipeline - autonomous web research, source credibility scoring, cross-referencing, synthesis, and validated reports for market analysis, competitive intel, and technical investigations |
 | [defi-overview](../skills/aaronjmars/aeon-agent/skills/defi-overview/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | One-pass crypto read - tracked-protocol positions and health plus macro context, with regime take, DeFi verdict, biggest movers, yields, fees, breadth, Fear & Greed, and prediction markets. |
+| [digest](../skills/aaronjmars/aeon-agent/skills/digest/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Generate and send a digest on a configurable topic, optionally pulling RSS/Atom feeds as an input source alongside web + X signal |
 | [find-skills](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/find-skills/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Discover and recommend skills from the registry based on task requirements - search installed skills, suggest matching skills for current task, and browse skill categories |
 | [humanizer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Remove AI writing traces - rewrite text to sound more natural and human, adjust tone, add personality, and reduce repetitive AI patterns |
 | [news-monitor](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Monitor news feeds, tech blogs, and competitive intelligence sources - track keywords, summarize articles, detect trends, and deliver digests on schedule |

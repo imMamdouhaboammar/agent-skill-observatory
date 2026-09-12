@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 234
+Published Skills: 235
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -112,6 +112,7 @@ Published Skills: 234
 | [database-query](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/database-query/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Generate, optimize, and explain SQL queries - supports SQLite, PostgreSQL, MySQL with schema introspection, migration generation, and query performance analysis |
 | [defi-overview](../skills/aaronjmars/aeon-agent/skills/defi-overview/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | One-pass crypto read - tracked-protocol positions and health plus macro context, with regime take, DeFi verdict, biggest movers, yields, fees, breadth, Fear & Greed, and prediction markets. |
 | [diff-previewer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/diff-previewer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 多文件差异预览器 - 在应用AI变更前展示丰富的diff预览，支持部分接受和变更地图 |
+| [digest](../skills/aaronjmars/aeon-agent/skills/digest/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Generate and send a digest on a configurable topic, optionally pulling RSS/Atom feeds as an input source alongside web + X signal |
 | [docker-compose-generator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/docker-compose-generator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Generate Docker Compose configurations for development environments - auto-detect project stack, configure services with dependencies, volumes, networking, and health checks |
 | [memory-insights](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Knowledge base analytics and health monitoring - file statistics, health scoring, keyword extraction, activity trends, gap detection, and comprehensive reporting |
 | [notion](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace |

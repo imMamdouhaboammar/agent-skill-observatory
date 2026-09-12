@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "53c631c05f760ce4e42c3b44438a783689a3e09f83c9524e293df2162c8bbc3e",
+  "canonical_key": "aaronjmars/aeon-agent:skills/digest",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "53c631c05f760ce4e42c3b44438a783689a3e09f83c9524e293df2162c8bbc3e",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/digest",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "aa2a7f38bf05182ef35ab2d65af64d116504d57a4a103e4bade5edf332ba47e4",
+    "description": "Generate and send a digest on a configurable topic, optionally pulling RSS/Atom feeds as an input source alongside web + X signal",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "engineering",
+        "hr-recruiting",
+        "agent-orchestration",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/digest/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "basics",
+      "mode": "write",
+      "requires": "['XAI_API_KEY?']",
+      "tags": "['content', 'news']",
+      "title": "Digest",
+      "var": ""
+    },
+    "name": "digest",
+    "path": "skills/digest",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b22d2695ef76c71fe38de862a377c61372176fd670a89115c7e2c0bfcae2b983",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "b22d2695ef76c71fe38de862a377c61372176fd670a89115c7e2c0bfcae2b983"
+}

@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 217
+Published Skills: 218
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -86,6 +86,7 @@ Published Skills: 217
 | [cortx-reliability](../skills/aaronjmars/aeon-agent/skills/cortx-reliability/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Check whether an x402 payment endpoint is reliably delivering value before spending USDC on it. Returns paid delivery rate, active incidents, latency, and a clear proceed/warn/block recommendation. |
 | [deep-research](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/deep-research/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Enterprise-grade deep research with multi-phase pipeline - autonomous web research, source credibility scoring, cross-referencing, synthesis, and validated reports for market analysis, competitive intel, and technical investigations |
 | [defi-overview](../skills/aaronjmars/aeon-agent/skills/defi-overview/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | One-pass crypto read - tracked-protocol positions and health plus macro context, with regime take, DeFi verdict, biggest movers, yields, fees, breadth, Fear & Greed, and prediction markets. |
+| [digest](../skills/aaronjmars/aeon-agent/skills/digest/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Generate and send a digest on a configurable topic, optionally pulling RSS/Atom feeds as an input source alongside web + X signal |
 | [find-skills](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/find-skills/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Discover and recommend skills from the registry based on task requirements - search installed skills, suggest matching skills for current task, and browse skill categories |
 | [free-model-manager](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/free-model-manager/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Free AI model management - discover, download, and manage free/open-source AI models from Ollama, HuggingFace, and other sources |
 | [news-monitor](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Monitor news feeds, tech blogs, and competitive intelligence sources - track keywords, summarize articles, detect trends, and deliver digests on schedule |
