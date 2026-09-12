@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **580**
+Published skills: **581**
 Repositories: **65**
 
 ## Browse repositories
@@ -418,6 +418,7 @@ Repositories: **65**
 - [self-review](./skills/chenyynx/claudio/bridge/.claude/skills/self-review/README.md) · `chenyynx/claudio:bridge/.claude/skills/self-review`
 - [shorebird-patch](./skills/chenyynx/claudio/bridge/.claude/skills/shorebird-patch/README.md) · `chenyynx/claudio:bridge/.claude/skills/shorebird-patch`
 - [test-bridge](./skills/chenyynx/claudio/bridge/.claude/skills/test-bridge/README.md) · `chenyynx/claudio:bridge/.claude/skills/test-bridge`
+- [test-flutter](./skills/chenyynx/claudio/bridge/.claude/skills/test-flutter/README.md) · `chenyynx/claudio:bridge/.claude/skills/test-flutter`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`

@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 236
+Published Skills: 237
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -176,6 +176,7 @@ Published Skills: 236
 | [svg-character-animation](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/svg-character-animation/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Animate SVG character rigs with GSAP, CSS transforms, Remotion frame control, and HyperFrames-compatible browser previews. |
 | [synthetic-screen-recording](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/synthetic-screen-recording/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Synthetic terminal-style screen recording guidance for Remotion `TerminalScene`. |
 | [tailwind-design-system](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/tailwind-design-system/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns. |
+| [test-flutter](../skills/chenyynx/claudio/bridge/.claude/skills/test-flutter/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter App のテスト実行・静的解析・フォーマット・テスト記述ガイド |
 | [threejs-geometry](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-geometry/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering. |
 | [threejs-interaction](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-interaction/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences. |
 | [threejs-postprocessing](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
