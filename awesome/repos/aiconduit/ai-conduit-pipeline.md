@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 15
-Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, productivity, research, security, testing
+Published Skills: 16
+Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=15, 60-84=0, <60=0
+Security distribution: 85+=16, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,3 +24,4 @@ Security distribution: 85+=15, 60-84=0, <60=0
 | [ffmpeg](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ffmpeg/README.md) | `.agents/skills/ffmpeg` | 100 | 100 | browser-automation, content, data, marketing, media, productivity |
 | [flux-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/flux-best-practices/README.md) | `.agents/skills/flux-best-practices` | 100 | 100 | design, engineering, integrations, marketing, media |
 | [framer-motion](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/framer-motion/README.md) | `.agents/skills/framer-motion` | 100 | 100 | design, engineering |
+| [grok-media](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/grok-media/README.md) | `.agents/skills/grok-media` | 100 | 100 | content, data, engineering, media, product, research |

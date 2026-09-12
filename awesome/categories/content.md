@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 268
+Published Skills: 269
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -205,6 +205,7 @@ Published Skills: 268
 | [frontend-design](../skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | frontend-design |
 | [frontend-design](../skills/hose1021/omp-dotfiles/agent/skills/frontend-design/README.md) | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 100 | 100 | 0 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
 | [generator-evaluator-ko](../skills/andyko18/specops-ko/skills/generator-evaluator-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 생성 에이전트와 평가 에이전트를 엄격히 분리하여 자기평가 편향을 차단한다 (OMC 흡수) |
+| [grok-media](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/grok-media/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | xAI Grok image and video generation guide covering authentication, endpoints, prompt structure, image editing, reference-image video, and async polling. |
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/iNNfo/.agents/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |

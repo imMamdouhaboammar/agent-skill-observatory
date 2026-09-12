@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 321
+Published Skills: 322
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -237,6 +237,7 @@ Published Skills: 321
 | [frontend-design](../skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | frontend-design |
 | [frontend-design](../skills/hose1021/omp-dotfiles/agent/skills/frontend-design/README.md) | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 100 | 100 | 0 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
 | [generator-evaluator-ko](../skills/andyko18/specops-ko/skills/generator-evaluator-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 생성 에이전트와 평가 에이전트를 엄격히 분리하여 자기평가 편향을 차단한다 (OMC 흡수) |
+| [grok-media](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/grok-media/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | xAI Grok image and video generation guide covering authentication, endpoints, prompt structure, image editing, reference-image video, and async polling. |
 | [hicreator](../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 100 | 100 | 0 | Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |
