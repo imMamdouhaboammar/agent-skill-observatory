@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle)
 
-Published Skills: 12
+Published Skills: 13
 Categories: ai-ml, commerce, content, data, design, devops, documentation, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,3 +21,4 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [plotpickle-architecture-review](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plotpickle-architecture-review/README.md) | `.agents/skills/plotpickle-architecture-review` | 100 | 100 | content, data, design, engineering, research, security |
 | [sage-brinewick](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sage-brinewick/README.md) | `.agents/skills/sage-brinewick` | 100 | 100 | ai-ml, content, design, devops, documentation, education |
 | [sequence-director](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sequence-director/README.md) | `.agents/skills/sequence-director` | 100 | 100 | data, design, engineering, media, productivity, research |
+| [uat-repair](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | `.agents/skills/uat-repair` | 100 | 100 | data, design, devops, engineering, product, testing |
