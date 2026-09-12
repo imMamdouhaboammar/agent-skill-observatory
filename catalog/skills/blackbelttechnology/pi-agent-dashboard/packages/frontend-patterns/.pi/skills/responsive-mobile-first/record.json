@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "9ad944ae8a413126311f00cbed262765601396a52827b2380e5e1f29bc1d2a3e",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/responsive-mobile-first",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9ad944ae8a413126311f00cbed262765601396a52827b2380e5e1f29bc1d2a3e",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/responsive-mobile-first",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "03c6e598b2684429928d6d13a986c96cebd9c342fd1c09f1c0845929ded492b8",
+    "description": "Mobile-first responsive patterns with sticky headers, floating CTAs, accessible navigation, and touch-friendly interactions. Use when implementing responsive layouts, mobile navigation, or ensuring touch-friendly UI.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "mobile",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/responsive-mobile-first/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "responsive-mobile-first",
+    "path": "packages/frontend-patterns/.pi/skills/responsive-mobile-first",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6acccd2e4891c3ff1010adae664d11019eb775836b6d431e83ad2c7ec5b17eb4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "6acccd2e4891c3ff1010adae664d11019eb775836b6d431e83ad2c7ec5b17eb4"
+}

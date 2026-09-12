@@ -1,10 +1,11 @@
 # mobile
 
-Published Skills: 13
+Published Skills: 14
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [decision-matrix](../skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Compare options with weighted scoring, pros and cons, pre-mortems, opportunity costs, and ICE prioritization. Use when a user wants to reason through a choice, expose assumptions, or rank alternatives. |
+| [responsive-mobile-first](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/responsive-mobile-first/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Mobile-first responsive patterns with sticky headers, floating CTAs, accessible navigation, and touch-friendly interactions. Use when implementing responsive layouts, mobile navigation, or ensuring touch-friendly UI. |
 | [report-upstream](../skills/alpha-omega-security/scrutineer/skills/report-upstream/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | File a finding on the upstream repository through GitHub's private vulnerability reporting, request the temporary private fork, and push the proposed patch to it when available. Use after disclose has produced a draft and (optionally) patch has produced a gated diff. This is the step that crosses the line to the maintainer; everything before it is internal. |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
 | [content-publisher](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | AI-powered content generation and multi-platform publishing - create infographics, slide decks, cover images, comics, and format content for social platforms |
