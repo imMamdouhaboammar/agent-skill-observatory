@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "e223d54b768fb2e1e2cb385d4310b9946aef6944f6dedc613ec1b3743e8a7807",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/show-me-your-work",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e223d54b768fb2e1e2cb385d4310b9946aef6944f6dedc613ec1b3743e8a7807",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/show-me-your-work",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3a628986c5450e9778a432276158b793f7c26e73861692075c66820e6b9465b5",
+    "description": "Use for long-running, unattended, or multi-phase work that a human reviews after stepping away, or when the user asks for a decision trail or audit log. Keeps one append-only TSV with a row per decision (what, why, evidence, result).",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "security",
+        "data",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/show-me-your-work/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "show-me-your-work",
+    "path": "dot_agents/skills/show-me-your-work",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6d4fc33a7d90c64d671fab02dcc2e8366b6525028f4c8388e9c5d0155b9a6a2a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "6d4fc33a7d90c64d671fab02dcc2e8366b6525028f4c8388e9c5d0155b9a6a2a"
+}

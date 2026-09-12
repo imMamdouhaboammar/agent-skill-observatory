@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 289
+Published Skills: 290
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -165,6 +165,7 @@ Published Skills: 289
 | [python-patterns](../skills/dileep-kishore/zendots/dot_agents/skills/python-patterns/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. |
 | [python-testing](../skills/dileep-kishore/zendots/dot_agents/skills/python-testing/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Python testing strategies using pytest, TDD, fixtures, mocking, parametrization, and coverage guidance. |
 | [security-review](../skills/dileep-kishore/zendots/dot_agents/skills/security-review/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns. |
+| [show-me-your-work](../skills/dileep-kishore/zendots/dot_agents/skills/show-me-your-work/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use for long-running, unattended, or multi-phase work that a human reviews after stepping away, or when the user asks for a decision trail or audit log. Keeps one append-only TSV with a row per decision (what, why, evidence, result). |
 | [ant](../skills/dpatel-93/alfred/skills/ant/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Structured, enterprise-focused design system emphasizing clarity, consistency, and efficiency for data-dense web applications. |
 | [backtesting-frameworks](../skills/dpatel-93/alfred/skills/backtesting-frameworks/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
