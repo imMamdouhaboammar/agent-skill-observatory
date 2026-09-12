@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 246
+Published Skills: 247
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -56,6 +56,7 @@ Published Skills: 246
 | [speckit-git-feature](../skills/cloudposse/atmos/.claude/skills/speckit-git-feature/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create a feature branch with sequential or timestamp numbering |
 | [speckit-plan](../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation planning workflow using the plan template to generate design artifacts. |
 | [speckit-specify](../skills/cloudposse/atmos/.claude/skills/speckit-specify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the feature specification from a natural language feature description. |
+| [speckit-tasks](../skills/cloudposse/atmos/.claude/skills/speckit-tasks/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate an actionable, dependency-ordered tasks.md for the feature based on available design artifacts. |
 | [code-simplification](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/code-simplification/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Active simplify pass for working code. Use when explicitly asked to "simplify this", "reduce complexity", "clean this up", "make this clearer", or when behavior-preserving readability/maintainability is the goal. Complements the project's passive simplicity-first rule by running a deliberate complexity-reduction loop. Not a spec, plan, or review workflow — does not change behavior. |
 | [distill-session-knowledge](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/distill-session-knowledge/.pi/skills/distill-session-knowledge/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Offline-mine this project's pi session JSONL logs into reusable, verified knowledge: extracts faults, decisions, corrections, procedures and docs, promotes only recurring patterns, and routes artifacts into skill_manage, memory and docs. Use on "mine my sessions", "distill session knowledge", "extract lessons from logs", "turn my pi history into skills/memory". |
 | [interview-me](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/interview-me/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Pre-spec intent extraction — one question at a time until ~95% confidence about what the user actually wants, BEFORE any openspec proposal exists. Use when an ask is underspecified (missing who/why/success/constraint), or on "interview me", "grill me", "stress-test my thinking". Upstream of openspec-explore; writes no specs. Interactive only — never in CI or autonomous loops. |
