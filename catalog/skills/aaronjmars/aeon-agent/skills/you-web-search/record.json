@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "0ee867e23d36fc2f56c9702e0e8865093c22c10a93cb164e0185232e36d8248e",
+  "canonical_key": "aaronjmars/aeon-agent:skills/you-web-search",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0ee867e23d36fc2f56c9702e0e8865093c22c10a93cb164e0185232e36d8248e",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/you-web-search",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "392872972d6ec00ffb12b99427a9523dd4a74f846111258056db095c51dd8021",
+    "description": "Web search using You.com Search API with high-quality, cited results and optional real-time web crawling",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "research",
+        "content",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/you-web-search/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "basics",
+      "mode": "read-only",
+      "requires": "['YDC_API_KEY']",
+      "tags": "['web', 'search', 'research']",
+      "title": "You.com Web Search",
+      "var": ""
+    },
+    "name": "you-web-search",
+    "path": "skills/you-web-search",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6906d2f9b343965fd023125e2f60ed0561b4f4c5350827bb476f80d122a2fffc",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "6906d2f9b343965fd023125e2f60ed0561b4f4c5350827bb476f80d122a2fffc"
+}
