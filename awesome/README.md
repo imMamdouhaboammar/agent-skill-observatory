@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **765**
+Published skills: **766**
 Repositories: **81**
 
 ## Browse repositories
@@ -709,6 +709,7 @@ Repositories: **81**
 - [sf-integration-rules](./skills/diamondforgefr/saasfoundryai/.agents/skills/sf-integration-rules/README.md) · `diamondforgefr/saasfoundryai:.agents/skills/sf-integration-rules`
 - [frontend](./skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) · `diegofisi/youtube-downloader:.claude/skills/frontend`
 - [add-model](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/add-model/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/add-model`
+- [learn-about-user](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/learn-about-user/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/learn-about-user`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
