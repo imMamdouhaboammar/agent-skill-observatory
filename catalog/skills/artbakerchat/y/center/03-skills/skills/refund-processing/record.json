@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "08773713b5076e18c01eb7c7f70fd4900e6f50cf6aa1f5071d7cd36afae6b906",
+  "canonical_key": "artbakerchat/y:center/03-skills/skills/refund-processing",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "08773713b5076e18c01eb7c7f70fd4900e6f50cf6aa1f5071d7cd36afae6b906",
+    "archived": false,
+    "canonical_key": "artbakerchat/y:center/03-skills/skills/refund-processing",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9795e1462686f7b166f290a80fc0976ad4371ea21333e39d547a1439ac5e6b5f",
+    "description": "Step-by-step process for handling customer refund requests, including order verification, return window checks, and refund issuance.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "commerce",
+        "data"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/artbakerchat/Y/blob/main/center/03-skills/skills/refund-processing/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:06:48.908824Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:48.908824Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "refund-processing",
+    "path": "center/03-skills/skills/refund-processing",
+    "pushed_at": "2026-09-12T17:04:36Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "artbakerchat/Y",
+    "repo_url": "https://github.com/artbakerchat/Y",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7a998550767c680b6c7b842a4613a5232d1085020b011da384e4688951ecd8f2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "7a998550767c680b6c7b842a4613a5232d1085020b011da384e4688951ecd8f2"
+}

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **681**
+Published skills: **682**
 Repositories: **73**
 
 ## Browse repositories
@@ -343,6 +343,7 @@ Repositories: **73**
 - [nonprofit-helpdesk](./skills/artbakerchat/y/app/forgeagent/skills/nonprofit-helpdesk/README.md) · `artbakerchat/y:app/forgeagent/skills/nonprofit-helpdesk`
 - [account-troubleshooting](./skills/artbakerchat/y/center/03-skills/skills/account-troubleshooting/README.md) · `artbakerchat/y:center/03-skills/skills/account-troubleshooting`
 - [order-tracking](./skills/artbakerchat/y/center/03-skills/skills/order-tracking/README.md) · `artbakerchat/y:center/03-skills/skills/order-tracking`
+- [refund-processing](./skills/artbakerchat/y/center/03-skills/skills/refund-processing/README.md) · `artbakerchat/y:center/03-skills/skills/refund-processing`
 - [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
 - [portos-file-issue](./skills/atomantic/portos/.claude/skills/portos-file-issue/README.md) · `atomantic/portos:.claude/skills/portos-file-issue`
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
