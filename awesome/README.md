@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **676**
+Published skills: **677**
 Repositories: **73**
 
 ## Browse repositories
@@ -338,6 +338,7 @@ Repositories: **73**
 - [phoenix-client-development](./skills/arize-ai/phoenix/js/packages/phoenix-client/.agents/skills/phoenix-client-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-client/.agents/skills/phoenix-client-development`
 - [phoenix-otel-development](./skills/arize-ai/phoenix/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development`
 - [civic-knowledge](./skills/artbakerchat/y/app/forgeagent/skills/civic-knowledge/README.md) · `artbakerchat/y:app/forgeagent/skills/civic-knowledge`
+- [food-bank-operations](./skills/artbakerchat/y/app/forgeagent/skills/food-bank-operations/README.md) · `artbakerchat/y:app/forgeagent/skills/food-bank-operations`
 - [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
 - [portos-file-issue](./skills/atomantic/portos/.claude/skills/portos-file-issue/README.md) · `atomantic/portos:.claude/skills/portos-file-issue`
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
