@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "9acf60afe4327705c29e60cce3cd5a98871123fed23eb6cf95fe4fa90901496c",
+  "canonical_key": "boardx/workspacex:.agents/skills/frontend-design",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9acf60afe4327705c29e60cce3cd5a98871123fed23eb6cf95fe4fa90901496c",
+    "archived": false,
+    "canonical_key": "boardx/workspacex:.agents/skills/frontend-design",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ab0457189f433042c73a83861c59f245e27e3bfc002d6f7afd16f81870082a05",
+    "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "engineering",
+        "data",
+        "finance",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/boardx/workspacex/blob/main/.agents/skills/frontend-design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:15:47.173872Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:15:47.173872Z",
+    "license": "Complete terms in LICENSE.txt",
+    "metadata": {},
+    "name": "frontend-design",
+    "path": ".agents/skills/frontend-design",
+    "pushed_at": "2026-09-12T23:09:21Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "boardx/workspacex",
+    "repo_url": "https://github.com/boardx/workspacex",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4c0a130e483916b4588bdbcc317801f8b917d86242f59793662df3d155ee5477",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "4c0a130e483916b4588bdbcc317801f8b917d86242f59793662df3d155ee5477"
+}

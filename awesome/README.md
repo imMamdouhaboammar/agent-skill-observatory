@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **781**
-Repositories: **84**
+Published skills: **782**
+Repositories: **85**
 
 ## Browse repositories
 
@@ -50,6 +50,7 @@ Repositories: **84**
 - [atomantic/PortOS](./repos/atomantic/PortOS.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [benjaminstelzer/scoville-ui-anti-ai-slop](./repos/benjaminstelzer/scoville-ui-anti-ai-slop.md)
+- [boardx/workspacex](./repos/boardx/workspacex.md)
 - [bossmiizlol/ai-workflow](./repos/bossmiizlol/ai-workflow.md)
 - [buildd-ai/buildd](./repos/buildd-ai/buildd.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
@@ -400,6 +401,7 @@ Repositories: **84**
 - [veo-showreel-production-kit](./skills/blackbelttechnology/pi-agent-dashboard/packages/video-production/.pi/skills/veo-showreel-production-kit/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/video-production/.pi/skills/veo-showreel-production-kit`
 - [speaker-id](./skills/blackbelttechnology/pi-agent-dashboard/packages/video-transcription/.pi/skills/speaker-id/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/video-transcription/.pi/skills/speaker-id`
 - [video-transcription](./skills/blackbelttechnology/pi-agent-dashboard/packages/video-transcription/.pi/skills/video-transcription/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/video-transcription/.pi/skills/video-transcription`
+- [frontend-design](./skills/boardx/workspacex/.agents/skills/frontend-design/README.md) · `boardx/workspacex:.agents/skills/frontend-design`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
