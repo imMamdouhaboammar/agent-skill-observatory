@@ -1,6 +1,6 @@
 # media
 
-Published Skills: 114
+Published Skills: 115
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -58,6 +58,7 @@ Published Skills: 114
 | [clerk-custom-ui](../skills/Gizziio/allternit-platform/.agents/skills/clerk-custom-ui/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Custom authentication flows and component appearance - hooks (useSignIn, useSignUp), themes, colors, fonts, CSS. Use for custom sign-in/sign-up flows, appearance styling, visual customization, branding. |
 | [clerk-react-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-react-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider setup, useAuth/useUser/useClerk hooks, React Router protected routes, custom sign-in flows. Triggers on: Vite Clerk setup, React Router auth, useAuth hook, protected route, custom sign-in form React. |
 | [clerk-react-router-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-react-router-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders, clerkMiddleware, protected routes, SSR user data, org switching. Triggers on: react-router auth, rootAuthLoader, getAuth loader, react-router protected route, loader authentication, SSR auth react-router, useNavigate may be used only in the context of a Router. |
+| [frontend-patterns](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/frontend-patterns/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js components, state, or render performance. |
 | [msx-play](../skills/jeong-sik/masc/skills/msx-play/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Play the shared MSX machine through image observation, sequential key input, disk changes and persistent checkpoints; learn game menus from their visible results. |
 | [observe-act-verify](../skills/jeong-sik/masc/skills/observe-act-verify/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Learn and operate an unfamiliar turn-based interface using screen observation, ordinary input, checkpoints, and verified state changes. |
 | [sangokushi-2](../skills/jeong-sik/masc/skills/sangokushi-2/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Sangokushi II (Koei 1990, Japanese, 3-disk set) on the shared MSX: media set and verified origin slot, the province command menu, in-game save flow, media-change pitfalls, and one-call macros for the two verified key sequences. Apply a fact only when the visible prompt matches it. |
