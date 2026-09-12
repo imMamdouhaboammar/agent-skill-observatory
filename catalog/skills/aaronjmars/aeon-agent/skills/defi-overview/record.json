@@ -1,0 +1,105 @@
+{
+  "analysis_fingerprint": "c0cd5a81891c8725d9350c3a194697a4c6c416c6f76bb536b23d8bfb5ce693f4",
+  "canonical_key": "aaronjmars/aeon-agent:skills/defi-overview",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c0cd5a81891c8725d9350c3a194697a4c6c416c6f76bb536b23d8bfb5ce693f4",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/defi-overview",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "01e96f1e5657a5739d04fd1a28b5405746d8a0ad0b56b4da1c2660596d1da810",
+    "description": "One-pass crypto read - tracked-protocol positions and health plus macro context, with regime take, DeFi verdict, biggest movers, yields, fees, breadth, Fear & Greed, and prediction markets.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "research",
+        "security",
+        "commerce",
+        "data",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/defi-overview/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "capabilities": "['external_api', 'sends_notifications']",
+      "category": "crypto",
+      "commits": "True",
+      "mode": "write",
+      "permissions": "['contents:write']",
+      "requires": "['COINGECKO_API_KEY?']",
+      "tags": "['crypto', 'defi', 'macro', 'positions']",
+      "title": "DeFi Overview",
+      "var": ""
+    },
+    "name": "defi-overview",
+    "path": "skills/defi-overview",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8723663bb3895b00d86e7961ab08c328622e50539066b119fd4d03220da315b1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "8723663bb3895b00d86e7961ab08c328622e50539066b119fd4d03220da315b1"
+}

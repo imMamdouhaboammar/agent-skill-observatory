@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **642**
+Published skills: **643**
 Repositories: **70**
 
 ## Browse repositories
@@ -140,6 +140,7 @@ Repositories: **70**
 - [base-mcp](./skills/aaronjmars/aeon-agent/skills/base-mcp/README.md) · `aaronjmars/aeon-agent:skills/base-mcp`
 - [bd-radar](./skills/aaronjmars/aeon-agent/skills/bd-radar/README.md) · `aaronjmars/aeon-agent:skills/bd-radar`
 - [cortx-reliability](./skills/aaronjmars/aeon-agent/skills/cortx-reliability/README.md) · `aaronjmars/aeon-agent:skills/cortx-reliability`
+- [defi-overview](./skills/aaronjmars/aeon-agent/skills/defi-overview/README.md) · `aaronjmars/aeon-agent:skills/defi-overview`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`
