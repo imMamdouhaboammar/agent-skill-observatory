@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 174
+Published Skills: 175
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -71,6 +71,7 @@ Published Skills: 174
 | [status](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/status/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Quick canon + pipeline health check. Use when asked "how's it going?", "status?", "how's the db?", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging. |
 | [ui-context](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/ui-context/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Load context for UI, frontend, navigation, and analytics work. Use when starting any visual, interaction, or engagement task. |
 | [agent-browser](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Advanced browser automation for AI agents with snapshot-ref interaction pattern - navigate, snapshot interactive elements with refs, click/fill/select by refs, manage sessions, and extract structured data |
+| [api-gateway](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Universal API gateway - connect to 100+ APIs with a unified interface, manage API keys, and chain API calls |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [deploy-website](../skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Deploy the markmhendrickson website: sync markdown edits to Neotoma, export website data, regenerate cache, update the CI export secret, push the website repo, and verify GitHub Actions. |

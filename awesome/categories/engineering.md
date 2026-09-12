@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 354
+Published Skills: 355
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -135,6 +135,7 @@ Published Skills: 354
 | [status](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/status/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Quick canon + pipeline health check. Use when asked "how's it going?", "status?", "how's the db?", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging. |
 | [ui-context](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/ui-context/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Load context for UI, frontend, navigation, and analytics work. Use when starting any visual, interaction, or engagement task. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
+| [api-gateway](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Universal API gateway - connect to 100+ APIs with a unified interface, manage API keys, and chain API calls |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [oculpm-codex](../skills/bunhine0452/Ocul-PM/plugin/oculpm-codex/skills/oculpm-codex/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use ocul-pm journals and planners from Codex without relying on Claude-only plugin variables. |
 | [oculpm-journal](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/oculpm-journal/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | ocul-pm recording spec (journal format, planner glyphs/log, discussion docs) for projects with .oculpm/. Use when finishing a unit of work and the oculpm MCP tools are unavailable — prefer journal_write/plan_update when visible. |
