@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 518
+Published Skills: 519
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -460,6 +460,7 @@ Published Skills: 518
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [design-md](../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Author/validate/export Google's DESIGN.md token spec files. |
 | [findmy](../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Track Apple devices/AirTags via FindMy.app on macOS. |
+| [gif-search](../skills/ComponentDock/free-react-templates/skills/media/gif-search/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Search/download GIFs from Tenor via curl + jq. |
 | [github-bulk-repo-ops](../skills/ComponentDock/free-react-templates/skills/github/github-bulk-repo-ops/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub ops: parallel API, deletion, scopes, cleanup. |
 | [github-org-administration](../skills/ComponentDock/free-react-templates/skills/github/github-org-administration/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub org admin: classify and delete repos at scale. |
 | [github-org-automation](../skills/ComponentDock/free-react-templates/skills/github/github-org-automation/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Headless GitHub org automation: auth, scopes, bulk repo ops. |

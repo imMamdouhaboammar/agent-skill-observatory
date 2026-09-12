@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 26
+Published Skills: 27
 Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=26, 60-84=0, <60=0
+Security distribution: 85+=27, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,6 +24,7 @@ Security distribution: 85+=26, 60-84=0, <60=0
 | [codex](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | `skills/autonomous-ai-agents/codex` | 97 | 100 | commerce, content, data, engineering, integrations, productivity |
 | [design-md](../../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | `skills/creative/design-md` | 97 | 100 | commerce, content, design, engineering, localization, marketing |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
+| [gif-search](../../skills/ComponentDock/free-react-templates/skills/media/gif-search/README.md) | `skills/media/gif-search` | 97 | 100 | content, design, devops, engineering, media |
 | [github-bulk-repo-ops](../../skills/ComponentDock/free-react-templates/skills/github/github-bulk-repo-ops/README.md) | `skills/github/github-bulk-repo-ops` | 97 | 100 | commerce, documentation, engineering, productivity |
 | [github-org-administration](../../skills/ComponentDock/free-react-templates/skills/github/github-org-administration/README.md) | `skills/github/github-org-administration` | 97 | 100 | content, documentation, engineering, productivity, research |
 | [github-org-automation](../../skills/ComponentDock/free-react-templates/skills/github/github-org-automation/README.md) | `skills/github/github-org-automation` | 97 | 100 | browser-automation, commerce, content, engineering, productivity, security |

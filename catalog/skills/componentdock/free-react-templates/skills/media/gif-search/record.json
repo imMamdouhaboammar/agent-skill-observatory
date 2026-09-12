@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "ebfab72a06f5ebbb71a8243abdb8231e0166e6614cf1945a07d28637fc48364f",
+  "canonical_key": "componentdock/free-react-templates:skills/media/gif-search",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ebfab72a06f5ebbb71a8243abdb8231e0166e6614cf1945a07d28637fc48364f",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/media/gif-search",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3d2a91acf13dae8ab520176ebec67fee252231b1ed415e149d2a767571cb7de8",
+    "description": "Search/download GIFs from Tenor via curl + jq.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "content",
+        "design",
+        "devops",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/media/gif-search/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['GIF', 'Media', 'Search', 'Tenor', 'API']}"
+    },
+    "name": "gif-search",
+    "path": "skills/media/gif-search",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "68b6323fb949eebd13235e87ec963dfa5bae71d1cef467c6bfbb62fa91d89465",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "68b6323fb949eebd13235e87ec963dfa5bae71d1cef467c6bfbb62fa91d89465"
+}
