@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 6
-Categories: commerce, content, data, design, devops, documentation, engineering, integrations, marketing, productivity, research
+Published Skills: 7
+Categories: commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, productivity, research
 Best overall score: 100
-Security distribution: 85+=6, 60-84=0, <60=0
+Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,3 +15,4 @@ Security distribution: 85+=6, 60-84=0, <60=0
 | [openspec-propose](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-propose/README.md) | `.opencode/skills/openspec-propose` | 100 | 100 | commerce, content, design, productivity |
 | [openspec-sync-specs](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-sync-specs/README.md) | `.opencode/skills/openspec-sync-specs` | 100 | 100 | content, engineering, marketing, productivity, research |
 | [openspec-update-change](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-update-change/README.md) | `.opencode/skills/openspec-update-change` | 100 | 100 | commerce, content, design, engineering, productivity |
+| [apple-notes](../../skills/ComponentDock/free-react-templates/skills/apple/apple-notes/README.md) | `skills/apple/apple-notes` | 97 | 100 | legal-compliance, productivity |
