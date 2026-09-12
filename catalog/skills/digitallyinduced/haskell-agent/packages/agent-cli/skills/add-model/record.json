@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "d2ef2d643a1fead36c71a62057c83882bc2191c998f6a36dc4b5bcfd4c64c61c",
+  "canonical_key": "digitallyinduced/haskell-agent:packages/agent-cli/skills/add-model",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d2ef2d643a1fead36c71a62057c83882bc2191c998f6a36dc4b5bcfd4c64c61c",
+    "archived": false,
+    "canonical_key": "digitallyinduced/haskell-agent:packages/agent-cli/skills/add-model",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "24b83c99de92a12a410710e08b4d6dcf66235c73ddeb2a8f1d7d249a623041df",
+    "description": "Configure a local or hosted model, add an OpenRouter model, or register a newly released OpenAI or xAI model.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "commerce",
+        "documentation",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/digitallyinduced/haskell-agent/blob/master/packages/agent-cli/skills/add-model/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T11:10:08.068617Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:10:08.068617Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "add-model",
+    "path": "packages/agent-cli/skills/add-model",
+    "pushed_at": "2026-09-12T11:03:32Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "digitallyinduced/haskell-agent",
+    "repo_url": "https://github.com/digitallyinduced/haskell-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 46,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f420ba81eac4373e51bd98c47151766bbcfcf62f59ec12142f2e26527ce5b466",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 29
+  },
+  "source_fingerprint": "f420ba81eac4373e51bd98c47151766bbcfcf62f59ec12142f2e26527ce5b466"
+}

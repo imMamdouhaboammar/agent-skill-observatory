@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **764**
-Repositories: **80**
+Published skills: **765**
+Repositories: **81**
 
 ## Browse repositories
 
@@ -67,6 +67,7 @@ Repositories: **80**
 - [cosyeezz/axiom](./repos/cosyeezz/axiom.md)
 - [danmo-ai/danmo-work](./repos/danmo-ai/danmo-work.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
+- [digitallyinduced/haskell-agent](./repos/digitallyinduced/haskell-agent.md)
 - [eaglhuang/AI-Atomic-Framework](./repos/eaglhuang/AI-Atomic-Framework.md)
 - [emirhankudun-ux/SEIS](./repos/emirhankudun-ux/SEIS.md)
 - [flext-sh/flext-dbt-ldap](./repos/flext-sh/flext-dbt-ldap.md)
@@ -707,6 +708,7 @@ Repositories: **80**
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
 - [sf-integration-rules](./skills/diamondforgefr/saasfoundryai/.agents/skills/sf-integration-rules/README.md) · `diamondforgefr/saasfoundryai:.agents/skills/sf-integration-rules`
 - [frontend](./skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) · `diegofisi/youtube-downloader:.claude/skills/frontend`
+- [add-model](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/add-model/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/add-model`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
