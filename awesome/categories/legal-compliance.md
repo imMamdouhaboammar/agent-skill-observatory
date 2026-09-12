@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 28
+Published Skills: 29
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -11,6 +11,7 @@ Published Skills: 28
 | [ai-claim-checker](../skills/iflytek/skillhub/builtin-skills/skills/ai-claim-checker/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Evaluate factual claims in AI-generated text and teach a lightweight verification habit. Use when a learner wants to fact-check an AI answer, identify uncertainty, choose appropriate independent sources, or practise critical AI literacy. |
 | [decision-matrix](../skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Compare options with weighted scoring, pros and cons, pre-mortems, opportunity costs, and ICE prioritization. Use when a user wants to reason through a choice, expose assumptions, or rank alternatives. |
 | [plugin-scanner](../skills/iflytek/skillhub/builtin-skills/skills/plugin-scanner/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Scan AI agent skills, plugins, MCP servers, and agent tooling for prompt injection, unsafe commands, secret exposure, and supply-chain risks before installing or trusting them. |
+| [accessibility-a11y](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/accessibility-a11y/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Semantic HTML, keyboard navigation, focus states, ARIA labels, skip links, and WCAG contrast requirements. Use when ensuring accessibility compliance, implementing keyboard navigation, or adding screen reader support. |
 | [code-quality](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Drive static-analysis code quality in pi-agent-dashboard with Biome (analyze → fix → test), in changed-files or whole-repo mode. Use when asked to "improve code quality", "lint and fix", "clean up warnings", "fix Biome issues", "run static analysis", or when setting a code-quality goal. Skip for one-line edits. |
 | [audit-pii](../skills/alpha-omega-security/scrutineer/skills/audit-pii/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Focused static audit for real personal or customer-identifying data committed to source or exposed through logs, URLs, telemetry, exports, and responses. |
 | [exposure](../skills/alpha-omega-security/scrutineer/skills/exposure/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | For one (finding, dependent) pair, decide whether the dependent's code reaches the upstream finding. Emits a CSAF 2.0 product_status verdict with VEX justification. |

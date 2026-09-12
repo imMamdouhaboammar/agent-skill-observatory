@@ -2,13 +2,14 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 22
+Published Skills: 23
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=22, 60-84=0, <60=0
+Security distribution: 85+=23, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
+| [accessibility-a11y](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/accessibility-a11y/README.md) | `packages/frontend-patterns/.pi/skills/accessibility-a11y` | 100 | 100 | browser-automation, content, design, legal-compliance, media, testing |
 | [anti-slop-frontend](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/anti-slop/.pi/skills/anti-slop-frontend/README.md) | `packages/anti-slop/.pi/skills/anti-slop-frontend` | 100 | 100 | content, data, design, engineering, marketing, research |
 | [apple-tools](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/apple-tools/.pi/skills/apple-tools/README.md) | `packages/apple-tools/.pi/skills/apple-tools` | 100 | 100 | data, engineering, integrations, security |
 | [autofix](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | `packages/code-review-toolkit/.pi/skills/autofix` | 100 | 100 | browser-automation, content, data, devops, engineering, security |
