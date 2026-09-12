@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **744**
+Published skills: **745**
 Repositories: **78**
 
 ## Browse repositories
@@ -670,6 +670,7 @@ Repositories: **78**
 - [eval-harness](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/eval-harness/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/eval-harness`
 - [frontend-patterns](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/frontend-patterns/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/frontend-patterns`
 - [security-review](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/security-review/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/security-review`
+- [strategic-compact](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/strategic-compact/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/strategic-compact`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`
