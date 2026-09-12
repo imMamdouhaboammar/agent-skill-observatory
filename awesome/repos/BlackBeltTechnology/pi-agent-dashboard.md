@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 8
+Published Skills: 9
 Categories: agent-orchestration, browser-automation, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -16,4 +16,5 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [plan-proposal](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) | `.pi/skills/plan-proposal` | 100 | 100 | agent-orchestration, content, design, engineering, productivity, testing |
 | [release-revoke](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) | `.pi/skills/release-revoke` | 100 | 100 | devops, engineering |
 | [run-dashboard-e2e-local-changes](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/run-dashboard-e2e-local-changes/README.md) | `.pi/skills/run-dashboard-e2e-local-changes` | 100 | 100 | browser-automation, design, devops, engineering, media, testing |
+| [skill-to-subagent](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/authoring-toolkit/.pi/skills/skill-to-subagent/README.md) | `packages/authoring-toolkit/.pi/skills/skill-to-subagent` | 100 | 100 | agent-orchestration, content, design, marketing, research, security |
 | [theme-system](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/theme-system/README.md) | `.pi/skills/theme-system` | 100 | 100 | data, design, integrations |
