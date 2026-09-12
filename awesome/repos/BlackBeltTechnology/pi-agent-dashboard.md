@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 31
+Published Skills: 32
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=31, 60-84=0, <60=0
+Security distribution: 85+=32, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -23,6 +23,7 @@ Security distribution: 85+=31, 60-84=0, <60=0
 | [doctor](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/extension/.pi/skills/doctor/README.md) | `packages/extension/.pi/skills/doctor` | 100 | 100 | commerce, devops, documentation, integrations, research |
 | [document-converter](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/document-converter/.pi/skills/document-converter/README.md) | `packages/document-converter/.pi/skills/document-converter` | 100 | 100 | content, devops, documentation, documents, engineering, media |
 | [faq-mine](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/authoring-toolkit/.pi/skills/faq-mine/README.md) | `packages/authoring-toolkit/.pi/skills/faq-mine` | 100 | 100 | agent-orchestration, content, documentation, engineering, hr-recruiting, research |
+| [fix-worktree-opsx-skills-not-created](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/openspec-workflow/.pi/skills/fix-worktree-opsx-skills-not-created/README.md) | `packages/openspec-workflow/.pi/skills/fix-worktree-opsx-skills-not-created` | 100 | 100 | engineering, security, testing |
 | [interview-me](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/interview-me/README.md) | `packages/eng-disciplines/.pi/skills/interview-me` | 100 | 100 | content, documentation, engineering, productivity, research, testing |
 | [kb-search](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/kb/skill/kb-search/README.md) | `packages/kb/skill/kb-search` | 100 | 100 | content, documentation, research |
 | [kb-setup](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/kb/skill/kb-setup/README.md) | `packages/kb/skill/kb-setup` | 100 | 100 | content, documentation, engineering, research |
