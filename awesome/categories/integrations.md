@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 123
+Published Skills: 124
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -105,6 +105,7 @@ Published Skills: 123
 | [hicreator](../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 100 | 100 | 0 | Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows. |
 | [hyperframes-registry](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/hyperframes-registry/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, registry discovery, and authoring a new block or component to contribute upstream (idea → scaffold → validate → PR). |
 | [mobile-automation](../skills/chenyynx/claudio/bridge/.claude/skills/mobile-automation/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | MCP (dart-mcp + Marionette) を使ったFlutterアプリのE2E自動化・UI検証ガイド。シミュレーターでのUI動作確認、モックプレビュー検証、Bridge経由のE2Eテスト、スクリーンショット撮影など、アプリの動作検証が必要なときに使う。「動作確認して」「UIを検証して」「E2Eテスト」「シミュレーターで確認」「モックで確認」と言われたときや、UI変更後の検証フェーズで使用すること。 |
+| [neuron-receive](../skills/Deploy-Forward/convoy/skills/neuron-receive/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | How a neuron on ANY harness (grok, claude, codex, cursor-agent, agy, hermes, pi) receives messages from the thread and proves receipt. Use on first turn, at every turn start, and whenever you have been idle. |
 | [openspec-apply-change](../skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks. |
 | [openspec-apply-change](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-apply-change/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks. |
 | [openspec-explore](../skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |

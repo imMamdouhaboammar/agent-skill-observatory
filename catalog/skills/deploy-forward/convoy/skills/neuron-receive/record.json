@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "cab42a19197c6ba6bf3cf9fb5f8b1535f79a676217737748231757ff26ff6192",
+  "canonical_key": "deploy-forward/convoy:skills/neuron-receive",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "cab42a19197c6ba6bf3cf9fb5f8b1535f79a676217737748231757ff26ff6192",
+    "archived": false,
+    "canonical_key": "deploy-forward/convoy:skills/neuron-receive",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9cb4ec79d79084d1e26afd3475bcc9ee6cc907043e483b4cd7d9f269a4033fb2",
+    "description": "How a neuron on ANY harness (grok, claude, codex, cursor-agent, agy, hermes, pi) receives messages from the thread and proves receipt. Use on first turn, at every turn start, and whenever you have been idle.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "devops",
+        "documentation",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Deploy-Forward/convoy/blob/main/skills/neuron-receive/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T21:43:04.583983Z",
+    "last_successful_repo_scan_at": "2026-09-12T21:43:04.583983Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "neuron-receive",
+    "path": "skills/neuron-receive",
+    "pushed_at": "2026-09-12T21:29:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Deploy-Forward/convoy",
+    "repo_url": "https://github.com/Deploy-Forward/convoy",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7663697d7305049258ccd58883f7b93047965d5531da6db681adb2e28c7264d0",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "7663697d7305049258ccd58883f7b93047965d5531da6db681adb2e28c7264d0"
+}
