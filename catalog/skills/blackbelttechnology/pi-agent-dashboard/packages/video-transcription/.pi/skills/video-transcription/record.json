@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "c10c9f0b58d1107a06895702ec3344df50cbd7b2e7b1ef37ae5af260368cad98",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/video-transcription/.pi/skills/video-transcription",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c10c9f0b58d1107a06895702ec3344df50cbd7b2e7b1ef37ae5af260368cad98",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/video-transcription/.pi/skills/video-transcription",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4e73ab5921e3d59565ec72637205a0e6a8c2c2e1f289a4df85f0066bab8f5b57",
+    "description": "Transcribe video and audio files to SRT subtitles with speaker diarization using the Soniox (default) or AssemblyAI API. Use when the user wants to transcribe meetings, videos, or audio files. Supports MKV, MP4, MOV, M4A, MP3. Triggers on \"/transcribe\", \"transcribe my meetings\", \"transcribe videos in ~/Movies\", or any request to convert audio/video to text.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "media",
+        "engineering",
+        "commerce",
+        "data",
+        "research",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/video-transcription/.pi/skills/video-transcription/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "video-transcription",
+    "path": "packages/video-transcription/.pi/skills/video-transcription",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b73547864c52534a3fb2ca7f2f2c536785ed96397940d4e7df596c552ff05a15",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "b73547864c52534a3fb2ca7f2f2c536785ed96397940d4e7df596c552ff05a15"
+}

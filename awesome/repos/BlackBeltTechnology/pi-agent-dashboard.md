@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 37
+Published Skills: 38
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=37, 60-84=0, <60=0
+Security distribution: 85+=38, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -45,4 +45,5 @@ Security distribution: 85+=37, 60-84=0, <60=0
 | [typescript-strict](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/typescript-strict/README.md) | `packages/frontend-patterns/.pi/skills/typescript-strict` | 100 | 100 | data, integrations |
 | [veo-generator](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/video-production/.pi/skills/veo-generator/README.md) | `packages/video-production/.pi/skills/veo-generator` | 100 | 100 | commerce, content, design, engineering, media, productivity |
 | [veo-showreel-production-kit](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/video-production/.pi/skills/veo-showreel-production-kit/README.md) | `packages/video-production/.pi/skills/veo-showreel-production-kit` | 100 | 100 | commerce, content, data, documentation, legal-compliance, media |
+| [video-transcription](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/video-transcription/.pi/skills/video-transcription/README.md) | `packages/video-transcription/.pi/skills/video-transcription` | 100 | 100 | commerce, data, engineering, media, research, security |
 | [zod-react-hook-form](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/zod-react-hook-form/README.md) | `packages/frontend-patterns/.pi/skills/zod-react-hook-form` | 100 | 100 | data, design, engineering, integrations, localization, media |
