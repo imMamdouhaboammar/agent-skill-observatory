@@ -1,6 +1,6 @@
 # agent-orchestration
 
-Published Skills: 35
+Published Skills: 36
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -39,3 +39,4 @@ Published Skills: 35
 | [subagent-ops](../skills/gkd2323c/runed-lexicon/.agents/skills/subagent-ops/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | 子代理协作操作手册（subagent orchestration）。覆盖委派决策、任务卡编译（信息三分法）、体量上限、并行协作纪律（单写者、幂等保护、送达纪律、实例生命周期）、产出验收三查、故障归因与恢复。Use when 派子代理做独立或并行任务、多路批量翻译/审计/扫描、编排多代理协作、验收子代理产出、处理子代理崩溃无产出、控制派单体量，或判断某任务该不该交给子代理。Triggers: subagent, subagents, delegation, dispatch, parallel agents, multi-agent, orchestration, handoff, 子代理, 派单, 派发, 并行, 委派, 验收, 编排. |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
 | [junior-to-senior](../skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Adversarial senior-engineer review for agent-generated plans, designs, and architectures. Treats the current output as junior work, constructs a senior reviewer whose domain expertise comes from live codebase research plus web research of current best practices, diagnoses altitude failures (too vague or too granular), then rewrites the plan into a scoped, state-of-the-art version. Use when the user says "junior to senior", "senior review", "review this like a staff engineer", or explicitly requests an adversarial review of a plan. Do not invoke automatically for ordinary planning or implementation. |
+| [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |
