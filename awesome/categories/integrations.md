@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 86
+Published Skills: 87
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -25,6 +25,7 @@ Published Skills: 86
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [speckit-git-remote](../skills/cloudposse/atmos/.claude/skills/speckit-git-remote/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Detect Git remote URL for GitHub integration |
 | [speckit-plan](../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation planning workflow using the plan template to generate design artifacts. |
+| [speckit-taskstoissues](../skills/cloudposse/atmos/.claude/skills/speckit-taskstoissues/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Convert existing tasks into actionable, dependency-ordered GitHub issues for the feature based on available design artifacts. |
 | [apple-tools](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/apple-tools/.pi/skills/apple-tools/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Reach Apple PIM data (Calendar, Contacts, Reminders, Messages, Location, Maps, Weather) from a pi session via iMCP + pi-mcp-adapter on macOS. Use when the user asks to read/search their Apple Calendar, Contacts, Reminders, iMessages, current Location, Maps, or Weather. Does NOT cover Apple Mail — iMCP exposes no Mail service; use apple-mail-fast-export for email. |
 | [code-quality](../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Drive static-analysis code quality in pi-agent-dashboard with Biome (analyze → fix → test), in changed-files or whole-repo mode. Use when asked to "improve code quality", "lint and fix", "clean up warnings", "fix Biome issues", "run static analysis", or when setting a code-quality goal. Skip for one-line edits. |
 | [doctor](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/extension/.pi/skills/doctor/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Diagnose why pi-flows, the Anthropic-messages bridge, model resolution, a pi install, a peer, a plugin/bridge, or a build/reload is broken in the pi-agent-dashboard. Derives every fact live (works with the server down). Use on "flow won't show", "bridge waiting_peers", "pi version mismatch", "which pi is this using", "diagnose the dashboard", "doctor". |
