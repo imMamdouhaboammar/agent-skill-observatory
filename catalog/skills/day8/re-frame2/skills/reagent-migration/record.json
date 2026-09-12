@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "205192f6114673e762e00b7f140311967074aa71223caae9467dcd2a7238a3e2",
+  "canonical_key": "day8/re-frame2:skills/reagent-migration",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "205192f6114673e762e00b7f140311967074aa71223caae9467dcd2a7238a3e2",
+    "archived": false,
+    "canonical_key": "day8/re-frame2:skills/reagent-migration",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fe257a9b8c8554510ab28411f738b5190bc98771461b4bec26e1d63c812d887f",
+    "description": "Rewrites Reagent VIEW code into **Fresco** (`re-frame.fresco`, alias `h`) — re-frame2's re-frame-native view layer: a view becomes an `h/defview` mounted in brackets, `@(subscribe …)` becomes `(h/sub …)`, handlers become event vectors, Form-2/Form-3 state moves out of the component. **First establish whether the user needs Fresco**: re-frame2's Reagent adapter is first-class and supported, so a v1 app keeps its view code and needs NO rewrite to land on re-frame2 — that is `re-frame-migration`, and it finishes the job. This is an OPTIONAL second step, and Fresco is pre-publication with no released Maven coordinate. **Do not use** for: the v1→v2 events/subs/db migration (`re-frame-migration`), writing new re-frame2 code (`re-frame2`), greenfield setup (`re-frame2-setup`), or live-runtime inspection (`re-frame2-pair`). Trigger on \"migrate my Reagent views to Fresco\", \"port this component to h/defview\", or a Reagent view surface (`r/atom`, `@(subscribe …)` in a view) named in a Fresco context.\n",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "commerce",
+        "design",
+        "documentation",
+        "ai-ml"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/day8/re-frame2/blob/main/skills/reagent-migration/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 11
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:16:55.549533Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:16:55.549533Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "reagent-migration",
+    "path": "skills/reagent-migration",
+    "pushed_at": "2026-09-12T23:09:15Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "day8/re-frame2",
+    "repo_url": "https://github.com/day8/re-frame2",
+    "resources": {
+      "assets": 0,
+      "other": 3,
+      "references": 7,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 47,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f8f8852effe1f45f2b680003b26511ab43dcd6ced0625484d7be11712e1f21ce",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 48
+  },
+  "source_fingerprint": "f8f8852effe1f45f2b680003b26511ab43dcd6ced0625484d7be11712e1f21ce"
+}
