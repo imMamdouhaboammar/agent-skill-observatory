@@ -1,6 +1,6 @@
 # media
 
-Published Skills: 90
+Published Skills: 91
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -37,6 +37,7 @@ Published Skills: 90
 | [find-skills](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/find-skills/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Discover and recommend skills from the registry based on task requirements - search installed skills, suggest matching skills for current task, and browse skill categories |
 | [remotion-video](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Create programmatic videos with React using Remotion - generate animations, compositions, text effects, transitions, captions, and render MP4 videos from code |
 | [screenshot-to-code](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 截图转代码 - 将UI截图/设计稿转换为Vue/React/HTML组件代码 |
+| [skill-creator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/skill-creator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Propose, test, validate, and improve Skill candidates without changing active files - generate reviewable SKILL.md and handler.js drafts, run test evaluations, and optimize descriptions for better triggering |
 | [draft-comparative-neotoma-post](../skills/markmhendrickson/ateles/.claude/skills/draft-comparative-neotoma-post/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Draft a comparative Neotoma post (memory & truth-layer series) that compares a product or API's memory to a truth layer. Use when user says "draft comparative neotoma post", "memory series post", "truth layer comparison post", or similar. Can be invoked via /draft-comparative-neotoma-post. |
 | [file-server](../skills/chnlich/charlie-bot/skills/file-server/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Must invoke when presenting a file to the user. The CharlieBot server has a built-in file browser that serves any file on the host filesystem. |
 | [clerk-billing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-billing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Clerk Billing for subscription management - render Clerk's PricingTable and in-app checkout drawer, configure subscription plans, seat-limit plans for B2B, feature entitlements with has(), and billing webhooks. Use for SaaS monetization, plan gating, checkout flows, trials, invoicing, and subscription lifecycle management. |

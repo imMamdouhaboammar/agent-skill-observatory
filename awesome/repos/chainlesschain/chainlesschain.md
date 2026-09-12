@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain)
 
-Published Skills: 29
-Categories: ai-ml, browser-automation, business, commerce, content, data, design, devops, documentation, documents, education, engineering, integrations, media, mobile, product, productivity, research, security, testing
+Published Skills: 30
+Categories: ai-ml, browser-automation, business, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=29, 60-84=0, <60=0
+Security distribution: 85+=30, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -34,6 +34,7 @@ Security distribution: 85+=29, 60-84=0, <60=0
 | [remotion-video](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video` | 100 | 100 | content, data, engineering, media |
 | [screenshot-to-code](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code` | 100 | 100 | content, design, engineering, media |
 | [self-improving-agent](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/self-improving-agent/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/self-improving-agent` | 100 | 100 | education |
+| [skill-creator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/skill-creator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/skill-creator` | 100 | 100 | ai-ml, content, hr-recruiting, media, productivity, testing |
 | [changelog-generator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator` | 97 | 100 | documentation, engineering, testing |
 | [code-translator](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator` | 97 | 100 | engineering |
 | [multi-model-router](../../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router/README.md) | `desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router` | 97 | 100 | engineering |
