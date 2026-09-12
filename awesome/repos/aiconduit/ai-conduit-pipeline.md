@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 41
+Published Skills: 42
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=41, 60-84=0, <60=0
+Security distribution: 85+=42, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -50,3 +50,4 @@ Security distribution: 85+=41, 60-84=0, <60=0
 | [speech-to-text](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/speech-to-text/README.md) | `.agents/skills/speech-to-text` | 100 | 100 | content, data, documentation, engineering, media, product |
 | [svg-character-animation](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/svg-character-animation/README.md) | `.agents/skills/svg-character-animation` | 100 | 100 | browser-automation, design, documentation, media |
 | [synthetic-screen-recording](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/synthetic-screen-recording/README.md) | `.agents/skills/synthetic-screen-recording` | 100 | 100 | ai-ml, browser-automation, content, design, engineering, media |
+| [tailwind-design-system](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/tailwind-design-system/README.md) | `.agents/skills/tailwind-design-system` | 100 | 100 | content, data, design, documentation, engineering, localization |

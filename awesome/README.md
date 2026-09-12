@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **443**
+Published skills: **444**
 Repositories: **53**
 
 ## Browse repositories
@@ -178,6 +178,7 @@ Repositories: **53**
 - [speech-to-text](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/speech-to-text/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/speech-to-text`
 - [svg-character-animation](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/svg-character-animation/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/svg-character-animation`
 - [synthetic-screen-recording](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/synthetic-screen-recording/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/synthetic-screen-recording`
+- [tailwind-design-system](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/tailwind-design-system/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/tailwind-design-system`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
