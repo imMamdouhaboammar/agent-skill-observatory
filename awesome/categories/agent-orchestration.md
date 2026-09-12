@@ -1,6 +1,6 @@
 # agent-orchestration
 
-Published Skills: 37
+Published Skills: 38
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -41,3 +41,4 @@ Published Skills: 37
 | [junior-to-senior](../skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Adversarial senior-engineer review for agent-generated plans, designs, and architectures. Treats the current output as junior work, constructs a senior reviewer whose domain expertise comes from live codebase research plus web research of current best practices, diagnoses altitude failures (too vague or too granular), then rewrites the plan into a scoped, state-of-the-art version. Use when the user says "junior to senior", "senior review", "review this like a staff engineer", or explicitly requests an adversarial review of a plan. Do not invoke automatically for ordinary planning or implementation. |
 | [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |
 | [plan](../skills/ComponentDock/free-react-templates/skills/software-development/plan/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Write a markdown plan to .hermes/plans/; no execution. |
+| [simplify-code](../skills/ComponentDock/free-react-templates/skills/software-development/simplify-code/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Parallel 4-agent cleanup of recent code changes. |

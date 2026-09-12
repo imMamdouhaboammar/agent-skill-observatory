@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 181
+Published Skills: 182
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -182,6 +182,7 @@ Published Skills: 181
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
 | [merge](../skills/chenyynx/claudio/bridge/.claude/skills/merge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 97 | 100 | 0 | ブランチをメインにマージしてお掃除する |
 | [react-vite-quality-tooling](../skills/ComponentDock/free-react-templates/skills/software-development/react-vite-quality-tooling/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | React/Vite quality tooling: Vitest, Tailwind v4, husky. |
+| [simplify-code](../skills/ComponentDock/free-react-templates/skills/software-development/simplify-code/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Parallel 4-agent cleanup of recent code changes. |
 | [angular-developer](../skills/angular/skills/angular-developer/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling. |
 | [source-grounded-research-announcement](../skills/ChronoAIProject/nyx-skills/source-grounded-research-announcement/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Method for drafting and reviewing source-anchored research or technical announcements, especially X threads or short posts. Use when public copy must distinguish claimed from not claimed, attach every technical claim to an artifact anchor, avoid overclaiming, remove generic AI phrasing, and require dry-run plus human approval before live publishing. |
 | [your-product](../skills/Agentic-AI-UIUC/54-workshop/.cursor/skills/your-product/README.md) | [Agentic-AI-UIUC/54-workshop](https://github.com/Agentic-AI-UIUC/54-workshop) | 96 | 100 | 0 | How to use and demo our product. Use when asked to run, demo, extend, or explain the product. |

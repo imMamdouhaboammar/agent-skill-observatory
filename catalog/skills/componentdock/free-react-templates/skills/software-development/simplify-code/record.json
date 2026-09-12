@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "a2047359b81a83397e87a85c720601103f35be353a190ce848668cb2a627bbb5",
+  "canonical_key": "componentdock/free-react-templates:skills/software-development/simplify-code",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a2047359b81a83397e87a85c720601103f35be353a190ce848668cb2a627bbb5",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/software-development/simplify-code",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "864380b8557f2b6d0bfb89d004135e44a6b8a3064709b80f7a8b81f6f39129a2",
+    "description": "Parallel 4-agent cleanup of recent code changes.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "agent-orchestration",
+        "research",
+        "commerce",
+        "content",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/software-development/simplify-code/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['code-review', 'cleanup', 'refactor', 'delegation', 'subagent', 'parallel', 'simplify'], 'related_skills': ['requesting-code-review', 'test-driven-development', 'plan']}"
+    },
+    "name": "simplify-code",
+    "path": "skills/software-development/simplify-code",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0f70d155207bf0c248140d1100bd876c86d444ec8a7d57aab32070a69d2b6d53",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "0f70d155207bf0c248140d1100bd876c86d444ec8a7d57aab32070a69d2b6d53"
+}
