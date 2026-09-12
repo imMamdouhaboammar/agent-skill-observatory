@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **728**
-Repositories: **77**
+Published skills: **729**
+Repositories: **78**
 
 ## Browse repositories
 
@@ -22,6 +22,7 @@ Repositories: **77**
 - [CultureBotAI/NaturalProductMech](./repos/CultureBotAI/NaturalProductMech.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
 - [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
+- [DahanItamar/uilint](./repos/DahanItamar/uilint.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
 - [DanFashauer/SignalGrid-Review-Hub](./repos/DanFashauer/SignalGrid-Review-Hub.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
@@ -646,6 +647,7 @@ Repositories: **77**
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
 - [fetch-source](./skills/culturebotai/traitmech/.claude/skills/fetch-source/README.md) · `culturebotai/traitmech:.claude/skills/fetch-source`
 - [review-open-issues](./skills/culturebotai/traitmech/.claude/skills/review-open-issues/README.md) · `culturebotai/traitmech:.claude/skills/review-open-issues`
+- [uilint](./skills/dahanitamar/uilint/_root/README.md) · `dahanitamar/uilint:.`
 - [deepworkplan](./skills/dailybothq/deepworkplan-website/.agents/skills/deepworkplan/README.md) · `dailybothq/deepworkplan-website:.agents/skills/deepworkplan`
 - [responsive-lighthouse-audit](./skills/dailybothq/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) · `dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`

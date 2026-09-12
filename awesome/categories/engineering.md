@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 532
+Published Skills: 533
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -445,6 +445,7 @@ Published Skills: 532
 | [rules-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: `.claude/rules/` のルールファイルの書き方 — `paths:` glob 必須の方針、1 トピック 1 ファイル、CLAUDE.md・スキル・フックとの分界、glob の記法と予算制約、スケルトン。 Use when: `.claude/rules/` 配下のファイルを新規作成・編集・監査するとき、または指示をリポジトリ全体でなく特定のパス配下に限定したいとき。 |
 | [skills-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/skills-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: SKILL.md の構成規約（種別の選び方・段階開示・文体）と、知識型・コマンド型それぞれのリファレンスとコピー用スケルトン。 Use when: スキルを新規作成するとき、既存の SKILL.md をレビュー・再構成・編集するとき。 |
 | [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
+| [uilint](../skills/DahanItamar/uilint/_root/README.md) | [DahanItamar/uilint](https://github.com/DahanItamar/uilint) | 99 | 100 | 0 | Catch the UI states and failure paths that get skipped — loading, empty, error, success, and partial. Use whenever building or reviewing an interface that fetches data, submits a form, or navigates, and whenever a user describes an interface problem in symptoms rather than terms — "nothing happens when I click", "it just spins forever", "the page goes blank", "users don't know if it worked", "this form is annoying", "why does this feel broken", "review this component", "/uilint". Also use proactively while writing UI, so the states exist in the first draft instead of being retrofitted after someone complains. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [review-pr](../skills/DexForce/EmbodiChain/.claude/skills/review-pr/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain review-pr skill. |
 | [update-api-docs](../skills/DexForce/EmbodiChain/.claude/skills/update-api-docs/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain update-api-docs skill. |
