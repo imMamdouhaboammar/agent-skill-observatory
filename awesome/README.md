@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **817**
+Published skills: **818**
 Repositories: **91**
 
 ## Browse repositories
@@ -762,6 +762,7 @@ Repositories: **91**
 - [orca-cli](./skills/dileep-kishore/zendots/dot_agents/skills/orca-cli/README.md) · `dileep-kishore/zendots:dot_agents/skills/orca-cli`
 - [orca-linear](./skills/dileep-kishore/zendots/dot_agents/skills/orca-linear/README.md) · `dileep-kishore/zendots:dot_agents/skills/orca-linear`
 - [orca-worktree-hooks](./skills/dileep-kishore/zendots/dot_agents/skills/orca-worktree-hooks/README.md) · `dileep-kishore/zendots:dot_agents/skills/orca-worktree-hooks`
+- [orchestration](./skills/dileep-kishore/zendots/dot_agents/skills/orchestration/README.md) · `dileep-kishore/zendots:dot_agents/skills/orchestration`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [assemble](./skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) · `dpatel-93/alfred:_archive/2026-08-14-icm/skills/assemble`
