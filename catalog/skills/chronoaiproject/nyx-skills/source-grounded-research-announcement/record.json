@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "c25a63ced86ea14cdb68351f324bf58925ce527bfc9c60487052697bcf6e370e",
+  "canonical_key": "chronoaiproject/nyx-skills:source-grounded-research-announcement",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c25a63ced86ea14cdb68351f324bf58925ce527bfc9c60487052697bcf6e370e",
+    "archived": false,
+    "canonical_key": "chronoaiproject/nyx-skills:source-grounded-research-announcement",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2482593342ddbeb0e4fc9fc64a1346b7b539fbd76ab05e9c85bf7d869d9ed0c0",
+    "description": "Method for drafting and reviewing source-anchored research or technical announcements, especially X threads or short posts. Use when public copy must distinguish claimed from not claimed, attach every technical claim to an artifact anchor, avoid overclaiming, remove generic AI phrasing, and require dry-run plus human approval before live publishing.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "documentation",
+        "commerce",
+        "data",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/source-grounded-research-announcement/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:08:31.372724Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:08:31.372724Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "plain",
+      "tag": "['research-announcement', 'source-fidelity', 'public-copy']"
+    },
+    "name": "source-grounded-research-announcement",
+    "path": "source-grounded-research-announcement",
+    "pushed_at": "2026-09-12T14:04:06Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ChronoAIProject/nyx-skills",
+    "repo_url": "https://github.com/ChronoAIProject/nyx-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 92,
+      "reasons": [
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2941a535fb5767fca91d79ca19e240fd3c1fbd1421ee9a47a2e5235ed2cd7749",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "2941a535fb5767fca91d79ca19e240fd3c1fbd1421ee9a47a2e5235ed2cd7749"
+}
