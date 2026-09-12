@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 118
+Published Skills: 119
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -19,6 +19,7 @@ Published Skills: 118
 | [pr-submission](../skills/iflytek/skillhub/.agents/skills/pr-submission/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | PR title format, commit conventions, and pre-PR checklist for SkillHub. Use when preparing or reviewing pull requests. |
 | [skillhub-cli](../skills/iflytek/skillhub/builtin-skills/skills/skillhub-cli/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Connect an Agent to a SkillHub registry and use the official SkillHub CLI to search, install, list, or explicitly upgrade SkillHub skills. Use when a user asks to connect SkillHub, install a SkillHub skill, or manage skills previously installed from SkillHub. |
 | [bat-story-eval](../skills/homeassistant-ai/ha-mcp/.claude/skills/bat-story-eval/README.md) | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 100 | 100 | 4688 | Compare MCP tool behavior between target and baseline versions using pre-built and custom stories with diff-based triage. |
+| [atmos-asciicast](../skills/cloudposse/atmos/.claude/skills/atmos-asciicast/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds. |
 | [update-model-pricing](../skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) | [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 100 | 100 | 1358 | Verify and refresh AgentConnect's daemon-side public OpenAI fallback pricing, exact model aliases, long-context and cache rules, and regression tests. Use when OpenAI model prices or IDs change, fallback cost becomes missing or stale, codex-acp changes its token mapping, or someone asks to audit or update packages/daemon/src/usage/openai-public-pricing.ts. |
 | [autofix](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly |
 | [dashboard-plugin-scaffold](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Scaffold a new pi-dashboard plugin in the dashboard monorepo, OR augment an existing pi-extension project on disk with dashboard plugin contributions. Hybrid skill: a single ask_user batch up front, then prescriptive steps the agent follows. Use when the user asks to "create a dashboard plugin", "add dashboard support to my extension", "scaffold a plugin", or similar. |

@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "03c263c0e6acae6f94b661bce015aaff0ffefb879dbee77adf4d45972987a42d",
+  "canonical_key": "cloudposse/atmos:.claude/skills/atmos-asciicast",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "03c263c0e6acae6f94b661bce015aaff0ffefb879dbee77adf4d45972987a42d",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:.claude/skills/atmos-asciicast",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "dd1394b1f0d93d1ffa20d6d52adc7e3ed6da5e4ddad54d57080d68aa5e267bee",
+    "description": "Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "engineering",
+        "content",
+        "media",
+        "testing",
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/atmos-asciicast/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "atmos-asciicast",
+    "path": ".claude/skills/atmos-asciicast",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8b77ea98cd6ef5970259c8ad07536011637d64ba6763c99efc0ced29a2806b56",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "8b77ea98cd6ef5970259c8ad07536011637d64ba6763c99efc0ced29a2806b56"
+}
