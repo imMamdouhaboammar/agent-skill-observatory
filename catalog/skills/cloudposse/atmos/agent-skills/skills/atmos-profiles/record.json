@@ -1,0 +1,94 @@
+{
+  "analysis_fingerprint": "60cafea0b4b2abef5b6c29d649ff649eb2539946404494993202c14cb95b2f7a",
+  "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-profiles",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "60cafea0b4b2abef5b6c29d649ff649eb2539946404494993202c14cb95b2f7a",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:agent-skills/skills/atmos-profiles",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6ed5e2237fd04f94b5b7579fa2527370224f5aa3a5b8fbcee0bc7394999770b2",
+    "description": "Atmos profiles: profile directories, --profile and ATMOS_PROFILE activation, profile merge behavior, environment switching, and routing profile-specific auth/toolchain/config overrides",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "engineering",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-profiles/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "category": "core-config",
+      "copyright": "Copyright Cloud Posse, LLC 2026",
+      "version": "1.0.0"
+    },
+    "name": "atmos-profiles",
+    "path": "agent-skills/skills/atmos-profiles",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9fe00438e0b4c0d784b4a6a76c39c33cad96db7d5af6baa8445a088cf1c4ba74",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "9fe00438e0b4c0d784b4a6a76c39c33cad96db7d5af6baa8445a088cf1c4ba74"
+}
