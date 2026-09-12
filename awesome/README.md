@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **792**
-Repositories: **88**
+Published skills: **793**
+Repositories: **89**
 
 ## Browse repositories
 
@@ -72,6 +72,7 @@ Repositories: **88**
 - [danmo-ai/danmo-work](./repos/danmo-ai/danmo-work.md)
 - [day8/re-frame2](./repos/day8/re-frame2.md)
 - [dbpprt/dieter](./repos/dbpprt/dieter.md)
+- [dcostenco/prism-coder](./repos/dcostenco/prism-coder.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [digitallyinduced/haskell-agent](./repos/digitallyinduced/haskell-agent.md)
 - [dpatel-93/alfred](./repos/dpatel-93/alfred.md)
@@ -711,6 +712,7 @@ Repositories: **88**
 - [reagent-migration](./skills/day8/re-frame2/skills/reagent-migration/README.md) · `day8/re-frame2:skills/reagent-migration`
 - [android-emulator](./skills/dbpprt/dieter/.agents/skills/android-emulator/README.md) · `dbpprt/dieter:.agents/skills/android-emulator`
 - [mac-app](./skills/dbpprt/dieter/.agents/skills/mac-app/README.md) · `dbpprt/dieter:.agents/skills/mac-app`
+- [prism-startup](./skills/dcostenco/prism-coder/plugins/prism/skills/prism-startup/README.md) · `dcostenco/prism-coder:plugins/prism/skills/prism-startup`
 - [convoy](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy`
 - [convoy-wizard](./skills/deploy-forward/convoy/plugin/convoy/skills/convoy-wizard/README.md) · `deploy-forward/convoy:plugin/convoy/skills/convoy-wizard`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`

@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "82b229467928dc38bad7f4f32e8c0788eaab9d631f4e7d869e2bce3a714b48f9",
+  "canonical_key": "dcostenco/prism-coder:plugins/prism/skills/prism-startup",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "82b229467928dc38bad7f4f32e8c0788eaab9d631f4e7d869e2bce3a714b48f9",
+    "archived": false,
+    "canonical_key": "dcostenco/prism-coder:plugins/prism/skills/prism-startup",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fa6bc4091fa43349be902da5558a0ac57560e9a06baf3bee7504106d6006c295",
+    "description": "Activate on the first user turn of every conversation, including greetings. Load Prism context using the user's configured project and quick, standard, or deep depth, then greet the developer by their configured agent name and show the matching recent-session context.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "commerce",
+        "content",
+        "data",
+        "integrations",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dcostenco/prism-coder/blob/main/plugins/prism/skills/prism-startup/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 23,
+    "indexed_at": "2026-09-12T23:10:42.271674Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:10:42.271674Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "prism-startup",
+    "path": "plugins/prism/skills/prism-startup",
+    "pushed_at": "2026-09-12T23:09:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dcostenco/prism-coder",
+    "repo_url": "https://github.com/dcostenco/prism-coder",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 69,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b0147b23436da9145f689288289bf1131c5a75582436d3d30dfe52e23c5eff7b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 157
+  },
+  "source_fingerprint": "b0147b23436da9145f689288289bf1131c5a75582436d3d30dfe52e23c5eff7b"
+}

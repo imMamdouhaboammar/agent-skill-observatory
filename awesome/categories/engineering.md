@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 581
+Published Skills: 582
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -167,6 +167,7 @@ Published Skills: 581
 | [variants](../skills/alpha-omega-security/scrutineer/skills/variants/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Starting from one confirmed finding, search this repository's current source for distinct sibling instances of the same root cause and emit only validated new findings. |
 | [verify](../skills/alpha-omega-security/scrutineer/skills/verify/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | Re-run a finding's reproduction against current HEAD, test its attack tree, grade five fixed evidence criteria, and account for every matched design control. |
 | [vuln-scan](../skills/alpha-omega-security/scrutineer/skills/vuln-scan/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | High-recall static source-code vulnerability scan adapted from Anthropic's defending-code reference harness. Fans out by focus area, ranks candidates by confidence, and emits Scrutineer findings for later verification. |
+| [prism-startup](../skills/dcostenco/prism-coder/plugins/prism/skills/prism-startup/README.md) | [dcostenco/prism-coder](https://github.com/dcostenco/prism-coder) | 100 | 100 | 157 | Activate on the first user turn of every conversation, including greetings. Load Prism context using the user's configured project and quick, standard, or deep depth, then greet the developer by their configured agent name and show the matching recent-session context. |
 | [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [debugging-and-error-recovery](../skills/jairorodriguezarias/siesta/.agents/skills/debugging-and-error-recovery/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to finding and fixing the root cause rather than guessing. |
 | [factory-learner](../skills/jairorodriguezarias/siesta/factory/skills/factory-learner/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Learns after EACH issue execution, not just at project end. Qwen 2.5 governs this micro-learning loop. Analyzes what happened during the issue — blockers, consultations, proxy decisions, successes — and improves factory skills immediately. Use after every issue is resolved. |
