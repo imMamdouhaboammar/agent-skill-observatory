@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "98239bc7558958d00457c92111465754bc46535900701f708fa786b7e52e0a30",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/self-review",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "98239bc7558958d00457c92111465754bc46535900701f708fa786b7e52e0a30",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/self-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f34d7bc0991804d9572d82197f570f1d73e6218e28affbadcff645a717d289ed",
+    "description": "タスク完了前のセルフレビュー。Claude subagentで別コンテキストから客観的にコード変更を検証。",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "agent-orchestration",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/self-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "self-review",
+    "path": "bridge/.claude/skills/self-review",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b608c3e7982a7c9447b72aa5f410c2ee74c03d6843c7c45ee6b1528edb1de074",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "b608c3e7982a7c9447b72aa5f410c2ee74c03d6843c7c45ee6b1528edb1de074"
+}
