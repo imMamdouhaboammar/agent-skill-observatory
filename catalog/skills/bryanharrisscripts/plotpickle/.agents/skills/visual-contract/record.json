@@ -1,0 +1,108 @@
+{
+  "analysis_fingerprint": "48ff4bebb6c92c26a7af8ed77a62d52d6149cbc9b770449df9f8d8b116943e8a",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-contract",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "48ff4bebb6c92c26a7af8ed77a62d52d6149cbc9b770449df9f8d8b116943e8a",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-contract",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e91dd10089d15b7ae0aeb1c88c272f42838887a929e10eb6ecf527cc80b8a2c1",
+    "description": "Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "media",
+        "research",
+        "commerce",
+        "content",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/visual-contract/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "PlotPickle",
+      "compatibility": "PlotPickle host runtime",
+      "progressiveDisclosure": "True",
+      "uri": "skill://plotpickle/visual-contract",
+      "version": "1.0.0"
+    },
+    "name": "visual-contract",
+    "path": ".agents/skills/visual-contract",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3f584b8789fc8763724f1f2d8a32a06ac7ffa0d5ef5b3c4dce3e73003b457299",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "3f584b8789fc8763724f1f2d8a32a06ac7ffa0d5ef5b3c4dce3e73003b457299"
+}

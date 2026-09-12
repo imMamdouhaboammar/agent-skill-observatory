@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle)
 
-Published Skills: 13
+Published Skills: 14
 Categories: ai-ml, commerce, content, data, design, devops, documentation, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=13, 60-84=0, <60=0
+Security distribution: 85+=14, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -22,3 +22,4 @@ Security distribution: 85+=13, 60-84=0, <60=0
 | [sage-brinewick](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sage-brinewick/README.md) | `.agents/skills/sage-brinewick` | 100 | 100 | ai-ml, content, design, devops, documentation, education |
 | [sequence-director](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sequence-director/README.md) | `.agents/skills/sequence-director` | 100 | 100 | data, design, engineering, media, productivity, research |
 | [uat-repair](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | `.agents/skills/uat-repair` | 100 | 100 | data, design, devops, engineering, product, testing |
+| [visual-contract](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-contract/README.md) | `.agents/skills/visual-contract` | 100 | 100 | commerce, content, design, engineering, media, research |
