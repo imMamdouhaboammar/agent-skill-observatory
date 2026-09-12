@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "20de5a228d1396ce22b638401a5c6f82dcd6c8e25a93a51be3c011d2df3acdf3",
+  "canonical_key": "cloudposse/atmos:.claude/skills/speckit-plan",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "20de5a228d1396ce22b638401a5c6f82dcd6c8e25a93a51be3c011d2df3acdf3",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:.claude/skills/speckit-plan",
+    "compatibility": "Requires spec-kit project structure with .specify/ directory",
+    "consecutive_misses": 0,
+    "content_fingerprint": "8141ebbce228ad0b422a84e3b995d2bd85de917b96eadd02b5fcb56fb23f2594",
+    "description": "Execute the implementation planning workflow using the plan template to generate design artifacts.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "design",
+        "data",
+        "documentation",
+        "engineering",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-plan/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "github-spec-kit",
+      "source": "templates/commands/plan.md"
+    },
+    "name": "speckit-plan",
+    "path": ".claude/skills/speckit-plan",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5374252b744f37aa10cb446d3657dbadbed7a43fe607f5317ace18d053bcffc3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "5374252b744f37aa10cb446d3657dbadbed7a43fe607f5317ace18d053bcffc3"
+}
