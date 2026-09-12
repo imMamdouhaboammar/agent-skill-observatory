@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 109
+Published Skills: 110
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -68,6 +68,7 @@ Published Skills: 109
 | [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
 | [agent-browser](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Advanced browser automation for AI agents with snapshot-ref interaction pattern - navigate, snapshot interactive elements with refs, click/fill/select by refs, manage sessions, and extract structured data |
+| [autoresearch](../skills/aaronjmars/aeon-agent/skills/autoresearch/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Evolve a skill by generating variations, evaluating them, and updating the best version |
 | [github-manager](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | GitHub operations - manage issues, pull requests, repositories, and workflows via GitHub API |
 | [google-workspace](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/google-workspace/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Google Workspace integration - Gmail, Calendar, Drive operations via Google APIs |
 | [proactive-agent](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/proactive-agent/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Autonomous proactive agent that monitors conditions and triggers actions - watches for file changes, error patterns, performance thresholds, and schedules periodic checks without user intervention |

@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 230
+Published Skills: 231
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -105,6 +105,7 @@ Published Skills: 230
 | [agent-browser](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Advanced browser automation for AI agents with snapshot-ref interaction pattern - navigate, snapshot interactive elements with refs, click/fill/select by refs, manage sessions, and extract structured data |
 | [api-gateway](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Universal API gateway - connect to 100+ APIs with a unified interface, manage API keys, and chain API calls |
 | [architect-mode](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 双阶段架构模式 - 先规划后编辑，分离推理与代码修改，提升多文件编辑准确率 |
+| [autoresearch](../skills/aaronjmars/aeon-agent/skills/autoresearch/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Evolve a skill by generating variations, evaluating them, and updating the best version |
 | [content-publisher](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | AI-powered content generation and multi-platform publishing - create infographics, slide decks, cover images, comics, and format content for social platforms |
 | [database-query](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/database-query/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Generate, optimize, and explain SQL queries - supports SQLite, PostgreSQL, MySQL with schema introspection, migration generation, and query performance analysis |
 | [diff-previewer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/diff-previewer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 多文件差异预览器 - 在应用AI变更前展示丰富的diff预览，支持部分接受和变更地图 |

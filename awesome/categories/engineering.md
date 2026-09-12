@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 468
+Published Skills: 469
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -203,6 +203,7 @@ Published Skills: 468
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
 | [api-gateway](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Universal API gateway - connect to 100+ APIs with a unified interface, manage API keys, and chain API calls |
 | [architect-mode](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 双阶段架构模式 - 先规划后编辑，分离推理与代码修改，提升多文件编辑准确率 |
+| [autoresearch](../skills/aaronjmars/aeon-agent/skills/autoresearch/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Evolve a skill by generating variations, evaluating them, and updating the best version |
 | [cron-scheduler](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cron-scheduler/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Schedule and manage automated tasks with cron expressions - create recurring jobs, one-time tasks, natural language scheduling, and cross-platform timer management |
 | [cursor-rules-generator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cursor-rules-generator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Generate IDE rules and configuration files - .cursorrules, .clinerules, CLAUDE.md, .windsurfrules, and other AI coding assistant configuration for consistent project conventions |
 | [diff-previewer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/diff-previewer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 多文件差异预览器 - 在应用AI变更前展示丰富的diff预览，支持部分接受和变更地图 |
