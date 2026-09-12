@@ -1,0 +1,116 @@
+{
+  "analysis_fingerprint": "faf5793c78fc8b31ba17f7df2f46d50d23ce94822d84cad03320ffa92a323aad",
+  "canonical_key": "culturebotai/naturalproductmech:.claude/skills/add-proteins-to-graphs",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash,",
+      "Read,",
+      "Grep,",
+      "Glob,",
+      "WebSearch,",
+      "WebFetch,",
+      "Edit,",
+      "Write"
+    ],
+    "analysis_fingerprint": "faf5793c78fc8b31ba17f7df2f46d50d23ce94822d84cad03320ffa92a323aad",
+    "archived": false,
+    "canonical_key": "culturebotai/naturalproductmech:.claude/skills/add-proteins-to-graphs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6201bb43371ea3d8bf73404d0af3f0258095c4db5d7bf98cb08022836b5f03e1",
+    "description": "Add evidence-backed proteins, enzymes and complexes to NaturalProductMech biosynthetic pathways, causal graphs and molecular targets; ground graph nodes and pick UniProtKB protein examples without confusing a family, complex or reaction with an organism-specific protein.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "data",
+        "engineering",
+        "ai-ml",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/CultureBotAI/NaturalProductMech/blob/main/.claude/skills/add-proteins-to-graphs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:33:16.692508Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:33:16.692508Z",
+    "license": "CC0-1.0",
+    "metadata": {
+      "category": "curation",
+      "requires_database": "False",
+      "requires_internet": "True",
+      "version": "1.0.0"
+    },
+    "name": "add-proteins-to-graphs",
+    "path": ".claude/skills/add-proteins-to-graphs",
+    "pushed_at": "2026-09-12T01:31:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "CultureBotAI/NaturalProductMech",
+    "repo_url": "https://github.com/CultureBotAI/NaturalProductMech",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license CC0-1.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6ab5f213edf4bff672eee7cb9e8c633fdf9e2b150cf16594324881bd36b720f1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "6ab5f213edf4bff672eee7cb9e8c633fdf9e2b150cf16594324881bd36b720f1"
+}

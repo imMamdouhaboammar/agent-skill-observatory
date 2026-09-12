@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **726**
-Repositories: **76**
+Published skills: **727**
+Repositories: **77**
 
 ## Browse repositories
 
@@ -19,6 +19,7 @@ Repositories: **76**
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [ChronoAIProject/nyx-skills](./repos/ChronoAIProject/nyx-skills.md)
 - [ComponentDock/free-react-templates](./repos/ComponentDock/free-react-templates.md)
+- [CultureBotAI/NaturalProductMech](./repos/CultureBotAI/NaturalProductMech.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
 - [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
@@ -640,6 +641,7 @@ Repositories: **76**
 - [vite-react-tailwind-scaffolding](./skills/componentdock/free-react-templates/skills/software-development/vite-react-tailwind-scaffolding/README.md) · `componentdock/free-react-templates:skills/software-development/vite-react-tailwind-scaffolding`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
+- [add-proteins-to-graphs](./skills/culturebotai/naturalproductmech/.claude/skills/add-proteins-to-graphs/README.md) · `culturebotai/naturalproductmech:.claude/skills/add-proteins-to-graphs`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
 - [fetch-source](./skills/culturebotai/traitmech/.claude/skills/fetch-source/README.md) · `culturebotai/traitmech:.claude/skills/fetch-source`
 - [review-open-issues](./skills/culturebotai/traitmech/.claude/skills/review-open-issues/README.md) · `culturebotai/traitmech:.claude/skills/review-open-issues`
