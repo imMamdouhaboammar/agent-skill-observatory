@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 132
+Published Skills: 133
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -92,6 +92,7 @@ Published Skills: 132
 | [systematic-debugging](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [test-driven-development](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementing any feature or bugfix, before writing implementation code |
 | [using-git-worktrees](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-git-worktrees/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback |
+| [verification-before-completion](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |
 | [character-animation-qa](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/character-animation-qa/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Review local character animation with schema checks, Playwright browser previews, frame sampling, and FFmpeg/ffprobe final output checks. |
 | [dispatching-parallel-agents-ko](../skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 독립 태스크 2개 이상이 공유 상태·순차 의존 없이 진행 가능할 때 사용 — 병렬 서브에이전트 dispatch로 동시에 처리 |

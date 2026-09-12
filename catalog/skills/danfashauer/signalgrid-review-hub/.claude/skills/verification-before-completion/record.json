@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "8727046988e6c9c71a370211211d32f3b4ecb2f62eb861eb0a5f0d128287e035",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/verification-before-completion",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8727046988e6c9c71a370211211d32f3b4ecb2f62eb861eb0a5f0d128287e035",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/verification-before-completion",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3",
+    "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "testing",
+        "content",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/verification-before-completion/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T23:40:40.592461Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:40.592461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "verification-before-completion",
+    "path": ".claude/skills/verification-before-completion",
+    "pushed_at": "2026-09-11T23:34:39Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d8a53168f152b6163bd3447f7d4c20b6b4cddf6bd907f9aa5856b514c032db0e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "d8a53168f152b6163bd3447f7d4c20b6b4cddf6bd907f9aa5856b514c032db0e"
+}

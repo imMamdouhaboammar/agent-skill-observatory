@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 11
+Published Skills: 12
 Categories: agent-orchestration, code-review, commerce, content, data, design, devops, documentation, engineering, integrations, localization, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,3 +20,4 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [test-driven-development](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | `.claude/skills/test-driven-development` | 100 | 100 | content, data, design, engineering, integrations, testing |
 | [using-git-worktrees](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-git-worktrees/README.md) | `.claude/skills/using-git-worktrees` | 100 | 100 | commerce, engineering, research, security, testing |
 | [using-superpowers](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-superpowers/README.md) | `.claude/skills/using-superpowers` | 100 | 100 | agent-orchestration, design, engineering, productivity |
+| [verification-before-completion](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | `.claude/skills/verification-before-completion` | 100 | 100 | content, engineering, productivity, research, testing |

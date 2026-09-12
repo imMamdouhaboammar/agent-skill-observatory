@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 299
+Published Skills: 300
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -192,6 +192,7 @@ Published Skills: 299
 | [seis-product](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-product/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Product for turning SEIS ideas into scoped product requirements, roadmap slices, acceptance criteria, UX outcomes, launch readiness, prioritization, open-source positioning, and validation-backed delivery plans. |
 | [seis-security](../skills/emirhankudun-ux/SEIS/plugins/seis-ai-agent/skills/seis-security/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Security for threat modeling, secret-safety review, dependency and permission risk, rollback security, CI/security gates, cloud access safety, SSH/VPN hardening, and release-blocking security checks inside the SEIS repository and SEIS-Agent workflow. |
 | [using-superpowers](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-superpowers/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions |
+| [verification-before-completion](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always |
 | [account-troubleshooting](../skills/artbakerchat/Y/center/03-skills/skills/account-troubleshooting/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 | Guide for helping customers with account issues including password resets, identity verification, and account updates. |
 | [acestep](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/acestep/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | AI music generation with ACE-Step 1.5 — background music, vocal tracks, covers, stem extraction for video production. Use when generating music, soundtracks, jingles, or working with audio stems. Triggers include background music, soundtrack, jingle, music generation, stem extraction, cover, style transfer, or musical composition tasks. |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |
