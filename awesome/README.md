@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **582**
-Repositories: **65**
+Published skills: **583**
+Repositories: **66**
 
 ## Browse repositories
 
@@ -16,6 +16,7 @@ Repositories: **65**
 - [BryanHarrisScripts/PlotPickle](./repos/BryanHarrisScripts/PlotPickle.md)
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
+- [ChronoAIProject/nyx-skills](./repos/ChronoAIProject/nyx-skills.md)
 - [CultureBotAI/TraitMech](./repos/CultureBotAI/TraitMech.md)
 - [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
@@ -460,6 +461,7 @@ Repositories: **65**
 - [writing-style](./skills/chnlich/charlie-bot/skills/writing-style/README.md) · `chnlich/charlie-bot:skills/writing-style`
 - [prodex-session-prompt-write](./skills/christiandoxa/prodex/skills/prodex-session-prompt-write/README.md) · `christiandoxa/prodex:skills/prodex-session-prompt-write`
 - [reconc](./skills/christopher-schulze/reconc/skills/reconc/README.md) · `christopher-schulze/reconc:skills/reconc`
+- [chatgpt-image-short-video](./skills/chronoaiproject/nyx-skills/chatgpt-image-short-video/README.md) · `chronoaiproject/nyx-skills:chatgpt-image-short-video`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`

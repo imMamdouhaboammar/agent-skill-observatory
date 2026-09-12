@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "7068d203117ee34342db42ccdcdafac40c0d112138033615cc967a3145fa11fc",
+  "canonical_key": "chronoaiproject/nyx-skills:chatgpt-image-short-video",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7068d203117ee34342db42ccdcdafac40c0d112138033615cc967a3145fa11fc",
+    "archived": false,
+    "canonical_key": "chronoaiproject/nyx-skills:chatgpt-image-short-video",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "96d3b66d22ec8b6affbeaf3cb5371959b51843bb6e1e8418e04e64fdbf1618d7",
+    "description": "Method for producing short vertical videos from ChatGPT image generation through a fixed browser tab, local TTS narration, timed subtitle burn-in, cover exports, and a manifest. Use when an operator needs a reproducible image-to-short workflow with pinned session consistency, per-beat visual prompts, 1080x1920 safe-area rules, local ffmpeg/PIL assembly, and private access kept outside the skill.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "browser-automation",
+        "content",
+        "design",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/chatgpt-image-short-video/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:08:31.372724Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:08:31.372724Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "plain",
+      "tag": "['short-video', 'image-generation', 'subtitles', 'media-pipeline']"
+    },
+    "name": "chatgpt-image-short-video",
+    "path": "chatgpt-image-short-video",
+    "pushed_at": "2026-09-12T14:04:06Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ChronoAIProject/nyx-skills",
+    "repo_url": "https://github.com/ChronoAIProject/nyx-skills",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 92,
+      "reasons": [
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "48080524b799f5e4f656ed0ed8445ba9f1293d9f405d955856d1e5cd56180621",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "48080524b799f5e4f656ed0ed8445ba9f1293d9f405d955856d1e5cd56180621"
+}
