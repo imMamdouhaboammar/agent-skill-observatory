@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 11
+Published Skills: 12
 Categories: agent-orchestration, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -18,5 +18,6 @@ Security distribution: 85+=11, 60-84=0, <60=0
 | [apple-notes](../../skills/ComponentDock/free-react-templates/skills/apple/apple-notes/README.md) | `skills/apple/apple-notes` | 97 | 100 | legal-compliance, productivity |
 | [apple-reminders](../../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | `skills/apple/apple-reminders` | 97 | 100 | content, design, documentation, mobile, productivity, security |
 | [autonomous-cron-pipelines](../../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | `skills/automation/autonomous-cron-pipelines` | 97 | 100 | agent-orchestration, commerce, content, design, documentation, engineering |
+| [codex](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | `skills/autonomous-ai-agents/codex` | 97 | 100 | commerce, content, data, engineering, integrations, productivity |
 | [findmy](../../skills/ComponentDock/free-react-templates/skills/apple/findmy/README.md) | `skills/apple/findmy` | 97 | 100 | content, design, engineering, legal-compliance, media, productivity |
 | [imessage](../../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | `skills/apple/imessage` | 97 | 100 | content, legal-compliance, media, productivity, security |

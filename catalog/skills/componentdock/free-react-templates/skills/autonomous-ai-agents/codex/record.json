@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "337578474c620abf48446cabbe6c8b734401697a21c0c15d1eb925cceaa2e952",
+  "canonical_key": "componentdock/free-react-templates:skills/autonomous-ai-agents/codex",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "337578474c620abf48446cabbe6c8b734401697a21c0c15d1eb925cceaa2e952",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/autonomous-ai-agents/codex",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5302a85c874d0684593de4151b6adacbb63e7d18589f5ce229f72e05421e9aaf",
+    "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "commerce",
+        "content",
+        "data",
+        "integrations",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/autonomous-ai-agents/codex/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['Coding-Agent', 'Codex', 'OpenAI', 'Code-Review', 'Refactoring'], 'related_skills': ['claude-code', 'hermes-agent']}"
+    },
+    "name": "codex",
+    "path": "skills/autonomous-ai-agents/codex",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e184e77c79c8b3cdab7ef6e0d23ebc5bff89b4a0af83fcd8e8972ecdafdfbc94",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "e184e77c79c8b3cdab7ef6e0d23ebc5bff89b4a0af83fcd8e8972ecdafdfbc94"
+}
