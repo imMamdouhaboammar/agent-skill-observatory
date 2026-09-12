@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dileep-kishore/zendots](https://github.com/dileep-kishore/zendots)
 
-Published Skills: 9
-Categories: agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, marketing, productivity, research, testing
+Published Skills: 10
+Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, marketing, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=9, 60-84=0, <60=0
+Security distribution: 85+=10, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -18,3 +18,4 @@ Security distribution: 85+=9, 60-84=0, <60=0
 | [find-docs](../../skills/dileep-kishore/zendots/dot_agents/skills/find-docs/README.md) | `dot_agents/skills/find-docs` | 100 | 100 | content, data, devops, documentation, engineering, integrations |
 | [find-skills](../../skills/dileep-kishore/zendots/dot_agents/skills/find-skills/README.md) | `dot_agents/skills/find-skills` | 100 | 100 | design, devops, documentation, engineering, productivity, testing |
 | [frontend-slides](../../skills/dileep-kishore/zendots/dot_agents/skills/frontend-slides/README.md) | `dot_agents/skills/frontend-slides` | 100 | 100 | commerce, content, design, documents, engineering, productivity |
+| [grill-with-docs](../../skills/dileep-kishore/zendots/dot_agents/skills/grill-with-docs/README.md) | `dot_agents/skills/grill-with-docs` | 100 | 100 | architecture, content, design, documentation, productivity, testing |

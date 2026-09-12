@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "2bffda478658c55733369c16d611d5b17b09ce4f28c24ca65464149e976cff80",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/grill-with-docs",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2bffda478658c55733369c16d611d5b17b09ce4f28c24ca65464149e976cff80",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/grill-with-docs",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a2ac878ae236a3aba64b6d70d200187c1f86a66ce28dd3dc341565545ec3cc41",
+    "description": "Use when the user asks to grill, stress-test, or sharpen a plan, design, or decision through a short interview, and wants the resulting decisions recorded in the project's docs.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "design",
+        "productivity",
+        "testing",
+        "architecture",
+        "content"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/grill-with-docs/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "grill-with-docs",
+    "path": "dot_agents/skills/grill-with-docs",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f3d7343db5ff2fdb4e0a430003b83976de9bc2403b3a4874f59bae7f9e3b9006",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "f3d7343db5ff2fdb4e0a430003b83976de9bc2403b3a4874f59bae7f9e3b9006"
+}
