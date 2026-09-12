@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **551**
+Published skills: **552**
 Repositories: **62**
 
 ## Browse repositories
@@ -334,6 +334,7 @@ Repositories: **62**
 - [engineering-discipline](./skills/bryanharrisscripts/plotpickle/.agents/skills/engineering-discipline/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/engineering-discipline`
 - [lazy-frames-animatic](./skills/bryanharrisscripts/plotpickle/.agents/skills/lazy-frames-animatic/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/lazy-frames-animatic`
 - [marquee-director](./skills/bryanharrisscripts/plotpickle/.agents/skills/marquee-director/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/marquee-director`
+- [plan-foundations](./skills/bryanharrisscripts/plotpickle/.agents/skills/plan-foundations/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/plan-foundations`
 - [buildd-mcp-consumer](./skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) · `buildd-ai/buildd:.claude/skills/buildd-mcp-consumer`
 - [buildd-workflow](./skills/buildd-ai/buildd/.claude/skills/buildd-workflow/README.md) · `buildd-ai/buildd:.claude/skills/buildd-workflow`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`

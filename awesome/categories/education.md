@@ -1,6 +1,6 @@
 # education
 
-Published Skills: 22
+Published Skills: 23
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -19,6 +19,7 @@ Published Skills: 22
 | [spec-audit](../skills/commontoolsinc/labs/skills/spec-audit/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Map and verify the CTS/schema documentation corpus against its normative contracts, implementation, tests, fixtures, and runtime consumers. Use for claim-level audits or updates in docs/specs/ts-transformer, docs/specs/schema-generator, package guidance, and author-facing CTS docs, especially after transformer/schema changes or before releases. |
 | [lesson](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/lesson/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Record a lesson learned after fixing a bug or discovering a pattern. Updates domain memory files and checks for contradictions. Use after resolving non-trivial issues. |
 | [self-improving-agent](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/self-improving-agent/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 自动学习改进，记录错误和修正 - Auto-learn from mistakes, track errors and corrections, analyze patterns, and improve responses over time |
+| [plan-foundations](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plan-foundations/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Grounded Foundations planning procedure for turning retrieved curriculum and approved project evidence into draft story decisions. |
 | [atm-dispatch](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-dispatch/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | ATM Captain dispatch routing for task cards, sidecars, subagents, condition review, mailbox work, and closeout coordination. |
 | [atm-legacy-atomization-guidance](../skills/eaglhuang/AI-Atomic-Framework/integrations/codex-skills/atm-legacy-atomization-guidance/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Legacy compatibility alias for ATM legacy atomization, split, infect, and migration work. Prefer atm-governance-router for new installs. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
