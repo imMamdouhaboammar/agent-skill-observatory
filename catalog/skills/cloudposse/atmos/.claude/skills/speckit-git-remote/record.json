@@ -1,0 +1,99 @@
+{
+  "analysis_fingerprint": "6850e7cd052853345b5c2f3a979a4107c8dbfc843098d0c862dbe34788ac931c",
+  "canonical_key": "cloudposse/atmos:.claude/skills/speckit-git-remote",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6850e7cd052853345b5c2f3a979a4107c8dbfc843098d0c862dbe34788ac931c",
+    "archived": false,
+    "canonical_key": "cloudposse/atmos:.claude/skills/speckit-git-remote",
+    "compatibility": "Requires spec-kit project structure with .specify/ directory",
+    "consecutive_misses": 0,
+    "content_fingerprint": "25f8fb51e3f8c030d740873c5d47854f0bc14aa3c83a686a3e8b655404d0e735",
+    "description": "Detect Git remote URL for GitHub integration",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-remote/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 175,
+    "indexed_at": "2026-09-12T01:35:13.910659Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:35:13.910659Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "github-spec-kit",
+      "source": "git:commands/speckit.git.remote.md"
+    },
+    "name": "speckit-git-remote",
+    "path": ".claude/skills/speckit-git-remote",
+    "pushed_at": "2026-09-12T01:31:33Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 80,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "48c0aeb19bac62eb09a7a16f07e42214add4c2aaff369159a64b7dc07bc4b1cd",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1376
+  },
+  "source_fingerprint": "48c0aeb19bac62eb09a7a16f07e42214add4c2aaff369159a64b7dc07bc4b1cd"
+}
