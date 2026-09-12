@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dileep-kishore/zendots](https://github.com/dileep-kishore/zendots)
 
-Published Skills: 24
+Published Skills: 25
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=24, 60-84=0, <60=0
+Security distribution: 85+=25, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -33,3 +33,4 @@ Security distribution: 85+=24, 60-84=0, <60=0
 | [security-review](../../skills/dileep-kishore/zendots/dot_agents/skills/security-review/README.md) | `dot_agents/skills/security-review` | 100 | 100 | content, data, devops, engineering, security, testing |
 | [show-me-your-work](../../skills/dileep-kishore/zendots/dot_agents/skills/show-me-your-work/README.md) | `dot_agents/skills/show-me-your-work` | 100 | 100 | data, engineering, productivity, research, security |
 | [to-spec](../../skills/dileep-kishore/zendots/dot_agents/skills/to-spec/README.md) | `dot_agents/skills/to-spec` | 100 | 100 | content, design, documentation, engineering, productivity, testing |
+| [unslop](../../skills/dileep-kishore/zendots/dot_agents/skills/unslop/README.md) | `dot_agents/skills/unslop` | 100 | 100 | commerce, content, data, documentation, engineering, productivity |

@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 346
+Published Skills: 347
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -183,6 +183,7 @@ Published Skills: 346
 | [recall](../skills/dileep-kishore/zendots/dot_agents/skills/recall/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when the user asks to recall, catch up on, or reconstruct where earlier Claude Code or Codex sessions left off on a project or topic before resuming work. |
 | [show-me-your-work](../skills/dileep-kishore/zendots/dot_agents/skills/show-me-your-work/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use for long-running, unattended, or multi-phase work that a human reviews after stepping away, or when the user asks for a decision trail or audit log. Keeps one append-only TSV with a row per decision (what, why, evidence, result). |
 | [to-spec](../skills/dileep-kishore/zendots/dot_agents/skills/to-spec/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when the user asks to turn the current conversation, plan, or notes into a spec without another interview. Synthesizes what is already known into a local spec file. |
+| [unslop](../skills/dileep-kishore/zendots/dot_agents/skills/unslop/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Cut AI tells from assistant-authored natural-language prose. Must always apply to prose, but never to code, identifiers, commands, structured data, quoted text, or exact strings. |
 | [agentic](../skills/dpatel-93/alfred/skills/agentic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Conversational AI-first interface with minimal controls, clear outcomes, and delegated task flows for agentic workflows. |
 | [artistic](../skills/dpatel-93/alfred/skills/artistic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-contrast, expressive style with creative typography and bold color choices for visually striking interfaces. |
 | [assemble](../skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Compose a task-specific agent, or a small organ of agents, at the moment of need — with an explicit role, scope, named skills, a done-test and an evidence tier — instead of routing to a standing agent definition. Use when a task needs delegating but no chartered agent fits cleanly, when the work spans two surfaces that no single owner covers, when a one-off specialty is needed that does not deserve a permanent charter, or when the operator says "spin up an agent for this". Do NOT use when a chartered agent already owns the surface — route to that owner instead. |

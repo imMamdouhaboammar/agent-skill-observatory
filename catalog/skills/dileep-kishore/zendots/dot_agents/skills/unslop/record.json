@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "89d23784307fff2655a34ac1e56f538e36d3839faff8e46b0507dff8d598e039",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/unslop",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "89d23784307fff2655a34ac1e56f538e36d3839faff8e46b0507dff8d598e039",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/unslop",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1b942fba94932494dc0f3e208c6df42f54491c23086a87f731e7a6350ca788ab",
+    "description": "Cut AI tells from assistant-authored natural-language prose. Must always apply\nto prose, but never to code, identifiers, commands, structured data, quoted\ntext, or exact strings.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "engineering",
+        "content",
+        "documentation",
+        "productivity",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/unslop/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "unslop",
+    "path": "dot_agents/skills/unslop",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b65050015109dd58d4d36c32ad66ff4a9cdb87f6163fc96f0c8a892b086fdb2c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "b65050015109dd58d4d36c32ad66ff4a9cdb87f6163fc96f0c8a892b086fdb2c"
+}
