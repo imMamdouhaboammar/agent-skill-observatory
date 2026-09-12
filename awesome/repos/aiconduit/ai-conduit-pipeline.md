@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 49
+Published Skills: 50
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=49, 60-84=0, <60=0
+Security distribution: 85+=50, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -58,3 +58,4 @@ Security distribution: 85+=49, 60-84=0, <60=0
 | [threejs-lighting](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-lighting/README.md) | `.agents/skills/threejs-lighting` | 100 | 100 | content, media, research |
 | [threejs-materials](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-materials/README.md) | `.agents/skills/threejs-materials` | 100 | 100 | engineering, media |
 | [threejs-postprocessing](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | `.agents/skills/threejs-postprocessing` | 100 | 100 | design, media, mobile, testing |
+| [threejs-shaders](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-shaders/README.md) | `.agents/skills/threejs-shaders` | 100 | 100 | content, data, design, engineering, media |
