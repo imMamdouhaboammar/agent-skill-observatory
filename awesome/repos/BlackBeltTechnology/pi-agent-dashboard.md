@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 25
+Published Skills: 26
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=25, 60-84=0, <60=0
+Security distribution: 85+=26, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -33,4 +33,5 @@ Security distribution: 85+=25, 60-84=0, <60=0
 | [scenario-design](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/scenario-design/README.md) | `packages/eng-disciplines/.pi/skills/scenario-design` | 100 | 100 | browser-automation, commerce, content, design, engineering, testing |
 | [skill-to-subagent](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/authoring-toolkit/.pi/skills/skill-to-subagent/README.md) | `packages/authoring-toolkit/.pi/skills/skill-to-subagent` | 100 | 100 | agent-orchestration, content, design, marketing, research, security |
 | [systematic-debugging](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/systematic-debugging/README.md) | `packages/eng-disciplines/.pi/skills/systematic-debugging` | 100 | 100 | content, engineering, hr-recruiting, productivity, research, testing |
+| [tailwind-shadcn](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/tailwind-shadcn/README.md) | `packages/frontend-patterns/.pi/skills/tailwind-shadcn` | 100 | 100 | content, data, design, media, mobile |
 | [theme-system](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/theme-system/README.md) | `.pi/skills/theme-system` | 100 | 100 | data, design, integrations |
