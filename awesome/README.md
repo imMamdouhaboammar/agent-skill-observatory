@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **637**
-Repositories: **69**
+Published skills: **638**
+Repositories: **70**
 
 ## Browse repositories
 
@@ -28,6 +28,7 @@ Repositories: **69**
 - [Hoshock/HolodoriOptimizer](./repos/Hoshock/HolodoriOptimizer.md)
 - [a-lottes/aSPARK](./repos/a-lottes/aSPARK.md)
 - [a620906209/ticket-hub](./repos/a620906209/ticket-hub.md)
+- [aaronjmars/aeon-agent](./repos/aaronjmars/aeon-agent.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [agentconnect-md/agentconnect](./repos/agentconnect-md/agentconnect.md)
@@ -134,6 +135,7 @@ Repositories: **69**
 - [openspec-archive-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-archive-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-archive-change`
 - [openspec-explore](./skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-explore`
 - [openspec-propose](./skills/a620906209/ticket-hub/.claude/skills/openspec-propose/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-propose`
+- [action-converter](./skills/aaronjmars/aeon-agent/skills/action-converter/README.md) · `aaronjmars/aeon-agent:skills/action-converter`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`

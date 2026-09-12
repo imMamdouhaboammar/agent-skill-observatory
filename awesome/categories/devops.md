@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 145
+Published Skills: 146
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -75,6 +75,7 @@ Published Skills: 145
 | [topics](../skills/commontoolsinc/labs/skills/topics/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Interact with the Common Fabric team's Topics board on Estuary through the Labs cf CLI. Use when reading, creating, or updating Topics; posting Topic progress comments; attaching pull request links; or adding references between Topics. |
 | [pipeline-context](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/pipeline-context/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Load context for pipeline, cron, Lambda, OCR, and translation work. Use when starting any pipeline monitoring, debugging, or processing task. |
 | [promote-lessons](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/promote-lessons/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Sweep Claude's private per-machine memory for team-relevant operational knowledge and propose moving it into the shared repo (or the private ops repo) as draft PRs. Use to promote lessons that accreted privately, or run on a schedule. Never auto-merges; never leaks. |
+| [action-converter](../skills/aaronjmars/aeon-agent/skills/action-converter/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | 5 concrete real-life actions, leverage-scored against open loops with specificity and anti-fluff gates |
 | [cron-scheduler](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cron-scheduler/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Schedule and manage automated tasks with cron expressions - create recurring jobs, one-time tasks, natural language scheduling, and cross-platform timer management |
 | [docker-compose-generator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/docker-compose-generator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Generate Docker Compose configurations for development environments - auto-detect project stack, configure services with dependencies, volumes, networking, and health checks |
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |
