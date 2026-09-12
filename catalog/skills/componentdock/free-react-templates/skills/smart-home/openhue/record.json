@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "ba23c288ed7260a6daa6f5d275cfff41cc6e562ccd83840a594d10486422c746",
+  "canonical_key": "componentdock/free-react-templates:skills/smart-home/openhue",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ba23c288ed7260a6daa6f5d275cfff41cc6e562ccd83840a594d10486422c746",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/smart-home/openhue",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d9abf48ade97e14e127073d1f22f5be409a652387dbb0bc8c45b8242828ac031",
+    "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "other"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/smart-home/openhue/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['Smart-Home', 'Hue', 'Lights', 'IoT', 'Automation'], 'homepage': 'https://www.openhue.io/cli'}"
+    },
+    "name": "openhue",
+    "path": "skills/smart-home/openhue",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a56948f4da28661ddf11c19a2e51a17cbd3c52947c5e79fab0325b7aac1cc9b2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "a56948f4da28661ddf11c19a2e51a17cbd3c52947c5e79fab0325b7aac1cc9b2"
+}

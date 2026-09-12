@@ -1,6 +1,6 @@
 # other
 
-Published Skills: 7
+Published Skills: 8
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -9,5 +9,6 @@ Published Skills: 7
 | [structure-import](../skills/Hoshock/HolodoriOptimizer/.claude/skills/structure-import/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: 『hololive Dreams』のゲーム内「メンバー一覧」スクリーンショットから、所持している★5カードと開花段階を読み取り、ホロドリ編成お助けツールへ貼り付けて取り込めるJSONを作る。 Use when: ユーザーがメンバー一覧のスクリーンショットを添付し、所持カードの取り込み用JSON作成を依頼したとき。 |
 | [deep-thinking](../skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) | [azerothl/akasha-os](https://github.com/azerothl/akasha-os) | 97 | 100 | 1 | Plans Deep Thinking hiérarchiques avec révision dynamique et délégation |
 | [mutual-aid-coordination](../skills/artbakerchat/Y/app/ForgeAgent/skills/mutual-aid-coordination/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 97 | 100 | 0 | Structure safe, consent-based mutual-aid requests, offers, and follow-up. |
+| [openhue](../skills/ComponentDock/free-react-templates/skills/smart-home/openhue/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Control Philips Hue lights, scenes, rooms via OpenHue CLI. |
 | [golden-three-chapters](../skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/golden-three-chapters/README.md) | [chen647208/hongyue-creation](https://github.com/chen647208/hongyue-creation) | 93 | 100 | 33 | 评估/重写网文开篇三章：钩子、金手指亮相、期待感曲线。触发词：开篇、黄金三章 |
 | [snowflake](../skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/snowflake/README.md) | [chen647208/hongyue-creation](https://github.com/chen647208/hongyue-creation) | 93 | 100 | 33 | 雪片法大纲：从一句话到完整大纲的十步展开，适合从零起书或重构大纲。触发词：雪片、大纲展开 |
