@@ -1,6 +1,6 @@
 # marketing
 
-Published Skills: 33
+Published Skills: 34
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -17,6 +17,7 @@ Published Skills: 33
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
 | [mention-radar](../skills/aaronjmars/aeon-agent/skills/mention-radar/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor external web and social mentions of the operator's active projects - surface what people are discovering, where they're confused, and where to engage |
 | [schedule-ads](../skills/aaronjmars/aeon-agent/skills/schedule-ads/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Manage paid ads on AdManage.ai from declarative config - default schedules launches across Meta/TikTok/Snapchat/Pinterest/LinkedIn (always PAUSED); create provisions Meta campaigns and ad sets. |
+| [token-movers](../skills/aaronjmars/aeon-agent/skills/token-movers/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Crypto market scanner and single-token analyst - movers scans top winners/losers/trending or on-chain runners with pump-risk flags; single-token produces a verdict-first deep report for one token. |
 | [marquee-director](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/marquee-director/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Act as PlotPickle's private Key Art & Trailer Director after Foundations, using a narrow PPF-derived Marketing Context while the host controls generation and Marketing Reference storage. |
 | [clerk-custom-ui](../skills/Gizziio/allternit-platform/.agents/skills/clerk-custom-ui/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Custom authentication flows and component appearance - hooks (useSignIn, useSignUp), themes, colors, fonts, CSS. Use for custom sign-in/sign-up flows, appearance styling, visual customization, branding. |
 | [sangokushi-2](../skills/jeong-sik/masc/skills/sangokushi-2/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Sangokushi II (Koei 1990, Japanese, 3-disk set) on the shared MSX: media set and verified origin slot, the province command menu, in-game save flow, media-change pitfalls, and one-call macros for the two verified key sequences. Apply a fact only when the visible prompt matches it. |
