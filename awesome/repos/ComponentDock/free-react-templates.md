@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 36
+Published Skills: 37
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=36, 60-84=0, <60=0
+Security distribution: 85+=37, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -40,6 +40,7 @@ Security distribution: 85+=36, 60-84=0, <60=0
 | [nano-pdf](../../skills/ComponentDock/free-react-templates/skills/productivity/nano-pdf/README.md) | `skills/productivity/nano-pdf` | 97 | 100 | ai-ml, content, design, documents, engineering |
 | [opencode](../../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | `skills/autonomous-ai-agents/opencode` | 97 | 100 | content, data, engineering, integrations, productivity, testing |
 | [openhue](../../skills/ComponentDock/free-react-templates/skills/smart-home/openhue/README.md) | `skills/smart-home/openhue` | 97 | 100 | other |
+| [plan](../../skills/ComponentDock/free-react-templates/skills/software-development/plan/README.md) | `skills/software-development/plan` | 97 | 100 | agent-orchestration, content, documentation, engineering, productivity, testing |
 | [popular-web-designs](../../skills/ComponentDock/free-react-templates/skills/creative/popular-web-designs/README.md) | `skills/creative/popular-web-designs` | 97 | 100 | content, design, engineering, marketing, media, productivity |
 | [pretext](../../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | `skills/creative/pretext` | 97 | 100 | browser-automation, content, design, documentation, engineering, media |
 | [sketch](../../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | `skills/creative/sketch` | 97 | 100 | browser-automation, content, design, documentation, engineering, productivity |

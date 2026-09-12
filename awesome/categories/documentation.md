@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 218
+Published Skills: 219
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -216,6 +216,7 @@ Published Skills: 218
 | [github-org-administration](../skills/ComponentDock/free-react-templates/skills/github/github-org-administration/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub org admin: classify and delete repos at scale. |
 | [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [humanizer](../skills/ComponentDock/free-react-templates/skills/creative/humanizer/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Humanize text: strip AI-isms and add real voice. |
+| [plan](../skills/ComponentDock/free-react-templates/skills/software-development/plan/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Write a markdown plan to .hermes/plans/; no execution. |
 | [pretext](../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Build creative browser demos with DOM-free text layout. |
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |
 | [teams-meeting-pipeline](../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Teams meeting summaries, job replay, Graph subscriptions. |

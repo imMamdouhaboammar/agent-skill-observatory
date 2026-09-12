@@ -1,6 +1,6 @@
 # agent-orchestration
 
-Published Skills: 36
+Published Skills: 37
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -40,3 +40,4 @@ Published Skills: 36
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
 | [junior-to-senior](../skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Adversarial senior-engineer review for agent-generated plans, designs, and architectures. Treats the current output as junior work, constructs a senior reviewer whose domain expertise comes from live codebase research plus web research of current best practices, diagnoses altitude failures (too vague or too granular), then rewrites the plan into a scoped, state-of-the-art version. Use when the user says "junior to senior", "senior review", "review this like a staff engineer", or explicitly requests an adversarial review of a plan. Do not invoke automatically for ordinary planning or implementation. |
 | [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |
+| [plan](../skills/ComponentDock/free-react-templates/skills/software-development/plan/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Write a markdown plan to .hermes/plans/; no execution. |

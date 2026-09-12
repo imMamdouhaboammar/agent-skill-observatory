@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **720**
+Published skills: **721**
 Repositories: **76**
 
 ## Browse repositories
@@ -632,6 +632,7 @@ Repositories: **76**
 - [openhue](./skills/componentdock/free-react-templates/skills/smart-home/openhue/README.md) · `componentdock/free-react-templates:skills/smart-home/openhue`
 - [ai-native-repo-setup](./skills/componentdock/free-react-templates/skills/software-development/ai-native-repo-setup/README.md) · `componentdock/free-react-templates:skills/software-development/ai-native-repo-setup`
 - [fallow](./skills/componentdock/free-react-templates/skills/software-development/fallow/README.md) · `componentdock/free-react-templates:skills/software-development/fallow`
+- [plan](./skills/componentdock/free-react-templates/skills/software-development/plan/README.md) · `componentdock/free-react-templates:skills/software-development/plan`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
