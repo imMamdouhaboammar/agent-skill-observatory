@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 254
+Published Skills: 255
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -54,6 +54,7 @@ Published Skills: 254
 | [atmos-diagnostics](../skills/cloudposse/atmos/agent-skills/skills/atmos-diagnostics/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos diagnostics: machine-readable JSONL event streams, diagnostics.enabled/file/include_output, subprocess start/end/output events, masking, and debugging Atmos execution |
 | [atmos-project-layout](../skills/cloudposse/atmos/agent-skills/skills/atmos-project-layout/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos project layout: base_path, relative path resolution, root stacks/components/workflows/schemas directories, atmos.d modular config, and repository path conventions |
 | [atmos-settings](../skills/cloudposse/atmos/agent-skills/skills/atmos-settings/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos global settings: settings, logs, errors, env, docs, metadata, version requirements, terminal behavior, telemetry, experimental flags, and non-subsystem atmos.yaml options |
+| [atmos-stores](../skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Store backends: AWS SSM, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, Redis, Artifactory configuration, hooks integration, cross-component data sharing, atmos store CLI CRUD, type: store workflow step |
 | [changelog](../skills/cloudposse/atmos/.claude/skills/changelog/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Blog post authoring for Atmos: MDX template, frontmatter, website/blog/tags.yml and authors.yml rules, problem-first framing, backtick-opening ban, optional cast embeds, and no-Go-internals leakage. Invoke when writing, editing, or reviewing a website/blog/*.mdx changelog post. |
 | [security-remediate](../skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open. |
 | [speckit-analyze](../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation. |

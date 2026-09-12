@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 91
+Published Skills: 92
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -26,6 +26,7 @@ Published Skills: 91
 | [atmos-aws-eks](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-eks/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS EKS commands in Atmos: atmos aws eks update-kubeconfig, atmos aws eks token, kubeconfig generation, kubectl exec credentials, EKS auth integrations |
 | [atmos-helmfile](../skills/cloudposse/atmos/agent-skills/skills/atmos-helmfile/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Helmfile orchestration: sync/apply/destroy/diff, Kubernetes deployments, varfile generation, EKS integration, source management |
 | [atmos-introspection](../skills/cloudposse/atmos/agent-skills/skills/atmos-introspection/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Introspection & Querying: describe/list commands, config filtering, workspace introspection, dependency graphs, YQ integration, --help=<topic> scoped CLI help |
+| [atmos-stores](../skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Store backends: AWS SSM, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, Redis, Artifactory configuration, hooks integration, cross-component data sharing, atmos store CLI CRUD, type: store workflow step |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
 | [speckit-git-remote](../skills/cloudposse/atmos/.claude/skills/speckit-git-remote/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Detect Git remote URL for GitHub integration |
 | [speckit-plan](../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation planning workflow using the plan template to generate design artifacts. |

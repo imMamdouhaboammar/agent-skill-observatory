@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **621**
+Published skills: **622**
 Repositories: **67**
 
 ## Browse repositories
@@ -501,6 +501,7 @@ Repositories: **67**
 - [atmos-project-layout](./skills/cloudposse/atmos/agent-skills/skills/atmos-project-layout/README.md) · `cloudposse/atmos:agent-skills/skills/atmos-project-layout`
 - [atmos-scaffold](./skills/cloudposse/atmos/agent-skills/skills/atmos-scaffold/README.md) · `cloudposse/atmos:agent-skills/skills/atmos-scaffold`
 - [atmos-settings](./skills/cloudposse/atmos/agent-skills/skills/atmos-settings/README.md) · `cloudposse/atmos:agent-skills/skills/atmos-settings`
+- [atmos-stores](./skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) · `cloudposse/atmos:agent-skills/skills/atmos-stores`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
