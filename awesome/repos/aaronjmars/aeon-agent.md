@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 8
-Categories: agent-orchestration, commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, media, product, productivity, research, security
+Published Skills: 9
+Categories: agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, media, product, productivity, research, security
 Best overall score: 100
-Security distribution: 85+=8, 60-84=0, <60=0
+Security distribution: 85+=9, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,3 +17,4 @@ Security distribution: 85+=8, 60-84=0, <60=0
 | [defi-overview](../../skills/aaronjmars/aeon-agent/skills/defi-overview/README.md) | `skills/defi-overview` | 100 | 100 | commerce, content, data, engineering, research, security |
 | [digest](../../skills/aaronjmars/aeon-agent/skills/digest/README.md) | `skills/digest` | 100 | 100 | agent-orchestration, content, data, engineering, hr-recruiting, research |
 | [distribute-tokens](../../skills/aaronjmars/aeon-agent/skills/distribute-tokens/README.md) | `skills/distribute-tokens` | 100 | 100 | commerce, content, design, engineering, productivity, security |
+| [github-trending](../../skills/aaronjmars/aeon-agent/skills/github-trending/README.md) | `skills/github-trending` | 100 | 100 | ai-ml, content, data, devops, engineering, media |
