@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "9a2196a531504adda9d7b0e2615778fe8d81eca4d0d9ca04fbc38f9bc53021b0",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/coding-standards",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9a2196a531504adda9d7b0e2615778fe8d81eca4d0d9ca04fbc38f9bc53021b0",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/coding-standards",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "be0b5f2063e9b4b1c6514889b0dc408316f7b0c7892832d10b69ec28e1389b7c",
+    "description": "Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "data",
+        "engineering",
+        "testing",
+        "content",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/coding-standards/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "coding-standards",
+    "path": "dot_agents/skills/coding-standards",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5507ff684445fede46e1499148feb35fb4f90ad9b43973edec74a567b3d980e2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "5507ff684445fede46e1499148feb35fb4f90ad9b43973edec74a567b3d980e2"
+}

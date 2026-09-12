@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 243
+Published Skills: 244
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -143,6 +143,7 @@ Published Skills: 243
 | [atm-orient](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-orient/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Inspect a repository and emit a guidance orientation report. |
 | [atm-task-intent-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing. |
 | [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
+| [coding-standards](../skills/dileep-kishore/zendots/dot_agents/skills/coding-standards/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development. |
 | [mailbox-worker-execution](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/mailbox-worker-execution/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Mailbox worker execution workflow for agents that claim dispatch cards, complete scoped work, run required checks, and report done or blocked with evidence. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |

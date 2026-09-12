@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 281
+Published Skills: 282
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -157,6 +157,7 @@ Published Skills: 281
 | [atm-orient](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-orient/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Inspect a repository and emit a guidance orientation report. |
 | [atm-task-intent-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing. |
 | [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
+| [coding-standards](../skills/dileep-kishore/zendots/dot_agents/skills/coding-standards/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development. |
 | [ant](../skills/dpatel-93/alfred/skills/ant/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Structured, enterprise-focused design system emphasizing clarity, consistency, and efficiency for data-dense web applications. |
 | [backtesting-frameworks](../skills/dpatel-93/alfred/skills/backtesting-frameworks/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |

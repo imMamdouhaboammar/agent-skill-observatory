@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 509
+Published Skills: 510
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -277,6 +277,7 @@ Published Skills: 509
 | [atm-orient](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-orient/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Inspect a repository and emit a guidance orientation report. |
 | [atm-task-intent-resolver](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-task-intent-resolver/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing. |
 | [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
+| [coding-standards](../skills/dileep-kishore/zendots/dot_agents/skills/coding-standards/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development. |
 | [mailbox-worker-execution](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/mailbox-worker-execution/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Mailbox worker execution workflow for agents that claim dispatch cards, complete scoped work, run required checks, and report done or blocked with evidence. |
 | [sf-integration-rules](../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 100 | 100 | 3 | Integration grammar router — invoke when adding a backend module, a frontend page, an API endpoint, a React Query hook, a form, an RBAC permission, or any cross-cutting wire-up in a SaaSFoundryAI-generated project. Triggers on phrases like "add a module", "add a page", "wire RBAC", "add a hook", "add a form", "add an endpoint", "add a Prisma model", "add an entity", "scaffold a CRUD", "create a controller". |
 | [agent-builder](../skills/dpatel-93/alfred/skills/agent-builder/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Scaffolds a new Alfred org agent (VP, manager, or employee) that satisfies the full charter contract in skills/orgagent/references/ORG.md §4 and passes helpers/validate-org.mjs on the first run — not a rough draft to be fixed up later. Use when a real, recurring workload has no owner in the current org (a genuine capability gap, not just "this would be nice"), when adding a new department under an existing VP, or when the CEO says "we need an agent for X." Do NOT use for one-off tasks that fit an existing agent, or for framework-level meta-skills (those are just skills, not agents — see the `skill-builder` skill instead). |

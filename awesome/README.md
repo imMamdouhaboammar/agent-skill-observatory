@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **802**
+Published skills: **803**
 Repositories: **91**
 
 ## Browse repositories
@@ -747,6 +747,7 @@ Repositories: **91**
 - [wait-for-ci](./skills/digitallyinduced/haskell-agent/packages/agent-cli/skills/wait-for-ci/README.md) · `digitallyinduced/haskell-agent:packages/agent-cli/skills/wait-for-ci`
 - [article-writing](./skills/dileep-kishore/zendots/dot_agents/skills/article-writing/README.md) · `dileep-kishore/zendots:dot_agents/skills/article-writing`
 - [babysit-pr](./skills/dileep-kishore/zendots/dot_agents/skills/babysit-pr/README.md) · `dileep-kishore/zendots:dot_agents/skills/babysit-pr`
+- [coding-standards](./skills/dileep-kishore/zendots/dot_agents/skills/coding-standards/README.md) · `dileep-kishore/zendots:dot_agents/skills/coding-standards`
 - [check-policy-drift](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-policy/skills/check-policy-drift/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-policy/skills/check-policy-drift`
 - [orchestrator](./skills/dkj-solutions/dkj-claude-plugins/plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator/README.md) · `dkj-solutions/dkj-claude-plugins:plugins/dkj-subagents/dkj-subagents-alpha/skills/orchestrator`
 - [assemble](./skills/dpatel-93/alfred/_archive/2026-08-14-icm/skills/assemble/README.md) · `dpatel-93/alfred:_archive/2026-08-14-icm/skills/assemble`
