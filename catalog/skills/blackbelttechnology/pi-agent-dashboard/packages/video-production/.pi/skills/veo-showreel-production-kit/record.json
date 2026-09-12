@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "d29993900093ca1970668204374be6ada398bd5afeabb9b7dce5f8cefe400e35",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/video-production/.pi/skills/veo-showreel-production-kit",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d29993900093ca1970668204374be6ada398bd5afeabb9b7dce5f8cefe400e35",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/video-production/.pi/skills/veo-showreel-production-kit",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "23f6f0f5e0fd04f2b88d7ce75170a1f40755c892c5e05d484a35884f85838191",
+    "description": "Turn a video timeline + voiceover into a reproducible, sliceable Veo 3.1 prompt package with a consistency anchor and AI storyboard sketches.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "media",
+        "content",
+        "legal-compliance",
+        "commerce",
+        "data",
+        "documentation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/video-production/.pi/skills/veo-showreel-production-kit/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "veo-showreel-production-kit",
+    "path": "packages/video-production/.pi/skills/veo-showreel-production-kit",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f808ee7be06d0ee70d84d57e9b5b68fba7e2d7eb96948259150c97f79b60dcb6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "f808ee7be06d0ee70d84d57e9b5b68fba7e2d7eb96948259150c97f79b60dcb6"
+}

@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 35
+Published Skills: 36
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=35, 60-84=0, <60=0
+Security distribution: 85+=36, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -43,4 +43,5 @@ Security distribution: 85+=35, 60-84=0, <60=0
 | [theme-system](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/theme-system/README.md) | `.pi/skills/theme-system` | 100 | 100 | data, design, integrations |
 | [typescript-strict](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/typescript-strict/README.md) | `packages/frontend-patterns/.pi/skills/typescript-strict` | 100 | 100 | data, integrations |
 | [veo-generator](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/video-production/.pi/skills/veo-generator/README.md) | `packages/video-production/.pi/skills/veo-generator` | 100 | 100 | commerce, content, design, engineering, media, productivity |
+| [veo-showreel-production-kit](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/video-production/.pi/skills/veo-showreel-production-kit/README.md) | `packages/video-production/.pi/skills/veo-showreel-production-kit` | 100 | 100 | commerce, content, data, documentation, legal-compliance, media |
 | [zod-react-hook-form](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/zod-react-hook-form/README.md) | `packages/frontend-patterns/.pi/skills/zod-react-hook-form` | 100 | 100 | data, design, engineering, integrations, localization, media |
