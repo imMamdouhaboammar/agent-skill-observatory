@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "9fb883843ffffa98f4437c32bc7b651a4539144fe8ab747e47ef919fcf1ecb10",
+  "canonical_key": "aaronjmars/aeon-agent:skills/heartbeat",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9fb883843ffffa98f4437c32bc7b651a4539144fe8ab747e47ef919fcf1ecb10",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/heartbeat",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "026dfae5495cfe430421107249814da16520e28d06db1d5dce6b02ca5a048415",
+    "description": "Ambient fleet-health check that surfaces anything worth attention (default), or an on-demand priority brief - the 3 things to focus on, why now, and what moved (var=brief)",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "engineering",
+        "hr-recruiting",
+        "research",
+        "security",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/heartbeat/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "core",
+      "requires": "['RESEND_API_KEY?']",
+      "tags": "['meta']",
+      "title": "Heartbeat",
+      "var": ""
+    },
+    "name": "heartbeat",
+    "path": "skills/heartbeat",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "295db9425a29b23c65e80544015e49a479baa3a05e035d54e1408ebb21817fe3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "295db9425a29b23c65e80544015e49a479baa3a05e035d54e1408ebb21817fe3"
+}
