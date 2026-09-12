@@ -1,6 +1,6 @@
 # marketing
 
-Published Skills: 38
+Published Skills: 39
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -41,4 +41,5 @@ Published Skills: 38
 | [claude-design](../skills/ComponentDock/free-react-templates/skills/creative/claude-design/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Design one-off HTML artifacts (landing, deck, prototype). |
 | [design-md](../skills/ComponentDock/free-react-templates/skills/creative/design-md/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Author/validate/export Google's DESIGN.md token spec files. |
 | [popular-web-designs](../skills/ComponentDock/free-react-templates/skills/creative/popular-web-designs/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS. |
+| [vite-react-tailwind-scaffolding](../skills/ComponentDock/free-react-templates/skills/software-development/vite-react-tailwind-scaffolding/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Scaffold Vite+React+Tailwind TS apps and monorepos. |
 | [public-copy-release-guard](../skills/ChronoAIProject/nyx-skills/public-copy-release-guard/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Portable checklist for gating public-facing copy before release. Use when captions, posts, manifests, topics, titles, or launch copy must be checked for generic AI wording, leaked internal labels, forbidden experiment or tool names, platform topic allowlists, CTA spam, and unsupported overclaims. |

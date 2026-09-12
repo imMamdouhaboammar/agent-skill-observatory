@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 529
+Published Skills: 530
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -483,6 +483,7 @@ Published Skills: 529
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |
 | [teams-meeting-pipeline](../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Teams meeting summaries, job replay, Graph subscriptions. |
 | [test-driven-development](../skills/ComponentDock/free-react-templates/skills/software-development/test-driven-development/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | TDD: enforce RED-GREEN-REFACTOR, tests before code. |
+| [vite-react-tailwind-scaffolding](../skills/ComponentDock/free-react-templates/skills/software-development/vite-react-tailwind-scaffolding/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Scaffold Vite+React+Tailwind TS apps and monorepos. |
 | [angular-developer](../skills/angular/skills/angular-developer/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling. |
 | [angular-new-app](../skills/angular/skills/angular-new-app/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application. |
 | [agent-native-design](../skills/Agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 93 | 100 | 44 | Use when designing, reviewing, or refactoring a CLI that must serve AI agents alongside humans, or when converting an API or SDK into an agent-usable CLI interface. |

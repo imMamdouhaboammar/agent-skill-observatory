@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 286
+Published Skills: 287
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -254,6 +254,7 @@ Published Skills: 286
 | [simplify-code](../skills/ComponentDock/free-react-templates/skills/software-development/simplify-code/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Parallel 4-agent cleanup of recent code changes. |
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |
 | [test-driven-development](../skills/ComponentDock/free-react-templates/skills/software-development/test-driven-development/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | TDD: enforce RED-GREEN-REFACTOR, tests before code. |
+| [vite-react-tailwind-scaffolding](../skills/ComponentDock/free-react-templates/skills/software-development/vite-react-tailwind-scaffolding/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Scaffold Vite+React+Tailwind TS apps and monorepos. |
 | [angular-developer](../skills/angular/skills/angular-developer/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling. |
 | [building-hybrid-game-assets](../skills/jhonatan-oliveiradev/agent-skills/skills/building-hybrid-game-assets/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 96 | 100 | 1 | Use when a game needs a practical pipeline combining generated, hand-authored, 2D, 3D, procedural, or purchased assets while keeping visual consistency, runtime constraints, and iteration speed under control. |
 | [chatgpt-image-short-video](../skills/ChronoAIProject/nyx-skills/chatgpt-image-short-video/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Method for producing short vertical videos from ChatGPT image generation through a fixed browser tab, local TTS narration, timed subtitle burn-in, cover exports, and a manifest. Use when an operator needs a reproducible image-to-short workflow with pinned session consistency, per-beat visual prompts, 1080x1920 safe-area rules, local ffmpeg/PIL assembly, and private access kept outside the skill. |

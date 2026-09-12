@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 41
+Published Skills: 42
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=41, 60-84=0, <60=0
+Security distribution: 85+=42, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -50,3 +50,4 @@ Security distribution: 85+=41, 60-84=0, <60=0
 | [spike](../../skills/ComponentDock/free-react-templates/skills/software-development/spike/README.md) | `skills/software-development/spike` | 97 | 100 | agent-orchestration, ai-ml, documentation, integrations, productivity, research |
 | [teams-meeting-pipeline](../../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | `skills/productivity/teams-meeting-pipeline` | 97 | 100 | documentation, engineering, integrations, productivity, testing |
 | [test-driven-development](../../skills/ComponentDock/free-react-templates/skills/software-development/test-driven-development/README.md) | `skills/software-development/test-driven-development` | 97 | 100 | agent-orchestration, commerce, content, design, engineering, testing |
+| [vite-react-tailwind-scaffolding](../../skills/ComponentDock/free-react-templates/skills/software-development/vite-react-tailwind-scaffolding/README.md) | `skills/software-development/vite-react-tailwind-scaffolding` | 97 | 100 | content, design, documentation, engineering, marketing, media |
