@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 27
+Published Skills: 28
 Categories: agent-orchestration, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=27, 60-84=0, <60=0
+Security distribution: 85+=28, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -36,3 +36,4 @@ Security distribution: 85+=27, 60-84=0, <60=0
 | [popular-web-designs](../../skills/ComponentDock/free-react-templates/skills/creative/popular-web-designs/README.md) | `skills/creative/popular-web-designs` | 97 | 100 | content, design, engineering, marketing, media, productivity |
 | [pretext](../../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | `skills/creative/pretext` | 97 | 100 | browser-automation, content, design, documentation, engineering, media |
 | [sketch](../../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | `skills/creative/sketch` | 97 | 100 | browser-automation, content, design, documentation, engineering, productivity |
+| [songsee](../../skills/ComponentDock/free-react-templates/skills/media/songsee/README.md) | `skills/media/songsee` | 97 | 100 | media |
