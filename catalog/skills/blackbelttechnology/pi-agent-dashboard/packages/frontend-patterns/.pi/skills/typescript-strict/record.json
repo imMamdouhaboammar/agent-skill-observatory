@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "8a2d6b013bb92de4c3c75fb0843e9283e160069271e4b29b6c58f09c6581e011",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/typescript-strict",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8a2d6b013bb92de4c3c75fb0843e9283e160069271e4b29b6c58f09c6581e011",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/typescript-strict",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2802dee48a97f62a5e36a510796b815750e286950c6be5b178abe2387fd79b5e",
+    "description": "TypeScript strict mode patterns with interfaces, type guards, generics, and utility types. Use when defining types, creating type-safe functions, handling nullable values, or implementing generic components.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "data",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/typescript-strict/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "typescript-strict",
+    "path": "packages/frontend-patterns/.pi/skills/typescript-strict",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "069dd5303043984b7cfe804f5c6a25fbfc96cdac2fa45a8fb3d935e32c4a1270",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "069dd5303043984b7cfe804f5c6a25fbfc96cdac2fa45a8fb3d935e32c4a1270"
+}

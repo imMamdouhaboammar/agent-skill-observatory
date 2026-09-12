@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **507**
+Published skills: **508**
 Repositories: **61**
 
 ## Browse repositories
@@ -308,6 +308,7 @@ Repositories: **61**
 - [component-architecture](./skills/blackbelttechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/component-architecture/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/component-architecture`
 - [responsive-mobile-first](./skills/blackbelttechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/responsive-mobile-first/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/responsive-mobile-first`
 - [tailwind-shadcn](./skills/blackbelttechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/tailwind-shadcn/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/tailwind-shadcn`
+- [typescript-strict](./skills/blackbelttechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/typescript-strict/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/frontend-patterns/.pi/skills/typescript-strict`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
