@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 238
+Published Skills: 239
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -118,6 +118,7 @@ Published Skills: 238
 | [idea-forge](../skills/aaronjmars/aeon-agent/skills/idea-forge/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Three-mode idea engine - generate collides the week's zeitgeist with what you can ship into scored wedges; validate viability-screens the idea backlog; memo writes evidence-backed startup memos. |
 | [memory-insights](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Knowledge base analytics and health monitoring - file statistics, health scoring, keyword extraction, activity trends, gap detection, and comprehensive reporting |
 | [mention-radar](../skills/aaronjmars/aeon-agent/skills/mention-radar/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor external web and social mentions of the operator's active projects - surface what people are discovering, where they're confused, and where to engage |
+| [monitor-polymarket](../skills/aaronjmars/aeon-agent/skills/monitor-polymarket/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor Polymarket and/or Kalshi prediction markets for 24h price moves, volume changes, fresh comments, and high-conviction alerts |
 | [notion](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace |
 | [remotion-video](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Create programmatic videos with React using Remotion - generate animations, compositions, text effects, transitions, captions, and render MP4 videos from code |
 | [weather](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Weather queries - get current weather, forecasts, and weather alerts for any location worldwide |

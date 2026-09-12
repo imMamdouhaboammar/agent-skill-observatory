@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 402
+Published Skills: 403
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -192,6 +192,7 @@ Published Skills: 402
 | [hunter-22](../skills/aaronjmars/aeon-agent/skills/hunter-22/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Scan the ClawHunter agent bounty marketplace for opportunities that genuinely match this agent's real capabilities (code, security research, writing) and surface only real matches — never a raw unfiltered dump. When a match is real audit-shaped work with a linked GitHub repo, the notification carries a one-tap button to dispatch vuln-scanner at it directly. |
 | [idea-forge](../skills/aaronjmars/aeon-agent/skills/idea-forge/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Three-mode idea engine - generate collides the week's zeitgeist with what you can ship into scored wedges; validate viability-screens the idea backlog; memo writes evidence-backed startup memos. |
 | [mention-radar](../skills/aaronjmars/aeon-agent/skills/mention-radar/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor external web and social mentions of the operator's active projects - surface what people are discovering, where they're confused, and where to engage |
+| [monitor-polymarket](../skills/aaronjmars/aeon-agent/skills/monitor-polymarket/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Monitor Polymarket and/or Kalshi prediction markets for 24h price moves, volume changes, fresh comments, and high-conviction alerts |
 | [news-monitor](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Monitor news feeds, tech blogs, and competitive intelligence sources - track keywords, summarize articles, detect trends, and deliver digests on schedule |
 | [notion](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace |
 | [obsidian](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Obsidian vault operations - create notes, search vault, manage tags, link notes, and sync with Obsidian markdown files |

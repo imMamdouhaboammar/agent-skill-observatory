@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 14
+Published Skills: 15
 Categories: agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, marketing, media, product, productivity, project-management, research, security
 Best overall score: 100
-Security distribution: 85+=14, 60-84=0, <60=0
+Security distribution: 85+=15, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -23,3 +23,4 @@ Security distribution: 85+=14, 60-84=0, <60=0
 | [idea-forge](../../skills/aaronjmars/aeon-agent/skills/idea-forge/README.md) | `skills/idea-forge` | 100 | 100 | content, data, engineering, hr-recruiting, project-management, research |
 | [investigation-report](../../skills/aaronjmars/aeon-agent/skills/investigation-report/README.md) | `skills/investigation-report` | 100 | 100 | devops, engineering, finance, hr-recruiting, research, security |
 | [mention-radar](../../skills/aaronjmars/aeon-agent/skills/mention-radar/README.md) | `skills/mention-radar` | 100 | 100 | content, data, documentation, engineering, marketing, product |
+| [monitor-polymarket](../../skills/aaronjmars/aeon-agent/skills/monitor-polymarket/README.md) | `skills/monitor-polymarket` | 100 | 100 | commerce, content, data, engineering, finance, research |
