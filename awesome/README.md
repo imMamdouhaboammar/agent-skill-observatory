@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **476**
-Repositories: **58**
+Published skills: **477**
+Repositories: **59**
 
 ## Browse repositories
 
@@ -22,6 +22,7 @@ Repositories: **58**
 - [Embassy-of-the-Free-Mind/sourcelibrary-v2](./repos/Embassy-of-the-Free-Mind/sourcelibrary-v2.md)
 - [Gizziio/allternit-platform](./repos/Gizziio/allternit-platform.md)
 - [Hoshock/HolodoriOptimizer](./repos/Hoshock/HolodoriOptimizer.md)
+- [a620906209/ticket-hub](./repos/a620906209/ticket-hub.md)
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
@@ -109,6 +110,7 @@ Repositories: **58**
 - [make-repo-contribution](./skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) · `707734712/agents-in-sdlc:.github/skills/make-repo-contribution`
 - [publish-to-pages](./skills/707734712/agents-in-sdlc/.github/skills/publish-to-pages/README.md) · `707734712/agents-in-sdlc:.github/skills/publish-to-pages`
 - [update-markdown-file-index](./skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) · `707734712/agents-in-sdlc:.github/skills/update-markdown-file-index`
+- [openspec-apply-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-apply-change`
 - [exalere-contributor](./skills/abhishekrazy/exalere/.agents/skills/exalere-contributor/README.md) · `abhishekrazy/exalere:.agents/skills/exalere-contributor`
 - [magents](./skills/abnegate/magents/plugins/claude/skills/magents/README.md) · `abnegate/magents:plugins/claude/skills/magents`
 - [afaro-drop-submit](./skills/afaro-ai/afaro/skills/afaro-drop-submit/README.md) · `afaro-ai/afaro:skills/afaro-drop-submit`

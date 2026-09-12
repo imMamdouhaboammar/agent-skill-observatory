@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "d39ca37e6db15704b7df56e2fc711dae6fe2eb3c4241e16f361fd86433f90439",
+  "canonical_key": "a620906209/ticket-hub:.claude/skills/openspec-apply-change",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d39ca37e6db15704b7df56e2fc711dae6fe2eb3c4241e16f361fd86433f90439",
+    "archived": false,
+    "canonical_key": "a620906209/ticket-hub:.claude/skills/openspec-apply-change",
+    "compatibility": "Requires openspec CLI.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "679533b52454c3ee7a105a542243f232ec9bc0c041814b67cc4c874f0776899a",
+    "description": "Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "design",
+        "documentation",
+        "engineering",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/a620906209/ticket-hub/blob/master/.claude/skills/openspec-apply-change/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:07:57.744468Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:07:57.744468Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "openspec",
+      "generatedBy": "1.3.1",
+      "version": "1.0"
+    },
+    "name": "openspec-apply-change",
+    "path": ".claude/skills/openspec-apply-change",
+    "pushed_at": "2026-09-12T11:03:57Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "a620906209/ticket-hub",
+    "repo_url": "https://github.com/a620906209/ticket-hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b8c76b9a3b349065ffcd5b5738f3270ec8c039266ffbd6a50b4fd47914ad5ea6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "b8c76b9a3b349065ffcd5b5738f3270ec8c039266ffbd6a50b4fd47914ad5ea6"
+}
