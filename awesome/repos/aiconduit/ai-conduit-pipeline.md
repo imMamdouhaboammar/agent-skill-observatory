@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 55
+Published Skills: 56
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=55, 60-84=0, <60=0
+Security distribution: 85+=56, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -64,3 +64,4 @@ Security distribution: 85+=55, 60-84=0, <60=0
 | [vercel-react-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/vercel-react-best-practices/README.md) | `.agents/skills/vercel-react-best-practices` | 100 | 100 | browser-automation, content, data, engineering, media |
 | [video-download](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/video-download/README.md) | `.agents/skills/video-download` | 100 | 100 | content, engineering, media |
 | [video-translate](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/video-translate/README.md) | `.agents/skills/video-translate` | 100 | 100 | content, data, engineering, integrations, localization, media |
+| [web-design-guidelines](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/web-design-guidelines/README.md) | `.agents/skills/web-design-guidelines` | 100 | 100 | content, design, engineering, legal-compliance, research, security |
