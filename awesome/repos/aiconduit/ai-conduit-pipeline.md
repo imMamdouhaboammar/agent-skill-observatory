@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 35
+Published Skills: 36
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=35, 60-84=0, <60=0
+Security distribution: 85+=36, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -44,3 +44,4 @@ Security distribution: 85+=35, 60-84=0, <60=0
 | [music](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/music/README.md) | `.agents/skills/music` | 100 | 100 | content, documentation, engineering, media |
 | [pose-library-design](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/pose-library-design/README.md) | `.agents/skills/pose-library-design` | 100 | 100 | data, design, documentation |
 | [remotion-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/remotion-best-practices/README.md) | `.agents/skills/remotion-best-practices` | 100 | 100 | ai-ml, browser-automation, content, data, design, media |
+| [seedance-2-0](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/seedance-2-0/README.md) | `.agents/skills/seedance-2-0` | 100 | 100 | content, design, devops, documentation, media, product |

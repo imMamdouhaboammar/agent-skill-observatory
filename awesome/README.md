@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **437**
+Published skills: **438**
 Repositories: **53**
 
 ## Browse repositories
@@ -172,6 +172,7 @@ Repositories: **53**
 - [music](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/music/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/music`
 - [pose-library-design](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/pose-library-design/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/pose-library-design`
 - [remotion-best-practices](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/remotion-best-practices/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/remotion-best-practices`
+- [seedance-2-0](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/seedance-2-0/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/seedance-2-0`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
