@@ -2,16 +2,17 @@
 
 Repository: [https://github.com/danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work)
 
-Published Skills: 12
+Published Skills: 13
 Categories: agent-orchestration, browser-automation, code-review, content, data, design, documentation, documents, education, engineering, integrations, legal-compliance, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [brainstorming](../../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | `core/resource/home/skills/brainstorming` | 100 | 100 | content, data, design, documentation, engineering, productivity |
 | [browser](../../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | `core/resource/plugins/browser/skills/browser` | 100 | 100 | browser-automation, content, design, documentation, engineering, productivity |
 | [computer-use](../../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | `core/resource/plugins/computer/skills/computer-use` | 100 | 100 | design, legal-compliance, media, productivity, security |
+| [danmo-make](../../skills/danmo-ai/danmo-work/core/resource/plugins/danmo-make/skills/danmo-make/README.md) | `core/resource/plugins/danmo-make/skills/danmo-make` | 100 | 100 | integrations, media, productivity |
 | [debugging](../../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | `core/resource/home/skills/debugging` | 100 | 100 | content, data, engineering, productivity, research, testing |
 | [deep-research](../../skills/danmo-ai/danmo-work/core/resource/home/skills/deep-research/README.md) | `core/resource/home/skills/deep-research` | 100 | 100 | content, documentation, research |
 | [document-writing](../../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | `core/resource/home/skills/document-writing` | 100 | 100 | content, data, design, documentation, documents, productivity |
