@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 454
+Published Skills: 455
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -418,6 +418,7 @@ Published Skills: 454
 | [react-vite-quality-tooling](../skills/ComponentDock/free-react-templates/skills/software-development/react-vite-quality-tooling/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | React/Vite quality tooling: Vitest, Tailwind v4, husky. |
 | [simplify-code](../skills/ComponentDock/free-react-templates/skills/software-development/simplify-code/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Parallel 4-agent cleanup of recent code changes. |
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |
+| [test-driven-development](../skills/ComponentDock/free-react-templates/skills/software-development/test-driven-development/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | TDD: enforce RED-GREEN-REFACTOR, tests before code. |
 | [angular-developer](../skills/angular/skills/angular-developer/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling. |
 | [angular-new-app](../skills/angular/skills/angular-new-app/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application. |
 | [chatgpt-image-short-video](../skills/ChronoAIProject/nyx-skills/chatgpt-image-short-video/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Method for producing short vertical videos from ChatGPT image generation through a fixed browser tab, local TTS narration, timed subtitle burn-in, cover exports, and a manifest. Use when an operator needs a reproducible image-to-short workflow with pinned session consistency, per-beat visual prompts, 1080x1920 safe-area rules, local ffmpeg/PIL assembly, and private access kept outside the skill. |

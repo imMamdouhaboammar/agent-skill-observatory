@@ -1,6 +1,6 @@
 # agent-orchestration
 
-Published Skills: 39
+Published Skills: 40
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -43,3 +43,4 @@ Published Skills: 39
 | [plan](../skills/ComponentDock/free-react-templates/skills/software-development/plan/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Write a markdown plan to .hermes/plans/; no execution. |
 | [simplify-code](../skills/ComponentDock/free-react-templates/skills/software-development/simplify-code/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Parallel 4-agent cleanup of recent code changes. |
 | [spike](../skills/ComponentDock/free-react-templates/skills/software-development/spike/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway experiments to validate an idea before build. |
+| [test-driven-development](../skills/ComponentDock/free-react-templates/skills/software-development/test-driven-development/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | TDD: enforce RED-GREEN-REFACTOR, tests before code. |
