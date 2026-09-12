@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 202
+Published Skills: 203
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -94,6 +94,7 @@ Published Skills: 202
 | [pipeline-context](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/pipeline-context/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Load context for pipeline, cron, Lambda, OCR, and translation work. Use when starting any pipeline monitoring, debugging, or processing task. |
 | [scholarly-edition](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/scholarly-edition/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Create a DOI-ready scholarly edition of a translated book. Use when asked to publish, create an edition, mint a DOI, or prepare a book for scholarly publication. Generates front matter, creates versioned editions, builds EPUBs, and mints DOIs via Zenodo. |
 | [deepworkplan](../skills/DailybotHQ/deepworkplan-website/.agents/skills/deepworkplan/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready. |
+| [bd-radar](../skills/aaronjmars/aeon-agent/skills/bd-radar/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Business-development radar across your product family - find who's building, forking, integrating, and mentioning your products, ranked into a who-to-talk-to-this-week lead list. |
 | [commit-splitter](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/commit-splitter/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能提交拆分 - 将大量未提交变更按语义分组为原子性提交 |
 | [summarizer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/summarizer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Summarize URLs, PDFs, YouTube videos, and text content - extract key points and generate concise summaries |
 | [task-decomposer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行 |

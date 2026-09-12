@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "d61ce28c2cc521d0195c279b615960972317236cade9b5b5d31f70d799ecb5de",
+  "canonical_key": "aaronjmars/aeon-agent:skills/bd-radar",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d61ce28c2cc521d0195c279b615960972317236cade9b5b5d31f70d799ecb5de",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/bd-radar",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7cfcdc670fce031d9cc1ac4ef306ca098919d2b463fe767ba234d83a21d3d6c9",
+    "description": "Business-development radar across your product family - find who's building, forking, integrating, and mentioning your products, ranked into a who-to-talk-to-this-week lead list.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "security",
+        "content",
+        "documentation",
+        "engineering",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/bd-radar/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "category": "basics",
+      "requires": "['XAI_API_KEY?', 'GH_READ_PAT?']",
+      "tags": "['research', 'social', 'ecosystem']",
+      "title": "BD Radar",
+      "var": ""
+    },
+    "name": "bd-radar",
+    "path": "skills/bd-radar",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3c5b30776d8e6bb66dc7221b1a65bd24fcb099dd3d573c10addb0b0c99719973",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "3c5b30776d8e6bb66dc7221b1a65bd24fcb099dd3d573c10addb0b0c99719973"
+}
