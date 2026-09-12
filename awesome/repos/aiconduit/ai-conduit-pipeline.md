@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 33
+Published Skills: 34
 Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=33, 60-84=0, <60=0
+Security distribution: 85+=34, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -42,3 +42,4 @@ Security distribution: 85+=33, 60-84=0, <60=0
 | [manimce-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/manimce-best-practices/README.md) | `.agents/skills/manimce-best-practices` | 100 | 100 | content, design, documentation, engineering, media |
 | [manimgl-best-practices](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/manimgl-best-practices/README.md) | `.agents/skills/manimgl-best-practices` | 100 | 100 | ai-ml, content, engineering, media, productivity, testing |
 | [music](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/music/README.md) | `.agents/skills/music` | 100 | 100 | content, documentation, engineering, media |
+| [pose-library-design](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/pose-library-design/README.md) | `.agents/skills/pose-library-design` | 100 | 100 | data, design, documentation |
