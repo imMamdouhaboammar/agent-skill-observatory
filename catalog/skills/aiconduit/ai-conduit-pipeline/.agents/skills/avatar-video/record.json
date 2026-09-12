@@ -1,0 +1,106 @@
+{
+  "analysis_fingerprint": "80ff8adbfb657a05c1bab6eaa7fbd25d374e35eeb340bd3f64818986e45f0668",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/avatar-video",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "mcp__heygen__*"
+    ],
+    "analysis_fingerprint": "80ff8adbfb657a05c1bab6eaa7fbd25d374e35eeb340bd3f64818986e45f0668",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/avatar-video",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2bba4e8d4e67aac672c608f7e33272883deacb4bd6a0d677077e4eaf23c394b2",
+    "description": "Create AI avatar videos with precise control over avatars, voices, scripts, scenes, and backgrounds using HeyGen's v2 API. Use when: (1) Choosing a specific avatar and voice for a video, (2) Writing exact scripts for an avatar to speak, (3) Building multi-scene videos with different backgrounds per scene, (4) Creating transparent WebM videos for compositing, (5) Using talking photos as video presenters, (6) Integrating HeyGen avatars with Remotion, (7) Batch video generation with exact specs, (8) Brand-consistent production videos with precise control.\n",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "media",
+        "engineering",
+        "integrations",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/avatar-video/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 16
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "openclaw": "{'requires': {'env': ['HEYGEN_API_KEY']}, 'primaryEnv': 'HEYGEN_API_KEY'}"
+    },
+    "name": "avatar-video",
+    "path": ".agents/skills/avatar-video",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 15,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f6a9b6451f1a03185d3b656532b0590e08d95e6f69ad1c1dbf34f9f6a87f5298",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "f6a9b6451f1a03185d3b656532b0590e08d95e6f69ad1c1dbf34f9f6a87f5298"
+}
