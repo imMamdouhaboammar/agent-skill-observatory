@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 104
+Published Skills: 105
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -107,4 +107,5 @@ Published Skills: 104
 | [codex](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/codex/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenAI Codex CLI (features, PRs). |
 | [himalaya](../skills/ComponentDock/free-react-templates/skills/email/himalaya/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Himalaya CLI: IMAP/SMTP email from terminal. |
 | [opencode](../skills/ComponentDock/free-react-templates/skills/autonomous-ai-agents/opencode/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Delegate coding to OpenCode CLI (features, PR review). |
+| [teams-meeting-pipeline](../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Teams meeting summaries, job replay, Graph subscriptions. |
 | [angular-new-app](../skills/angular/skills/angular-new-app/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application. |

@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 30
+Published Skills: 31
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=30, 60-84=0, <60=0
+Security distribution: 85+=31, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -39,3 +39,4 @@ Security distribution: 85+=30, 60-84=0, <60=0
 | [pretext](../../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | `skills/creative/pretext` | 97 | 100 | browser-automation, content, design, documentation, engineering, media |
 | [sketch](../../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | `skills/creative/sketch` | 97 | 100 | browser-automation, content, design, documentation, engineering, productivity |
 | [songsee](../../skills/ComponentDock/free-react-templates/skills/media/songsee/README.md) | `skills/media/songsee` | 97 | 100 | media |
+| [teams-meeting-pipeline](../../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | `skills/productivity/teams-meeting-pipeline` | 97 | 100 | documentation, engineering, integrations, productivity, testing |
