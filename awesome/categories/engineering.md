@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 606
+Published Skills: 607
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -343,6 +343,7 @@ Published Skills: 606
 | [show-me-your-work](../skills/dileep-kishore/zendots/dot_agents/skills/show-me-your-work/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use for long-running, unattended, or multi-phase work that a human reviews after stepping away, or when the user asks for a decision trail or audit log. Keeps one append-only TSV with a row per decision (what, why, evidence, result). |
 | [to-spec](../skills/dileep-kishore/zendots/dot_agents/skills/to-spec/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when the user asks to turn the current conversation, plan, or notes into a spec without another interview. Synthesizes what is already known into a local spec file. |
 | [unslop](../skills/dileep-kishore/zendots/dot_agents/skills/unslop/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Cut AI tells from assistant-authored natural-language prose. Must always apply to prose, but never to code, identifiers, commands, structured data, quoted text, or exact strings. |
+| [verify-this](../skills/dileep-kishore/zendots/dot_agents/skills/verify-this/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when a fix, optimization, or behavior change is claimed to work and needs fresh evidence, or when the user says "verify this", "prove it", "did this fix it", or "show me the evidence". Restates the claim falsifiably, captures baseline and treatment, and returns VERIFIED, NOT VERIFIED, or INCONCLUSIVE. |
 | [agent-builder](../skills/dpatel-93/alfred/skills/agent-builder/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Scaffolds a new Alfred org agent (VP, manager, or employee) that satisfies the full charter contract in skills/orgagent/references/ORG.md §4 and passes helpers/validate-org.mjs on the first run — not a rough draft to be fixed up later. Use when a real, recurring workload has no owner in the current org (a genuine capability gap, not just "this would be nice"), when adding a new department under an existing VP, or when the CEO says "we need an agent for X." Do NOT use for one-off tasks that fit an existing agent, or for framework-level meta-skills (those are just skills, not agents — see the `skill-builder` skill instead). |
 | [agentic](../skills/dpatel-93/alfred/skills/agentic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Conversational AI-first interface with minimal controls, clear outcomes, and delegated task flows for agentic workflows. |
 | [ant](../skills/dpatel-93/alfred/skills/ant/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Structured, enterprise-focused design system emphasizing clarity, consistency, and efficiency for data-dense web applications. |
