@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **778**
-Repositories: **82**
+Published skills: **779**
+Repositories: **83**
 
 ## Browse repositories
 
@@ -53,6 +53,7 @@ Repositories: **82**
 - [buildd-ai/buildd](./repos/buildd-ai/buildd.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [bytedance/deer-flow](./repos/bytedance/deer-flow.md)
+- [cameronabrams/htpolynet](./repos/cameronabrams/htpolynet.md)
 - [can1357/oh-my-pi](./repos/can1357/oh-my-pi.md)
 - [chainlesschain/chainlesschain](./repos/chainlesschain/chainlesschain.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
@@ -440,6 +441,7 @@ Repositories: **82**
 - [surprise-me](./skills/bytedance/deer-flow/skills/public/surprise-me/README.md) · `bytedance/deer-flow:skills/public/surprise-me`
 - [systematic-literature-review](./skills/bytedance/deer-flow/skills/public/systematic-literature-review/README.md) · `bytedance/deer-flow:skills/public/systematic-literature-review`
 - [web-design-guidelines](./skills/bytedance/deer-flow/skills/public/web-design-guidelines/README.md) · `bytedance/deer-flow:skills/public/web-design-guidelines`
+- [htpolynet](./skills/cameronabrams/htpolynet/.claude/skills/htpolynet/README.md) · `cameronabrams/htpolynet:.claude/skills/htpolynet`
 - [semantic-compression](./skills/can1357/oh-my-pi/.omp/skills/semantic-compression/README.md) · `can1357/oh-my-pi:.omp/skills/semantic-compression`
 - [system-prompts](./skills/can1357/oh-my-pi/.omp/skills/system-prompts/README.md) · `can1357/oh-my-pi:.omp/skills/system-prompts`
 - [agent-browser](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser`
