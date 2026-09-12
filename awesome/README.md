@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **705**
-Repositories: **74**
+Published skills: **706**
+Repositories: **75**
 
 ## Browse repositories
 
@@ -45,6 +45,7 @@ Repositories: **74**
 - [artbakerchat/Y](./repos/artbakerchat/Y.md)
 - [atomantic/PortOS](./repos/atomantic/PortOS.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
+- [benjaminstelzer/scoville-ui-anti-ai-slop](./repos/benjaminstelzer/scoville-ui-anti-ai-slop.md)
 - [bossmiizlol/ai-workflow](./repos/bossmiizlol/ai-workflow.md)
 - [buildd-ai/buildd](./repos/buildd-ai/buildd.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
@@ -351,6 +352,7 @@ Repositories: **74**
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
+- [scoville-ui-anti-ai-slop](./skills/benjaminstelzer/scoville-ui-anti-ai-slop/scoville-ui-anti-ai-slop/README.md) · `benjaminstelzer/scoville-ui-anti-ai-slop:scoville-ui-anti-ai-slop`
 - [code-quality](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/code-quality/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/code-quality`
 - [plan-proposal](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/plan-proposal`
 - [release-revoke](./skills/blackbelttechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) · `blackbelttechnology/pi-agent-dashboard:.pi/skills/release-revoke`

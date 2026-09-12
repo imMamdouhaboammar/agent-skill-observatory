@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "602f0946b377d4db37effd262280defd96c60aca974b39c1def417e1d1792bba",
+  "canonical_key": "benjaminstelzer/scoville-ui-anti-ai-slop:scoville-ui-anti-ai-slop",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "602f0946b377d4db37effd262280defd96c60aca974b39c1def417e1d1792bba",
+    "archived": false,
+    "canonical_key": "benjaminstelzer/scoville-ui-anti-ai-slop:scoville-ui-anti-ai-slop",
+    "compatibility": "Agent Skills host with reference access and the project's framework toolchain. Geometry proof needs DOM or equivalent platform measurement; visual proof needs actually viewed renders, and interaction proof needs an interactive runtime. Source-only or screenshot-only tasks report missing evidence. No bundled scripts or mandatory network access. Developed for Codex and Claude Code; other hosts untested.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e9a59c09e7651c9e4a1126dc704aa0d8e88ec3aecc8f30d5442cda3ad2e50083",
+    "description": "Framework-aware guardrail for implementing and auditing UI through the product framework and incumbent design system. Use for components, states, responsiveness, accessibility mechanics, interaction, and rendered proof. When Scoville Design is active and applicable, consume its design decisions without re-deciding them; otherwise retain a bounded standalone Greenfield fallback. Excludes backend-only work and prose.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "content",
+        "product",
+        "productivity",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "compatibility metadata names Claude"
+        ],
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present",
+          "compatibility metadata names Codex/OpenAI"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop/blob/main/scoville-ui-anti-ai-slop/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:22:23.564601Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:22:23.564601Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "scoville-ui-anti-ai-slop",
+    "path": "scoville-ui-anti-ai-slop",
+    "pushed_at": "2026-09-12T19:15:40Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "benjaminstelzer/scoville-ui-anti-ai-slop",
+    "repo_url": "https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "47a8a16a6dd67ecae61856eb758fb5ae4fab1f808ced4ac33ac4299277b0fa30",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "47a8a16a6dd67ecae61856eb758fb5ae4fab1f808ced4ac33ac4299277b0fa30"
+}
