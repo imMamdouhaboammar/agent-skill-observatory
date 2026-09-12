@@ -1,6 +1,6 @@
 # code-review
 
-Published Skills: 12
+Published Skills: 13
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -11,6 +11,7 @@ Published Skills: 12
 | [review-code](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/review-code/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Review a code change well — engine-agnostic critical review discipline for an inline dev loop. Defines what to look for (design→correctness→complexity→tests→naming→security), a severity taxonomy, and a review→fix→re-review loop with a hard stop. Use on "review this code", "review my diff", "is this change good", "critique this implementation", "review before commit". Not a ship-gate. |
 | [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [agentic](../skills/dpatel-93/alfred/skills/agentic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Conversational AI-first interface with minimal controls, clear outcomes, and delegated task flows for agentic workflows. |
+| [ant](../skills/dpatel-93/alfred/skills/ant/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Structured, enterprise-focused design system emphasizing clarity, consistency, and efficiency for data-dense web applications. |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |
 | [receiving-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/receiving-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation |
 | [requesting-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/requesting-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
