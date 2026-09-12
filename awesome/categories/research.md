@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 190
+Published Skills: 191
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -91,6 +91,7 @@ Published Skills: 190
 | [plan-approval](../skills/chnlich/charlie-bot/skills/plan-approval/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Enforces explicit user approval at the CharlieBot master-to-user boundary. Use only when the CharlieBot master is producing an understanding page, presenting a plan, receiving plan feedback, or preparing to delegate implementation. |
 | [writing-style](../skills/chnlich/charlie-bot/skills/writing-style/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Genre style packs for code, READMEs, commits and PRs, bug reports, article shares, and coordination messages. Load the matching genre file at its writing moment. General prose rules live in the master prompt's Writing Style section. |
 | [ben-code-quality](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/ben-code-quality/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle. |
+| [buzz-guildhall-reporting](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/buzz-guildhall-reporting/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Operational reporting procedure for summarizing and routing PlotPickle agent activity into appropriate BUZZ Guildhall rooms. |
 | [atm-atom-map-refactor](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-atom-map-refactor/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules. |
 | [atm-create](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-create/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Create and register an atom through the provisioning facade. |
 | [atm-diagnostic-loop](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-diagnostic-loop/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence. |
