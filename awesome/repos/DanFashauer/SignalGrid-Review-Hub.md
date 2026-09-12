@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 7
+Published Skills: 8
 Categories: agent-orchestration, code-review, commerce, content, data, devops, documentation, engineering, integrations, localization, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=7, 60-84=0, <60=0
+Security distribution: 85+=8, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -16,3 +16,4 @@ Security distribution: 85+=7, 60-84=0, <60=0
 | [requesting-code-review](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/requesting-code-review/README.md) | `.claude/skills/requesting-code-review` | 100 | 100 | agent-orchestration, code-review, devops, documentation, engineering, product |
 | [signalgrid-native](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-native/README.md) | `.claude/skills/signalgrid-native` | 100 | 100 | content, documentation, engineering, integrations, mobile, research |
 | [signalgrid-reviewer](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-reviewer/README.md) | `.claude/skills/signalgrid-reviewer` | 100 | 100 | commerce, content, engineering, research, security, testing |
+| [systematic-debugging](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | `.claude/skills/systematic-debugging` | 100 | 100 | content, data, engineering, integrations, research, testing |

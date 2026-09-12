@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 129
+Published Skills: 130
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -89,6 +89,7 @@ Published Skills: 129
 | [receiving-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/receiving-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation |
 | [sangokushi-2](../skills/jeong-sik/masc/skills/sangokushi-2/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Sangokushi II (Koei 1990, Japanese, 3-disk set) on the shared MSX: media set and verified origin slot, the province command menu, in-game save flow, media-change pitfalls, and one-call macros for the two verified key sequences. Apply a fact only when the visible prompt matches it. |
 | [signalgrid-reviewer](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-reviewer/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | The adversarial second reviewer for SignalGrid. Use when a change is ready for review, before any push or PR, or when asked to check whether a claim about the repo is true. This role verifies and reports; it never fixes, never authors, and never merges. Covers the repo's known defect classes, how to falsify a guard, and how to write findings the owner can act on without reading code. |
+| [systematic-debugging](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |
 | [character-animation-qa](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/character-animation-qa/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Review local character animation with schema checks, Playwright browser previews, frame sampling, and FFmpeg/ffprobe final output checks. |
 | [dispatching-parallel-agents-ko](../skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 독립 태스크 2개 이상이 공유 상태·순차 의존 없이 진행 가능할 때 사용 — 병렬 서브에이전트 dispatch로 동시에 처리 |
