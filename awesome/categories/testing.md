@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 99
+Published Skills: 100
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -99,6 +99,7 @@ Published Skills: 99
 | [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [changelog-generator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 97 | 100 | 11 | 变更日志生成 - 从Git提交历史自动生成分类的Markdown格式Changelog |
+| [prompt-enhancer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/prompt-enhancer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 97 | 100 | 11 | 提示词增强 - 分析用户意图，注入项目上下文，重写提示词以提高AI回复质量 |
 | [atm-residue-cleanup](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 97 | 100 | 3 | Diagnose and safely reconcile operation-owned transient ATM residue. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
 | [angular-developer](../skills/angular/skills/angular-developer/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling. |
