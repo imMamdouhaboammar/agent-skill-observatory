@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "c987c3588c7b9b73eadbdb42ea942dd43bbe47ba3777e8cdcd61e4f4f02d81a5",
+  "canonical_key": "a-lottes/aspark:skills/story-time",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c987c3588c7b9b73eadbdb42ea942dd43bbe47ba3777e8cdcd61e4f4f02d81a5",
+    "archived": false,
+    "canonical_key": "a-lottes/aspark:skills/story-time",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "46eedabda439850408013fc333607877b785684ce5f76dae2f964c965fe38087",
+    "description": "Start the Specify phase of the SPARK loop: the Product Owner interrogates a product idea and turns it into a spec with user stories and testable acceptance criteria. Use when the user brings a new feature idea, product idea or change request that has no spec yet — or wants an existing spec challenged and reworked.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "product",
+        "data",
+        "documentation",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/a-lottes/aSPARK/blob/main/skills/story-time/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:08:12.380048Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:08:12.380048Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "story-time",
+    "path": "skills/story-time",
+    "pushed_at": "2026-09-12T17:04:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "a-lottes/aSPARK",
+    "repo_url": "https://github.com/a-lottes/aSPARK",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3fcf17375acdb9c80367e70ff0e3fc9aa0afdd49f4e7dd4213fbf99a721496bc",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 20
+  },
+  "source_fingerprint": "3fcf17375acdb9c80367e70ff0e3fc9aa0afdd49f4e7dd4213fbf99a721496bc"
+}
