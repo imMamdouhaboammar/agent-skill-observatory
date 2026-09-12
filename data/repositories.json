@@ -1781,6 +1781,198 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "ai-ml",
+      "browser-automation",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "education",
+      "engineering",
+      "hr-recruiting",
+      "integrations",
+      "legal-compliance",
+      "localization",
+      "marketing",
+      "media",
+      "product",
+      "productivity",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-12T14:04:16+00:00",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "security_85_plus_count": 17,
+    "skills": [
+      {
+        "description": "Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/ben-code-quality/SKILL.md",
+        "name": "ben-code-quality",
+        "overall_score": 100,
+        "path": ".agents/skills/ben-code-quality",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Operational reporting procedure for summarizing and routing PlotPickle agent activity into appropriate BUZZ Guildhall rooms.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/buzz-guildhall-reporting/SKILL.md",
+        "name": "buzz-guildhall-reporting",
+        "overall_score": 100,
+        "path": ".agents/skills/buzz-guildhall-reporting",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Develop a revision-bound candidate visual package for one canonical PlotPickle character from approved and observed evidence without changing canon or accepting generated work.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/character-visual-development/SKILL.md",
+        "name": "character-visual-development",
+        "overall_score": 100,
+        "path": ".agents/skills/character-visual-development",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Give independent PlotPickle critique of story, world, characters, structure, pacing, dialogue, continuity, audience clarity and commercial positioning using bounded supplied evidence.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/critics-circle/SKILL.md",
+        "name": "critics-circle",
+        "overall_score": 100,
+        "path": ".agents/skills/critics-circle",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Diagnose non-trivial PlotPickle bugs from the narrowest exact, red-capable feedback loop before speculative source changes.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/diagnosis/SKILL.md",
+        "name": "diagnosis",
+        "overall_score": 100,
+        "path": ".agents/skills/diagnosis",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Keep PlotPickle coding and repair work assumption-aware, minimal, task-scoped, and driven by explicit verification criteria before implementation begins.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/engineering-discipline/SKILL.md",
+        "name": "engineering-discipline",
+        "overall_score": 100,
+        "path": ".agents/skills/engineering-discipline",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Turn approved PlotPickle BUILD material into a reviewable local animatic through the host-owned Lazy Frames adapter while canonical story state remains authoritative and unchanged.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/lazy-frames-animatic/SKILL.md",
+        "name": "lazy-frames-animatic",
+        "overall_score": 100,
+        "path": ".agents/skills/lazy-frames-animatic",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Act as PlotPickle's private Key Art & Trailer Director after Foundations, using a narrow PPF-derived Marketing Context while the host controls generation and Marketing Reference storage.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/marquee-director/SKILL.md",
+        "name": "marquee-director",
+        "overall_score": 100,
+        "path": ".agents/skills/marquee-director",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Grounded Foundations planning procedure for turning retrieved curriculum and approved project evidence into draft story decisions.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/plan-foundations/SKILL.md",
+        "name": "plan-foundations",
+        "overall_score": 100,
+        "path": ".agents/skills/plan-foundations",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Scout PlotPickle architecture before non-trivial changes and independently review an exact diff/head against architecture, engineering standards, and the originating spec.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/plotpickle-architecture-review/SKILL.md",
+        "name": "plotpickle-architecture-review",
+        "overall_score": 100,
+        "path": ".agents/skills/plotpickle-architecture-review",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Exercise PlotPickle through its rendered UI like a first-time human user, preserve story context across the workflow, and report reproducible PASS, WARN, or FAIL findings with evidence.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance/SKILL.md",
+        "name": "plotpickle-human-acceptance",
+        "overall_score": 100,
+        "path": "tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Guide writers through PlotPickle curriculum and story questions as Sage Brinewick. Use for LEARN Creative Room conversation, curriculum explanations, lesson application, and ordinary follow-up conversation where Sage is the visible mentor.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/sage-brinewick/SKILL.md",
+        "name": "sage-brinewick",
+        "overall_score": 100,
+        "path": ".agents/skills/sage-brinewick",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Provider-neutral procedure for turning one approved 24/96 Mini-Block into PLAN intent, STORYBOARD visual beats, PREVIS timing, deterministic render-clip prompts and post-generation Sequence Evidence.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/sequence-director/SKILL.md",
+        "name": "sequence-director",
+        "overall_score": 100,
+        "path": ".agents/skills/sequence-director",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Repair one concrete PlotPickle UAT blocker inside an isolated repository worktree. Use for focused UAT, exhaustive UI/UX UAT, startup-health, or Writer-in-Residence findings that require a tested code change.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/uat-repair/SKILL.md",
+        "name": "uat-repair",
+        "overall_score": 100,
+        "path": ".agents/skills/uat-repair",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/visual-contract/SKILL.md",
+        "name": "visual-contract",
+        "overall_score": 100,
+        "path": ".agents/skills/visual-contract",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/visual-qa/SKILL.md",
+        "name": "visual-qa",
+        "overall_score": 100,
+        "path": ".agents/skills/visual-qa",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings.",
+        "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/writer-in-residence/SKILL.md",
+        "name": "writer-in-residence",
+        "overall_score": 100,
+        "path": ".agents/skills/writer-in-residence",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 17,
+    "spec_valid_count": 17,
+    "stars": 4
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
       "content",
       "design",
       "documentation",
@@ -2048,6 +2240,49 @@
     "best_score": 100,
     "categories": [
       "ai-ml",
+      "commerce",
+      "content",
+      "design",
+      "documentation",
+      "engineering",
+      "productivity"
+    ],
+    "default_branch": "main",
+    "forks": 3195,
+    "pushed_at": "2026-09-12T14:04:06+00:00",
+    "repo_full_name": "can1357/oh-my-pi",
+    "repo_url": "https://github.com/can1357/oh-my-pi",
+    "security_85_plus_count": 2,
+    "skills": [
+      {
+        "description": "Re-encode verbose prose into a dense telegraphic register — punctuation as connectives, label frames, verbless assertions — without losing normativity or precision. Use when compressing system prompts, tool/function descriptions, skill bodies, or agent instructions; reducing token count or context bloat; making documentation token-efficient for LLM input; or rewriting text in compressed notation.",
+        "manifest": "https://github.com/can1357/oh-my-pi/blob/main/.omp/skills/semantic-compression/SKILL.md",
+        "name": "semantic-compression",
+        "overall_score": 100,
+        "path": ".omp/skills/semantic-compression",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Write system prompts, tool docs, and agent definitions. Project tag conventions + RFC 2119 keywords + dense compression. Use when authoring or editing any prompt the model reads.",
+        "manifest": "https://github.com/can1357/oh-my-pi/blob/main/.omp/skills/system-prompts/SKILL.md",
+        "name": "system-prompts",
+        "overall_score": 100,
+        "path": ".omp/skills/system-prompts",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 2,
+    "spec_valid_count": 2,
+    "stars": 30801
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "ai-ml",
+      "architecture",
       "browser-automation",
       "business",
       "commerce",
@@ -2059,6 +2294,7 @@
       "documents",
       "education",
       "engineering",
+      "finance",
       "hr-recruiting",
       "integrations",
       "media",
@@ -2074,7 +2310,7 @@
     "pushed_at": "2026-09-12T01:31:09+00:00",
     "repo_full_name": "chainlesschain/chainlesschain",
     "repo_url": "https://github.com/chainlesschain/chainlesschain",
-    "security_85_plus_count": 31,
+    "security_85_plus_count": 37,
     "skills": [
       {
         "description": "Advanced browser automation for AI agents with snapshot-ref interaction pattern - navigate, snapshot interactive elements with refs, click/fill/select by refs, manage sessions, and extract structured data",
@@ -2320,6 +2556,60 @@
         "spec_valid": true
       },
       {
+        "description": "智能任务分解器 - 将复杂需求自动拆分为有序子任务，分配到最合适的技能执行",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer/SKILL.md",
+        "name": "task-decomposer",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/task-decomposer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Real-time web search using Tavily API - search the web, extract page content, and get up-to-date information for RAG and research tasks",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/tavily-search/SKILL.md",
+        "name": "tavily-search",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/tavily-search",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Terraform and OpenTofu infrastructure as code best practices - generate HCL configurations, module patterns, state management, CI/CD workflows, and cloud provider templates for AWS, GCP, Azure",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/terraform-iac/SKILL.md",
+        "name": "terraform-iac",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/terraform-iac",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Activate extended thinking mode for complex problems - deep reasoning, chain-of-thought decomposition, multi-step analysis, and thorough exploration before answering",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/ultrathink/SKILL.md",
+        "name": "ultrathink",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/ultrathink",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Weather queries - get current weather, forecasts, and weather alerts for any location worldwide",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather/SKILL.md",
+        "name": "weather",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/weather",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Test local web applications using browser automation - verify frontend functionality, debug UI behavior, capture screenshots, view console logs, run E2E scenarios, and check accessibility",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing/SKILL.md",
+        "name": "webapp-testing",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
         "description": "变更日志生成 - 从Git提交历史自动生成分类的Markdown格式Changelog",
         "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/SKILL.md",
         "name": "changelog-generator",
@@ -2356,8 +2646,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 31,
-    "spec_valid_count": 31,
+    "skills_count": 37,
+    "spec_valid_count": 37,
     "stars": 11
   },
   {
@@ -2390,6 +2680,146 @@
     "skills_count": 1,
     "spec_valid_count": 1,
     "stars": 17
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "agent-orchestration",
+      "browser-automation",
+      "commerce",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "engineering",
+      "integrations",
+      "media",
+      "mobile",
+      "productivity",
+      "research",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-12T11:03:46+00:00",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "security_85_plus_count": 12,
+    "skills": [
+      {
+        "description": "Codex の使い方、CLI/app/IDE、rules・hooks・AGENTS.md・skills・subagents・config などを案内する。Codex や OpenAI 製品の仕様を答える前に必ず公式ドキュメントを確認し、rules/approval は `codex execpolicy check` で実検証すること。",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/codex-guide/SKILL.md",
+        "name": "codex-guide",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/codex-guide",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Flutter UI実装のアーキテクチャ規約・コンポーネント分割・状態管理ガイド（Bloc/Cubit版）",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/flutter-ui-design/SKILL.md",
+        "name": "flutter-ui-design",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/flutter-ui-design",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Flutter SDKバージョンアップグレード対応。新バージョンのリリースノート・Breaking Changes調査、コードベース影響分析、mise/CI/Shorebird含むプロジェクト全体の対応タスクリスト作成と実行。「Flutterアップグレード」「Flutter X.Y.Zがリリースされた」「Flutter最新化」「Flutter更新」と言われたとき、またはFlutterの新バージョンについて言及されたときに使用する。",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/flutter-upgrade/SKILL.md",
+        "name": "flutter-upgrade",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/flutter-upgrade",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "MCP (dart-mcp + Marionette) を使ったFlutterアプリのE2E自動化・UI検証ガイド。シミュレーターでのUI動作確認、モックプレビュー検証、Bridge経由のE2Eテスト、スクリーンショット撮影など、アプリの動作検証が必要なときに使う。「動作確認して」「UIを検証して」「E2Eテスト」「シミュレーターで確認」「モックで確認」と言われたときや、UI変更後の検証フェーズで使用すること。",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/mobile-automation/SKILL.md",
+        "name": "mobile-automation",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/mobile-automation",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/playwright-cli/SKILL.md",
+        "name": "playwright-cli",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/playwright-cli",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Bridge Server のリリース（バージョンbump + CHANGELOG + タグ → GH Actions で npm publish）",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/release-bridge/SKILL.md",
+        "name": "release-bridge",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/release-bridge",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "タスク完了前のセルフレビュー。Claude subagentで別コンテキストから客観的にコード変更を検証。",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/self-review/SKILL.md",
+        "name": "self-review",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/self-review",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Shorebird OTA パッチの作成・staging 配布（stable 昇格はユーザー実施）",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/shorebird-patch/SKILL.md",
+        "name": "shorebird-patch",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/shorebird-patch",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Bridge Server (TypeScript) のテスト実行・型チェック・テスト記述ガイド",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/test-bridge/SKILL.md",
+        "name": "test-bridge",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/test-bridge",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Flutter App のテスト実行・静的解析・フォーマット・テスト記述ガイド",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/test-flutter/SKILL.md",
+        "name": "test-flutter",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/test-flutter",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "GitHub Issue・PRを低トークンでトリアージし、要望、実現難易度、重複、リスク、対応判断をレポートする。Issue/PR番号、トリアージ、優先度、対応判断、PRレビュー準備判定を依頼されたときに使用する。PRはReadiness、CI、CodeRabbitを先に確認し、未通過ならdiffを読まず終了する。",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/triage/SKILL.md",
+        "name": "triage",
+        "overall_score": 100,
+        "path": "bridge/.claude/skills/triage",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "ブランチをメインにマージしてお掃除する",
+        "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/merge/SKILL.md",
+        "name": "merge",
+        "overall_score": 97,
+        "path": "bridge/.claude/skills/merge",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 12,
+    "spec_valid_count": 12,
+    "stars": 0
   },
   {
     "archived": false,
@@ -2869,6 +3299,404 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "ai-ml",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "education",
+      "engineering",
+      "finance",
+      "integrations",
+      "legal-compliance",
+      "marketing",
+      "media",
+      "mobile",
+      "product",
+      "productivity",
+      "project-management",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 175,
+    "pushed_at": "2026-09-12T01:31:33+00:00",
+    "repo_full_name": "cloudposse/atmos",
+    "repo_url": "https://github.com/cloudposse/atmos",
+    "security_85_plus_count": 40,
+    "skills": [
+      {
+        "description": "Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/atmos-asciicast/SKILL.md",
+        "name": "atmos-asciicast",
+        "overall_score": 100,
+        "path": ".claude/skills/atmos-asciicast",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "AWS compliance commands in Atmos: atmos aws compliance report, Security Hub standards, CIS AWS, PCI DSS, SOC2, HIPAA, NIST, report formats, AI summaries",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-aws-compliance/SKILL.md",
+        "name": "atmos-aws-compliance",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-aws-compliance",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "AWS ECR commands in Atmos: atmos aws ecr login, ECR auth integrations, Docker credential writes, registry login via identity or explicit registry",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-aws-ecr/SKILL.md",
+        "name": "atmos-aws-ecr",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-aws-ecr",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "AWS EKS commands in Atmos: atmos aws eks update-kubeconfig, atmos aws eks token, kubeconfig generation, kubectl exec credentials, EKS auth integrations",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-aws-eks/SKILL.md",
+        "name": "atmos-aws-eks",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-aws-eks",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "AWS security finding analysis: analyze findings, map to Atmos components/stacks, generate structured remediation with exact Terraform changes and deploy commands",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-aws-security/SKILL.md",
+        "name": "atmos-aws-security",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-aws-security",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Component architecture: Terraform root modules, remote source provisioning, abstract components, component inheritance, versioning, mixins, catalog patterns",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-components/SKILL.md",
+        "name": "atmos-components",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-components",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Atmos CORE contributor guide for adding/modifying a component TYPE in the Go codebase (terraform/helmfile/packer/ansible/container): the component registry & provider, the CLI command group, the describe/list type whitelist, custom-component inheritance & deep-merge, schema, and tests. NOT for authoring user components in stacks (that is the atmos-components skill).",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/atmos-core-component-development/SKILL.md",
+        "name": "atmos-core-component-development",
+        "overall_score": 100,
+        "path": ".claude/skills/atmos-core-component-development",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Design patterns: stack organization, component catalogs, inheritance, configuration composition, version management, layered configuration",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-design-patterns/SKILL.md",
+        "name": "atmos-design-patterns",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-design-patterns",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Atmos diagnostics: machine-readable JSONL event streams, diagnostics.enabled/file/include_output, subprocess start/end/output events, masking, and debugging Atmos execution",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-diagnostics/SKILL.md",
+        "name": "atmos-diagnostics",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-diagnostics",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Helmfile orchestration: sync/apply/destroy/diff, Kubernetes deployments, varfile generation, EKS integration, source management",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-helmfile/SKILL.md",
+        "name": "atmos-helmfile",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-helmfile",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Introspection & Querying: describe/list commands, config filtering, workspace introspection, dependency graphs, YQ integration, --help=<topic> scoped CLI help",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-introspection/SKILL.md",
+        "name": "atmos-introspection",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-introspection",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Atmos profiles: profile directories, --profile and ATMOS_PROFILE activation, profile merge behavior, environment switching, and routing profile-specific auth/toolchain/config overrides",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-profiles/SKILL.md",
+        "name": "atmos-profiles",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-profiles",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Atmos project layout: base_path, relative path resolution, root stacks/components/workflows/schemas directories, atmos.d modular config, and repository path conventions",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-project-layout/SKILL.md",
+        "name": "atmos-project-layout",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-project-layout",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Scaffold templates: authoring scaffold.yaml, form fields (types, validation, conditional when:), conditional file generation, step-backed hooks (pre/post-generate), update-safe 3-way merge, and atmos scaffold generate/list/validate",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-scaffold/SKILL.md",
+        "name": "atmos-scaffold",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-scaffold",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Atmos global settings: settings, logs, errors, env, docs, metadata, version requirements, terminal behavior, telemetry, experimental flags, and non-subsystem atmos.yaml options",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-settings/SKILL.md",
+        "name": "atmos-settings",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-settings",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Store backends: AWS SSM, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, Redis, Artifactory configuration, hooks integration, cross-component data sharing, atmos store CLI CRUD, type: store workflow step",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-stores/SKILL.md",
+        "name": "atmos-stores",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-stores",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Go templates: Sprig/Gomplate functions, Atmos's own collectKeys, atmos.Component, atmos.GomplateDatasource, atmos.Store, template configuration, evaluations",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-templates/SKILL.md",
+        "name": "atmos-templates",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-templates",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Terraform state migration workflow with tfmigrate in Atmos: writing migration HCL, running atmos terraform migrate plan/apply/list, wiring kind: tfmigrate hooks, configuring history mode, and handling state refactors, rerun safety, workspace context, backend history variables, and CI-safe migrations.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-terraform-state-migrations/SKILL.md",
+        "name": "atmos-terraform-state-migrations",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-terraform-state-migrations",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Validate Atmos projects, components, arbitrary JSON Schema inputs, EditorConfig, and GitHub Actions; use affected-file selection and native CI annotations",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-validation/SKILL.md",
+        "name": "atmos-validation",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-validation",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "YAML functions: !terraform.state, !terraform.output, !store, !store.get, !secret, !emulator, !env, !exec, !include, !template, !append, !unset, !literal, !random, !aws.*, !git.*, !cwd, !repo-root",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/agent-skills/skills/atmos-yaml-functions/SKILL.md",
+        "name": "atmos-yaml-functions",
+        "overall_score": 100,
+        "path": "agent-skills/skills/atmos-yaml-functions",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Blog post authoring for Atmos: MDX template, frontmatter, website/blog/tags.yml and authors.yml rules, problem-first framing, backtick-opening ban, optional cast embeds, and no-Go-internals leakage. Invoke when writing, editing, or reviewing a website/blog/*.mdx changelog post.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/changelog/SKILL.md",
+        "name": "changelog",
+        "overall_score": 100,
+        "path": ".claude/skills/changelog",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/component-development/SKILL.md",
+        "name": "component-development",
+        "overall_score": 100,
+        "path": ".claude/skills/component-development",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Docs: contributor documentation conventions for Atmos website docs, CLI command docs, configuration pages, action cards, changelog, roadmap, and stale-content checks",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/docs/SKILL.md",
+        "name": "docs",
+        "overall_score": 100,
+        "path": ".claude/skills/docs",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Hands-on manual DX test pass of a feature or CLI command: read the real implementation and tests, hypothesize plausible user misunderstandings and misuse automated tests don't cover, build durable fixtures, execute for real against real state, and report ranked findings. Investigation only — never fixes anything found. Defaults to testing whatever the current branch changed vs its base branch when no explicit target is given. Invoke on explicit requests like 'field test X' / 'do a DX test pass on X' / 'find vibe-coded slop in X' / 'field test this branch'.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/field-test/SKILL.md",
+        "name": "field-test",
+        "overall_score": 100,
+        "path": ".claude/skills/field-test",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Maintain and update the Atmos roadmap page (website/src/data/roadmap.js): milestone/initiative/quarter schema, progress-percentage math, the curated featured[] cap (max 6, never auto-modified), and the no-changelog-for-internal-refactors gate. Invoke when adding/updating milestones, initiatives, or quarters, or linking a milestone to a changelog post.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/roadmap/SKILL.md",
+        "name": "roadmap",
+        "overall_score": 100,
+        "path": ".claude/skills/roadmap",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/security-remediate/SKILL.md",
+        "name": "security-remediate",
+        "overall_score": 100,
+        "path": ".claude/skills/security-remediate",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-analyze/SKILL.md",
+        "name": "speckit-analyze",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-analyze",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate a custom checklist for the current feature based on user requirements.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-checklist/SKILL.md",
+        "name": "speckit-checklist",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-checklist",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-clarify/SKILL.md",
+        "name": "speckit-clarify",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-clarify",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-constitution/SKILL.md",
+        "name": "speckit-constitution",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-constitution",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Auto-commit changes after a Spec Kit command completes",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-commit/SKILL.md",
+        "name": "speckit-git-commit",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-git-commit",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create a feature branch with sequential or timestamp numbering",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-feature/SKILL.md",
+        "name": "speckit-git-feature",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-git-feature",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Initialize a Git repository with an initial commit",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-initialize/SKILL.md",
+        "name": "speckit-git-initialize",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-git-initialize",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Detect Git remote URL for GitHub integration",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-remote/SKILL.md",
+        "name": "speckit-git-remote",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-git-remote",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Validate current branch follows feature branch naming conventions",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-validate/SKILL.md",
+        "name": "speckit-git-validate",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-git-validate",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Execute the implementation plan by processing and executing all tasks defined in tasks.md",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-implement/SKILL.md",
+        "name": "speckit-implement",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-implement",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Execute the implementation planning workflow using the plan template to generate design artifacts.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-plan/SKILL.md",
+        "name": "speckit-plan",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-plan",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create or update the feature specification from a natural language feature description.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-specify/SKILL.md",
+        "name": "speckit-specify",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-specify",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate an actionable, dependency-ordered tasks.md for the feature based on available design artifacts.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-tasks/SKILL.md",
+        "name": "speckit-tasks",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-tasks",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Convert existing tasks into actionable, dependency-ordered GitHub issues for the feature based on available design artifacts.",
+        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-taskstoissues/SKILL.md",
+        "name": "speckit-taskstoissues",
+        "overall_score": 100,
+        "path": ".claude/skills/speckit-taskstoissues",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 40,
+    "spec_valid_count": 40,
+    "stars": 1376
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
       "commerce",
       "content",
       "data",
@@ -3134,6 +3962,38 @@
     "skills_count": 20,
     "spec_valid_count": 20,
     "stars": 38
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "content",
+      "design",
+      "documentation",
+      "engineering",
+      "integrations",
+      "productivity"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-12T14:04:17+00:00",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "security_85_plus_count": 1,
+    "skills": [
+      {
+        "description": "Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.",
+        "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/.opencode/skills/openspec-apply-change/SKILL.md",
+        "name": "openspec-apply-change",
+        "overall_score": 100,
+        "path": ".opencode/skills/openspec-apply-change",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 1,
+    "spec_valid_count": 1,
+    "stars": 0
   },
   {
     "archived": false,
@@ -5958,6 +6818,71 @@
   },
   {
     "archived": false,
+    "best_score": 96,
+    "categories": [
+      "browser-automation",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "marketing",
+      "media",
+      "productivity",
+      "research",
+      "security"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-12T14:04:06+00:00",
+    "repo_full_name": "ChronoAIProject/nyx-skills",
+    "repo_url": "https://github.com/ChronoAIProject/nyx-skills",
+    "security_85_plus_count": 4,
+    "skills": [
+      {
+        "description": "Method for producing short vertical videos from ChatGPT image generation through a fixed browser tab, local TTS narration, timed subtitle burn-in, cover exports, and a manifest. Use when an operator needs a reproducible image-to-short workflow with pinned session consistency, per-beat visual prompts, 1080x1920 safe-area rules, local ffmpeg/PIL assembly, and private access kept outside the skill.",
+        "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/chatgpt-image-short-video/SKILL.md",
+        "name": "chatgpt-image-short-video",
+        "overall_score": 96,
+        "path": "chatgpt-image-short-video",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Portable checklist for gating public-facing copy before release. Use when captions, posts, manifests, topics, titles, or launch copy must be checked for generic AI wording, leaked internal labels, forbidden experiment or tool names, platform topic allowlists, CTA spam, and unsupported overclaims.",
+        "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/public-copy-release-guard/SKILL.md",
+        "name": "public-copy-release-guard",
+        "overall_score": 96,
+        "path": "public-copy-release-guard",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Severity-weighted BLOCK, WARN, OK reviewer method for technical and research posts. Use when reviewing X threads, announcements, captions, or launch copy for hook strength, thread arc, generic AI vocabulary, source fidelity, claim support, numeric-claim verification, and thread format before recommending publish.",
+        "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/research-claim-fidelity-reviewer/SKILL.md",
+        "name": "research-claim-fidelity-reviewer",
+        "overall_score": 96,
+        "path": "research-claim-fidelity-reviewer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Method for drafting and reviewing source-anchored research or technical announcements, especially X threads or short posts. Use when public copy must distinguish claimed from not claimed, attach every technical claim to an artifact anchor, avoid overclaiming, remove generic AI phrasing, and require dry-run plus human approval before live publishing.",
+        "manifest": "https://github.com/ChronoAIProject/nyx-skills/blob/main/source-grounded-research-announcement/SKILL.md",
+        "name": "source-grounded-research-announcement",
+        "overall_score": 96,
+        "path": "source-grounded-research-announcement",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 4,
+    "spec_valid_count": 4,
+    "stars": 0
+  },
+  {
+    "archived": false,
     "best_score": 93,
     "categories": [
       "content",
@@ -6213,6 +7138,42 @@
     "skills_count": 26,
     "spec_valid_count": 24,
     "stars": 44
+  },
+  {
+    "archived": false,
+    "best_score": 93,
+    "categories": [
+      "other"
+    ],
+    "default_branch": "main",
+    "forks": 8,
+    "pushed_at": "2026-09-12T01:31:02+00:00",
+    "repo_full_name": "chen647208/hongyue-creation",
+    "repo_url": "https://github.com/chen647208/hongyue-creation",
+    "security_85_plus_count": 2,
+    "skills": [
+      {
+        "description": "评估/重写网文开篇三章：钩子、金手指亮相、期待感曲线。触发词：开篇、黄金三章",
+        "manifest": "https://github.com/chen647208/hongyue-creation/blob/main/src/core/ai/skills/builtin/golden-three-chapters/SKILL.md",
+        "name": "golden-three-chapters",
+        "overall_score": 93,
+        "path": "src/core/ai/skills/builtin/golden-three-chapters",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "雪片法大纲：从一句话到完整大纲的十步展开，适合从零起书或重构大纲。触发词：雪片、大纲展开",
+        "manifest": "https://github.com/chen647208/hongyue-creation/blob/main/src/core/ai/skills/builtin/snowflake/SKILL.md",
+        "name": "snowflake",
+        "overall_score": 93,
+        "path": "src/core/ai/skills/builtin/snowflake",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 2,
+    "spec_valid_count": 2,
+    "stars": 33
   },
   {
     "archived": false,
