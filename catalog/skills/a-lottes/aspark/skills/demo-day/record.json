@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "a2423981a097c047230094cb2068d0c68d687552edfe375a9de966bda62a34df",
+  "canonical_key": "a-lottes/aspark:skills/demo-day",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a2423981a097c047230094cb2068d0c68d687552edfe375a9de966bda62a34df",
+    "archived": false,
+    "canonical_key": "a-lottes/aspark:skills/demo-day",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "751ac390369850455e68534148d7a409b6a2e5e0275e495335be7b0e8f555e51",
+    "description": "Hands-on QA in a real browser: the QA Tester clicks through the running app, verifies every acceptance criterion from the spec, explores beyond the happy path and files reproducible bugs. Use after /peer-review passes, or to re-test after fixes. Requires a running app and browser tooling.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "browser-automation",
+        "commerce",
+        "content",
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/a-lottes/aSPARK/blob/main/skills/demo-day/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:08:12.380048Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:08:12.380048Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "demo-day",
+    "path": "skills/demo-day",
+    "pushed_at": "2026-09-12T17:04:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "a-lottes/aSPARK",
+    "repo_url": "https://github.com/a-lottes/aSPARK",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f23aa22f92676815b1056b70a65e2693bb22298fb311baf35d998096f96fc170",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 20
+  },
+  "source_fingerprint": "f23aa22f92676815b1056b70a65e2693bb22298fb311baf35d998096f96fc170"
+}
