@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline)
 
-Published Skills: 48
-Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
+Published Skills: 49
+Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=48, 60-84=0, <60=0
+Security distribution: 85+=49, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -57,3 +57,4 @@ Security distribution: 85+=48, 60-84=0, <60=0
 | [threejs-interaction](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-interaction/README.md) | `.agents/skills/threejs-interaction` | 100 | 100 | design, engineering, localization, marketing, media |
 | [threejs-lighting](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-lighting/README.md) | `.agents/skills/threejs-lighting` | 100 | 100 | content, media, research |
 | [threejs-materials](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-materials/README.md) | `.agents/skills/threejs-materials` | 100 | 100 | engineering, media |
+| [threejs-postprocessing](../../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | `.agents/skills/threejs-postprocessing` | 100 | 100 | design, media, mobile, testing |

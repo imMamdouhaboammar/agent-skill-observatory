@@ -1,6 +1,6 @@
 # mobile
 
-Published Skills: 10
+Published Skills: 11
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -12,5 +12,6 @@ Published Skills: 10
 | [clerk-setup](../skills/Gizziio/allternit-platform/.agents/skills/clerk-setup/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Add Clerk authentication to any project by following the official quickstart guides. |
 | [clerk-swift](../skills/Gizziio/allternit-platform/.agents/skills/clerk-swift/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Implement Clerk authentication for native Swift and iOS apps using ClerkKit and ClerkKitUI source-guided patterns. Use for prebuilt AuthView or custom native flows. Do not use for Expo or React Native projects. |
 | [seis-code](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-code/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Code for architecture-aware implementation, refactors, debugging, tests, repo automation, platform packages, MCP/plugin code, CI quality gates, and code-review fixes inside the SEIS ecosystem. Trigger when Codex needs to build, fix, implement, refactor, validate, or plan code changes under SEIS while preserving user work, main-branch safety, Apple-first priorities, security, and documentation quality. |
+| [threejs-postprocessing](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
 | [auditing-pixel-perfect-frontend](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized. |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |
