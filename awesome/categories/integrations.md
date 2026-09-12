@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 118
+Published Skills: 119
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -110,6 +110,7 @@ Published Skills: 118
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [theme-factory](../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 100 | 100 | 0 | 為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。 |
 | [video-translate](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/video-translate/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Translate and dub existing videos into multiple languages using HeyGen. Use when: (1) Translating a video into another language, (2) Dubbing video content with lip-sync, (3) Creating multi-language versions of existing videos, (4) Audio-only translation without lip-sync, (5) Working with HeyGen's /v2/video_translate endpoint. |
+| [web-artifact](../skills/boardx/workspacex/skills/standard-web/web-artifact/README.md) | [boardx/workspacex](https://github.com/boardx/workspacex) | 100 | 100 | 0 | 创建需要真实交互、状态或响应式布局的自包含网页产物，并在交付前使用隔离浏览器完成结构、操作、移动视口、网络边界和文件可读性验收。不用于部署生产网站、绕过网络权限或生成只需一段静态文字的页面。 |
 | [sprint-plan](../skills/a-lottes/aSPARK/skills/sprint-plan/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Plan phase of the SPARK loop: the Engineering Manager turns an approved spec into a technical plan — architecture decision with rejected alternatives, ordered task breakdown with definitions of done, test strategy and risks. Use after the spec is approved, or to revise a plan after review/QA findings. |
 | [bootstrapping-modern-web-apps](../skills/jhonatan-oliveiradev/agent-skills/skills/bootstrapping-modern-web-apps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when the user explicitly opts into this opinionated web-app baseline, asks to use the personal starter, or wants this repository's preferred Next.js project conventions. |
 | [designing-test-strategies](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-test-strategies/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a feature, service, or release needs a deliberate verification plan and the team is unsure which risks belong in unit, integration, end-to-end, or non-functional tests. |

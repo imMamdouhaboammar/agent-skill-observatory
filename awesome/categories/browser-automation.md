@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 63
+Published Skills: 64
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -50,6 +50,7 @@ Published Skills: 63
 | [svg-character-animation](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/svg-character-animation/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Animate SVG character rigs with GSAP, CSS transforms, Remotion frame control, and HyperFrames-compatible browser previews. |
 | [synthetic-screen-recording](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/synthetic-screen-recording/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Synthetic terminal-style screen recording guidance for Remotion `TerminalScene`. |
 | [vercel-react-best-practices](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/vercel-react-best-practices/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements. |
+| [web-artifact](../skills/boardx/workspacex/skills/standard-web/web-artifact/README.md) | [boardx/workspacex](https://github.com/boardx/workspacex) | 100 | 100 | 0 | 创建需要真实交互、状态或响应式布局的自包含网页产物，并在交付前使用隔离浏览器完成结构、操作、移动视口、网络边界和文件可读性验收。不用于部署生产网站、绕过网络权限或生成只需一段静态文字的页面。 |
 | [charter](../skills/a-lottes/aSPARK/skills/charter/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Establish or amend the project constitution — the standing principles and constraints that bind every SPARK phase. Use once at project start to give the team its ground rules, or any time a project-wide decision (stack choice, quality bar, non-negotiable) changes and should apply to all future features. |
 | [demo-day](../skills/a-lottes/aSPARK/skills/demo-day/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Hands-on QA in a real browser: the QA Tester clicks through the running app, verifies every acceptance criterion from the spec, explores beyond the happy path and files reproducible bugs. Use after /peer-review passes, or to re-test after fixes. Requires a running app and browser tooling. |
 | [look-and-feel](../skills/a-lottes/aSPARK/skills/look-and-feel/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Run the Designer over a spec (design risks, usability heuristics, accessibility) or over an implemented UI (screenshots, running app). Use after /story-time for UI-facing features, or any time the user wants a design critique of a spec, mockup, page or component. |

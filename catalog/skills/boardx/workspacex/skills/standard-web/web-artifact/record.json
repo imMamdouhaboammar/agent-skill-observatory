@@ -1,0 +1,94 @@
+{
+  "analysis_fingerprint": "c838a43f8478c11194bb1ee2d8b0b4caa363b894f60abb48df4ef21a2a97c036",
+  "canonical_key": "boardx/workspacex:skills/standard-web/web-artifact",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c838a43f8478c11194bb1ee2d8b0b4caa363b894f60abb48df4ef21a2a97c036",
+    "archived": false,
+    "canonical_key": "boardx/workspacex:skills/standard-web/web-artifact",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7f97949297d5e4856f6df6100efeca9076b1629668fb623a3b49a1b6bbf049fb",
+    "description": "创建需要真实交互、状态或响应式布局的自包含网页产物，并在交付前使用隔离浏览器完成结构、操作、移动视口、网络边界和文件可读性验收。不用于部署生产网站、绕过网络权限或生成只需一段静态文字的页面。",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "testing",
+        "integrations",
+        "mobile"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/boardx/workspacex/blob/main/skills/standard-web/web-artifact/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:15:47.173872Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:15:47.173872Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "capability_id": "WX-S013",
+      "version": "1.0.2"
+    },
+    "name": "web-artifact",
+    "path": "skills/standard-web/web-artifact",
+    "pushed_at": "2026-09-12T23:09:21Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "boardx/workspacex",
+    "repo_url": "https://github.com/boardx/workspacex",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 2,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5992c607ea5de801f267d2a5d0cc05b54bc45ab41e2c418e5b8c368d31ceb964",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "5992c607ea5de801f267d2a5d0cc05b54bc45ab41e2c418e5b8c368d31ceb964"
+}

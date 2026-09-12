@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 149
+Published Skills: 150
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -130,6 +130,7 @@ Published Skills: 149
 | [test-flutter](../skills/chenyynx/claudio/bridge/.claude/skills/test-flutter/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter App のテスト実行・静的解析・フォーマット・テスト記述ガイド |
 | [threejs-postprocessing](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
 | [threejs-textures](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-textures/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization. |
+| [web-artifact](../skills/boardx/workspacex/skills/standard-web/web-artifact/README.md) | [boardx/workspacex](https://github.com/boardx/workspacex) | 100 | 100 | 0 | 创建需要真实交互、状态或响应式布局的自包含网页产物，并在交付前使用隔离浏览器完成结构、操作、移动视口、网络边界和文件可读性验收。不用于部署生产网站、绕过网络权限或生成只需一段静态文字的页面。 |
 | [demo-day](../skills/a-lottes/aSPARK/skills/demo-day/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Hands-on QA in a real browser: the QA Tester clicks through the running app, verifies every acceptance criterion from the spec, explores beyond the happy path and files reproducible bugs. Use after /peer-review passes, or to re-test after fixes. Requires a running app and browser tooling. |
 | [peer-review](../skills/a-lottes/aSPARK/skills/peer-review/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Review phase of the SPARK loop: the Reviewer audits the diff produced by /increment — plan conformance, correctness, edge cases, security, test quality — and writes the review report. Use after /increment reports done, or to re-review after fixes. |
 | [sprint-plan](../skills/a-lottes/aSPARK/skills/sprint-plan/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Plan phase of the SPARK loop: the Engineering Manager turns an approved spec into a technical plan — architecture decision with rejected alternatives, ordered task breakdown with definitions of done, test strategy and risks. Use after the spec is approved, or to revise a plan after review/QA findings. |
