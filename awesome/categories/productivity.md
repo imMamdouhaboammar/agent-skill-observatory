@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 205
+Published Skills: 206
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -159,6 +159,7 @@ Published Skills: 205
 | [nn-design-presets](../skills/cogNNitive/cogNNitive/iNNfo/.agents/skills/nn-design-presets/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Reference for cogNNitive visual design presets — palettes, typography, spacing, and branding tokens. MUST be activated whenever generating visual components, web apps, HTML dashboard artifacts, or styled site pages. |
 | [openspec-apply-change](../skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks. |
 | [openspec-archive-change](../skills/a620906209/ticket-hub/.claude/skills/openspec-archive-change/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete. |
+| [openspec-explore](../skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
 | [rudder-design](../skills/imeepos/ui-designer/skill/rudder-design/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | Generate consistent, production-grade UI design image sets (design system board, app pages, component sheets) with the Rudder CLI driven by the gpt-image-2 model. Use when the user asks to design an app/website look, create a design system, mock up screens/pages, explore visual directions, or produce UI design assets for a coding agent to implement from. Triggers: "design the UI", "design system", "mockup screens", "成套界面设计", "设计总板", "给这个产品设计一套界面". |
 | [security-review](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | security findings, attack surfaces, dependency risk |

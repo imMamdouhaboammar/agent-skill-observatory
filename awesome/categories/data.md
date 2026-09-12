@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 178
+Published Skills: 179
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -126,6 +126,7 @@ Published Skills: 178
 | [lottie-bodymovin](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/lottie-bodymovin/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Use when implementing Disney's 12 animation principles with Lottie animations exported from After Effects |
 | [ltx2](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ltx2/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | AI video generation with LTX-2.3 22B — text-to-video, image-to-video clips for video production. Use when generating video clips, animating images, creating b-roll, animated backgrounds, or motion content. Triggers include video generation, animate image, b-roll, motion, video clip, text-to-video, image-to-video. |
 | [nn-site-generator](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-site-generator/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Create or edit websites, add analytics, or add contact forms. Invoke with /nn-site-generator. |
+| [openspec-explore](../skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
 | [pose-library-design](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/pose-library-design/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Design reusable 2D character pose libraries, action cycles, and expression states for data-driven animation. |
 | [remotion-best-practices](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/remotion-best-practices/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Best practices for Remotion - Video creation in React |
 | [security-review](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/security-review/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | security findings, attack surfaces, dependency risk |
