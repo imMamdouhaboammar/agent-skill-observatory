@@ -1,6 +1,6 @@
 # architecture
 
-Published Skills: 15
+Published Skills: 16
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -12,6 +12,7 @@ Published Skills: 15
 | [dev-orchestrator](../skills/imeepos/ui-designer/.agents/skills/dev-orchestrator/README.md) | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 100 | 100 | 0 | 项目负责人技能：掌控开发节奏、制定开发计划，把任务拆分后派发给多个子会话/subagent 执行，验收汇总并管理会话流转与归档、裁决分歧。Use when acting as the project lead or orchestrator — planning multi-session development, writing task briefs and dispatching them to subagents or separate sessions, coordinating parallel worktree work, adjudicating disagreements, integrating and verifying on the main branch. 不适用于子会话内部的具体编码、调试或评审执行本身。 |
 | [documentation-criteria](../skills/flext-sh/flext-dbt-ldap/.gemini/skills/documentation-criteria/README.md) | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 100 | 100 | 0 | documentation criteria, artifact selection, evidence requirements |
 | [increment](../skills/a-lottes/aSPARK/skills/increment/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day. |
+| [sprint-plan](../skills/a-lottes/aSPARK/skills/sprint-plan/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Plan phase of the SPARK loop: the Engineering Manager turns an approved spec into a technical plan — architecture decision with rejected alternatives, ordered task breakdown with definitions of done, test strategy and risks. Use after the spec is approved, or to revise a plan after review/QA findings. |
 | [choosing-application-architecture](../skills/jhonatan-oliveiradev/agent-skills/skills/choosing-application-architecture/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when starting or reshaping an application where deployment topology, scaling, reliability, ownership, coupling, or delivery constraints make the architectural shape unclear. |
 | [designing-developer-portfolio-evidence](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when roadmap gaps need to become credible portfolio artifacts with explicit evidence contracts showing which capabilities a project must actually demonstrate. |
 | [documenting-architecture-decisions](../skills/jhonatan-oliveiradev/agent-skills/skills/documenting-architecture-decisions/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a software decision materially affects structure, quality attributes, dependencies, interfaces, technology choices, or team direction and its rationale must remain reviewable over time. |

@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "66e4392a930224ac5717fbcb2abce9173e9ecb08c063fe8e5e27f5c03c3d9ce7",
+  "canonical_key": "a-lottes/aspark:skills/sprint-plan",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "66e4392a930224ac5717fbcb2abce9173e9ecb08c063fe8e5e27f5c03c3d9ce7",
+    "archived": false,
+    "canonical_key": "a-lottes/aspark:skills/sprint-plan",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d64b750396dbc41b84922172f7687f2cc4735fe9c105ec6277d6d61223ef046a",
+    "description": "Start the Plan phase of the SPARK loop: the Engineering Manager turns an approved spec into a technical plan — architecture decision with rejected alternatives, ordered task breakdown with definitions of done, test strategy and risks. Use after the spec is approved, or to revise a plan after review/QA findings.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "architecture",
+        "testing",
+        "commerce",
+        "content",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/a-lottes/aSPARK/blob/main/skills/sprint-plan/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:08:12.380048Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:08:12.380048Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "sprint-plan",
+    "path": "skills/sprint-plan",
+    "pushed_at": "2026-09-12T17:04:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "a-lottes/aSPARK",
+    "repo_url": "https://github.com/a-lottes/aSPARK",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e0079a2eab08c2047f6b99c86fb93072168b16a71cb96726897553dccfa5dd1f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 20
+  },
+  "source_fingerprint": "e0079a2eab08c2047f6b99c86fb93072168b16a71cb96726897553dccfa5dd1f"
+}
