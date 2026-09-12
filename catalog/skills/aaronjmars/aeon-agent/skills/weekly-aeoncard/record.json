@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "96ce9ed87bbbcbe430eb2cf6c1def5d315af2376bcfbf0d329c70f6034b19327",
+  "canonical_key": "aaronjmars/aeon-agent:skills/weekly-aeoncard",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "96ce9ed87bbbcbe430eb2cf6c1def5d315af2376bcfbf0d329c70f6034b19327",
+    "archived": false,
+    "canonical_key": "aaronjmars/aeon-agent:skills/weekly-aeoncard",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "cc13c31e385dddad1989d982be4ecb4ce2c2441788091465cdb9128124eedcfc",
+    "description": "Build a weekly token-consumption recap image from memory/token-usage.csv - this week + all-time totals, top skills, rendered as a shareable SVG card.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "media",
+        "data",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/aaronjmars/aeon-agent/blob/main/skills/weekly-aeoncard/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-12T17:06:59.998541Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:59.998541Z",
+    "license": "MIT",
+    "metadata": {
+      "capabilities": "['sends_notifications']",
+      "category": "productivity",
+      "mode": "write",
+      "tags": "['monitoring', 'meta']",
+      "title": "Weekly Aeon Card",
+      "var": ""
+    },
+    "name": "weekly-aeoncard",
+    "path": "skills/weekly-aeoncard",
+    "pushed_at": "2026-09-12T17:04:35Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "aaronjmars/aeon-agent",
+    "repo_url": "https://github.com/aaronjmars/aeon-agent",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 38,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "bf27f69933827deddc5222526fa87358f27d7f21dcea686af54bbb30c064984b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "bf27f69933827deddc5222526fa87358f27d7f21dcea686af54bbb30c064984b"
+}
