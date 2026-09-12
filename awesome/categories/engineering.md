@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 421
+Published Skills: 422
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -298,6 +298,7 @@ Published Skills: 421
 | [dispatching-parallel-agents-ko](../skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 독립 태스크 2개 이상이 공유 상태·순차 의존 없이 진행 가능할 때 사용 — 병렬 서브에이전트 dispatch로 동시에 처리 |
 | [doubao-tts](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/doubao-tts/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate Mandarin and multilingual narration with Volcengine Doubao Speech 2.0. Use when creating Chinese voiceovers, when the user prefers Doubao/Volcengine/火山引擎/豆包 TTS, or when narration needs character-level timestamp metadata for subtitles. |
 | [faceswap](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/faceswap/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Swap faces in a video using AI via the HeyGen API. Use when: (1) Replacing a face in a video with another face, (2) Face swapping from a source image onto a target video, (3) Creating personalized videos by swapping in a person's face, (4) Working with HeyGen's /v1/workflows/executions endpoint for face swap processing. |
+| [flutter-upgrade](../skills/chenyynx/claudio/bridge/.claude/skills/flutter-upgrade/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter SDKバージョンアップグレード対応。新バージョンのリリースノート・Breaking Changes調査、コードベース影響分析、mise/CI/Shorebird含むプロジェクト全体の対応タスクリスト作成と実行。「Flutterアップグレード」「Flutter X.Y.Zがリリースされた」「Flutter最新化」「Flutter更新」と言われたとき、またはFlutterの新バージョンについて言及されたときに使用する。 |
 | [flux-best-practices](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/flux-best-practices/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Comprehensive guide for BFL FLUX image generation models. Covers prompting, T2I, I2I, structured JSON, hex colors, typography, multi-reference editing, and model-specific best practices for FLUX.2 and FLUX.1 families. |
 | [framer-motion](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/framer-motion/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Use when implementing Disney's 12 animation principles with Framer Motion in React applications |
 | [frontend-design](../skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | frontend-design |

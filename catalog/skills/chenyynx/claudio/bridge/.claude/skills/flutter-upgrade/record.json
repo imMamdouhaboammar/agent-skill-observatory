@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "0511c0018c4ae066021c3b66707ec6700bd91cdb49b161bbd405c983b276464d",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/flutter-upgrade",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0511c0018c4ae066021c3b66707ec6700bd91cdb49b161bbd405c983b276464d",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/flutter-upgrade",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7c1b542f0322fa2368205a7c87682db2b55068f701f910761bd3b6fe664da0e3",
+    "description": "Flutter SDKバージョンアップグレード対応。新バージョンのリリースノート・Breaking Changes調査、コードベース影響分析、mise/CI/Shorebird含むプロジェクト全体の対応タスクリスト作成と実行。「Flutterアップグレード」「Flutter X.Y.Zがリリースされた」「Flutter最新化」「Flutter更新」と言われたとき、またはFlutterの新バージョンについて言及されたときに使用する。",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "mobile",
+        "engineering",
+        "documentation",
+        "devops",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/flutter-upgrade/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "flutter-upgrade",
+    "path": "bridge/.claude/skills/flutter-upgrade",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "30ade7d895cbda88b6b4d71bb2e1da8e0ee26343d7ac3961867bbe95c53b3000",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "30ade7d895cbda88b6b4d71bb2e1da8e0ee26343d7ac3961867bbe95c53b3000"
+}

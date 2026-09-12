@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 231
+Published Skills: 232
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -174,6 +174,7 @@ Published Skills: 231
 | [dispatching-parallel-agents-ko](../skills/andyko18/specops-ko/skills/dispatching-parallel-agents-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 독립 태스크 2개 이상이 공유 상태·순차 의존 없이 진행 가능할 때 사용 — 병렬 서브에이전트 dispatch로 동시에 처리 |
 | [doubao-tts](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/doubao-tts/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate Mandarin and multilingual narration with Volcengine Doubao Speech 2.0. Use when creating Chinese voiceovers, when the user prefers Doubao/Volcengine/火山引擎/豆包 TTS, or when narration needs character-level timestamp metadata for subtitles. |
 | [ffmpeg](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ffmpeg/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Video and audio processing with FFmpeg. Use for format conversion, resizing, compression, audio extraction, and preparing assets for Remotion. Triggers include converting GIF to MP4, resizing video, extracting audio, compressing files, or any media transformation task. |
+| [flutter-upgrade](../skills/chenyynx/claudio/bridge/.claude/skills/flutter-upgrade/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter SDKバージョンアップグレード対応。新バージョンのリリースノート・Breaking Changes調査、コードベース影響分析、mise/CI/Shorebird含むプロジェクト全体の対応タスクリスト作成と実行。「Flutterアップグレード」「Flutter X.Y.Zがリリースされた」「Flutter最新化」「Flutter更新」と言われたとき、またはFlutterの新バージョンについて言及されたときに使用する。 |
 | [generator-evaluator-ko](../skills/andyko18/specops-ko/skills/generator-evaluator-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 생성 에이전트와 평가 에이전트를 엄격히 분리하여 자기평가 편향을 차단한다 (OMC 흡수) |
 | [heygen](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/heygen/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | [DEPRECATED] Use `create-video` for prompt-based video generation or `avatar-video` for precise avatar/scene control. This legacy skill combines both workflows — the newer focused skills provide clearer guidance. |
 | [hicreator](../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 100 | 100 | 0 | Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows. |

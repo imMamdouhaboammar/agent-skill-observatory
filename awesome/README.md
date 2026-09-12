@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **572**
+Published skills: **573**
 Repositories: **65**
 
 ## Browse repositories
@@ -410,6 +410,7 @@ Repositories: **65**
 - [snowflake](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/snowflake/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/snowflake`
 - [codex-guide](./skills/chenyynx/claudio/bridge/.claude/skills/codex-guide/README.md) · `chenyynx/claudio:bridge/.claude/skills/codex-guide`
 - [flutter-ui-design](./skills/chenyynx/claudio/bridge/.claude/skills/flutter-ui-design/README.md) · `chenyynx/claudio:bridge/.claude/skills/flutter-ui-design`
+- [flutter-upgrade](./skills/chenyynx/claudio/bridge/.claude/skills/flutter-upgrade/README.md) · `chenyynx/claudio:bridge/.claude/skills/flutter-upgrade`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`
