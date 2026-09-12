@@ -1,6 +1,6 @@
 # code-review
 
-Published Skills: 8
+Published Skills: 9
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -12,3 +12,4 @@ Published Skills: 8
 | [code-simplification](../skills/jairorodriguezarias/siesta/.agents/skills/code-simplification/README.md) | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 100 | 100 | 60 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [receiving-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/receiving-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation |
 | [requesting-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/requesting-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
+| [peer-review](../skills/a-lottes/aSPARK/skills/peer-review/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Review phase of the SPARK loop: the Reviewer audits the diff produced by /increment — plan conformance, correctness, edge cases, security, test quality — and writes the review report. Use after /increment reports done, or to re-review after fixes. |

@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 467
+Published Skills: 468
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -387,6 +387,7 @@ Published Skills: 467
 | [web-design-guidelines](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/web-design-guidelines/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | [increment](../skills/a-lottes/aSPARK/skills/increment/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day. |
 | [next-steps](../skills/a-lottes/aSPARK/skills/next-steps/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Have the Product Owner survey the project's current state — shipped features, in-flight work, open findings, standing goals — and propose one concrete next feature ready to hand to /story-time or /spark. Use when the user has no idea in hand and asks "what should we build next", when a loop just closed and the next cycle needs a starting point, or when the backlog feels stale and needs a grounded suggestion instead of a guess. |
+| [peer-review](../skills/a-lottes/aSPARK/skills/peer-review/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Review phase of the SPARK loop: the Reviewer audits the diff produced by /increment — plan conformance, correctness, edge cases, security, test quality — and writes the review report. Use after /increment reports done, or to re-review after fixes. |
 | [analyzing-change-blast-radius](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when you need evidence-bounded potential impact for a proposed change before deciding how to make it. |
 | [analyzing-developer-career-opportunities](../skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs to normalize job postings or market samples into explainable fit, capability gaps, demand signals, and roadmap-priority recommendations. |
 | [assessing-developer-proficiency](../skills/jhonatan-oliveiradev/agent-skills/skills/assessing-developer-proficiency/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer needs an evidence-aware diagnosis of current capabilities, confidence, unknowns, and weakly demonstrated areas before deciding what to improve. |
