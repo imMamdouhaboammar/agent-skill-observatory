@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 99
+Published Skills: 100
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,6 +24,7 @@ Published Skills: 99
 | [speckit-analyze](../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation. |
 | [speckit-checklist](../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate a custom checklist for the current feature based on user requirements. |
 | [speckit-clarify](../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec. |
+| [speckit-implement](../skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation plan by processing and executing all tasks defined in tasks.md |
 | [update-model-pricing](../skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) | [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 100 | 100 | 1358 | Verify and refresh AgentConnect's daemon-side public OpenAI fallback pricing, exact model aliases, long-context and cache rules, and regression tests. Use when OpenAI model prices or IDs change, fallback cost becomes missing or stale, codex-acp changes its token mapping, or someone asks to audit or update packages/daemon/src/usage/openai-public-pricing.ts. |
 | [apple-tools](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/apple-tools/.pi/skills/apple-tools/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Reach Apple PIM data (Calendar, Contacts, Reminders, Messages, Location, Maps, Weather) from a pi session via iMCP + pi-mcp-adapter on macOS. Use when the user asks to read/search their Apple Calendar, Contacts, Reminders, iMessages, current Location, Maps, or Weather. Does NOT cover Apple Mail — iMCP exposes no Mail service; use apple-mail-fast-export for email. |
 | [autofix](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly |

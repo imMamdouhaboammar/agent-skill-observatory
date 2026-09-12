@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 126
+Published Skills: 127
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -27,6 +27,7 @@ Published Skills: 126
 | [roadmap](../skills/cloudposse/atmos/.claude/skills/roadmap/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Maintain and update the Atmos roadmap page (website/src/data/roadmap.js): milestone/initiative/quarter schema, progress-percentage math, the curated featured[] cap (max 6, never auto-modified), and the no-changelog-for-internal-refactors gate. Invoke when adding/updating milestones, initiatives, or quarters, or linking a milestone to a changelog post. |
 | [speckit-checklist](../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate a custom checklist for the current feature based on user requirements. |
 | [speckit-constitution](../skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync. |
+| [speckit-implement](../skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation plan by processing and executing all tasks defined in tasks.md |
 | [update-model-pricing](../skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) | [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 100 | 100 | 1358 | Verify and refresh AgentConnect's daemon-side public OpenAI fallback pricing, exact model aliases, long-context and cache rules, and regression tests. Use when OpenAI model prices or IDs change, fallback cost becomes missing or stale, codex-acp changes its token mapping, or someone asks to audit or update packages/daemon/src/usage/openai-public-pricing.ts. |
 | [autofix](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/code-review-toolkit/.pi/skills/autofix/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly |
 | [dashboard-plugin-scaffold](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Scaffold a new pi-dashboard plugin in the dashboard monorepo, OR augment an existing pi-extension project on disk with dashboard plugin contributions. Hybrid skill: a single ask_user batch up front, then prescriptive steps the agent follows. Use when the user asks to "create a dashboard plugin", "add dashboard support to my extension", "scaffold a plugin", or similar. |

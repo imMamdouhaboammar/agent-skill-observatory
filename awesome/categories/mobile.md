@@ -1,10 +1,11 @@
 # mobile
 
-Published Skills: 23
+Published Skills: 24
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [decision-matrix](../skills/iflytek/skillhub/builtin-skills/skills/decision-matrix/README.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 | Compare options with weighted scoring, pros and cons, pre-mortems, opportunity costs, and ICE prioritization. Use when a user wants to reason through a choice, expose assumptions, or rank alternatives. |
+| [speckit-implement](../skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation plan by processing and executing all tasks defined in tasks.md |
 | [responsive-mobile-first](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/responsive-mobile-first/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Mobile-first responsive patterns with sticky headers, floating CTAs, accessible navigation, and touch-friendly interactions. Use when implementing responsive layouts, mobile navigation, or ensuring touch-friendly UI. |
 | [tailwind-shadcn](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/frontend-patterns/.pi/skills/tailwind-shadcn/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Tailwind CSS utility patterns with shadcn/ui component usage, theming via CSS variables, and responsive design. Use when styling components, installing shadcn components, implementing dark mode, or creating consistent design systems. |
 | [report-upstream](../skills/alpha-omega-security/scrutineer/skills/report-upstream/README.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 | File a finding on the upstream repository through GitHub's private vulnerability reporting, request the temporary private fork, and push the proposed patch to it when available. Use after disclose has produced a draft and (optionally) patch has produced a gated diff. This is the step that crosses the line to the maintainer; everything before it is internal. |
