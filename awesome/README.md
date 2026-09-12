@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **706**
-Repositories: **75**
+Published skills: **707**
+Repositories: **76**
 
 ## Browse repositories
 
@@ -58,6 +58,7 @@ Repositories: **75**
 - [chnlich/charlie-bot](./repos/chnlich/charlie-bot.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cloudposse/atmos](./repos/cloudposse/atmos.md)
+- [codeabraham16/musubi](./repos/codeabraham16/musubi.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
 - [commontoolsinc/labs](./repos/commontoolsinc/labs.md)
 - [cosyeezz/axiom](./repos/cosyeezz/axiom.md)
@@ -571,6 +572,7 @@ Repositories: **75**
 - [atmos-terraform-state-migrations](./skills/cloudposse/atmos/agent-skills/skills/atmos-terraform-state-migrations/README.md) · `cloudposse/atmos:agent-skills/skills/atmos-terraform-state-migrations`
 - [atmos-validation](./skills/cloudposse/atmos/agent-skills/skills/atmos-validation/README.md) · `cloudposse/atmos:agent-skills/skills/atmos-validation`
 - [atmos-yaml-functions](./skills/cloudposse/atmos/agent-skills/skills/atmos-yaml-functions/README.md) · `cloudposse/atmos:agent-skills/skills/atmos-yaml-functions`
+- [code-structure-flow-auditor](./skills/codeabraham16/musubi/skills/code-structure-flow-auditor/README.md) · `codeabraham16/musubi:skills/code-structure-flow-auditor`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`

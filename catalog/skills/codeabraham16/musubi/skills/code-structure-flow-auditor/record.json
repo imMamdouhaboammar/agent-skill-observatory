@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "110534b7e5b397628c420f0c45caf9038be3ebd4755acce79554e8de7cbda904",
+  "canonical_key": "codeabraham16/musubi:skills/code-structure-flow-auditor",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "110534b7e5b397628c420f0c45caf9038be3ebd4755acce79554e8de7cbda904",
+    "archived": false,
+    "canonical_key": "codeabraham16/musubi:skills/code-structure-flow-auditor",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "085aa5e528e60120f89b9d8307f20b979b1c795641ed3ffcf579d14ccdcb4be4",
+    "description": "Trigger: audit structure, audit flow, architecture review, dependency audit, coupling, cycles, dead code, auditar estructura, auditar flujo. Audits structure and data/control flow across any stack; emits prioritized, evidence-backed findings.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "data",
+        "engineering",
+        "security",
+        "code-review",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/codeabraham16/musubi/blob/main/skills/code-structure-flow-auditor/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:22:19.469763Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:22:19.469763Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "Musubi",
+      "version": "2.1"
+    },
+    "name": "code-structure-flow-auditor",
+    "path": "skills/code-structure-flow-auditor",
+    "pushed_at": "2026-09-12T19:15:42Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "codeabraham16/musubi",
+    "repo_url": "https://github.com/codeabraham16/musubi",
+    "resources": {
+      "assets": 1,
+      "other": 2,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6ac2eee822a467db60c1ffb953c1ce402333603b1425ebf7be3ce171cb1d77d1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "6ac2eee822a467db60c1ffb953c1ce402333603b1425ebf7be3ce171cb1d77d1"
+}

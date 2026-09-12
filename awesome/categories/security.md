@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 127
+Published Skills: 128
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -123,6 +123,7 @@ Published Skills: 127
 | [auditing-pixel-perfect-frontend](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized. |
 | [building-reliable-node-api-boundaries](../skills/jhonatan-oliveiradev/agent-skills/skills/building-reliable-node-api-boundaries/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when implementing or reviewing Node.js API or service endpoints that cross trust or data boundaries and require explicit validation, authorization, failure semantics, observability, or retry behavior. |
 | [designing-ui-systems](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-ui-systems/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs reusable UI tokens, component conventions, variants, responsive rules, or a coherent design system across multiple screens or features. |
+| [code-structure-flow-auditor](../skills/codeabraham16/musubi/skills/code-structure-flow-auditor/README.md) | [codeabraham16/musubi](https://github.com/codeabraham16/musubi) | 99 | 100 | 0 | Trigger: audit structure, audit flow, architecture review, dependency audit, coupling, cycles, dead code, auditar estructura, auditar flujo. Audits structure and data/control flow across any stack; emits prioritized, evidence-backed findings. |
 | [last-20-percent](../skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Finds and finishes the last 20% of a built solution — the experiential layer agents skip: what the output actually reads like, which pages or screens should exist, first-run and empty states, opinionated defaults, the golden path. Use when the user explicitly asks to plan or audit the experiential layer, or says "last 20%", "finish this", "make it actually good", "is this actually done", or "why does this feel flat". Do not invoke automatically for ordinary builds or completion checks. |
 | [apple-reminders](../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Apple Reminders via remindctl: add, list, complete. |
 | [imessage](../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Send and receive iMessages/SMS via the imsg CLI on macOS. |
