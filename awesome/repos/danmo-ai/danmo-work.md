@@ -2,15 +2,16 @@
 
 Repository: [https://github.com/danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work)
 
-Published Skills: 11
-Categories: agent-orchestration, browser-automation, code-review, content, data, design, documentation, documents, education, engineering, integrations, product, productivity, research, security, testing
+Published Skills: 12
+Categories: agent-orchestration, browser-automation, code-review, content, data, design, documentation, documents, education, engineering, integrations, legal-compliance, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=11, 60-84=0, <60=0
+Security distribution: 85+=12, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [brainstorming](../../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | `core/resource/home/skills/brainstorming` | 100 | 100 | content, data, design, documentation, engineering, productivity |
 | [browser](../../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | `core/resource/plugins/browser/skills/browser` | 100 | 100 | browser-automation, content, design, documentation, engineering, productivity |
+| [computer-use](../../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | `core/resource/plugins/computer/skills/computer-use` | 100 | 100 | design, legal-compliance, media, productivity, security |
 | [debugging](../../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | `core/resource/home/skills/debugging` | 100 | 100 | content, data, engineering, productivity, research, testing |
 | [deep-research](../../skills/danmo-ai/danmo-work/core/resource/home/skills/deep-research/README.md) | `core/resource/home/skills/deep-research` | 100 | 100 | content, documentation, research |
 | [document-writing](../../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | `core/resource/home/skills/document-writing` | 100 | 100 | content, data, design, documentation, documents, productivity |

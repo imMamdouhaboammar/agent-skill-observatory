@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **757**
+Published skills: **758**
 Repositories: **79**
 
 ## Browse repositories
@@ -684,6 +684,7 @@ Repositories: **79**
 - [test-driven-development](./skills/danmo-ai/danmo-work/core/resource/home/skills/test-driven-development/README.md) · `danmo-ai/danmo-work:core/resource/home/skills/test-driven-development`
 - [writing-plans](./skills/danmo-ai/danmo-work/core/resource/home/skills/writing-plans/README.md) · `danmo-ai/danmo-work:core/resource/home/skills/writing-plans`
 - [browser](./skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) · `danmo-ai/danmo-work:core/resource/plugins/browser/skills/browser`
+- [computer-use](./skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) · `danmo-ai/danmo-work:core/resource/plugins/computer/skills/computer-use`
 - [add-atomic-action](./skills/dexforce/embodichain/.agents/skills/add-atomic-action/README.md) · `dexforce/embodichain:.agents/skills/add-atomic-action`
 - [add-functor](./skills/dexforce/embodichain/.agents/skills/add-functor/README.md) · `dexforce/embodichain:.agents/skills/add-functor`
 - [add-robot](./skills/dexforce/embodichain/.agents/skills/add-robot/README.md) · `dexforce/embodichain:.agents/skills/add-robot`

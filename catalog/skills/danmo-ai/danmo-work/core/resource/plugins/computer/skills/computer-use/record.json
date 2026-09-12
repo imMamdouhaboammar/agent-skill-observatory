@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "265ae719027b8817a9a9df3badbe4ce7a99cad3f5a60d88360281778bd51581f",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/computer/skills/computer-use",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "265ae719027b8817a9a9df3badbe4ce7a99cad3f5a60d88360281778bd51581f",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/computer/skills/computer-use",
+    "compatibility": "Requires the `computer` tool bound and runtime.computer.enabled=true. Linux needs an X11 DISPLAY + xdotool + a screenshot tool (imagemagick/scrot/ ffmpeg/xwd); macOS needs Accessibility + Screen Recording permission (mouse via cliclick); Windows uses PowerShell. Screenshots require a vision model.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "663160618ef573b30c7723e8cc7ae6b83fbd3ddee46eb040f933d6146a4ef224",
+    "description": "Operate desktop applications through the computer tool: find and focus windows, take screenshots to see the screen, then click, type, and press keys. Use for GUI automation of real apps a human would drive by hand.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "productivity",
+        "security",
+        "legal-compliance",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/plugins/computer/skills/computer-use/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "danmo",
+      "category": "automation",
+      "version": "0.1.0"
+    },
+    "name": "computer-use",
+    "path": "core/resource/plugins/computer/skills/computer-use",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e6b53c901ea85989587c5bb7f885522fee4a188be0a03aad443bce9bcc7218fb",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "e6b53c901ea85989587c5bb7f885522fee4a188be0a03aad443bce9bcc7218fb"
+}
