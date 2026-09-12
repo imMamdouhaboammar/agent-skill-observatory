@@ -1,6 +1,6 @@
 # documentation
 
-Published Skills: 156
+Published Skills: 157
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -156,6 +156,7 @@ Published Skills: 156
 | [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [update-api-docs](../skills/DexForce/EmbodiChain/.claude/skills/update-api-docs/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain update-api-docs skill. |
+| [changelog-generator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 97 | 100 | 11 | 变更日志生成 - 从Git提交历史自动生成分类的Markdown格式Changelog |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
 | [angular-new-app](../skills/angular/skills/angular-new-app/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application. |

@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "944038b2e4f0e846da85fda04387db27b7f53ca42cc9e401178494b619f6edb1",
+  "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "944038b2e4f0e846da85fda04387db27b7f53ca42cc9e401178494b619f6edb1",
+    "archived": false,
+    "canonical_key": "chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a08048634d0eb26be2810f85eb0cb9d1ece23cafe83bb5956115472d0479808e",
+    "description": "变更日志生成 - 从Git提交历史自动生成分类的Markdown格式Changelog",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "engineering",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 6,
+    "indexed_at": "2026-09-12T01:38:39.359809Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:38:39.359809Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "changelog-generator",
+    "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator",
+    "pushed_at": "2026-09-12T01:31:09Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chainlesschain/chainlesschain",
+    "repo_url": "https://github.com/chainlesschain/chainlesschain",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 41,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license NOASSERTION."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "782d33b3175ae8724527aa6eb1428ff87b8ef1341de9ff59d650cbeb6a07f198",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 11
+  },
+  "source_fingerprint": "782d33b3175ae8724527aa6eb1428ff87b8ef1341de9ff59d650cbeb6a07f198"
+}
