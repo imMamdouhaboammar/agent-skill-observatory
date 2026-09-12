@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle)
 
-Published Skills: 16
+Published Skills: 17
 Categories: ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=16, 60-84=0, <60=0
+Security distribution: 85+=17, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -19,6 +19,7 @@ Security distribution: 85+=16, 60-84=0, <60=0
 | [marquee-director](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/marquee-director/README.md) | `.agents/skills/marquee-director` | 100 | 100 | design, devops, localization, marketing, productivity, research |
 | [plan-foundations](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plan-foundations/README.md) | `.agents/skills/plan-foundations` | 100 | 100 | content, education, productivity, research |
 | [plotpickle-architecture-review](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plotpickle-architecture-review/README.md) | `.agents/skills/plotpickle-architecture-review` | 100 | 100 | content, data, design, engineering, research, security |
+| [plotpickle-human-acceptance](../../skills/BryanHarrisScripts/PlotPickle/tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance/README.md) | `tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance` | 100 | 100 | browser-automation, content, design, education, productivity, research |
 | [sage-brinewick](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sage-brinewick/README.md) | `.agents/skills/sage-brinewick` | 100 | 100 | ai-ml, content, design, devops, documentation, education |
 | [sequence-director](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/sequence-director/README.md) | `.agents/skills/sequence-director` | 100 | 100 | data, design, engineering, media, productivity, research |
 | [uat-repair](../../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | `.agents/skills/uat-repair` | 100 | 100 | data, design, devops, engineering, product, testing |
