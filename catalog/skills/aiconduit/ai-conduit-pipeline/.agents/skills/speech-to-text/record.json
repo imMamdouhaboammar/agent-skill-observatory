@@ -1,0 +1,104 @@
+{
+  "analysis_fingerprint": "3c20744174be61a2171b082229c33dac59dbeaf9fc82f3cce1f44bd6c8afeed0",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/speech-to-text",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3c20744174be61a2171b082229c33dac59dbeaf9fc82f3cce1f44bd6c8afeed0",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/speech-to-text",
+    "compatibility": "Requires internet access and an ElevenLabs API key (ELEVENLABS_API_KEY).",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e8f86292bcd42e1ec57e477fb72fa47afc1792b7448199dacf621192864a3168",
+    "description": "Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "engineering",
+        "content",
+        "data",
+        "documentation",
+        "product"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/speech-to-text/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "MIT",
+    "metadata": {
+      "openclaw": "{'requires': {'env': ['ELEVENLABS_API_KEY']}, 'primaryEnv': 'ELEVENLABS_API_KEY'}"
+    },
+    "name": "speech-to-text",
+    "path": ".agents/skills/speech-to-text",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 6,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "256406f87937f6e3f5ee04eba4bc6ae4da4b47bad86a2431922085ae8dcea15c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "256406f87937f6e3f5ee04eba4bc6ae4da4b47bad86a2431922085ae8dcea15c"
+}
