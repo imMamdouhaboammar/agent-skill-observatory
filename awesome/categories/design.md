@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 253
+Published Skills: 254
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -200,6 +200,7 @@ Published Skills: 253
 | [charter](../skills/a-lottes/aSPARK/skills/charter/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Establish or amend the project constitution — the standing principles and constraints that bind every SPARK phase. Use once at project start to give the team its ground rules, or any time a project-wide decision (stack choice, quality bar, non-negotiable) changes and should apply to all future features. |
 | [demo-day](../skills/a-lottes/aSPARK/skills/demo-day/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Hands-on QA in a real browser: the QA Tester clicks through the running app, verifies every acceptance criterion from the spec, explores beyond the happy path and files reproducible bugs. Use after /peer-review passes, or to re-test after fixes. Requires a running app and browser tooling. |
 | [increment](../skills/a-lottes/aSPARK/skills/increment/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day. |
+| [look-and-feel](../skills/a-lottes/aSPARK/skills/look-and-feel/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Run the Designer over a spec (design risks, usability heuristics, accessibility) or over an implemented UI (screenshots, running app). Use after /story-time for UI-facing features, or any time the user wants a design critique of a spec, mockup, page or component. |
 | [auditing-pixel-perfect-frontend](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized. |
 | [bootstrapping-modern-web-apps](../skills/jhonatan-oliveiradev/agent-skills/skills/bootstrapping-modern-web-apps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when the user explicitly opts into this opinionated web-app baseline, asks to use the personal starter, or wants this repository's preferred Next.js project conventions. |
 | [building-brand-guidelines](../skills/jhonatan-oliveiradev/agent-skills/skills/building-brand-guidelines/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when an approved brand identity needs durable rules, assets, examples, accessibility constraints, and governance so multiple people can reproduce it consistently across channels. |

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **631**
+Published skills: **632**
 Repositories: **69**
 
 ## Browse repositories
@@ -124,6 +124,7 @@ Repositories: **69**
 - [demo-day](./skills/a-lottes/aspark/skills/demo-day/README.md) · `a-lottes/aspark:skills/demo-day`
 - [go-live](./skills/a-lottes/aspark/skills/go-live/README.md) · `a-lottes/aspark:skills/go-live`
 - [increment](./skills/a-lottes/aspark/skills/increment/README.md) · `a-lottes/aspark:skills/increment`
+- [look-and-feel](./skills/a-lottes/aspark/skills/look-and-feel/README.md) · `a-lottes/aspark:skills/look-and-feel`
 - [openspec-apply-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-apply-change`
 - [openspec-archive-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-archive-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-archive-change`
 - [openspec-explore](./skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-explore`
