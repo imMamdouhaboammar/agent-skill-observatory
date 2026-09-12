@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **571**
+Published skills: **572**
 Repositories: **65**
 
 ## Browse repositories
@@ -409,6 +409,7 @@ Repositories: **65**
 - [golden-three-chapters](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/golden-three-chapters/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/golden-three-chapters`
 - [snowflake](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/snowflake/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/snowflake`
 - [codex-guide](./skills/chenyynx/claudio/bridge/.claude/skills/codex-guide/README.md) · `chenyynx/claudio:bridge/.claude/skills/codex-guide`
+- [flutter-ui-design](./skills/chenyynx/claudio/bridge/.claude/skills/flutter-ui-design/README.md) · `chenyynx/claudio:bridge/.claude/skills/flutter-ui-design`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`

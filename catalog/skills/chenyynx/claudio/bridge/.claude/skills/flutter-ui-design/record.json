@@ -1,0 +1,101 @@
+{
+  "analysis_fingerprint": "2b384bc96610151a5134c2a82cf5796ca19d735b3c564f19e9595f55cfc8c62e",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/flutter-ui-design",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(flutter:*),",
+      "Bash(dart:*),",
+      "Read,",
+      "Write,",
+      "Edit,",
+      "Glob,",
+      "Grep"
+    ],
+    "analysis_fingerprint": "2b384bc96610151a5134c2a82cf5796ca19d735b3c564f19e9595f55cfc8c62e",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/flutter-ui-design",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "290f02050985db067c0905dfa61798071ffcd1095986347ddfc77e80ed74de62",
+    "description": "Flutter UI実装のアーキテクチャ規約・コンポーネント分割・状態管理ガイド（Bloc/Cubit版）",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "mobile",
+        "data",
+        "design",
+        "documentation",
+        "research",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/flutter-ui-design/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "flutter-ui-design",
+    "path": "bridge/.claude/skills/flutter-ui-design",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "98cfa0f9bc21f82d9208bedb1253af7db26ce4c0c52f2849504f7e7d8d0fc99b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "98cfa0f9bc21f82d9208bedb1253af7db26ce4c0c52f2849504f7e7d8d0fc99b"
+}
