@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 526
+Published Skills: 527
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -478,6 +478,7 @@ Published Skills: 526
 | [ponytail](../skills/giancaremma50-hue/demo-ats/.claude/skills/ponytail/README.md) | [giancaremma50-hue/demo-ats](https://github.com/giancaremma50-hue/demo-ats) | 97 | 100 | 0 | Forces the laziest solution that actually works, simplest, shortest, most minimal. Channels a senior dev who has seen everything: question whether the task needs to exist at all (YAGNI), reach for the standard library before custom code, native platform features before dependencies, one line before fifty. Supports intensity levels: lite, full (default), ultra. Use on ANY coding task: writing, adding, refactoring, fixing, reviewing, or designing code, and choosing libraries or dependencies. Also use whenever the user says "ponytail", "be lazy", "lazy mode", "simplest solution", "minimal solution", "yagni", "do less", or "shortest path", or complains about over-engineering, bloat, boilerplate, or unnecessary dependencies. Do NOT use for non-coding requests (general knowledge, prose, translation, summaries, recipes). |
 | [popular-web-designs](../skills/ComponentDock/free-react-templates/skills/creative/popular-web-designs/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS. |
 | [pretext](../skills/ComponentDock/free-react-templates/skills/creative/pretext/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Build creative browser demos with DOM-free text layout. |
+| [react-vite-quality-tooling](../skills/ComponentDock/free-react-templates/skills/software-development/react-vite-quality-tooling/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | React/Vite quality tooling: Vitest, Tailwind v4, husky. |
 | [sketch](../skills/ComponentDock/free-react-templates/skills/creative/sketch/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Throwaway HTML mockups: 2-3 design variants to compare. |
 | [teams-meeting-pipeline](../skills/ComponentDock/free-react-templates/skills/productivity/teams-meeting-pipeline/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Teams meeting summaries, job replay, Graph subscriptions. |
 | [angular-developer](../skills/angular/skills/angular-developer/README.md) | [angular/skills](https://github.com/angular/skills) | 96 | 100 | 645 | Generates Angular code and provides architectural guidance. Trigger when creating projects, components, services, or HTTP communication, or for best practices on reactivity (signals, linkedSignal, resource, httpResource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, naming conventions, or CLI tooling. |

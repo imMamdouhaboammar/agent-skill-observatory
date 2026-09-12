@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 131
+Published Skills: 132
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -130,6 +130,7 @@ Published Skills: 131
 | [github-org-automation](../skills/ComponentDock/free-react-templates/skills/github/github-org-automation/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Headless GitHub org automation: auth, scopes, bulk repo ops. |
 | [github-org-bulk-operations](../skills/ComponentDock/free-react-templates/skills/github/github-org-bulk-operations/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Bulk GitHub org cleanup: inventory, classify, delete. |
 | [imessage](../skills/ComponentDock/free-react-templates/skills/apple/imessage/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Send and receive iMessages/SMS via the imsg CLI on macOS. |
+| [react-vite-quality-tooling](../skills/ComponentDock/free-react-templates/skills/software-development/react-vite-quality-tooling/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | React/Vite quality tooling: Vitest, Tailwind v4, husky. |
 | [public-copy-release-guard](../skills/ChronoAIProject/nyx-skills/public-copy-release-guard/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Portable checklist for gating public-facing copy before release. Use when captions, posts, manifests, topics, titles, or launch copy must be checked for generic AI wording, leaked internal labels, forbidden experiment or tool names, platform topic allowlists, CTA spam, and unsupported overclaims. |
 | [research-claim-fidelity-reviewer](../skills/ChronoAIProject/nyx-skills/research-claim-fidelity-reviewer/README.md) | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 96 | 100 | 0 | Severity-weighted BLOCK, WARN, OK reviewer method for technical and research posts. Use when reviewing X threads, announcements, captions, or launch copy for hook strength, thread arc, generic AI vocabulary, source fidelity, claim support, numeric-claim verification, and thread format before recommending publish. |
 | [make-repo-contribution](../skills/707734712/agents-in-sdlc/.github/skills/make-repo-contribution/README.md) | [707734712/agents-in-sdlc](https://github.com/707734712/agents-in-sdlc) | 87 | 100 | 0 | All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made, commits generated, or pull request (or PR) created, a search must be done to ensure the right steps are followed. Whenever asked to create an issue, commit messages, to push code, or create a PR, use this skill so everything is done correctly. |
