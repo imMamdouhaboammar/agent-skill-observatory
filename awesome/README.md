@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **684**
+Published skills: **685**
 Repositories: **73**
 
 ## Browse repositories
@@ -593,6 +593,7 @@ Repositories: **73**
 - [openspec-apply-change](./skills/componentdock/free-react-templates/.opencode/skills/openspec-apply-change/README.md) · `componentdock/free-react-templates:.opencode/skills/openspec-apply-change`
 - [openspec-archive-change](./skills/componentdock/free-react-templates/.opencode/skills/openspec-archive-change/README.md) · `componentdock/free-react-templates:.opencode/skills/openspec-archive-change`
 - [openspec-explore](./skills/componentdock/free-react-templates/.opencode/skills/openspec-explore/README.md) · `componentdock/free-react-templates:.opencode/skills/openspec-explore`
+- [openspec-propose](./skills/componentdock/free-react-templates/.opencode/skills/openspec-propose/README.md) · `componentdock/free-react-templates:.opencode/skills/openspec-propose`
 - [design](./skills/cosyeezz/axiom/.pi/skills/design/README.md) · `cosyeezz/axiom:.pi/skills/design`
 - [frontend-design](./skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) · `cosyeezz/axiom:.pi/skills/frontend-design`
 - [curate-yaml-record](./skills/culturebotai/traitmech/.claude/skills/curate-yaml-record/README.md) · `culturebotai/traitmech:.claude/skills/curate-yaml-record`
