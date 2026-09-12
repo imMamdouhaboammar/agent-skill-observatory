@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **594**
+Published skills: **595**
 Repositories: **67**
 
 ## Browse repositories
@@ -474,6 +474,7 @@ Repositories: **67**
 - [field-test](./skills/cloudposse/atmos/.claude/skills/field-test/README.md) · `cloudposse/atmos:.claude/skills/field-test`
 - [roadmap](./skills/cloudposse/atmos/.claude/skills/roadmap/README.md) · `cloudposse/atmos:.claude/skills/roadmap`
 - [security-remediate](./skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) · `cloudposse/atmos:.claude/skills/security-remediate`
+- [speckit-analyze](./skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) · `cloudposse/atmos:.claude/skills/speckit-analyze`
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
