@@ -1,0 +1,89 @@
+{
+  "analysis_fingerprint": "f50c38df07e09c3859179ddc3bb369519af091b7ea03c5d5fd4238a82ced1902",
+  "canonical_key": "a-lottes/aspark:skills/go-live",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f50c38df07e09c3859179ddc3bb369519af091b7ea03c5d5fd4238a82ced1902",
+    "archived": false,
+    "canonical_key": "a-lottes/aspark:skills/go-live",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b125136a186ca02cd50f68a4c165fde2fa0ad574cae55145f709dd18c19bbdf5",
+    "description": "Start the Keep phase of the SPARK loop: the Release Manager runs fresh pre-flight checks, writes the user-facing changelog, prepares tag/PR/ deploy, publishes on the user's explicit go, and records the cycle's learnings. Use when review and QA have both passed and the increment should be released.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/a-lottes/aSPARK/blob/main/skills/go-live/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:08:12.380048Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:08:12.380048Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "go-live",
+    "path": "skills/go-live",
+    "pushed_at": "2026-09-12T17:04:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "a-lottes/aSPARK",
+    "repo_url": "https://github.com/a-lottes/aSPARK",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 39,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "53e65cb425311aca914b861e9bab2d77098bcc2fd70632040b832af3b8469861",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 20
+  },
+  "source_fingerprint": "53e65cb425311aca914b861e9bab2d77098bcc2fd70632040b832af3b8469861"
+}

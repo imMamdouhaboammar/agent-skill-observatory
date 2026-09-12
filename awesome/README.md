@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **629**
+Published skills: **630**
 Repositories: **69**
 
 ## Browse repositories
@@ -122,6 +122,7 @@ Repositories: **69**
 - [update-markdown-file-index](./skills/707734712/agents-in-sdlc/.github/skills/update-markdown-file-index/README.md) · `707734712/agents-in-sdlc:.github/skills/update-markdown-file-index`
 - [charter](./skills/a-lottes/aspark/skills/charter/README.md) · `a-lottes/aspark:skills/charter`
 - [demo-day](./skills/a-lottes/aspark/skills/demo-day/README.md) · `a-lottes/aspark:skills/demo-day`
+- [go-live](./skills/a-lottes/aspark/skills/go-live/README.md) · `a-lottes/aspark:skills/go-live`
 - [openspec-apply-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-apply-change`
 - [openspec-archive-change](./skills/a620906209/ticket-hub/.claude/skills/openspec-archive-change/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-archive-change`
 - [openspec-explore](./skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) · `a620906209/ticket-hub:.claude/skills/openspec-explore`
