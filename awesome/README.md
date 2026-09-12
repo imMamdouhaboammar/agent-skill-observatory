@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **671**
+Published skills: **672**
 Repositories: **72**
 
 ## Browse repositories
@@ -178,6 +178,7 @@ Repositories: **72**
 - [afaro-removal-verify](./skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) · `afaro-ai/afaro:skills/afaro-removal-verify`
 - [conflict-resolve](./skills/aganesy/qfai/.agents/skills/conflict-resolve/README.md) · `aganesy/qfai:.agents/skills/conflict-resolve`
 - [qfai-discussion](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-discussion/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-discussion`
+- [qfai-grill](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-grill/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-grill`
 - [update-model-pricing](./skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) · `agentconnect-md/agentconnect:.claude/skills/update-model-pricing`
 - [agent-native-design](./skills/agents365-ai/365-skills/plugins/agent-native-design/skills/agent-native-design/README.md) · `agents365-ai/365-skills:plugins/agent-native-design/skills/agent-native-design`
 - [assetseeker](./skills/agents365-ai/365-skills/plugins/assetseeker/skills/assetseeker/README.md) · `agents365-ai/365-skills:plugins/assetseeker/skills/assetseeker`

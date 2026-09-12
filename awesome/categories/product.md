@@ -1,6 +1,6 @@
 # product
 
-Published Skills: 39
+Published Skills: 40
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -21,6 +21,7 @@ Published Skills: 39
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [draft-comparative-neotoma-post](../skills/markmhendrickson/ateles/.claude/skills/draft-comparative-neotoma-post/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Draft a comparative Neotoma post (memory & truth-layer series) that compares a product or API's memory to a truth layer. Use when user says "draft comparative neotoma post", "memory series post", "truth layer comparison post", or similar. Can be invoked via /draft-comparative-neotoma-post. |
 | [diagnosis](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/diagnosis/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Diagnose non-trivial PlotPickle bugs from the narrowest exact, red-capable feedback loop before speculative source changes. |
+| [qfai-grill](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-grill/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Run a grilling session on anything: a design, a product direction, a piece of writing. Needs no repository and writes no files. Invoked by the user, never by the agent. |
 | [uat-repair](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Repair one concrete PlotPickle UAT blocker inside an isolated repository worktree. Use for focused UAT, exhaustive UI/UX UAT, startup-health, or Writer-in-Residence findings that require a tested code change. |
 | [writer-in-residence](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/writer-in-residence/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings. |
 | [requesting-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/requesting-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
