@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 449
+Published Skills: 450
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -390,6 +390,7 @@ Published Skills: 449
 | [test-driven-development](../skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes. |
 | [prompt-enhancer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/prompt-enhancer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 97 | 100 | 11 | 提示词增强 - 分析用户意图，注入项目上下文，重写提示词以提高AI回复质量 |
 | [morning-brief](../skills/azerothl/akasha-os/community/skills/morning-brief/README.md) | [azerothl/akasha-os](https://github.com/azerothl/akasha-os) | 97 | 100 | 1 | Short local briefing from memory, open tasks, and notes — no network |
+| [ai-native-repo-setup](../skills/ComponentDock/free-react-templates/skills/software-development/ai-native-repo-setup/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | AI-native repo setup: AGENTS.md, docs tree, ADRs, OpenSpec. |
 | [airtable](../skills/ComponentDock/free-react-templates/skills/productivity/airtable/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Airtable REST API via curl. Records CRUD, filters, upserts. |
 | [apple-reminders](../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Apple Reminders via remindctl: add, list, complete. |
 | [autonomous-cron-pipelines](../skills/ComponentDock/free-react-templates/skills/automation/autonomous-cron-pipelines/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Cron jobs that run AI agents: state machines, PR gates. |

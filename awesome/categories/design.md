@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 282
+Published Skills: 283
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -236,6 +236,7 @@ Published Skills: 282
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |
 | [clerk-testing](../skills/Gizziio/allternit-platform/.agents/skills/clerk-testing/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests. |
 | [morning-brief](../skills/azerothl/akasha-os/community/skills/morning-brief/README.md) | [azerothl/akasha-os](https://github.com/azerothl/akasha-os) | 97 | 100 | 1 | Short local briefing from memory, open tasks, and notes — no network |
+| [ai-native-repo-setup](../skills/ComponentDock/free-react-templates/skills/software-development/ai-native-repo-setup/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | AI-native repo setup: AGENTS.md, docs tree, ADRs, OpenSpec. |
 | [airtable](../skills/ComponentDock/free-react-templates/skills/productivity/airtable/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Airtable REST API via curl. Records CRUD, filters, upserts. |
 | [apple-reminders](../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Apple Reminders via remindctl: add, list, complete. |
 | [architecture-diagram](../skills/ComponentDock/free-react-templates/skills/creative/architecture-diagram/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 97 | 100 | 0 | Dark-themed SVG architecture/cloud/infra diagrams as HTML. |

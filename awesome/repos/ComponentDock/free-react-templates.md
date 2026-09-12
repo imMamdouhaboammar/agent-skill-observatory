@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates)
 
-Published Skills: 34
+Published Skills: 35
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, localization, marketing, media, mobile, other, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=34, 60-84=0, <60=0
+Security distribution: 85+=35, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,6 +15,7 @@ Security distribution: 85+=34, 60-84=0, <60=0
 | [openspec-propose](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-propose/README.md) | `.opencode/skills/openspec-propose` | 100 | 100 | commerce, content, design, productivity |
 | [openspec-sync-specs](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-sync-specs/README.md) | `.opencode/skills/openspec-sync-specs` | 100 | 100 | content, engineering, marketing, productivity, research |
 | [openspec-update-change](../../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-update-change/README.md) | `.opencode/skills/openspec-update-change` | 100 | 100 | commerce, content, design, engineering, productivity |
+| [ai-native-repo-setup](../../skills/ComponentDock/free-react-templates/skills/software-development/ai-native-repo-setup/README.md) | `skills/software-development/ai-native-repo-setup` | 97 | 100 | architecture, content, design, documentation, engineering, productivity |
 | [airtable](../../skills/ComponentDock/free-react-templates/skills/productivity/airtable/README.md) | `skills/productivity/airtable` | 97 | 100 | content, data, design, engineering, integrations, productivity |
 | [apple-notes](../../skills/ComponentDock/free-react-templates/skills/apple/apple-notes/README.md) | `skills/apple/apple-notes` | 97 | 100 | legal-compliance, productivity |
 | [apple-reminders](../../skills/ComponentDock/free-react-templates/skills/apple/apple-reminders/README.md) | `skills/apple/apple-reminders` | 97 | 100 | content, design, documentation, mobile, productivity, security |

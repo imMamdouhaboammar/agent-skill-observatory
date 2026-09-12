@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "c5bb26c6e8b82af2cace548a7d87e866487785765f0e739867adea14eb30b8b0",
+  "canonical_key": "componentdock/free-react-templates:skills/software-development/ai-native-repo-setup",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c5bb26c6e8b82af2cace548a7d87e866487785765f0e739867adea14eb30b8b0",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:skills/software-development/ai-native-repo-setup",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f28e6f42fd287ba3a3bf9c3c59f65a4fedf5984e2db27ecab03548c93c5c3959",
+    "description": "AI-native repo setup: AGENTS.md, docs tree, ADRs, OpenSpec.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "documentation",
+        "engineering",
+        "content",
+        "productivity",
+        "architecture",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/skills/software-development/ai-native-repo-setup/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "hermes": "{'tags': ['AGENTS.md', 'documentation', 'ADR', 'openspec', 'spec-driven', 'AI-agents', 'conventions'], 'related_skills': ['repo-audit-workflow', 'vite-react-tailwind-scaffolding', 'test-driven-development']}"
+    },
+    "name": "ai-native-repo-setup",
+    "path": "skills/software-development/ai-native-repo-setup",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "cb891c810999782e72a69c52e7b9ac99d6c6db22ecf8a3b6fc4f08efb4afcd62",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "cb891c810999782e72a69c52e7b9ac99d6c6db22ecf8a3b6fc4f08efb4afcd62"
+}
