@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "a5f6437acbc2d81a148aa5f9ee5749aa2efc956a1e347938414135455a5ae756",
+  "canonical_key": "command1264/agent-skills:skills/google-routes",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a5f6437acbc2d81a148aa5f9ee5749aa2efc956a1e347938414135455a5ae756",
+    "archived": false,
+    "canonical_key": "command1264/agent-skills:skills/google-routes",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ec810ca86f8eee696bf72f3565267b2db960124b09dc2f34d66324e4690b8804",
+    "description": "使用 Google Routes API 查詢明確起點、終點與未來出發時間的汽車或機車路線，並輸出穩定、最小化的結構化結果。當使用者需要單筆或批次 Route API 查詢、交通時間、距離、交通感知預測，或其他 Skill 需要路線查詢能力時使用；需要工作日展開、住家公司設定、平均通勤或公司排序時改用 commute-analyzer。",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "devops",
+        "security",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Command1264/agent-skills/blob/main/skills/google-routes/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 10
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:15:39.754552Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:15:39.754552Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "google-routes",
+    "path": "skills/google-routes",
+    "pushed_at": "2026-09-12T23:09:25Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Command1264/agent-skills",
+    "repo_url": "https://github.com/Command1264/agent-skills",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 4,
+      "scripts": 3
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "8f08a4de8bf313c572510298840bd03bc3cd52ce0a62d1d3db9c2968a6a3db5a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "8f08a4de8bf313c572510298840bd03bc3cd52ce0a62d1d3db9c2968a6a3db5a"
+}
