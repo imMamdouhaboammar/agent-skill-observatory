@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "06731bc8f287062da37651c3cb24088a1e17594f8f4ceefb79d5ac3688c0c243",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-plan",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "06731bc8f287062da37651c3cb24088a1e17594f8f4ceefb79d5ac3688c0c243",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/plugins/novel/skills/novel-plan",
+    "compatibility": "Requires write, edit, read_file, glob; Core table_*, memory_*, search_kb; ask_user",
+    "consecutive_misses": 0,
+    "content_fingerprint": "68eef33375ae4b8fc7babc7035d7b4232e949414e08312cbb963c5881ea12e4a",
+    "description": "Plan a novel already scaffolded. Use for 人设/世界观, 金手指, book/volume outlines. Not for 章纲, batch freeze, prose, or review.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/plugins/novel/skills/novel-plan/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "danmo-work",
+      "category": "creative-writing",
+      "version": "2.4"
+    },
+    "name": "novel-plan",
+    "path": "core/resource/plugins/novel/skills/novel-plan",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 2,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "07ae5130525e3094ef7ea238c5c42d3f4a155a74061b049a6dc3ea96661d820e",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "07ae5130525e3094ef7ea238c5c42d3f4a155a74061b049a6dc3ea96661d820e"
+}
