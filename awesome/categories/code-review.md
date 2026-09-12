@@ -1,6 +1,6 @@
 # code-review
 
-Published Skills: 22
+Published Skills: 23
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -21,6 +21,7 @@ Published Skills: 22
 | [cafe](../skills/dpatel-93/alfred/skills/cafe/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Cozy cafe-inspired interface with warm tones, soft typography, and clean layouts for a relaxed browsing experience. |
 | [claude](../skills/dpatel-93/alfred/skills/claude/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A research-journal aesthetic printed on warm stone — authoritative, editorial, almost achromatic. Pages live on warm ivory parchment (never pure white), with near-black slate as the dominant ink. |
 | [claymorphism](../skills/dpatel-93/alfred/skills/claymorphism/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Soft, rounded 3D-like shapes mimicking malleable clay with playful, puffy elements and colorful surfaces. |
+| [clean](../skills/dpatel-93/alfred/skills/clean/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Simplicity-focused design with ample whitespace, legible typography, and a limited color palette to reduce visual clutter. |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |
 | [receiving-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/receiving-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation |
 | [requesting-code-review](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/requesting-code-review/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |

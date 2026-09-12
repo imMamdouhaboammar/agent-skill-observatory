@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 331
+Published Skills: 332
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -164,6 +164,7 @@ Published Skills: 331
 | [cafe](../skills/dpatel-93/alfred/skills/cafe/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Cozy cafe-inspired interface with warm tones, soft typography, and clean layouts for a relaxed browsing experience. |
 | [claude](../skills/dpatel-93/alfred/skills/claude/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A research-journal aesthetic printed on warm stone — authoritative, editorial, almost achromatic. Pages live on warm ivory parchment (never pure white), with near-black slate as the dominant ink. |
 | [claymorphism](../skills/dpatel-93/alfred/skills/claymorphism/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Soft, rounded 3D-like shapes mimicking malleable clay with playful, puffy elements and colorful surfaces. |
+| [clean](../skills/dpatel-93/alfred/skills/clean/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Simplicity-focused design with ample whitespace, legible typography, and a limited color palette to reduce visual clutter. |
 | [computer-use](../skills/danmo-ai/danmo-work/core/resource/plugins/computer/skills/computer-use/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate desktop applications through the computer tool: find and focus windows, take screenshots to see the screen, then click, type, and press keys. Use for GUI automation of real apps a human would drive by hand. |
 | [document-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Long-form workplace docs as GFM `.md` (default). Not for slide decks or spreadsheets — those are Univer IR / CSV. Edit with write/edit/apply_patch; do not invent parallel JSON docs unless path is already `.udoc.json`. |
 | [mcp-connectors](../skills/danmo-ai/danmo-work/core/resource/home/skills/mcp-connectors/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Use product connectors (MCP under the hood) and auth gateways without stuffing every action schema into context. |
