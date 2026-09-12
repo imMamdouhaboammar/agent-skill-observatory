@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "ae30fcb6cfbc87a4d958b6d8c49a4598e2e154623ece58d5729dc6ad8a2c986a",
+  "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/sheet-writing",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ae30fcb6cfbc87a4d958b6d8c49a4598e2e154623ece58d5729dc6ad8a2c986a",
+    "archived": false,
+    "canonical_key": "danmo-ai/danmo-work:core/resource/home/skills/sheet-writing",
+    "compatibility": "Requires write, edit, apply_patch, read_file; optional read_skill",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e0dd1534790f593651d0c4a5fb525c5efd0635a15ae46d1c633806f5fdab726b",
+    "description": "Produce/edit tables as `.csv` or Univer `.usheet.json` via write/edit/apply_patch. Do not web-search Univer schema — use references/ir-sheet.md or kb-office-ir.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "data",
+        "documentation",
+        "education",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/danmo-ai/danmo-work/blob/main/core/resource/home/skills/sheet-writing/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 1,
+    "indexed_at": "2026-09-11T23:40:20.383062Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:20.383062Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "danmo-work",
+      "category": "work",
+      "version": "3.0"
+    },
+    "name": "sheet-writing",
+    "path": "core/resource/home/skills/sheet-writing",
+    "pushed_at": "2026-09-11T23:34:41Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "danmo-ai/danmo-work",
+    "repo_url": "https://github.com/danmo-ai/danmo-work",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d61d1bae5e888359ea8daf0e2d7babef3cf5fc7a5cc1cedddb3263fbe317687d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "d61d1bae5e888359ea8daf0e2d7babef3cf5fc7a5cc1cedddb3263fbe317687d"
+}
