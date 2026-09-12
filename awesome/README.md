@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **570**
-Repositories: **64**
+Published skills: **571**
+Repositories: **65**
 
 ## Browse repositories
 
@@ -45,6 +45,7 @@ Repositories: **64**
 - [chainlesschain/chainlesschain](./repos/chainlesschain/chainlesschain.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
 - [chen647208/hongyue-creation](./repos/chen647208/hongyue-creation.md)
+- [chenyynx/claudio](./repos/chenyynx/claudio.md)
 - [chnlich/charlie-bot](./repos/chnlich/charlie-bot.md)
 - [christiandoxa/prodex](./repos/christiandoxa/prodex.md)
 - [cogNNitive/cogNNitive](./repos/cogNNitive/cogNNitive.md)
@@ -407,6 +408,7 @@ Repositories: **64**
 - [do](./skills/chardigio/pappardelle/examples/skills/do/README.md) · `chardigio/pappardelle:examples/skills/do`
 - [golden-three-chapters](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/golden-three-chapters/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/golden-three-chapters`
 - [snowflake](./skills/chen647208/hongyue-creation/src/core/ai/skills/builtin/snowflake/README.md) · `chen647208/hongyue-creation:src/core/ai/skills/builtin/snowflake`
+- [codex-guide](./skills/chenyynx/claudio/bridge/.claude/skills/codex-guide/README.md) · `chenyynx/claudio:bridge/.claude/skills/codex-guide`
 - [cherry-electron-dev](./skills/cherryhq/cherry-studio/.agents/skills/cherry-electron-dev/README.md) · `cherryhq/cherry-studio:.agents/skills/cherry-electron-dev`
 - [create-skill](./skills/cherryhq/cherry-studio/.agents/skills/create-skill/README.md) · `cherryhq/cherry-studio:.agents/skills/create-skill`
 - [gh-create-issue](./skills/cherryhq/cherry-studio/.agents/skills/gh-create-issue/README.md) · `cherryhq/cherry-studio:.agents/skills/gh-create-issue`

@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "534b251fab2bc5ddccd2845261a993f206facd6a3ce0744cf1c6fcb3001be220",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/codex-guide",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "534b251fab2bc5ddccd2845261a993f206facd6a3ce0744cf1c6fcb3001be220",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/codex-guide",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fe771d589dc4a01bfea2d3eded6813a4117007f30c1b2a8f662ed7a06ed9f833",
+    "description": "Codex の使い方、CLI/app/IDE、rules・hooks・AGENTS.md・skills・subagents・config などを案内する。Codex や OpenAI 製品の仕様を答える前に必ず公式ドキュメントを確認し、rules/approval は `codex execpolicy check` で実検証すること。",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "agent-orchestration",
+        "documentation",
+        "integrations"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/codex-guide/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "codex-guide",
+    "path": "bridge/.claude/skills/codex-guide",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a627c4cc9b694e49c70905cb921218dd5e9f60019a9a787de48a82b334d468a6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "a627c4cc9b694e49c70905cb921218dd5e9f60019a9a787de48a82b334d468a6"
+}
