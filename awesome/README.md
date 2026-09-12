@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **403**
+Published skills: **404**
 Repositories: **53**
 
 ## Browse repositories
@@ -69,6 +69,7 @@ Repositories: **53**
 - [code-review](./categories/code-review.md)
 - [commerce](./categories/commerce.md)
 - [content](./categories/content.md)
+- [customer-support](./categories/customer-support.md)
 - [data](./categories/data.md)
 - [design](./categories/design.md)
 - [devops](./categories/devops.md)
@@ -137,6 +138,7 @@ Repositories: **53**
 - [yt2bb](./skills/agents365-ai/365-skills/plugins/yt2bb/skills/yt2bb/README.md) · `agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb`
 - [manage-taskboard](./skills/ahh666/codex-taskboard/skills/manage-taskboard/README.md) · `ahh666/codex-taskboard:skills/manage-taskboard`
 - [acestep](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/acestep/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/acestep`
+- [agents](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/agents/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/agents`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`

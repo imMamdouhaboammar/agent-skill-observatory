@@ -1,6 +1,6 @@
 # ai-ml
 
-Published Skills: 20
+Published Skills: 21
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -17,6 +17,7 @@ Published Skills: 20
 | [pattern-critic](../skills/commontoolsinc/labs/skills/pattern-critic/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Critic agent that reviews pattern code for violations of documented rules, gotchas, and anti-patterns. Produces categorized checklist output with [PASS]/[FAIL]/[WARN] for each rule. |
 | [pattern-schema](../skills/commontoolsinc/labs/skills/pattern-schema/README.md) | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 100 | 100 | 38 | Design schemas.tsx with Input/Output types for patterns |
 | [llm-context-guideline](../skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Placement and admission policy for content that enters LLM context; its chapters currently govern the memory store (admission whitelist, the three proof questions, entry form and labeling, canon change rules). Reload in full before touching memory content. |
+| [agents](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/agents/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience. |
 | [design](../skills/cosyeezz/axiom/.pi/skills/design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | 项目设计系统。凡涉及 UI、页面、组件、样式、配色的任务，必须先执行此 skill，读取对应风格的设计规范并严格遵循其 token 与规则。 |
 | [karpathy-ko](../skills/andyko18/specops-ko/skills/karpathy-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 작성·검토·리팩터링 시 항상 적용 — Think·Simplicity·Surgical·Goal 4원칙으로 LLM 코딩 실수 방지 (Karpathy 관찰 한국어 재창작) |
 | [skyrim-xml-verification](../skills/gkd2323c/runed-lexicon/.agents/skills/skyrim-xml-verification/README.md) | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 100 | 100 | 0 | runed-lexicon 的 XML 安全与验证规范：写回前后必须执行的验证清单、哈希与 provenance 的使用边界、性能与验证的职责分离原则。Use before or after any xTranslator XML writeback, when designing or reviewing XML-modifying tools, when deciding whether hashes/provenance need rebuilding, or when judging whether "工程验证通过" can be claimed. |
