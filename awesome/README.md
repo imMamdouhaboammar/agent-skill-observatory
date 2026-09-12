@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **402**
-Repositories: **52**
+Published skills: **403**
+Repositories: **53**
 
 ## Browse repositories
 
@@ -24,6 +24,7 @@ Repositories: **52**
 - [abnegate/magents](./repos/abnegate/magents.md)
 - [afaro-ai/afaro](./repos/afaro-ai/afaro.md)
 - [ahh666/codex-taskboard](./repos/ahh666/codex-taskboard.md)
+- [aiconduit/ai-conduit-pipeline](./repos/aiconduit/ai-conduit-pipeline.md)
 - [aiyinluya/desktop-pet-maker](./repos/aiyinluya/desktop-pet-maker.md)
 - [alizaouane/dev-agent](./repos/alizaouane/dev-agent.md)
 - [alpha-omega-security/scrutineer](./repos/alpha-omega-security/scrutineer.md)
@@ -135,6 +136,7 @@ Repositories: **52**
 - [xfetch](./skills/agents365-ai/365-skills/plugins/xfetch/skills/xfetch-skill/README.md) · `agents365-ai/365-skills:plugins/xfetch/skills/xfetch-skill`
 - [yt2bb](./skills/agents365-ai/365-skills/plugins/yt2bb/skills/yt2bb/README.md) · `agents365-ai/365-skills:plugins/yt2bb/skills/yt2bb`
 - [manage-taskboard](./skills/ahh666/codex-taskboard/skills/manage-taskboard/README.md) · `ahh666/codex-taskboard:skills/manage-taskboard`
+- [acestep](./skills/aiconduit/ai-conduit-pipeline/.agents/skills/acestep/README.md) · `aiconduit/ai-conduit-pipeline:.agents/skills/acestep`
 - [](./skills/aiyinluya/desktop-pet-maker/pet-maker/README.md) · `aiyinluya/desktop-pet-maker:pet-maker`
 - [acm](./skills/alizaouane/dev-agent/skills/acm/README.md) · `alizaouane/dev-agent:skills/acm`
 - [acm-test-agent](./skills/alizaouane/dev-agent/skills/acm-test-agent/README.md) · `alizaouane/dev-agent:skills/acm-test-agent`
