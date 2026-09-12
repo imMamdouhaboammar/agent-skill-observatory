@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "5c876f7e7733395f6ab392f2939a95ef7018aa067ac6051c845e40439ee6f9e2",
+  "canonical_key": "artbakerchat/y:app/forgeagent/skills/civic-knowledge",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5c876f7e7733395f6ab392f2939a95ef7018aa067ac6051c845e40439ee6f9e2",
+    "archived": false,
+    "canonical_key": "artbakerchat/y:app/forgeagent/skills/civic-knowledge",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "33f2b30aec36f6112ba27febb02967418cd5a177f1182aca54a1247567e750ba",
+    "description": "Explain local civic services and public processes with clear verification boundaries.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/artbakerchat/Y/blob/main/app/ForgeAgent/skills/civic-knowledge/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T17:06:48.908824Z",
+    "last_successful_repo_scan_at": "2026-09-12T17:06:48.908824Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "civic-knowledge",
+    "path": "app/ForgeAgent/skills/civic-knowledge",
+    "pushed_at": "2026-09-12T17:04:36Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "artbakerchat/Y",
+    "repo_url": "https://github.com/artbakerchat/Y",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9189031b4467f6f84f9d4c9942355aa081540e744c99ad377c0cade8f2b76059",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "9189031b4467f6f84f9d4c9942355aa081540e744c99ad377c0cade8f2b76059"
+}

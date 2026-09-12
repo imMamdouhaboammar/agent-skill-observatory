@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **675**
-Repositories: **72**
+Published skills: **676**
+Repositories: **73**
 
 ## Browse repositories
 
@@ -41,6 +41,7 @@ Repositories: **72**
 - [alpha-omega-security/scrutineer](./repos/alpha-omega-security/scrutineer.md)
 - [andyko18/specops-ko](./repos/andyko18/specops-ko.md)
 - [angular/skills](./repos/angular/skills.md)
+- [artbakerchat/Y](./repos/artbakerchat/Y.md)
 - [atomantic/PortOS](./repos/atomantic/PortOS.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [bossmiizlol/ai-workflow](./repos/bossmiizlol/ai-workflow.md)
@@ -336,6 +337,7 @@ Repositories: **72**
 - [phoenix-cli-development](./skills/arize-ai/phoenix/js/packages/phoenix-cli/.agents/skills/phoenix-cli-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-cli/.agents/skills/phoenix-cli-development`
 - [phoenix-client-development](./skills/arize-ai/phoenix/js/packages/phoenix-client/.agents/skills/phoenix-client-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-client/.agents/skills/phoenix-client-development`
 - [phoenix-otel-development](./skills/arize-ai/phoenix/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development`
+- [civic-knowledge](./skills/artbakerchat/y/app/forgeagent/skills/civic-knowledge/README.md) · `artbakerchat/y:app/forgeagent/skills/civic-knowledge`
 - [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
 - [portos-file-issue](./skills/atomantic/portos/.claude/skills/portos-file-issue/README.md) · `atomantic/portos:.claude/skills/portos-file-issue`
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`

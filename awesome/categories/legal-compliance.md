@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 40
+Published Skills: 41
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -38,6 +38,7 @@ Published Skills: 40
 | [seis-cloud](../skills/emirhankudun-ux/SEIS/plugins/seis-cloud/skills/seis-cloud/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS Cloud for cloud deployment readiness, public cloud targets, team/workplace VPN cloud targets, provider preflight, GCP Compute planning, static hosting handoff, secrets hygiene, rollback contracts, and infrastructure automation inside SEIS. Trigger when Codex needs to plan, validate, document, or execute cloud work while preserving user confirmation, security, provider neutrality, access policy, and repository governance. |
 | [seis-mcp-runtime](../skills/emirhankudun-ux/SEIS/plugins/seis/skills/seis-mcp-runtime/README.md) | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 100 | 100 | 1 | Use SEIS MCP Runtime for MCP endpoint audits, tool boundary reviews, resource exposure checks, and explicit runtime evidence mapping for secure, scoped, AI-native operations. |
 | [bfl-api](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/bfl-api/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | BFL FLUX API integration guide covering endpoints, async polling patterns, rate limiting, error handling, webhooks, and regional endpoints with Python and TypeScript code examples. |
+| [civic-knowledge](../skills/artbakerchat/Y/app/ForgeAgent/skills/civic-knowledge/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 | Explain local civic services and public processes with clear verification boundaries. |
 | [web-design-guidelines](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/web-design-guidelines/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | [choosing-application-architecture](../skills/jhonatan-oliveiradev/agent-skills/skills/choosing-application-architecture/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when starting or reshaping an application where deployment topology, scaling, reliability, ownership, coupling, or delivery constraints make the architectural shape unclear. |
 | [editing-for-clarity-and-tone](../skills/jhonatan-oliveiradev/agent-skills/skills/editing-for-clarity-and-tone/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when revising existing prose for clarity, concision, structure, readability, or an explicitly requested tone while preserving the original meaning and factual content. |
