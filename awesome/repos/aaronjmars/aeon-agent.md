@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent)
 
-Published Skills: 19
+Published Skills: 20
 Categories: agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, hr-recruiting, integrations, marketing, media, product, productivity, project-management, research, security
 Best overall score: 100
-Security distribution: 85+=19, 60-84=0, <60=0
+Security distribution: 85+=20, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -28,3 +28,4 @@ Security distribution: 85+=19, 60-84=0, <60=0
 | [narrative-tracker](../../skills/aaronjmars/aeon-agent/skills/narrative-tracker/README.md) | `skills/narrative-tracker` | 100 | 100 | content, engineering, research, security |
 | [onchain-monitor](../../skills/aaronjmars/aeon-agent/skills/onchain-monitor/README.md) | `skills/onchain-monitor` | 100 | 100 | content, engineering, research, security |
 | [operator-scorecard](../../skills/aaronjmars/aeon-agent/skills/operator-scorecard/README.md) | `skills/operator-scorecard` | 100 | 100 | commerce, content, data, design, devops, engineering |
+| [picks-tracker](../../skills/aaronjmars/aeon-agent/skills/picks-tracker/README.md) | `skills/picks-tracker` | 100 | 100 | content, engineering, finance, media, productivity, security |
