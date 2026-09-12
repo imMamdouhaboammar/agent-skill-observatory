@@ -1,0 +1,106 @@
+{
+  "analysis_fingerprint": "c2eb36afee3f2b921b08c2f5a5feef347822b02a9c99facb08a4da1d86192434",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/heygen",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "mcp__heygen__*"
+    ],
+    "analysis_fingerprint": "c2eb36afee3f2b921b08c2f5a5feef347822b02a9c99facb08a4da1d86192434",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/heygen",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "eb5d021c7e0ea1f65aee1aeafd3dab5e75ab39a6c13b0ef55b375a2080ef04eb",
+    "description": "[DEPRECATED] Use `create-video` for prompt-based video generation or `avatar-video` for precise avatar/scene control. This legacy skill combines both workflows — the newer focused skills provide clearer guidance.\n",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "integrations",
+        "content",
+        "productivity",
+        "design",
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/heygen/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 21
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "openclaw": "{'requires': {'env': ['HEYGEN_API_KEY']}, 'primaryEnv': 'HEYGEN_API_KEY'}"
+    },
+    "name": "heygen",
+    "path": ".agents/skills/heygen",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 20,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0675f87a5a6ca03f9009e39a5a33957fdcdb4a843febcf462dee0e4cef670e2d",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "0675f87a5a6ca03f9009e39a5a33957fdcdb4a843febcf462dee0e4cef670e2d"
+}

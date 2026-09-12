@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 63
+Published Skills: 64
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -58,6 +58,7 @@ Published Skills: 63
 | [flux-best-practices](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/flux-best-practices/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Comprehensive guide for BFL FLUX image generation models. Covers prompting, T2I, I2I, structured JSON, hex colors, typography, multi-reference editing, and model-specific best practices for FLUX.2 and FLUX.1 families. |
 | [frontend-design](../skills/cosyeezz/axiom/.pi/skills/frontend-design/README.md) | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 100 | 100 | 0 | frontend-design |
 | [frontend-design](../skills/hose1021/omp-dotfiles/agent/skills/frontend-design/README.md) | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 100 | 100 | 0 | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. |
+| [heygen](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/heygen/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | [DEPRECATED] Use `create-video` for prompt-based video generation or `avatar-video` for precise avatar/scene control. This legacy skill combines both workflows — the newer focused skills provide clearer guidance. |
 | [hicreator](../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 100 | 100 | 0 | Find Instagram, YouTube, or TikTok creators, look up public contact emails, and manage, share, or export hiCreator favorite folders. Use for creator discovery and hiCreator favorites workflows. |
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
