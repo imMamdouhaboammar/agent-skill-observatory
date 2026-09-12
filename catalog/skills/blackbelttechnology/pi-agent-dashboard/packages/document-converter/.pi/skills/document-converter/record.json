@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "c0c843b2ab54ee2248d05f3d2a4d18bb0a25a60daab24000aed610ade790bb79",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/document-converter/.pi/skills/document-converter",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c0c843b2ab54ee2248d05f3d2a4d18bb0a25a60daab24000aed610ade790bb79",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/document-converter/.pi/skills/document-converter",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ba7cb00bb996f3ea4b7a654318b0bb42e4c810f7894bd225b01201f9b6f9e3a6",
+    "description": "Convert documents bidirectionally via the pi-doc-engine facade: ingest PDF/DOCX/PPTX/XLSX to provenance-stamped Markdown (with OCR), and produce templated DOCX/PDF from Markdown with diagrams, TOC and round-trip merge. Use on \"convert this PDF to markdown\", \"ingest these docs into kb\", \"make a DOCX from markdown with our template\", \"render this spec to PDF\", \"OCR this scanned PDF\".",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "documents",
+        "documentation",
+        "media",
+        "engineering",
+        "content",
+        "devops"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/document-converter/.pi/skills/document-converter/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "document-converter",
+    "path": "packages/document-converter/.pi/skills/document-converter",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "03dfbc969ed7d8b257385fe283f8b2b53a89a1810aba0c4ebfbe16d47ebe175a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "03dfbc969ed7d8b257385fe283f8b2b53a89a1810aba0c4ebfbe16d47ebe175a"
+}
