@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 274
+Published Skills: 275
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -215,6 +215,7 @@ Published Skills: 274
 | [openspec-archive-change](../skills/a620906209/ticket-hub/.claude/skills/openspec-archive-change/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete. |
 | [openspec-archive-change](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-archive-change/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete. |
 | [openspec-explore](../skills/a620906209/ticket-hub/.claude/skills/openspec-explore/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
+| [openspec-explore](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-explore/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
 | [playwright-cli](../skills/chenyynx/claudio/bridge/.claude/skills/playwright-cli/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages. |
 | [release-bridge](../skills/chenyynx/claudio/bridge/.claude/skills/release-bridge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Bridge Server のリリース（バージョンbump + CHANGELOG + タグ → GH Actions で npm publish） |
