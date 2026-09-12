@@ -1,12 +1,13 @@
 # project-management
 
-Published Skills: 9
+Published Skills: 10
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
 | [roadmap](../skills/cloudposse/atmos/.claude/skills/roadmap/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Maintain and update the Atmos roadmap page (website/src/data/roadmap.js): milestone/initiative/quarter schema, progress-percentage math, the curated featured[] cap (max 6, never auto-modified), and the no-changelog-for-internal-refactors gate. Invoke when adding/updating milestones, initiatives, or quarters, or linking a milestone to a changelog post. |
 | [status](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/status/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Quick canon + pipeline health check. Use when asked "how's it going?", "status?", "how's the db?", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging. |
 | [idea-forge](../skills/aaronjmars/aeon-agent/skills/idea-forge/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Three-mode idea engine - generate collides the week's zeitgeist with what you can ship into scored wedges; validate viability-screens the idea backlog; memo writes evidence-backed startup memos. |
+| [narrative-convergence](../skills/aaronjmars/aeon-agent/skills/narrative-convergence/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Cross-skill signal detector - finds entities or themes surfaced independently by 3+ different skill categories within 48h and surfaces them as high-confidence write opportunities |
 | [atm-handoff](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-handoff/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Write a continuation summary for governed work. |
 | [atm-memory-consolidate](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-memory-consolidate/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index. |
 | [karpathy-ko](../skills/andyko18/specops-ko/skills/karpathy-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 작성·검토·리팩터링 시 항상 적용 — Think·Simplicity·Surgical·Goal 4원칙으로 LLM 코딩 실수 방지 (Karpathy 관찰 한국어 재창작) |
