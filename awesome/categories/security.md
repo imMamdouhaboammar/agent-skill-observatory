@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 106
+Published Skills: 107
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -26,6 +26,7 @@ Published Skills: 106
 | [atmos-aws-security](../skills/cloudposse/atmos/agent-skills/skills/atmos-aws-security/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | AWS security finding analysis: analyze findings, map to Atmos components/stacks, generate structured remediation with exact Terraform changes and deploy commands |
 | [atmos-stores](../skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Store backends: AWS SSM, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, Redis, Artifactory configuration, hooks integration, cross-component data sharing, atmos store CLI CRUD, type: store workflow step |
 | [atmos-templates](../skills/cloudposse/atmos/agent-skills/skills/atmos-templates/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Go templates: Sprig/Gomplate functions, Atmos's own collectKeys, atmos.Component, atmos.GomplateDatasource, atmos.Store, template configuration, evaluations |
+| [atmos-yaml-functions](../skills/cloudposse/atmos/agent-skills/skills/atmos-yaml-functions/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | YAML functions: !terraform.state, !terraform.output, !store, !store.get, !secret, !emulator, !env, !exec, !include, !template, !append, !unset, !literal, !random, !aws.*, !git.*, !cwd, !repo-root |
 | [security-remediate](../skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open. |
 | [speckit-analyze](../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation. |
 | [speckit-checklist](../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate a custom checklist for the current feature based on user requirements. |
