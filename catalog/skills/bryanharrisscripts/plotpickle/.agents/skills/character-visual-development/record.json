@@ -1,0 +1,108 @@
+{
+  "analysis_fingerprint": "e3005c8ffebe3b4eecaeaeb1af50fd6770dc576878f97203cea1920c983ca341",
+  "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/character-visual-development",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e3005c8ffebe3b4eecaeaeb1af50fd6770dc576878f97203cea1920c983ca341",
+    "archived": false,
+    "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/character-visual-development",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9addba307d5593b85c0af7346e968c50c8761d7fe9851da508a9f26c2b8ae271",
+    "description": "Develop a revision-bound candidate visual package for one canonical PlotPickle character from approved and observed evidence without changing canon or accepting generated work.",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "hr-recruiting",
+        "design",
+        "research",
+        "engineering",
+        "media",
+        "content"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/BryanHarrisScripts/PlotPickle/blob/main/.agents/skills/character-visual-development/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:06:01.003919Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "PlotPickle",
+      "compatibility": "PlotPickle host runtime",
+      "progressiveDisclosure": "True",
+      "uri": "skill://plotpickle/character-visual-development",
+      "version": "1.2.0"
+    },
+    "name": "character-visual-development",
+    "path": ".agents/skills/character-visual-development",
+    "pushed_at": "2026-09-12T14:04:16Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "BryanHarrisScripts/PlotPickle",
+    "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 25,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f1a25abbae747592e70dbcd31387a646a747c5ee9eb6822cebf709eedf9b73ce",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 4
+  },
+  "source_fingerprint": "f1a25abbae747592e70dbcd31387a646a747c5ee9eb6822cebf709eedf9b73ce"
+}
