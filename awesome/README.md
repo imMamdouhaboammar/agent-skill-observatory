@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **553**
+Published skills: **554**
 Repositories: **62**
 
 ## Browse repositories
@@ -336,6 +336,7 @@ Repositories: **62**
 - [marquee-director](./skills/bryanharrisscripts/plotpickle/.agents/skills/marquee-director/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/marquee-director`
 - [plan-foundations](./skills/bryanharrisscripts/plotpickle/.agents/skills/plan-foundations/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/plan-foundations`
 - [plotpickle-architecture-review](./skills/bryanharrisscripts/plotpickle/.agents/skills/plotpickle-architecture-review/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/plotpickle-architecture-review`
+- [sage-brinewick](./skills/bryanharrisscripts/plotpickle/.agents/skills/sage-brinewick/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/sage-brinewick`
 - [buildd-mcp-consumer](./skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) · `buildd-ai/buildd:.claude/skills/buildd-mcp-consumer`
 - [buildd-workflow](./skills/buildd-ai/buildd/.claude/skills/buildd-workflow/README.md) · `buildd-ai/buildd:.claude/skills/buildd-workflow`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
