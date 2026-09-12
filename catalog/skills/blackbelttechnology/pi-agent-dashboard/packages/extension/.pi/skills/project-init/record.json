@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "690ad242eed08dc773cc1ad3836189d300df89a58a68fdbcd6a207593420dbad",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/extension/.pi/skills/project-init",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "690ad242eed08dc773cc1ad3836189d300df89a58a68fdbcd6a207593420dbad",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/extension/.pi/skills/project-init",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "71fd1470e119b8686c1c9ca8d7e20c1a11b1fda7d57fd90f940cd6ad6f61efe2",
+    "description": "Scaffold an unconfigured directory into a configured pi project. Interactive, profile-driven: previews the planned writes, then writes AGENTS.md, .pi/settings.json and prompt files — optionally also a knowledge base, an openspec/ scaffold, and user-global ~/.pi/agent/settings.json. Use on a bare directory, or when the dashboard's \"Initialize\" button spawns this session.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "content",
+        "documentation",
+        "engineering",
+        "testing",
+        "agent-orchestration"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/extension/.pi/skills/project-init/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "pi-dashboard",
+      "version": "1.0"
+    },
+    "name": "project-init",
+    "path": "packages/extension/.pi/skills/project-init",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "dbf69a5d29c8cbd1c7d0aa392b5d8a32f583dc9d78fdfb4f943e1d452505c3eb",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "dbf69a5d29c8cbd1c7d0aa392b5d8a32f583dc9d78fdfb4f943e1d452505c3eb"
+}

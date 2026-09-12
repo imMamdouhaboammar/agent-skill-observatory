@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard)
 
-Published Skills: 21
+Published Skills: 22
 Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=21, 60-84=0, <60=0
+Security distribution: 85+=22, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -23,6 +23,7 @@ Security distribution: 85+=21, 60-84=0, <60=0
 | [faq-mine](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/authoring-toolkit/.pi/skills/faq-mine/README.md) | `packages/authoring-toolkit/.pi/skills/faq-mine` | 100 | 100 | agent-orchestration, content, documentation, engineering, hr-recruiting, research |
 | [interview-me](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/interview-me/README.md) | `packages/eng-disciplines/.pi/skills/interview-me` | 100 | 100 | content, documentation, engineering, productivity, research, testing |
 | [plan-proposal](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/plan-proposal/README.md) | `.pi/skills/plan-proposal` | 100 | 100 | agent-orchestration, content, design, engineering, productivity, testing |
+| [project-init](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/extension/.pi/skills/project-init/README.md) | `packages/extension/.pi/skills/project-init` | 100 | 100 | agent-orchestration, content, documentation, engineering, testing |
 | [release-revoke](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/release-revoke/README.md) | `.pi/skills/release-revoke` | 100 | 100 | devops, engineering |
 | [review-code](../../skills/BlackBeltTechnology/pi-agent-dashboard/packages/eng-disciplines/.pi/skills/review-code/README.md) | `packages/eng-disciplines/.pi/skills/review-code` | 100 | 100 | agent-orchestration, code-review, content, design, engineering, security |
 | [run-dashboard-e2e-local-changes](../../skills/BlackBeltTechnology/pi-agent-dashboard/.pi/skills/run-dashboard-e2e-local-changes/README.md) | `.pi/skills/run-dashboard-e2e-local-changes` | 100 | 100 | browser-automation, design, devops, engineering, media, testing |
