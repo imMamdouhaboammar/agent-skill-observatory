@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "3b899ceb151caf39a0d40538e2b3823bcc752c1e00ec9c7a90fb54ec2fafbfcd",
+  "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/review-code",
+  "publication_event": "add",
+  "published_at": "2026-09-12T11:10:34.250184Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3b899ceb151caf39a0d40538e2b3823bcc752c1e00ec9c7a90fb54ec2fafbfcd",
+    "archived": false,
+    "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/eng-disciplines/.pi/skills/review-code",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "224c9245062f19694218e2abae4c23f53b6dbdbb66d143f7e7282de83a7e8f8e",
+    "description": "Review a code change well — engine-agnostic critical review discipline for an inline dev loop. Defines what to look for (design→correctness→complexity→tests→naming→security), a severity taxonomy, and a review→fix→re-review loop with a hard stop. Use on \"review this code\", \"review my diff\", \"is this change good\", \"critique this implementation\", \"review before commit\". Not a ship-gate.",
+    "discovery_source": "repo-search:topic:agent-skills",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "design",
+        "security",
+        "content",
+        "agent-orchestration",
+        "code-review"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/review-code/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 41,
+    "indexed_at": "2026-09-12T11:06:01.531476Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "review-code",
+    "path": "packages/eng-disciplines/.pi/skills/review-code",
+    "pushed_at": "2026-09-12T11:04:15Z",
+    "repo_default_branch": "develop",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 77,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7ab008a3adea9bd43b9e9e3f2ce96061964fafb8b96aeab11c98bdffd16cff98",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 282
+  },
+  "source_fingerprint": "7ab008a3adea9bd43b9e9e3f2ce96061964fafb8b96aeab11c98bdffd16cff98"
+}
