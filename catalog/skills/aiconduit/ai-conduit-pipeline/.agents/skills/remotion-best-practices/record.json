@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "0d8bd460e3ef7cf9355308f33a93d5987f3b27b3eb3eee040345f6a3dfc1f8b4",
+  "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/remotion-best-practices",
+  "publication_event": "add",
+  "published_at": "2026-09-12T01:39:35.389269Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0d8bd460e3ef7cf9355308f33a93d5987f3b27b3eb3eee040345f6a3dfc1f8b4",
+    "archived": false,
+    "canonical_key": "aiconduit/ai-conduit-pipeline:.agents/skills/remotion-best-practices",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2f9be561c1c3659aea1b4c777a9b57733dcd466b6e85231316d2841d947584bf",
+    "description": "Best practices for Remotion - Video creation in React",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "media",
+        "ai-ml",
+        "browser-automation",
+        "content",
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/remotion-best-practices/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T01:37:23.947095Z",
+    "last_successful_repo_scan_at": "2026-09-12T01:37:23.947095Z",
+    "license": "AGPL-3.0",
+    "metadata": {
+      "tags": "remotion, video, react, animation, composition"
+    },
+    "name": "remotion-best-practices",
+    "path": ".agents/skills/remotion-best-practices",
+    "pushed_at": "2026-09-12T01:31:13Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license AGPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "73e658339792953c1ff7b4201d681f899c09be910c05b415802b3b03ccdea0b4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "73e658339792953c1ff7b4201d681f899c09be910c05b415802b3b03ccdea0b4"
+}
