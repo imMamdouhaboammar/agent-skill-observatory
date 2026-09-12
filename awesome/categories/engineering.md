@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 389
+Published Skills: 390
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -167,6 +167,7 @@ Published Skills: 389
 | [api-gateway](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Universal API gateway - connect to 100+ APIs with a unified interface, manage API keys, and chain API calls |
 | [architect-mode](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | 双阶段架构模式 - 先规划后编辑，分离推理与代码修改，提升多文件编辑准确率 |
 | [cron-scheduler](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cron-scheduler/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Schedule and manage automated tasks with cron expressions - create recurring jobs, one-time tasks, natural language scheduling, and cross-platform timer management |
+| [cursor-rules-generator](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cursor-rules-generator/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Generate IDE rules and configuration files - .cursorrules, .clinerules, CLAUDE.md, .windsurfrules, and other AI coding assistant configuration for consistent project conventions |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [oculpm-codex](../skills/bunhine0452/Ocul-PM/plugin/oculpm-codex/skills/oculpm-codex/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use ocul-pm journals and planners from Codex without relying on Claude-only plugin variables. |
 | [oculpm-journal](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/oculpm-journal/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | ocul-pm recording spec (journal format, planner glyphs/log, discussion docs) for projects with .oculpm/. Use when finishing a unit of work and the oculpm MCP tools are unavailable — prefer journal_write/plan_update when visible. |
