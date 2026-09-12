@@ -1,6 +1,6 @@
 # education
 
-Published Skills: 20
+Published Skills: 21
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,3 +24,4 @@ Published Skills: 20
 | [building-developer-career-roadmaps](../skills/jhonatan-oliveiradev/agent-skills/skills/building-developer-career-roadmaps/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a developer has a capability baseline and career target and needs an adaptive sequence of milestones, dependencies, current focus, and evidence gates. |
 | [building-reliable-node-api-boundaries](../skills/jhonatan-oliveiradev/agent-skills/skills/building-reliable-node-api-boundaries/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when implementing or reviewing Node.js API or service endpoints that cross trust or data boundaries and require explicit validation, authorization, failure semantics, observability, or retry behavior. |
 | [designing-developer-portfolio-evidence](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-developer-portfolio-evidence/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when roadmap gaps need to become credible portfolio artifacts with explicit evidence contracts showing which capabilities a project must actually demonstrate. |
+| [grill-me](../skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Calibrated grilling session for stress-testing a plan, design, idea, or decision. First assesses the user's topic knowledge, confidence, and desired pressure level, then asks one question at a time with recommended answers. Use when user says "grill me", "stress-test this", "challenge my plan", "interview me", or wants a plan probed without being overwhelmed. For document-backed review, use the domain reference. |

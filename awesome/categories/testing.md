@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 83
+Published Skills: 84
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -81,6 +81,7 @@ Published Skills: 83
 | [designing-action-combat](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-action-combat/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when creating or tuning real-time game combat involving attacks, hit reactions, dodge or guard behavior, enemy telegraphs, combos, animation timing, or moment-to-moment combat readability. |
 | [designing-test-strategies](../skills/jhonatan-oliveiradev/agent-skills/skills/designing-test-strategies/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a feature, service, or release needs a deliberate verification plan and the team is unsure which risks belong in unit, integration, end-to-end, or non-functional tests. |
 | [claude-md-convention](../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | What: CLAUDE.md の基準 — エージェント向けの索引として何を載せ、何をどこへ逃がすかの判定（One Test・Include/Exclude 表・振り分け表）。 Use when: CLAUDE.md を書く・追記する・削る・監査するとき、またはある指示の置き場が CLAUDE.md かスキルかルールかフックかで迷ったとき。 |
+| [grill-me](../skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 99 | 100 | 0 | Calibrated grilling session for stress-testing a plan, design, idea, or decision. First assesses the user's topic knowledge, confidence, and desired pressure level, then asks one question at a time with recommended answers. Use when user says "grill me", "stress-test this", "challenge my plan", "interview me", or wants a plan probed without being overwhelmed. For document-backed review, use the domain reference. |
 | [housekeep](../skills/Hoshock/HolodoriOptimizer/.claude/skills/housekeep/README.md) | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 99 | 100 | 0 | このリポジトリのドキュメントを棚卸しする — docs/ai/tmp/rules.md のルール候補を恒久の置き場へ昇格し、陳腐化したルール・CLAUDE.md・README のドリフトを直し、揮発性ドキュメントを整理し、コンパクション地点のログを残す。ユーザーが棚卸し（housekeep）を指示したときに使う。 |
 | [add-solver](../skills/DexForce/EmbodiChain/.claude/skills/add-solver/README.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 97 | 100 | 224 | Claude adapter for the canonical EmbodiChain add-solver skill. |
 | [atm-residue-cleanup](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-residue-cleanup/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 97 | 100 | 3 | Diagnose and safely reconcile operation-owned transient ATM residue. |

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **462**
+Published skills: **463**
 Repositories: **55**
 
 ## Browse repositories
@@ -271,6 +271,7 @@ Repositories: **55**
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
+- [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [oculpm-codex](./skills/bunhine0452/ocul-pm/plugin/oculpm-codex/skills/oculpm-codex/README.md) · `bunhine0452/ocul-pm:plugin/oculpm-codex/skills/oculpm-codex`
 - [oculpm-journal](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/oculpm-journal/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/oculpm-journal`
 - [project-inception](./skills/bunhine0452/ocul-pm/plugin/oculpm/skills/project-inception/README.md) · `bunhine0452/ocul-pm:plugin/oculpm/skills/project-inception`
