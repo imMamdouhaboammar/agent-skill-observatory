@@ -2,22 +2,24 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-11 23:41 UTC
+> Last refreshed: 2026-09-12 11:10 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **402** published skills
-- **52** repositories
-- **398** spec-valid manifests
-- **398** skills with security score 85+
-- **398** skills with overall score 80+
+- **543** published skills
+- **61** repositories
+- **539** spec-valid manifests
+- **539** skills with security score 85+
+- **539** skills with overall score 80+
 
 ## Top verified skills
 
 | Skill | Repository | Score | Security | Stars |
 |---|---|---:|---:|---:|
 | [academic-paper-review](https://github.com/bytedance/deer-flow/blob/main/skills/public/academic-paper-review/SKILL.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82289 |
+| [accessibility-a11y](https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/accessibility-a11y/SKILL.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 |
+| [acestep](https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/acestep/SKILL.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 |
 | [add-atomic-action](https://github.com/DexForce/EmbodiChain/blob/main/.agents/skills/add-atomic-action/SKILL.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 |
 | [add-functor](https://github.com/DexForce/EmbodiChain/blob/main/.agents/skills/add-functor/SKILL.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 |
 | [add-robot](https://github.com/DexForce/EmbodiChain/blob/main/.agents/skills/add-robot/SKILL.md) | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 100 | 100 | 224 |
@@ -25,8 +27,13 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [advisor-ko](https://github.com/andyko18/specops-ko/blob/main/skills/advisor-ko/SKILL.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 |
 | [advisories](https://github.com/alpha-omega-security/scrutineer/blob/main/skills/advisories/SKILL.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 |
 | [advisory-deep-dive](https://github.com/alpha-omega-security/scrutineer/blob/main/skills/advisory-deep-dive/SKILL.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 |
+| [agent-browser](https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/SKILL.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 |
+| [agents](https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/agents/SKILL.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 |
 | [ai-claim-checker](https://github.com/iflytek/skillhub/blob/main/builtin-skills/skills/ai-claim-checker/SKILL.md) | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 100 | 100 | 5082 |
+| [ai-video-gen](https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/ai-video-gen/SKILL.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 |
 | [analyze](https://github.com/markmhendrickson/ateles/blob/main/.claude/skills/analyze/SKILL.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 |
+| [anti-slop-frontend](https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/anti-slop/.pi/skills/anti-slop-frontend/SKILL.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 |
+| [apple-tools](https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/apple-tools/.pi/skills/apple-tools/SKILL.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 |
 | [apple-web-design](https://github.com/hoonex/sloar-chat-coder/blob/main/.agents/skills/apple-web-design/SKILL.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 |
 | [atm-atom-map-refactor](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-atom-map-refactor/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
 | [atm-diagnostic-loop](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-diagnostic-loop/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
@@ -35,25 +42,26 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [atm-framework-quickfix](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-framework-quickfix/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
 | [atm-framework-temp-claim](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-framework-temp-claim/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
 | [atm-git-pathspec-emergency-commit](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-git-pathspec-emergency-commit/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
-| [atm-governance-router](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-governance-router/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
-| [atm-internal-build-sync](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-internal-build-sync/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
-| [atm-legacy-atomization-guidance](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/integrations/codex-skills/atm-legacy-atomization-guidance/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
-| [atm-memory-consolidate](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-memory-consolidate/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
-| [atm-minimal-patch-rebuilder](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-minimal-patch-rebuilder/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
-| [atm-task-intent-resolver](https://github.com/eaglhuang/AI-Atomic-Framework/blob/main/.agents/skills/atm-task-intent-resolver/SKILL.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 |
-| [audit-authz](https://github.com/alpha-omega-security/scrutineer/blob/main/skills/audit-authz/SKILL.md) | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 100 | 100 | 215 |
 
 ## Repository directory
 
 | Repository | Skills | Best score | Stars | Categories |
 |---|---:|---:|---:|---|
+| [2AMLogic/klayout-tools](https://github.com/2AMLogic/klayout-tools) | 1 | 100 | 1 | architecture, commerce, content, data, documentation, research |
+| [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 4 | 100 | 0 | commerce, content, data, design, devops, documentation, engineering, integrations, productivity |
 | [abnegate/magents](https://github.com/abnegate/magents) | 1 | 100 | 2 | content, engineering, integrations, productivity |
+| [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 1 | 100 | 1358 | content, devops, engineering, product, security, testing |
+| [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 56 | 100 | 0 | agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 33 | 100 | 215 | agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, mobile, productivity, research, security, testing |
 | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 12 | 100 | 0 | agent-orchestration, ai-ml, commerce, content, data, design, documentation, education, engineering, integrations, productivity, project-management, research, security, testing |
 | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 1 | 100 | 0 | data, engineering, integrations, product, productivity |
 | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 12 | 100 | 11416 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, media, productivity, research, testing |
+| [atomantic/PortOS](https://github.com/atomantic/PortOS) | 3 | 100 | 38 | content, design, engineering, media, productivity, research, testing |
+| [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 38 | 100 | 282 | agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
+| [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 2 | 100 | 1 | content, design, documentation, engineering, integrations, productivity, security |
 | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 6 | 100 | 7 | documentation, engineering, integrations, productivity, research, security, testing |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 12 | 100 | 82289 | agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security |
+| [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 31 | 100 | 11 | ai-ml, browser-automation, business, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, media, mobile, product, productivity, research, security, testing |
 | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 1 | 100 | 17 | commerce, content, engineering, productivity, testing |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 26 | 100 | 51666 | agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, media, other, productivity, research, security, testing |
 | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 12 | 100 | 6 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security, testing |
@@ -75,7 +83,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 17 | 100 | 1 | browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing |
 | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 12 | 100 | 0 | agent-orchestration, ai-ml, commerce, content, data, design, documentation, engineering, hr-recruiting, localization, productivity, research, security, testing |
 | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 1 | 100 | 0 | data, documentation, engineering, integrations, security |
-| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 7 | 100 | 4688 | code-review, commerce, content, data, devops, documentation, engineering, integrations, productivity, research, security, testing |
+| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 7 | 100 | 4696 | code-review, commerce, content, data, devops, documentation, engineering, integrations, productivity, research, security, testing |
 | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 2 | 100 | 0 | browser-automation, commerce, content, design, engineering, marketing, productivity, research, security |
 | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 1 | 100 | 0 | commerce, content, data, design, engineering, integrations |
 | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 22 | 100 | 5082 | agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, sales, security, testing |
@@ -84,6 +92,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 6 | 100 | 1 | browser-automation, commerce, content, data, design, devops, engineering, finance, marketing, media, productivity, research, testing |
 | [lightdash/lightdash](https://github.com/lightdash/lightdash) | 1 | 100 | 6131 | content, data, design, engineering |
 | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 10 | 100 | 6 | browser-automation, business, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, product, productivity, research, security, testing |
+| [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 5 | 99 | 0 | agent-orchestration, ai-ml, architecture, commerce, content, data, design, devops, documentation, education, engineering, finance, legal-compliance, marketing, productivity, research, security, testing |
 | [diegofisi/youtube-downloader](https://github.com/diegofisi/youtube-downloader) | 1 | 99 | 0 | commerce, content, data, design, engineering, productivity |
 | [Hoshock/HolodoriOptimizer](https://github.com/Hoshock/HolodoriOptimizer) | 7 | 99 | 0 | ai-ml, architecture, data, design, documentation, engineering, other, testing |
 | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 28 | 99 | 1 | architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |

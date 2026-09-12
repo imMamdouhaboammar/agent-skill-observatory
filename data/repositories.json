@@ -3,6 +3,100 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "architecture",
+      "commerce",
+      "content",
+      "data",
+      "documentation",
+      "research"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-12T11:03:41+00:00",
+    "repo_full_name": "2AMLogic/klayout-tools",
+    "repo_url": "https://github.com/2AMLogic/klayout-tools",
+    "security_85_plus_count": 1,
+    "skills": [
+      {
+        "description": "Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. Use when reviewing a draft block spec table before operator ratification.",
+        "manifest": "https://github.com/2AMLogic/klayout-tools/blob/main/.claude/skills/spec-review/SKILL.md",
+        "name": "spec-review",
+        "overall_score": 100,
+        "path": ".claude/skills/spec-review",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 1,
+    "spec_valid_count": 1,
+    "stars": 1
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "engineering",
+      "integrations",
+      "productivity"
+    ],
+    "default_branch": "master",
+    "forks": 0,
+    "pushed_at": "2026-09-12T11:03:57+00:00",
+    "repo_full_name": "a620906209/ticket-hub",
+    "repo_url": "https://github.com/a620906209/ticket-hub",
+    "security_85_plus_count": 4,
+    "skills": [
+      {
+        "description": "Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.",
+        "manifest": "https://github.com/a620906209/ticket-hub/blob/master/.claude/skills/openspec-apply-change/SKILL.md",
+        "name": "openspec-apply-change",
+        "overall_score": 100,
+        "path": ".claude/skills/openspec-apply-change",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete.",
+        "manifest": "https://github.com/a620906209/ticket-hub/blob/master/.claude/skills/openspec-archive-change/SKILL.md",
+        "name": "openspec-archive-change",
+        "overall_score": 100,
+        "path": ".claude/skills/openspec-archive-change",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change.",
+        "manifest": "https://github.com/a620906209/ticket-hub/blob/master/.claude/skills/openspec-explore/SKILL.md",
+        "name": "openspec-explore",
+        "overall_score": 100,
+        "path": ".claude/skills/openspec-explore",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation.",
+        "manifest": "https://github.com/a620906209/ticket-hub/blob/master/.claude/skills/openspec-propose/SKILL.md",
+        "name": "openspec-propose",
+        "overall_score": 100,
+        "path": ".claude/skills/openspec-propose",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 4,
+    "spec_valid_count": 4,
+    "stars": 0
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
       "content",
       "engineering",
       "integrations",
@@ -28,6 +122,583 @@
     "skills_count": 1,
     "spec_valid_count": 1,
     "stars": 2
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "content",
+      "devops",
+      "engineering",
+      "product",
+      "security",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 44,
+    "pushed_at": "2026-09-12T11:03:57+00:00",
+    "repo_full_name": "agentconnect-md/agentconnect",
+    "repo_url": "https://github.com/agentconnect-md/agentconnect",
+    "security_85_plus_count": 1,
+    "skills": [
+      {
+        "description": "Verify and refresh AgentConnect's daemon-side public OpenAI fallback pricing, exact model aliases, long-context and cache rules, and regression tests. Use when OpenAI model prices or IDs change, fallback cost becomes missing or stale, codex-acp changes its token mapping, or someone asks to audit or update packages/daemon/src/usage/openai-public-pricing.ts.",
+        "manifest": "https://github.com/agentconnect-md/agentconnect/blob/main/.claude/skills/update-model-pricing/SKILL.md",
+        "name": "update-model-pricing",
+        "overall_score": 100,
+        "path": ".claude/skills/update-model-pricing",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 1,
+    "spec_valid_count": 1,
+    "stars": 1358
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "agent-orchestration",
+      "ai-ml",
+      "browser-automation",
+      "commerce",
+      "content",
+      "customer-support",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "engineering",
+      "finance",
+      "integrations",
+      "legal-compliance",
+      "localization",
+      "marketing",
+      "media",
+      "mobile",
+      "product",
+      "productivity",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "master",
+    "forks": 0,
+    "pushed_at": "2026-09-12T01:31:13+00:00",
+    "repo_full_name": "aiconduit/ai-conduit-pipeline",
+    "repo_url": "https://github.com/aiconduit/ai-conduit-pipeline",
+    "security_85_plus_count": 56,
+    "skills": [
+      {
+        "description": "AI music generation with ACE-Step 1.5 — background music, vocal tracks, covers, stem extraction for video production. Use when generating music, soundtracks, jingles, or working with audio stems. Triggers include background music, soundtrack, jingle, music generation, stem extraction, cover, style transfer, or musical composition tasks.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/acestep/SKILL.md",
+        "name": "acestep",
+        "overall_score": 100,
+        "path": ".agents/skills/acestep",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/agents/SKILL.md",
+        "name": "agents",
+        "overall_score": 100,
+        "path": ".agents/skills/agents",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate AI videos from text prompts using multiple provider gateways. Use when: (1) Generating videos from text descriptions, (2) Creating AI-generated video clips for content production, (3) Image-to-video generation with a reference image, (4) Choosing between video generation providers (VEO, Kling, Sora, Runway, Seedance, MiniMax). Supports two gateways: HeyGen API and fal.ai API.\n",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/ai-video-gen/SKILL.md",
+        "name": "ai-video-gen",
+        "overall_score": 100,
+        "path": ".agents/skills/ai-video-gen",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create AI avatar videos with precise control over avatars, voices, scripts, scenes, and backgrounds using HeyGen's v2 API. Use when: (1) Choosing a specific avatar and voice for a video, (2) Writing exact scripts for an avatar to speak, (3) Building multi-scene videos with different backgrounds per scene, (4) Creating transparent WebM videos for compositing, (5) Using talking photos as video presenters, (6) Integrating HeyGen avatars with Remotion, (7) Batch video generation with exact specs, (8) Brand-consistent production videos with precise control.\n",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/avatar-video/SKILL.md",
+        "name": "avatar-video",
+        "overall_score": 100,
+        "path": ".agents/skills/avatar-video",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "BFL FLUX API integration guide covering endpoints, async polling patterns, rate limiting, error handling, webhooks, and regional endpoints with Python and TypeScript code examples.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/bfl-api/SKILL.md",
+        "name": "bfl-api",
+        "overall_score": 100,
+        "path": ".agents/skills/bfl-api",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Review local character animation with schema checks, Playwright browser previews, frame sampling, and FFmpeg/ffprobe final output checks.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/character-animation-qa/SKILL.md",
+        "name": "character-animation-qa",
+        "overall_score": 100,
+        "path": ".agents/skills/character-animation-qa",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when working with ComfyUI workflows in OpenMontage, including comfyui_image/comfyui_video, custom workflow_json/workflow_path inputs, output_node selection, missing model setup, LoRAs, low-VRAM workflow choices, and community workflow imports.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/comfyui/SKILL.md",
+        "name": "comfyui",
+        "overall_score": 100,
+        "path": ".agents/skills/comfyui",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create videos from a text prompt using HeyGen's Video Agent. Use when: (1) Creating a video from a description or idea, (2) Generating explainer, demo, or marketing videos from a prompt, (3) Making a video without specifying exact avatars, voices, or scenes, (4) Quick video prototyping or drafts, (5) One-shot prompt-to-video generation, (6) User says \"make me a video\" or \"create a video about X\".\n",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/create-video/SKILL.md",
+        "name": "create-video",
+        "overall_score": 100,
+        "path": ".agents/skills/create-video",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires fine-grained control over visual elements, transitions, or interactions. Use this for bespoke visualisations beyond standard charting libraries, whether in React, Vue, Svelte, vanilla JavaScript, or any other environment.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/d3-viz/SKILL.md",
+        "name": "d3-viz",
+        "overall_score": 100,
+        "path": ".agents/skills/d3-viz",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "DashScope (Alibaba Cloud Bailian / 阿里云百炼) integration — image generation (qwen-image-2.0-pro), text-to-speech (qwen3-tts-flash), and ASR with word-level timestamps (qwen3-asr-flash-filetrans). Use when generating images via Qwen-Image, narrating via Qwen-TTS, or transcribing with word-level timestamps via Qwen-ASR.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/dashscope/SKILL.md",
+        "name": "dashscope",
+        "overall_score": 100,
+        "path": ".agents/skills/dashscope",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate Mandarin and multilingual narration with Volcengine Doubao Speech 2.0. Use when creating Chinese voiceovers, when the user prefers Doubao/Volcengine/火山引擎/豆包 TTS, or when narration needs character-level timestamp metadata for subtitles.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/doubao-tts/SKILL.md",
+        "name": "doubao-tts",
+        "overall_score": 100,
+        "path": ".agents/skills/doubao-tts",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Swap faces in a video using AI via the HeyGen API. Use when: (1) Replacing a face in a video with another face, (2) Face swapping from a source image onto a target video, (3) Creating personalized videos by swapping in a person's face, (4) Working with HeyGen's /v1/workflows/executions endpoint for face swap processing.\n",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/faceswap/SKILL.md",
+        "name": "faceswap",
+        "overall_score": 100,
+        "path": ".agents/skills/faceswap",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Video and audio processing with FFmpeg. Use for format conversion, resizing, compression, audio extraction, and preparing assets for Remotion. Triggers include converting GIF to MP4, resizing video, extracting audio, compressing files, or any media transformation task.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/ffmpeg/SKILL.md",
+        "name": "ffmpeg",
+        "overall_score": 100,
+        "path": ".agents/skills/ffmpeg",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Comprehensive guide for BFL FLUX image generation models. Covers prompting, T2I, I2I, structured JSON, hex colors, typography, multi-reference editing, and model-specific best practices for FLUX.2 and FLUX.1 families.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/flux-best-practices/SKILL.md",
+        "name": "flux-best-practices",
+        "overall_score": 100,
+        "path": ".agents/skills/flux-best-practices",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when implementing Disney's 12 animation principles with Framer Motion in React applications",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/framer-motion/SKILL.md",
+        "name": "framer-motion",
+        "overall_score": 100,
+        "path": ".agents/skills/framer-motion",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "xAI Grok image and video generation guide covering authentication, endpoints, prompt structure, image editing, reference-image video, and async polling.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/grok-media/SKILL.md",
+        "name": "grok-media",
+        "overall_score": 100,
+        "path": ".agents/skills/grok-media",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion). Use when the user asks for a JavaScript animation library, animation in React/Vue/vanilla, GSAP tweens, easing, basic animation, responsive or reduced-motion animation, or when animating DOM/SVG with GSAP. Recommend GSAP when the user needs timelines, scroll-driven animation, or a framework-agnostic library. GSAP runs in any framework or vanilla JS; powers Webflow Interactions.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-core/SKILL.md",
+        "name": "gsap-core",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-core",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount. Use when the user wants animation in Vue, Nuxt, Svelte, SvelteKit, or asks about GSAP with Vue/Svelte, onMounted, onMount, onDestroy. Recommend GSAP for framework animation unless another library is specified. For React use gsap-react.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-frameworks/SKILL.md",
+        "name": "gsap-frameworks",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-frameworks",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or when the user asks about animation performance, FPS, or smooth 60fps.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-performance/SKILL.md",
+        "name": "gsap-performance",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-performance",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools. Use when the user asks about a GSAP plugin, scroll-to, flip animations, draggable, SVG drawing, or plugin registration.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-plugins/SKILL.md",
+        "name": "gsap-plugins",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-plugins",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with React, useGSAP, or cleanup on unmount. Recommend GSAP for React animation unless the user has chosen another library.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-react/SKILL.md",
+        "name": "gsap-react",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-react",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub, triggers. Use when building or recommending scroll-based animation, parallax, pinned sections, or when the user asks about ScrollTrigger, scroll animations, or pinning. Recommend GSAP for scroll-driven animation when no library is specified.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-scrolltrigger/SKILL.md",
+        "name": "gsap-scrolltrigger",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-scrolltrigger",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing keyframes, or when the user asks about animation sequencing, timelines, or animation order (in GSAP or when recommending a library that supports timelines).",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-timeline/SKILL.md",
+        "name": "gsap-timeline",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-timeline",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks about gsap.utils, clamp, mapRange, random, snap, toArray, wrap, or helper utilities in GSAP.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/gsap-utils/SKILL.md",
+        "name": "gsap-utils",
+        "overall_score": 100,
+        "path": ".agents/skills/gsap-utils",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "[DEPRECATED] Use `create-video` for prompt-based video generation or `avatar-video` for precise avatar/scene control. This legacy skill combines both workflows — the newer focused skills provide clearer guidance.\n",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/heygen/SKILL.md",
+        "name": "heygen",
+        "overall_score": 100,
+        "path": ".agents/skills/heygen",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Read before writing composition HTML.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/hyperframes-core/SKILL.md",
+        "name": "hyperframes-core",
+        "overall_score": 100,
+        "path": ".agents/skills/hyperframes-core",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, registry discovery, and authoring a new block or component to contribute upstream (idea → scaffold → validate → PR).",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/hyperframes-registry/SKILL.md",
+        "name": "hyperframes-registry",
+        "overall_score": 100,
+        "path": ".agents/skills/hyperframes-registry",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use when implementing Disney's 12 animation principles with Lottie animations exported from After Effects",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/lottie-bodymovin/SKILL.md",
+        "name": "lottie-bodymovin",
+        "overall_score": 100,
+        "path": ".agents/skills/lottie-bodymovin",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "AI video generation with LTX-2.3 22B — text-to-video, image-to-video clips for video production. Use when generating video clips, animating images, creating b-roll, animated backgrounds, or motion content. Triggers include video generation, animate image, b-roll, motion, video clip, text-to-video, image-to-video.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/ltx2/SKILL.md",
+        "name": "ltx2",
+        "overall_score": 100,
+        "path": ".agents/skills/ltx2",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Trigger when: (1) User wants to create an educational/explainer video, (2) User has a vague concept they want visualized, (3) User mentions \"3b1b style\" or \"explain like 3Blue1Brown\", (4) User wants to plan a Manim video or animation sequence, (5) User asks to \"compose\" or \"plan\" a math/science visualization.\n\nTransforms vague video ideas into detailed scene-by-scene plans (scenes.md). Conducts research, asks clarifying questions about audience/scope/focus, and outputs comprehensive scene specifications ready for implementation with ManimCE or ManimGL.\n\nUse this BEFORE writing any Manim code. This skill plans the video; use manimce-best-practices or manimgl-best-practices for implementation.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/manim-composer/SKILL.md",
+        "name": "manim-composer",
+        "overall_score": 100,
+        "path": ".agents/skills/manim-composer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Trigger when: (1) User mentions \"manim\" or \"Manim Community\" or \"ManimCE\", (2) Code contains `from manim import *`, (3) User runs `manim` CLI commands, (4) Working with Scene, MathTex, Create(), or ManimCE-specific classes.\n\nBest practices for Manim Community Edition - the community-maintained Python animation engine. Covers Scene structure, animations, LaTeX/MathTex, 3D with ThreeDScene, camera control, styling, and CLI usage.\n\nNOT for ManimGL/3b1b version (which uses `manimlib` imports and `manimgl` CLI).",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/manimce-best-practices/SKILL.md",
+        "name": "manimce-best-practices",
+        "overall_score": 100,
+        "path": ".agents/skills/manimce-best-practices",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Trigger when: (1) User mentions \"manimgl\" or \"ManimGL\" or \"3b1b manim\", (2) Code contains `from manimlib import *`, (3) User runs `manimgl` CLI commands, (4) Working with InteractiveScene, self.frame, self.embed(), ShowCreation(), or ManimGL-specific patterns.\n\nBest practices for ManimGL (Grant Sanderson's 3Blue1Brown version) - OpenGL-based animation engine with interactive development. Covers InteractiveScene, Tex with t2c, camera frame control, interactive mode (-se flag), 3D rendering, and checkpoint_paste() workflow.\n\nNOT for Manim Community Edition (which uses `manim` imports and `manim` CLI).",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/manimgl-best-practices/SKILL.md",
+        "name": "manimgl-best-practices",
+        "overall_score": 100,
+        "path": ".agents/skills/manimgl-best-practices",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/music/SKILL.md",
+        "name": "music",
+        "overall_score": 100,
+        "path": ".agents/skills/music",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Design reusable 2D character pose libraries, action cycles, and expression states for data-driven animation.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/pose-library-design/SKILL.md",
+        "name": "pose-library-design",
+        "overall_score": 100,
+        "path": ".agents/skills/pose-library-design",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Best practices for Remotion - Video creation in React",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/remotion-best-practices/SKILL.md",
+        "name": "remotion-best-practices",
+        "overall_score": 100,
+        "path": ".agents/skills/remotion-best-practices",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate cinematic clips with ByteDance Seedance 2.0 — the preferred premium video model in OpenMontage when a paid gateway is configured. Use when: (1) producing trailers, teasers, hype edits, or premium cinematic clips, (2) needing native synchronized audio (speech, SFX, ambience) in a single pass, (3) needing multi-shot cuts inside one generation, (4) needing director-level camera control, (5) needing lip-sync from quoted dialogue in the prompt, (6) needing reference-conditioned generation with up to 9 images + 3 video clips + 3 audio clips, (7) wanting consistent character identity across shots. Accessible via fal.ai (`seedance_video` tool), HeyGen (Video Agent / Avatar Shots), Replicate, Runway (Enterprise, non-US), Freepik, BytePlus ModelArk, Higgsfield, Pollo, and other aggregators.\n",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/seedance-2-0/SKILL.md",
+        "name": "seedance-2-0",
+        "overall_score": 100,
+        "path": ".agents/skills/seedance-2-0",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Guides users through setting up an ElevenLabs API key for ElevenLabs MCP tools. Use when the user needs to configure an ElevenLabs API key, when ElevenLabs tools fail due to missing API key, or when the user mentions needing access to ElevenLabs. First checks whether ELEVENLABS_API_KEY is already configured and valid, and only runs full setup when needed.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/setup-api-key/SKILL.md",
+        "name": "setup-api-key",
+        "overall_score": 100,
+        "path": ".agents/skills/setup-api-key",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, generating audio textures, producing ambient sounds, cinematic impacts, UI sounds, or any audio that isn't speech. Supports looping, duration control, and prompt influence tuning.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/sound-effects/SKILL.md",
+        "name": "sound-effects",
+        "overall_score": 100,
+        "path": ".agents/skills/sound-effects",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/speech-to-text/SKILL.md",
+        "name": "speech-to-text",
+        "overall_score": 100,
+        "path": ".agents/skills/speech-to-text",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Animate SVG character rigs with GSAP, CSS transforms, Remotion frame control, and HyperFrames-compatible browser previews.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/svg-character-animation/SKILL.md",
+        "name": "svg-character-animation",
+        "overall_score": 100,
+        "path": ".agents/skills/svg-character-animation",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Synthetic terminal-style screen recording guidance for Remotion `TerminalScene`.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/synthetic-screen-recording/SKILL.md",
+        "name": "synthetic-screen-recording",
+        "overall_score": 100,
+        "path": ".agents/skills/synthetic-screen-recording",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/tailwind-design-system/SKILL.md",
+        "name": "tailwind-design-system",
+        "overall_score": 100,
+        "path": ".agents/skills/tailwind-design-system",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-animation/SKILL.md",
+        "name": "threejs-animation",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-animation",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-fundamentals/SKILL.md",
+        "name": "threejs-fundamentals",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-fundamentals",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-geometry/SKILL.md",
+        "name": "threejs-geometry",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-geometry",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-interaction/SKILL.md",
+        "name": "threejs-interaction",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-interaction",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-lighting/SKILL.md",
+        "name": "threejs-lighting",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-lighting",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-materials/SKILL.md",
+        "name": "threejs-materials",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-materials",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-postprocessing/SKILL.md",
+        "name": "threejs-postprocessing",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-postprocessing",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-shaders/SKILL.md",
+        "name": "threejs-shaders",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-shaders",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/threejs-textures/SKILL.md",
+        "name": "threejs-textures",
+        "overall_score": 100,
+        "path": ".agents/skills/threejs-textures",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/vercel-composition-patterns/SKILL.md",
+        "name": "vercel-composition-patterns",
+        "overall_score": 100,
+        "path": ".agents/skills/vercel-composition-patterns",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/vercel-react-best-practices/SKILL.md",
+        "name": "vercel-react-best-practices",
+        "overall_score": 100,
+        "path": ".agents/skills/vercel-react-best-practices",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Download video and audio from YouTube and 1000+ sites using yt-dlp. No API keys needed.\nUse when: (1) Downloading a video from YouTube or other sites, (2) Extracting audio from a video URL,\n(3) Downloading subtitles/captions from a video, (4) Getting video metadata without downloading.",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/video-download/SKILL.md",
+        "name": "video-download",
+        "overall_score": 100,
+        "path": ".agents/skills/video-download",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Translate and dub existing videos into multiple languages using HeyGen. Use when: (1) Translating a video into another language, (2) Dubbing video content with lip-sync, (3) Creating multi-language versions of existing videos, (4) Audio-only translation without lip-sync, (5) Working with HeyGen's /v2/video_translate endpoint.\n",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/video-translate/SKILL.md",
+        "name": "video-translate",
+        "overall_score": 100,
+        "path": ".agents/skills/video-translate",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+        "manifest": "https://github.com/aiconduit/ai-conduit-pipeline/blob/master/.agents/skills/web-design-guidelines/SKILL.md",
+        "name": "web-design-guidelines",
+        "overall_score": 100,
+        "path": ".agents/skills/web-design-guidelines",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 56,
+    "spec_valid_count": 56,
+    "stars": 0
   },
   {
     "archived": false,
@@ -675,6 +1346,483 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "content",
+      "design",
+      "engineering",
+      "media",
+      "productivity",
+      "research",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 27,
+    "pushed_at": "2026-09-12T01:31:27+00:00",
+    "repo_full_name": "atomantic/PortOS",
+    "repo_url": "https://github.com/atomantic/PortOS",
+    "security_85_plus_count": 3,
+    "skills": [
+      {
+        "description": "Register a new PortOS page or voice/palette action end to end — the NAV_COMMANDS entry shape in server/lib/navManifest.js, ⌘K palette wiring, voice ui_navigate aliases, and the fail-fast guards. Invoke when adding a route, a sidebar link, or a new voice-tool action.",
+        "manifest": "https://github.com/atomantic/PortOS/blob/main/.claude/skills/portos-add-page/SKILL.md",
+        "name": "portos-add-page",
+        "overall_score": 100,
+        "path": ".claude/skills/portos-add-page",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "PortOS conventions for filing GitHub issues and capturing deferred work — decide-don't-defer, ready-to-work bodies, and when the future / blocked / needs-input labels are actually correct. Invoke when filing a follow-up issue, triaging, or claiming an ambiguous issue.",
+        "manifest": "https://github.com/atomantic/PortOS/blob/main/.claude/skills/portos-file-issue/SKILL.md",
+        "name": "portos-file-issue",
+        "overall_score": 100,
+        "path": ".claude/skills/portos-file-issue",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Socket.IO lifecycle conventions for PortOS client views — event-driven state swaps, single-subscriber resources (PTY shells, agent runs), pending-request tracking, stale-response filtering, and deferred-work guards. Invoke before wiring or debugging a socket-driven UI.",
+        "manifest": "https://github.com/atomantic/PortOS/blob/main/.claude/skills/portos-socket-ui/SKILL.md",
+        "name": "portos-socket-ui",
+        "overall_score": 100,
+        "path": ".claude/skills/portos-socket-ui",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 3,
+    "spec_valid_count": 3,
+    "stars": 38
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "agent-orchestration",
+      "ai-ml",
+      "browser-automation",
+      "code-review",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "engineering",
+      "finance",
+      "hr-recruiting",
+      "integrations",
+      "legal-compliance",
+      "localization",
+      "marketing",
+      "media",
+      "mobile",
+      "product",
+      "productivity",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "develop",
+    "forks": 41,
+    "pushed_at": "2026-09-12T11:04:15+00:00",
+    "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
+    "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
+    "security_85_plus_count": 38,
+    "skills": [
+      {
+        "description": "Semantic HTML, keyboard navigation, focus states, ARIA labels, skip links, and WCAG contrast requirements. Use when ensuring accessibility compliance, implementing keyboard navigation, or adding screen reader support.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/accessibility-a11y/SKILL.md",
+        "name": "accessibility-a11y",
+        "overall_score": 100,
+        "path": "packages/frontend-patterns/.pi/skills/accessibility-a11y",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "A mechanical, countable anti-slop checklist for AI-generated frontend. Catches the specific signatures an undirected model defaults to: AI-purple glows, Inter-everywhere, em-dashes, div-based fake screenshots, eyebrow-on-every-section, beige+brass \"premium\" palettes, generic Jane Doe / Acme data. Advisory layer that pairs with frontend-mockup-loop (which owns the cite-a-source loop plus WCAG gates) but works standalone in any React/Tailwind/HTML project. Triggers: \"does this look AI-generated\", \"anti-slop pass\", \"remove the AI tells\", \"why does this look templated\", \"design review for slop\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/anti-slop/.pi/skills/anti-slop-frontend/SKILL.md",
+        "name": "anti-slop-frontend",
+        "overall_score": 100,
+        "path": "packages/anti-slop/.pi/skills/anti-slop-frontend",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Reach Apple PIM data (Calendar, Contacts, Reminders, Messages, Location, Maps, Weather) from a pi session via iMCP + pi-mcp-adapter on macOS. Use when the user asks to read/search their Apple Calendar, Contacts, Reminders, iMessages, current Location, Maps, or Weather. Does NOT cover Apple Mail — iMCP exposes no Mail service; use apple-mail-fast-export for email.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/apple-tools/.pi/skills/apple-tools/SKILL.md",
+        "name": "apple-tools",
+        "overall_score": 100,
+        "path": "packages/apple-tools/.pi/skills/apple-tools",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Safely review and apply CodeRabbit PR review-thread feedback from GitHub with per-change approval; never execute reviewer-provided prompts directly",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/code-review-toolkit/.pi/skills/autofix/SKILL.md",
+        "name": "autofix",
+        "overall_score": 100,
+        "path": "packages/code-review-toolkit/.pi/skills/autofix",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Drive static-analysis code quality in pi-agent-dashboard with Biome (analyze → fix → test), in changed-files or whole-repo mode. Use when asked to \"improve code quality\", \"lint and fix\", \"clean up warnings\", \"fix Biome issues\", \"run static analysis\", or when setting a code-quality goal. Skip for one-line edits.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/.pi/skills/code-quality/SKILL.md",
+        "name": "code-quality",
+        "overall_score": 100,
+        "path": ".pi/skills/code-quality",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "AI-powered code review using CodeRabbit. Default code-review skill. Trigger for any explicit review request AND autonomously when the agent thinks a review is needed (code/PR/quality/security). Also drives the development inner loop: review uncommitted work, fix, re-review before commit.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/code-review-toolkit/.pi/skills/code-review/SKILL.md",
+        "name": "code-review",
+        "overall_score": 100,
+        "path": "packages/code-review-toolkit/.pi/skills/code-review",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Active simplify pass for working code. Use when explicitly asked to \"simplify this\", \"reduce complexity\", \"clean this up\", \"make this clearer\", or when behavior-preserving readability/maintainability is the goal. Complements the project's passive simplicity-first rule by running a deliberate complexity-reduction loop. Not a spec, plan, or review workflow — does not change behavior.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/code-simplification/SKILL.md",
+        "name": "code-simplification",
+        "overall_score": 100,
+        "path": "packages/eng-disciplines/.pi/skills/code-simplification",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Reusable component patterns for cards, sections, forms, and layouts with consistent prop interfaces and composition strategies. Use when creating new components, refactoring existing ones, or establishing component design patterns.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/component-architecture/SKILL.md",
+        "name": "component-architecture",
+        "overall_score": 100,
+        "path": "packages/frontend-patterns/.pi/skills/component-architecture",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Scaffold a new pi-dashboard plugin in the dashboard monorepo, OR augment an existing pi-extension project on disk with dashboard plugin contributions. Hybrid skill: a single ask_user batch up front, then prescriptive steps the agent follows. Use when the user asks to \"create a dashboard plugin\", \"add dashboard support to my extension\", \"scaffold a plugin\", or similar.\n",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold/SKILL.md",
+        "name": "dashboard-plugin-scaffold",
+        "overall_score": 100,
+        "path": "packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Offline-mine this project's pi session JSONL logs into reusable, verified knowledge: extracts faults, decisions, corrections, procedures and docs, promotes only recurring patterns, and routes artifacts into skill_manage, memory and docs. Use on \"mine my sessions\", \"distill session knowledge\", \"extract lessons from logs\", \"turn my pi history into skills/memory\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/distill-session-knowledge/.pi/skills/distill-session-knowledge/SKILL.md",
+        "name": "distill-session-knowledge",
+        "overall_score": 100,
+        "path": "packages/distill-session-knowledge/.pi/skills/distill-session-knowledge",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Summarize documents of any size: extract with the document-converter engine, chunk to fit context, fan out to subagents, then synthesize one unified summary. Handles PDF, DOCX, PPTX, XLSX, HTML, CSV, TXT, MD. Triggers: \"summarize this document\", \"what's in this PDF\", \"give me a summary of these files\", \"extract key points from\", \"condense this document\", \"TL;DR of this file\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/document-converter/.pi/skills/doc-summarizer/SKILL.md",
+        "name": "doc-summarizer",
+        "overall_score": 100,
+        "path": "packages/document-converter/.pi/skills/doc-summarizer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Diagnose why pi-flows, the Anthropic-messages bridge, model resolution, a pi install, a peer, a plugin/bridge, or a build/reload is broken in the pi-agent-dashboard. Derives every fact live (works with the server down). Use on \"flow won't show\", \"bridge waiting_peers\", \"pi version mismatch\", \"which pi is this using\", \"diagnose the dashboard\", \"doctor\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/extension/.pi/skills/doctor/SKILL.md",
+        "name": "doctor",
+        "overall_score": 100,
+        "path": "packages/extension/.pi/skills/doctor",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Convert documents bidirectionally via the pi-doc-engine facade: ingest PDF/DOCX/PPTX/XLSX to provenance-stamped Markdown (with OCR), and produce templated DOCX/PDF from Markdown with diagrams, TOC and round-trip merge. Use on \"convert this PDF to markdown\", \"ingest these docs into kb\", \"make a DOCX from markdown with our template\", \"render this spec to PDF\", \"OCR this scanned PDF\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/document-converter/.pi/skills/document-converter/SKILL.md",
+        "name": "document-converter",
+        "overall_score": 100,
+        "path": "packages/document-converter/.pi/skills/document-converter",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Mine docs/faq.md from README.md, docs/*.md, and the pi-hermes memory stores. Dispatches @fast subagents per source, dedupes against the existing FAQ, and merges entries in caveman style. Use when asked to \"build / regenerate / extend the FAQ\", \"mine docs into FAQ\", \"mine hermes memory into FAQ\", \"surface runtime problems in the FAQ\", or \"create FAQ from README + docs\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/authoring-toolkit/.pi/skills/faq-mine/SKILL.md",
+        "name": "faq-mine",
+        "overall_score": 100,
+        "path": "packages/authoring-toolkit/.pi/skills/faq-mine",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Diagnose/fix worktrees missing the generated openspec-* (opsx) skills after worktreeInit. Root cause: bare `npx openspec` can resolve a squatted registry stub instead of the real CLI.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/openspec-workflow/.pi/skills/fix-worktree-opsx-skills-not-created/SKILL.md",
+        "name": "fix-worktree-opsx-skills-not-created",
+        "overall_score": 100,
+        "path": "packages/openspec-workflow/.pi/skills/fix-worktree-opsx-skills-not-created",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Pre-spec intent extraction — one question at a time until ~95% confidence about what the user actually wants, BEFORE any openspec proposal exists. Use when an ask is underspecified (missing who/why/success/constraint), or on \"interview me\", \"grill me\", \"stress-test my thinking\". Upstream of openspec-explore; writes no specs. Interactive only — never in CI or autonomous loops.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/interview-me/SKILL.md",
+        "name": "interview-me",
+        "overall_score": 100,
+        "path": "packages/eng-disciplines/.pi/skills/interview-me",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Search the local markdown knowledge base for facts, prior decisions, definitions, people, error codes, config flags, and how-we-fixed-it notes. ALWAYS search here BEFORE answering a project-specific question from memory, guessing, or asking the user. Use whenever you hit an unknown term, an unfamiliar entity, an error string, or a \"how do we do X / why did we choose Y\" question.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/kb/skill/kb-search/SKILL.md",
+        "name": "kb-search",
+        "overall_score": 100,
+        "path": "packages/kb/skill/kb-search",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Set up, initialize, or configure the local markdown knowledge base for a project. Use when the user says \"set up the knowledge base\", \"init the KB\", \"configure the markdown KB\", \"index my docs\", \"add a doc source to the KB\", or wants the project's markdown searchable by `kb search`. Wraps `kb init` end-to-end through `kb index` and a smoke `kb search`.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/kb/skill/kb-setup/SKILL.md",
+        "name": "kb-setup",
+        "overall_score": 100,
+        "path": "packages/kb/skill/kb-setup",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate and edit images using Google Gemini image models via the nano-banana CLI. Use when the user asks to create, generate, make, or edit images with AI. Supports text-to-image, image editing, style transfer, and multi-image composition. Trigger on requests like \"create an image\", \"generate a picture\", \"make me a logo\", \"edit this photo\", \"add X to this image\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/nano-banana/.pi/skills/nano-banana-imagegen/SKILL.md",
+        "name": "nano-banana-imagegen",
+        "overall_score": 100,
+        "path": "packages/nano-banana/.pi/skills/nano-banana-imagegen",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Develop-side planning orchestrator for an OpenSpec change: artifact creation → doubt-driven-review → scenario-design → fold of automated scenarios into tasks.md, then STOPS at the git-worktree boundary. Main interactive session only; never a subagent. Triggers: \"plan this change\", \"draft the proposal and plan\", \"scaffold + review + fold\", \"prep a change for building\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/.pi/skills/plan-proposal/SKILL.md",
+        "name": "plan-proposal",
+        "overall_score": 100,
+        "path": ".pi/skills/plan-proposal",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Run before scaffolding any OpenSpec proposal to catch duplicates of archived work and contradictions with shipped architecture. Always run when about to create openspec/changes/<name>/, especially for proposals touching a subsystem with a recent archive entry. Triggers: 'scaffold OpenSpec', 'write a proposal', 'create change', 'openspec change new'.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/openspec-workflow/.pi/skills/pre-scaffold-openspec-coherence-check/SKILL.md",
+        "name": "pre-scaffold-openspec-coherence-check",
+        "overall_score": 100,
+        "path": "packages/openspec-workflow/.pi/skills/pre-scaffold-openspec-coherence-check",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Scaffold an unconfigured directory into a configured pi project. Interactive, profile-driven: previews the planned writes, then writes AGENTS.md, .pi/settings.json and prompt files — optionally also a knowledge base, an openspec/ scaffold, and user-global ~/.pi/agent/settings.json. Use on a bare directory, or when the dashboard's \"Initialize\" button spawns this session.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/extension/.pi/skills/project-init/SKILL.md",
+        "name": "project-init",
+        "overall_score": 100,
+        "path": "packages/extension/.pi/skills/project-init",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Revoke or rollback a pi-agent-dashboard release: delete the GitHub Release, remove the git tag locally and on origin, deprecate the npm version (`npm unpublish` is blocked after 72h), and optionally revert the release commit. Use when the user says \"revoke release\", \"rollback release\", \"delete release\", \"unpublish vX.Y.Z\", \"yank release\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/.pi/skills/release-revoke/SKILL.md",
+        "name": "release-revoke",
+        "overall_score": 100,
+        "path": ".pi/skills/release-revoke",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Mobile-first responsive patterns with sticky headers, floating CTAs, accessible navigation, and touch-friendly interactions. Use when implementing responsive layouts, mobile navigation, or ensuring touch-friendly UI.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/responsive-mobile-first/SKILL.md",
+        "name": "responsive-mobile-first",
+        "overall_score": 100,
+        "path": "packages/frontend-patterns/.pi/skills/responsive-mobile-first",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Review a code change well — engine-agnostic critical review discipline for an inline dev loop. Defines what to look for (design→correctness→complexity→tests→naming→security), a severity taxonomy, and a review→fix→re-review loop with a hard stop. Use on \"review this code\", \"review my diff\", \"is this change good\", \"critique this implementation\", \"review before commit\". Not a ship-gate.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/review-code/SKILL.md",
+        "name": "review-code",
+        "overall_score": 100,
+        "path": "packages/eng-disciplines/.pi/skills/review-code",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Run Playwright E2E (tests/e2e/) against the docker/ all-in-one harness so it reflects LOCAL code changes, not a stale cached image.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/.pi/skills/run-dashboard-e2e-local-changes/SKILL.md",
+        "name": "run-dashboard-e2e-local-changes",
+        "overall_score": 100,
+        "path": ".pi/skills/run-dashboard-e2e-local-changes",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Draft real-life test SCENARIOS (not smoke tests) from a change/feature spec. Derives edge-case, performance, frontend-quirk and error-handling scenarios with ISTQB techniques, routes each to a test level, and writes test-plan.md, emitting clarification questions on a spec gap. Use on \"design test scenarios\", \"what should we test\", \"build a test plan\", \"find edge cases\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/scenario-design/SKILL.md",
+        "name": "scenario-design",
+        "overall_score": 100,
+        "path": "packages/eng-disciplines/.pi/skills/scenario-design",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Turn an existing pi skill into an isolated subagent and wire it into a project's implementation pipeline. Decides fitness first, writes the bridge agent, routes the model, tunes context inheritance, and wires a spawn checkpoint. Use on \"wrap this skill as a subagent\", \"turn X into a subagent\", \"should this be a subagent or a skill\", \"subagentize this\", \"add a subagent to the pipeline\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/authoring-toolkit/.pi/skills/skill-to-subagent/SKILL.md",
+        "name": "skill-to-subagent",
+        "overall_score": 100,
+        "path": "packages/authoring-toolkit/.pi/skills/skill-to-subagent",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Name anonymous diarized SRT speakers from a persistent local voiceprint library and repair speaker drift; local, CPU-only, no API key. Triggers \"who is speaker 2\", \"put names on the transcript\", \"label the meeting SRT\", \"the diarization split one person into three\", \"enroll my voice\". Backed by the pi-voiceid CLI.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/video-transcription/.pi/skills/speaker-id/SKILL.md",
+        "name": "speaker-id",
+        "overall_score": 100,
+        "path": "packages/video-transcription/.pi/skills/speaker-id",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Sweep all active OpenSpec proposals for staleness, conflicts, and obsolescence against the current codebase and archived changes. Use when proposals may be outdated, when checking cross-proposal conflicts, or before starting a batch of implementations. Produces a gap-analysis report, updates a priority queue file, and can auto-fix trivial issues or guide conversations for complex ones.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/openspec-workflow/.pi/skills/spec-coherence-check/SKILL.md",
+        "name": "spec-coherence-check",
+        "overall_score": 100,
+        "path": "packages/openspec-workflow/.pi/skills/spec-coherence-check",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Root-cause a bug already in front of you, instead of guessing at fixes. Use on triggers like \"root cause this\", \"why is this failing\", \"debug systematically\", \"this test is flaky\", \"it works locally but not in CI\", or when a fix attempt has already failed once. Enforces a phased evidence-first process before any code change. Not a feature-build or ship workflow.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/eng-disciplines/.pi/skills/systematic-debugging/SKILL.md",
+        "name": "systematic-debugging",
+        "overall_score": 100,
+        "path": "packages/eng-disciplines/.pi/skills/systematic-debugging",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Tailwind CSS utility patterns with shadcn/ui component usage, theming via CSS variables, and responsive design. Use when styling components, installing shadcn components, implementing dark mode, or creating consistent design systems.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/tailwind-shadcn/SKILL.md",
+        "name": "tailwind-shadcn",
+        "overall_score": 100,
+        "path": "packages/frontend-patterns/.pi/skills/tailwind-shadcn",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "CSS custom properties theme architecture for 4 themes (studio, earth, athlete, gradient) with data-theme attribute switching and theme-aware components. Use when implementing theme switching, defining color schemes, or creating theme-responsive UI elements.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/.pi/skills/theme-system/SKILL.md",
+        "name": "theme-system",
+        "overall_score": 100,
+        "path": ".pi/skills/theme-system",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "TypeScript strict mode patterns with interfaces, type guards, generics, and utility types. Use when defining types, creating type-safe functions, handling nullable values, or implementing generic components.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/typescript-strict/SKILL.md",
+        "name": "typescript-strict",
+        "overall_score": 100,
+        "path": "packages/frontend-patterns/.pi/skills/typescript-strict",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Render a scripted video project into mp4 clips with the Google Veo 3.1 API. Reads a project's shot package (shots/*.md), one clip per camera cut, reusing each shot's prompt and sketch — world anchor only with `--with-reference`, seed unless `--no-seed`. Use on \"render the Veo video for <project>\", \"generate the videos from the shot scripts\", \"make the clips with Veo\".",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/video-production/.pi/skills/veo-generator/SKILL.md",
+        "name": "veo-generator",
+        "overall_score": 100,
+        "path": "packages/video-production/.pi/skills/veo-generator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Turn a video timeline + voiceover into a reproducible, sliceable Veo 3.1 prompt package with a consistency anchor and AI storyboard sketches.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/video-production/.pi/skills/veo-showreel-production-kit/SKILL.md",
+        "name": "veo-showreel-production-kit",
+        "overall_score": 100,
+        "path": "packages/video-production/.pi/skills/veo-showreel-production-kit",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Transcribe video and audio files to SRT subtitles with speaker diarization using the Soniox (default) or AssemblyAI API. Use when the user wants to transcribe meetings, videos, or audio files. Supports MKV, MP4, MOV, M4A, MP3. Triggers on \"/transcribe\", \"transcribe my meetings\", \"transcribe videos in ~/Movies\", or any request to convert audio/video to text.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/video-transcription/.pi/skills/video-transcription/SKILL.md",
+        "name": "video-transcription",
+        "overall_score": 100,
+        "path": "packages/video-transcription/.pi/skills/video-transcription",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Form validation combining Zod schemas with React Hook Form, including localized error messages, Server Action integration, and shadcn/ui Form components. Use when building forms, validating user input, handling form submissions, or implementing Server Actions with validation.",
+        "manifest": "https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/zod-react-hook-form/SKILL.md",
+        "name": "zod-react-hook-form",
+        "overall_score": 100,
+        "path": "packages/frontend-patterns/.pi/skills/zod-react-hook-form",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 38,
+    "spec_valid_count": 38,
+    "stars": 282
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "content",
+      "design",
+      "documentation",
+      "engineering",
+      "integrations",
+      "productivity",
+      "security"
+    ],
+    "default_branch": "dev",
+    "forks": 0,
+    "pushed_at": "2026-09-12T11:04:13+00:00",
+    "repo_full_name": "buildd-ai/buildd",
+    "repo_url": "https://github.com/buildd-ai/buildd",
+    "security_85_plus_count": 2,
+    "skills": [
+      {
+        "description": "Use whenever the buildd MCP tools (`buildd`, `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target.",
+        "manifest": "https://github.com/buildd-ai/buildd/blob/dev/.claude/skills/buildd-mcp-consumer/SKILL.md",
+        "name": "buildd-mcp-consumer",
+        "overall_score": 100,
+        "path": ".claude/skills/buildd-mcp-consumer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Workflow skill that helps agents work effectively in buildd. Enforces disciplined development — TDD, quality gates, proper planning, progress reporting, and no shortcuts.",
+        "manifest": "https://github.com/buildd-ai/buildd/blob/dev/.claude/skills/buildd-workflow/SKILL.md",
+        "name": "buildd-workflow",
+        "overall_score": 100,
+        "path": ".claude/skills/buildd-workflow",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 2,
+    "spec_valid_count": 2,
+    "stars": 1
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
       "documentation",
       "engineering",
       "integrations",
@@ -894,6 +2042,323 @@
     "skills_count": 12,
     "spec_valid_count": 12,
     "stars": 82289
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
+      "ai-ml",
+      "browser-automation",
+      "business",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "documents",
+      "education",
+      "engineering",
+      "hr-recruiting",
+      "integrations",
+      "media",
+      "mobile",
+      "product",
+      "productivity",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 6,
+    "pushed_at": "2026-09-12T01:31:09+00:00",
+    "repo_full_name": "chainlesschain/chainlesschain",
+    "repo_url": "https://github.com/chainlesschain/chainlesschain",
+    "security_85_plus_count": 31,
+    "skills": [
+      {
+        "description": "Advanced browser automation for AI agents with snapshot-ref interaction pattern - navigate, snapshot interactive elements with refs, click/fill/select by refs, manage sessions, and extract structured data",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/SKILL.md",
+        "name": "agent-browser",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Universal API gateway - connect to 100+ APIs with a unified interface, manage API keys, and chain API calls",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/SKILL.md",
+        "name": "api-gateway",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "双阶段架构模式 - 先规划后编辑，分离推理与代码修改，提升多文件编辑准确率",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/SKILL.md",
+        "name": "architect-mode",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "智能提交拆分 - 将大量未提交变更按语义分组为原子性提交",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/commit-splitter/SKILL.md",
+        "name": "commit-splitter",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/commit-splitter",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "AI-powered content generation and multi-platform publishing - create infographics, slide decks, cover images, comics, and format content for social platforms",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher/SKILL.md",
+        "name": "content-publisher",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/content-publisher",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Schedule and manage automated tasks with cron expressions - create recurring jobs, one-time tasks, natural language scheduling, and cross-platform timer management",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cron-scheduler/SKILL.md",
+        "name": "cron-scheduler",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cron-scheduler",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate IDE rules and configuration files - .cursorrules, .clinerules, CLAUDE.md, .windsurfrules, and other AI coding assistant configuration for consistent project conventions",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cursor-rules-generator/SKILL.md",
+        "name": "cursor-rules-generator",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/cursor-rules-generator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate, optimize, and explain SQL queries - supports SQLite, PostgreSQL, MySQL with schema introspection, migration generation, and query performance analysis",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/database-query/SKILL.md",
+        "name": "database-query",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/database-query",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Enterprise-grade deep research with multi-phase pipeline - autonomous web research, source credibility scoring, cross-referencing, synthesis, and validated reports for market analysis, competitive intel, and technical investigations",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/deep-research/SKILL.md",
+        "name": "deep-research",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/deep-research",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "多文件差异预览器 - 在应用AI变更前展示丰富的diff预览，支持部分接受和变更地图",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/diff-previewer/SKILL.md",
+        "name": "diff-previewer",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/diff-previewer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Generate Docker Compose configurations for development environments - auto-detect project stack, configure services with dependencies, volumes, networking, and health checks",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/docker-compose-generator/SKILL.md",
+        "name": "docker-compose-generator",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/docker-compose-generator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Discover and recommend skills from the registry based on task requirements - search installed skills, suggest matching skills for current task, and browse skill categories",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/find-skills/SKILL.md",
+        "name": "find-skills",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/find-skills",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Free AI model management - discover, download, and manage free/open-source AI models from Ollama, HuggingFace, and other sources",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/free-model-manager/SKILL.md",
+        "name": "free-model-manager",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/free-model-manager",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "GitHub operations - manage issues, pull requests, repositories, and workflows via GitHub API",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager/SKILL.md",
+        "name": "github-manager",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/github-manager",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Google Workspace integration - Gmail, Calendar, Drive operations via Google APIs",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/google-workspace/SKILL.md",
+        "name": "google-workspace",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/google-workspace",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Remove AI writing traces - rewrite text to sound more natural and human, adjust tone, add personality, and reduce repetitive AI patterns",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer/SKILL.md",
+        "name": "humanizer",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/humanizer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Knowledge base analytics and health monitoring - file statistics, health scoring, keyword extraction, activity trends, gap detection, and comprehensive reporting",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights/SKILL.md",
+        "name": "memory-insights",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/memory-insights",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Monitor news feeds, tech blogs, and competitive intelligence sources - track keywords, summarize articles, detect trends, and deliver digests on schedule",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor/SKILL.md",
+        "name": "news-monitor",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/news-monitor",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Notion API integration - create pages, query databases, manage blocks, and sync content with Notion workspace",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion/SKILL.md",
+        "name": "notion",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/notion",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Obsidian vault operations - create notes, search vault, manage tags, link notes, and sync with Obsidian markdown files",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian/SKILL.md",
+        "name": "obsidian",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Autonomous proactive agent that monitors conditions and triggers actions - watches for file changes, error patterns, performance thresholds, and schedules periodic checks without user intervention",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/proactive-agent/SKILL.md",
+        "name": "proactive-agent",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/proactive-agent",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "RAG query optimization - rewrite, expand, decompose, and analyze search queries for better retrieval results",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/query-enhancer/SKILL.md",
+        "name": "query-enhancer",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/query-enhancer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create programmatic videos with React using Remotion - generate animations, compositions, text effects, transitions, captions, and render MP4 videos from code",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video/SKILL.md",
+        "name": "remotion-video",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/remotion-video",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "截图转代码 - 将UI截图/设计稿转换为Vue/React/HTML组件代码",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code/SKILL.md",
+        "name": "screenshot-to-code",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/screenshot-to-code",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "自动学习改进，记录错误和修正 - Auto-learn from mistakes, track errors and corrections, analyze patterns, and improve responses over time",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/self-improving-agent/SKILL.md",
+        "name": "self-improving-agent",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/self-improving-agent",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Propose, test, validate, and improve Skill candidates without changing active files - generate reviewable SKILL.md and handler.js drafts, run test evaluations, and optimize descriptions for better triggering",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/skill-creator/SKILL.md",
+        "name": "skill-creator",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/skill-creator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Summarize URLs, PDFs, YouTube videos, and text content - extract key points and generate concise summaries",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/summarizer/SKILL.md",
+        "name": "summarizer",
+        "overall_score": 100,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/summarizer",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "变更日志生成 - 从Git提交历史自动生成分类的Markdown格式Changelog",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator/SKILL.md",
+        "name": "changelog-generator",
+        "overall_score": 97,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/changelog-generator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "跨语言代码转换 - 支持JS↔TS、Python↔JS等主流语言间的智能代码翻译",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator/SKILL.md",
+        "name": "code-translator",
+        "overall_score": 97,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/code-translator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "多模型智能路由 - 根据任务复杂度评分选择最优模型，平衡成本与质量",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router/SKILL.md",
+        "name": "multi-model-router",
+        "overall_score": 97,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/multi-model-router",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "提示词增强 - 分析用户意图，注入项目上下文，重写提示词以提高AI回复质量",
+        "manifest": "https://github.com/chainlesschain/chainlesschain/blob/main/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/prompt-enhancer/SKILL.md",
+        "name": "prompt-enhancer",
+        "overall_score": 97,
+        "path": "desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/prompt-enhancer",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 31,
+    "spec_valid_count": 31,
+    "stars": 11
   },
   {
     "archived": false,
@@ -2737,7 +4202,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-11T16:44:32+00:00",
+    "pushed_at": "2026-09-12T01:31:27+00:00",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
     "security_85_plus_count": 17,
@@ -3088,8 +4553,8 @@
       "testing"
     ],
     "default_branch": "master",
-    "forks": 207,
-    "pushed_at": "2026-09-11T12:36:11+00:00",
+    "forks": 206,
+    "pushed_at": "2026-09-12T11:04:21+00:00",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
     "security_85_plus_count": 7,
@@ -3160,7 +4625,7 @@
     ],
     "skills_count": 7,
     "spec_valid_count": 7,
-    "stars": 4688
+    "stars": 4696
   },
   {
     "archived": false,
@@ -3852,6 +5317,86 @@
     "skills_count": 10,
     "spec_valid_count": 10,
     "stars": 6
+  },
+  {
+    "archived": false,
+    "best_score": 99,
+    "categories": [
+      "agent-orchestration",
+      "ai-ml",
+      "architecture",
+      "commerce",
+      "content",
+      "data",
+      "design",
+      "devops",
+      "documentation",
+      "education",
+      "engineering",
+      "finance",
+      "legal-compliance",
+      "marketing",
+      "productivity",
+      "research",
+      "security",
+      "testing"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-12T01:31:14+00:00",
+    "repo_full_name": "bossmiizlol/ai-workflow",
+    "repo_url": "https://github.com/bossmiizlol/ai-workflow",
+    "security_85_plus_count": 5,
+    "skills": [
+      {
+        "description": "De-slop pass for any text. Scans for the statistical fingerprints of AI writing (negative parallelism / \"not X but Y\", em-dash density, rule-of-three, false ranges, puffery vocabulary, uniform cadence, hedged both-sidesing), rewrites by meaning, then re-scans until the text is clean and sits in the right register for its genre: academic article, tweet, reddit post, email, blog, docs, marketing. Use when the user says \"deslopify\", \"deslop\", \"de-slop this\", \"fuck slop\", \"f*ck slop\", \"remove the AI tells\", \"humanize this\", \"make this not sound like AI\", or invokes /deslopify (or the old /fuck-slop name). Also use before publishing any agent-drafted prose.",
+        "manifest": "https://github.com/bossmiizlol/ai-workflow/blob/main/skills/shared/deslopify/SKILL.md",
+        "name": "deslopify",
+        "overall_score": 99,
+        "path": "skills/shared/deslopify",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Calibrated grilling session for stress-testing a plan, design, idea, or decision. First assesses the user's topic knowledge, confidence, and desired pressure level, then asks one question at a time with recommended answers. Use when user says \"grill me\", \"stress-test this\", \"challenge my plan\", \"interview me\", or wants a plan probed without being overwhelmed. For document-backed review, use the domain reference.",
+        "manifest": "https://github.com/bossmiizlol/ai-workflow/blob/main/skills/shared/grill-me/SKILL.md",
+        "name": "grill-me",
+        "overall_score": 99,
+        "path": "skills/shared/grill-me",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Adversarial senior-engineer review for agent-generated plans, designs, and architectures. Treats the current output as junior work, constructs a senior reviewer whose domain expertise comes from live codebase research plus web research of current best practices, diagnoses altitude failures (too vague or too granular), then rewrites the plan into a scoped, state-of-the-art version. Use when the user says \"junior to senior\", \"senior review\", \"review this like a staff engineer\", or explicitly requests an adversarial review of a plan. Do not invoke automatically for ordinary planning or implementation.",
+        "manifest": "https://github.com/bossmiizlol/ai-workflow/blob/main/skills/shared/junior-to-senior/SKILL.md",
+        "name": "junior-to-senior",
+        "overall_score": 99,
+        "path": "skills/shared/junior-to-senior",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Finds and finishes the last 20% of a built solution — the experiential layer agents skip: what the output actually reads like, which pages or screens should exist, first-run and empty states, opinionated defaults, the golden path. Use when the user explicitly asks to plan or audit the experiential layer, or says \"last 20%\", \"finish this\", \"make it actually good\", \"is this actually done\", or \"why does this feel flat\". Do not invoke automatically for ordinary builds or completion checks.",
+        "manifest": "https://github.com/bossmiizlol/ai-workflow/blob/main/skills/shared/last-20-percent/SKILL.md",
+        "name": "last-20-percent",
+        "overall_score": 99,
+        "path": "skills/shared/last-20-percent",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use before writing production code for any feature, bug fix, refactor, or behavior change; skip documentation, research, generated code, configuration-only changes, and explicitly approved throwaway prototypes.",
+        "manifest": "https://github.com/bossmiizlol/ai-workflow/blob/main/skills/shared/test-driven-development/SKILL.md",
+        "name": "test-driven-development",
+        "overall_score": 99,
+        "path": "skills/shared/test-driven-development",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 5,
+    "spec_valid_count": 5,
+    "stars": 0
   },
   {
     "archived": false,
