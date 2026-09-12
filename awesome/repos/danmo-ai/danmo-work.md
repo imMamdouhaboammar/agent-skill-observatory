@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work)
 
-Published Skills: 9
-Categories: code-review, content, data, design, documentation, documents, education, engineering, integrations, product, productivity, research, security, testing
+Published Skills: 10
+Categories: agent-orchestration, code-review, content, data, design, documentation, documents, education, engineering, integrations, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=9, 60-84=0, <60=0
+Security distribution: 85+=10, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -18,3 +18,4 @@ Security distribution: 85+=9, 60-84=0, <60=0
 | [requesting-code-review](../../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | `core/resource/home/skills/requesting-code-review` | 100 | 100 | code-review, content, data, engineering, product, research |
 | [sheet-writing](../../skills/danmo-ai/danmo-work/core/resource/home/skills/sheet-writing/README.md) | `core/resource/home/skills/sheet-writing` | 100 | 100 | content, data, documentation, education, productivity |
 | [test-driven-development](../../skills/danmo-ai/danmo-work/core/resource/home/skills/test-driven-development/README.md) | `core/resource/home/skills/test-driven-development` | 100 | 100 | content, design, documentation, engineering, product, testing |
+| [writing-plans](../../skills/danmo-ai/danmo-work/core/resource/home/skills/writing-plans/README.md) | `core/resource/home/skills/writing-plans` | 100 | 100 | agent-orchestration, content, engineering, productivity, testing |
