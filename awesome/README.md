@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **515**
+Published skills: **516**
 Repositories: **61**
 
 ## Browse repositories
@@ -316,6 +316,7 @@ Repositories: **61**
 - [fix-worktree-opsx-skills-not-created](./skills/blackbelttechnology/pi-agent-dashboard/packages/openspec-workflow/.pi/skills/fix-worktree-opsx-skills-not-created/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/openspec-workflow/.pi/skills/fix-worktree-opsx-skills-not-created`
 - [pre-scaffold-openspec-coherence-check](./skills/blackbelttechnology/pi-agent-dashboard/packages/openspec-workflow/.pi/skills/pre-scaffold-openspec-coherence-check/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/openspec-workflow/.pi/skills/pre-scaffold-openspec-coherence-check`
 - [spec-coherence-check](./skills/blackbelttechnology/pi-agent-dashboard/packages/openspec-workflow/.pi/skills/spec-coherence-check/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/openspec-workflow/.pi/skills/spec-coherence-check`
+- [veo-generator](./skills/blackbelttechnology/pi-agent-dashboard/packages/video-production/.pi/skills/veo-generator/README.md) · `blackbelttechnology/pi-agent-dashboard:packages/video-production/.pi/skills/veo-generator`
 - [deslopify](./skills/bossmiizlol/ai-workflow/skills/shared/deslopify/README.md) · `bossmiizlol/ai-workflow:skills/shared/deslopify`
 - [grill-me](./skills/bossmiizlol/ai-workflow/skills/shared/grill-me/README.md) · `bossmiizlol/ai-workflow:skills/shared/grill-me`
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
