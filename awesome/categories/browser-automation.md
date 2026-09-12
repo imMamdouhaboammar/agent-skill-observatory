@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 62
+Published Skills: 63
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -31,6 +31,7 @@ Published Skills: 62
 | [visual-qa](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-qa/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence. |
 | [web-research](../skills/aganesy/QFAI/.qfai/assistant/skills/web-research/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | 8-stage web research pipeline with MCP integration, caching, and citation generation. |
 | [writer-in-residence](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/writer-in-residence/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings. |
+| [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [browser-lanes](../skills/jeong-sik/masc/skills/browser-lanes/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Use MASC Browser tools to read or operate Firefox/Zen tabs, inspect images, and verify requested web actions. Use for Browser Lane work and session, selector, or browser connection failures. |
 | [clerk-chrome-extension-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-chrome-extension-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel setup, syncHost for OAuth/SAML via web app, createClerkClient for service workers and headless extensions, stable CRX ID. Triggers on: Chrome extension auth, Plasmo clerk, popup sign-in, syncHost, background service worker token, createClerkClient, headless extension. |
 | [clerk-expo](../skills/Gizziio/allternit-platform/.agents/skills/clerk-expo/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Add Clerk authentication to Expo and React Native apps using @clerk/expo. Use for Expo setup, prebuilt native components (AuthView, UserButton), custom sign-in/sign-up flows (email, password, SMS/phone OTP, MFA), OAuth/SSO, native Google/Apple sign-in, Expo Router protected routes, biometrics, and push notifications. Do not use for native Swift/iOS, native Android/Kotlin, or web-only framework projects. |

@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 310
+Published Skills: 311
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -162,6 +162,7 @@ Published Skills: 310
 | [atm-upgrade-scan](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-upgrade-scan/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Scan evidence reports and draft governed upgrade proposals. |
 | [mailbox-worker-execution](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/mailbox-worker-execution/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Mailbox worker execution workflow for agents that claim dispatch cards, complete scoped work, run required checks, and report done or blocked with evidence. |
 | [brainstorming](../skills/danmo-ai/danmo-work/core/resource/home/skills/brainstorming/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Clarify intent, requirements, and design before building. Use before creative work — new features, components, behavior changes, or non-trivial workplace deliverables — when requirements are ambiguous. |
+| [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
 | [document-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Long-form workplace docs as GFM `.md` (default). Not for slide decks or spreadsheets — those are Univer IR / CSV. Edit with write/edit/apply_patch; do not invent parallel JSON docs unless path is already `.udoc.json`. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
