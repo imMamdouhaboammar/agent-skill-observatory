@@ -1,6 +1,6 @@
 # mobile
 
-Published Skills: 22
+Published Skills: 23
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,5 +24,6 @@ Published Skills: 22
 | [test-flutter](../skills/chenyynx/claudio/bridge/.claude/skills/test-flutter/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Flutter App のテスト実行・静的解析・フォーマット・テスト記述ガイド |
 | [threejs-postprocessing](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
 | [threejs-textures](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-textures/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization. |
+| [triage](../skills/chenyynx/claudio/bridge/.claude/skills/triage/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | GitHub Issue・PRを低トークンでトリアージし、要望、実現難易度、重複、リスク、対応判断をレポートする。Issue/PR番号、トリアージ、優先度、対応判断、PRレビュー準備判定を依頼されたときに使用する。PRはReadiness、CI、CodeRabbitを先に確認し、未通過ならdiffを読まず終了する。 |
 | [auditing-pixel-perfect-frontend](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-pixel-perfect-frontend/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when reviewing an implemented frontend against Figma, screenshots, a live reference, or explicit visual acceptance criteria and concrete visual regressions must be identified and prioritized. |
 | [clerk-nextjs-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-nextjs-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 97 | 100 | 1 | Advanced Next.js patterns - middleware, Server Actions, caching with Clerk. |
