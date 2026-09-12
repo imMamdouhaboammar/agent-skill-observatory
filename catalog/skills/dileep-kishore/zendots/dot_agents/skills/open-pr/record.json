@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "b707599bddd9a9f3df7b37c0cb1883660aa54dfa9f7da10aaeb4f664f8b4b7c5",
+  "canonical_key": "dileep-kishore/zendots:dot_agents/skills/open-pr",
+  "publication_event": "add",
+  "published_at": "2026-09-12T23:18:21.000081Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b707599bddd9a9f3df7b37c0cb1883660aa54dfa9f7da10aaeb4f664f8b4b7c5",
+    "archived": false,
+    "canonical_key": "dileep-kishore/zendots:dot_agents/skills/open-pr",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "aa347adfb62ed76b26a4288571c3ad7e2bfb6feeebc99196683ac4c1102939a8",
+    "description": "Use when finished work on a branch should become a pull request — \"open a PR\", \"create a PR\", \"make a PR\", \"put this up for review\", \"ship this\". Not for answering review on a PR that already exists.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "documentation",
+        "commerce",
+        "content",
+        "finance",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dileep-kishore/zendots/blob/main/dot_agents/skills/open-pr/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T23:17:40.479335Z",
+    "last_successful_repo_scan_at": "2026-09-12T23:17:40.479335Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "open-pr",
+    "path": "dot_agents/skills/open-pr",
+    "pushed_at": "2026-09-12T23:09:08Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dileep-kishore/zendots",
+    "repo_url": "https://github.com/dileep-kishore/zendots",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 23,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "13cf4f77a22763e42329e4eefc15cc66ddf33a30b04e7f4dd9de38d0d017a62c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 3
+  },
+  "source_fingerprint": "13cf4f77a22763e42329e4eefc15cc66ddf33a30b04e7f4dd9de38d0d017a62c"
+}
