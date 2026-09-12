@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "a396122c099f598fd0ceeaf0ec1e53b787ae8956e081cef9f3e507f805cf36ce",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/merge",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(git:*)"
+    ],
+    "analysis_fingerprint": "a396122c099f598fd0ceeaf0ec1e53b787ae8956e081cef9f3e507f805cf36ce",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/merge",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f3db0f4e04573966efffcce63a243cd50e13ba6e95a0e9393dfbe53726a8afac",
+    "description": "ブランチをメインにマージしてお掃除する",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "commerce",
+        "engineering"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/merge/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "merge",
+    "path": "bridge/.claude/skills/merge",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 97,
+      "quality": 86,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f23801f35dd80da20bf1f22e67164f7beb4366381396b122c2723554da4ab9ce",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "f23801f35dd80da20bf1f22e67164f7beb4366381396b122c2723554da4ab9ce"
+}
