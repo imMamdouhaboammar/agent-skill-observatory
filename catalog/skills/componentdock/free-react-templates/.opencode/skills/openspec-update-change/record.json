@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "e97c281f99afcca330fc7505c63e8b0a8c70716b683ba472d8c14890b4bde0f8",
+  "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-update-change",
+  "publication_event": "add",
+  "published_at": "2026-09-12T17:12:14.927651Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(openspec:*)"
+    ],
+    "analysis_fingerprint": "e97c281f99afcca330fc7505c63e8b0a8c70716b683ba472d8c14890b4bde0f8",
+    "archived": false,
+    "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-update-change",
+    "compatibility": "Requires openspec CLI.",
+    "consecutive_misses": 0,
+    "content_fingerprint": "e43b8713c65639bda6e34f0b5585299e8d9dfcee1d0c4aabb31a33c2dea6c85f",
+    "description": "Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Never edits code.",
+    "discovery_source": "repo-search:\"agent skills\" sales in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "engineering",
+        "content",
+        "commerce",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/ComponentDock/free-react-templates/blob/main/.opencode/skills/openspec-update-change/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T14:05:15.525396Z",
+    "last_successful_repo_scan_at": "2026-09-12T14:05:15.525396Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "openspec",
+      "generatedBy": "1.7.0",
+      "version": "1.0"
+    },
+    "name": "openspec-update-change",
+    "path": ".opencode/skills/openspec-update-change",
+    "pushed_at": "2026-09-12T14:04:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "ComponentDock/free-react-templates",
+    "repo_url": "https://github.com/ComponentDock/free-react-templates",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "10c207f4959b212612f94ba3c2eba9da806cb5568a574070a8c81996fdf44694",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "10c207f4959b212612f94ba3c2eba9da806cb5568a574070a8c81996fdf44694"
+}

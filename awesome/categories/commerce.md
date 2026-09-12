@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 167
+Published Skills: 168
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -147,6 +147,7 @@ Published Skills: 167
 | [nn-site-generator](../skills/cogNNitive/cogNNitive/actioNN/skills/nn-site-generator/README.md) | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 100 | 100 | 0 | Create or edit websites, add analytics, or add contact forms. Invoke with /nn-site-generator. |
 | [openspec-propose](../skills/a620906209/ticket-hub/.claude/skills/openspec-propose/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation. |
 | [openspec-propose](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-propose/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation. |
+| [openspec-update-change](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-update-change/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Never edits code. |
 | [order-tracking](../skills/artbakerchat/Y/center/03-skills/skills/order-tracking/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 | Help customers check the status of their orders, understand delivery timelines, and escalate delayed shipments. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
 | [refund-processing](../skills/artbakerchat/Y/center/03-skills/skills/refund-processing/README.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 | Step-by-step process for handling customer refund requests, including order verification, return window checks, and refund issuance. |

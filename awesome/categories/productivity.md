@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 277
+Published Skills: 278
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -218,6 +218,7 @@ Published Skills: 277
 | [openspec-explore](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-explore/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change. |
 | [openspec-propose](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-propose/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation. |
 | [openspec-sync-specs](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-sync-specs/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Sync delta specs from a change to main specs. Use when the user wants to update main specs with changes from a delta spec, without archiving the change. |
+| [openspec-update-change](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-update-change/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Never edits code. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
 | [playwright-cli](../skills/chenyynx/claudio/bridge/.claude/skills/playwright-cli/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages. |
 | [release-bridge](../skills/chenyynx/claudio/bridge/.claude/skills/release-bridge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Bridge Server のリリース（バージョンbump + CHANGELOG + タグ → GH Actions で npm publish） |

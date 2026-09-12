@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 498
+Published Skills: 499
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -386,6 +386,7 @@ Published Skills: 498
 | [openspec-apply-change](../skills/a620906209/ticket-hub/.claude/skills/openspec-apply-change/README.md) | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 100 | 100 | 0 | Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks. |
 | [openspec-apply-change](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-apply-change/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks. |
 | [openspec-sync-specs](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-sync-specs/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Sync delta specs from a change to main specs. Use when the user wants to update main specs with changes from a delta spec, without archiving the change. |
+| [openspec-update-change](../skills/ComponentDock/free-react-templates/.opencode/skills/openspec-update-change/README.md) | [ComponentDock/free-react-templates](https://github.com/ComponentDock/free-react-templates) | 100 | 100 | 0 | Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Never edits code. |
 | [planning-ko](../skills/andyko18/specops-ko/skills/planning-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 스펙·요구사항이 확보된 다단계 작업에서 코드 건드리기 전에 사용 — 구현 플랜을 bite-sized task 단위로 작성 |
 | [playwright-cli](../skills/chenyynx/claudio/bridge/.claude/skills/playwright-cli/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages. |
 | [receiving-code-review-ko](../skills/andyko18/specops-ko/skills/receiving-code-review-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 코드 리뷰 피드백을 수령한 직후, 제안 구현 전 사용 — 기술적 엄밀성과 검증을 요구하며 수행적 동의·맹목적 구현을 금지 |
