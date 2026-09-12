@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/chenyynx/claudio](https://github.com/chenyynx/claudio)
 
-Published Skills: 9
-Categories: agent-orchestration, browser-automation, commerce, data, design, devops, documentation, documents, engineering, integrations, mobile, productivity, research, testing
+Published Skills: 10
+Categories: agent-orchestration, browser-automation, commerce, data, design, devops, documentation, documents, engineering, integrations, media, mobile, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=9, 60-84=0, <60=0
+Security distribution: 85+=10, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -17,4 +17,5 @@ Security distribution: 85+=9, 60-84=0, <60=0
 | [release-bridge](../../skills/chenyynx/claudio/bridge/.claude/skills/release-bridge/README.md) | `bridge/.claude/skills/release-bridge` | 100 | 100 | devops, documentation, engineering, mobile, productivity, testing |
 | [self-review](../../skills/chenyynx/claudio/bridge/.claude/skills/self-review/README.md) | `bridge/.claude/skills/self-review` | 100 | 100 | agent-orchestration, engineering, productivity |
 | [shorebird-patch](../../skills/chenyynx/claudio/bridge/.claude/skills/shorebird-patch/README.md) | `bridge/.claude/skills/shorebird-patch` | 100 | 100 | devops, mobile |
+| [test-bridge](../../skills/chenyynx/claudio/bridge/.claude/skills/test-bridge/README.md) | `bridge/.claude/skills/test-bridge` | 100 | 100 | engineering, media, testing |
 | [merge](../../skills/chenyynx/claudio/bridge/.claude/skills/merge/README.md) | `bridge/.claude/skills/merge` | 97 | 100 | commerce, engineering |

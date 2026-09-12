@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 111
+Published Skills: 112
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -99,6 +99,7 @@ Published Skills: 111
 | [release-bridge](../skills/chenyynx/claudio/bridge/.claude/skills/release-bridge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Bridge Server のリリース（バージョンbump + CHANGELOG + タグ → GH Actions で npm publish） |
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [tdd-ko](../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기능·버그픽스·리팩터링 구현 시 구현 코드 작성 전 반드시 사용 — Red-Green-Refactor 사이클 강제, 프로덕션 코드는 실패 테스트 없이 작성 금지 |
+| [test-bridge](../skills/chenyynx/claudio/bridge/.claude/skills/test-bridge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Bridge Server (TypeScript) のテスト実行・型チェック・テスト記述ガイド |
 | [threejs-postprocessing](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-postprocessing/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
 | [threejs-textures](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-textures/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization. |
 | [building-regression-tests](../skills/jhonatan-oliveiradev/agent-skills/skills/building-regression-tests/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a bug, outage, production defect, or failed higher-level test must become a durable automated guard before the implementation is changed. |

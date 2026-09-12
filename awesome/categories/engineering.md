@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 427
+Published Skills: 428
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -336,6 +336,7 @@ Published Skills: 427
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [tailwind-design-system](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/tailwind-design-system/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns. |
 | [tdd-ko](../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기능·버그픽스·리팩터링 구현 시 구현 코드 작성 전 반드시 사용 — Red-Green-Refactor 사이클 강제, 프로덕션 코드는 실패 테스트 없이 작성 금지 |
+| [test-bridge](../skills/chenyynx/claudio/bridge/.claude/skills/test-bridge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Bridge Server (TypeScript) のテスト実行・型チェック・テスト記述ガイド |
 | [theme-factory](../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 100 | 100 | 0 | 為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。 |
 | [threejs-interaction](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-interaction/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences. |
 | [threejs-materials](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-materials/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance. |

@@ -1,6 +1,6 @@
 # media
 
-Published Skills: 96
+Published Skills: 97
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -81,6 +81,7 @@ Published Skills: 96
 | [speech-to-text](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/speech-to-text/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content. |
 | [svg-character-animation](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/svg-character-animation/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Animate SVG character rigs with GSAP, CSS transforms, Remotion frame control, and HyperFrames-compatible browser previews. |
 | [synthetic-screen-recording](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/synthetic-screen-recording/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Synthetic terminal-style screen recording guidance for Remotion `TerminalScene`. |
+| [test-bridge](../skills/chenyynx/claudio/bridge/.claude/skills/test-bridge/README.md) | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 100 | 100 | 0 | Bridge Server (TypeScript) のテスト実行・型チェック・テスト記述ガイド |
 | [threejs-animation](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-animation/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations. |
 | [threejs-fundamentals](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-fundamentals/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms. |
 | [threejs-geometry](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/threejs-geometry/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering. |

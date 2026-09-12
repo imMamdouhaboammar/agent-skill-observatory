@@ -1,0 +1,96 @@
+{
+  "analysis_fingerprint": "681d96946ad2f3895cecd7cf299479d1cc2320f59eb16413c0ec6bf3c400e4c8",
+  "canonical_key": "chenyynx/claudio:bridge/.claude/skills/test-bridge",
+  "publication_event": "add",
+  "published_at": "2026-09-12T14:10:57.518217Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(npx:*),",
+      "Bash(npm:*),",
+      "Read,",
+      "Glob,",
+      "Grep"
+    ],
+    "analysis_fingerprint": "681d96946ad2f3895cecd7cf299479d1cc2320f59eb16413c0ec6bf3c400e4c8",
+    "archived": false,
+    "canonical_key": "chenyynx/claudio:bridge/.claude/skills/test-bridge",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2bce004377a7f9e0fe29f95dbe5002e55044004b3846671afb8ec123d118d8f5",
+    "description": "Bridge Server (TypeScript) のテスト実行・型チェック・テスト記述ガイド",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "engineering",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/chenyynx/claudio/blob/main/bridge/.claude/skills/test-bridge/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T11:08:23.007988Z",
+    "last_successful_repo_scan_at": "2026-09-12T11:08:23.007988Z",
+    "license": "GPL-3.0",
+    "metadata": {},
+    "name": "test-bridge",
+    "path": "bridge/.claude/skills/test-bridge",
+    "pushed_at": "2026-09-12T11:03:46Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "chenyynx/claudio",
+    "repo_url": "https://github.com/chenyynx/claudio",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license GPL-3.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "10f62d7a6a1471b6b411ffa8aa32dbd4213262da2c961be6c8b19b3aaf145343",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "10f62d7a6a1471b6b411ffa8aa32dbd4213262da2c961be6c8b19b3aaf145343"
+}
