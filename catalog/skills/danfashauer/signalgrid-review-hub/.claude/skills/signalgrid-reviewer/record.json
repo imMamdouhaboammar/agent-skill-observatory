@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "63703ea76eb1a3df4a75f0973dbf7726888362ff97f40153ca0f49670f047099",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/signalgrid-reviewer",
+  "publication_event": "add",
+  "published_at": "2026-09-12T19:22:57.307990Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "63703ea76eb1a3df4a75f0973dbf7726888362ff97f40153ca0f49670f047099",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/signalgrid-reviewer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "338a305beebbf18e5470f2411754654939d952f13b5d6ebb27a4a4003c3bba59",
+    "description": "The adversarial second reviewer for SignalGrid. Use when a change is ready for review, before any push or PR, or when asked to check whether a claim about the repo is true. This role verifies and reports; it never fixes, never authors, and never merges. Covers the repo's known defect classes, how to falsify a guard, and how to write findings the owner can act on without reading code.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "content",
+        "research",
+        "security",
+        "testing",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/signalgrid-reviewer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-11T23:40:40.592461Z",
+    "last_successful_repo_scan_at": "2026-09-11T23:40:40.592461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "signalgrid-reviewer",
+    "path": ".claude/skills/signalgrid-reviewer",
+    "pushed_at": "2026-09-11T23:34:39Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "597d90a05db7c0873addcaefb195483db4ec940848957814010760991036db25",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "597d90a05db7c0873addcaefb195483db4ec940848957814010760991036db25"
+}
