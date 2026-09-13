@@ -1,6 +1,6 @@
 # product
 
-Published Skills: 56
+Published Skills: 57
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -32,6 +32,7 @@ Published Skills: 56
 | [uat-repair](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/uat-repair/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Repair one concrete PlotPickle UAT blocker inside an isolated repository worktree. Use for focused UAT, exhaustive UI/UX UAT, startup-health, or Writer-in-Residence findings that require a tested code change. |
 | [writer-in-residence](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/writer-in-residence/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings. |
 | [before-you-build](../skills/dpatel-93/alfred/skills/before-you-build/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Pre-build product and feature risk review for founders, product managers, and AI-assisted builders. Use this skill when the user is about to build a landing page, MVP, SaaS product, internal tool, agent workflow, or major feature and needs to check demand, positioning, monetization, retention, trust, distribution, and adoption risk before implementation starts. |
+| [firecrawl-build](../skills/dpatel-93/alfred/skills/firecrawl-build/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Integrate Firecrawl into product code — credentials/SDK setup, and calling scrape, search, or interact from an application. Use when a project needs FIRECRAWL_API_KEY or an SDK installed, or when a feature must scrape a page, search the web, or drive a browser flow from code you are writing. Do NOT use for running Firecrawl yourself to research or fetch something — that is the firecrawl-cli plugin skill. |
 | [github](../skills/danmo-ai/danmo-work/core/resource/plugins/github/skills/github/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate GitHub via bound MCP when configured, else gh CLI, else plain git (remotes/push/fetch only). Use for GitHub platform / hosting work. |
 | [mcp-connectors](../skills/danmo-ai/danmo-work/core/resource/home/skills/mcp-connectors/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Use product connectors (MCP under the hood) and auth gateways without stuffing every action schema into context. |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |

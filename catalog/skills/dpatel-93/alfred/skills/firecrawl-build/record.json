@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "e2f47722cbee9537c4d2d10f3d2e0e805767e8772bd5d2ebfcefeff61e58b9ef",
+  "canonical_key": "dpatel-93/alfred:skills/firecrawl-build",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e2f47722cbee9537c4d2d10f3d2e0e805767e8772bd5d2ebfcefeff61e58b9ef",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/firecrawl-build",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5384448ec818a3d1d8cd6699d19945c138e5a152a1a1b9d197e5634102cd9b04",
+    "description": "Integrate Firecrawl into product code — credentials/SDK setup, and calling scrape, search, or interact from an application. Use when a project needs FIRECRAWL_API_KEY or an SDK installed, or when a feature must scrape a page, search the web, or drive a browser flow from code you are writing. Do NOT use for running Firecrawl yourself to research or fetch something — that is the firecrawl-cli plugin skill.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "content",
+        "engineering",
+        "product",
+        "research",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/firecrawl-build/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 8
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "ISC",
+    "metadata": {
+      "author": "firecrawl",
+      "consolidates": "firecrawl-build-onboarding, firecrawl-build-scrape, firecrawl-build-search, firecrawl-build-interact",
+      "homepage": "https://www.firecrawl.dev",
+      "version": "0.2.0"
+    },
+    "name": "firecrawl-build",
+    "path": "skills/firecrawl-build",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 7,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "340db00451e7063ae2b038056a80d8b89f7691f68c1d5b19ab7fd9a43ef35015",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "340db00451e7063ae2b038056a80d8b89f7691f68c1d5b19ab7fd9a43ef35015"
+}
