@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **917**
-Repositories: **96**
+Published skills: **918**
+Repositories: **97**
 
 ## Browse repositories
 
@@ -79,6 +79,7 @@ Repositories: **96**
 - [day8/re-frame2](./repos/day8/re-frame2.md)
 - [dbpprt/dieter](./repos/dbpprt/dieter.md)
 - [dcostenco/prism-coder](./repos/dcostenco/prism-coder.md)
+- [dglazkov/isocan](./repos/dglazkov/isocan.md)
 - [diegofisi/youtube-downloader](./repos/diegofisi/youtube-downloader.md)
 - [digitallyinduced/haskell-agent](./repos/digitallyinduced/haskell-agent.md)
 - [dileep-kishore/zendots](./repos/dileep-kishore/zendots.md)
@@ -816,6 +817,7 @@ Repositories: **96**
 - [add-task-env](./skills/dexforce/embodichain/.claude/skills/add-task-env/README.md) · `dexforce/embodichain:.claude/skills/add-task-env`
 - [review-pr](./skills/dexforce/embodichain/.claude/skills/review-pr/README.md) · `dexforce/embodichain:.claude/skills/review-pr`
 - [update-api-docs](./skills/dexforce/embodichain/.claude/skills/update-api-docs/README.md) · `dexforce/embodichain:.claude/skills/update-api-docs`
+- [isocan-collab](./skills/dglazkov/isocan/.agents/skills/isocan-collab/README.md) · `dglazkov/isocan:.agents/skills/isocan-collab`
 - [sf-integration-rules](./skills/diamondforgefr/saasfoundryai/.agents/skills/sf-integration-rules/README.md) · `diamondforgefr/saasfoundryai:.agents/skills/sf-integration-rules`
 - [br](./skills/dicklesworthstone/beads_rust/.claude/skills/br/README.md) · `dicklesworthstone/beads_rust:.claude/skills/br`
 - [frontend](./skills/diegofisi/youtube-downloader/.claude/skills/frontend/README.md) · `diegofisi/youtube-downloader:.claude/skills/frontend`

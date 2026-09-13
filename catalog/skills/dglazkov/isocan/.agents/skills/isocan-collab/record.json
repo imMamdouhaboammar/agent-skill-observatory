@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "d89987ef8b1cab59f32b724a7f5dd385caed9af78f602bac8424ab073cbf8875",
+  "canonical_key": "dglazkov/isocan:.agents/skills/isocan-collab",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "d89987ef8b1cab59f32b724a7f5dd385caed9af78f602bac8424ab073cbf8875",
+    "archived": false,
+    "canonical_key": "dglazkov/isocan:.agents/skills/isocan-collab",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1ab7598f32052b7e2fc9b96c85123eff3b5426d059aede97f25370f841b1a674",
+    "description": "Collaborate on an isocan canvas as a visible agent — address comments, build/edit items, and run the wait-driven feedback loop via the isocan CLI. Use when asked to work on a canvas, address canvas comments, \"park\" and wait for feedback, or run a canvas session. Triggers on \"isocan\", \"canvas comments\", \"park on the canvas\", \"address my comments\".",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/dglazkov/isocan/blob/main/.agents/skills/isocan-collab/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 5,
+    "indexed_at": "2026-09-13T01:00:45.522903Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:45.522903Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "isocan-collab",
+    "path": ".agents/skills/isocan-collab",
+    "pushed_at": "2026-09-13T00:55:49Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "dglazkov/isocan",
+    "repo_url": "https://github.com/dglazkov/isocan",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 27,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3d0218a834b2c570dd8c936323d467041d3a0a53473af2a33ca2054c6c3cc0bc",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "3d0218a834b2c570dd8c936323d467041d3a0a53473af2a33ca2054c6c3cc0bc"
+}
