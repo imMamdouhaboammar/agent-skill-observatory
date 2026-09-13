@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 609
+Published Skills: 610
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -364,6 +364,7 @@ Published Skills: 609
 | [futuristic](../skills/dpatel-93/alfred/skills/futuristic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Forward-looking design with tech-inspired typography, modern layouts, and a sleek, innovation-driven aesthetic. |
 | [geometric](../skills/dpatel-93/alfred/skills/geometric/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Geometric, structured design with clean typography, neutral colors, precise shapes, and intuitive layouts that stay out of the way. |
 | [glassmorphism](../skills/dpatel-93/alfred/skills/glassmorphism/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Frosted glass effect with translucent layers, subtle blur, and luminous borders for depth and modern elegance. |
+| [gradient](../skills/dpatel-93/alfred/skills/gradient/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Smooth color transitions and gradient-rich surfaces for modern, playful interfaces with visual depth. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [novel-plan](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-plan/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Plan a novel already scaffolded. Use for 人设/世界观, 金手指, book/volume outlines. Not for 章纲, batch freeze, prose, or review. |
 | [novel-review](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Post-draft finalize for novels — 字数扩写, review, deslop, and Continuity Commit. Use after a drafted chapter when expanding thin prose, 审稿, 去AI味, batch review, 卷收束, or committing continuity. Not for opening a book or writing first drafts (those stay novel-write / better model). |
