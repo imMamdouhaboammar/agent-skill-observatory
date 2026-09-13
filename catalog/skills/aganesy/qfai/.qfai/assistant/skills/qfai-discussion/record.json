@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "3727bbebb85770be8674c98483a73dc47ad1a9944b4fd8137f8d3672f50a30de",
   "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-discussion",
-  "publication_event": "add",
-  "published_at": "2026-09-12T17:12:14.927651Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T01:02:50.955534Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-discussion",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "21cd3b2d0380df2e50bf557c7314a8ddeb91ec6171c23594f09853fc695965fa",
+    "content_fingerprint": "aa028278a4688a3ccd4e7337f678a7ab31f909018f414c9521525ee282a748e4",
     "description": "Run structured discussion that defines exploration conditions, evaluation rubric, and anti-goals for downstream prototyping.",
     "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
     "evidence": {
@@ -50,13 +50,13 @@
       "tree_files_scanned": 14
     },
     "forks": 1,
-    "indexed_at": "2026-09-12T17:06:20.023267Z",
-    "last_successful_repo_scan_at": "2026-09-12T17:06:20.023267Z",
+    "indexed_at": "2026-09-13T00:59:44.595667Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:59:44.595667Z",
     "license": "MIT",
     "metadata": {},
     "name": "qfai-discussion",
     "path": ".qfai/assistant/skills/qfai-discussion",
-    "pushed_at": "2026-09-12T17:04:41Z",
+    "pushed_at": "2026-09-13T00:56:05Z",
     "repo_default_branch": "main",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "ede085409e6c8150644790d8f75097e31452117794aeab2e9fea3e9f0cf1f57f",
+    "source_fingerprint": "ad19befeaaa953464a8e7e0323ba35ebda90bd5991efecf2f7654db37c5ba20e",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 4
   },
-  "source_fingerprint": "ede085409e6c8150644790d8f75097e31452117794aeab2e9fea3e9f0cf1f57f"
+  "source_fingerprint": "ad19befeaaa953464a8e7e0323ba35ebda90bd5991efecf2f7654db37c5ba20e"
 }
