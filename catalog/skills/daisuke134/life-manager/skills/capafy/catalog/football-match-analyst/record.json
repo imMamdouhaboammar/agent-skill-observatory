@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "0f7e121dc0142f5147de3bb7fca24dce0b913f4502b0d4454805e60529232393",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/football-match-analyst",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0f7e121dc0142f5147de3bb7fca24dce0b913f4502b0d4454805e60529232393",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/football-match-analyst",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1e68a35e634a988c11d588064b3217f82864a8971029011b4dd97fa2ee53cf1a",
+    "description": "Analyze buyer-pasted weekly football fixtures and team news into a transparent matchup brief without claiming live data.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "commerce",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/football-match-analyst/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "football-match-analyst",
+    "path": "skills/capafy/catalog/football-match-analyst",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6da165b8c48db81d3b0b61da980ce2f0717f16f6b0c19e7c53e2cd3fcf2c7de4",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "6da165b8c48db81d3b0b61da980ce2f0717f16f6b0c19e7c53e2cd3fcf2c7de4"
+}

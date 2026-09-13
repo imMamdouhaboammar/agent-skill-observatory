@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 10
+Published Skills: 11
 Categories: ai-ml, browser-automation, commerce, content, data, design, documents, education, engineering, finance, hr-recruiting, legal-compliance, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=10, 60-84=0, <60=0
+Security distribution: 85+=11, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -19,3 +19,4 @@ Security distribution: 85+=10, 60-84=0, <60=0
 | [decision-record-consistency-auditor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/decision-record-consistency-auditor/README.md) | `skills/capafy/catalog/decision-record-consistency-auditor` | 100 | 100 | legal-compliance, product, productivity, research |
 | [dissertation-discussion-humanizer](../../skills/Daisuke134/life-manager/skills/capafy/catalog/dissertation-discussion-humanizer/README.md) | `skills/capafy/catalog/dissertation-discussion-humanizer` | 100 | 100 | data, productivity, research, testing |
 | [experiment-readout-deck](../../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | `skills/capafy/catalog/experiment-readout-deck` | 100 | 100 | commerce, content, design, documents, hr-recruiting, research |
+| [football-match-analyst](../../skills/Daisuke134/life-manager/skills/capafy/catalog/football-match-analyst/README.md) | `skills/capafy/catalog/football-match-analyst` | 100 | 100 | commerce, data, research |
