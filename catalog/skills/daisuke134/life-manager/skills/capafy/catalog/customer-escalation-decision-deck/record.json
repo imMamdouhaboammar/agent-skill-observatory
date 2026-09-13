@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "faee81e96afdec0f4aae04f6d28818811400b4b0d6d0181f1362964f011d08a1",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/customer-escalation-decision-deck",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "faee81e96afdec0f4aae04f6d28818811400b4b0d6d0181f1362964f011d08a1",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/customer-escalation-decision-deck",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b9d93691ef3116a6f4a9df547514eee800dfadb7a482eef229701b5d69d646fc",
+    "description": "Turn buyer-pasted customer-escalation facts into an evidence-linked decision-deck outline without inventing incident causes, commitments, or account facts.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "finance",
+        "commerce",
+        "design",
+        "documents",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/customer-escalation-decision-deck/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "customer-escalation-decision-deck",
+    "path": "skills/capafy/catalog/customer-escalation-decision-deck",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3c9c4b21a72da7afd35fa2fc9fcbf36a77bdeddc25a89c4f8b9ea71e1e32aee2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "3c9c4b21a72da7afd35fa2fc9fcbf36a77bdeddc25a89c4f8b9ea71e1e32aee2"
+}
