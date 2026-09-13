@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "0fe1c127e949660cf4a4b71d46851920db5e7f41c091f2a2dd8efe8e98b018c8",
+  "canonical_key": "dpatel-93/alfred:skills/graph-api-rest",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0fe1c127e949660cf4a4b71d46851920db5e7f41c091f2a2dd8efe8e98b018c8",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/graph-api-rest",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5b0a4fc85cb4f4863953769efa340206463c97f4748df57a6ee15903b5efa9ba",
+    "description": "Calls Microsoft Graph from PowerShell via raw REST (app-only client-credentials auth, pagination, throttling/retry) instead of the Microsoft.Graph SDK module. Use when the user asks to query or modify Entra ID / Azure AD / Graph API from a script, runbook, or Function App without installing the Graph SDK, or asks why REST is preferred over the SDK.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "content",
+        "data",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/graph-api-rest/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "graph-api-rest",
+    "path": "skills/graph-api-rest",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "41c2a3ddd4364342182e8b613eed0aba6a2d202d5f4d334672db18226d53f39f",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "41c2a3ddd4364342182e8b613eed0aba6a2d202d5f4d334672db18226d53f39f"
+}
