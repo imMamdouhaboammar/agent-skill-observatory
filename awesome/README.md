@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **962**
+Published skills: **961**
 Repositories: **97**
 
 ## Browse repositories
@@ -459,7 +459,6 @@ Repositories: **97**
 - [skill-reviewer](./skills/bytedance/deer-flow/skills/public/skill-reviewer/README.md) · `bytedance/deer-flow:skills/public/skill-reviewer`
 - [surprise-me](./skills/bytedance/deer-flow/skills/public/surprise-me/README.md) · `bytedance/deer-flow:skills/public/surprise-me`
 - [systematic-literature-review](./skills/bytedance/deer-flow/skills/public/systematic-literature-review/README.md) · `bytedance/deer-flow:skills/public/systematic-literature-review`
-- [web-design-guidelines](./skills/bytedance/deer-flow/skills/public/web-design-guidelines/README.md) · `bytedance/deer-flow:skills/public/web-design-guidelines`
 - [htpolynet](./skills/cameronabrams/htpolynet/.claude/skills/htpolynet/README.md) · `cameronabrams/htpolynet:.claude/skills/htpolynet`
 - [semantic-compression](./skills/can1357/oh-my-pi/.omp/skills/semantic-compression/README.md) · `can1357/oh-my-pi:.omp/skills/semantic-compression`
 - [system-prompts](./skills/can1357/oh-my-pi/.omp/skills/system-prompts/README.md) · `can1357/oh-my-pi:.omp/skills/system-prompts`
