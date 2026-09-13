@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "23d81c4823343ca93bec3e1374ebe345a2beceb7735464059c13c73dc3119fc0",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/research-findings-deck-storyboard",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "23d81c4823343ca93bec3e1374ebe345a2beceb7735464059c13c73dc3119fc0",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/research-findings-deck-storyboard",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5535236de0a6a28ba90e2afed77f74c98b35f8f944f50be74d252c85bf69c24a",
+    "description": "Turn buyer-pasted study findings into an evidence-bound, slide-by-slide research presentation outline without adding results, interpretation, or source claims.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "documents",
+        "content",
+        "commerce",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/research-findings-deck-storyboard/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "research-findings-deck-storyboard",
+    "path": "skills/capafy/catalog/research-findings-deck-storyboard",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "297e42a9e05090bf3d947a8dd09f77900c180687b573a8cc77bcb33196af0627",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "297e42a9e05090bf3d947a8dd09f77900c180687b573a8cc77bcb33196af0627"
+}
