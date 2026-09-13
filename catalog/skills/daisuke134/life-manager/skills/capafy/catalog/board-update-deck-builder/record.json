@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "62bdfbccc614abca9005692d0deaac7bb128b3255cf07326f9461651cb816e19",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/board-update-deck-builder",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "62bdfbccc614abca9005692d0deaac7bb128b3255cf07326f9461651cb816e19",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/board-update-deck-builder",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3913cca2419cacb34eec1fcf2f6f1e629083ee252656a32dd99b577ceb152f3c",
+    "description": "Turn buyer-pasted board-update facts into a concise, decision-led slide-by-slide deck outline without inventing metrics, decisions, or status.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "finance",
+        "research",
+        "commerce",
+        "content",
+        "design",
+        "documents"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/board-update-deck-builder/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "board-update-deck-builder",
+    "path": "skills/capafy/catalog/board-update-deck-builder",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "abc0e5ceca1a09dcd15665c1d01e3ab1ad1929a59aa200dcbc21b51979b54adf",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "abc0e5ceca1a09dcd15665c1d01e3ab1ad1929a59aa200dcbc21b51979b54adf"
+}
