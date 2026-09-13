@@ -163,6 +163,7 @@ def test_merge_bot_uses_a_separate_app_identity_with_ruleset_read_access() -> No
     assert "MERGE_BOT_APP_ID" in workflow
     assert "MERGE_BOT_PRIVATE_KEY" in workflow
     assert "permission-administration: read" in workflow
+    assert "permission-checks: read" not in workflow
     assert "PATCH_PRODUCER_APP_ID" not in workflow
     assert "PATCH_PRODUCER_PRIVATE_KEY" not in workflow
 
