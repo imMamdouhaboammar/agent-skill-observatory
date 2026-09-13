@@ -1,8 +1,8 @@
 {
-  "analysis_fingerprint": "f1523a12cbeaed675baad5866ccac5ccaa02eb904f4a4a30540f4c182184cbc9",
+  "analysis_fingerprint": "e070b86f788375f7acf9f5b0e791804e3258a5c949d46f3a1520362e3b1e5a66",
   "canonical_key": "dailybothq/deepworkplan-website:.agents/skills/deepworkplan",
-  "publication_event": "add",
-  "published_at": "2026-09-11T16:55:08.871829Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T21:50:05.022086Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [
@@ -13,13 +13,13 @@
       "Edit,",
       "Write"
     ],
-    "analysis_fingerprint": "f1523a12cbeaed675baad5866ccac5ccaa02eb904f4a4a30540f4c182184cbc9",
+    "analysis_fingerprint": "e070b86f788375f7acf9f5b0e791804e3258a5c949d46f3a1520362e3b1e5a66",
     "archived": false,
     "canonical_key": "dailybothq/deepworkplan-website:.agents/skills/deepworkplan",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "09f1c9717e071dc3d17bdcf7b2e71678f2bc32379e3cb94528ba575de44d78f3",
-    "description": "DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready.",
+    "content_fingerprint": "35effe191569b093ec585bf63ce84289d3b9330cc6579358a2a6624f90d864b3",
+    "description": "DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, upgrade, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready.",
     "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
@@ -27,8 +27,8 @@
         "productivity",
         "content",
         "documentation",
-        "commerce",
-        "research"
+        "testing",
+        "commerce"
       ],
       "client_compatibility_evidence": {
         "GitHub Copilot": [
@@ -64,15 +64,15 @@
       "tree_files_scanned": 2
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:52:45.236185Z",
-    "last_successful_repo_scan_at": "2026-09-11T16:52:45.236185Z",
+    "indexed_at": "2026-09-13T21:46:36.471833Z",
+    "last_successful_repo_scan_at": "2026-09-13T21:46:36.471833Z",
     "license": "MIT",
     "metadata": {
       "openclaw": "{'emoji': '🧠', 'homepage': 'https://deepworkplan.com', 'requires': {'anyBins': ['git', 'bash']}}"
     },
     "name": "deepworkplan",
     "path": ".agents/skills/deepworkplan",
-    "pushed_at": "2026-09-11T16:44:31Z",
+    "pushed_at": "2026-09-13T21:42:56Z",
     "repo_default_branch": "main",
     "repo_full_name": "DailybotHQ/deepworkplan-website",
     "repo_url": "https://github.com/DailybotHQ/deepworkplan-website",
@@ -97,7 +97,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "386737d2f7f6404d36065888ddeb8f9298f1f6df18ba2e747691ff468e63938e",
+    "source_fingerprint": "7db88da91812816dc3c3e8091ab284e14f82ccb65af6c80fe56baa83c877fe9f",
     "spec": {
       "errors": [],
       "valid": true,
@@ -107,5 +107,5 @@
     },
     "stars": 15
   },
-  "source_fingerprint": "386737d2f7f6404d36065888ddeb8f9298f1f6df18ba2e747691ff468e63938e"
+  "source_fingerprint": "7db88da91812816dc3c3e8091ab284e14f82ccb65af6c80fe56baa83c877fe9f"
 }
