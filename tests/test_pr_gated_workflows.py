@@ -336,3 +336,13 @@ def test_merge_bot_blocks_unresolved_review_threads() -> None:
 
     assert "reviewThreads(first: 100)" in workflow
     assert "reviewThreads.nodes.some((thread) => !thread.isResolved)" in workflow
+
+
+def test_gitguardian_configuration_ignores_catalog_data() -> None:
+    config_path = ROOT / ".gitguardian.yaml"
+    assert config_path.is_file()
+    content = _read(config_path)
+    assert 'version: 2' in content
+    assert 'data/catalog.csv' in content
+
+
