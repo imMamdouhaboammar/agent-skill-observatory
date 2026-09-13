@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 591
+Published Skills: 592
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -415,6 +415,7 @@ Published Skills: 591
 | [strategic-compact](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/strategic-compact/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a context limit and a task phase is a natural place to compact. |
 | [systematic-debugging](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [test-driven-development](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementing any feature or bugfix, before writing implementation code |
+| [tool-evaluation-by-use](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/tool-evaluation-by-use/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when the owner shares a tool, plugin, CLI or repository and it has to be judged — before writing its docs/agent/RESOURCE_INTAKE.md row, before adopting or rejecting it, and before writing any sentence about what it does or what it costs. |
 | [verification-before-completion](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always |
 | [writing-plans](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/writing-plans/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when you have a spec or requirements for a multi-step task, before touching code |
 | [acestep](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/acestep/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | AI music generation with ACE-Step 1.5 — background music, vocal tracks, covers, stem extraction for video production. Use when generating music, soundtracks, jingles, or working with audio stems. Triggers include background music, soundtrack, jingle, music generation, stem extraction, cover, style transfer, or musical composition tasks. |

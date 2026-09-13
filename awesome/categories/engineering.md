@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 661
+Published Skills: 662
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -463,6 +463,7 @@ Published Skills: 661
 | [strategic-compact](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/strategic-compact/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a context limit and a task phase is a natural place to compact. |
 | [systematic-debugging](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [test-driven-development](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementing any feature or bugfix, before writing implementation code |
+| [tool-evaluation-by-use](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/tool-evaluation-by-use/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when the owner shares a tool, plugin, CLI or repository and it has to be judged — before writing its docs/agent/RESOURCE_INTAKE.md row, before adopting or rejecting it, and before writing any sentence about what it does or what it costs. |
 | [using-git-worktrees](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-git-worktrees/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback |
 | [using-superpowers](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-superpowers/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions |
 | [verification-before-completion](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always |

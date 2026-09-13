@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 318
+Published Skills: 319
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -222,6 +222,7 @@ Published Skills: 318
 | [spec-review](../skills/2AMLogic/klayout-tools/.claude/skills/spec-review/README.md) | [2AMLogic/klayout-tools](https://github.com/2AMLogic/klayout-tools) | 100 | 100 | 1 | Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. Use when reviewing a draft block spec table before operator ratification. |
 | [systematic-debugging](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [test-driven-development](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementing any feature or bugfix, before writing implementation code |
+| [tool-evaluation-by-use](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/tool-evaluation-by-use/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when the owner shares a tool, plugin, CLI or repository and it has to be judged — before writing its docs/agent/RESOURCE_INTAKE.md row, before adopting or rejecting it, and before writing any sentence about what it does or what it costs. |
 | [add-proteins-to-graphs](../skills/CultureBotAI/NaturalProductMech/.claude/skills/add-proteins-to-graphs/README.md) | [CultureBotAI/NaturalProductMech](https://github.com/CultureBotAI/NaturalProductMech) | 100 | 100 | 0 | Add evidence-backed proteins, enzymes and complexes to NaturalProductMech biosynthetic pathways, causal graphs and molecular targets; ground graph nodes and pick UniProtKB protein examples without confusing a family, complex or reaction with an organism-specific protein. |
 | [advisor-ko](../skills/andyko18/specops-ko/skills/advisor-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기획·분석·설계·개발 중 애매한 부분/모르는 부분 발생 시 항상 적용 — advisor 도구로 외부 자문을 받아 단정·합리화·circular 검증을 차단 |
 | [ai-video-gen](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/ai-video-gen/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Generate AI videos from text prompts using multiple provider gateways. Use when: (1) Generating videos from text descriptions, (2) Creating AI-generated video clips for content production, (3) Image-to-video generation with a reference image, (4) Choosing between video generation providers (VEO, Kling, Sora, Runway, Seedance, MiniMax). Supports two gateways: HeyGen API and fal.ai API. |
