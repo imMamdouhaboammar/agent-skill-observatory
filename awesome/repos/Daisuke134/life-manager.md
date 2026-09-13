@@ -2,16 +2,17 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 32
+Published Skills: 33
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, other, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=32, 60-84=0, <60=0
+Security distribution: 85+=33, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [academic-limitations-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/academic-limitations-editor/README.md) | `skills/capafy/catalog/academic-limitations-editor` | 100 | 100 | commerce, content, data, design, research |
 | [academic-research-proposal-humanizer](../../skills/Daisuke134/life-manager/skills/capafy/catalog/academic-research-proposal-humanizer/README.md) | `skills/capafy/catalog/academic-research-proposal-humanizer` | 100 | 100 | content, data, education, finance, research |
 | [ai-automation-builder](../../skills/Daisuke134/life-manager/skills/ai-automation-builder/README.md) | `skills/ai-automation-builder` | 100 | 100 | browser-automation, data, design, productivity, research, testing |
+| [anti-ai-writing](../../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/content-skills/anti-ai-writing/README.md) | `skills/writer-agent/vendor/writing-skills/content-skills/anti-ai-writing` | 100 | 100 | content, data, hr-recruiting, media, product, productivity |
 | [apply-to-funder](../../skills/Daisuke134/life-manager/skills/apply-to-funder/README.md) | `skills/apply-to-funder` | 100 | 100 | browser-automation, engineering, marketing, media, research, security |
 | [board-update-deck-builder](../../skills/Daisuke134/life-manager/skills/capafy/catalog/board-update-deck-builder/README.md) | `skills/capafy/catalog/board-update-deck-builder` | 100 | 100 | commerce, content, design, documents, finance, research |
 | [capafy-publisher](../../skills/Daisuke134/life-manager/skills/capafy-autopublish/vendor/capafy-publisher/README.md) | `skills/capafy-autopublish/vendor/capafy-publisher` | 100 | 100 | ai-ml, commerce, content, engineering, legal-compliance, productivity |

@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "096e3e0697dbf3f7d7535bbca106477a49309dbfdcd7f5d209eb47b2574c16b5",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/anti-ai-writing",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "096e3e0697dbf3f7d7535bbca106477a49309dbfdcd7f5d209eb47b2574c16b5",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/anti-ai-writing",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0cebbc155c9f2b941f7a5c17dc8edc189cdf07c33c5bad0d052fd9772aaa1ad5",
+    "description": "Use when writing or auditing any written content — captions, carousels, newsletters, threads, LinkedIn posts, long-form — and as the FINAL filter on every piece. Reach for it whenever text feels generic, fluent-but-hollow, over-formatted, or \"sounds like AI.\" Strongest on written prose; lighter on spoken reels.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "data",
+        "hr-recruiting",
+        "media",
+        "product",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/vendor/writing-skills/content-skills/anti-ai-writing/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "anti-ai-writing",
+    "path": "skills/writer-agent/vendor/writing-skills/content-skills/anti-ai-writing",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "89376144a3ba6a914820b1d6f6d93a78c4739bd5da2fd2ac68eb2d8ac46d927b",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "89376144a3ba6a914820b1d6f6d93a78c4739bd5da2fd2ac68eb2d8ac46d927b"
+}
