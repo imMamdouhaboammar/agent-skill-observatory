@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 363
+Published Skills: 364
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -127,6 +127,7 @@ Published Skills: 363
 | [ultrathink](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/ultrathink/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Activate extended thinking mode for complex problems - deep reasoning, chain-of-thought decomposition, multi-step analysis, and thorough exploration before answering |
 | [webapp-testing](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/webapp-testing/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Test local web applications using browser automation - verify frontend functionality, debug UI behavior, capture screenshots, view console logs, run E2E scenarios, and check accessibility |
 | [weekly-aeoncard](../skills/aaronjmars/aeon-agent/skills/weekly-aeoncard/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Build a weekly token-consumption recap image from memory/token-usage.csv - this week + all-time totals, top skills, rendered as a shareable SVG card. |
+| [ai-automation-builder](../skills/Daisuke134/life-manager/skills/ai-automation-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Design, implement, verify, and hand over bounded AI-assisted business automations from buyer-supplied workflows and test data; use for custom agents, integrations, browser workflows, and recurring maintenance after a working system exists. |
 | [tdd-workflow](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/tdd-workflow/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 새 기능·버그 수정을 테스트 먼저(TDD)로 진행할 때. "TDD로 해줘", "테스트 먼저" 요청이나 회귀가 잦은 영역 작업에 사용. |
 | [attaform](../skills/attaform/Attaform/skills/attaform/README.md) | [attaform/Attaform](https://github.com/attaform/Attaform) | 100 | 100 | 6 | Build type-safe, schema-driven forms in Vue 3 and Nuxt with Attaform (first-class Zod). Use when creating, editing, or debugging a form (inputs, validation, submission, multistep wizards, or SSR) in a project that has the `attaform` package installed. Covers the correct import surface, the useForm handle, the v-register directive, reading validation state, handleSubmit, server-error routing, and wizards. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |

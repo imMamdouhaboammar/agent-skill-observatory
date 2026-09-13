@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **847**
-Repositories: **94**
+Published skills: **848**
+Repositories: **95**
 
 ## Browse repositories
 
@@ -26,6 +26,7 @@ Repositories: **94**
 - [DKJ-Solutions/dkj-claude-plugins](./repos/DKJ-Solutions/dkj-claude-plugins.md)
 - [DahanItamar/uilint](./repos/DahanItamar/uilint.md)
 - [DailybotHQ/deepworkplan-website](./repos/DailybotHQ/deepworkplan-website.md)
+- [Daisuke134/life-manager](./repos/Daisuke134/life-manager.md)
 - [DanFashauer/SignalGrid-Review-Hub](./repos/DanFashauer/SignalGrid-Review-Hub.md)
 - [Deploy-Forward/convoy](./repos/Deploy-Forward/convoy.md)
 - [DexForce/EmbodiChain](./repos/DexForce/EmbodiChain.md)
@@ -675,6 +676,7 @@ Repositories: **94**
 - [uilint](./skills/dahanitamar/uilint/_root/README.md) · `dahanitamar/uilint:.`
 - [deepworkplan](./skills/dailybothq/deepworkplan-website/.agents/skills/deepworkplan/README.md) · `dailybothq/deepworkplan-website:.agents/skills/deepworkplan`
 - [responsive-lighthouse-audit](./skills/dailybothq/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) · `dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit`
+- [ai-automation-builder](./skills/daisuke134/life-manager/skills/ai-automation-builder/README.md) · `daisuke134/life-manager:skills/ai-automation-builder`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`

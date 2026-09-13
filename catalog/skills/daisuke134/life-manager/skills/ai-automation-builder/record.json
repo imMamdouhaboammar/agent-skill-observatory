@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "65836a6df9375a6087ffe655616444052f2ab769c01a5defd18f5a74ce31c47a",
+  "canonical_key": "daisuke134/life-manager:skills/ai-automation-builder",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "65836a6df9375a6087ffe655616444052f2ab769c01a5defd18f5a74ce31c47a",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/ai-automation-builder",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fc693f08d1f037d551b142bdd9a347e5451130fc9dc2427f7151254efc16f6f4",
+    "description": "Design, implement, verify, and hand over bounded AI-assisted business automations from buyer-supplied workflows and test data; use for custom agents, integrations, browser workflows, and recurring maintenance after a working system exists.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "data",
+        "design",
+        "productivity",
+        "research",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/ai-automation-builder/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "ai-automation-builder",
+    "path": "skills/ai-automation-builder",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a47f3f3aa26cc2baae51ec4396d46b9a3ebd72dbfa3b63e31ec9c84b289a7877",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "a47f3f3aa26cc2baae51ec4396d46b9a3ebd72dbfa3b63e31ec9c84b289a7877"
+}
