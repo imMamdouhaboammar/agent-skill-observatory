@@ -1,6 +1,6 @@
 # documents
 
-Published Skills: 30
+Published Skills: 31
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -18,6 +18,7 @@ Published Skills: 30
 | [summarizer](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/summarizer/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Summarize URLs, PDFs, YouTube videos, and text content - extract key points and generate concise summaries |
 | [board-update-deck-builder](../skills/Daisuke134/life-manager/skills/capafy/catalog/board-update-deck-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted board-update facts into a concise, decision-led slide-by-slide deck outline without inventing metrics, decisions, or status. |
 | [customer-escalation-decision-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/customer-escalation-decision-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted customer-escalation facts into an evidence-linked decision-deck outline without inventing incident causes, commitments, or account facts. |
+| [experiment-readout-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted experiment results into an evidence-linked decision-readout deck outline without inventing metrics, causes, or rollout conclusions. |
 | [feishu](../skills/chnlich/charlie-bot/skills/feishu/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Feishu/Lark documents, search docs in their Feishu workspace, or fetch content from a Feishu wiki or docx URL. |
 | [linear](../skills/chnlich/charlie-bot/skills/linear/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, update, or search Linear issues, projects, cycles, or teams. |
 | [visual-qa](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-qa/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence. |

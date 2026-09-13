@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "beba34e9eda2d7a3e216d097c6f6ca4c615465b5f912c9d38c9d89163c98d858",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/experiment-readout-deck",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "beba34e9eda2d7a3e216d097c6f6ca4c615465b5f912c9d38c9d89163c98d858",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/experiment-readout-deck",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "2748b153711fc5a5a09dc096cf882a345b146080443d01a47a14e54b7e635348",
+    "description": "Turn buyer-pasted experiment results into an evidence-linked decision-readout deck outline without inventing metrics, causes, or rollout conclusions.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "design",
+        "commerce",
+        "content",
+        "documents",
+        "hr-recruiting"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/experiment-readout-deck/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "experiment-readout-deck",
+    "path": "skills/capafy/catalog/experiment-readout-deck",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "89e9c846caf148ef0148cb1819ef359e987e992af0d92999c2f29e8f494ba4ce",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "89e9c846caf148ef0148cb1819ef359e987e992af0d92999c2f29e8f494ba4ce"
+}

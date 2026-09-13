@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **856**
+Published skills: **857**
 Repositories: **95**
 
 ## Browse repositories
@@ -685,6 +685,7 @@ Repositories: **95**
 - [customer-escalation-decision-deck](./skills/daisuke134/life-manager/skills/capafy/catalog/customer-escalation-decision-deck/README.md) · `daisuke134/life-manager:skills/capafy/catalog/customer-escalation-decision-deck`
 - [decision-record-consistency-auditor](./skills/daisuke134/life-manager/skills/capafy/catalog/decision-record-consistency-auditor/README.md) · `daisuke134/life-manager:skills/capafy/catalog/decision-record-consistency-auditor`
 - [dissertation-discussion-humanizer](./skills/daisuke134/life-manager/skills/capafy/catalog/dissertation-discussion-humanizer/README.md) · `daisuke134/life-manager:skills/capafy/catalog/dissertation-discussion-humanizer`
+- [experiment-readout-deck](./skills/daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) · `daisuke134/life-manager:skills/capafy/catalog/experiment-readout-deck`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`

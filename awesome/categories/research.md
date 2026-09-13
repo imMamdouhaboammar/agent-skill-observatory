@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 285
+Published Skills: 286
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -117,6 +117,7 @@ Published Skills: 285
 | [customer-escalation-decision-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/customer-escalation-decision-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted customer-escalation facts into an evidence-linked decision-deck outline without inventing incident causes, commitments, or account facts. |
 | [decision-record-consistency-auditor](../skills/Daisuke134/life-manager/skills/capafy/catalog/decision-record-consistency-auditor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Compare pasted decision records and meeting notes to surface conflicting decisions, missing context, and unresolved implementation questions. |
 | [dissertation-discussion-humanizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/dissertation-discussion-humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Rewrite a pasted dissertation discussion chapter into clear, natural academic prose while preserving supplied results, limitations, and uncertainty. |
+| [experiment-readout-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted experiment results into an evidence-linked decision-readout deck outline without inventing metrics, causes, or rollout conclusions. |
 | [project-inception](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/project-inception/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use when kicking off a new project or feature area in an ocul-pm tracked project (.oculpm/ present) — research the stack landscape via web search, then converse with the user (research-backed choices) to settle the optimal spec, and seed a discussion doc, a detailed 3-depth plan (plan_create), EVALS.md done-criteria and starter .claude/rules. |
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [improve-worker](../skills/chnlich/charlie-bot/skills/improve-worker/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | methodology for iterative improve loop workers. |
