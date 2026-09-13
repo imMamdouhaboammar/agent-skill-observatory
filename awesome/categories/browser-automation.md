@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 74
+Published Skills: 75
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -28,6 +28,7 @@ Published Skills: 74
 | [ai-automation-builder](../skills/Daisuke134/life-manager/skills/ai-automation-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Design, implement, verify, and hand over bounded AI-assisted business automations from buyer-supplied workflows and test data; use for custom agents, integrations, browser workflows, and recurring maintenance after a working system exists. |
 | [apply-to-funder](../skills/Daisuke134/life-manager/skills/apply-to-funder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when preparing, previewing, submitting, or tracking an accelerator, grant, VC, angel, or fundraising application for Life Manager. |
 | [fundraiser-agent](../skills/Daisuke134/life-manager/skills/fundraiser-agent/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Continuous Life Manager fundraising through the existing application behavior. Every 30 minutes it discovers live Web/X opportunities, applies to as many eligible programs as possible, and records authoritative readback. |
+| [google-login](../skills/Daisuke134/life-manager/skills/google-login/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Authenticate an authorized seller-owned Google or Gmail identity, read Gmail verification messages, or complete OAuth/device login without exposing secrets; use for Google sign-in, Gmail receive-otp, login challenges, and expired sessions. |
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [feishu](../skills/chnlich/charlie-bot/skills/feishu/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Feishu/Lark documents, search docs in their Feishu workspace, or fetch content from a Feishu wiki or docx URL. |
 | [file-server](../skills/chnlich/charlie-bot/skills/file-server/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Must invoke when presenting a file to the user. The CharlieBot server has a built-in file browser that serves any file on the host filesystem. |
