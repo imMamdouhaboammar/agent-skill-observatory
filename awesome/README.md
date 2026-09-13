@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **950**
+Published skills: **951**
 Repositories: **97**
 
 ## Browse repositories
@@ -912,6 +912,7 @@ Repositories: **97**
 - [neobrutalism](./skills/dpatel-93/alfred/skills/neobrutalism/README.md) · `dpatel-93/alfred:skills/neobrutalism`
 - [neon](./skills/dpatel-93/alfred/skills/neon/README.md) · `dpatel-93/alfred:skills/neon`
 - [neumorphism](./skills/dpatel-93/alfred/skills/neumorphism/README.md) · `dpatel-93/alfred:skills/neumorphism`
+- [ollama-interns](./skills/dpatel-93/alfred/skills/ollama-interns/README.md) · `dpatel-93/alfred:skills/ollama-interns`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`

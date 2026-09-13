@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "8914a68d96fb2ea57ca291348cc8f2a9134f31d28441642a9131627436fb993e",
+  "canonical_key": "dpatel-93/alfred:skills/ollama-interns",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8914a68d96fb2ea57ca291348cc8f2a9134f31d28441642a9131627436fb993e",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/ollama-interns",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5b861757e450b738a2a745271745a0fb8ddf56882bfe5d3e82f12bd2329a5572",
+    "description": "Offloads token-burning grunt work to free local Ollama models (the \"interns\" tier) on the operator's local GPU (see ~/.claude/alfred-profile.md's Primary stack/tools for the specific hardware). Use when a subtask is a draft, summary, bulk classification, embedding, or mechanical text transform where a 4-9B local model is adequate and Claude API tokens would be wasted — especially inside loops over many files/items. Never for final code, architecture, or anything shipped unreviewed.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "ai-ml",
+        "agent-orchestration",
+        "architecture",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/ollama-interns/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "ollama-interns",
+    "path": "skills/ollama-interns",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3f7eac54678cb22d03536f1f2ad3e9557db0d5efeee89fa3d628fe0d47eb5ec3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "3f7eac54678cb22d03536f1f2ad3e9557db0d5efeee89fa3d628fe0d47eb5ec3"
+}
