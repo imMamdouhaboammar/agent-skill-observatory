@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **848**
+Published skills: **849**
 Repositories: **95**
 
 ## Browse repositories
@@ -677,6 +677,7 @@ Repositories: **95**
 - [deepworkplan](./skills/dailybothq/deepworkplan-website/.agents/skills/deepworkplan/README.md) · `dailybothq/deepworkplan-website:.agents/skills/deepworkplan`
 - [responsive-lighthouse-audit](./skills/dailybothq/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) · `dailybothq/deepworkplan-website:.agents/skills/responsive-lighthouse-audit`
 - [ai-automation-builder](./skills/daisuke134/life-manager/skills/ai-automation-builder/README.md) · `daisuke134/life-manager:skills/ai-automation-builder`
+- [apply-to-funder](./skills/daisuke134/life-manager/skills/apply-to-funder/README.md) · `daisuke134/life-manager:skills/apply-to-funder`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
