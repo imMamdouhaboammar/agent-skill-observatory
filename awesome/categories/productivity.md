@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 373
+Published Skills: 374
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -227,6 +227,7 @@ Published Skills: 373
 | [sheet-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/sheet-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Produce/edit tables as `.csv` or Univer `.usheet.json` via write/edit/apply_patch. Do not web-search Univer schema — use references/ir-sheet.md or kb-office-ir. |
 | [writing-plans](../skills/danmo-ai/danmo-work/core/resource/home/skills/writing-plans/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Write file-level, bite-sized implementation plans before coding. Use when you have a spec or multi-step requirements and need an actionable plan before touching implementation. |
 | [assumption-test](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/assumption-test/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Test a consequential technical assumption with a small, falsifiable experiment before committing to an approach. Use when a plan depends on uncertain runtime, integration, or data behavior that inspection alone cannot establish. Not for preference interviews or routine implementation. |
+| [blindspot-pass](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/blindspot-pass/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Surface the user's unknown unknowns before work starts. Use when the user is entering an unfamiliar codebase area, an unfamiliar domain (design, video, infra), or explicitly asks for a "blindspot pass" or to find their "unknown unknowns." |
 | [browser-lanes](../skills/jeong-sik/masc/skills/browser-lanes/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Use MASC Browser tools to read or operate Firefox/Zen tabs, inspect images, and verify requested web actions. Use for Browser Lane work and session, selector, or browser connection failures. |
 | [buildd-mcp-consumer](../skills/buildd-ai/buildd/.claude/skills/buildd-mcp-consumer/README.md) | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 100 | 100 | 1 | Use whenever the buildd MCP tools (`buildd`, `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target. |
 | [buildd-workflow](../skills/buildd-ai/buildd/.claude/skills/buildd-workflow/README.md) | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 100 | 100 | 1 | Workflow skill that helps agents work effectively in buildd. Enforces disciplined development — TDD, quality gates, proper planning, progress reporting, and no shortcuts. |

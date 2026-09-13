@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "ba58fc2a5e9b65952d4dae2b7e72c6dcc32c47bc26bb596b193733c6825eab9d",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/blindspot-pass",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "ba58fc2a5e9b65952d4dae2b7e72c6dcc32c47bc26bb596b193733c6825eab9d",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/blindspot-pass",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a0ae24b4d25665ac24ac52b8bd2d9f96f95b61770bd900b403c8d756ae68d214",
+    "description": "Surface the user's unknown unknowns before work starts. Use when the user is entering an unfamiliar codebase area, an unfamiliar domain (design, video, infra), or explicitly asks for a \"blindspot pass\" or to find their \"unknown unknowns.\"",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "media",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/blindspot-pass/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "blindspot-pass",
+    "path": ".claude/skills/blindspot-pass",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7cef9de5222b2fdbb2d7efac559f72e4dde9f39850a76ef3502f0b0e395e205c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "7cef9de5222b2fdbb2d7efac559f72e4dde9f39850a76ef3502f0b0e395e205c"
+}

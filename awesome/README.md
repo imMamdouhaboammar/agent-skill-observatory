@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **886**
+Published skills: **887**
 Repositories: **95**
 
 ## Browse repositories
@@ -715,6 +715,7 @@ Repositories: **95**
 - [humanizer](./skills/daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/humanizer/README.md) · `daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/humanizer`
 - [api-and-interface-design](./skills/danfashauer/signalgrid-review-hub/.claude/skills/api-and-interface-design/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/api-and-interface-design`
 - [assumption-test](./skills/danfashauer/signalgrid-review-hub/.claude/skills/assumption-test/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/assumption-test`
+- [blindspot-pass](./skills/danfashauer/signalgrid-review-hub/.claude/skills/blindspot-pass/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/blindspot-pass`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
