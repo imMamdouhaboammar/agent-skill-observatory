@@ -2,23 +2,23 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-13 01:02 UTC
+> Last refreshed: 2026-09-13 11:45 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **916** published skills
-- **95** repositories
-- **912** spec-valid manifests
-- **912** skills with security score 85+
-- **912** skills with overall score 80+
+- **961** published skills
+- **97** repositories
+- **957** spec-valid manifests
+- **957** skills with security score 85+
+- **957** skills with overall score 80+
 
 ## Top verified skills
 
 | Skill | Repository | Score | Security | Stars |
 |---|---|---:|---:|---:|
 | [academic-limitations-editor](https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/academic-limitations-editor/SKILL.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 |
-| [academic-paper-review](https://github.com/bytedance/deer-flow/blob/main/skills/public/academic-paper-review/SKILL.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82289 |
+| [academic-paper-review](https://github.com/bytedance/deer-flow/blob/main/skills/public/academic-paper-review/SKILL.md) | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 100 | 100 | 82333 |
 | [academic-research-proposal-humanizer](https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/academic-research-proposal-humanizer/SKILL.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 |
 | [accessibility-a11y](https://github.com/BlackBeltTechnology/pi-agent-dashboard/blob/develop/packages/frontend-patterns/.pi/skills/accessibility-a11y/SKILL.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 |
 | [account-troubleshooting](https://github.com/artbakerchat/Y/blob/main/center/03-skills/skills/account-troubleshooting/SKILL.md) | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 100 | 100 | 0 |
@@ -68,7 +68,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 17 | 100 | 4 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing |
 | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 2 | 100 | 1 | content, design, documentation, engineering, integrations, productivity, security |
 | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 6 | 100 | 7 | documentation, engineering, integrations, productivity, research, security, testing |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 12 | 100 | 82289 | agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 11 | 100 | 82333 | agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security |
 | [cameronabrams/htpolynet](https://github.com/cameronabrams/htpolynet) | 1 | 100 | 33 | content, engineering, marketing, media, productivity, testing |
 | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 2 | 100 | 30801 | ai-ml, commerce, content, design, documentation, engineering, productivity |
 | [cbwinslow/Tarkka](https://github.com/cbwinslow/Tarkka) | 1 | 100 | 0 | commerce, content, documents, hr-recruiting, legal-compliance, research |
@@ -96,12 +96,13 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [dcostenco/prism-coder](https://github.com/dcostenco/prism-coder) | 1 | 100 | 157 | commerce, content, data, engineering, integrations, media |
 | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 8 | 100 | 0 | commerce, content, data, devops, documentation, engineering, integrations, localization, product, productivity, research, security |
 | [DexForce/EmbodiChain](https://github.com/DexForce/EmbodiChain) | 14 | 100 | 224 | ai-ml, commerce, content, data, design, devops, documentation, engineering, marketing, productivity, research, testing |
+| [dglazkov/isocan](https://github.com/dglazkov/isocan) | 1 | 100 | 2 | devops |
 | [DiamondForgeFr/SaasFoundryAI](https://github.com/DiamondForgeFr/SaasFoundryAI) | 1 | 100 | 3 | commerce, content, design, engineering, integrations, testing |
 | [Dicklesworthstone/beads_rust](https://github.com/Dicklesworthstone/beads_rust) | 1 | 100 | 1090 | agent-orchestration, content, data, design, engineering, productivity |
 | [digitallyinduced/haskell-agent](https://github.com/digitallyinduced/haskell-agent) | 5 | 100 | 29 | commerce, data, documentation, education, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security |
 | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 26 | 100 | 3 | agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, productivity, research, security, testing |
 | [DKJ-Solutions/dkj-claude-plugins](https://github.com/DKJ-Solutions/dkj-claude-plugins) | 2 | 100 | 1 | agent-orchestration, commerce, content, devops, documentation, engineering, legal-compliance, productivity, research, security |
-| [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 26 | 100 | 2 | agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, product, productivity, research, security, testing |
+| [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 70 | 100 | 2 | agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing |
 | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 22 | 100 | 3 | agent-orchestration, commerce, content, data, devops, documentation, education, engineering, finance, hr-recruiting, productivity, project-management, research, testing |
 | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 15 | 100 | 17 | agent-orchestration, business, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, legal-compliance, localization, media, productivity, project-management, research |
 | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 13 | 100 | 1 | architecture, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, mobile, product, productivity, research, security |
@@ -110,7 +111,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 17 | 100 | 1 | browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing |
 | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 12 | 100 | 0 | agent-orchestration, ai-ml, commerce, content, data, design, documentation, engineering, hr-recruiting, localization, productivity, research, security, testing |
 | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 1 | 100 | 0 | data, documentation, engineering, integrations, security |
-| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 7 | 100 | 4696 | code-review, commerce, content, data, devops, documentation, engineering, integrations, productivity, research, security, testing |
+| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 7 | 100 | 4709 | code-review, commerce, content, data, devops, documentation, engineering, integrations, productivity, research, security, testing |
 | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 2 | 100 | 0 | browser-automation, commerce, content, design, engineering, marketing, productivity, research, security |
 | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 1 | 100 | 0 | commerce, content, data, design, engineering, integrations |
 | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 22 | 100 | 5082 | agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, sales, security, testing |
@@ -132,6 +133,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [giancaremma50-hue/demo-ats](https://github.com/giancaremma50-hue/demo-ats) | 1 | 97 | 0 | content, data, design, engineering, localization, productivity |
 | [Agentic-AI-UIUC/54-workshop](https://github.com/Agentic-AI-UIUC/54-workshop) | 1 | 96 | 0 | commerce, product |
 | [angular/skills](https://github.com/angular/skills) | 2 | 96 | 645 | commerce, content, data, design, documentation, engineering, integrations, testing |
+| [brightstar-0813/WorkSphere](https://github.com/brightstar-0813/WorkSphere) | 1 | 96 | 0 | browser-automation, content, data, design, engineering, productivity |
 | [ChronoAIProject/nyx-skills](https://github.com/ChronoAIProject/nyx-skills) | 4 | 96 | 0 | browser-automation, commerce, content, data, design, devops, documentation, marketing, media, productivity, research, security |
 | [Agents365-ai/365-skills](https://github.com/Agents365-ai/365-skills) | 26 | 93 | 44 | content, data, design, devops, engineering, productivity, research |
 | [chen647208/hongyue-creation](https://github.com/chen647208/hongyue-creation) | 2 | 93 | 33 | other |
