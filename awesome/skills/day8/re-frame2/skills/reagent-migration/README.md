@@ -20,7 +20,7 @@ License: MIT
 ## Resources
 
 Scripts: 0
-References: 7
+References: 8
 Assets: 0
 Other: 3
 
@@ -41,8 +41,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-12T23:16:55.549533+00:00
-Published: 2026-09-12T23:18:21.000081+00:00
-Publication event: add
-Source fingerprint: `f8f8852effe1f45f2b680003b26511ab43dcd6ced0625484d7be11712e1f21ce`
-Analysis fingerprint: `205192f6114673e762e00b7f140311967074aa71223caae9467dcd2a7238a3e2`
+Indexed: 2026-09-13T01:00:16.712036+00:00
+Published: 2026-09-13T01:02:50.955534+00:00
+Publication event: update
+Source fingerprint: `d5f9e908001f1a086ed168b4e011f7076c5500ee2585f3d043552051db0cb247`
+Analysis fingerprint: `c89abc0c14570fa508499933206d379cc24f7ba5677b379b3618c9c533ead8f8`

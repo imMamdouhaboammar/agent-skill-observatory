@@ -1,17 +1,17 @@
 {
-  "analysis_fingerprint": "205192f6114673e762e00b7f140311967074aa71223caae9467dcd2a7238a3e2",
+  "analysis_fingerprint": "c89abc0c14570fa508499933206d379cc24f7ba5677b379b3618c9c533ead8f8",
   "canonical_key": "day8/re-frame2:skills/reagent-migration",
-  "publication_event": "add",
-  "published_at": "2026-09-12T23:18:21.000081Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T01:02:50.955534Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
-    "analysis_fingerprint": "205192f6114673e762e00b7f140311967074aa71223caae9467dcd2a7238a3e2",
+    "analysis_fingerprint": "c89abc0c14570fa508499933206d379cc24f7ba5677b379b3618c9c533ead8f8",
     "archived": false,
     "canonical_key": "day8/re-frame2:skills/reagent-migration",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "fe257a9b8c8554510ab28411f738b5190bc98771461b4bec26e1d63c812d887f",
+    "content_fingerprint": "8a162dd10b6e36f35adbc94b95807565f793cb0ebf26689787c31cea06121455",
     "description": "Rewrites Reagent VIEW code into **Fresco** (`re-frame.fresco`, alias `h`) — re-frame2's re-frame-native view layer: a view becomes an `h/defview` mounted in brackets, `@(subscribe …)` becomes `(h/sub …)`, handlers become event vectors, Form-2/Form-3 state moves out of the component. **First establish whether the user needs Fresco**: re-frame2's Reagent adapter is first-class and supported, so a v1 app keeps its view code and needs NO rewrite to land on re-frame2 — that is `re-frame-migration`, and it finishes the job. This is an OPTIONAL second step, and Fresco is pre-publication with no released Maven coordinate. **Do not use** for: the v1→v2 events/subs/db migration (`re-frame-migration`), writing new re-frame2 code (`re-frame2`), greenfield setup (`re-frame2-setup`), or live-runtime inspection (`re-frame2-pair`). Trigger on \"migrate my Reagent views to Fresco\", \"port this component to h/defview\", or a Reagent view surface (`r/atom`, `@(subscribe …)` in a view) named in a Fresco context.\n",
     "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
     "evidence": {
@@ -47,23 +47,23 @@
       "repo_has_tests": true,
       "source_tier": "community",
       "star_velocity_7d": 0.0,
-      "tree_files_scanned": 11
+      "tree_files_scanned": 12
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T23:16:55.549533Z",
-    "last_successful_repo_scan_at": "2026-09-12T23:16:55.549533Z",
+    "indexed_at": "2026-09-13T01:00:16.712036Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:16.712036Z",
     "license": "MIT",
     "metadata": {},
     "name": "reagent-migration",
     "path": "skills/reagent-migration",
-    "pushed_at": "2026-09-12T23:09:15Z",
+    "pushed_at": "2026-09-13T00:56:01Z",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
     "resources": {
       "assets": 0,
       "other": 3,
-      "references": 7,
+      "references": 8,
       "scripts": 0
     },
     "score": {
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "f8f8852effe1f45f2b680003b26511ab43dcd6ced0625484d7be11712e1f21ce",
+    "source_fingerprint": "d5f9e908001f1a086ed168b4e011f7076c5500ee2585f3d043552051db0cb247",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 48
   },
-  "source_fingerprint": "f8f8852effe1f45f2b680003b26511ab43dcd6ced0625484d7be11712e1f21ce"
+  "source_fingerprint": "d5f9e908001f1a086ed168b4e011f7076c5500ee2585f3d043552051db0cb247"
 }

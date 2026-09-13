@@ -45,7 +45,7 @@ The scheduled refresh checks GitHub every 15 minutes. After the bounded Skill ev
 <!-- AWESOME_INDEX_START -->
 Published skills: **843**
 Repositories: **91**
-Latest Skill event: **update** · `day8/re-frame2:skills/re-frame2-xray`
+Latest Skill event: **update** · `day8/re-frame2:skills/reagent-migration`
 
 [Browse the GitHub directory](./awesome/README.md) · [Open AWESOME.md](./AWESOME.md)
 <!-- AWESOME_INDEX_END -->
