@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 42
+Published Skills: 43
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=42, 60-84=0, <60=0
+Security distribution: 85+=43, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -37,6 +37,7 @@ Security distribution: 85+=42, 60-84=0, <60=0
 | [hig-platforms](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/hig-platforms/README.md) | `.claude/skills/hig-platforms` | 100 | 100 | content, design, engineering, localization, marketing, mobile |
 | [hig-project-context](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/hig-project-context/README.md) | `.claude/skills/hig-project-context` | 100 | 100 | content, design, documentation, engineering, legal-compliance, mobile |
 | [interview-me](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/interview-me/README.md) | `.claude/skills/interview-me` | 100 | 100 | content, documentation, engineering, productivity, research, testing |
+| [keep-the-why](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/keep-the-why/README.md) | `.claude/skills/keep-the-why` | 100 | 100 | content, design, devops, documentation, engineering, productivity |
 | [owner-comms](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/owner-comms/README.md) | `.claude/skills/owner-comms` | 100 | 100 | commerce, content, documentation, engineering, localization, security |
 | [receiving-code-review](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/receiving-code-review/README.md) | `.claude/skills/receiving-code-review` | 100 | 100 | code-review, content, data, engineering, research, testing |
 | [requesting-code-review](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/requesting-code-review/README.md) | `.claude/skills/requesting-code-review` | 100 | 100 | agent-orchestration, code-review, devops, documentation, engineering, product |

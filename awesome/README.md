@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **904**
+Published skills: **905**
 Repositories: **95**
 
 ## Browse repositories
@@ -735,6 +735,7 @@ Repositories: **95**
 - [hig-platforms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/hig-platforms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/hig-platforms`
 - [hig-project-context](./skills/danfashauer/signalgrid-review-hub/.claude/skills/hig-project-context/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/hig-project-context`
 - [interview-me](./skills/danfashauer/signalgrid-review-hub/.claude/skills/interview-me/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/interview-me`
+- [keep-the-why](./skills/danfashauer/signalgrid-review-hub/.claude/skills/keep-the-why/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/keep-the-why`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
 - [receiving-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/receiving-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/receiving-code-review`
 - [requesting-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/requesting-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/requesting-code-review`
