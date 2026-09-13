@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **912**
+Published skills: **913**
 Repositories: **95**
 
 ## Browse repositories
@@ -746,6 +746,7 @@ Repositories: **95**
 - [receiving-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/receiving-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/receiving-code-review`
 - [requesting-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/requesting-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/requesting-code-review`
 - [retrieving-developer-knowledge](./skills/danfashauer/signalgrid-review-hub/.claude/skills/retrieving-developer-knowledge/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/retrieving-developer-knowledge`
+- [scientific-critical-thinking](./skills/danfashauer/signalgrid-review-hub/.claude/skills/scientific-critical-thinking/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/scientific-critical-thinking`
 - [signalgrid-native](./skills/danfashauer/signalgrid-review-hub/.claude/skills/signalgrid-native/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/signalgrid-native`
 - [signalgrid-reviewer](./skills/danfashauer/signalgrid-review-hub/.claude/skills/signalgrid-reviewer/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/signalgrid-reviewer`
 - [systematic-debugging](./skills/danfashauer/signalgrid-review-hub/.claude/skills/systematic-debugging/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/systematic-debugging`
