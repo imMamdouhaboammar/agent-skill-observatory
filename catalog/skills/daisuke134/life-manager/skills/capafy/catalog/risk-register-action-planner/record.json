@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "b59cb62f017b4dcca7e50e3540d621c9882b1024c19f3095cb7c3f22720faa2a",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/risk-register-action-planner",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b59cb62f017b4dcca7e50e3540d621c9882b1024c19f3095cb7c3f22720faa2a",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/risk-register-action-planner",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "56c15e10f6e57e0f1cc0836ba37a0353f306348f9aef0702c5abc277507fd6e9",
+    "description": "Turn pasted project risks into an evidence-bound risk register with owners, triggers, mitigations, and a next-review agenda.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "finance",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/risk-register-action-planner/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "risk-register-action-planner",
+    "path": "skills/capafy/catalog/risk-register-action-planner",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f0863f1a1747a3f8008a151f3ba42606a1db1c28fbe722c925a9fbda53020495",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "f0863f1a1747a3f8008a151f3ba42606a1db1c28fbe722c925a9fbda53020495"
+}
