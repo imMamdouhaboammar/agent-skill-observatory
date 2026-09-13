@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 12
+Published Skills: 13
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documents, education, engineering, finance, hr-recruiting, legal-compliance, marketing, media, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=13, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,3 +21,4 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [experiment-readout-deck](../../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | `skills/capafy/catalog/experiment-readout-deck` | 100 | 100 | commerce, content, design, documents, hr-recruiting, research |
 | [football-match-analyst](../../skills/Daisuke134/life-manager/skills/capafy/catalog/football-match-analyst/README.md) | `skills/capafy/catalog/football-match-analyst` | 100 | 100 | commerce, data, research |
 | [incident-postmortem-evidence-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/incident-postmortem-evidence-editor/README.md) | `skills/capafy/catalog/incident-postmortem-evidence-editor` | 100 | 100 | content, customer-support, research |
+| [peer-review-response-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | `skills/capafy/catalog/peer-review-response-editor` | 100 | 100 | commerce, content, data, legal-compliance, research |

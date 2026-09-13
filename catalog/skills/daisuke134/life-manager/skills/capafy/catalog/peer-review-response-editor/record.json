@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "5b345b9dfba328c1fb956263279ab63922cbdcf045c6b3451110eb08969c19ec",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/peer-review-response-editor",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5b345b9dfba328c1fb956263279ab63922cbdcf045c6b3451110eb08969c19ec",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/peer-review-response-editor",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6fa5bad55f3d4896ae9ab23fc910e4ebf3dbd827467035a9474814043b788c9f",
+    "description": "Turn pasted reviewer comments and manuscript evidence into a point-by-point response draft and revision plan without inventing changes, citations, or results.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "commerce",
+        "content",
+        "data",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/peer-review-response-editor/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "peer-review-response-editor",
+    "path": "skills/capafy/catalog/peer-review-response-editor",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4fde4582339a1fab6b0cb6bd7c88004ccd0fd2e7c7881f207098e79a8ee01982",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "4fde4582339a1fab6b0cb6bd7c88004ccd0fd2e7c7881f207098e79a8ee01982"
+}
