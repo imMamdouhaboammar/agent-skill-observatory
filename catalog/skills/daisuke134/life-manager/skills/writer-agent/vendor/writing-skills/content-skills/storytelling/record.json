@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "8efbc04e753fa80e33d2468d8474eb45e06d37956008650e7ed1d6be08f3e794",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/storytelling",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8efbc04e753fa80e33d2468d8474eb45e06d37956008650e7ed1d6be08f3e794",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/storytelling",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "11fd7a441fa002d8afb97f0b62244819e66b83fed9c39453bf0392d9861d0f09",
+    "description": "Use when writing or auditing talking-head / narrative / \"yap\" content — reel scripts, video scripts, story-driven posts, any piece where someone talks to camera or tells a story. The hook stops the scroll; storytelling holds the watch after it. Not for pure tactical demos or bare listicles with no through-line.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "media",
+        "commerce",
+        "design",
+        "education",
+        "finance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/vendor/writing-skills/content-skills/storytelling/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "storytelling",
+    "path": "skills/writer-agent/vendor/writing-skills/content-skills/storytelling",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "99e6e237643ea09c87ec0c74f820aecda83b1cb5d7874f8b3039c92830c44662",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "99e6e237643ea09c87ec0c74f820aecda83b1cb5d7874f8b3039c92830c44662"
+}

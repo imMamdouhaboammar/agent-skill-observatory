@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 34
+Published Skills: 35
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, other, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=34, 60-84=0, <60=0
+Security distribution: 85+=35, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -40,6 +40,7 @@ Security distribution: 85+=34, 60-84=0, <60=0
 | [sales-objection-reply-builder](../../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-objection-reply-builder/README.md) | `skills/capafy/catalog/sales-objection-reply-builder` | 100 | 100 | commerce, integrations, legal-compliance, product, sales |
 | [stop-ai-slop-jp](../../skills/Daisuke134/life-manager/skills/writer-agent/checklists/stop-ai-slop-jp/README.md) | `skills/writer-agent/checklists/stop-ai-slop-jp` | 100 | 100 | other |
 | [stop-slop](../../skills/Daisuke134/life-manager/skills/writer-agent/checklists/stop-slop/README.md) | `skills/writer-agent/checklists/stop-slop` | 100 | 100 | content |
+| [storytelling](../../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/content-skills/storytelling/README.md) | `skills/writer-agent/vendor/writing-skills/content-skills/storytelling` | 100 | 100 | commerce, content, design, education, finance, media |
 | [talent-review-deck-writer](../../skills/Daisuke134/life-manager/skills/capafy/catalog/talent-review-deck-writer/README.md) | `skills/capafy/catalog/talent-review-deck-writer` | 100 | 100 | commerce, design, documents, research |
 | [user-interview-synthesizer](../../skills/Daisuke134/life-manager/skills/capafy/catalog/user-interview-synthesizer/README.md) | `skills/capafy/catalog/user-interview-synthesizer` | 100 | 100 | product, research, testing |
 | [youtube-script-writer](../../skills/Daisuke134/life-manager/skills/capafy/catalog/youtube-script-writer/README.md) | `skills/capafy/catalog/youtube-script-writer` | 100 | 100 | commerce, content, design, media, product, research |
