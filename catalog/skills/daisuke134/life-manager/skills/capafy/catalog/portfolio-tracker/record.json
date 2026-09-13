@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "b4bb1b8c94b35d9199593f293bf7ae9ebc4ad2a002aa830ce76e2d32b376b1dd",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/portfolio-tracker",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b4bb1b8c94b35d9199593f293bf7ae9ebc4ad2a002aa830ce76e2d32b376b1dd",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/portfolio-tracker",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e8056b4d4bb24a09ae6d6c88d6757d712e03601b9eef4faba709c74d2e78f3c7",
+    "description": "Turn buyer-pasted daily portfolio or watchlist snapshots into a transparent eight-axis position review without live data or investment advice.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "finance",
+        "data",
+        "research",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/portfolio-tracker/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "portfolio-tracker",
+    "path": "skills/capafy/catalog/portfolio-tracker",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a55f0b1715e88238ab08e410d417861f59a937870b3a66dde7be9c150e27b811",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "a55f0b1715e88238ab08e410d417861f59a937870b3a66dde7be9c150e27b811"
+}

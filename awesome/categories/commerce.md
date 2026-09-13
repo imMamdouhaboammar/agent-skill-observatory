@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 231
+Published Skills: 232
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -115,6 +115,7 @@ Published Skills: 231
 | [experiment-readout-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted experiment results into an evidence-linked decision-readout deck outline without inventing metrics, causes, or rollout conclusions. |
 | [football-match-analyst](../skills/Daisuke134/life-manager/skills/capafy/catalog/football-match-analyst/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Analyze buyer-pasted weekly football fixtures and team news into a transparent matchup brief without claiming live data. |
 | [peer-review-response-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted reviewer comments and manuscript evidence into a point-by-point response draft and revision plan without inventing changes, citations, or results. |
+| [portfolio-tracker](../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted daily portfolio or watchlist snapshots into a transparent eight-axis position review without live data or investment advice. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |
