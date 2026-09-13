@@ -1,0 +1,199 @@
+name: Merge reviewed bot patches
+
+on:
+  check_suite:
+    types: [completed]
+  pull_request_review:
+    types: [submitted, dismissed]
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Optional generated patch PR number
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  checks: read
+  pull-requests: read
+
+concurrency:
+  group: bot-patch-merge-gate
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve generated patch PR
+        id: resolve
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prefix = 'bot/observatory-patch/';
+            let number = null;
+            if (context.eventName === 'workflow_dispatch') {
+              const raw = context.payload.inputs?.pr_number;
+              number = raw ? Number(raw) : null;
+            } else if (context.eventName === 'pull_request_review') {
+              number = context.payload.pull_request?.number ?? null;
+            } else if (context.eventName === 'check_suite') {
+              const prs = context.payload.check_suite?.pull_requests ?? [];
+              const candidate = prs.find((pr) => pr.base?.ref === 'main');
+              number = candidate?.number ?? null;
+            }
+            if (!number) {
+              const pulls = await github.paginate(github.rest.pulls.list, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+                base: 'main',
+                per_page: 100,
+              });
+              number = pulls.find((pr) => pr.head.ref.startsWith(prefix))?.number ?? null;
+            }
+            core.setOutput('pr_number', number ? String(number) : '');
+
+      - name: Create merger app token
+        if: steps.resolve.outputs.pr_number != ''
+        id: merger-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.PATCH_MERGER_APP_ID }}
+          private-key: ${{ secrets.PATCH_MERGER_PRIVATE_KEY }}
+
+      - name: Verify exact reviewed SHA and merge
+        if: steps.resolve.outputs.pr_number != ''
+        uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ steps.resolve.outputs.pr_number }}
+          REQUIRED_CHECKS: '["verify (3.11)","verify (3.12)","verify (3.13)","CodeQL"]'
+          TRUSTED_REVIEWER_APPS: '["sourcery-ai[bot]","sourcery-ai","coderabbitai[bot]","coderabbitai","gitar-bot[bot]"]'
+        with:
+          github-token: ${{ steps.merger-token.outputs.token }}
+          script: |
+            const prefix = 'bot/observatory-patch/';
+            const pull_number = Number(process.env.PR_NUMBER);
+            const requiredChecks = JSON.parse(process.env.REQUIRED_CHECKS);
+            const trustedReviewerApps = new Set(JSON.parse(process.env.TRUSTED_REVIEWER_APPS));
+            const {owner, repo} = context.repo;
+
+            const {data: pr} = await github.rest.pulls.get({owner, repo, pull_number});
+            if (pr.state !== 'open' || pr.draft) {
+              core.info('PR is not an open ready-for-review PR');
+              return;
+            }
+            if (pr.base.ref !== 'main' || !pr.head.ref.startsWith(prefix)) {
+              core.info('PR is outside the generated patch trust boundary');
+              return;
+            }
+            if (pr.commits !== 1) {
+              core.setFailed(`Generated patch PR must contain exactly one commit; found ${pr.commits}`);
+              return;
+            }
+
+            const reviewedSha = pr.head.sha;
+            const checkRuns = await github.paginate(
+              github.rest.checks.listForRef,
+              {owner, repo, ref: reviewedSha, per_page: 100},
+              (response) => response.data.check_runs,
+            );
+            const latest = new Map();
+            for (const check of checkRuns) {
+              const previous = latest.get(check.name);
+              if (!previous || check.id > previous.id) latest.set(check.name, check);
+            }
+            for (const name of requiredChecks) {
+              const check = latest.get(name);
+              if (!check || check.status !== 'completed' || check.conclusion !== 'success') {
+                core.info(`Waiting for required check: ${name}`);
+                return;
+              }
+            }
+
+            const reviews = await github.paginate(github.rest.pulls.listReviews, {
+              owner,
+              repo,
+              pull_number,
+              per_page: 100,
+            });
+            const latestReviewByUser = new Map();
+            for (const review of reviews) {
+              const login = review.user?.login;
+              if (login) latestReviewByUser.set(login, review);
+            }
+            if ([...latestReviewByUser.values()].some((review) => review.state === 'CHANGES_REQUESTED')) {
+              core.info('A reviewer still requests changes');
+              return;
+            }
+
+            const trustedCurrentReviews = reviews.filter((review) =>
+              trustedReviewerApps.has(review.user?.login ?? '') &&
+              review.commit_id === reviewedSha &&
+              review.state !== 'DISMISSED'
+            );
+            if (trustedCurrentReviews.length === 0) {
+              core.info('Waiting for a trusted reviewer App to review the exact head SHA');
+              return;
+            }
+            for (const review of trustedCurrentReviews) {
+              const body = review.body ?? '';
+              const issueMatch =
+                body.match(/found\s+(\d+)\s+issues?/i) ??
+                body.match(/(\d+)\s+issues?\s+found/i);
+              if (issueMatch && Number(issueMatch[1]) > 0) {
+                core.info(
+                  `${review.user?.login ?? 'reviewer App'} still reports ${issueMatch[1]} issue(s)`,
+                );
+                return;
+              }
+            }
+
+            let after = null;
+            while (true) {
+              const threadResult = await github.graphql(
+                `query($owner:String!, $repo:String!, $number:Int!, $after:String) {
+                  repository(owner:$owner, name:$repo) {
+                    pullRequest(number:$number) {
+                      reviewThreads(first:100, after:$after) {
+                        nodes { isResolved }
+                        pageInfo { hasNextPage endCursor }
+                      }
+                    }
+                  }
+                }`,
+                {owner, repo, number: pull_number, after},
+              );
+              const connection = threadResult.repository.pullRequest.reviewThreads;
+              if (connection.nodes.some((thread) => !thread.isResolved)) {
+                core.info('Unresolved review threads remain');
+                return;
+              }
+              if (!connection.pageInfo.hasNextPage) break;
+              if (!connection.pageInfo.endCursor) {
+                core.setFailed('Review-thread pagination returned no cursor for the next page');
+                return;
+              }
+              after = connection.pageInfo.endCursor;
+            }
+
+            const {data: fresh} = await github.rest.pulls.get({owner, repo, pull_number});
+            if (fresh.head.sha !== reviewedSha) {
+              core.info('PR head moved after review; waiting for checks and review on the new SHA');
+              return;
+            }
+
+            const {data: result} = await github.rest.pulls.merge({
+              owner,
+              repo,
+              pull_number,
+              merge_method: 'squash',
+              sha: reviewedSha,
+            });
+            if (!result.merged) {
+              core.setFailed(`GitHub refused merge: ${result.message}`);
+              return;
+            }
+            core.info(`Merged generated patch PR #${pull_number} at reviewed SHA ${reviewedSha}`);

@@ -11,7 +11,8 @@ on:
         default: '50'
 
 permissions:
-  contents: write
+  contents: read
+  pull-requests: read
 
 concurrency:
   group: atomic-skill-publication
@@ -59,17 +60,25 @@ jobs:
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --max-repositories "$MAX" | tee .cache/refresh-report.json
 
-      - name: Publish Skill events and materialized views
+      - name: Create patch producer token
+        id: producer-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.PATCH_PRODUCER_APP_ID }}
+          private-key: ${{ secrets.PATCH_PRODUCER_PRIVATE_KEY }}
+
+      - name: Propose one atomic Skill or catalog patch PR
         env:
-          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
+          SKILLOBS_GITHUB_TOKEN: ${{ steps.producer-token.outputs.token }}
         run: |
           set -o pipefail
-          skillobs publish-events \
+          # Replaces skillobs publish-events with PR-gated publication.
+          python -m skill_observatory.pr_publication_cli \
             --repository "$GITHUB_REPOSITORY" \
             --branch main \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --checkout-root . \
-            --max-events 100 \
+            --max-events 1 \
             --time-budget-seconds 420 | tee .cache/publication-report.json
 
       - name: Add run summary
@@ -79,7 +88,7 @@ jobs:
           import json
           from pathlib import Path
 
-          print('## Agent Skill Observatory publication')
+          print('## Agent Skill Observatory PR-gated publication')
           print()
           refresh_path = Path('.cache/refresh-report.json')
           refresh = json.loads(refresh_path.read_text()) if refresh_path.exists() else {}
@@ -91,14 +100,9 @@ jobs:
               raise SystemExit(0)
           report = json.loads(report_path.read_text())
           print(f"- Events detected: **{report['events_detected']}**")
-          print(f"- Events published: **{report['events_published']}**")
-          print(f"- ADD: **{report['adds']}**")
-          print(f"- UPDATE: **{report['updates']}**")
-          print(f"- REINDEX: **{report['reindexes']}**")
-          print(f"- REMOVE: **{report['removals']}**")
-          print(f"- Conflicts retried: **{report['conflicts_retried']}**")
-          print(f"- Remaining deferred count: **{report['events_deferred']}**")
-          print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
+          print(f"- Event patch PRs proposed: **{report['events_published']}**")
+          print(f"- Deferred while another generated PR is open: **{report['events_deferred']}**")
+          print(f"- Aggregate proposal status: **{report.get('aggregate_status') or 'not-run'}**")
           print(f"- Failures: **{len(report['failures'])}**")
           print(f"- main before SHA: `{report.get('main_before') or 'unknown'}`")
           print(f"- main after SHA: `{report.get('main_after') or 'unknown'}`")

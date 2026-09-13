@@ -8,9 +8,9 @@ on:
         required: false
         default: '100'
       max_events:
-        description: Maximum Skill events to publish
+        description: Compatibility input; PR-gated bootstrap proposes one event per run
         required: false
-        default: '500'
+        default: '1'
       time_budget_seconds:
         description: Publication wall-clock budget in seconds
         required: false
@@ -22,7 +22,8 @@ on:
         default: false
 
 permissions:
-  contents: write
+  contents: read
+  pull-requests: read
 
 concurrency:
   group: atomic-skill-publication
@@ -80,44 +81,39 @@ jobs:
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --max-repositories "$MAX_REPOSITORIES" | tee .cache/refresh-report.json
 
-      - name: Create bootstrap Skill commits locally
+      - name: Create patch producer token
+        id: producer-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.PATCH_PRODUCER_APP_ID }}
+          private-key: ${{ secrets.PATCH_PRODUCER_PRIVATE_KEY }}
+
+      - name: Propose one bootstrap patch PR
+        env:
+          SKILLOBS_GITHUB_TOKEN: ${{ steps.producer-token.outputs.token }}
         run: |
           set -o pipefail
-          MAX_EVENTS="${{ inputs.max_events }}"
           TIME_BUDGET="${{ inputs.time_budget_seconds }}"
-          skillobs publish-events-local \
+          # Replaces skillobs publish-events with PR-gated publication.
+          python -m skill_observatory.pr_publication_cli \
             --repository "$GITHUB_REPOSITORY" \
             --branch main \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --checkout-root . \
-            --max-events "$MAX_EVENTS" \
+            --max-events 1 \
             --time-budget-seconds "$TIME_BUDGET" | tee .cache/publication-report.json
-
-      - name: Fast-forward bootstrap commit chain
-        id: push
-        run: |
-          set -euo pipefail
-          git push origin HEAD:main
-          local_sha="$(git rev-parse HEAD)"
-          remote_main_sha="$(git ls-remote --exit-code origin refs/heads/main | awk '{print $1}')"
-          if [ "$remote_main_sha" != "$local_sha" ]; then
-            echo "::error::remote main does not match the pushed local HEAD"
-            exit 1
-          fi
-          echo "remote_main_sha=$remote_main_sha" >> "$GITHUB_OUTPUT"
 
       - name: Add bootstrap summary
         if: always()
         env:
           BOOTSTRAP_SKIP_SCAN: ${{ inputs.skip_scan }}
-          REMOTE_MAIN_SHA: ${{ steps.push.outputs.remote_main_sha }}
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
           import os
           from pathlib import Path
 
-          print('## Agent Skill Observatory bootstrap')
+          print('## Agent Skill Observatory PR-gated bootstrap')
           print()
           if os.getenv('BOOTSTRAP_SKIP_SCAN') == 'true':
               print('- Repository scan: **skipped; using restored observation database**')
@@ -132,18 +128,12 @@ jobs:
               raise SystemExit(0)
           report = json.loads(report_path.read_text())
           print(f"- Events detected: **{report['events_detected']}**")
-          print(f"- Events published: **{report['events_published']}**")
-          print(f"- ADD: **{report['adds']}**")
-          print(f"- UPDATE: **{report['updates']}**")
-          print(f"- REINDEX: **{report['reindexes']}**")
-          print(f"- REMOVE: **{report['removals']}**")
-          print(f"- Conflicts retried: **{report['conflicts_retried']}**")
-          print(f"- Remaining deferred count: **{report['events_deferred']}**")
-          print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
+          print(f"- Event patch PRs proposed: **{report['events_published']}**")
+          print(f"- Deferred count: **{report['events_deferred']}**")
+          print(f"- Aggregate proposal status: **{report.get('aggregate_status') or 'not-run'}**")
           print(f"- Failures: **{len(report['failures'])}**")
-          print(f"- local publication before SHA: `{report.get('main_before') or 'unknown'}`")
-          print(f"- local publication SHA: `{report.get('main_after') or 'unknown'}`")
-          print(f"- remote main published SHA: `{os.getenv('REMOTE_MAIN_SHA') or 'not published'}`")
+          print(f"- main before SHA: `{report.get('main_before') or 'unknown'}`")
+          print(f"- main after SHA: `{report.get('main_after') or 'unknown'}`")
           PY
 
       - name: Save history database cache
