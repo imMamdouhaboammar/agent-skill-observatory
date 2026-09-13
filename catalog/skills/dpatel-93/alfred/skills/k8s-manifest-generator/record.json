@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "40cf380e86766c8e77c69c23a2c6e6661adb54e5393b9cc8583ee1c09e2f9744",
+  "canonical_key": "dpatel-93/alfred:skills/k8s-manifest-generator",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "40cf380e86766c8e77c69c23a2c6e6661adb54e5393b9cc8583ee1c09e2f9744",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/k8s-manifest-generator",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5c7ca6d56083d212e3402f696b1dfd96d7d27b7976d6d6fa85ac046ee42480a1",
+    "description": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade Kubernetes configurations.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "engineering",
+        "security",
+        "design",
+        "documentation",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/k8s-manifest-generator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "k8s-manifest-generator",
+    "path": "skills/k8s-manifest-generator",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 3,
+      "other": 0,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e1868e686a43b8645c3167c1a9e356127544f11ceee5ce3670ddd1d8167316db",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "e1868e686a43b8645c3167c1a9e356127544f11ceee5ce3670ddd1d8167316db"
+}
