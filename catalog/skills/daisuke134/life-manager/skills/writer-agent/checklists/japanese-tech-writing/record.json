@@ -1,0 +1,88 @@
+{
+  "analysis_fingerprint": "a075436cbeb4cfd69a414fca5d71a6ef7b9eb1a2752e8ed5f454070fac62faa7",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/checklists/japanese-tech-writing",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a075436cbeb4cfd69a414fca5d71a6ef7b9eb1a2752e8ed5f454070fac62faa7",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/checklists/japanese-tech-writing",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c55729f9b3823aaa5ec145d6f610073e511344be0a2226a9e913444b2370905d",
+    "description": "日本語の技術文書・書籍原稿の文章規範。整形（一文一行、引用ブロック、脚注、コラム記法）、段落と論証の構成（パラグラフライティング）、論証の厳密さ（ツッコミどころの除去）、読み手の負荷の管理、視点と語り、演出の抑制、LLM っぽい空句の禁止、冗長の排除を定める。日本語で技術書の章、草稿、記事、解説文を書くとき、または推敲・リライトするときに使用する。",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "ai-ml"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/checklists/japanese-tech-writing/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "japanese-tech-writing",
+    "path": "skills/writer-agent/checklists/japanese-tech-writing",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "dd35ffc566a2fc18edc8c0795cd3ea2a6951b2fa8c9c05576d6dca7b1098fcfd",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "dd35ffc566a2fc18edc8c0795cd3ea2a6951b2fa8c9c05576d6dca7b1098fcfd"
+}
