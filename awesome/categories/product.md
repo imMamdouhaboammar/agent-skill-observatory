@@ -1,6 +1,6 @@
 # product
 
-Published Skills: 52
+Published Skills: 53
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -19,6 +19,7 @@ Published Skills: 52
 | [obsidian](../skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/obsidian/README.md) | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 100 | 100 | 11 | Obsidian vault operations - create notes, search vault, manage tags, link notes, and sync with Obsidian markdown files |
 | [video-script](../skills/aaronjmars/aeon-agent/skills/video-script/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Turn a repo, product page, or update into a recording-ready video script in a receipts-first format - verifies every claim against live sources, then writes timestamped VO + on-screen direction with a plain-language glossary, assets checklist, anti-tells, and a verify-before-recording list |
 | [decision-record-consistency-auditor](../skills/Daisuke134/life-manager/skills/capafy/catalog/decision-record-consistency-auditor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Compare pasted decision records and meeting notes to surface conflicting decisions, missing context, and unresolved implementation questions. |
+| [fundraiser-agent](../skills/Daisuke134/life-manager/skills/fundraiser-agent/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Continuous Life Manager fundraising through the existing application behavior. Every 30 minutes it discovers live Web/X opportunities, applies to as many eligible programs as possible, and records authoritative readback. |
 | [sales-objection-reply-builder](../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-objection-reply-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn each new customer objection and supplied product facts into honest, channel-ready replies without inventing proof. |
 | [user-interview-synthesizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/user-interview-synthesizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted customer interview notes into an evidence-ranked product decision memo. |
 | [youtube-script-writer](../skills/Daisuke134/life-manager/skills/capafy/catalog/youtube-script-writer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn a topic, draft, or product into a retention-shaped, ready-to-record YouTube script grounded only in the buyer's supplied facts. |

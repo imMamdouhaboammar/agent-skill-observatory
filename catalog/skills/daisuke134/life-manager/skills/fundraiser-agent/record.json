@@ -1,0 +1,98 @@
+{
+  "analysis_fingerprint": "e16737be19b93e04499e0bf0cecdad5a11038be023a2b527f20a8f94fefd5c3a",
+  "canonical_key": "daisuke134/life-manager:skills/fundraiser-agent",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e16737be19b93e04499e0bf0cecdad5a11038be023a2b527f20a8f94fefd5c3a",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/fundraiser-agent",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "9aba6f3cfba139716810480d41fb9f0db48970b96f45491ffaf1630475ea609d",
+    "description": "Continuous Life Manager fundraising through the existing application behavior. Every 30 minutes it discovers live Web/X opportunities, applies to as many eligible programs as possible, and records authoritative readback.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "hr-recruiting",
+        "legal-compliance",
+        "product",
+        "research",
+        "browser-automation",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/fundraiser-agent/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {
+      "model": "application-lane-agent",
+      "owner": "life-manager",
+      "private_data": "startup-context-and-scoped-founder-profile",
+      "side_effect_owner": "existing-browser-worker"
+    },
+    "name": "fundraiser-agent",
+    "path": "skills/fundraiser-agent",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b2540b48de5fa9aabdf495c7a443e27f1015e01cdf159f6575ebf328119aa6b8",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "b2540b48de5fa9aabdf495c7a443e27f1015e01cdf159f6575ebf328119aa6b8"
+}

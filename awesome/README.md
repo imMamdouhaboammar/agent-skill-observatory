@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **871**
+Published skills: **872**
 Repositories: **95**
 
 ## Browse repositories
@@ -700,6 +700,7 @@ Repositories: **95**
 - [cook](./skills/daisuke134/life-manager/skills/cook/README.md) · `daisuke134/life-manager:skills/cook`
 - [gig-delivery-verifier](./skills/daisuke134/life-manager/skills/earn/gig-delivery-verifier/README.md) · `daisuke134/life-manager:skills/earn/gig-delivery-verifier`
 - [mobile-app-delivery](./skills/daisuke134/life-manager/skills/earn/mobile-app-delivery/README.md) · `daisuke134/life-manager:skills/earn/mobile-app-delivery`
+- [fundraiser-agent](./skills/daisuke134/life-manager/skills/fundraiser-agent/README.md) · `daisuke134/life-manager:skills/fundraiser-agent`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
