@@ -59,6 +59,7 @@ jobs:
           EXPECTED_PATCH_SIGNING_PUBLIC_KEY: ${{ vars.PATCH_SIGNING_PUBLIC_KEY }}
           PUBLICATION_RULESET_NAME: ${{ vars.PUBLICATION_RULESET_NAME || 'Agent Skill Publication Gate' }}
           REQUIRED_CHECK_INTEGRATION_ID: ${{ vars.REQUIRED_CHECK_INTEGRATION_ID || '15368' }}
+          IGNORED_CHECK_NAMES: ${{ vars.IGNORED_CHECK_NAMES || '' }}
         with:
           github-token: ${{ steps.merge-token.outputs.token }}
           script: |
@@ -432,10 +433,17 @@ jobs:
               }
             }
 
+            const ignoredCheckNames = new Set(
+              (process.env.IGNORED_CHECK_NAMES || '')
+                .split(',')
+                .map((name) => name.trim())
+                .filter(Boolean)
+            );
             const generalAccepted = new Set(['success', 'neutral', 'skipped']);
             const selfCheckKey = checkKey('merge-gate', 15368);
             const otherLatestChecks = [...latestChecks.entries()]
               .filter(([key]) => key !== selfCheckKey)
+              .filter(([, run]) => !ignoredCheckNames.has(run.name))
               .map(([, run]) => run);
             const pendingChecks = otherLatestChecks.filter((run) => run.status !== 'completed');
             if (pendingChecks.length) {
