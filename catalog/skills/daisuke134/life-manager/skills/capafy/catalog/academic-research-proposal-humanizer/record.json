@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "19f9d57ab3ae2122d41a956a09aa96fce5d1ee815c62388d0759303df0637da9",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/academic-research-proposal-humanizer",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "19f9d57ab3ae2122d41a956a09aa96fce5d1ee815c62388d0759303df0637da9",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/academic-research-proposal-humanizer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "cc789d55a967b10f54e1be4a6838a4b0d89de1605c9f7379cfef9e45080578f5",
+    "description": "Revise a pasted research proposal into natural, evidence-preserving academic prose without adding claims, citations, methods, results, or institutional facts.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "data",
+        "education",
+        "finance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/academic-research-proposal-humanizer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "academic-research-proposal-humanizer",
+    "path": "skills/capafy/catalog/academic-research-proposal-humanizer",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "1c4dda0e3a36b12fd53bd3036f6e42b4610050f3ad9ec94c362ba33979c856f1",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "1c4dda0e3a36b12fd53bd3036f6e42b4610050f3ad9ec94c362ba33979c856f1"
+}

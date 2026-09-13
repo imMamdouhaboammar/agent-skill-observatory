@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 549
+Published Skills: 550
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -226,6 +226,7 @@ Published Skills: 549
 | [weekly-aeoncard](../skills/aaronjmars/aeon-agent/skills/weekly-aeoncard/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Build a weekly token-consumption recap image from memory/token-usage.csv - this week + all-time totals, top skills, rendered as a shareable SVG card. |
 | [you-web-search](../skills/aaronjmars/aeon-agent/skills/you-web-search/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Web search using You.com Search API with high-quality, cited results and optional real-time web crawling |
 | [academic-limitations-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/academic-limitations-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn a pasted study limitations section into clear, proportionate academic prose without adding weaknesses, evidence, or claims that the author did not provide. |
+| [academic-research-proposal-humanizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/academic-research-proposal-humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Revise a pasted research proposal into natural, evidence-preserving academic prose without adding claims, citations, methods, results, or institutional facts. |
 | [capafy-publisher](../skills/Daisuke134/life-manager/skills/capafy-autopublish/vendor/capafy-publisher/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Creator-side Capafy workflow for publishing, updating, packaging, uploading, re-shipping, or managing an Agent/Skill. Also handles creator earnings, payouts, statistics, refunds, certification/KYC, review links, Agent continuation, and publisher-account switching. Generic buyer login, balance, orders, purchases, subscriptions, and instances belong to capafy-user. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |

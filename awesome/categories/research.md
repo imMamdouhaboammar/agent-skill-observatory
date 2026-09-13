@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 280
+Published Skills: 281
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -110,6 +110,7 @@ Published Skills: 280
 | [video-script](../skills/aaronjmars/aeon-agent/skills/video-script/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Turn a repo, product page, or update into a recording-ready video script in a receipts-first format - verifies every claim against live sources, then writes timestamped VO + on-screen direction with a plain-language glossary, assets checklist, anti-tells, and a verify-before-recording list |
 | [you-web-search](../skills/aaronjmars/aeon-agent/skills/you-web-search/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Web search using You.com Search API with high-quality, cited results and optional real-time web crawling |
 | [academic-limitations-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/academic-limitations-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn a pasted study limitations section into clear, proportionate academic prose without adding weaknesses, evidence, or claims that the author did not provide. |
+| [academic-research-proposal-humanizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/academic-research-proposal-humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Revise a pasted research proposal into natural, evidence-preserving academic prose without adding claims, citations, methods, results, or institutional facts. |
 | [ai-automation-builder](../skills/Daisuke134/life-manager/skills/ai-automation-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Design, implement, verify, and hand over bounded AI-assisted business automations from buyer-supplied workflows and test data; use for custom agents, integrations, browser workflows, and recurring maintenance after a working system exists. |
 | [apply-to-funder](../skills/Daisuke134/life-manager/skills/apply-to-funder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when preparing, previewing, submitting, or tracking an accelerator, grant, VC, angel, or fundraising application for Life Manager. |
 | [project-inception](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/project-inception/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use when kicking off a new project or feature area in an ocul-pm tracked project (.oculpm/ present) — research the stack landscape via web search, then converse with the user (research-backed choices) to settle the optimal spec, and seed a discussion doc, a detailed 3-depth plan (plan_create), EVALS.md done-criteria and starter .claude/rules. |
