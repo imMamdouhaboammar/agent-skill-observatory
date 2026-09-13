@@ -1,0 +1,97 @@
+{
+  "analysis_fingerprint": "196f3c98306e84508bd197d412c5125738d9db8b0fb88c87eb72f97498786610",
+  "canonical_key": "dpatel-93/alfred:skills/playwright-cli",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Bash(playwright-cli:*)",
+      "Bash(npx:*)",
+      "Bash(npm:*)"
+    ],
+    "analysis_fingerprint": "196f3c98306e84508bd197d412c5125738d9db8b0fb88c87eb72f97498786610",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/playwright-cli",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "29c0b669a524d42b51934d7db9144c1c07a566d0549ae6fb6ccd810e5a3cf61b",
+    "description": "Automate browser interactions, test web pages and work with Playwright tests.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "testing",
+        "design",
+        "engineering",
+        "media",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/playwright-cli/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 10
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "playwright-cli",
+    "path": "skills/playwright-cli",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 9,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "657677c0087f56488b3773c0c8744cfba5ffab483be02337c1434b798081fcb6",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "657677c0087f56488b3773c0c8744cfba5ffab483be02337c1434b798081fcb6"
+}

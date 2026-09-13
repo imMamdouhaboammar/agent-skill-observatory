@@ -1,6 +1,6 @@
 # testing
 
-Published Skills: 180
+Published Skills: 181
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -109,6 +109,7 @@ Published Skills: 180
 | [backtesting-frameworks](../skills/dpatel-93/alfred/skills/backtesting-frameworks/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure. |
 | [debugging](../skills/danmo-ai/danmo-work/core/resource/home/skills/debugging/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Systematic root-cause debugging before proposing fixes, plus evidence-gated completion. Use when encountering errors, bugs, unexpected behavior, build/test failures, or when about to claim something is fixed or passing. |
 | [differential-review](../skills/dpatel-93/alfred/skills/differential-review/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions. |
+| [playwright-cli](../skills/dpatel-93/alfred/skills/playwright-cli/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Automate browser interactions, test web pages and work with Playwright tests. |
 | [test-driven-development](../skills/danmo-ai/danmo-work/core/resource/home/skills/test-driven-development/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | RED-GREEN-REFACTOR before writing production code. Use when implementing features, bug fixes, behavior changes, or refactoring — before writing implementation code. |
 | [writing-plans](../skills/danmo-ai/danmo-work/core/resource/home/skills/writing-plans/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Write file-level, bite-sized implementation plans before coding. Use when you have a spec or multi-step requirements and need an actionable plan before touching implementation. |
 | [assumption-test](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/assumption-test/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Test a consequential technical assumption with a small, falsifiable experiment before committing to an approach. Use when a plan depends on uncertain runtime, integration, or data behavior that inspection alone cannot establish. Not for preference interviews or routine implementation. |

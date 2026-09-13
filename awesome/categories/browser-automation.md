@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 81
+Published Skills: 82
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -46,6 +46,7 @@ Published Skills: 81
 | [browser](../skills/danmo-ai/danmo-work/core/resource/plugins/browser/skills/browser/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate a sticky browser tab with navigate / snapshot / act / screenshot / close. Use for multi-step web UI interaction; prefer web_fetch for one-shot readable page extraction. |
 | [browser](../skills/dpatel-93/alfred/skills/browser/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Web browser automation with AI-optimized snapshots for alfred-flow agents |
 | [firecrawl-build](../skills/dpatel-93/alfred/skills/firecrawl-build/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Integrate Firecrawl into product code — credentials/SDK setup, and calling scrape, search, or interact from an application. Use when a project needs FIRECRAWL_API_KEY or an SDK installed, or when a feature must scrape a page, search the web, or drive a browser flow from code you are writing. Do NOT use for running Firecrawl yourself to research or fetch something — that is the firecrawl-cli plugin skill. |
+| [playwright-cli](../skills/dpatel-93/alfred/skills/playwright-cli/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Automate browser interactions, test web pages and work with Playwright tests. |
 | [browser-lanes](../skills/jeong-sik/masc/skills/browser-lanes/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Use MASC Browser tools to read or operate Firefox/Zen tabs, inspect images, and verify requested web actions. Use for Browser Lane work and session, selector, or browser connection failures. |
 | [clerk-chrome-extension-patterns](../skills/Gizziio/allternit-platform/.agents/skills/clerk-chrome-extension-patterns/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel setup, syncHost for OAuth/SAML via web app, createClerkClient for service workers and headless extensions, stable CRX ID. Triggers on: Chrome extension auth, Plasmo clerk, popup sign-in, syncHost, background service worker token, createClerkClient, headless extension. |
 | [clerk-expo](../skills/Gizziio/allternit-platform/.agents/skills/clerk-expo/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Add Clerk authentication to Expo and React Native apps using @clerk/expo. Use for Expo setup, prebuilt native components (AuthView, UserButton), custom sign-in/sign-up flows (email, password, SMS/phone OTP, MFA), OAuth/SSO, native Google/Apple sign-in, Expo Router protected routes, biometrics, and push notifications. Do not use for native Swift/iOS, native Android/Kotlin, or web-only framework projects. |
