@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 243
+Published Skills: 244
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -171,6 +171,7 @@ Published Skills: 243
 | [clerk-orgs](../skills/Gizziio/allternit-platform/.agents/skills/clerk-orgs/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Clerk Organizations for B2B SaaS - create multi-tenant apps with org switching, role-based access, verified domains, and enterprise SSO. Use for team workspaces, RBAC, org-based routing, member management. |
 | [clickhouse-io](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. Use when writing ClickHouse schemas or queries, or when an analytical query is too slow. |
 | [context-audit](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/context-audit/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Audit the instructions an agent already carries — CLAUDE.md, AGENTS.md, skills, tool descriptions — for contradictions, over-constraint, and duplication, then propose a cut list. Use when an agent ignores its own instructions, when a CLAUDE.md has grown bloated, or when the user asks to audit or rightsize their agent context. |
+| [debugging-and-error-recovery](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/debugging-and-error-recovery/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing. |
 | [finishing-a-development-branch](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/finishing-a-development-branch/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work |
 | [msx-play](../skills/jeong-sik/masc/skills/msx-play/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Play the shared MSX machine through image observation, sequential key input, disk changes and persistent checkpoints; learn game menus from their visible results. |
 | [observe-act-verify](../skills/jeong-sik/masc/skills/observe-act-verify/README.md) | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 100 | 100 | 1 | Learn and operate an unfamiliar turn-based interface using screen observation, ordinary input, checkpoints, and verified state changes. |
