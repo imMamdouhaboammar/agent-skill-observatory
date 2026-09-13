@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 392
+Published Skills: 393
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -222,6 +222,7 @@ Published Skills: 392
 | [dithered](../skills/dpatel-93/alfred/skills/dithered/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Dot-pattern rendering technique that simulates shades with a limited palette for nostalgic, retro, high-contrast visuals. |
 | [document-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/document-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Long-form workplace docs as GFM `.md` (default). Not for slide decks or spreadsheets — those are Univer IR / CSV. Edit with write/edit/apply_patch; do not invent parallel JSON docs unless path is already `.udoc.json`. |
 | [doodle](../skills/dpatel-93/alfred/skills/doodle/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Hand-drawn, sketch-like style with doodles, handwritten fonts, and imperfect lines for a playful, informal feel. |
+| [dramatic](../skills/dpatel-93/alfred/skills/dramatic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-contrast, theatrical design with bold layouts, immersive visuals, and unconventional compositions that command attention. |
 | [github](../skills/danmo-ai/danmo-work/core/resource/plugins/github/skills/github/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate GitHub via bound MCP when configured, else gh CLI, else plain git (remotes/push/fetch only). Use for GitHub platform / hosting work. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [playable-slides](../skills/danmo-ai/danmo-work/core/resource/home/skills/playable-slides/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Author/edit slide decks as Univer IR `.uslides.json` using write/edit/apply_patch. Never Marp Markdown, never web-search Univer docs — IR shape lives in this skill's references/ and kb-office-ir. |
