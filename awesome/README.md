@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **907**
+Published skills: **908**
 Repositories: **95**
 
 ## Browse repositories
@@ -738,6 +738,7 @@ Repositories: **95**
 - [keep-the-why](./skills/danfashauer/signalgrid-review-hub/.claude/skills/keep-the-why/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/keep-the-why`
 - [mcore-split-pr](./skills/danfashauer/signalgrid-review-hub/.claude/skills/mcore-split-pr/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/mcore-split-pr`
 - [nemo-rl-session-memory](./skills/danfashauer/signalgrid-review-hub/.claude/skills/nemo-rl-session-memory/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/nemo-rl-session-memory`
+- [node](./skills/danfashauer/signalgrid-review-hub/.claude/skills/node/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/node`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
 - [receiving-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/receiving-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/receiving-code-review`
 - [requesting-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/requesting-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/requesting-code-review`

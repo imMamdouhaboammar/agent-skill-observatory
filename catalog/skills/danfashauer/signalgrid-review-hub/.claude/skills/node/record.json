@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "f10914d0a5978ee633f40c06547fd6ec742265f53d502d90d9c929330ff6361c",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/node",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f10914d0a5978ee633f40c06547fd6ec742265f53d502d90d9c929330ff6361c",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/node",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fa2888f4a2200985df1802469a2eea8652510276c188fa31878047bf9c63957e",
+    "description": "Provides domain-specific best practices for Node.js development with TypeScript, covering type stripping, async patterns, error handling, streams, modules, testing, performance, caching, logging, and more. Use when setting up Node.js projects with native TypeScript support, configuring type stripping (--experimental-strip-types), writing Node 22+ TypeScript without a build step, or when the user mentions 'native TypeScript in Node', 'strip types', 'Node 22 TypeScript', '.ts files without compilation', 'ts-node alternative', or needs guidance on error handling, graceful shutdown, flaky tests, profiling, or environment configuration in Node.js. Helps configure tsconfig.json for type stripping, set up package.json scripts, handle module resolution and import extensions, and apply robust patterns across the full Node.js stack.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "content",
+        "data",
+        "engineering",
+        "commerce",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/node/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {
+      "tags": "node, nodejs, javascript, typescript, type-stripping, backend, server"
+    },
+    "name": "node",
+    "path": ".claude/skills/node",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "49dae5c8297ce73ad1383ea8318863c7abd4021f1a626736987319724d72ae34",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "49dae5c8297ce73ad1383ea8318863c7abd4021f1a626736987319724d72ae34"
+}
