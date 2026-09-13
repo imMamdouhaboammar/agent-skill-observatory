@@ -45,7 +45,7 @@ The scheduled refresh checks GitHub every 15 minutes. After the bounded Skill ev
 <!-- AWESOME_INDEX_START -->
 Published skills: **843**
 Repositories: **91**
-Latest Skill event: **update** · `aganesy/qfai:.qfai/assistant/skills/qfai-prototyping`
+Latest Skill event: **update** · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
 
 [Browse the GitHub directory](./awesome/README.md) · [Open AWESOME.md](./AWESOME.md)
 <!-- AWESOME_INDEX_END -->

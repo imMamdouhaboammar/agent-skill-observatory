@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "86ebaebf817552b860037962f3be0dcb390f9213134f255d6e1ba61298fab041",
   "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/owner-comms",
-  "publication_event": "add",
-  "published_at": "2026-09-11T23:41:04.105755Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T01:02:50.955534Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/owner-comms",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "9a01e4333b5971e1564a549d1fdcc0d574f220a764c95ec9eeb08b2eeba97193",
+    "content_fingerprint": "dbfd292f183c286ac4e5ae7eacac02b8403844dfd9ac8b63921f5179a642f3d1",
     "description": "How to write every reply to the owner. Based on the Google developer documentation style guide (developers.google.com/style). Use for ALL chat replies, status reports, PR summaries the owner reads, and the owner board — any text a person reads on a phone between other tasks. Answer first, steps numbered, jargon translated, filler cut.",
     "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
     "evidence": {
@@ -57,13 +57,13 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-11T23:40:40.592461Z",
-    "last_successful_repo_scan_at": "2026-09-11T23:40:40.592461Z",
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
     "license": "MIT",
     "metadata": {},
     "name": "owner-comms",
     "path": ".claude/skills/owner-comms",
-    "pushed_at": "2026-09-11T23:34:39Z",
+    "pushed_at": "2026-09-13T00:55:47Z",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -88,7 +88,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "ef22f86420570b56892dd3e544d018beba8a3a4b3e7b6deba7108790c6a711c3",
+    "source_fingerprint": "79daaf73ebfb9da69bcbaee665915abb1b92571780830640c4bc0ad33aef7e84",
     "spec": {
       "errors": [],
       "valid": true,
@@ -96,5 +96,5 @@
     },
     "stars": 1
   },
-  "source_fingerprint": "ef22f86420570b56892dd3e544d018beba8a3a4b3e7b6deba7108790c6a711c3"
+  "source_fingerprint": "79daaf73ebfb9da69bcbaee665915abb1b92571780830640c4bc0ad33aef7e84"
 }
