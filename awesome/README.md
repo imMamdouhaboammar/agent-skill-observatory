@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **843**
-Repositories: **91**
+Published skills: **844**
+Repositories: **92**
 
 ## Browse repositories
 
@@ -50,6 +50,7 @@ Repositories: **91**
 - [angular/skills](./repos/angular/skills.md)
 - [artbakerchat/Y](./repos/artbakerchat/Y.md)
 - [atomantic/PortOS](./repos/atomantic/PortOS.md)
+- [attaform/Attaform](./repos/attaform/Attaform.md)
 - [azerothl/akasha-os](./repos/azerothl/akasha-os.md)
 - [benjaminstelzer/scoville-ui-anti-ai-slop](./repos/benjaminstelzer/scoville-ui-anti-ai-slop.md)
 - [boardx/workspacex](./repos/boardx/workspacex.md)
@@ -366,6 +367,7 @@ Repositories: **91**
 - [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
 - [portos-file-issue](./skills/atomantic/portos/.claude/skills/portos-file-issue/README.md) · `atomantic/portos:.claude/skills/portos-file-issue`
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
+- [attaform](./skills/attaform/attaform/skills/attaform/README.md) · `attaform/attaform:skills/attaform`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`
 - [deep-thinking](./skills/azerothl/akasha-os/docs/fr/skills/deep-thinking/README.md) · `azerothl/akasha-os:docs/fr/skills/deep-thinking`
 - [scoville-ui-anti-ai-slop](./skills/benjaminstelzer/scoville-ui-anti-ai-slop/scoville-ui-anti-ai-slop/README.md) · `benjaminstelzer/scoville-ui-anti-ai-slop:scoville-ui-anti-ai-slop`
