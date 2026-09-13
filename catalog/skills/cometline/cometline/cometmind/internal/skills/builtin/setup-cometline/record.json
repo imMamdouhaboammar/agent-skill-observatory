@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "f5c8008de63e72cf1c9bc25149c436584733515746f9579a372d06a03e788d63",
+  "canonical_key": "cometline/cometline:cometmind/internal/skills/builtin/setup-cometline",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f5c8008de63e72cf1c9bc25149c436584733515746f9579a372d06a03e788d63",
+    "archived": false,
+    "canonical_key": "cometline/cometline:cometmind/internal/skills/builtin/setup-cometline",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "589101c428d7928a48ddc6869f5bb0d7c7193b9526517d21698b9c6a7b46873e",
+    "description": "Help configure Cometline providers, model defaults, skills, delegation, memory, storage, and gateways.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "design",
+        "integrations",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Cometline/cometline/blob/main/cometmind/internal/skills/builtin/setup-cometline/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 17,
+    "indexed_at": "2026-09-13T01:00:40.163297Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:40.163297Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "setup-cometline",
+    "path": "cometmind/internal/skills/builtin/setup-cometline",
+    "pushed_at": "2026-09-13T00:55:54Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Cometline/cometline",
+    "repo_url": "https://github.com/Cometline/cometline",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 53,
+      "maintenance": 100,
+      "overall": 99,
+      "quality": 92,
+      "reasons": [
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9b97c88e3bf700e70eaa2577f99ba16b67322d068d5a5e0a75442d6e3c07fa5a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 32
+  },
+  "source_fingerprint": "9b97c88e3bf700e70eaa2577f99ba16b67322d068d5a5e0a75442d6e3c07fa5a"
+}

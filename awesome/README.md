@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **846**
+Published skills: **847**
 Repositories: **94**
 
 ## Browse repositories
@@ -601,6 +601,7 @@ Repositories: **94**
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
 - [llm-wiki](./skills/cometline/cometline/cometmind/internal/skills/builtin/llm-wiki/README.md) · `cometline/cometline:cometmind/internal/skills/builtin/llm-wiki`
+- [setup-cometline](./skills/cometline/cometline/cometmind/internal/skills/builtin/setup-cometline/README.md) · `cometline/cometline:cometmind/internal/skills/builtin/setup-cometline`
 - [google-routes](./skills/command1264/agent-skills/skills/google-routes/README.md) · `command1264/agent-skills:skills/google-routes`
 - [pattern-ui](./skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) · `commontoolsinc/labs:packages/cf-harness/fixtures/hostile-skills-root/pattern-ui`
 - [figma-to-code](./skills/commontoolsinc/labs/skills/figma-to-code/README.md) · `commontoolsinc/labs:skills/figma-to-code`

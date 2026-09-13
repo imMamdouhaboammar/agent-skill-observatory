@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 340
+Published Skills: 341
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -262,6 +262,7 @@ Published Skills: 340
 | [web-design-guidance](../skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Design, build, or review user-facing web UI with adaptive ambiguity-aware discovery, multi-axis design direction, repository-aware design-system preservation, structural-integrity auditing, responsive/accessibility states, anti-AI-slop auditing, and rendered visual verification. Use for substantial web UI/UX work unless the repository or user supplies a stronger design workflow. Repository and user design rules always win. |
 | [web-design-guidelines](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/web-design-guidelines/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | [llm-wiki](../skills/Cometline/cometline/cometmind/internal/skills/builtin/llm-wiki/README.md) | [Cometline/cometline](https://github.com/Cometline/cometline) | 99 | 100 | 32 | Build and maintain a persistent personal knowledge wiki at @runtime/wiki using the Karpathy LLM Wiki pattern (ingest, query, lint). |
+| [setup-cometline](../skills/Cometline/cometline/cometmind/internal/skills/builtin/setup-cometline/README.md) | [Cometline/cometline](https://github.com/Cometline/cometline) | 99 | 100 | 32 | Help configure Cometline providers, model defaults, skills, delegation, memory, storage, and gateways. |
 | [charter](../skills/a-lottes/aSPARK/skills/charter/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Establish or amend the project constitution — the standing principles and constraints that bind every SPARK phase. Use once at project start to give the team its ground rules, or any time a project-wide decision (stack choice, quality bar, non-negotiable) changes and should apply to all future features. |
 | [demo-day](../skills/a-lottes/aSPARK/skills/demo-day/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Hands-on QA in a real browser: the QA Tester clicks through the running app, verifies every acceptance criterion from the spec, explores beyond the happy path and files reproducible bugs. Use after /peer-review passes, or to re-test after fixes. Requires a running app and browser tooling. |
 | [increment](../skills/a-lottes/aSPARK/skills/increment/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day. |

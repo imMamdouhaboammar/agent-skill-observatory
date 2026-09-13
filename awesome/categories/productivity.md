@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 362
+Published Skills: 363
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -296,6 +296,7 @@ Published Skills: 362
 | [tdd-ko](../skills/andyko18/specops-ko/skills/tdd-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 기능·버그픽스·리팩터링 구현 시 구현 코드 작성 전 반드시 사용 — Red-Green-Refactor 사이클 강제, 프로덕션 코드는 실패 테스트 없이 작성 금지 |
 | [using-specops-ko](../skills/andyko18/specops-ko/skills/using-specops-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 모든 대화 시작 시 활성 — specops-ko 한국어 자율 Lifecycle 메타 skill. 사용자 입력에서 기능 요청 신호 감지 시 specops-ko:specifying-ko 자동 호출 강제 (5원칙 주입) |
 | [web-design-guidance](../skills/hoonex/sloar-chat-coder/.agents/skills/web-design-guidance/README.md) | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 100 | 100 | 0 | Design, build, or review user-facing web UI with adaptive ambiguity-aware discovery, multi-axis design direction, repository-aware design-system preservation, structural-integrity auditing, responsive/accessibility states, anti-AI-slop auditing, and rendered visual verification. Use for substantial web UI/UX work unless the repository or user supplies a stronger design workflow. Repository and user design rules always win. |
+| [setup-cometline](../skills/Cometline/cometline/cometmind/internal/skills/builtin/setup-cometline/README.md) | [Cometline/cometline](https://github.com/Cometline/cometline) | 99 | 100 | 32 | Help configure Cometline providers, model defaults, skills, delegation, memory, storage, and gateways. |
 | [charter](../skills/a-lottes/aSPARK/skills/charter/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Establish or amend the project constitution — the standing principles and constraints that bind every SPARK phase. Use once at project start to give the team its ground rules, or any time a project-wide decision (stack choice, quality bar, non-negotiable) changes and should apply to all future features. |
 | [go-live](../skills/a-lottes/aSPARK/skills/go-live/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Keep phase of the SPARK loop: the Release Manager runs fresh pre-flight checks, writes the user-facing changelog, prepares tag/PR/ deploy, publishes on the user's explicit go, and records the cycle's learnings. Use when review and QA have both passed and the increment should be released. |
 | [increment](../skills/a-lottes/aSPARK/skills/increment/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Act phase of the SPARK loop: build the increment strictly following the approved plan, task by task, with progress tracked in the plan. Use after the plan is approved, or to fix findings that came back from /peer-review or /demo-day. |

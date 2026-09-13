@@ -1,6 +1,6 @@
 # security
 
-Published Skills: 149
+Published Skills: 150
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -134,6 +134,7 @@ Published Skills: 149
 | [systematic-debugging-ko](../skills/andyko18/specops-ko/skills/systematic-debugging-ko/README.md) | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 100 | 100 | 0 | 버그·테스트 실패·예상치 못한 동작 발생 시, 픽스 제안 전에 반드시 사용 — 근본 원인 조사 없이 픽스 제안 금지 |
 | [theme-factory](../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 100 | 100 | 0 | 為成品套用主題風格，適用於投影片、文件、報告、HTML 登陸頁面。內含 10 組預設主題色彩與字體，也可即時生成新主題。當使用者要求『套用主題』、『配色方案』、『設計 Token』、『統一視覺風格』時使用。 |
 | [web-design-guidelines](../skills/aiconduit/ai-conduit-pipeline/.agents/skills/web-design-guidelines/README.md) | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 100 | 100 | 0 | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
+| [setup-cometline](../skills/Cometline/cometline/cometmind/internal/skills/builtin/setup-cometline/README.md) | [Cometline/cometline](https://github.com/Cometline/cometline) | 99 | 100 | 32 | Help configure Cometline providers, model defaults, skills, delegation, memory, storage, and gateways. |
 | [charter](../skills/a-lottes/aSPARK/skills/charter/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Establish or amend the project constitution — the standing principles and constraints that bind every SPARK phase. Use once at project start to give the team its ground rules, or any time a project-wide decision (stack choice, quality bar, non-negotiable) changes and should apply to all future features. |
 | [peer-review](../skills/a-lottes/aSPARK/skills/peer-review/README.md) | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 99 | 100 | 20 | Start the Review phase of the SPARK loop: the Reviewer audits the diff produced by /increment — plan conformance, correctness, edge cases, security, test quality — and writes the review report. Use after /increment reports done, or to re-review after fixes. |
 | [auditing-dependency-risk](../skills/jhonatan-oliveiradev/agent-skills/skills/auditing-dependency-risk/README.md) | [jhonatan-oliveiradev/agent-skills](https://github.com/jhonatan-oliveiradev/agent-skills) | 99 | 100 | 1 | Use when a project needs software-supply-chain or third-party dependency risk assessed from manifests, lockfiles, advisories, provenance, maintenance signals, and realistic runtime exposure before upgrades or release. |
