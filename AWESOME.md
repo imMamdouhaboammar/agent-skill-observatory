@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-13 11:45 UTC
+> Last refreshed: 2026-09-13 17:43 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
