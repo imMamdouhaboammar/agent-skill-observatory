@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 297
+Published Skills: 298
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -120,6 +120,7 @@ Published Skills: 297
 | [dissertation-discussion-humanizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/dissertation-discussion-humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Rewrite a pasted dissertation discussion chapter into clear, natural academic prose while preserving supplied results, limitations, and uncertainty. |
 | [experiment-readout-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted experiment results into an evidence-linked decision-readout deck outline without inventing metrics, causes, or rollout conclusions. |
 | [football-match-analyst](../skills/Daisuke134/life-manager/skills/capafy/catalog/football-match-analyst/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Analyze buyer-pasted weekly football fixtures and team news into a transparent matchup brief without claiming live data. |
+| [gig-delivery-verifier](../skills/Daisuke134/life-manager/skills/earn/gig-delivery-verifier/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Independently verify contract-bound digital gig deliverables such as code, APIs, research datasets, writing, documents, presentations, and mobile builds before marketplace delivery; return PASS only from artifact-bound executable or visual evidence. |
 | [incident-postmortem-evidence-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/incident-postmortem-evidence-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted incident notes into a factual postmortem draft with an evidence ledger, bounded causal analysis, and follow-up plan. |
 | [peer-review-response-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted reviewer comments and manuscript evidence into a point-by-point response draft and revision plan without inventing changes, citations, or results. |
 | [portfolio-tracker](../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted daily portfolio or watchlist snapshots into a transparent eight-axis position review without live data or investment advice. |

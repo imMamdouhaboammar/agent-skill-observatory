@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 302
+Published Skills: 303
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -140,6 +140,7 @@ Published Skills: 302
 | [ai-automation-builder](../skills/Daisuke134/life-manager/skills/ai-automation-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Design, implement, verify, and hand over bounded AI-assisted business automations from buyer-supplied workflows and test data; use for custom agents, integrations, browser workflows, and recurring maintenance after a working system exists. |
 | [dissertation-discussion-humanizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/dissertation-discussion-humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Rewrite a pasted dissertation discussion chapter into clear, natural academic prose while preserving supplied results, limitations, and uncertainty. |
 | [football-match-analyst](../skills/Daisuke134/life-manager/skills/capafy/catalog/football-match-analyst/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Analyze buyer-pasted weekly football fixtures and team news into a transparent matchup brief without claiming live data. |
+| [gig-delivery-verifier](../skills/Daisuke134/life-manager/skills/earn/gig-delivery-verifier/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Independently verify contract-bound digital gig deliverables such as code, APIs, research datasets, writing, documents, presentations, and mobile builds before marketplace delivery; return PASS only from artifact-bound executable or visual evidence. |
 | [peer-review-response-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted reviewer comments and manuscript evidence into a point-by-point response draft and revision plan without inventing changes, citations, or results. |
 | [portfolio-tracker](../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted daily portfolio or watchlist snapshots into a transparent eight-axis position review without live data or investment advice. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |

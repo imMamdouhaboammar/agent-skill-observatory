@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 22
-Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, product, productivity, research, sales, security, testing
+Published Skills: 23
+Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=22, 60-84=0, <60=0
+Security distribution: 85+=23, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -21,6 +21,7 @@ Security distribution: 85+=22, 60-84=0, <60=0
 | [dissertation-discussion-humanizer](../../skills/Daisuke134/life-manager/skills/capafy/catalog/dissertation-discussion-humanizer/README.md) | `skills/capafy/catalog/dissertation-discussion-humanizer` | 100 | 100 | data, productivity, research, testing |
 | [experiment-readout-deck](../../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | `skills/capafy/catalog/experiment-readout-deck` | 100 | 100 | commerce, content, design, documents, hr-recruiting, research |
 | [football-match-analyst](../../skills/Daisuke134/life-manager/skills/capafy/catalog/football-match-analyst/README.md) | `skills/capafy/catalog/football-match-analyst` | 100 | 100 | commerce, data, research |
+| [gig-delivery-verifier](../../skills/Daisuke134/life-manager/skills/earn/gig-delivery-verifier/README.md) | `skills/earn/gig-delivery-verifier` | 100 | 100 | content, data, design, engineering, mobile, research |
 | [incident-postmortem-evidence-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/incident-postmortem-evidence-editor/README.md) | `skills/capafy/catalog/incident-postmortem-evidence-editor` | 100 | 100 | content, customer-support, research |
 | [peer-review-response-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | `skills/capafy/catalog/peer-review-response-editor` | 100 | 100 | commerce, content, data, legal-compliance, research |
 | [portfolio-tracker](../../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | `skills/capafy/catalog/portfolio-tracker` | 100 | 100 | commerce, data, finance, research |
