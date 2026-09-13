@@ -1,9 +1,4 @@
 version: 2
 secret:
   ignored_paths:
-    - "data/*"
-    - "data/**/*"
-    - "catalog/*"
-    - "catalog/**/*"
-    - "awesome/*"
-    - "awesome/**/*"
+    - "data/catalog.csv"

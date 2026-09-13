@@ -343,7 +343,6 @@ def test_gitguardian_configuration_ignores_catalog_data() -> None:
     assert config_path.is_file()
     content = _read(config_path)
     assert 'version: 2' in content
-    assert 'data/*' in content
-    assert 'catalog/*' in content
-    assert 'awesome/*' in content
+    assert 'data/catalog.csv' in content
+
 
