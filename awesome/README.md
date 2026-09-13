@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **941**
+Published skills: **942**
 Repositories: **97**
 
 ## Browse repositories
@@ -903,6 +903,7 @@ Repositories: **97**
 - [impeccable](./skills/dpatel-93/alfred/skills/impeccable/README.md) · `dpatel-93/alfred:skills/impeccable`
 - [k8s-manifest-generator](./skills/dpatel-93/alfred/skills/k8s-manifest-generator/README.md) · `dpatel-93/alfred:skills/k8s-manifest-generator`
 - [levels](./skills/dpatel-93/alfred/skills/levels/README.md) · `dpatel-93/alfred:skills/levels`
+- [lingo](./skills/dpatel-93/alfred/skills/lingo/README.md) · `dpatel-93/alfred:skills/lingo`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`
