@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "a17deba26b333012f783e596753d07429105e2eeda12c352e12abdcf63f3101f",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/humanizer",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "a17deba26b333012f783e596753d07429105e2eeda12c352e12abdcf63f3101f",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/humanizer",
+    "compatibility": "any-agent",
+    "consecutive_misses": 0,
+    "content_fingerprint": "243aecdafecb5e11c2d45e2e088b7876e3f6eee34aa50c53f624d8468039afa8",
+    "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, passive\nvoice, negative parallelisms, and filler phrases.\n",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "productivity",
+        "research",
+        "documentation",
+        "education",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/vendor/writing-skills/humanizer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 3
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "humanizer",
+    "path": "skills/writer-agent/vendor/writing-skills/humanizer",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7890959df4d948d91054651e192c04b9330c5be82d41284d1145fbcb2dfe7672",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "7890959df4d948d91054651e192c04b9330c5be82d41284d1145fbcb2dfe7672"
+}

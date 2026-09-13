@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 371
+Published Skills: 372
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -133,6 +133,7 @@ Published Skills: 371
 | [cook](../skills/Daisuke134/life-manager/skills/cook/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | EXPLORE for a new way to earn — search the live web for fresh earning opportunities (repos, protocols, paid-API ideas) and surface real candidates with URLs. A TOOL, not a decision — YOU decide which lead to try and how. |
 | [decision-record-consistency-auditor](../skills/Daisuke134/life-manager/skills/capafy/catalog/decision-record-consistency-auditor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Compare pasted decision records and meeting notes to surface conflicting decisions, missing context, and unresolved implementation questions. |
 | [dissertation-discussion-humanizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/dissertation-discussion-humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Rewrite a pasted dissertation discussion chapter into clear, natural academic prose while preserving supplied results, limitations, and uncertainty. |
+| [humanizer](../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive "Signs of AI writing" guide. Detects and fixes patterns including: inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, passive voice, negative parallelisms, and filler phrases. |
 | [loop-engineering](../skills/Daisuke134/life-manager/skills/loop-engineering/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when building, fixing, releasing or operating a Life Manager loop, adding a marketplace lane, or deciding whether existing loop components must be reused. |
 | [risk-register-action-planner](../skills/Daisuke134/life-manager/skills/capafy/catalog/risk-register-action-planner/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted project risks into an evidence-bound risk register with owners, triggers, mitigations, and a next-review agenda. |
 | [tdd-workflow](../skills/bunhine0452/Ocul-PM/plugin/oculpm/skills/tdd-workflow/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | 새 기능·버그 수정을 테스트 먼저(TDD)로 진행할 때. "TDD로 해줘", "테스트 먼저" 요청이나 회귀가 잦은 영역 작업에 사용. |

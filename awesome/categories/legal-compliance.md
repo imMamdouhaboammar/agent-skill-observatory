@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 57
+Published Skills: 58
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -31,6 +31,7 @@ Published Skills: 57
 | [customer-escalation-decision-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/customer-escalation-decision-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted customer-escalation facts into an evidence-linked decision-deck outline without inventing incident causes, commitments, or account facts. |
 | [decision-record-consistency-auditor](../skills/Daisuke134/life-manager/skills/capafy/catalog/decision-record-consistency-auditor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Compare pasted decision records and meeting notes to surface conflicting decisions, missing context, and unresolved implementation questions. |
 | [fundraiser-agent](../skills/Daisuke134/life-manager/skills/fundraiser-agent/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Continuous Life Manager fundraising through the existing application behavior. Every 30 minutes it discovers live Web/X opportunities, applies to as many eligible programs as possible, and records authoritative readback. |
+| [humanizer](../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Based on Wikipedia's comprehensive "Signs of AI writing" guide. Detects and fixes patterns including: inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, passive voice, negative parallelisms, and filler phrases. |
 | [peer-review-response-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted reviewer comments and manuscript evidence into a point-by-point response draft and revision plan without inventing changes, citations, or results. |
 | [sales-objection-reply-builder](../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-objection-reply-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn each new customer objection and supplied product facts into honest, channel-ready replies without inventing proof. |
 | [final-review](../skills/markmhendrickson/ateles/.claude/skills/final-review/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Final review workflow per foundation command. |
