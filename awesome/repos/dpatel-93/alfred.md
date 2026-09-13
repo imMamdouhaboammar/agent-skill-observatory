@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 48
+Published Skills: 49
 Categories: agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=48, 60-84=0, <60=0
+Security distribution: 85+=49, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -57,3 +57,4 @@ Security distribution: 85+=48, 60-84=0, <60=0
 | [immersive](../../skills/dpatel-93/alfred/skills/immersive/README.md) | `skills/immersive` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [impeccable](../../skills/dpatel-93/alfred/skills/impeccable/README.md) | `skills/impeccable` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [k8s-manifest-generator](../../skills/dpatel-93/alfred/skills/k8s-manifest-generator/README.md) | `skills/k8s-manifest-generator` | 100 | 100 | design, devops, documentation, engineering, media, security |
+| [levels](../../skills/dpatel-93/alfred/skills/levels/README.md) | `skills/levels` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
