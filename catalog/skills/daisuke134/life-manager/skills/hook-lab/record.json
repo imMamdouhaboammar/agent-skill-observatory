@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "2c319a56c356025bb5b349789de4a46a5143f4d68f1b1b5d642ec5f009e48ec8",
+  "canonical_key": "daisuke134/life-manager:skills/hook-lab",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "2c319a56c356025bb5b349789de4a46a5143f4d68f1b1b5d642ec5f009e48ec8",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/hook-lab",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "fcd6bb9dd7022d3e710f763d36c9346e548aff6fa097e200b7ae818f1f3121f5",
+    "description": "Turn a rough topic, trend, product, or niche into scroll-stopping video hooks and a short-form script. Returns account positioning, trend-informed topic angles, 5+ first-3-second hook options (spoken + on-screen text), a tight script, and a caption — for TikTok, Reels, and Shorts.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "media",
+        "product",
+        "commerce",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/hook-lab/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "hook-lab",
+    "path": "skills/hook-lab",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "13f883c89dc1918fa2c796353041f96e3394277e81da7c0f5dad87f966e0afe7",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "13f883c89dc1918fa2c796353041f96e3394277e81da7c0f5dad87f966e0afe7"
+}

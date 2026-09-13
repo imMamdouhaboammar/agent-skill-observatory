@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 26
+Published Skills: 27
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=26, 60-84=0, <60=0
+Security distribution: 85+=27, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -24,6 +24,7 @@ Security distribution: 85+=26, 60-84=0, <60=0
 | [fundraiser-agent](../../skills/Daisuke134/life-manager/skills/fundraiser-agent/README.md) | `skills/fundraiser-agent` | 100 | 100 | browser-automation, content, hr-recruiting, legal-compliance, product, research |
 | [gig-delivery-verifier](../../skills/Daisuke134/life-manager/skills/earn/gig-delivery-verifier/README.md) | `skills/earn/gig-delivery-verifier` | 100 | 100 | content, data, design, engineering, mobile, research |
 | [google-login](../../skills/Daisuke134/life-manager/skills/google-login/README.md) | `skills/google-login` | 100 | 100 | browser-automation, content, design, engineering, integrations, security |
+| [hook-lab](../../skills/Daisuke134/life-manager/skills/hook-lab/README.md) | `skills/hook-lab` | 100 | 100 | commerce, content, media, product, testing |
 | [incident-postmortem-evidence-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/incident-postmortem-evidence-editor/README.md) | `skills/capafy/catalog/incident-postmortem-evidence-editor` | 100 | 100 | content, customer-support, research |
 | [mobile-app-delivery](../../skills/Daisuke134/life-manager/skills/earn/mobile-app-delivery/README.md) | `skills/earn/mobile-app-delivery` | 100 | 100 | content, design, engineering, mobile, research, testing |
 | [peer-review-response-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | `skills/capafy/catalog/peer-review-response-editor` | 100 | 100 | commerce, content, data, legal-compliance, research |
