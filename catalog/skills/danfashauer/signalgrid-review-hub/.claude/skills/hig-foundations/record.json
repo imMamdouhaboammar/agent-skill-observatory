@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "eeacf72c0fc2bf675fbad6085127da6ddf045af804741d7d376137be6cd3b986",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/hig-foundations",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "eeacf72c0fc2bf675fbad6085127da6ddf045af804741d7d376137be6cd3b986",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/hig-foundations",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "a1535ddde3c61837b286564418c5db1da608a8c3f5b5bf32274be387c950dcf8",
+    "description": "Apple Human Interface Guidelines design foundations. Use this skill when the user asks about \"HIG color\", \"Apple typography\", \"SF Symbols\", \"dark mode guidelines\", \"accessible design\", \"Apple design foundations\", \"app icon\", \"layout guidelines\", \"materials\", \"motion\", \"privacy\", \"right to left\", \"RTL\", \"inclusive design\", branding, images, spatial layout, or writing style. Also use when the user says \"my colors look wrong in dark mode\", \"what font should I use\", \"is my app accessible enough\", \"how do I support Dynamic Type\", \"what contrast ratio do I need\", \"how do I pick system colors\", or \"my icons don't match the system style\". Cross-references: hig-platforms for platform-specific guidance, hig-patterns for interaction patterns, hig-components-layout for structural components, hig-components-content for display.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "legal-compliance",
+        "engineering",
+        "media",
+        "data"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/hig-foundations/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 19
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "hig-foundations",
+    "path": ".claude/skills/hig-foundations",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 18,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "0ff51f8109be64954efe4ac905169a3dddd78e322fd8053a4400a78e6a1af441",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "0ff51f8109be64954efe4ac905169a3dddd78e322fd8053a4400a78e6a1af441"
+}
