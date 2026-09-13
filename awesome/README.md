@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **845**
-Repositories: **93**
+Published skills: **846**
+Repositories: **94**
 
 ## Browse repositories
 
@@ -18,6 +18,7 @@ Repositories: **93**
 - [CherryHQ/cherry-studio](./repos/CherryHQ/cherry-studio.md)
 - [Christopher-Schulze/reconc](./repos/Christopher-Schulze/reconc.md)
 - [ChronoAIProject/nyx-skills](./repos/ChronoAIProject/nyx-skills.md)
+- [Cometline/cometline](./repos/Cometline/cometline.md)
 - [Command1264/agent-skills](./repos/Command1264/agent-skills.md)
 - [ComponentDock/free-react-templates](./repos/ComponentDock/free-react-templates.md)
 - [CultureBotAI/NaturalProductMech](./repos/CultureBotAI/NaturalProductMech.md)
@@ -599,6 +600,7 @@ Repositories: **93**
 - [nn-design-presets](./skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:actionn/skills/nn-design-presets`
 - [nn-site-generator](./skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) · `cognnitive/cognnitive:actionn/skills/nn-site-generator`
 - [nn-design-presets](./skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) · `cognnitive/cognnitive:innfo/.agents/skills/nn-design-presets`
+- [llm-wiki](./skills/cometline/cometline/cometmind/internal/skills/builtin/llm-wiki/README.md) · `cometline/cometline:cometmind/internal/skills/builtin/llm-wiki`
 - [google-routes](./skills/command1264/agent-skills/skills/google-routes/README.md) · `command1264/agent-skills:skills/google-routes`
 - [pattern-ui](./skills/commontoolsinc/labs/packages/cf-harness/fixtures/hostile-skills-root/pattern-ui/README.md) · `commontoolsinc/labs:packages/cf-harness/fixtures/hostile-skills-root/pattern-ui`
 - [figma-to-code](./skills/commontoolsinc/labs/skills/figma-to-code/README.md) · `commontoolsinc/labs:skills/figma-to-code`
