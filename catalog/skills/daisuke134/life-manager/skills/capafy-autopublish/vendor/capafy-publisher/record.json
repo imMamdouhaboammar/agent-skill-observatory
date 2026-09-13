@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "f1a336f0581b6f55123b72c178b4e85bda8faf42d0311ed7246886c8c8fb84c9",
+  "canonical_key": "daisuke134/life-manager:skills/capafy-autopublish/vendor/capafy-publisher",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "f1a336f0581b6f55123b72c178b4e85bda8faf42d0311ed7246886c8c8fb84c9",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy-autopublish/vendor/capafy-publisher",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4d868d679b307c3248be99af26b3a0c690abb84e3c872f5ad166f65d0755b982",
+    "description": "Creator-side Capafy workflow for publishing, updating, packaging, uploading, re-shipping, or managing an Agent/Skill. Also handles creator earnings, payouts, statistics, refunds, certification/KYC, review links, Agent continuation, and publisher-account switching. Generic buyer login, balance, orders, purchases, subscriptions, and instances belong to capafy-user.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "engineering",
+        "legal-compliance",
+        "ai-ml",
+        "commerce",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy-autopublish/vendor/capafy-publisher/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "capafy-publisher",
+    "path": "skills/capafy-autopublish/vendor/capafy-publisher",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 4,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ddd767995a968eb4fd3d8d48a3b979fd131a5e3bb9a454793cec7cf78a239649",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "ddd767995a968eb4fd3d8d48a3b979fd131a5e3bb9a454793cec7cf78a239649"
+}
