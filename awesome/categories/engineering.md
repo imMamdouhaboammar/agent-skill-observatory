@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 672
+Published Skills: 673
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -385,6 +385,7 @@ Published Skills: 672
 | [evolve](../skills/dpatel-93/alfred/skills/evolve/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Turns repetition AND correction into capability — the self-evolution engine of the Alfred Framework. Use when the user says "evolve", at the end of any substantial work session, whenever the user corrects, redirects or overrides you in a way that would generalise, and proactively whenever the same workflow, explanation, fix or prompt pattern has occurred 2+ times. Also fires when the user mentions observations, the observation log, cross-cutting principles, or asks what a session taught. Converts repeated work and corrected judgement into a permanent artifact so neither has to be re-derived. |
 | [expressive](../skills/dpatel-93/alfred/skills/expressive/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Vibrant, personality-driven design with bold colors, playful graphics, and dynamic layouts that balance creativity with structure. |
 | [fantasy](../skills/dpatel-93/alfred/skills/fantasy/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Game-inspired fantasy aesthetic with bold, premium visuals, rich color palettes, and immersive thematic elements. |
+| [fiction](../skills/dpatel-93/alfred/skills/fiction/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A playful, energetic, cartoonesque interface inspired by friendly children's-book illustrations — warm cream backgrounds, big bold custom display typography, saturated brand color blocks, thick black outlines, generously rounded shapes |
 | [github](../skills/danmo-ai/danmo-work/core/resource/plugins/github/skills/github/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate GitHub via bound MCP when configured, else gh CLI, else plain git (remotes/push/fetch only). Use for GitHub platform / hosting work. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [mcp-connectors](../skills/danmo-ai/danmo-work/core/resource/home/skills/mcp-connectors/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Use product connectors (MCP under the hood) and auth gateways without stuffing every action schema into context. |

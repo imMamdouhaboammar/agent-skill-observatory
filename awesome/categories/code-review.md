@@ -1,6 +1,6 @@
 # code-review
 
-Published Skills: 38
+Published Skills: 39
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -35,6 +35,7 @@ Published Skills: 38
 | [enterprise](../skills/dpatel-93/alfred/skills/enterprise/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Dark-themed cloud-platform aesthetic with modular grids, glass-like panels, and strong data hierarchy for productivity dashboards. |
 | [expressive](../skills/dpatel-93/alfred/skills/expressive/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Vibrant, personality-driven design with bold colors, playful graphics, and dynamic layouts that balance creativity with structure. |
 | [fantasy](../skills/dpatel-93/alfred/skills/fantasy/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Game-inspired fantasy aesthetic with bold, premium visuals, rich color palettes, and immersive thematic elements. |
+| [fiction](../skills/dpatel-93/alfred/skills/fiction/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A playful, energetic, cartoonesque interface inspired by friendly children's-book illustrations — warm cream backgrounds, big bold custom display typography, saturated brand color blocks, thick black outlines, generously rounded shapes |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |
 | [code-simplification](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/code-simplification/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [nemo-rl-session-memory](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/nemo-rl-session-memory/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restarts, long-running work, handoffs, or any session where important state should be written periodically under the repo's session directory. Do NOT use for: simple questions, short tasks, one-off commands, linting, or code review. |
