@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 412
+Published Skills: 413
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -244,6 +244,7 @@ Published Skills: 412
 | [material](../skills/dpatel-93/alfred/skills/material/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Google's Material Design with layered surfaces, dynamic theming, built-in motion, and responsive cross-platform patterns. |
 | [minimal](../skills/dpatel-93/alfred/skills/minimal/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Stripped-back design emphasizing whitespace, clean typography, and restrained color for maximum clarity and focus. |
 | [modern](../skills/dpatel-93/alfred/skills/modern/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Contemporary editorial style with serif typography, minimal palettes, and clean layouts for polished digital products. |
+| [mono](../skills/dpatel-93/alfred/skills/mono/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Monospace-driven, matrix-inspired design with high-contrast elements, compact density, and a hacker-chic aesthetic. |
 | [playable-slides](../skills/danmo-ai/danmo-work/core/resource/home/skills/playable-slides/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Author/edit slide decks as Univer IR `.uslides.json` using write/edit/apply_patch. Never Marp Markdown, never web-search Univer docs — IR shape lives in this skill's references/ and kb-office-ir. |
 | [scoville-ui-anti-ai-slop](../skills/benjaminstelzer/scoville-ui-anti-ai-slop/scoville-ui-anti-ai-slop/README.md) | [benjaminstelzer/scoville-ui-anti-ai-slop](https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop) | 100 | 100 | 2 | Framework-aware guardrail for implementing and auditing UI through the product framework and incumbent design system. Use for components, states, responsiveness, accessibility mechanics, interaction, and rendered proof. When Scoville Design is active and applicable, consume its design decisions without re-deciding them; otherwise retain a bounded standalone Greenfield fallback. Excludes backend-only work and prose. |
 | [sheet-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/sheet-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Produce/edit tables as `.csv` or Univer `.usheet.json` via write/edit/apply_patch. Do not web-search Univer schema — use references/ir-sheet.md or kb-office-ir. |

@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 620
+Published Skills: 621
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -376,6 +376,7 @@ Published Skills: 620
 | [matrix](../skills/dpatel-93/alfred/skills/matrix/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A cyber-slick, dark-only Matrix-inspired interface defined by minimalist fashion, high-tech digital elements |
 | [minimal](../skills/dpatel-93/alfred/skills/minimal/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Stripped-back design emphasizing whitespace, clean typography, and restrained color for maximum clarity and focus. |
 | [modern](../skills/dpatel-93/alfred/skills/modern/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Contemporary editorial style with serif typography, minimal palettes, and clean layouts for polished digital products. |
+| [mono](../skills/dpatel-93/alfred/skills/mono/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Monospace-driven, matrix-inspired design with high-contrast elements, compact density, and a hacker-chic aesthetic. |
 | [novel-plan](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-plan/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Plan a novel already scaffolded. Use for 人设/世界观, 金手指, book/volume outlines. Not for 章纲, batch freeze, prose, or review. |
 | [novel-review](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Post-draft finalize for novels — 字数扩写, review, deslop, and Continuity Commit. Use after a drafted chapter when expanding thin prose, 审稿, 去AI味, batch review, 卷收束, or committing continuity. Not for opening a book or writing first drafts (those stay novel-write / better model). |
 | [novel-write](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-write/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Chapter outline and first-draft prose only. Use for 章纲, batch freeze, drafting/continuing chapters, and Frozen_Canon continuation. Not for 扩写, deslop, review, or Continuity Commit — those are novel-review (separate turn / model). |
