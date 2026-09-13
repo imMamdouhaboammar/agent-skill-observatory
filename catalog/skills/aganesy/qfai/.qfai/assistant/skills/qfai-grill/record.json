@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "03be3825aaea59d25f1247a33cbfe0d113c789e453eaa4f42e165b3ed96821b5",
   "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-grill",
-  "publication_event": "add",
-  "published_at": "2026-09-12T17:12:14.927651Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T01:02:50.955534Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-grill",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "794a6781a8bf08b6a6704ce22a3467f2f27724f4da7e0aadc6267295181a4a4f",
+    "content_fingerprint": "48e27f2bce2a90de3348e34ce8fae7367b2ced1386383380e04958566dfa5ded",
     "description": "Run a grilling session on anything: a design, a product direction, a piece of writing. Needs no repository and writes no files. Invoked by the user, never by the agent.",
     "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
     "evidence": {
@@ -50,13 +50,13 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-12T17:06:20.023267Z",
-    "last_successful_repo_scan_at": "2026-09-12T17:06:20.023267Z",
+    "indexed_at": "2026-09-13T00:59:44.595667Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:59:44.595667Z",
     "license": "MIT",
     "metadata": {},
     "name": "qfai-grill",
     "path": ".qfai/assistant/skills/qfai-grill",
-    "pushed_at": "2026-09-12T17:04:41Z",
+    "pushed_at": "2026-09-13T00:56:05Z",
     "repo_default_branch": "main",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "240edac0d8e39fd6c681308adda433f24ce68b3ce4e4c17a33e156eb03a22b3b",
+    "source_fingerprint": "b461d48e989514eb10e097976652a53156c7c3e1fde5e93134a19eecaa20f25d",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 4
   },
-  "source_fingerprint": "240edac0d8e39fd6c681308adda433f24ce68b3ce4e4c17a33e156eb03a22b3b"
+  "source_fingerprint": "b461d48e989514eb10e097976652a53156c7c3e1fde5e93134a19eecaa20f25d"
 }
