@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "9177e38e64848d0cd9860843fe613dd1495c8f173e7f93a1761c8aba0cce06ee",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/code-simplification",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9177e38e64848d0cd9860843fe613dd1495c8f173e7f93a1761c8aba0cce06ee",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/code-simplification",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "f0c5ed754057eb0c1e027e2587f59de816651feb5e837242296c43ea21cf621d",
+    "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "code-review",
+        "content",
+        "data",
+        "security"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/code-simplification/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "code-simplification",
+    "path": ".claude/skills/code-simplification",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "a6d4aba8358a46634487e1c4b612cd021a41f3227fbe0b131270e2ebaaea8440",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "a6d4aba8358a46634487e1c4b612cd021a41f3227fbe0b131270e2ebaaea8440"
+}

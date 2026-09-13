@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 26
+Published Skills: 27
 Categories: agent-orchestration, ai-ml, code-review, commerce, content, data, design, devops, documentation, education, engineering, integrations, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=26, 60-84=0, <60=0
+Security distribution: 85+=27, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -15,6 +15,7 @@ Security distribution: 85+=26, 60-84=0, <60=0
 | [blindspot-pass](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/blindspot-pass/README.md) | `.claude/skills/blindspot-pass` | 100 | 100 | design, engineering, media, productivity |
 | [ci-cd-and-automation](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/ci-cd-and-automation/README.md) | `.claude/skills/ci-cd-and-automation` | 100 | 100 | commerce, devops, engineering, productivity, security, testing |
 | [clickhouse-io](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) | `third_party/everything-claude-code/skills/clickhouse-io` | 100 | 100 | commerce, content, data, design, integrations, marketing |
+| [code-simplification](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/code-simplification/README.md) | `.claude/skills/code-simplification` | 100 | 100 | code-review, content, data, engineering, productivity, security |
 | [coding-standards](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/coding-standards/README.md) | `third_party/everything-claude-code/skills/coding-standards` | 100 | 100 | content, data, design, documentation, engineering, testing |
 | [continuous-learning](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/continuous-learning/README.md) | `third_party/everything-claude-code/skills/continuous-learning` | 100 | 100 | documentation, education, engineering, research, testing |
 | [dispatching-parallel-agents](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/dispatching-parallel-agents/README.md) | `.claude/skills/dispatching-parallel-agents` | 100 | 100 | agent-orchestration, engineering, integrations, productivity, research, testing |
