@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 605
+Published Skills: 606
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -360,6 +360,7 @@ Published Skills: 605
 | [fiction](../skills/dpatel-93/alfred/skills/fiction/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A playful, energetic, cartoonesque interface inspired by friendly children's-book illustrations — warm cream backgrounds, big bold custom display typography, saturated brand color blocks, thick black outlines, generously rounded shapes |
 | [firecrawl-build](../skills/dpatel-93/alfred/skills/firecrawl-build/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Integrate Firecrawl into product code — credentials/SDK setup, and calling scrape, search, or interact from an application. Use when a project needs FIRECRAWL_API_KEY or an SDK installed, or when a feature must scrape a page, search the web, or drive a browser flow from code you are writing. Do NOT use for running Firecrawl yourself to research or fetch something — that is the firecrawl-cli plugin skill. |
 | [flat](../skills/dpatel-93/alfred/skills/flat/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Two-dimensional minimalist style with vibrant colors, clean typography, and no 3D effects for fast, user-friendly interfaces. |
+| [friendly](../skills/dpatel-93/alfred/skills/friendly/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Approachable, intuitive design with rounded elements, ample whitespace, and soft pastel color palettes. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [novel-plan](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-plan/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Plan a novel already scaffolded. Use for 人设/世界观, 金手指, book/volume outlines. Not for 章纲, batch freeze, prose, or review. |
 | [novel-review](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Post-draft finalize for novels — 字数扩写, review, deslop, and Continuity Commit. Use after a drafted chapter when expanding thin prose, 审稿, 去AI味, batch review, 卷收束, or committing continuity. Not for opening a book or writing first drafts (those stay novel-write / better model). |
