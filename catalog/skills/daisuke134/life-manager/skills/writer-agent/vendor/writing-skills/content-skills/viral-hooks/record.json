@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "5ea9f71641e6b7294c796ac6b80daaad3c436588cdd7e9d0e07bb6cedfc4fcc6",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/viral-hooks",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5ea9f71641e6b7294c796ac6b80daaad3c436588cdd7e9d0e07bb6cedfc4fcc6",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/viral-hooks",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "5e93b14fc8f3355cd0b58098d0a6c5c6e20f794c54477088e2b5106203a87faa",
+    "description": "Use when writing or auditing the opening lines of any content — reel hooks, carousel slide 1, video intros, newsletter subject lines, tweet openers — or when a draft's opener feels flat, vague, or skippable.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "media",
+        "design",
+        "education",
+        "localization",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/vendor/writing-skills/content-skills/viral-hooks/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "viral-hooks",
+    "path": "skills/writer-agent/vendor/writing-skills/content-skills/viral-hooks",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ebb994ed3d99c44c6fe16bf4d62580ff0003707bc9fdbe0d9d0a61e80c68865a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "ebb994ed3d99c44c6fe16bf4d62580ff0003707bc9fdbe0d9d0a61e80c68865a"
+}

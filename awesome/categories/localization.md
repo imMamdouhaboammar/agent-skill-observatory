@@ -1,6 +1,6 @@
 # localization
 
-Published Skills: 34
+Published Skills: 35
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -17,6 +17,7 @@ Published Skills: 34
 | [status](../skills/Embassy-of-the-Free-Mind/sourcelibrary-v2/.claude/skills/status/README.md) | [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 100 | 100 | 17 | Quick canon + pipeline health check. Use when asked "how's it going?", "status?", "how's the db?", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging. |
 | [responsive-lighthouse-audit](../skills/DailybotHQ/deepworkplan-website/.agents/skills/responsive-lighthouse-audit/README.md) | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 100 | 100 | 15 | Audit the site's responsiveness across breakpoints and drive Lighthouse to near-100 on mobile AND desktop. Use proactively for responsive/performance/accessibility audits. |
 | [pm-manipulation](../skills/aaronjmars/aeon-agent/skills/pm-manipulation/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Detect suspected manipulation on prediction markets over the past 3 days by cross-referencing price/volume/comment anomalies with multilingual local-press coverage |
+| [viral-hooks](../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/content-skills/viral-hooks/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when writing or auditing the opening lines of any content — reel hooks, carousel slide 1, video intros, newsletter subject lines, tweet openers — or when a draft's opener feels flat, vague, or skippable. |
 | [marquee-director](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/marquee-director/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Act as PlotPickle's private Key Art & Trailer Director after Foundations, using a narrow PPF-derived Marketing Context while the host controls generation and Marketing Reference storage. |
 | [owner-comms](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/owner-comms/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | How to write every reply to the owner. Based on the Google developer documentation style guide (developers.google.com/style). Use for ALL chat replies, status reports, PR summaries the owner reads, and the owner board — any text a person reads on a phone between other tasks. Answer first, steps numbered, jargon translated, filler cut. |
 | [convoy](../skills/Deploy-Forward/convoy/plugin/convoy/skills/convoy/README.md) | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 100 | 100 | 0 | /convoy orchestrates Convoy using live tools/list, never a frozen catalog. |

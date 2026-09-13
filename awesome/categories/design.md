@@ -1,6 +1,6 @@
 # design
 
-Published Skills: 355
+Published Skills: 356
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -127,6 +127,7 @@ Published Skills: 355
 | [sales-account-plan-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-account-plan-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted deal and account facts into an evidence-linked account-plan deck outline without inventing buyer intent, proof, commitments, or forecast outcomes. |
 | [storytelling](../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/content-skills/storytelling/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when writing or auditing talking-head / narrative / "yap" content — reel scripts, video scripts, story-driven posts, any piece where someone talks to camera or tells a story. The hook stops the scroll; storytelling holds the watch after it. Not for pure tactical demos or bare listicles with no through-line. |
 | [talent-review-deck-writer](../skills/Daisuke134/life-manager/skills/capafy/catalog/talent-review-deck-writer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted talent review evidence into a concise slide-by-slide leadership deck outline without inventing employee facts or ratings. |
+| [viral-hooks](../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/content-skills/viral-hooks/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when writing or auditing the opening lines of any content — reel hooks, carousel slide 1, video intros, newsletter subject lines, tweet openers — or when a draft's opener feels flat, vague, or skippable. |
 | [youtube-script-writer](../skills/Daisuke134/life-manager/skills/capafy/catalog/youtube-script-writer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn a topic, draft, or product into a retention-shaped, ready-to-record YouTube script grounded only in the buyer's supplied facts. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [attaform](../skills/attaform/Attaform/skills/attaform/README.md) | [attaform/Attaform](https://github.com/attaform/Attaform) | 100 | 100 | 6 | Build type-safe, schema-driven forms in Vue 3 and Nuxt with Attaform (first-class Zod). Use when creating, editing, or debugging a form (inputs, validation, submission, multistep wizards, or SSR) in a project that has the `attaform` package installed. Covers the correct import surface, the useForm handle, the v-register directive, reading validation state, handleSubmit, server-error routing, and wizards. |
