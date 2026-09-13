@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "7ed160d96ef81a5bf97ec25c6ec75bd3b94a450fdc27375bae51028a9e467a60",
+  "canonical_key": "dpatel-93/alfred:skills/prior-art",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "7ed160d96ef81a5bf97ec25c6ec75bd3b94a450fdc27375bae51028a9e467a60",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/prior-art",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "b34720591863dcac9cc7609978ea811b32ea5aa07b7f2da25580814f77253b01",
+    "description": "Check whether something has already been built before building it. Searches GitHub via the gh CLI and API — never a browser — then judges each candidate on maintenance, licence and fit, and returns a verdict of ADOPT / ADAPT / BUILD with the evidence. Use before starting any new tool, skill, script, integration or framework; when the user asks \"has anyone done this\", \"is there a library for this\", \"should we build or borrow\"; or when a design is about to commit to a from-scratch implementation.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "hr-recruiting",
+        "browser-automation",
+        "design",
+        "research",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/prior-art/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "prior-art",
+    "path": "skills/prior-art",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "eeee21a394185454bab834237e68bf53eb91f49b79f0bf289b04b5f6a8678a06",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "eeee21a394185454bab834237e68bf53eb91f49b79f0bf289b04b5f6a8678a06"
+}
