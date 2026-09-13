@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "34d161e6cb5b41c4877c712669a710f9f4c9633079c18ff921e26bf1097bd400",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/academic-limitations-editor",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "34d161e6cb5b41c4877c712669a710f9f4c9633079c18ff921e26bf1097bd400",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/academic-limitations-editor",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e463c96ebef45df11658f8e91cf04bda74114c7a7fa9ba937ec5878d3e602820",
+    "description": "Turn a pasted study limitations section into clear, proportionate academic prose without adding weaknesses, evidence, or claims that the author did not provide.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "commerce",
+        "content",
+        "data",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/academic-limitations-editor/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "academic-limitations-editor",
+    "path": "skills/capafy/catalog/academic-limitations-editor",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "21308b42cdebe6f05f45b1fdc0261a467e181bb8a97c00ac2a2a38376e37c872",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "21308b42cdebe6f05f45b1fdc0261a467e181bb8a97c00ac2a2a38376e37c872"
+}
