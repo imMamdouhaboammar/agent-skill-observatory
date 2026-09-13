@@ -1,0 +1,103 @@
+{
+  "analysis_fingerprint": "bbeb2ebde2d086a564b7ab741b66c398aa57317eabfb94196e1407556b8a0d68",
+  "canonical_key": "dpatel-93/alfred:skills/differential-review",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [
+      "Read",
+      "Write",
+      "Grep",
+      "Glob",
+      "Bash"
+    ],
+    "analysis_fingerprint": "bbeb2ebde2d086a564b7ab741b66c398aa57317eabfb94196e1407556b8a0d68",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/differential-review",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1499d68ed4465fe89448f2bd90054b16a1a047f2e49a433623312f3b7a8a9742",
+    "description": "Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions.\n",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "content",
+        "testing",
+        "documentation",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/differential-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "differential-review",
+    "path": "skills/differential-review",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 1,
+      "other": 5,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7c1c168fe82b03732f388d8c2879146cfa01f8c303808a2f8563ef2bb874f2f0",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "7c1c168fe82b03732f388d8c2879146cfa01f8c303808a2f8563ef2bb874f2f0"
+}
