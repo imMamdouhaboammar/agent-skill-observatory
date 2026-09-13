@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 41
-Categories: agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, product, productivity, research, security, testing
+Published Skills: 42
+Categories: agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=41, 60-84=0, <60=0
+Security distribution: 85+=42, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -50,3 +50,4 @@ Security distribution: 85+=41, 60-84=0, <60=0
 | [friendly](../../skills/dpatel-93/alfred/skills/friendly/README.md) | `skills/friendly` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [futuristic](../../skills/dpatel-93/alfred/skills/futuristic/README.md) | `skills/futuristic` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [geometric](../../skills/dpatel-93/alfred/skills/geometric/README.md) | `skills/geometric` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
+| [glassmorphism](../../skills/dpatel-93/alfred/skills/glassmorphism/README.md) | `skills/glassmorphism` | 100 | 100 | code-review, content, design, engineering, marketing, mobile |
