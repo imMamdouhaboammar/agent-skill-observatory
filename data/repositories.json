@@ -5261,18 +5261,18 @@
       "marketing",
       "mobile",
       "productivity",
-      "research",
-      "security"
+      "security",
+      "testing"
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-09-11T16:44:31+00:00",
+    "pushed_at": "2026-09-13T21:42:56+00:00",
     "repo_full_name": "DailybotHQ/deepworkplan-website",
     "repo_url": "https://github.com/DailybotHQ/deepworkplan-website",
     "security_85_plus_count": 2,
     "skills": [
       {
-        "description": "DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready.",
+        "description": "DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, upgrade, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready.",
         "manifest": "https://github.com/DailybotHQ/deepworkplan-website/blob/main/.agents/skills/deepworkplan/SKILL.md",
         "name": "deepworkplan",
         "overall_score": 100,
@@ -8210,7 +8210,7 @@
     ],
     "default_branch": "main",
     "forks": 3,
-    "pushed_at": "2026-09-13T17:38:06+00:00",
+    "pushed_at": "2026-09-13T21:43:23+00:00",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "security_85_plus_count": 15,

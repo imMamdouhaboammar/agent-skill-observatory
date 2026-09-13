@@ -8,11 +8,11 @@ Manifest: [https://github.com/DailybotHQ/deepworkplan-website/blob/main/.agents/
 
 ## Description
 
-DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready.
+DeepWorkPlan — turn any repo AI-first and run Deep Work Plans. Routes to create, execute, refine, resume, status, verify, upgrade, and repo-onboarding sub-skills based on intent. Use when the developer wants to plan, execute, manage, or verify structured multi-task work, or make a repository AI-agent-ready.
 
 ## Classification
 
-Categories: commerce, content, documentation, engineering, productivity, research
+Categories: commerce, content, documentation, engineering, productivity, testing
 Client compatibility: GitHub Copilot, OpenAI Codex
 License: MIT
 
@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-11T16:52:45.236185+00:00
-Published: 2026-09-11T16:55:08.871829+00:00
-Publication event: add
-Source fingerprint: `386737d2f7f6404d36065888ddeb8f9298f1f6df18ba2e747691ff468e63938e`
-Analysis fingerprint: `f1523a12cbeaed675baad5866ccac5ccaa02eb904f4a4a30540f4c182184cbc9`
+Indexed: 2026-09-13T21:46:36.471833+00:00
+Published: 2026-09-13T21:50:05.022086+00:00
+Publication event: update
+Source fingerprint: `7db88da91812816dc3c3e8091ab284e14f82ccb65af6c80fe56baa83c877fe9f`
+Analysis fingerprint: `e070b86f788375f7acf9f5b0e791804e3258a5c949d46f3a1520362e3b1e5a66`
