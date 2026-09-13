@@ -2,7 +2,7 @@
   "analysis_fingerprint": "bdc9a203a67680e96dbf4cd82cf81db43b933ccb84da584ccdd5243c7bfe3ecd",
   "canonical_key": "day8/re-frame2:skills/re-frame2-improver",
   "publication_event": "update",
-  "published_at": "2026-09-13T01:02:50.955534Z",
+  "published_at": "2026-09-13T19:54:54.982073Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -50,13 +50,13 @@
       "tree_files_scanned": 12
     },
     "forks": 0,
-    "indexed_at": "2026-09-13T01:00:16.712036Z",
-    "last_successful_repo_scan_at": "2026-09-13T01:00:16.712036Z",
+    "indexed_at": "2026-09-13T11:39:33.092721Z",
+    "last_successful_repo_scan_at": "2026-09-13T11:39:33.092721Z",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-improver",
     "path": "skills/re-frame2-improver",
-    "pushed_at": "2026-09-13T00:56:01Z",
+    "pushed_at": "2026-09-13T11:36:17Z",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "ead053667a971b76a2ee66b26c95cf358c260955a84c354689b694f6a89122c6",
+    "source_fingerprint": "81aa55998dae9c6d1da6cc0a6e83e7e3c43759f964ecdd7e34458092c470d9fa",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 48
   },
-  "source_fingerprint": "ead053667a971b76a2ee66b26c95cf358c260955a84c354689b694f6a89122c6"
+  "source_fingerprint": "81aa55998dae9c6d1da6cc0a6e83e7e3c43759f964ecdd7e34458092c470d9fa"
 }
