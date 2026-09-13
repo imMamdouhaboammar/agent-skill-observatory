@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "58c965ef0748d6008cd237d65da28e7be50148bdd59399aee8b5c1fec4cb4732",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/dissertation-discussion-humanizer",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "58c965ef0748d6008cd237d65da28e7be50148bdd59399aee8b5c1fec4cb4732",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/dissertation-discussion-humanizer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "cab353b4db7ae4cf8e4db367231f237df8547bd58e852323c65094a9c759a616",
+    "description": "Rewrite a pasted dissertation discussion chapter into clear, natural academic prose while preserving supplied results, limitations, and uncertainty.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "data",
+        "productivity",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/dissertation-discussion-humanizer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "dissertation-discussion-humanizer",
+    "path": "skills/capafy/catalog/dissertation-discussion-humanizer",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "af4fd739384d498d25dafbecef65adc2b738eea40fa0a70da3c3c6883ca77aec",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "af4fd739384d498d25dafbecef65adc2b738eea40fa0a70da3c3c6883ca77aec"
+}
