@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "bdc9a203a67680e96dbf4cd82cf81db43b933ccb84da584ccdd5243c7bfe3ecd",
   "canonical_key": "day8/re-frame2:skills/re-frame2-improver",
-  "publication_event": "add",
-  "published_at": "2026-09-12T23:18:21.000081Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T01:02:50.955534Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "day8/re-frame2:skills/re-frame2-improver",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "0df7017604bf3c50575d8bfe6a0a0692af0ae998e2cc74fd653aa6ff35cead4e",
+    "content_fingerprint": "1c91ea804d3495d2d03e2edf9cabb137b765bf8f82785554fb53ff383ed5ba98",
     "description": "Focused critique-mode for **existing** re-frame2 ClojureScript code: reviews source files (or a supplied snippet) against a small catalogue of re-frame2 anti-patterns, surfaces concrete findings cross-linked to canonical idioms, and may suggest inline fixes. **Do not use** for greenfield bootstrap, authoring new code, live-runtime work, retro on a pair session, migrating a re-frame v1.x codebase, porting Reagent views to Fresco (a migration ask even on an already-re-frame2 app), touring the Xray devtools panel, porting re-frame2 itself, spec/architecture discussion, or inline mid-edit interruption. **Activates only on explicit pull** — \"review my re-frame2 code for anti-patterns\", \"audit this against re-frame2 best practices\", \"spot any anti-patterns in cart/handlers.cljs\" — and a body of re-frame2 source must be in scope: read or edited in this conversation, supplied as a snippet, or named as a resolvable `.cljs` / `.cljc` file or directory. Vocabulary alone is not enough.\n",
     "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
     "evidence": {
@@ -50,13 +50,13 @@
       "tree_files_scanned": 12
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T23:16:55.549533Z",
-    "last_successful_repo_scan_at": "2026-09-12T23:16:55.549533Z",
+    "indexed_at": "2026-09-13T01:00:16.712036Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:16.712036Z",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-improver",
     "path": "skills/re-frame2-improver",
-    "pushed_at": "2026-09-12T23:09:15Z",
+    "pushed_at": "2026-09-13T00:56:01Z",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "4681feb6a31e70e736ffe409ffc74c2f3f0dce4c8dceaa1844ab79b904f04d06",
+    "source_fingerprint": "ead053667a971b76a2ee66b26c95cf358c260955a84c354689b694f6a89122c6",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 48
   },
-  "source_fingerprint": "4681feb6a31e70e736ffe409ffc74c2f3f0dce4c8dceaa1844ab79b904f04d06"
+  "source_fingerprint": "ead053667a971b76a2ee66b26c95cf358c260955a84c354689b694f6a89122c6"
 }
