@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "e3cf2e7a9e2cc26cf6118eef9d44a10f9985a28475ab240b66f5ca9b24ee3cde",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/user-interview-synthesizer",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e3cf2e7a9e2cc26cf6118eef9d44a10f9985a28475ab240b66f5ca9b24ee3cde",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/user-interview-synthesizer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "7ae59c2b768552748b8a6d0e0ec5b7748f8abde99564025d7899476eea2c3299",
+    "description": "Turn pasted customer interview notes into an evidence-ranked product decision memo.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "research",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/user-interview-synthesizer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "user-interview-synthesizer",
+    "path": "skills/capafy/catalog/user-interview-synthesizer",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "18ccfab2bacd130ab8ee84b987843c2dfe634ef16b54dd22d7ac1ec5da4142bf",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "18ccfab2bacd130ab8ee84b987843c2dfe634ef16b54dd22d7ac1ec5da4142bf"
+}
