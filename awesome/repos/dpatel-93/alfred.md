@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 68
-Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
+Published Skills: 69
+Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=68, 60-84=0, <60=0
+Security distribution: 85+=69, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -77,3 +77,4 @@ Security distribution: 85+=68, 60-84=0, <60=0
 | [premium](../../skills/dpatel-93/alfred/skills/premium/README.md) | `skills/premium` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [prior-art](../../skills/dpatel-93/alfred/skills/prior-art/README.md) | `skills/prior-art` | 100 | 100 | browser-automation, content, design, engineering, hr-recruiting, research |
 | [professional](../../skills/dpatel-93/alfred/skills/professional/README.md) | `skills/professional` | 100 | 100 | code-review, content, design, engineering, marketing, mobile |
+| [project-note](../../skills/dpatel-93/alfred/skills/project-note/README.md) | `skills/project-note` | 100 | 100 | content, data, design, documentation, education, engineering |
