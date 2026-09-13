@@ -1,0 +1,109 @@
+{
+  "analysis_fingerprint": "6d50ca159148d9e38d3d1ef5e340a8a943a1182cbc985776fad48ab55ccfb1a1",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/nvidia-skill-finder",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6d50ca159148d9e38d3d1ef5e340a8a943a1182cbc985776fad48ab55ccfb1a1",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/nvidia-skill-finder",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "3305238f58a2be0ae18a936b7887de5c2a2bc613cade8cf81dd2126766ff4122",
+    "description": "Use for NVIDIA-related requests where an NVIDIA skill might help, even if the user did not ask for a skill. Trigger on NVIDIA products, hardware, software, SDKs, GPUs, Jetson/JetPack/L4T/BSP/SDK Manager/driver/flashing/setup, CUDA, NIM, NeMo, Omniverse/OpenUSD/SimReady, RAPIDS/cuDF, cuPyNumeric, cuOpt, Dynamo, Holoscan, TensorRT, DeepStream, VSS, TAO, NGC/NVCF. Do not use for generic non-NVIDIA route, optimize, deploy, AI, video, data, or infrastructure tasks.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "data",
+        "media",
+        "engineering",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ],
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/nvidia-skill-finder/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "CC-BY-4.0 AND Apache-2.0",
+    "metadata": {
+      "author": "NVIDIA",
+      "domain": "agent-skills",
+      "tags": "['nvidia', 'skills', 'discovery', 'catalog', 'router']"
+    },
+    "name": "nvidia-skill-finder",
+    "path": ".claude/skills/nvidia-skill-finder",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 4,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "f10c4db03fb944ef6c137eb115c37244ae6ae56a6487941288b88d03d12b56ff",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "metadata values should be strings according to the open specification"
+      ]
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "f10c4db03fb944ef6c137eb115c37244ae6ae56a6487941288b88d03d12b56ff"
+}
