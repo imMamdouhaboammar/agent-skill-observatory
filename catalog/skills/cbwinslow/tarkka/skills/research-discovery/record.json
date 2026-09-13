@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "b5111e2034e91f1352b92eb50f4d422ed648fbdcb090cc8c48abcc5f2396917f",
+  "canonical_key": "cbwinslow/tarkka:skills/research-discovery",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "b5111e2034e91f1352b92eb50f4d422ed648fbdcb090cc8c48abcc5f2396917f",
+    "archived": false,
+    "canonical_key": "cbwinslow/tarkka:skills/research-discovery",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "848fce58b85ea9dae084bf1177d882c05da2fbddf43e86949e3da69853189f0a",
+    "description": "Discover and triage research efficiently before loading detailed source content.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "hr-recruiting",
+        "commerce",
+        "documents",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/cbwinslow/Tarkka/blob/main/skills/research-discovery/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:53.224711Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:53.224711Z",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "research-discovery",
+    "path": "skills/research-discovery",
+    "pushed_at": "2026-09-13T00:55:48Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "cbwinslow/Tarkka",
+    "repo_url": "https://github.com/cbwinslow/Tarkka",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ea24fce7777a083c51f5e6e87dc5046c3a3614ab1561775869b5ee48477a8315",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "ea24fce7777a083c51f5e6e87dc5046c3a3614ab1561775869b5ee48477a8315"
+}

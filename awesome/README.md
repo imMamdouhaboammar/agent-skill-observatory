@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **844**
-Repositories: **92**
+Published skills: **845**
+Repositories: **93**
 
 ## Browse repositories
 
@@ -60,6 +60,7 @@ Repositories: **92**
 - [bytedance/deer-flow](./repos/bytedance/deer-flow.md)
 - [cameronabrams/htpolynet](./repos/cameronabrams/htpolynet.md)
 - [can1357/oh-my-pi](./repos/can1357/oh-my-pi.md)
+- [cbwinslow/Tarkka](./repos/cbwinslow/Tarkka.md)
 - [chainlesschain/chainlesschain](./repos/chainlesschain/chainlesschain.md)
 - [chardigio/pappardelle](./repos/chardigio/pappardelle.md)
 - [chen647208/hongyue-creation](./repos/chen647208/hongyue-creation.md)
@@ -457,6 +458,7 @@ Repositories: **92**
 - [htpolynet](./skills/cameronabrams/htpolynet/.claude/skills/htpolynet/README.md) · `cameronabrams/htpolynet:.claude/skills/htpolynet`
 - [semantic-compression](./skills/can1357/oh-my-pi/.omp/skills/semantic-compression/README.md) · `can1357/oh-my-pi:.omp/skills/semantic-compression`
 - [system-prompts](./skills/can1357/oh-my-pi/.omp/skills/system-prompts/README.md) · `can1357/oh-my-pi:.omp/skills/system-prompts`
+- [research-discovery](./skills/cbwinslow/tarkka/skills/research-discovery/README.md) · `cbwinslow/tarkka:skills/research-discovery`
 - [agent-browser](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/agent-browser`
 - [api-gateway](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/api-gateway`
 - [architect-mode](./skills/chainlesschain/chainlesschain/desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode/README.md) · `chainlesschain/chainlesschain:desktop-app-vue/src/main/ai-engine/cowork/skills/builtin/architect-mode`
