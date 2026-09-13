@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "62542fab02bf324b05ec83426a56255dece8e1c146340af6e0498ff5c281c028",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/youtube-script-writer",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "62542fab02bf324b05ec83426a56255dece8e1c146340af6e0498ff5c281c028",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/youtube-script-writer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "6d6388be9663d769c774d1d79e0658650735f12738e8296b63d7aedf0cb0457a",
+    "description": "Turn a topic, draft, or product into a retention-shaped, ready-to-record YouTube script grounded only in the buyer's supplied facts.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "commerce",
+        "content",
+        "design",
+        "media",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/youtube-script-writer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "youtube-script-writer",
+    "path": "skills/capafy/catalog/youtube-script-writer",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "39701d81ba5829111c64d187ab5f702246152bbf88ad166075d86900eaa00c0a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "39701d81ba5829111c64d187ab5f702246152bbf88ad166075d86900eaa00c0a"
+}

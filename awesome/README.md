@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **867**
+Published skills: **868**
 Repositories: **95**
 
 ## Browse repositories
@@ -696,6 +696,7 @@ Repositories: **95**
 - [sales-objection-reply-builder](./skills/daisuke134/life-manager/skills/capafy/catalog/sales-objection-reply-builder/README.md) · `daisuke134/life-manager:skills/capafy/catalog/sales-objection-reply-builder`
 - [talent-review-deck-writer](./skills/daisuke134/life-manager/skills/capafy/catalog/talent-review-deck-writer/README.md) · `daisuke134/life-manager:skills/capafy/catalog/talent-review-deck-writer`
 - [user-interview-synthesizer](./skills/daisuke134/life-manager/skills/capafy/catalog/user-interview-synthesizer/README.md) · `daisuke134/life-manager:skills/capafy/catalog/user-interview-synthesizer`
+- [youtube-script-writer](./skills/daisuke134/life-manager/skills/capafy/catalog/youtube-script-writer/README.md) · `daisuke134/life-manager:skills/capafy/catalog/youtube-script-writer`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`

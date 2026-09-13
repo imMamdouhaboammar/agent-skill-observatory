@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 556
+Published Skills: 557
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -234,6 +234,7 @@ Published Skills: 556
 | [peer-review-response-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted reviewer comments and manuscript evidence into a point-by-point response draft and revision plan without inventing changes, citations, or results. |
 | [research-findings-deck-storyboard](../skills/Daisuke134/life-manager/skills/capafy/catalog/research-findings-deck-storyboard/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted study findings into an evidence-bound, slide-by-slide research presentation outline without adding results, interpretation, or source claims. |
 | [risk-register-action-planner](../skills/Daisuke134/life-manager/skills/capafy/catalog/risk-register-action-planner/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted project risks into an evidence-bound risk register with owners, triggers, mitigations, and a next-review agenda. |
+| [youtube-script-writer](../skills/Daisuke134/life-manager/skills/capafy/catalog/youtube-script-writer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn a topic, draft, or product into a retention-shaped, ready-to-record YouTube script grounded only in the buyer's supplied facts. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [analyze](../skills/markmhendrickson/ateles/.claude/skills/analyze/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Analyze codebase or context per foundation analyze command. Produces a comparative analysis (competitive/partnership/relevance) of a target product, content, or repo against all known repos in Neotoma; stores the full analysis plus sub-entities (tasks, findings, identified repos, proposed issues) in Neotoma; and, opt-in, opens public GitHub issues for repo-touching tasks with the competitive analysis sections redacted. |
 | [attaform](../skills/attaform/Attaform/skills/attaform/README.md) | [attaform/Attaform](https://github.com/attaform/Attaform) | 100 | 100 | 6 | Build type-safe, schema-driven forms in Vue 3 and Nuxt with Attaform (first-class Zod). Use when creating, editing, or debugging a form (inputs, validation, submission, multistep wizards, or SSR) in a project that has the `attaform` package installed. Covers the correct import surface, the useForm handle, the v-register directive, reading validation state, handleSubmit, server-error routing, and wizards. |

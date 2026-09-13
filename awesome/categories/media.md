@@ -1,6 +1,6 @@
 # media
 
-Published Skills: 125
+Published Skills: 126
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -52,6 +52,7 @@ Published Skills: 125
 | [video-script](../skills/aaronjmars/aeon-agent/skills/video-script/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Turn a repo, product page, or update into a recording-ready video script in a receipts-first format - verifies every claim against live sources, then writes timestamped VO + on-screen direction with a plain-language glossary, assets checklist, anti-tells, and a verify-before-recording list |
 | [weekly-aeoncard](../skills/aaronjmars/aeon-agent/skills/weekly-aeoncard/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Build a weekly token-consumption recap image from memory/token-usage.csv - this week + all-time totals, top skills, rendered as a shareable SVG card. |
 | [apply-to-funder](../skills/Daisuke134/life-manager/skills/apply-to-funder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when preparing, previewing, submitting, or tracking an accelerator, grant, VC, angel, or fundraising application for Life Manager. |
+| [youtube-script-writer](../skills/Daisuke134/life-manager/skills/capafy/catalog/youtube-script-writer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn a topic, draft, or product into a retention-shaped, ready-to-record YouTube script grounded only in the buyer's supplied facts. |
 | [attaform](../skills/attaform/Attaform/skills/attaform/README.md) | [attaform/Attaform](https://github.com/attaform/Attaform) | 100 | 100 | 6 | Build type-safe, schema-driven forms in Vue 3 and Nuxt with Attaform (first-class Zod). Use when creating, editing, or debugging a form (inputs, validation, submission, multistep wizards, or SSR) in a project that has the `attaform` package installed. Covers the correct import surface, the useForm handle, the v-register directive, reading validation state, handleSubmit, server-error routing, and wizards. |
 | [draft-comparative-neotoma-post](../skills/markmhendrickson/ateles/.claude/skills/draft-comparative-neotoma-post/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Draft a comparative Neotoma post (memory & truth-layer series) that compares a product or API's memory to a truth layer. Use when user says "draft comparative neotoma post", "memory series post", "truth layer comparison post", or similar. Can be invoked via /draft-comparative-neotoma-post. |
 | [file-server](../skills/chnlich/charlie-bot/skills/file-server/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Must invoke when presenting a file to the user. The CharlieBot server has a built-in file browser that serves any file on the host filesystem. |
