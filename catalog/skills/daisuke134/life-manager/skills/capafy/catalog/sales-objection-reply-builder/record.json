@@ -1,0 +1,92 @@
+{
+  "analysis_fingerprint": "bf0fe5187dee697552ead49e18dbbd8cba126a289d1e96e8ffb357396b38cd62",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/sales-objection-reply-builder",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "bf0fe5187dee697552ead49e18dbbd8cba126a289d1e96e8ffb357396b38cd62",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/sales-objection-reply-builder",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "14ccaf5c1bfc1ad4c067aff1f41876833cdd549fe8e068ef8120a5e5490f4a1d",
+    "description": "Turn each new customer objection and supplied product facts into honest, channel-ready replies without inventing proof.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "product",
+        "sales",
+        "commerce",
+        "integrations",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/sales-objection-reply-builder/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "sales-objection-reply-builder",
+    "path": "skills/capafy/catalog/sales-objection-reply-builder",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d1d9d2a4eb32c5eeaaf707117fa4378a8e2e818e0396e26d12b58d58c8131afe",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "d1d9d2a4eb32c5eeaaf707117fa4378a8e2e818e0396e26d12b58d58c8131afe"
+}
