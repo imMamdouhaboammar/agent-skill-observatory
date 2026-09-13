@@ -1,6 +1,6 @@
 # marketing
 
-Published Skills: 84
+Published Skills: 85
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -60,6 +60,7 @@ Published Skills: 84
 | [levels](../skills/dpatel-93/alfred/skills/levels/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Conversion-focused design that removes friction and guides users toward action through clarity, trust, and speed. |
 | [lingo](../skills/dpatel-93/alfred/skills/lingo/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Playful, minimal design with bright colors, rounded shapes, tactile 3D borders, and friendly illustrations for approachable interfaces. |
 | [material](../skills/dpatel-93/alfred/skills/material/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Google's Material Design with layered surfaces, dynamic theming, built-in motion, and responsive cross-platform patterns. |
+| [matrix](../skills/dpatel-93/alfred/skills/matrix/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A cyber-slick, dark-only Matrix-inspired interface defined by minimalist fashion, high-tech digital elements |
 | [clerk-custom-ui](../skills/Gizziio/allternit-platform/.agents/skills/clerk-custom-ui/README.md) | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 100 | 100 | 1 | Custom authentication flows and component appearance - hooks (useSignIn, useSignUp), themes, colors, fonts, CSS. Use for custom sign-in/sign-up flows, appearance styling, visual customization, branding. |
 | [clickhouse-io](../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. Use when writing ClickHouse schemas or queries, or when an analytical query is too slow. |
 | [dpop-adoption](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/dpop-adoption/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Implement and debug OAuth 2.0 DPoP (RFC 9449) refresh token sender-constraining for WebCrypto, Node.js ES6, and browser runtimes integrating with Google's OAuth platform. Use when configuring non-extractable asymmetric key pairs (P-256), generating DPoP Proof JWTs for authorization code exchange and token refresh, or handling 400 use_dpop_nonce challenge retry loops at oauth2.googleapis.com/token. Don't use for unconstrained OAuth 2.0 flows (where refresh tokens are not bound to a client key pair), or for Google Cloud IAM / service account authentication. |

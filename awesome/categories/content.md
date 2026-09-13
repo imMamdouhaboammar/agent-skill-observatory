@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 617
+Published Skills: 618
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -373,6 +373,7 @@ Published Skills: 617
 | [lingo](../skills/dpatel-93/alfred/skills/lingo/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Playful, minimal design with bright colors, rounded shapes, tactile 3D borders, and friendly illustrations for approachable interfaces. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [material](../skills/dpatel-93/alfred/skills/material/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Google's Material Design with layered surfaces, dynamic theming, built-in motion, and responsive cross-platform patterns. |
+| [matrix](../skills/dpatel-93/alfred/skills/matrix/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | A cyber-slick, dark-only Matrix-inspired interface defined by minimalist fashion, high-tech digital elements |
 | [novel-plan](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-plan/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Plan a novel already scaffolded. Use for 人设/世界观, 金手指, book/volume outlines. Not for 章纲, batch freeze, prose, or review. |
 | [novel-review](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Post-draft finalize for novels — 字数扩写, review, deslop, and Continuity Commit. Use after a drafted chapter when expanding thin prose, 审稿, 去AI味, batch review, 卷收束, or committing continuity. Not for opening a book or writing first drafts (those stay novel-write / better model). |
 | [novel-write](../skills/danmo-ai/danmo-work/core/resource/plugins/novel/skills/novel-write/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Chapter outline and first-draft prose only. Use for 章纲, batch freeze, drafting/continuing chapters, and Frozen_Canon continuation. Not for 扩写, deslop, review, or Continuity Commit — those are novel-review (separate turn / model). |

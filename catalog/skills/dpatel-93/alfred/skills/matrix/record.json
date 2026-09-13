@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "c2323f6ad34e63417e20d289411d2c6bcab22cb9dc73fa0c605f365a89af002f",
+  "canonical_key": "dpatel-93/alfred:skills/matrix",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "c2323f6ad34e63417e20d289411d2c6bcab22cb9dc73fa0c605f365a89af002f",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/matrix",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "699ba27d74a39c4f752f88e0160c511bf2624303779c6f9a805db7b2c0e2e3fc",
+    "description": "A cyber-slick, dark-only Matrix-inspired interface defined by minimalist fashion, high-tech digital elements",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "commerce",
+        "engineering",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/matrix/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "matrix",
+    "path": "skills/matrix",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "3c4433b4a01c2e64770190d44128b7ac81303acb952b764afe62e7e280a9e42c",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "3c4433b4a01c2e64770190d44128b7ac81303acb952b764afe62e7e280a9e42c"
+}
