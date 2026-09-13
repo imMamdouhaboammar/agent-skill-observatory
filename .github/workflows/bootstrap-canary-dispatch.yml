@@ -14,14 +14,11 @@ jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
-      - name: Dispatch the real bootstrap workflow with canary limits
+      - name: Dispatch the PR-gated bootstrap shim
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh workflow run bootstrap-catalog.yml \
             --repo "$GITHUB_REPOSITORY" \
             --ref main \
-            -f max_repositories=100 \
-            -f max_events=25 \
-            -f time_budget_seconds=2400 \
-            -f skip_scan=true
+            -f max_repositories=100
