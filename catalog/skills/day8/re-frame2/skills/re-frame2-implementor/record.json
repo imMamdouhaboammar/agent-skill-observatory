@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "a1660636664b8362b5e7eff089f05670dfa81cd49eeb3496291608548adfa404",
   "canonical_key": "day8/re-frame2:skills/re-frame2-implementor",
-  "publication_event": "add",
-  "published_at": "2026-09-12T23:18:21.000081Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T17:43:45.119473Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "day8/re-frame2:skills/re-frame2-implementor",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "46ce89d2d461e710604196dbaa53d308acc7c95bf1fe558f1cb293503790dcd6",
+    "content_fingerprint": "25c8f58c11c84999a261fec092b50bc5cc0118470ed5751ca0587176f0a71bc3",
     "description": "Guides an engineer building a NEW re-frame2 implementation in one of the eight in-scope JS-cross-compile-to-React+VDOM host languages — ClojureScript (the reference), TypeScript, Melange/ReScript/Reason, F# (Fable), Squint, Scala.js, PureScript, Kotlin/JS — over a two-phase workflow (record the port profile, then one EP loop driven by the pinned spec and live conformance fixtures, with the conformance corpus as the acceptance test). **Do not use** for: writing apps on the CLJS reference (`re-frame2`), greenfield bootstrap (`re-frame2-setup`), v1→v2 migration (`re-frame-migration`), live-app inspection (`re-frame2-pair`), or an out-of-scope target — a non-React substrate (Vue, Solid, Svelte, vanilla DOM) or a host that does not cross-compile to JS (Python, Ruby, native Rust, Go, server-side JVM): out of scope by deliberate spec choice, so surface the `spec/000-Vision.md` scope footnote and stop. Trigger on \"port re-frame2\", \"implement re-frame2 in a language\", \"conformance corpus\".\n",
     "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
     "evidence": {
@@ -50,13 +50,13 @@
       "tree_files_scanned": 8
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T23:16:55.549533Z",
-    "last_successful_repo_scan_at": "2026-09-12T23:16:55.549533Z",
+    "indexed_at": "2026-09-13T11:39:33.092721Z",
+    "last_successful_repo_scan_at": "2026-09-13T11:39:33.092721Z",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-implementor",
     "path": "skills/re-frame2-implementor",
-    "pushed_at": "2026-09-12T23:09:15Z",
+    "pushed_at": "2026-09-13T11:36:17Z",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "b416280e47462fa40aa8a9577c30d0baae06c1ec9fcd3bd1fe52b22a1e9770fe",
+    "source_fingerprint": "6b4d135b8e99e03aac90be215e283bcfc7818e3933a76fb1427537ce91aca915",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 48
   },
-  "source_fingerprint": "b416280e47462fa40aa8a9577c30d0baae06c1ec9fcd3bd1fe52b22a1e9770fe"
+  "source_fingerprint": "6b4d135b8e99e03aac90be215e283bcfc7818e3933a76fb1427537ce91aca915"
 }
