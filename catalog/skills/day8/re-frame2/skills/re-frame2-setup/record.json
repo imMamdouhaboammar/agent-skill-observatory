@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "cfaf278f953a5ad3255bfb4cb2168ef04445589d7da7e62ba71540def276f46c",
   "canonical_key": "day8/re-frame2:skills/re-frame2-setup",
-  "publication_event": "add",
-  "published_at": "2026-09-12T23:18:21.000081Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T01:02:50.955534Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "day8/re-frame2:skills/re-frame2-setup",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "5c18310e25377ca6a311f47b1a2fd2b43b4476314d2abde40d3da62bd160146a",
+    "content_fingerprint": "43f271c6d0d29538d0d15a7776f5fe09fb7255b6bd75dd5fc821c7257ccb4a6e",
     "description": "Greenfield-only bootstrap for re-frame2 ClojureScript projects. Scope: brand-new apps from nothing, or empty CLJS projects (shadow-cljs / Clojure already present but zero re-frame2 wiring). Writes the canonical twelve-file counter SPA the generator template emits — core + the Reagent adapter, `shadow-cljs.edn`, the entry namespace with `rf/init!`, events / subs / views — then installs, compiles, serves it and reports the URL, exiting once the counter mounts. **Do not use** for writing app code on an already-bootstrapped project (use `re-frame2`), v1→v2 migration (`re-frame-migration`), live-app inspection (`re-frame2-pair`), or porting re-frame2 itself (`re-frame2-implementor`); the full disqualifier list is `skills/README.md` §Skill routing. Trigger on \"start a re-frame2 project\", \"scaffold re-frame2\", \"hello-world re-frame2 app\", or a build failure on a freshly-scaffolded project that traces to missing `re-frame.core` / `re-frame.adapter.reagent` wiring.\n",
     "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
     "evidence": {
@@ -50,13 +50,13 @@
       "tree_files_scanned": 8
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T23:16:55.549533Z",
-    "last_successful_repo_scan_at": "2026-09-12T23:16:55.549533Z",
+    "indexed_at": "2026-09-13T01:00:16.712036Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:16.712036Z",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-setup",
     "path": "skills/re-frame2-setup",
-    "pushed_at": "2026-09-12T23:09:15Z",
+    "pushed_at": "2026-09-13T00:56:01Z",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "d0ae467c9611aef7ba9cf275fe4a795b84cbf07fdd329816a410e3cf6fc23ed3",
+    "source_fingerprint": "0e8ad43dc86ccd0a814db6bd2deb957169e4a65f28c5f62c7cacd91105364174",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 48
   },
-  "source_fingerprint": "d0ae467c9611aef7ba9cf275fe4a795b84cbf07fdd329816a410e3cf6fc23ed3"
+  "source_fingerprint": "0e8ad43dc86ccd0a814db6bd2deb957169e4a65f28c5f62c7cacd91105364174"
 }
