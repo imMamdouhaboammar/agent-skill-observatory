@@ -1,6 +1,6 @@
 # data
 
-Published Skills: 326
+Published Skills: 327
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -190,6 +190,7 @@ Published Skills: 326
 | [playable-slides](../skills/danmo-ai/danmo-work/core/resource/home/skills/playable-slides/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Author/edit slide decks as Univer IR `.uslides.json` using write/edit/apply_patch. Never Marp Markdown, never web-search Univer docs — IR shape lives in this skill's references/ and kb-office-ir. |
 | [postgresql](../skills/dpatel-93/alfred/skills/postgresql/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features |
 | [project-note](../skills/dpatel-93/alfred/skills/project-note/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Maintains the Alfred Brain project note lifecycle — reads or creates Projects/ProjectName.md from the vault template when starting work on a project, and updates its Current State section when finishing a session. Use at the start of any work session in a project under _Projects\, and again before ending that session, to keep the vault's cross-session memory current. |
+| [ps-http-server](../skills/dpatel-93/alfred/skills/ps-http-server/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Stands up a lightweight PowerShell HttpListener web UI for a quick internal admin portal or dashboard, backed by Azure Table Storage or another data source — no Node/Python required. Use when the user wants a fast local admin tool, a proof-of-concept web UI in PowerShell, or asks how their Northwind-style admin portal pattern works. |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |
 | [sheet-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/sheet-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Produce/edit tables as `.csv` or Univer `.usheet.json` via write/edit/apply_patch. Do not web-search Univer schema — use references/ir-sheet.md or kb-office-ir. |
 | [api-and-interface-design](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/api-and-interface-design/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend. |

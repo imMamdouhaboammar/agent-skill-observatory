@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "3be32baeec9e8b330f045ea52ecb8125b7ca72d312ffe79373afc9d9107455c5",
+  "canonical_key": "dpatel-93/alfred:skills/ps-http-server",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "3be32baeec9e8b330f045ea52ecb8125b7ca72d312ffe79373afc9d9107455c5",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/ps-http-server",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "c5ce7799107c43255898a5bc8c9e8b4a7506243380be9fc504c8a4f5f34e0e3d",
+    "description": "Stands up a lightweight PowerShell HttpListener web UI for a quick internal admin portal or dashboard, backed by Azure Table Storage or another data source — no Node/Python required. Use when the user wants a fast local admin tool, a proof-of-concept web UI in PowerShell, or asks how their Northwind-style admin portal pattern works.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "data",
+        "engineering",
+        "research",
+        "browser-automation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/ps-http-server/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "ps-http-server",
+    "path": "skills/ps-http-server",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "e14882dd3e638642bd6f9298632b45c0b0239cd190366e7a24d4228f5668e199",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "e14882dd3e638642bd6f9298632b45c0b0239cd190366e7a24d4228f5668e199"
+}
