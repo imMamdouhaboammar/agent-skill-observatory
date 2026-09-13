@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "21f14459a49d0bf66f18b72d5b20aba25c10196751a9339c5b41142033bfe8a4",
   "canonical_key": "day8/re-frame2:skills/re-frame2-xray",
-  "publication_event": "add",
-  "published_at": "2026-09-12T23:18:21.000081Z",
+  "publication_event": "update",
+  "published_at": "2026-09-13T01:02:50.955534Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "day8/re-frame2:skills/re-frame2-xray",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "cb7ba4f3a00120ea138db7cc68a9b226329cb374de63bbd39bc0af03549e2ca4",
+    "content_fingerprint": "e1aaee84fec7360c1787834ebbbe46fe8eed690e6cc87dbc477997de3ea5d22b",
     "description": "Question-first tour of **Xray**, the re-frame2 devtools panel: how to *launch* it (inline in-app panel; the `open-overlay!` fallback for hosts with no `[data-rf-xray-host]` layout column; pop-out window; programmatic mount; the wired hotkeys), which of its two modes (Dynamic event-spine / Static registry browse) applies, and what each tab is for. **Do not use** when the user asks the AGENT to inspect or change their running app, read-only included (read a sub, snapshot state, walk traces, dispatch) — that is `re-frame2-pair`, the agent-facing runtime companion. Nor for authoring the host app (`re-frame2`), bootstrapping a project (`re-frame2-setup`), or implementing Xray itself (no implementor skill exists — the spec is the answer). Trigger phrases: \"open Xray\", \"which Xray panel shows…\", \"Xray Static mode\", \"browse registered machines/routes/schemas\", \"Xray overlay\", \"Xray machine inspector\", \"Xray Graph / Resources / Frames / Fresco tab\", \"why did this boundary re-render\".\n",
     "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
     "evidence": {
@@ -50,13 +50,13 @@
       "tree_files_scanned": 16
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T23:16:55.549533Z",
-    "last_successful_repo_scan_at": "2026-09-12T23:16:55.549533Z",
+    "indexed_at": "2026-09-13T01:00:16.712036Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:16.712036Z",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-xray",
     "path": "skills/re-frame2-xray",
-    "pushed_at": "2026-09-12T23:09:15Z",
+    "pushed_at": "2026-09-13T00:56:01Z",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -81,7 +81,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "bf8855a84dbca130b44dd0b50a98247f5a9e3c39b66010603eaddba8219c8850",
+    "source_fingerprint": "0881f330a5046f01c65c55f4546f06faaac012a984104fee0a6d8f336fcf0535",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +91,5 @@
     },
     "stars": 48
   },
-  "source_fingerprint": "bf8855a84dbca130b44dd0b50a98247f5a9e3c39b66010603eaddba8219c8850"
+  "source_fingerprint": "0881f330a5046f01c65c55f4546f06faaac012a984104fee0a6d8f336fcf0535"
 }
