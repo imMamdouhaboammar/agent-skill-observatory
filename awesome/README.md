@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **875**
+Published skills: **876**
 Repositories: **95**
 
 ## Browse repositories
@@ -704,6 +704,7 @@ Repositories: **95**
 - [google-login](./skills/daisuke134/life-manager/skills/google-login/README.md) · `daisuke134/life-manager:skills/google-login`
 - [hook-lab](./skills/daisuke134/life-manager/skills/hook-lab/README.md) · `daisuke134/life-manager:skills/hook-lab`
 - [loop-engineering](./skills/daisuke134/life-manager/skills/loop-engineering/README.md) · `daisuke134/life-manager:skills/loop-engineering`
+- [mercor](./skills/daisuke134/life-manager/skills/mercor/README.md) · `daisuke134/life-manager:skills/mercor`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`

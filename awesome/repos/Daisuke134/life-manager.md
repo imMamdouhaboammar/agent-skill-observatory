@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 28
+Published Skills: 29
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=28, 60-84=0, <60=0
+Security distribution: 85+=29, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -27,6 +27,7 @@ Security distribution: 85+=28, 60-84=0, <60=0
 | [hook-lab](../../skills/Daisuke134/life-manager/skills/hook-lab/README.md) | `skills/hook-lab` | 100 | 100 | commerce, content, media, product, testing |
 | [incident-postmortem-evidence-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/incident-postmortem-evidence-editor/README.md) | `skills/capafy/catalog/incident-postmortem-evidence-editor` | 100 | 100 | content, customer-support, research |
 | [loop-engineering](../../skills/Daisuke134/life-manager/skills/loop-engineering/README.md) | `skills/loop-engineering` | 100 | 100 | browser-automation, commerce, devops, engineering, productivity, security |
+| [mercor](../../skills/Daisuke134/life-manager/skills/mercor/README.md) | `skills/mercor` | 100 | 100 | browser-automation, design, documentation, engineering, hr-recruiting, research |
 | [mobile-app-delivery](../../skills/Daisuke134/life-manager/skills/earn/mobile-app-delivery/README.md) | `skills/earn/mobile-app-delivery` | 100 | 100 | content, design, engineering, mobile, research, testing |
 | [peer-review-response-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | `skills/capafy/catalog/peer-review-response-editor` | 100 | 100 | commerce, content, data, legal-compliance, research |
 | [portfolio-tracker](../../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | `skills/capafy/catalog/portfolio-tracker` | 100 | 100 | commerce, data, finance, research |

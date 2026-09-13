@@ -1,6 +1,6 @@
 # hr-recruiting
 
-Published Skills: 46
+Published Skills: 47
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -31,6 +31,7 @@ Published Skills: 46
 | [cook](../skills/Daisuke134/life-manager/skills/cook/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | EXPLORE for a new way to earn — search the live web for fresh earning opportunities (repos, protocols, paid-API ideas) and surface real candidates with URLs. A TOOL, not a decision — YOU decide which lead to try and how. |
 | [experiment-readout-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/experiment-readout-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted experiment results into an evidence-linked decision-readout deck outline without inventing metrics, causes, or rollout conclusions. |
 | [fundraiser-agent](../skills/Daisuke134/life-manager/skills/fundraiser-agent/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Continuous Life Manager fundraising through the existing application behavior. Every 30 minutes it discovers live Web/X opportunities, applies to as many eligible programs as possible, and records authoritative readback. |
+| [mercor](../skills/Daisuke134/life-manager/skills/mercor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use for Mercor revenue jobs, assessments, applications, replies, work submission, authentication, and verified earnings. |
 | [llm-context-guideline](../skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Placement and admission policy for content that enters LLM context; its chapters currently govern the memory store (admission whitelist, the three proof questions, entry form and labeling, canon change rules). Reload in full before touching memory content. |
 | [character-visual-development](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/character-visual-development/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Develop a revision-bound candidate visual package for one canonical PlotPickle character from approved and observed evidence without changing canon or accepting generated work. |
 | [atm-git-pathspec-emergency-commit](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-git-pathspec-emergency-commit/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Emergency-only runbook for a one-time path-bounded native Git commit when ATM governed commit, WIP park, or commit-candidate lanes are blocked and the owner explicitly authorizes anomaly recovery. Not a Plan 3.1 autonomous success path. |

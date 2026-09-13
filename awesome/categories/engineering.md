@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 630
+Published Skills: 631
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -264,6 +264,7 @@ Published Skills: 630
 | [gig-delivery-verifier](../skills/Daisuke134/life-manager/skills/earn/gig-delivery-verifier/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Independently verify contract-bound digital gig deliverables such as code, APIs, research datasets, writing, documents, presentations, and mobile builds before marketplace delivery; return PASS only from artifact-bound executable or visual evidence. |
 | [google-login](../skills/Daisuke134/life-manager/skills/google-login/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Authenticate an authorized seller-owned Google or Gmail identity, read Gmail verification messages, or complete OAuth/device login without exposing secrets; use for Google sign-in, Gmail receive-otp, login challenges, and expired sessions. |
 | [loop-engineering](../skills/Daisuke134/life-manager/skills/loop-engineering/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when building, fixing, releasing or operating a Life Manager loop, adding a marketplace lane, or deciding whether existing loop components must be reused. |
+| [mercor](../skills/Daisuke134/life-manager/skills/mercor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use for Mercor revenue jobs, assessments, applications, replies, work submission, authentication, and verified earnings. |
 | [mobile-app-delivery](../skills/Daisuke134/life-manager/skills/earn/mobile-app-delivery/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Build, repair, test, and package bounded iOS apps and mobile features using Swift, SwiftUI, existing web/API backends, and documented AI APIs; suited to contract work with an existing repository or a small acceptance-defined app, not unsupported Android-native or specialized SDK experience. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [oculpm-codex](../skills/bunhine0452/Ocul-PM/plugin/oculpm-codex/skills/oculpm-codex/README.md) | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 100 | 100 | 7 | Use ocul-pm journals and planners from Codex without relying on Claude-only plugin variables. |

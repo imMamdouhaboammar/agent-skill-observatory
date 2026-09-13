@@ -1,6 +1,6 @@
 # research
 
-Published Skills: 300
+Published Skills: 301
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -123,6 +123,7 @@ Published Skills: 300
 | [fundraiser-agent](../skills/Daisuke134/life-manager/skills/fundraiser-agent/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Continuous Life Manager fundraising through the existing application behavior. Every 30 minutes it discovers live Web/X opportunities, applies to as many eligible programs as possible, and records authoritative readback. |
 | [gig-delivery-verifier](../skills/Daisuke134/life-manager/skills/earn/gig-delivery-verifier/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Independently verify contract-bound digital gig deliverables such as code, APIs, research datasets, writing, documents, presentations, and mobile builds before marketplace delivery; return PASS only from artifact-bound executable or visual evidence. |
 | [incident-postmortem-evidence-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/incident-postmortem-evidence-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted incident notes into a factual postmortem draft with an evidence ledger, bounded causal analysis, and follow-up plan. |
+| [mercor](../skills/Daisuke134/life-manager/skills/mercor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use for Mercor revenue jobs, assessments, applications, replies, work submission, authentication, and verified earnings. |
 | [mobile-app-delivery](../skills/Daisuke134/life-manager/skills/earn/mobile-app-delivery/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Build, repair, test, and package bounded iOS apps and mobile features using Swift, SwiftUI, existing web/API backends, and documented AI APIs; suited to contract work with an existing repository or a small acceptance-defined app, not unsupported Android-native or specialized SDK experience. |
 | [peer-review-response-editor](../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted reviewer comments and manuscript evidence into a point-by-point response draft and revision plan without inventing changes, citations, or results. |
 | [portfolio-tracker](../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted daily portfolio or watchlist snapshots into a transparent eight-axis position review without live data or investment advice. |
