@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "80e83624d497001a8c0385f45591a4afbc7506c55745f5cd58e1fc534b3acd83",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/constraint-driven-development",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "80e83624d497001a8c0385f45591a4afbc7506c55745f5cd58e1fc534b3acd83",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/constraint-driven-development",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "06479d4305f286d23cfb99f5dc85695896785269664e1f6a8d800e3b71e70c10",
+    "description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-ignore or eslint-disable suppressions, skipped or deleted tests, assertions stripped out, unimplemented stubs, thresholds edited down. Use when no quality bar is written down, when the user says \"set up constraints\" or \"define our standards\", when the user wants dimensions they care about — accessibility, web performance, coverage — set up as enforced constraints, when an agent keeps silencing checks or skipping tests to get to green, when you need a coverage or performance threshold and don't know what number to pick, or when an agent writes more code than anyone will read.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "testing",
+        "design",
+        "content",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/constraint-driven-development/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "constraint-driven-development",
+    "path": ".claude/skills/constraint-driven-development",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 1,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ddb956d40f7d1a4f9dff0dcc815f54e1ba842f47eba7ddc76843445d092ddcc2",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "ddb956d40f7d1a4f9dff0dcc815f54e1ba842f47eba7ddc76843445d092ddcc2"
+}
