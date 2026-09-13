@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "e3cdb7db57e69cc15319975ce3fc0402de774d7d092071296461069667f50cae",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/hig-project-context",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e3cdb7db57e69cc15319975ce3fc0402de774d7d092071296461069667f50cae",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/hig-project-context",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "d9dc586e53e6e6dc24bc328e96ecdc3f07b1dacf010a29807c6893c1ad91f816",
+    "description": "Create or update a shared Apple design context document that other HIG skills use to tailor guidance. Use when the user says \"set up my project context,\" \"what platforms am I targeting,\" \"configure HIG settings,\" or when starting a new Apple platform project. Also activates when other HIG skills need project context but none exists yet. This skill creates .claude/apple-design-context.md so that hig-foundations, hig-platforms, hig-components-*, hig-inputs, and hig-technologies can provide targeted advice without repetitive questions.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "mobile",
+        "content",
+        "documentation",
+        "legal-compliance"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/hig-project-context/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "hig-project-context",
+    "path": ".claude/skills/hig-project-context",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "6c7cfe3a6b8da1f5b0d7a2a5854cbf84ecff86ae25c70d9b5f973c36aeff5147",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "6c7cfe3a6b8da1f5b0d7a2a5854cbf84ecff86ae25c70d9b5f973c36aeff5147"
+}
