@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 51
+Published Skills: 52
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=51, 60-84=0, <60=0
+Security distribution: 85+=52, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -52,6 +52,7 @@ Security distribution: 85+=51, 60-84=0, <60=0
 | [security-review](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/security-review/README.md) | `third_party/everything-claude-code/skills/security-review` | 100 | 100 | content, data, devops, engineering, security, testing |
 | [signalgrid-native](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-native/README.md) | `.claude/skills/signalgrid-native` | 100 | 100 | content, documentation, engineering, integrations, mobile, research |
 | [signalgrid-reviewer](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/signalgrid-reviewer/README.md) | `.claude/skills/signalgrid-reviewer` | 100 | 100 | commerce, content, engineering, research, security, testing |
+| [spec-driven-development](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/spec-driven-development/README.md) | `.claude/skills/spec-driven-development` | 100 | 100 | content, data, design, engineering, productivity, testing |
 | [strategic-compact](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/strategic-compact/README.md) | `third_party/everything-claude-code/skills/strategic-compact` | 100 | 100 | content, devops, education, engineering, productivity, testing |
 | [systematic-debugging](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | `.claude/skills/systematic-debugging` | 100 | 100 | content, data, engineering, integrations, research, testing |
 | [test-driven-development](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | `.claude/skills/test-driven-development` | 100 | 100 | content, data, design, engineering, integrations, testing |

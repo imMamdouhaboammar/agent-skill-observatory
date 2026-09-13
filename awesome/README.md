@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **913**
+Published skills: **914**
 Repositories: **95**
 
 ## Browse repositories
@@ -749,6 +749,7 @@ Repositories: **95**
 - [scientific-critical-thinking](./skills/danfashauer/signalgrid-review-hub/.claude/skills/scientific-critical-thinking/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/scientific-critical-thinking`
 - [signalgrid-native](./skills/danfashauer/signalgrid-review-hub/.claude/skills/signalgrid-native/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/signalgrid-native`
 - [signalgrid-reviewer](./skills/danfashauer/signalgrid-review-hub/.claude/skills/signalgrid-reviewer/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/signalgrid-reviewer`
+- [spec-driven-development](./skills/danfashauer/signalgrid-review-hub/.claude/skills/spec-driven-development/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/spec-driven-development`
 - [systematic-debugging](./skills/danfashauer/signalgrid-review-hub/.claude/skills/systematic-debugging/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/systematic-debugging`
 - [test-driven-development](./skills/danfashauer/signalgrid-review-hub/.claude/skills/test-driven-development/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/test-driven-development`
 - [using-git-worktrees](./skills/danfashauer/signalgrid-review-hub/.claude/skills/using-git-worktrees/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/using-git-worktrees`
