@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 63
+Published Skills: 64
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=63, 60-84=0, <60=0
+Security distribution: 85+=64, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -72,3 +72,4 @@ Security distribution: 85+=63, 60-84=0, <60=0
 | [paper](../../skills/dpatel-93/alfred/skills/paper/README.md) | `skills/paper` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [perspective](../../skills/dpatel-93/alfred/skills/perspective/README.md) | `skills/perspective` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [playwright-cli](../../skills/dpatel-93/alfred/skills/playwright-cli/README.md) | `skills/playwright-cli` | 100 | 100 | browser-automation, design, engineering, media, productivity, testing |
+| [postgresql](../../skills/dpatel-93/alfred/skills/postgresql/README.md) | `skills/postgresql` | 100 | 100 | ai-ml, commerce, content, data, design, security |
