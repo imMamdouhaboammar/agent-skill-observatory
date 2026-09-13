@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "9a630b1be32f29d99df1e0a72a48c18babfb5292770a4e947d6e9cd76e85a67f",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/checklists/stop-slop",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "9a630b1be32f29d99df1e0a72a48c18babfb5292770a4e947d6e9cd76e85a67f",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/checklists/stop-slop",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "10e53aec974f533ddbba0ec358f49b81426364011d045f79cd16271670890747",
+    "description": "Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/checklists/stop-slop/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "Hardik Pandya (https://hvpandya.com)",
+      "trigger": "Writing prose, editing drafts, reviewing content for AI patterns"
+    },
+    "name": "stop-slop",
+    "path": "skills/writer-agent/checklists/stop-slop",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 2,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "d83cf9330dce402d527670e15ba70a61a9c600e600c26359b84f111b5dc95bd3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "d83cf9330dce402d527670e15ba70a61a9c600e600c26359b84f111b5dc95bd3"
+}
