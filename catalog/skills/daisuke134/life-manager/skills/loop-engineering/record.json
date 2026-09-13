@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "527e78e72b7e5cdb258901c6ec950aab982df2150165c7a14cbbe66ded8c8af4",
+  "canonical_key": "daisuke134/life-manager:skills/loop-engineering",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "527e78e72b7e5cdb258901c6ec950aab982df2150165c7a14cbbe66ded8c8af4",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/loop-engineering",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "67d3ac3367564e1a7a5ce89b5ef3a46125d7610d3064e35a297b5eb16f536aaa",
+    "description": "Use when building, fixing, releasing or operating a Life Manager loop, adding a marketplace lane, or deciding whether existing loop components must be reused.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "productivity",
+        "commerce",
+        "engineering",
+        "security",
+        "browser-automation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/loop-engineering/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 6
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "loop-engineering",
+    "path": "skills/loop-engineering",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 5,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b12caf4ae8bd6acfafbe979e0856ef08c49bfa43da95da8aa8551dcd2cbc98d3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "b12caf4ae8bd6acfafbe979e0856ef08c49bfa43da95da8aa8551dcd2cbc98d3"
+}
