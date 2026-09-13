@@ -64,6 +64,10 @@ def test_refresh_creates_key_bound_signed_commits_attributed_to_user() -> None:
     assert "Mamdouh Aboammar" in workflow
     assert "58908124+imMamdouhaboammar@users.noreply.github.com" in workflow
     assert "ssh-keygen -y" in workflow
+    assert (
+        'DERIVED_PUBLIC_KEY="$(ssh-keygen -y -f "$SIGNING_KEY" | awk \'NF >= 2 {print $1 " " $2; exit}\')"'
+        in workflow
+    )
     assert "Configured signing private key does not match PATCH_SIGNING_PUBLIC_KEY" in workflow
     assert "git config gpg.format ssh" in workflow
     assert 'git config user.signingkey "$SIGNING_KEY"' in workflow

@@ -242,7 +242,7 @@ jobs:
           printf '%s\n' "$PATCH_SIGNING_PRIVATE_KEY" > "$SIGNING_KEY"
           trap 'rm -f "$SIGNING_KEY" "$ALLOWED_SIGNERS"' EXIT
 
-          DERIVED_PUBLIC_KEY="$(ssh-keygen -y -f "$SIGNING_KEY")"
+          DERIVED_PUBLIC_KEY="$(ssh-keygen -y -f "$SIGNING_KEY" | awk 'NF >= 2 {print $1 " " $2; exit}')"
           EXPECTED_PUBLIC_KEY="$(printf '%s\n' "$PATCH_SIGNING_PUBLIC_KEY" | awk 'NF >= 2 {print $1 " " $2; exit}')"
           if [ -z "$EXPECTED_PUBLIC_KEY" ] || [ "$DERIVED_PUBLIC_KEY" != "$EXPECTED_PUBLIC_KEY" ]; then
             echo "Configured signing private key does not match PATCH_SIGNING_PUBLIC_KEY." >&2
