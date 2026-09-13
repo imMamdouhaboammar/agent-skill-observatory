@@ -2758,11 +2758,11 @@
       "security"
     ],
     "default_branch": "main",
-    "forks": 11345,
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "forks": 11356,
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
-    "security_85_plus_count": 12,
+    "security_85_plus_count": 11,
     "skills": [
       {
         "description": "Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, literature positioning, and constructive feedback generation. Trigger on queries involving paper URLs, uploaded PDFs, arXiv links, or requests like \"review this paper\", \"analyze this research\", \"summarize this study\", or \"write a peer review\".",
@@ -2862,20 +2862,11 @@
         "path": "skills/public/systematic-literature-review",
         "security_score": 100,
         "spec_valid": true
-      },
-      {
-        "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
-        "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/web-design-guidelines/SKILL.md",
-        "name": "web-design-guidelines",
-        "overall_score": 100,
-        "path": "skills/public/web-design-guidelines",
-        "security_score": 100,
-        "spec_valid": true
       }
     ],
-    "skills_count": 12,
-    "spec_valid_count": 12,
-    "stars": 82289
+    "skills_count": 11,
+    "spec_valid_count": 11,
+    "stars": 82333
   },
   {
     "archived": false,
@@ -6813,6 +6804,33 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "devops"
+    ],
+    "default_branch": "main",
+    "forks": 5,
+    "pushed_at": "2026-09-13T00:55:49+00:00",
+    "repo_full_name": "dglazkov/isocan",
+    "repo_url": "https://github.com/dglazkov/isocan",
+    "security_85_plus_count": 1,
+    "skills": [
+      {
+        "description": "Collaborate on an isocan canvas as a visible agent — address comments, build/edit items, and run the wait-driven feedback loop via the isocan CLI. Use when asked to work on a canvas, address canvas comments, \"park\" and wait for feedback, or run a canvas session. Triggers on \"isocan\", \"canvas comments\", \"park on the canvas\", \"address my comments\".",
+        "manifest": "https://github.com/dglazkov/isocan/blob/main/.agents/skills/isocan-collab/SKILL.md",
+        "name": "isocan-collab",
+        "overall_score": 100,
+        "path": ".agents/skills/isocan-collab",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 1,
+    "spec_valid_count": 1,
+    "stars": 2
+  },
+  {
+    "archived": false,
+    "best_score": 100,
+    "categories": [
       "commerce",
       "content",
       "design",
@@ -7270,6 +7288,8 @@
     "best_score": 100,
     "categories": [
       "agent-orchestration",
+      "ai-ml",
+      "architecture",
       "browser-automation",
       "code-review",
       "commerce",
@@ -7279,12 +7299,15 @@
       "devops",
       "documentation",
       "documents",
+      "education",
       "engineering",
       "finance",
+      "hr-recruiting",
       "integrations",
       "legal-compliance",
       "marketing",
       "media",
+      "mobile",
       "product",
       "productivity",
       "research",
@@ -7296,7 +7319,7 @@
     "pushed_at": "2026-09-12T19:15:53+00:00",
     "repo_full_name": "dpatel-93/alfred",
     "repo_url": "https://github.com/dpatel-93/alfred",
-    "security_85_plus_count": 26,
+    "security_85_plus_count": 70,
     "skills": [
       {
         "description": "Scaffolds a new Alfred org agent (VP, manager, or employee) that satisfies the full charter\ncontract in skills/orgagent/references/ORG.md §4 and passes helpers/validate-org.mjs on the first run — not a rough\ndraft to be fixed up later. Use when a real, recurring workload has no owner in the current org\n(a genuine capability gap, not just \"this would be nice\"), when adding a new department under an\nexisting VP, or when the CEO says \"we need an agent for X.\" Do NOT use for one-off tasks that fit\nan existing agent, or for framework-level meta-skills (those are just skills, not agents — see\nthe `skill-builder` skill instead).",
@@ -7531,10 +7554,406 @@
         "path": "skills/creative",
         "security_score": 100,
         "spec_valid": true
+      },
+      {
+        "description": "Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions.\n",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/differential-review/SKILL.md",
+        "name": "differential-review",
+        "overall_score": 100,
+        "path": "skills/differential-review",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Dot-pattern rendering technique that simulates shades with a limited palette for nostalgic, retro, high-contrast visuals.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/dithered/SKILL.md",
+        "name": "dithered",
+        "overall_score": 100,
+        "path": "skills/dithered",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Hand-drawn, sketch-like style with doodles, handwritten fonts, and imperfect lines for a playful, informal feel.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/doodle/SKILL.md",
+        "name": "doodle",
+        "overall_score": 100,
+        "path": "skills/doodle",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "High-contrast, theatrical design with bold layouts, immersive visuals, and unconventional compositions that command attention.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/dramatic/SKILL.md",
+        "name": "dramatic",
+        "overall_score": 100,
+        "path": "skills/dramatic",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Magazine-inspired editorial layout with refined serif typography, structured grids, and elegant reading experiences.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/editorial/SKILL.md",
+        "name": "editorial",
+        "overall_score": 100,
+        "path": "skills/editorial",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Dark-themed cloud-platform aesthetic with modular grids, glass-like panels, and strong data hierarchy for productivity dashboards.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/enterprise/SKILL.md",
+        "name": "enterprise",
+        "overall_score": 100,
+        "path": "skills/enterprise",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Turns repetition AND correction into capability — the self-evolution engine of the Alfred Framework. Use when the user says \"evolve\", at the end of any substantial work session, whenever the user corrects, redirects or overrides you in a way that would generalise, and proactively whenever the same workflow, explanation, fix or prompt pattern has occurred 2+ times. Also fires when the user mentions observations, the observation log, cross-cutting principles, or asks what a session taught. Converts repeated work and corrected judgement into a permanent artifact so neither has to be re-derived.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/evolve/SKILL.md",
+        "name": "evolve",
+        "overall_score": 100,
+        "path": "skills/evolve",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Vibrant, personality-driven design with bold colors, playful graphics, and dynamic layouts that balance creativity with structure.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/expressive/SKILL.md",
+        "name": "expressive",
+        "overall_score": 100,
+        "path": "skills/expressive",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Game-inspired fantasy aesthetic with bold, premium visuals, rich color palettes, and immersive thematic elements.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/fantasy/SKILL.md",
+        "name": "fantasy",
+        "overall_score": 100,
+        "path": "skills/fantasy",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "A playful, energetic, cartoonesque interface inspired by friendly children's-book illustrations — warm cream backgrounds, big bold custom display typography, saturated brand color blocks, thick black outlines, generously rounded shapes",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/fiction/SKILL.md",
+        "name": "fiction",
+        "overall_score": 100,
+        "path": "skills/fiction",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Integrate Firecrawl into product code — credentials/SDK setup, and calling scrape, search, or interact from an application. Use when a project needs FIRECRAWL_API_KEY or an SDK installed, or when a feature must scrape a page, search the web, or drive a browser flow from code you are writing. Do NOT use for running Firecrawl yourself to research or fetch something — that is the firecrawl-cli plugin skill.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/firecrawl-build/SKILL.md",
+        "name": "firecrawl-build",
+        "overall_score": 100,
+        "path": "skills/firecrawl-build",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Two-dimensional minimalist style with vibrant colors, clean typography, and no 3D effects for fast, user-friendly interfaces.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/flat/SKILL.md",
+        "name": "flat",
+        "overall_score": 100,
+        "path": "skills/flat",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Approachable, intuitive design with rounded elements, ample whitespace, and soft pastel color palettes.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/friendly/SKILL.md",
+        "name": "friendly",
+        "overall_score": 100,
+        "path": "skills/friendly",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Forward-looking design with tech-inspired typography, modern layouts, and a sleek, innovation-driven aesthetic.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/futuristic/SKILL.md",
+        "name": "futuristic",
+        "overall_score": 100,
+        "path": "skills/futuristic",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Geometric, structured design with clean typography, neutral colors, precise shapes, and intuitive layouts that stay out of the way.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/geometric/SKILL.md",
+        "name": "geometric",
+        "overall_score": 100,
+        "path": "skills/geometric",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Frosted glass effect with translucent layers, subtle blur, and luminous borders for depth and modern elegance.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/glassmorphism/SKILL.md",
+        "name": "glassmorphism",
+        "overall_score": 100,
+        "path": "skills/glassmorphism",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Smooth color transitions and gradient-rich surfaces for modern, playful interfaces with visual depth.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/gradient/SKILL.md",
+        "name": "gradient",
+        "overall_score": 100,
+        "path": "skills/gradient",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Calls Microsoft Graph from PowerShell via raw REST (app-only client-credentials auth, pagination, throttling/retry) instead of the Microsoft.Graph SDK module. Use when the user asks to query or modify Entra ID / Azure AD / Graph API from a script, runbook, or Function App without installing the Graph SDK, or asks why REST is preferred over the SDK.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/graph-api-rest/SKILL.md",
+        "name": "graph-api-rest",
+        "overall_score": 100,
+        "path": "skills/graph-api-rest",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/image-to-code/SKILL.md",
+        "name": "image-to-code",
+        "overall_score": 100,
+        "path": "skills/image-to-code",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "An immersive, interactive, exhibit-style interface that blends storytelling, animation, and gamified elements to create a playful, experience-driven journey. The entire app sits on a single continuous brand-colored canvas (deep green)",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/immersive/SKILL.md",
+        "name": "immersive",
+        "overall_score": 100,
+        "path": "skills/immersive",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "A modern, graphic, editorial-poster aesthetic — warm and confident — built on alternating cream and burnt orange sections, an amber brand color.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/impeccable/SKILL.md",
+        "name": "impeccable",
+        "overall_score": 100,
+        "path": "skills/impeccable",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade Kubernetes configurations.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/k8s-manifest-generator/SKILL.md",
+        "name": "k8s-manifest-generator",
+        "overall_score": 100,
+        "path": "skills/k8s-manifest-generator",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Conversion-focused design that removes friction and guides users toward action through clarity, trust, and speed.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/levels/SKILL.md",
+        "name": "levels",
+        "overall_score": 100,
+        "path": "skills/levels",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Playful, minimal design with bright colors, rounded shapes, tactile 3D borders, and friendly illustrations for approachable interfaces.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/lingo/SKILL.md",
+        "name": "lingo",
+        "overall_score": 100,
+        "path": "skills/lingo",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Google's Material Design with layered surfaces, dynamic theming, built-in motion, and responsive cross-platform patterns.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/material/SKILL.md",
+        "name": "material",
+        "overall_score": 100,
+        "path": "skills/material",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "A cyber-slick, dark-only Matrix-inspired interface defined by minimalist fashion, high-tech digital elements",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/matrix/SKILL.md",
+        "name": "matrix",
+        "overall_score": 100,
+        "path": "skills/matrix",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Stripped-back design emphasizing whitespace, clean typography, and restrained color for maximum clarity and focus.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/minimal/SKILL.md",
+        "name": "minimal",
+        "overall_score": 100,
+        "path": "skills/minimal",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Contemporary editorial style with serif typography, minimal palettes, and clean layouts for polished digital products.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/modern/SKILL.md",
+        "name": "modern",
+        "overall_score": 100,
+        "path": "skills/modern",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Monospace-driven, matrix-inspired design with high-contrast elements, compact density, and a hacker-chic aesthetic.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/mono/SKILL.md",
+        "name": "mono",
+        "overall_score": 100,
+        "path": "skills/mono",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Modern take on brutalism with bold borders, vivid accent colors, and raw, high-contrast layouts on warm surfaces.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/neobrutalism/SKILL.md",
+        "name": "neobrutalism",
+        "overall_score": 100,
+        "path": "skills/neobrutalism",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Electric neon glow effects with high-contrast color pairings for bold, attention-grabbing interfaces.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/neon/SKILL.md",
+        "name": "neon",
+        "overall_score": 100,
+        "path": "skills/neon",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Soft, extruded UI elements with inner and outer shadows on monochromatic surfaces for a tactile, embedded look.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/neumorphism/SKILL.md",
+        "name": "neumorphism",
+        "overall_score": 100,
+        "path": "skills/neumorphism",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Offloads token-burning grunt work to free local Ollama models (the \"interns\" tier) on the operator's local GPU (see ~/.claude/alfred-profile.md's Primary stack/tools for the specific hardware). Use when a subtask is a draft, summary, bulk classification, embedding, or mechanical text transform where a 4-9B local model is adequate and Claude API tokens would be wasted — especially inside loops over many files/items. Never for final code, architecture, or anything shipped unreviewed.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/ollama-interns/SKILL.md",
+        "name": "ollama-interns",
+        "overall_score": 100,
+        "path": "skills/ollama-interns",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Retro arcade-inspired design with pixel fonts, dotted borders, playful high-contrast colors, and 8-bit game aesthetics.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/pacman/SKILL.md",
+        "name": "pacman",
+        "overall_score": 100,
+        "path": "skills/pacman",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Paper-textured, print-inspired design with minimal colors, clean serif/sans typography, and tactile surface qualities.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/paper/SKILL.md",
+        "name": "paper",
+        "overall_score": 100,
+        "path": "skills/paper",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Spatial depth design with isometric views, vanishing points, and layered elements that guide attention through 3D-like realism.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/perspective/SKILL.md",
+        "name": "perspective",
+        "overall_score": 100,
+        "path": "skills/perspective",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Automate browser interactions, test web pages and work with Playwright tests.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/playwright-cli/SKILL.md",
+        "name": "playwright-cli",
+        "overall_score": 100,
+        "path": "skills/playwright-cli",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/postgresql/SKILL.md",
+        "name": "postgresql",
+        "overall_score": 100,
+        "path": "skills/postgresql",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/power/SKILL.md",
+        "name": "power",
+        "overall_score": 100,
+        "path": "skills/power",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Apple-inspired premium aesthetic with precise spacing, modern typography, and a refined, polished visual language.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/premium/SKILL.md",
+        "name": "premium",
+        "overall_score": 100,
+        "path": "skills/premium",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Check whether something has already been built before building it. Searches GitHub via the gh CLI and API — never a browser — then judges each candidate on maintenance, licence and fit, and returns a verdict of ADOPT / ADAPT / BUILD with the evidence. Use before starting any new tool, skill, script, integration or framework; when the user asks \"has anyone done this\", \"is there a library for this\", \"should we build or borrow\"; or when a design is about to commit to a from-scratch implementation.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/prior-art/SKILL.md",
+        "name": "prior-art",
+        "overall_score": 100,
+        "path": "skills/prior-art",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Polished, business-ready design with modern typography, structured layouts, and a trustworthy visual identity.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/professional/SKILL.md",
+        "name": "professional",
+        "overall_score": 100,
+        "path": "skills/professional",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Maintains the Alfred Brain project note lifecycle — reads or creates Projects/ProjectName.md from the vault template when starting work on a project, and updates its Current State section when finishing a session. Use at the start of any work session in a project under _Projects\\, and again before ending that session, to keep the vault's cross-session memory current.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/project-note/SKILL.md",
+        "name": "project-note",
+        "overall_score": 100,
+        "path": "skills/project-note",
+        "security_score": 100,
+        "spec_valid": true
+      },
+      {
+        "description": "Stands up a lightweight PowerShell HttpListener web UI for a quick internal admin portal or dashboard, backed by Azure Table Storage or another data source — no Node/Python required. Use when the user wants a fast local admin tool, a proof-of-concept web UI in PowerShell, or asks how their Northwind-style admin portal pattern works.",
+        "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/ps-http-server/SKILL.md",
+        "name": "ps-http-server",
+        "overall_score": 100,
+        "path": "skills/ps-http-server",
+        "security_score": 100,
+        "spec_valid": true
       }
     ],
-    "skills_count": 26,
-    "spec_valid_count": 26,
+    "skills_count": 70,
+    "spec_valid_count": 70,
     "stars": 2
   },
   {
@@ -8186,7 +8605,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
     "security_85_plus_count": 17,
@@ -10208,6 +10627,38 @@
     "best_score": 96,
     "categories": [
       "browser-automation",
+      "content",
+      "data",
+      "design",
+      "engineering",
+      "productivity"
+    ],
+    "default_branch": "main",
+    "forks": 0,
+    "pushed_at": "2026-09-13T05:28:38+00:00",
+    "repo_full_name": "brightstar-0813/WorkSphere",
+    "repo_url": "https://github.com/brightstar-0813/WorkSphere",
+    "security_85_plus_count": 1,
+    "skills": [
+      {
+        "description": "Set up a new Prisma Postgres database and connect it to a local project using the Management API. Use when asked to \"set up a database\", \"create a Prisma Postgres project\", \"get a connection string\", \"connect my app to Prisma Postgres\", or \"provision a database\".",
+        "manifest": "https://github.com/brightstar-0813/WorkSphere/blob/main/.agents/skills/prisma-postgres-setup/SKILL.md",
+        "name": "prisma-postgres-setup",
+        "overall_score": 96,
+        "path": ".agents/skills/prisma-postgres-setup",
+        "security_score": 100,
+        "spec_valid": true
+      }
+    ],
+    "skills_count": 1,
+    "spec_valid_count": 1,
+    "stars": 0
+  },
+  {
+    "archived": false,
+    "best_score": 96,
+    "categories": [
+      "browser-automation",
       "commerce",
       "content",
       "data",
@@ -10534,7 +10985,7 @@
     ],
     "default_branch": "main",
     "forks": 8,
-    "pushed_at": "2026-09-12T01:31:02+00:00",
+    "pushed_at": "2026-09-13T08:09:42+00:00",
     "repo_full_name": "chen647208/hongyue-creation",
     "repo_url": "https://github.com/chen647208/hongyue-creation",
     "security_85_plus_count": 2,

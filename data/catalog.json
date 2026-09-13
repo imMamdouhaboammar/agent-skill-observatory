@@ -22997,6 +22997,95 @@
   {
     "allowed_tools": [],
     "archived": false,
+    "canonical_key": "brightstar-0813/worksphere:.agents/skills/prisma-postgres-setup",
+    "compatibility": null,
+    "description": "Set up a new Prisma Postgres database and connect it to a local project using the Management API. Use when asked to \"set up a database\", \"create a Prisma Postgres project\", \"get a connection string\", \"connect my app to Prisma Postgres\", or \"provision a database\".",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "data",
+        "content",
+        "design",
+        "productivity",
+        "browser-automation"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/brightstar-0813/WorkSphere/blob/main/.agents/skills/prisma-postgres-setup/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T05:35:55.472415+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "prisma",
+      "version": "1.1.0"
+    },
+    "name": "prisma-postgres-setup",
+    "path": ".agents/skills/prisma-postgres-setup",
+    "pushed_at": "2026-09-13T05:28:38+00:00",
+    "repo_default_branch": "main",
+    "repo_full_name": "brightstar-0813/WorkSphere",
+    "repo_url": "https://github.com/brightstar-0813/WorkSphere",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 92,
+      "reasons": [
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/ben-code-quality",
     "compatibility": "PlotPickle repository; coding and repair workers; BEN deterministic code-quality observer.",
     "description": "Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle.",
@@ -25192,7 +25281,7 @@
     "canonical_key": "bytedance/deer-flow:.agent/skills/engineer-system-change",
     "compatibility": null,
     "description": "Evaluate and carry out non-trivial software-system changes from first principles. Use when assessing RFCs, issues, designs, features, refactors, migrations, dependency changes, or proposed fields, events, APIs, modules, and services whose need, consumers, system fit, validation, or rollback require scrutiny. Read the actual system, identify the concrete problem and named semantic consumers, choose the smallest sufficient solution, reject pseudo-requirements and speculative abstractions, and require evidence proportional to risk. Do not use for mechanical edits, source-code explanation, or a dedicated review of an already-complete diff.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -25225,16 +25314,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 1
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "engineer-system-change",
     "path": ".agent/skills/engineer-system-change",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25245,7 +25334,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25264,7 +25353,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25272,7 +25361,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/academic-paper-review",
     "compatibility": null,
     "description": "Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, literature positioning, and constructive feedback generation. Trigger on queries involving paper URLs, uploaded PDFs, arXiv links, or requests like \"review this paper\", \"analyze this research\", \"summarize this study\", or \"write a peer review\".",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "research",
@@ -25305,16 +25394,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 1
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "academic-paper-review",
     "path": "skills/public/academic-paper-review",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25325,7 +25414,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25344,7 +25433,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25352,7 +25441,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/bootstrap",
     "compatibility": null,
     "description": "Generate a personalized SOUL.md through a warm, adaptive onboarding conversation. Trigger when the user wants to create, set up, or initialize their AI partner's identity — e.g., \"create my SOUL.md\", \"bootstrap my agent\", \"set up my AI partner\", \"define who you are\", \"let's do onboarding\", \"personalize this AI\", \"make you mine\", or when a SOUL.md is missing. Also trigger for updates: \"update my SOUL.md\", \"change my AI's personality\", \"tweak the soul\".",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "content",
@@ -25381,16 +25470,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 2
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "bootstrap",
     "path": "skills/public/bootstrap",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25401,7 +25490,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25420,7 +25509,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25428,7 +25517,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/code-documentation",
     "compatibility": null,
     "description": "Use this skill when the user requests to generate, create, or improve documentation for code, APIs, libraries, repositories, or software projects. Supports README generation, API reference documentation, inline code comments, architecture documentation, changelog generation, and developer guides. Trigger on requests like \"document this code\", \"create a README\", \"generate API docs\", \"write developer guide\", or when analyzing codebases for documentation purposes.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "documentation",
@@ -25461,16 +25550,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 1
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "code-documentation",
     "path": "skills/public/code-documentation",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25481,7 +25570,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25500,7 +25589,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25508,7 +25597,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/consulting-analysis",
     "compatibility": null,
     "description": "Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases — (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "content",
@@ -25541,16 +25630,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 1
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "consulting-analysis",
     "path": "skills/public/consulting-analysis",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25561,7 +25650,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25580,7 +25669,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25588,7 +25677,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/deep-research",
     "compatibility": null,
     "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "research",
@@ -25621,16 +25710,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 1
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "deep-research",
     "path": "skills/public/deep-research",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25641,7 +25730,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25660,7 +25749,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25668,7 +25757,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/frontend-design",
     "compatibility": null,
     "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "design",
@@ -25700,16 +25789,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 2
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
     "name": "frontend-design",
     "path": "skills/public/frontend-design",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25720,7 +25809,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25739,7 +25828,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25747,7 +25836,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/newsletter-generation",
     "compatibility": null,
     "description": "Use this skill when the user requests to generate, create, write, or draft a newsletter, email digest, weekly roundup, industry briefing, or curated content summary. Supports topic-based research, content curation from multiple sources, and professional formatting for email or web distribution. Trigger on requests like \"create a newsletter about X\", \"write a weekly digest\", \"generate a tech roundup\", or \"curate news about Y\".",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "content",
@@ -25780,16 +25869,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 1
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "newsletter-generation",
     "path": "skills/public/newsletter-generation",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25800,7 +25889,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25819,7 +25908,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25827,7 +25916,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/skill-reviewer",
     "compatibility": null,
     "description": "Reviews DeerFlow skill packages for readiness, triggers, safety boundaries, resources, and evidence. Invoke when users ask to audit, grade, or production-check an existing skill.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "research",
@@ -25860,16 +25949,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 13
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "skill-reviewer",
     "path": "skills/public/skill-reviewer",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25880,7 +25969,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25901,7 +25990,7 @@
         "allowed-tools should be a space-separated string"
       ]
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25909,7 +25998,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/surprise-me",
     "compatibility": null,
     "description": "Create a delightful, unexpected \"wow\" experience for the user by dynamically discovering and creatively combining other enabled skills. Triggers when the user says \"surprise me\" or any request expressing a desire for an unexpected creative showcase. Also triggers when the user is bored, wants inspiration, or asks for \"something interesting\".",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "design",
@@ -25941,16 +26030,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 1
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "surprise-me",
     "path": "skills/public/surprise-me",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25961,7 +26050,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -25980,7 +26069,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -25988,7 +26077,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/systematic-literature-review",
     "compatibility": null,
     "description": "Use this skill when the user wants a systematic literature review, survey, or synthesis across multiple academic papers on a topic. Also covers annotated bibliographies and cross-paper comparisons. Searches arXiv and outputs reports in APA, IEEE, or BibTeX format. Not for single-paper tasks — use academic-paper-review for reviewing one paper.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
     "evidence": {
       "categories": [
         "research",
@@ -26021,16 +26110,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 220.60132123842624,
       "tree_files_scanned": 4
     },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
+    "forks": 11356,
+    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "systematic-literature-review",
     "path": "skills/public/systematic-literature-review",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
+    "pushed_at": "2026-09-13T09:08:33+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -26041,7 +26130,7 @@
       "scripts": 1
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -26060,91 +26149,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82289
-  },
-  {
-    "allowed_tools": [],
-    "archived": false,
-    "canonical_key": "bytedance/deer-flow:skills/public/web-design-guidelines",
-    "compatibility": null,
-    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
-    "evidence": {
-      "categories": [
-        "design",
-        "legal-compliance",
-        "engineering",
-        "security",
-        "content",
-        "research"
-      ],
-      "client_compatibility_evidence": {},
-      "duplicate_of": null,
-      "manifest": "https://github.com/bytedance/deer-flow/blob/main/skills/public/web-design-guidelines/SKILL.md",
-      "qualification": {
-        "blocking_reasons": [],
-        "checks": {
-          "active-source": true,
-          "behavioral-safety": true,
-          "duplicate": true,
-          "instruction-depth": true,
-          "license": true,
-          "portability": true,
-          "resource-integrity": true,
-          "script-verification": true,
-          "spec-validity": true,
-          "static-security": true
-        },
-        "policy_version": 1,
-        "qualified": true
-      },
-      "repo_has_readme": true,
-      "repo_has_tests": true,
-      "source_tier": "community",
-      "star_velocity_7d": 0.0,
-      "tree_files_scanned": 1
-    },
-    "forks": 11345,
-    "indexed_at": "2026-09-11T23:39:20.634091+00:00",
-    "license": "MIT",
-    "metadata": {
-      "argument-hint": "<file-or-pattern>",
-      "author": "vercel",
-      "version": "1.0.0"
-    },
-    "name": "web-design-guidelines",
-    "path": "skills/public/web-design-guidelines",
-    "pushed_at": "2026-09-11T23:35:08+00:00",
-    "repo_default_branch": "main",
-    "repo_full_name": "bytedance/deer-flow",
-    "repo_url": "https://github.com/bytedance/deer-flow",
-    "resources": {
-      "assets": 0,
-      "other": 0,
-      "references": 0,
-      "scripts": 0
-    },
-    "score": {
-      "adoption": 80,
-      "maintenance": 100,
-      "overall": 100,
-      "quality": 93,
-      "reasons": [
-        "Repository includes test evidence.",
-        "Repository declares license MIT."
-      ],
-      "security": 100
-    },
-    "security": {
-      "findings": [],
-      "score": 100
-    },
-    "spec": {
-      "errors": [],
-      "valid": true,
-      "warnings": []
-    },
-    "stars": 82289
+    "stars": 82333
   },
   {
     "allowed_tools": [],
@@ -29452,12 +29457,12 @@
       "tree_files_scanned": 1
     },
     "forks": 8,
-    "indexed_at": "2026-09-12T01:39:32.341237+00:00",
+    "indexed_at": "2026-09-13T08:14:09.515344+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "golden-three-chapters",
     "path": "src/core/ai/skills/builtin/golden-three-chapters",
-    "pushed_at": "2026-09-12T01:31:02+00:00",
+    "pushed_at": "2026-09-13T08:09:42+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chen647208/hongyue-creation",
     "repo_url": "https://github.com/chen647208/hongyue-creation",
@@ -29526,12 +29531,12 @@
       "tree_files_scanned": 1
     },
     "forks": 8,
-    "indexed_at": "2026-09-12T01:39:32.341237+00:00",
+    "indexed_at": "2026-09-13T08:14:09.515344+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "snowflake",
     "path": "src/core/ai/skills/builtin/snowflake",
-    "pushed_at": "2026-09-12T01:31:02+00:00",
+    "pushed_at": "2026-09-13T08:09:42+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chen647208/hongyue-creation",
     "repo_url": "https://github.com/chen647208/hongyue-creation",
@@ -53184,12 +53189,12 @@
       "tree_files_scanned": 8
     },
     "forks": 0,
-    "indexed_at": "2026-09-13T01:00:16.712036+00:00",
+    "indexed_at": "2026-09-12T23:16:55.549533+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-implementor",
     "path": "skills/re-frame2-implementor",
-    "pushed_at": "2026-09-13T00:56:01+00:00",
+    "pushed_at": "2026-09-12T23:09:15+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -55664,6 +55669,88 @@
       "warnings": []
     },
     "stars": 224
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dglazkov/isocan:.agents/skills/isocan-collab",
+    "compatibility": null,
+    "description": "Collaborate on an isocan canvas as a visible agent — address comments, build/edit items, and run the wait-driven feedback loop via the isocan CLI. Use when asked to work on a canvas, address canvas comments, \"park\" and wait for feedback, or run a canvas session. Triggers on \"isocan\", \"canvas comments\", \"park on the canvas\", \"address my comments\".",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/dglazkov/isocan/blob/main/.agents/skills/isocan-collab/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 5,
+    "indexed_at": "2026-09-13T01:00:45.522903+00:00",
+    "license": "Apache-2.0",
+    "metadata": {},
+    "name": "isocan-collab",
+    "path": ".agents/skills/isocan-collab",
+    "pushed_at": "2026-09-13T00:55:49+00:00",
+    "repo_default_branch": "main",
+    "repo_full_name": "dglazkov/isocan",
+    "repo_url": "https://github.com/dglazkov/isocan",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 27,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license Apache-2.0."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
   },
   {
     "allowed_tools": [],
@@ -60682,6 +60769,3610 @@
     "stars": 2
   },
   {
+    "allowed_tools": [
+      "Read",
+      "Write",
+      "Grep",
+      "Glob",
+      "Bash"
+    ],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/differential-review",
+    "compatibility": null,
+    "description": "Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions.\n",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "content",
+        "testing",
+        "documentation",
+        "research"
+      ],
+      "client_compatibility_evidence": {
+        "OpenAI Codex": [
+          "agents/openai.yaml metadata is present"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/differential-review/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "differential-review",
+    "path": "skills/differential-review",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 1,
+      "other": 5,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/dithered",
+    "compatibility": null,
+    "description": "Dot-pattern rendering technique that simulates shades with a limited palette for nostalgic, retro, high-contrast visuals.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/dithered/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "dithered",
+    "path": "skills/dithered",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/doodle",
+    "compatibility": null,
+    "description": "Hand-drawn, sketch-like style with doodles, handwritten fonts, and imperfect lines for a playful, informal feel.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/doodle/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "doodle",
+    "path": "skills/doodle",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/dramatic",
+    "compatibility": null,
+    "description": "High-contrast, theatrical design with bold layouts, immersive visuals, and unconventional compositions that command attention.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/dramatic/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "dramatic",
+    "path": "skills/dramatic",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/editorial",
+    "compatibility": null,
+    "description": "Magazine-inspired editorial layout with refined serif typography, structured grids, and elegant reading experiences.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/editorial/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "editorial",
+    "path": "skills/editorial",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/enterprise",
+    "compatibility": null,
+    "description": "Dark-themed cloud-platform aesthetic with modular grids, glass-like panels, and strong data hierarchy for productivity dashboards.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "productivity",
+        "data",
+        "devops",
+        "content",
+        "code-review"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/enterprise/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "enterprise",
+    "path": "skills/enterprise",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/evolve",
+    "compatibility": null,
+    "description": "Turns repetition AND correction into capability — the self-evolution engine of the Alfred Framework. Use when the user says \"evolve\", at the end of any substantial work session, whenever the user corrects, redirects or overrides you in a way that would generalise, and proactively whenever the same workflow, explanation, fix or prompt pattern has occurred 2+ times. Also fires when the user mentions observations, the observation log, cross-cutting principles, or asks what a session taught. Converts repeated work and corrected judgement into a permanent artifact so neither has to be re-derived.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "productivity",
+        "content",
+        "commerce",
+        "data",
+        "engineering",
+        "research"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/evolve/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "evolve",
+    "path": "skills/evolve",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/expressive",
+    "compatibility": null,
+    "description": "Vibrant, personality-driven design with bold colors, playful graphics, and dynamic layouts that balance creativity with structure.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/expressive/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "expressive",
+    "path": "skills/expressive",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/fantasy",
+    "compatibility": null,
+    "description": "Game-inspired fantasy aesthetic with bold, premium visuals, rich color palettes, and immersive thematic elements.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/fantasy/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "fantasy",
+    "path": "skills/fantasy",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/fiction",
+    "compatibility": null,
+    "description": "A playful, energetic, cartoonesque interface inspired by friendly children's-book illustrations — warm cream backgrounds, big bold custom display typography, saturated brand color blocks, thick black outlines, generously rounded shapes",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "marketing",
+        "content",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/fiction/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "fiction",
+    "path": "skills/fiction",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/firecrawl-build",
+    "compatibility": null,
+    "description": "Integrate Firecrawl into product code — credentials/SDK setup, and calling scrape, search, or interact from an application. Use when a project needs FIRECRAWL_API_KEY or an SDK installed, or when a feature must scrape a page, search the web, or drive a browser flow from code you are writing. Do NOT use for running Firecrawl yourself to research or fetch something — that is the firecrawl-cli plugin skill.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "content",
+        "engineering",
+        "product",
+        "research",
+        "commerce"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/firecrawl-build/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 8
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "ISC",
+    "metadata": {
+      "author": "firecrawl",
+      "consolidates": "firecrawl-build-onboarding, firecrawl-build-scrape, firecrawl-build-search, firecrawl-build-interact",
+      "homepage": "https://www.firecrawl.dev",
+      "version": "0.2.0"
+    },
+    "name": "firecrawl-build",
+    "path": "skills/firecrawl-build",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 7,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/flat",
+    "compatibility": null,
+    "description": "Two-dimensional minimalist style with vibrant colors, clean typography, and no 3D effects for fast, user-friendly interfaces.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/flat/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "flat",
+    "path": "skills/flat",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/friendly",
+    "compatibility": null,
+    "description": "Approachable, intuitive design with rounded elements, ample whitespace, and soft pastel color palettes.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/friendly/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "friendly",
+    "path": "skills/friendly",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/futuristic",
+    "compatibility": null,
+    "description": "Forward-looking design with tech-inspired typography, modern layouts, and a sleek, innovation-driven aesthetic.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/futuristic/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "futuristic",
+    "path": "skills/futuristic",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/geometric",
+    "compatibility": null,
+    "description": "Geometric, structured design with clean typography, neutral colors, precise shapes, and intuitive layouts that stay out of the way.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/geometric/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "geometric",
+    "path": "skills/geometric",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/glassmorphism",
+    "compatibility": null,
+    "description": "Frosted glass effect with translucent layers, subtle blur, and luminous borders for depth and modern elegance.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "mobile"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/glassmorphism/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "glassmorphism",
+    "path": "skills/glassmorphism",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/gradient",
+    "compatibility": null,
+    "description": "Smooth color transitions and gradient-rich surfaces for modern, playful interfaces with visual depth.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/gradient/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "gradient",
+    "path": "skills/gradient",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/graph-api-rest",
+    "compatibility": null,
+    "description": "Calls Microsoft Graph from PowerShell via raw REST (app-only client-credentials auth, pagination, throttling/retry) instead of the Microsoft.Graph SDK module. Use when the user asks to query or modify Entra ID / Azure AD / Graph API from a script, runbook, or Function App without installing the Graph SDK, or asks why REST is preferred over the SDK.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "security",
+        "content",
+        "data",
+        "documentation",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/graph-api-rest/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "graph-api-rest",
+    "path": "skills/graph-api-rest",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/image-to-code",
+    "compatibility": null,
+    "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "engineering",
+        "media",
+        "content",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/image-to-code/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "image-to-code",
+    "path": "skills/image-to-code",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/immersive",
+    "compatibility": null,
+    "description": "An immersive, interactive, exhibit-style interface that blends storytelling, animation, and gamified elements to create a playful, experience-driven journey. The entire app sits on a single continuous brand-colored canvas (deep green)",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "marketing",
+        "content",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/immersive/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "immersive",
+    "path": "skills/immersive",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/impeccable",
+    "compatibility": null,
+    "description": "A modern, graphic, editorial-poster aesthetic — warm and confident — built on alternating cream and burnt orange sections, an amber brand color.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "design",
+        "marketing",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/impeccable/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "impeccable",
+    "path": "skills/impeccable",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/k8s-manifest-generator",
+    "compatibility": null,
+    "description": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade Kubernetes configurations.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "devops",
+        "engineering",
+        "security",
+        "design",
+        "documentation",
+        "media"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/k8s-manifest-generator/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "k8s-manifest-generator",
+    "path": "skills/k8s-manifest-generator",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 3,
+      "other": 0,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/levels",
+    "compatibility": null,
+    "description": "Conversion-focused design that removes friction and guides users toward action through clarity, trust, and speed.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "marketing",
+        "content",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/levels/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "levels",
+    "path": "skills/levels",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/lingo",
+    "compatibility": null,
+    "description": "Playful, minimal design with bright colors, rounded shapes, tactile 3D borders, and friendly illustrations for approachable interfaces.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "product"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/lingo/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "lingo",
+    "path": "skills/lingo",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/material",
+    "compatibility": null,
+    "description": "Google's Material Design with layered surfaces, dynamic theming, built-in motion, and responsive cross-platform patterns.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/material/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "material",
+    "path": "skills/material",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/matrix",
+    "compatibility": null,
+    "description": "A cyber-slick, dark-only Matrix-inspired interface defined by minimalist fashion, high-tech digital elements",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "commerce",
+        "engineering",
+        "marketing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/matrix/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "matrix",
+    "path": "skills/matrix",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/minimal",
+    "compatibility": null,
+    "description": "Stripped-back design emphasizing whitespace, clean typography, and restrained color for maximum clarity and focus.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/minimal/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "minimal",
+    "path": "skills/minimal",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/modern",
+    "compatibility": null,
+    "description": "Contemporary editorial style with serif typography, minimal palettes, and clean layouts for polished digital products.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/modern/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "modern",
+    "path": "skills/modern",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/mono",
+    "compatibility": null,
+    "description": "Monospace-driven, matrix-inspired design with high-contrast elements, compact density, and a hacker-chic aesthetic.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "marketing",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/mono/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "mono",
+    "path": "skills/mono",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/neobrutalism",
+    "compatibility": null,
+    "description": "Modern take on brutalism with bold borders, vivid accent colors, and raw, high-contrast layouts on warm surfaces.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/neobrutalism/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "neobrutalism",
+    "path": "skills/neobrutalism",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/neon",
+    "compatibility": null,
+    "description": "Electric neon glow effects with high-contrast color pairings for bold, attention-grabbing interfaces.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/neon/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "neon",
+    "path": "skills/neon",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/neumorphism",
+    "compatibility": null,
+    "description": "Soft, extruded UI elements with inner and outer shadows on monochromatic surfaces for a tactile, embedded look.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "marketing",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/neumorphism/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "neumorphism",
+    "path": "skills/neumorphism",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/ollama-interns",
+    "compatibility": null,
+    "description": "Offloads token-burning grunt work to free local Ollama models (the \"interns\" tier) on the operator's local GPU (see ~/.claude/alfred-profile.md's Primary stack/tools for the specific hardware). Use when a subtask is a draft, summary, bulk classification, embedding, or mechanical text transform where a 4-9B local model is adequate and Claude API tokens would be wasted — especially inside loops over many files/items. Never for final code, architecture, or anything shipped unreviewed.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "ai-ml",
+        "agent-orchestration",
+        "architecture",
+        "security"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/ollama-interns/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "ollama-interns",
+    "path": "skills/ollama-interns",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/pacman",
+    "compatibility": null,
+    "description": "Retro arcade-inspired design with pixel fonts, dotted borders, playful high-contrast colors, and 8-bit game aesthetics.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/pacman/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "pacman",
+    "path": "skills/pacman",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/paper",
+    "compatibility": null,
+    "description": "Paper-textured, print-inspired design with minimal colors, clean serif/sans typography, and tactile surface qualities.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/paper/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "paper",
+    "path": "skills/paper",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/perspective",
+    "compatibility": null,
+    "description": "Spatial depth design with isometric views, vanishing points, and layered elements that guide attention through 3D-like realism.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/perspective/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "perspective",
+    "path": "skills/perspective",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [
+      "Bash(playwright-cli:*)",
+      "Bash(npx:*)",
+      "Bash(npm:*)"
+    ],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/playwright-cli",
+    "compatibility": null,
+    "description": "Automate browser interactions, test web pages and work with Playwright tests.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "browser-automation",
+        "testing",
+        "design",
+        "engineering",
+        "media",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/playwright-cli/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 10
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "playwright-cli",
+    "path": "skills/playwright-cli",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 9,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 93,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/postgresql",
+    "compatibility": null,
+    "description": "Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "data",
+        "content",
+        "security",
+        "ai-ml",
+        "commerce",
+        "design"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/postgresql/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "postgresql",
+    "path": "skills/postgresql",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/power",
+    "compatibility": null,
+    "description": "High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "marketing",
+        "content",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/power/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "power",
+    "path": "skills/power",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/premium",
+    "compatibility": null,
+    "description": "Apple-inspired premium aesthetic with precise spacing, modern typography, and a refined, polished visual language.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/premium/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "premium",
+    "path": "skills/premium",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/prior-art",
+    "compatibility": null,
+    "description": "Check whether something has already been built before building it. Searches GitHub via the gh CLI and API — never a browser — then judges each candidate on maintenance, licence and fit, and returns a verdict of ADOPT / ADAPT / BUILD with the evidence. Use before starting any new tool, skill, script, integration or framework; when the user asks \"has anyone done this\", \"is there a library for this\", \"should we build or borrow\"; or when a design is about to commit to a from-scratch implementation.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "hr-recruiting",
+        "browser-automation",
+        "design",
+        "research",
+        "content"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/prior-art/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "prior-art",
+    "path": "skills/prior-art",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": [
+        "allowed-tools should be a space-separated string"
+      ]
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/professional",
+    "compatibility": null,
+    "description": "Polished, business-ready design with modern typography, structured layouts, and a trustworthy visual identity.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "mobile"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/professional/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "professional",
+    "path": "skills/professional",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/project-note",
+    "compatibility": null,
+    "description": "Maintains the Alfred Brain project note lifecycle — reads or creates Projects/ProjectName.md from the vault template when starting work on a project, and updates its Current State section when finishing a session. Use at the start of any work session in a project under _Projects\\, and again before ending that session, to keep the vault's cross-session memory current.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "documentation",
+        "content",
+        "data",
+        "design",
+        "education"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/project-note/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "project-note",
+    "path": "skills/project-note",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
+    "allowed_tools": [],
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/ps-http-server",
+    "compatibility": null,
+    "description": "Stands up a lightweight PowerShell HttpListener web UI for a quick internal admin portal or dashboard, backed by Azure Table Storage or another data source — no Node/Python required. Use when the user wants a fast local admin tool, a proof-of-concept web UI in PowerShell, or asks how their Northwind-style admin portal pattern works.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "data",
+        "engineering",
+        "research",
+        "browser-automation"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/ps-http-server/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791+00:00",
+    "license": "MIT",
+    "metadata": {},
+    "name": "ps-http-server",
+    "path": "skills/ps-http-server",
+    "pushed_at": "2026-09-12T19:15:53+00:00",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  {
     "allowed_tools": [],
     "archived": false,
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor",
@@ -65394,7 +69085,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk",
     "compatibility": null,
     "description": "Clerk authentication router. Use when user asks about Clerk CLI operations, adding authentication, setting up Clerk, custom sign-in flows, Swift or native iOS auth, native Android auth, Next.js patterns, React patterns, Vue patterns, Nuxt patterns, Astro patterns, TanStack Start patterns, Expo patterns, React Router patterns, Chrome Extension patterns, organizations, billing, subscriptions, payments, pricing, plans, seat-based pricing, feature entitlements, syncing users, testing, impersonating a user, or testing webhooks locally. Automatically routes to the specific skill based on their task.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "mobile",
@@ -65438,14 +69129,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "version": "2.0.0"
     },
     "name": "clerk",
     "path": ".agents/skills/clerk",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -65485,7 +69176,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-astro-patterns",
     "compatibility": null,
     "description": "Astro patterns with Clerk — middleware, SSR pages, island components, API routes, static vs SSR rendering. Triggers on: astro clerk, clerk astro middleware, astro protected page, clerk island component, astro API route auth, clerk astro SSR.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -65527,7 +69218,7 @@
       "tree_files_scanned": 7
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -65535,7 +69226,7 @@
     },
     "name": "clerk-astro-patterns",
     "path": ".agents/skills/clerk-astro-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -65575,7 +69266,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-billing",
     "compatibility": "Requires NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY, CLERK_SECRET_KEY, and CLERK_WEBHOOK_SIGNING_SECRET. Billing must be enabled in Clerk Dashboard → Billing. Development instances can use the shared Clerk development gateway; production instances require a Stripe account for payment processing.",
     "description": "Clerk Billing for subscription management - render Clerk's PricingTable and in-app checkout drawer, configure subscription plans, seat-limit plans for B2B, feature entitlements with has(), and billing webhooks. Use for SaaS monetization, plan gating, checkout flows, trials, invoicing, and subscription lifecycle management.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "commerce",
@@ -65619,7 +69310,7 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -65627,7 +69318,7 @@
     },
     "name": "clerk-billing",
     "path": ".agents/skills/clerk-billing",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -65667,7 +69358,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-chrome-extension-patterns",
     "compatibility": "Requires PLASMO_PUBLIC_CLERK_PUBLISHABLE_KEY (Plasmo prefix for public env vars) and CLERK_FRONTEND_API.",
     "description": "Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel setup, syncHost for OAuth/SAML via web app, createClerkClient for service workers and headless extensions, stable CRX ID. Triggers on: Chrome extension auth, Plasmo clerk, popup sign-in, syncHost, background service worker token, createClerkClient, headless extension.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "integrations",
@@ -65711,7 +69402,7 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -65720,7 +69411,7 @@
     },
     "name": "clerk-chrome-extension-patterns",
     "path": ".agents/skills/clerk-chrome-extension-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -65760,7 +69451,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-cli",
     "compatibility": null,
     "description": "Operate the Clerk CLI (`clerk` binary) for authentication, user/org/session management, impersonation, local webhook testing, deploy verification, instance config, env keys, feature toggles, and any Clerk Backend, Platform, or Frontend API call. Use when the user mentions Clerk management tasks, \"list clerk users\", \"impersonate a user\", \"test webhooks locally\", \"enable orgs\", \"enable billing\", \"clerk env pull\", \"clerk doctor\", \"clerk deploy\", \"clerk api\", or any ad-hoc Clerk API request. Prefer the CLI over raw HTTP: it handles auth, key resolution, app/instance targeting, and formatting automatically.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -65804,12 +69495,12 @@
       "tree_files_scanned": 4
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "clerk-cli",
     "path": ".agents/skills/clerk-cli",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -65849,7 +69540,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-custom-ui",
     "compatibility": null,
     "description": "Custom authentication flows and component appearance - hooks (useSignIn, useSignUp), themes, colors, fonts, CSS. Use for custom sign-in/sign-up flows, appearance styling, visual customization, branding.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -65893,7 +69584,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -65901,7 +69592,7 @@
     },
     "name": "clerk-custom-ui",
     "path": ".agents/skills/clerk-custom-ui",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -65941,7 +69632,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-expo",
     "compatibility": "Requires @clerk/expo v3.4+ (written against v3.6.x, July 2026). Expo SDK 53-56, React Native 0.75+.",
     "description": "Add Clerk authentication to Expo and React Native apps using @clerk/expo. Use for Expo setup, prebuilt native components (AuthView, UserButton), custom sign-in/sign-up flows (email, password, SMS/phone OTP, MFA), OAuth/SSO, native Google/Apple sign-in, Expo Router protected routes, biometrics, and push notifications. Do not use for native Swift/iOS, native Android/Kotlin, or web-only framework projects.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "mobile",
@@ -65985,7 +69676,7 @@
       "tree_files_scanned": 8
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -65993,7 +69684,7 @@
     },
     "name": "clerk-expo",
     "path": ".agents/skills/clerk-expo",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66033,7 +69724,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-nextjs-patterns",
     "compatibility": "Requires NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY. For manual JWT verification (standalone API servers without Clerk middleware), additionally requires CLERK_JWT_KEY or CLERK_PEM_PUBLIC_KEY.",
     "description": "Advanced Next.js patterns - middleware, Server Actions, caching with Clerk.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "data",
@@ -66077,7 +69768,7 @@
       "tree_files_scanned": 7
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66085,7 +69776,7 @@
     },
     "name": "clerk-nextjs-patterns",
     "path": ".agents/skills/clerk-nextjs-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66125,7 +69816,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-nuxt-patterns",
     "compatibility": null,
     "description": "Nuxt 3 auth patterns with @clerk/nuxt - middleware, composables, server API routes, SSR. Triggers on: Nuxt auth, useAuth composable, clerkMiddleware Nuxt, server API Clerk, Nuxt route protection.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -66167,7 +69858,7 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66175,7 +69866,7 @@
     },
     "name": "clerk-nuxt-patterns",
     "path": ".agents/skills/clerk-nuxt-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66215,7 +69906,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-orgs",
     "compatibility": "Requires NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY. Organizations must be enabled in Clerk Dashboard → Organizations. Membership mode (required vs optional) must match the B2B vs B2C + B2B coexistence story of your app.",
     "description": "Clerk Organizations for B2B SaaS - create multi-tenant apps with org switching, role-based access, verified domains, and enterprise SSO. Use for team workspaces, RBAC, org-based routing, member management.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -66259,7 +69950,7 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66267,7 +69958,7 @@
     },
     "name": "clerk-orgs",
     "path": ".agents/skills/clerk-orgs",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66307,7 +69998,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-react-patterns",
     "compatibility": null,
     "description": "React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider setup, useAuth/useUser/useClerk hooks, React Router protected routes, custom sign-in flows. Triggers on: Vite Clerk setup, React Router auth, useAuth hook, protected route, custom sign-in form React.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "data",
@@ -66351,7 +70042,7 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66359,7 +70050,7 @@
     },
     "name": "clerk-react-patterns",
     "path": ".agents/skills/clerk-react-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66399,7 +70090,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-react-router-patterns",
     "compatibility": null,
     "description": "React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders, clerkMiddleware, protected routes, SSR user data, org switching. Triggers on: react-router auth, rootAuthLoader, getAuth loader, react-router protected route, loader authentication, SSR auth react-router, useNavigate may be used only in the context of a Router.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "data",
@@ -66443,7 +70134,7 @@
       "tree_files_scanned": 5
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66451,7 +70142,7 @@
     },
     "name": "clerk-react-router-patterns",
     "path": ".agents/skills/clerk-react-router-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66491,7 +70182,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-setup",
     "compatibility": "Requires NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY (or framework-specific equivalents like VITE_CLERK_PUBLISHABLE_KEY for Vite-based apps). Keys can be auto-generated via Keyless on first SDK initialization, or pulled from the Clerk Dashboard. Requires Node.js 20.9.0 or higher.",
     "description": "Add Clerk authentication to any project by following the official quickstart guides.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -66535,7 +70226,7 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66543,7 +70234,7 @@
     },
     "name": "clerk-setup",
     "path": ".agents/skills/clerk-setup",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66583,7 +70274,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-swift",
     "compatibility": "Requires Xcode and ClerkKit Swift package",
     "description": "Implement Clerk authentication for native Swift and iOS apps using ClerkKit and ClerkKitUI source-guided patterns. Use for prebuilt AuthView or custom native flows. Do not use for Expo or React Native projects.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "mobile",
@@ -66627,7 +70318,7 @@
       "tree_files_scanned": 3
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66635,7 +70326,7 @@
     },
     "name": "clerk-swift",
     "path": ".agents/skills/clerk-swift",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66675,7 +70366,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-tanstack-patterns",
     "compatibility": null,
     "description": "TanStack React Start auth patterns with @clerk/tanstack-react-start - createServerFn, beforeLoad guards, loaders, Vinxi server. Triggers on: TanStack auth, createServerFn clerk, beforeLoad protection, TanStack Start middleware.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "browser-automation",
@@ -66717,7 +70408,7 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66725,7 +70416,7 @@
     },
     "name": "clerk-tanstack-patterns",
     "path": ".agents/skills/clerk-tanstack-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66765,7 +70456,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-testing",
     "compatibility": "Requires CLERK_TESTING_TOKEN from Clerk dashboard",
     "description": "E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "testing",
@@ -66809,7 +70500,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66817,7 +70508,7 @@
     },
     "name": "clerk-testing",
     "path": ".agents/skills/clerk-testing",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
@@ -66857,7 +70548,7 @@
     "canonical_key": "gizziio/allternit-platform:.agents/skills/clerk-vue-patterns",
     "compatibility": null,
     "description": "Vue 3 patterns with Clerk — composables (useAuth, useUser, useClerk, useOrganization), Vue Router guards, Pinia auth store integration. Triggers on: vue clerk, useAuth vue, clerk composables, vue router clerk guard, pinia auth clerk. For Nuxt, use clerk-nuxt-patterns instead.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "integrations",
@@ -66900,7 +70591,7 @@
       "tree_files_scanned": 5
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T19:21:02.723467+00:00",
+    "indexed_at": "2026-09-13T05:36:35.467082+00:00",
     "license": "MIT",
     "metadata": {
       "author": "clerk",
@@ -66908,7 +70599,7 @@
     },
     "name": "clerk-vue-patterns",
     "path": ".agents/skills/clerk-vue-patterns",
-    "pushed_at": "2026-09-12T19:15:43+00:00",
+    "pushed_at": "2026-09-13T05:28:27+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Gizziio/allternit-platform",
     "repo_url": "https://github.com/Gizziio/allternit-platform",
