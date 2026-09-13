@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **899**
+Published skills: **900**
 Repositories: **95**
 
 ## Browse repositories
@@ -730,6 +730,7 @@ Repositories: **95**
 - [dpop-adoption](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dpop-adoption/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dpop-adoption`
 - [finding-google-skills](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finding-google-skills/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finding-google-skills`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
+- [gcloud](./skills/danfashauer/signalgrid-review-hub/.claude/skills/gcloud/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/gcloud`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
 - [receiving-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/receiving-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/receiving-code-review`
 - [requesting-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/requesting-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/requesting-code-review`
