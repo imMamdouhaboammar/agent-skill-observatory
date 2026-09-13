@@ -346,3 +346,11 @@ def test_gitguardian_configuration_ignores_catalog_data() -> None:
     assert 'data/catalog.csv' in content
 
 
+def test_merge_bot_supports_ignored_check_names_for_non_required_checks() -> None:
+    workflow = _read(MERGE_BOT)
+
+    assert "IGNORED_CHECK_NAMES" in workflow
+    assert "!ignoredCheckNames.has(run.name)" in workflow
+
+
+
