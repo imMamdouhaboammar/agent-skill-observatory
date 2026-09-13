@@ -1,7 +1,7 @@
 # Agent Skill Observatory Directory
 
-Published skills: **916**
-Repositories: **95**
+Published skills: **917**
+Repositories: **96**
 
 ## Browse repositories
 
@@ -57,6 +57,7 @@ Repositories: **95**
 - [benjaminstelzer/scoville-ui-anti-ai-slop](./repos/benjaminstelzer/scoville-ui-anti-ai-slop.md)
 - [boardx/workspacex](./repos/boardx/workspacex.md)
 - [bossmiizlol/ai-workflow](./repos/bossmiizlol/ai-workflow.md)
+- [brightstar-0813/WorkSphere](./repos/brightstar-0813/WorkSphere.md)
 - [buildd-ai/buildd](./repos/buildd-ai/buildd.md)
 - [bunhine0452/Ocul-PM](./repos/bunhine0452/Ocul-PM.md)
 - [bytedance/deer-flow](./repos/bytedance/deer-flow.md)
@@ -420,6 +421,7 @@ Repositories: **95**
 - [junior-to-senior](./skills/bossmiizlol/ai-workflow/skills/shared/junior-to-senior/README.md) · `bossmiizlol/ai-workflow:skills/shared/junior-to-senior`
 - [last-20-percent](./skills/bossmiizlol/ai-workflow/skills/shared/last-20-percent/README.md) · `bossmiizlol/ai-workflow:skills/shared/last-20-percent`
 - [test-driven-development](./skills/bossmiizlol/ai-workflow/skills/shared/test-driven-development/README.md) · `bossmiizlol/ai-workflow:skills/shared/test-driven-development`
+- [prisma-postgres-setup](./skills/brightstar-0813/worksphere/.agents/skills/prisma-postgres-setup/README.md) · `brightstar-0813/worksphere:.agents/skills/prisma-postgres-setup`
 - [ben-code-quality](./skills/bryanharrisscripts/plotpickle/.agents/skills/ben-code-quality/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/ben-code-quality`
 - [buzz-guildhall-reporting](./skills/bryanharrisscripts/plotpickle/.agents/skills/buzz-guildhall-reporting/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/buzz-guildhall-reporting`
 - [character-visual-development](./skills/bryanharrisscripts/plotpickle/.agents/skills/character-visual-development/README.md) · `bryanharrisscripts/plotpickle:.agents/skills/character-visual-development`

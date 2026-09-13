@@ -1,0 +1,102 @@
+{
+  "analysis_fingerprint": "6e86c5037e79d6bdc2bd01d67e48dae16c44a4d8a8762b0516d34c38164de84c",
+  "canonical_key": "brightstar-0813/worksphere:.agents/skills/prisma-postgres-setup",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6e86c5037e79d6bdc2bd01d67e48dae16c44a4d8a8762b0516d34c38164de84c",
+    "archived": false,
+    "canonical_key": "brightstar-0813/worksphere:.agents/skills/prisma-postgres-setup",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "39693cabe74943b36d797c3a56dee2eca0cb1a0dc23a33c1fc26afdbd6421474",
+    "description": "Set up a new Prisma Postgres database and connect it to a local project using the Management API. Use when asked to \"set up a database\", \"create a Prisma Postgres project\", \"get a connection string\", \"connect my app to Prisma Postgres\", or \"provision a database\".",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "data",
+        "content",
+        "design",
+        "productivity",
+        "browser-automation"
+      ],
+      "client_compatibility_evidence": {
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .agents/skills"
+        ],
+        "OpenAI Codex": [
+          "skill stored under the cross-client .agents/skills path"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/brightstar-0813/WorkSphere/blob/main/.agents/skills/prisma-postgres-setup/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": false,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 5
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T05:35:55.472415Z",
+    "last_successful_repo_scan_at": "2026-09-13T05:35:55.472415Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "prisma",
+      "version": "1.1.0"
+    },
+    "name": "prisma-postgres-setup",
+    "path": ".agents/skills/prisma-postgres-setup",
+    "pushed_at": "2026-09-13T05:28:38Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "brightstar-0813/WorkSphere",
+    "repo_url": "https://github.com/brightstar-0813/WorkSphere",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 4,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 10,
+      "maintenance": 100,
+      "overall": 96,
+      "quality": 92,
+      "reasons": [
+        "No repository license detected."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "4fa2c5208b82e64674e6593fd9f9426a02774ecd4c8789a59bb1a18b1e96a982",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 0
+  },
+  "source_fingerprint": "4fa2c5208b82e64674e6593fd9f9426a02774ecd4c8789a59bb1a18b1e96a982"
+}
