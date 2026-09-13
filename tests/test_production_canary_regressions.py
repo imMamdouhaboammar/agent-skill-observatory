@@ -118,9 +118,16 @@ def test_publish_event_accepts_github_line_wrapped_base64_content() -> None:
     assert result.commit_sha == "C"
 
 
-def test_publication_workflows_propagate_failures_through_tee() -> None:
-    for name in ["refresh.yml", "bootstrap-catalog.yml"]:
-        text = Path(f".github/workflows/{name}").read_text(encoding="utf-8")
-        assert "set -o pipefail" in text
-        assert "skillobs publish-events" in text
-        assert "| tee .cache/publication-report.json" in text
+def test_refresh_publication_propagates_failures_through_tee() -> None:
+    text = Path(".github/workflows/refresh.yml").read_text(encoding="utf-8")
+    assert "set -o pipefail" in text
+    assert "skillobs publish-events-local" in text
+    assert "| tee .cache/publication-report.json" in text
+
+
+def test_bootstrap_delegates_instead_of_running_an_independent_publisher() -> None:
+    text = Path(".github/workflows/bootstrap-catalog.yml").read_text(encoding="utf-8")
+    assert "set -o pipefail" in text
+    assert "gh workflow run refresh.yml" in text
+    assert "skillobs publish-events" not in text
+    assert "git push" not in text

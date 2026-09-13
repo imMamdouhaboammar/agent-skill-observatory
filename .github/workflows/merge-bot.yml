@@ -1,0 +1,521 @@
+name: Patch Merge Bot
+
+on:
+  workflow_run:
+    workflows:
+      - CI
+      - CodeQL
+      - Dependency Review
+      - Agent Skills Lint
+      - ChatGPT & Codex Plugin Autopilot
+    types: [completed]
+  pull_request_review:
+    types: [submitted, dismissed]
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Bot patch PR number to re-evaluate
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  checks: read
+  statuses: read
+  pull-requests: read
+
+concurrency:
+  group: patch-merge-gate
+  cancel-in-progress: false
+
+jobs:
+  merge-gate:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'pull_request_review' ||
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.event == 'pull_request')
+    steps:
+      - name: Create dedicated merge bot token
+        id: merge-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.MERGE_BOT_APP_ID }}
+          private-key: ${{ secrets.MERGE_BOT_PRIVATE_KEY }}
+          permission-administration: read
+          permission-contents: write
+          permission-pull-requests: write
+          permission-checks: read
+          permission-statuses: read
+
+      - name: Revalidate gates and merge exact reviewed SHA
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          REQUIRED_REVIEW_CHECKS: ${{ vars.REQUIRED_REVIEW_CHECKS || 'Gitar@827041' }}
+          EXPECTED_PATCH_AUTHOR_LOGIN: ${{ vars.PATCH_AUTHOR_LOGIN || 'imMamdouhaboammar' }}
+          EXPECTED_PATCH_AUTHOR_EMAIL: ${{ vars.PATCH_AUTHOR_EMAIL || '58908124+imMamdouhaboammar@users.noreply.github.com' }}
+          EXPECTED_PATCH_SIGNING_PUBLIC_KEY: ${{ vars.PATCH_SIGNING_PUBLIC_KEY }}
+          PUBLICATION_RULESET_NAME: ${{ vars.PUBLICATION_RULESET_NAME || 'Agent Skill Publication Gate' }}
+          REQUIRED_CHECK_INTEGRATION_ID: ${{ vars.REQUIRED_CHECK_INTEGRATION_ID || '15368' }}
+        with:
+          github-token: ${{ steps.merge-token.outputs.token }}
+          script: |
+            const fs = require('fs');
+            const os = require('os');
+            const path = require('path');
+            const { spawnSync } = require('child_process');
+            const { owner, repo } = context.repo;
+            const staleMarker = '<!-- skillobs-close-reason: stale-base -->';
+
+            const releaseCheckNames = [
+              'verify (3.11)',
+              'verify (3.12)',
+              'verify (3.13)',
+              'analyze',
+              'dependency-review',
+              'skills-lint',
+              'autopilot',
+            ];
+            const actionsIntegrationId = Number(process.env.REQUIRED_CHECK_INTEGRATION_ID || 0);
+            if (!actionsIntegrationId) {
+              core.setFailed('REQUIRED_CHECK_INTEGRATION_ID must be a non-zero GitHub App ID.');
+              return;
+            }
+
+            function parseReviewCheckSpecs(raw) {
+              const specs = [];
+              for (const token of String(raw || '').split(',').map((value) => value.trim()).filter(Boolean)) {
+                const separator = token.lastIndexOf('@');
+                const contextName = separator > 0 ? token.slice(0, separator).trim() : '';
+                const integrationId = separator > 0 ? Number(token.slice(separator + 1)) : 0;
+                if (!contextName || !integrationId) {
+                  core.setFailed(`Invalid REQUIRED_REVIEW_CHECKS entry: ${token}. Expected check-name@app-id.`);
+                  return null;
+                }
+                specs.push({ context: contextName, integrationId, kind: 'review' });
+              }
+              if (specs.length === 0) {
+                core.setFailed('At least one REQUIRED_REVIEW_CHECKS entry is required.');
+                return null;
+              }
+              return specs;
+            }
+
+            const reviewCheckSpecs = parseReviewCheckSpecs(process.env.REQUIRED_REVIEW_CHECKS);
+            if (!reviewCheckSpecs) return;
+            const releaseCheckSpecs = releaseCheckNames.map((contextName) => ({
+              context: contextName,
+              integrationId: actionsIntegrationId,
+              kind: 'release',
+            }));
+            const requiredCheckSpecs = [...releaseCheckSpecs, ...reviewCheckSpecs];
+
+            function checkKey(contextName, integrationId) {
+              return `${contextName}@${integrationId}`;
+            }
+
+            async function resolvePrNumber() {
+              if (context.eventName === 'pull_request_review') {
+                return context.payload.pull_request?.number;
+              }
+              if (context.eventName === 'workflow_run') {
+                return context.payload.workflow_run?.pull_requests?.[0]?.number;
+              }
+              if (context.eventName === 'workflow_dispatch') {
+                return Number(context.payload.inputs?.pr_number || 0);
+              }
+              if (context.eventName === 'schedule') {
+                const pulls = await github.paginate(github.rest.pulls.list, {
+                  owner,
+                  repo,
+                  state: 'open',
+                  base: 'main',
+                  per_page: 100,
+                });
+                const patchPulls = pulls.filter(
+                  (pull) => pull.head?.repo?.full_name === `${owner}/${repo}` && pull.head?.ref?.startsWith('bot/patch/')
+                );
+                if (patchPulls.length > 1) {
+                  core.setFailed(`Publication queue invariant failed: found ${patchPulls.length} open bot patch PRs.`);
+                  return 0;
+                }
+                return patchPulls[0]?.number || 0;
+              }
+              return 0;
+            }
+
+            function normalizeSshPublicKey(raw) {
+              const line = String(raw || '')
+                .split(/\r?\n/)
+                .map((value) => value.trim())
+                .find(Boolean);
+              if (!line) return '';
+              const parts = line.split(/\s+/);
+              if (parts.length < 2 || !parts[0].startsWith('ssh-')) return '';
+              return `${parts[0]} ${parts[1]}`;
+            }
+
+            function refPatternMatches(pattern, refName) {
+              if (pattern === '~DEFAULT_BRANCH') return refName === 'refs/heads/main';
+              if (pattern === '~ALL') return true;
+              if (typeof pattern !== 'string' || !pattern.startsWith('refs/')) return false;
+              let regex = '^';
+              const special = '\\.^$+()[]{}|';
+              for (let index = 0; index < pattern.length; index += 1) {
+                const character = pattern[index];
+                if (character === '*') {
+                  if (pattern[index + 1] === '*') {
+                    regex += '.*';
+                    index += 1;
+                  } else {
+                    regex += '[^/]*';
+                  }
+                } else if (character === '?') {
+                  regex += '[^/]';
+                } else if (special.includes(character)) {
+                  regex += `\\${character}`;
+                } else {
+                  regex += character;
+                }
+              }
+              regex += '$';
+              return new RegExp(regex).test(refName);
+            }
+
+            async function activeChangeRequests(pull_number) {
+              const reviews = await github.paginate(github.rest.pulls.listReviews, {
+                owner,
+                repo,
+                pull_number,
+                per_page: 100,
+              });
+              const latestDecisiveByReviewer = new Map();
+              for (const review of reviews) {
+                const login = (review.user?.login || '').toLowerCase();
+                if (!login) continue;
+                if (review.state === 'DISMISSED') {
+                  latestDecisiveByReviewer.delete(login);
+                  continue;
+                }
+                if (review.state === 'APPROVED' || review.state === 'CHANGES_REQUESTED') {
+                  latestDecisiveByReviewer.set(login, {
+                    state: review.state,
+                    commitId: review.commit_id || '',
+                  });
+                }
+              }
+              return [...latestDecisiveByReviewer.entries()]
+                .filter(([, value]) => value.state === 'CHANGES_REQUESTED')
+                .map(([login, value]) => ({ login, commitId: value.commitId }));
+            }
+
+            async function enforceServerPolicy() {
+              const { data: repository } = await github.rest.repos.get({ owner, repo });
+              if (repository.allow_merge_commit !== true) {
+                core.setFailed('Repository setting gate failed: Allow merge commits must be enabled.');
+                return false;
+              }
+
+              const rulesetName = (process.env.PUBLICATION_RULESET_NAME || '').trim();
+              if (!rulesetName) {
+                core.setFailed('PUBLICATION_RULESET_NAME must be configured.');
+                return false;
+              }
+              const { data: summaries } = await github.request('GET /repos/{owner}/{repo}/rulesets', { owner, repo });
+              const summary = summaries.find((item) => item.name === rulesetName);
+              if (!summary) {
+                core.setFailed(`Server-side merge gate missing: ruleset "${rulesetName}" was not found.`);
+                return false;
+              }
+              const { data: ruleset } = await github.request(
+                'GET /repos/{owner}/{repo}/rulesets/{ruleset_id}',
+                { owner, repo, ruleset_id: summary.id }
+              );
+              if (ruleset.enforcement !== 'active' || ruleset.target !== 'branch') {
+                core.setFailed(`Ruleset "${rulesetName}" must be an active branch ruleset.`);
+                return false;
+              }
+              const includedRefs = ruleset.conditions?.ref_name?.include || [];
+              const excludedRefs = ruleset.conditions?.ref_name?.exclude || [];
+              const mainRefName = 'refs/heads/main';
+              const targetsMain = includedRefs.some((pattern) => refPatternMatches(pattern, mainRefName));
+              const excludesMain = excludedRefs.some((pattern) => refPatternMatches(pattern, mainRefName));
+              if (!targetsMain || excludesMain) {
+                core.setFailed(`Ruleset "${rulesetName}" must effectively apply to main/default branch after include/exclude pattern evaluation.`);
+                return false;
+              }
+              if ((ruleset.bypass_actors || []).length !== 0) {
+                core.setFailed(`Ruleset "${rulesetName}" must have no bypass actors, including the merge bot.`);
+                return false;
+              }
+
+              const rules = ruleset.rules || [];
+              if (rules.some((rule) => rule.type === 'required_linear_history')) {
+                core.setFailed(`Ruleset "${rulesetName}" cannot require linear history because signed patch commits must be preserved.`);
+                return false;
+              }
+              const statusRule = rules.find((rule) => rule.type === 'required_status_checks');
+              const pullRequestRule = rules.find((rule) => rule.type === 'pull_request');
+              if (!statusRule || !pullRequestRule) {
+                core.setFailed(`Ruleset "${rulesetName}" must require status checks and pull requests.`);
+                return false;
+              }
+              if (statusRule.parameters?.strict_required_status_checks_policy !== true) {
+                core.setFailed(`Ruleset "${rulesetName}" must require branches to be up to date before merge.`);
+                return false;
+              }
+              const serverChecks = statusRule.parameters?.required_status_checks || [];
+              const missingServerChecks = requiredCheckSpecs.filter((spec) => {
+                const match = serverChecks.find((item) => item.context === spec.context);
+                return !match || Number(match.integration_id || 0) !== spec.integrationId;
+              });
+              if (missingServerChecks.length) {
+                core.setFailed(
+                  `Ruleset "${rulesetName}" is missing app-pinned checks: ${missingServerChecks.map((spec) => checkKey(spec.context, spec.integrationId)).join(', ')}`
+                );
+                return false;
+              }
+
+              const reviewParams = pullRequestRule.parameters || {};
+              const allowedMergeMethods = [...new Set(reviewParams.allowed_merge_methods || [])].sort();
+              if (allowedMergeMethods.length !== 1 || allowedMergeMethods[0] !== 'merge') {
+                core.setFailed(`Ruleset "${rulesetName}" must allow only the normal merge method so the signed patch commit cannot be replaced.`);
+                return false;
+              }
+              if (
+                reviewParams.dismiss_stale_reviews_on_push !== true ||
+                reviewParams.required_review_thread_resolution !== true
+              ) {
+                core.setFailed(
+                  `Ruleset "${rulesetName}" must dismiss stale reviews and require review-thread resolution.`
+                );
+                return false;
+              }
+              return true;
+            }
+
+            const pull_number = await resolvePrNumber();
+            if (!pull_number) {
+              core.info('No bot patch pull request is associated with this event.');
+              return;
+            }
+
+            const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number });
+            const headSha = pr.head.sha;
+            const headBranch = pr.head.ref;
+            if (pr.state !== 'open' || pr.draft || pr.base.ref !== 'main' || !headBranch.startsWith('bot/patch/')) {
+              core.info(`PR #${pull_number} is not an eligible open bot patch targeting main.`);
+              return;
+            }
+            if (pr.head.repo?.full_name !== `${owner}/${repo}`) {
+              core.setFailed('Bot patch PR must originate from the same repository.');
+              return;
+            }
+
+            const commits = await github.paginate(github.rest.pulls.listCommits, {
+              owner,
+              repo,
+              pull_number,
+              per_page: 100,
+            });
+            if (commits.length !== 1 || commits[0].sha !== headSha) {
+              core.setFailed(`Atomicity gate failed: expected exactly one current-head commit, found ${commits.length}.`);
+              return;
+            }
+
+            const { data: headCommit } = await github.rest.repos.getCommit({ owner, repo, ref: headSha });
+            const { data: mainRef } = await github.rest.git.getRef({ owner, repo, ref: 'heads/main' });
+            const parentSha = headCommit.parents?.length === 1 ? headCommit.parents[0].sha : '';
+            if (!parentSha || parentSha !== mainRef.object.sha) {
+              const currentBody = pr.body || '';
+              const staleBody = currentBody.includes(staleMarker)
+                ? currentBody
+                : `${currentBody.trimEnd()}\n\n${staleMarker}\n`;
+              await github.rest.pulls.update({ owner, repo, pull_number, body: staleBody, state: 'closed' });
+              try {
+                await github.rest.git.deleteRef({ owner, repo, ref: `heads/${headBranch}` });
+              } catch (error) {
+                core.warning(`Stale PR was closed but branch cleanup failed: ${error.message}`);
+              }
+              core.notice(
+                `Closed stale generated patch ${headSha}; it was based on ${parentSha || 'an invalid parent'} while main is ${mainRef.object.sha}.`
+              );
+              return;
+            }
+
+            const expectedLogin = (process.env.EXPECTED_PATCH_AUTHOR_LOGIN || '').trim().toLowerCase();
+            const expectedEmail = (process.env.EXPECTED_PATCH_AUTHOR_EMAIL || '').trim().toLowerCase();
+            const expectedPublicKey = normalizeSshPublicKey(process.env.EXPECTED_PATCH_SIGNING_PUBLIC_KEY || '');
+            if (!expectedLogin || !expectedEmail || !expectedPublicKey) {
+              core.setFailed('Expected patch author identity and PATCH_SIGNING_PUBLIC_KEY must be configured.');
+              return;
+            }
+            const authorLogin = (headCommit.author?.login || '').toLowerCase();
+            const authorEmail = (headCommit.commit.author?.email || '').toLowerCase();
+            const committerEmail = (headCommit.commit.committer?.email || '').toLowerCase();
+            const verification = headCommit.commit.verification;
+            if (authorLogin !== expectedLogin || authorEmail !== expectedEmail || committerEmail !== expectedEmail) {
+              core.setFailed(
+                `Attribution gate failed: expected ${expectedLogin}/${expectedEmail}; found login=${authorLogin || 'unmapped'}, author=${authorEmail || 'missing'}, committer=${committerEmail || 'missing'}.`
+              );
+              return;
+            }
+            if (!verification?.verified || !verification.signature || !verification.payload) {
+              core.setFailed(`Signature gate failed: commit ${headSha} is not fully Verified by GitHub (${verification?.reason || 'unknown reason'}).`);
+              return;
+            }
+
+            const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'skillobs-signature-'));
+            const signaturePath = path.join(tempDir, 'commit.sig');
+            const allowedSignersPath = path.join(tempDir, 'allowed_signers');
+            try {
+              fs.writeFileSync(signaturePath, `${verification.signature.trim()}\n`, { mode: 0o600 });
+              fs.writeFileSync(allowedSignersPath, `${expectedEmail} ${expectedPublicKey}\n`, { mode: 0o600 });
+              const keyVerification = spawnSync(
+                'ssh-keygen',
+                ['-Y', 'verify', '-f', allowedSignersPath, '-I', expectedEmail, '-n', 'git', '-s', signaturePath],
+                { input: verification.payload, encoding: 'utf8' }
+              );
+              if (keyVerification.status !== 0) {
+                core.setFailed(`Signing-key gate failed: signature does not validate against PATCH_SIGNING_PUBLIC_KEY. ${keyVerification.stderr || ''}`);
+                return;
+              }
+            } finally {
+              fs.rmSync(tempDir, { recursive: true, force: true });
+            }
+
+            if (!(await enforceServerPolicy())) return;
+
+            const checkRuns = await github.paginate(github.rest.checks.listForRef, {
+              owner,
+              repo,
+              ref: headSha,
+              per_page: 100,
+            });
+            const latestChecks = new Map();
+            for (const run of checkRuns) {
+              const key = checkKey(run.name, Number(run.app?.id || 0));
+              const previous = latestChecks.get(key);
+              if (!previous || run.id > previous.id) latestChecks.set(key, run);
+            }
+
+            for (const spec of releaseCheckSpecs) {
+              const run = latestChecks.get(checkKey(spec.context, spec.integrationId));
+              if (!run) {
+                core.info(`Required release check not registered yet: ${checkKey(spec.context, spec.integrationId)}`);
+                return;
+              }
+              if (run.status !== 'completed') {
+                core.info(`Required release check still running: ${spec.context}`);
+                return;
+              }
+              if (run.conclusion !== 'success') {
+                core.setFailed(`Required release check must succeed: ${spec.context}=${run.conclusion}`);
+                return;
+              }
+            }
+            for (const spec of reviewCheckSpecs) {
+              const run = latestChecks.get(checkKey(spec.context, spec.integrationId));
+              if (!run) {
+                core.info(`Required review-app check not registered yet: ${checkKey(spec.context, spec.integrationId)}`);
+                return;
+              }
+              if (run.status !== 'completed') {
+                core.info(`Required review-app check still running: ${spec.context}`);
+                return;
+              }
+              if (run.conclusion !== 'success') {
+                core.setFailed(`Required review-app check must succeed: ${spec.context}=${run.conclusion}`);
+                return;
+              }
+            }
+
+            const generalAccepted = new Set(['success', 'neutral', 'skipped']);
+            const selfCheckKey = checkKey('merge-gate', 15368);
+            const otherLatestChecks = [...latestChecks.entries()]
+              .filter(([key]) => key !== selfCheckKey)
+              .map(([, run]) => run);
+            const pendingChecks = otherLatestChecks.filter((run) => run.status !== 'completed');
+            if (pendingChecks.length) {
+              core.info(`Checks still running: ${pendingChecks.map((run) => run.name).join(', ')}`);
+              return;
+            }
+            const failedChecks = otherLatestChecks.filter(
+              (run) => !generalAccepted.has(run.conclusion || '')
+            );
+            if (failedChecks.length) {
+              core.setFailed(`Latest check gate failed: ${failedChecks.map((run) => `${run.name}=${run.conclusion}`).join(', ')}`);
+              return;
+            }
+
+            const { data: combinedStatus } = await github.rest.repos.getCombinedStatusForRef({ owner, repo, ref: headSha });
+            if (combinedStatus.statuses.length && combinedStatus.state !== 'success') {
+              core.info(`Commit status gate is ${combinedStatus.state}; merge is deferred.`);
+              return;
+            }
+
+            const blockingReviews = await activeChangeRequests(pull_number);
+            if (blockingReviews.length) {
+              core.setFailed(
+                `Active CHANGES_REQUESTED review blocks merge: ${blockingReviews.map((item) => item.login).join(', ')}`
+              );
+              return;
+            }
+
+            const threadQuery = `
+              query($owner: String!, $repo: String!, $number: Int!) {
+                repository(owner: $owner, name: $repo) {
+                  pullRequest(number: $number) {
+                    reviewThreads(first: 100) {
+                      nodes { isResolved }
+                      pageInfo { hasNextPage }
+                    }
+                  }
+                }
+              }
+            `;
+            const threadData = await github.graphql(threadQuery, { owner, repo, number: pull_number });
+            const reviewThreads = threadData.repository.pullRequest.reviewThreads;
+            if (reviewThreads.pageInfo.hasNextPage) {
+              core.setFailed('Review-thread gate refuses to merge more than 100 review threads without pagination support.');
+              return;
+            }
+            if (reviewThreads.nodes.some((thread) => !thread.isResolved)) {
+              core.info('Unresolved review threads remain; merge is deferred.');
+              return;
+            }
+
+            if (!(await enforceServerPolicy())) return;
+            const freshBlockingReviews = await activeChangeRequests(pull_number);
+            if (freshBlockingReviews.length) {
+              core.setFailed(
+                `A CHANGES_REQUESTED review appeared during gate evaluation: ${freshBlockingReviews.map((item) => item.login).join(', ')}`
+              );
+              return;
+            }
+            const { data: freshPr } = await github.rest.pulls.get({ owner, repo, pull_number });
+            const { data: freshMainRef } = await github.rest.git.getRef({ owner, repo, ref: 'heads/main' });
+            if (freshPr.state !== 'open' || freshPr.head.sha !== headSha || freshMainRef.object.sha !== parentSha) {
+              core.setFailed(
+                `PR or main moved during gate evaluation: expected open/${headSha} on base ${parentSha}; found ${freshPr.state}/${freshPr.head.sha} on ${freshMainRef.object.sha}.`
+              );
+              return;
+            }
+
+            const result = await github.rest.pulls.merge({
+              owner,
+              repo,
+              pull_number,
+              merge_method: 'merge',
+              sha: headSha,
+              commit_title: `${freshPr.title} (#${pull_number})`,
+              commit_message: 'Merged by the dedicated patch merge bot after signing-key, server ruleset, release-check, review-app-check, review-veto, and review-thread gates passed.',
+            });
+            if (!result.data.merged) {
+              core.setFailed(`GitHub refused merge: ${result.data.message || 'unknown reason'}`);
+              return;
+            }
+            core.notice(`Merged PR #${pull_number}; signed authored commit ${headSha} was preserved in main history.`);

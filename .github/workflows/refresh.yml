@@ -11,7 +11,8 @@ on:
         default: '50'
 
 permissions:
-  contents: write
+  contents: read
+  pull-requests: read
 
 concurrency:
   group: atomic-skill-publication
@@ -22,17 +23,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 14
     steps:
-      - uses: actions/checkout@v4
+      - name: Create patch producer token
+        id: producer-token
+        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        with:
+          app-id: ${{ secrets.PATCH_PRODUCER_APP_ID }}
+          private-key: ${{ secrets.PATCH_PRODUCER_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
+          token: ${{ steps.producer-token.outputs.token }}
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
           cache: pip
 
       - name: Restore history database cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: .cache/observatory.db
           key: observatory-db-${{ github.run_id }}
@@ -59,24 +70,322 @@ jobs:
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --max-repositories "$MAX" | tee .cache/refresh-report.json
 
-      - name: Publish Skill events and materialized views
+      - name: Reconcile serialized patch queue
+        id: queue
         env:
-          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ steps.producer-token.outputs.token }}
+          PATCH_SIGNING_PUBLIC_KEY: ${{ vars.PATCH_SIGNING_PUBLIC_KEY }}
+          PATCH_AUTHOR_LOGIN: ${{ vars.PATCH_AUTHOR_LOGIN || 'imMamdouhaboammar' }}
+          PATCH_AUTHOR_EMAIL: ${{ vars.PATCH_AUTHOR_EMAIL || '58908124+imMamdouhaboammar@users.noreply.github.com' }}
         run: |
-          set -o pipefail
-          skillobs publish-events \
+          set -euo pipefail
+
+          EXPECTED_PUBLIC_KEY="$(printf '%s\n' "${PATCH_SIGNING_PUBLIC_KEY:-}" | awk 'NF >= 2 {print $1 " " $2; exit}')"
+          if [ -z "$EXPECTED_PUBLIC_KEY" ]; then
+            echo "PATCH_SIGNING_PUBLIC_KEY is required before reconciling generated publication PRs." >&2
+            exit 1
+          fi
+
+          OPEN_PAGES="$(gh api --paginate --slurp -X GET \
+            "repos/$GITHUB_REPOSITORY/pulls" \
+            -f state=open \
+            -f base=main \
+            -f per_page=100)"
+          CANDIDATES="$(printf '%s' "$OPEN_PAGES" | jq -c \
+            --arg repo "$GITHUB_REPOSITORY" \
+            '[add // [] | .[] | select((.head.repo.full_name == $repo) and (.head.ref | startswith("bot/patch/")))]')"
+
+          TRUSTED_PATCHES='[]'
+          while IFS= read -r ROW; do
+            [ -n "$ROW" ] || continue
+            PR_NUMBER="$(printf '%s' "$ROW" | jq -r '.number')"
+            PR_BRANCH="$(printf '%s' "$ROW" | jq -r '.head.ref')"
+            PR_HEAD_SHA="$(printf '%s' "$ROW" | jq -r '.head.sha')"
+            PATCH_ID="${PR_BRANCH#bot/patch/}"
+
+            COMMITS="$(gh api -X GET "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER/commits?per_page=2")"
+            if [ "$(printf '%s' "$COMMITS" | jq 'length')" -ne 1 ] || \
+               [ "$(printf '%s' "$COMMITS" | jq -r '.[0].sha // ""')" != "$PR_HEAD_SHA" ]; then
+              echo "Ignoring reserved-prefix PR #$PR_NUMBER because it is not exactly one current-head commit."
+              continue
+            fi
+
+            COMMIT_JSON="$(gh api -X GET "repos/$GITHUB_REPOSITORY/commits/$PR_HEAD_SHA")"
+            AUTHOR_LOGIN="$(printf '%s' "$COMMIT_JSON" | jq -r '.author.login // ""')"
+            AUTHOR_EMAIL="$(printf '%s' "$COMMIT_JSON" | jq -r '.commit.author.email // ""')"
+            COMMITTER_EMAIL="$(printf '%s' "$COMMIT_JSON" | jq -r '.commit.committer.email // ""')"
+            VERIFIED="$(printf '%s' "$COMMIT_JSON" | jq -r '.commit.verification.verified // false')"
+            MESSAGE="$(printf '%s' "$COMMIT_JSON" | jq -r '.commit.message // ""')"
+
+            if [ "${AUTHOR_LOGIN,,}" != "${PATCH_AUTHOR_LOGIN,,}" ] || \
+               [ "${AUTHOR_EMAIL,,}" != "${PATCH_AUTHOR_EMAIL,,}" ] || \
+               [ "${COMMITTER_EMAIL,,}" != "${PATCH_AUTHOR_EMAIL,,}" ] || \
+               [ "$VERIFIED" != "true" ] || \
+               ! printf '%s\n' "$MESSAGE" | grep -Fqx "Patch-ID: $PATCH_ID" || \
+               ! printf '%s\n' "$MESSAGE" | grep -Fqx "Generated-by: agent-skill-observatory"; then
+              echo "Ignoring reserved-prefix PR #$PR_NUMBER because producer attribution or provenance is invalid."
+              continue
+            fi
+
+            VERIFY_DIR="$(mktemp -d)"
+            printf '%s' "$COMMIT_JSON" | jq -j '.commit.verification.signature // ""' > "$VERIFY_DIR/commit.sig"
+            printf '%s' "$COMMIT_JSON" | jq -j '.commit.verification.payload // ""' > "$VERIFY_DIR/payload"
+            printf '%s %s\n' "$PATCH_AUTHOR_EMAIL" "$EXPECTED_PUBLIC_KEY" > "$VERIFY_DIR/allowed_signers"
+            if ! ssh-keygen -Y verify \
+              -f "$VERIFY_DIR/allowed_signers" \
+              -I "$PATCH_AUTHOR_EMAIL" \
+              -n git \
+              -s "$VERIFY_DIR/commit.sig" < "$VERIFY_DIR/payload" >/dev/null 2>&1; then
+              rm -rf "$VERIFY_DIR"
+              echo "Ignoring reserved-prefix PR #$PR_NUMBER because its signature is not from PATCH_SIGNING_PUBLIC_KEY."
+              continue
+            fi
+            rm -rf "$VERIFY_DIR"
+            TRUSTED_PATCHES="$(printf '%s' "$TRUSTED_PATCHES" | jq -c --argjson row "$ROW" '. + [$row]')"
+          done < <(printf '%s' "$CANDIDATES" | jq -c '.[]')
+
+          OPEN_COUNT="$(printf '%s' "$TRUSTED_PATCHES" | jq 'length')"
+          if [ "$OPEN_COUNT" -gt 1 ]; then
+            echo "Expected at most one cryptographically trusted publication PR, found $OPEN_COUNT." >&2
+            exit 1
+          fi
+          if [ "$OPEN_COUNT" -eq 0 ]; then
+            echo "blocked=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          PR_NUMBER="$(printf '%s' "$TRUSTED_PATCHES" | jq -r '.[0].number')"
+          PR_URL="$(printf '%s' "$TRUSTED_PATCHES" | jq -r '.[0].html_url')"
+          PR_BRANCH="$(printf '%s' "$TRUSTED_PATCHES" | jq -r '.[0].head.ref')"
+          PR_HEAD_SHA="$(printf '%s' "$TRUSTED_PATCHES" | jq -r '.[0].head.sha')"
+          CURRENT_MAIN_SHA="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')"
+          PARENT_COUNT="$(gh api "repos/$GITHUB_REPOSITORY/git/commits/$PR_HEAD_SHA" --jq '.parents | length')"
+          PARENT_SHA="$(gh api "repos/$GITHUB_REPOSITORY/git/commits/$PR_HEAD_SHA" --jq '.parents[0].sha // ""')"
+
+          if [ "$PARENT_COUNT" -ne 1 ] || [ "$PARENT_SHA" != "$CURRENT_MAIN_SHA" ]; then
+            STALE_MARKER='<!-- skillobs-close-reason: stale-base -->'
+            BODY_FILE="$(mktemp)"
+            gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" --jq '.body // ""' > "$BODY_FILE"
+            if ! grep -Fq "$STALE_MARKER" "$BODY_FILE"; then
+              printf '\n\n%s\n' "$STALE_MARKER" >> "$BODY_FILE"
+            fi
+            gh api --method PATCH "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" \
+              -F body=@"$BODY_FILE" \
+              -f state=closed >/dev/null
+            rm -f "$BODY_FILE"
+            git push origin --delete "$PR_BRANCH" || true
+            echo "Closed stale generated patch $PR_URL; the same semantic patch may now be rebuilt on current main."
+            echo "blocked=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "blocked=true" >> "$GITHUB_OUTPUT"
+            echo "Current trusted publication PR $PR_URL is still valid; publication is serialized."
+          fi
+
+      - name: Build one signed patch locally
+        id: build
+        if: steps.queue.outputs.blocked != 'true'
+        env:
+          SKILLOBS_DATABASE_URL: sqlite+pysqlite:///./.cache/observatory.db
+          PATCH_SIGNING_PRIVATE_KEY: ${{ secrets.PATCH_SIGNING_PRIVATE_KEY }}
+          PATCH_SIGNING_PUBLIC_KEY: ${{ vars.PATCH_SIGNING_PUBLIC_KEY }}
+          PATCH_AUTHOR_NAME: ${{ vars.PATCH_AUTHOR_NAME || 'Mamdouh Aboammar' }}
+          PATCH_AUTHOR_EMAIL: ${{ vars.PATCH_AUTHOR_EMAIL || '58908124+imMamdouhaboammar@users.noreply.github.com' }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          BASE_SHA="$(git rev-parse origin/main)"
+          BUILD_BRANCH="bot/build/${GITHUB_RUN_ID}"
+          git checkout -B "$BUILD_BRANCH" "$BASE_SHA"
+
+          skillobs publish-events-local \
             --repository "$GITHUB_REPOSITORY" \
-            --branch main \
+            --branch "$BUILD_BRANCH" \
             --database-url sqlite+pysqlite:///./.cache/observatory.db \
             --checkout-root . \
-            --max-events 100 \
+            --max-events 1 \
             --time-budget-seconds 420 | tee .cache/publication-report.json
+
+          if git diff --quiet "$BASE_SHA" HEAD; then
+            echo "has_patch=false" >> "$GITHUB_OUTPUT"
+            echo "No publication patch was generated."
+            exit 0
+          fi
+
+          if [ -z "${PATCH_SIGNING_PRIVATE_KEY:-}" ]; then
+            echo "PATCH_SIGNING_PRIVATE_KEY is required; refusing to create an unsigned publication commit." >&2
+            exit 1
+          fi
+          if [ -z "${PATCH_SIGNING_PUBLIC_KEY:-}" ]; then
+            echo "PATCH_SIGNING_PUBLIC_KEY is required; refusing to sign without an expected public key." >&2
+            exit 1
+          fi
+          if [ -z "${PATCH_AUTHOR_NAME:-}" ] || [ -z "${PATCH_AUTHOR_EMAIL:-}" ]; then
+            echo "Patch author identity is required; refusing to create an unattributed publication commit." >&2
+            exit 1
+          fi
+
+          EVENT_COMMIT_SHA="$(git rev-list --reverse "$BASE_SHA"..HEAD | head -1)"
+          EVENT_SUBJECT="$(git show -s --format=%s "$EVENT_COMMIT_SHA")"
+          EVENT_ID_INPUT="$(git show -s --format=%B "$EVENT_COMMIT_SHA" | \
+            awk '/^(Skill-Key|Event|Source-Fingerprint|Analysis-Fingerprint|Overall-Score|Security-Score|Categories): /')"
+          if ! printf '%s\n' "$EVENT_ID_INPUT" | grep -q '^Skill-Key: ' || \
+             ! printf '%s\n' "$EVENT_ID_INPUT" | grep -q '^Event: '; then
+            echo "Generated event commit is missing stable semantic identity metadata." >&2
+            exit 1
+          fi
+          PATCH_ID="$(printf '%s\n' "$EVENT_ID_INPUT" | sha256sum | cut -c1-16)"
+          PATCH_BRANCH="bot/patch/${PATCH_ID}"
+          SIGNING_KEY="$RUNNER_TEMP/agent-skill-observatory-signing-key"
+          ALLOWED_SIGNERS="$RUNNER_TEMP/agent-skill-observatory-allowed-signers"
+
+          umask 077
+          printf '%s\n' "$PATCH_SIGNING_PRIVATE_KEY" > "$SIGNING_KEY"
+          trap 'rm -f "$SIGNING_KEY" "$ALLOWED_SIGNERS"' EXIT
+
+          DERIVED_PUBLIC_KEY="$(ssh-keygen -y -f "$SIGNING_KEY")"
+          EXPECTED_PUBLIC_KEY="$(printf '%s\n' "$PATCH_SIGNING_PUBLIC_KEY" | awk 'NF >= 2 {print $1 " " $2; exit}')"
+          if [ -z "$EXPECTED_PUBLIC_KEY" ] || [ "$DERIVED_PUBLIC_KEY" != "$EXPECTED_PUBLIC_KEY" ]; then
+            echo "Configured signing private key does not match PATCH_SIGNING_PUBLIC_KEY." >&2
+            exit 1
+          fi
+          printf '%s %s\n' "$PATCH_AUTHOR_EMAIL" "$EXPECTED_PUBLIC_KEY" > "$ALLOWED_SIGNERS"
+
+          git reset --soft "$BASE_SHA"
+          git config user.name "$PATCH_AUTHOR_NAME"
+          git config user.email "$PATCH_AUTHOR_EMAIL"
+          git config gpg.format ssh
+          git config user.signingkey "$SIGNING_KEY"
+          git config gpg.ssh.allowedSignersFile "$ALLOWED_SIGNERS"
+          git config commit.gpgsign true
+          git commit -S \
+            -m "$EVENT_SUBJECT" \
+            -m "Patch-ID: $PATCH_ID" \
+            -m "Generated-by: agent-skill-observatory" \
+            -m "Base-SHA: $BASE_SHA" \
+            -m "Automation-provenance: reviewed PR publication"
+
+          COMMIT_COUNT="$(git rev-list --count "$BASE_SHA"..HEAD)"
+          if [ "$COMMIT_COUNT" -ne 1 ]; then
+            echo "Expected one atomic commit, found $COMMIT_COUNT" >&2
+            exit 1
+          fi
+          if ! git cat-file commit HEAD | grep -q '^gpgsig '; then
+            echo "Publication commit is missing a cryptographic signature." >&2
+            exit 1
+          fi
+          git verify-commit HEAD
+          if [ "$(git show -s --format='%ae' HEAD)" != "$PATCH_AUTHOR_EMAIL" ]; then
+            echo "Publication commit author email does not match the configured GitHub identity." >&2
+            exit 1
+          fi
+          if [ "$(git show -s --format='%ce' HEAD)" != "$PATCH_AUTHOR_EMAIL" ]; then
+            echo "Publication commit committer email does not match the configured GitHub identity." >&2
+            exit 1
+          fi
+
+          git branch -M "$PATCH_BRANCH"
+          echo "has_patch=true" >> "$GITHUB_OUTPUT"
+          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
+          echo "patch_id=$PATCH_ID" >> "$GITHUB_OUTPUT"
+          echo "patch_branch=$PATCH_BRANCH" >> "$GITHUB_OUTPUT"
+          echo "patch_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "title=$EVENT_SUBJECT" >> "$GITHUB_OUTPUT"
+
+      - name: Push atomic patch branch and open PR
+        id: pr
+        if: steps.build.outputs.has_patch == 'true'
+        env:
+          GH_TOKEN: ${{ steps.producer-token.outputs.token }}
+          PATCH_BRANCH: ${{ steps.build.outputs.patch_branch }}
+          PATCH_ID: ${{ steps.build.outputs.patch_id }}
+          PATCH_SHA: ${{ steps.build.outputs.patch_sha }}
+          PR_TITLE: ${{ steps.build.outputs.title }}
+        run: |
+          set -euo pipefail
+
+          REPO_OWNER="${GITHUB_REPOSITORY%%/*}"
+          BODY_FILE="$(mktemp)"
+          cat > "$BODY_FILE" <<EOF
+          Automated atomic publication patch.
+
+          - Patch-ID: \`$PATCH_ID\`
+          - Head SHA: \`$PATCH_SHA\`
+          - Commits: exactly 1
+          - Base: \`main\`
+          - Producer: patch producer GitHub App
+          - Author: Mamdouh Aboammar via GitHub noreply identity
+          - Signature: SSH signing bound to the configured public key and revalidated before merge
+
+          This PR must pass repository checks and configured review-app status checks. It is merged only by the dedicated merge bot after exact-SHA, attribution, signing-key, server-ruleset, review-thread, and check gates pass.
+          EOF
+
+          EXISTING_PAGES="$(gh api --paginate --slurp -X GET \
+            "repos/$GITHUB_REPOSITORY/pulls" \
+            -f state=all \
+            -f base=main \
+            -f head="$REPO_OWNER:$PATCH_BRANCH" \
+            -f per_page=100)"
+          EXISTING="$(printf '%s' "$EXISTING_PAGES" | jq -c \
+            '[add // [] | .[]] | sort_by(.number) | last // empty')"
+
+          if [ -n "$EXISTING" ]; then
+            STATE="$(printf '%s' "$EXISTING" | jq -r '.state')"
+            URL="$(printf '%s' "$EXISTING" | jq -r '.html_url')"
+            NUMBER="$(printf '%s' "$EXISTING" | jq -r '.number')"
+            BODY="$(printf '%s' "$EXISTING" | jq -r '.body // ""')"
+            if [ "$STATE" = "open" ]; then
+              echo "url=$URL" >> "$GITHUB_OUTPUT"
+              echo "Reusing existing PR $URL"
+              rm -f "$BODY_FILE"
+              exit 0
+            fi
+            if ! printf '%s\n' "$BODY" | grep -Fq '<!-- skillobs-close-reason: stale-base -->'; then
+              echo "suppressed=true" >> "$GITHUB_OUTPUT"
+              echo "url=$URL" >> "$GITHUB_OUTPUT"
+              echo "Semantic patch $PATCH_ID was deliberately closed; automatic recreation is suppressed."
+              rm -f "$BODY_FILE"
+              exit 0
+            fi
+
+            git push origin --delete "$PATCH_BRANCH" || true
+            git push origin "HEAD:refs/heads/$PATCH_BRANCH"
+            if gh api --method PATCH "repos/$GITHUB_REPOSITORY/pulls/$NUMBER" \
+              -F body=@"$BODY_FILE" \
+              -f state=open >/dev/null; then
+              URL="https://github.com/$GITHUB_REPOSITORY/pull/$NUMBER"
+              echo "url=$URL" >> "$GITHUB_OUTPUT"
+              echo "Reopened stale-base PR $URL with a newly signed one-commit head."
+              rm -f "$BODY_FILE"
+              exit 0
+            fi
+            echo "Existing stale PR could not be reopened; creating a replacement PR."
+          else
+            git push origin "HEAD:refs/heads/$PATCH_BRANCH"
+          fi
+
+          URL="$(gh pr create \
+            --repo "$GITHUB_REPOSITORY" \
+            --base main \
+            --head "$PATCH_BRANCH" \
+            --title "$PR_TITLE" \
+            --body-file "$BODY_FILE")"
+          rm -f "$BODY_FILE"
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+          echo "Opened $URL"
 
       - name: Add run summary
         if: always()
+        env:
+          PATCH_PR_URL: ${{ steps.pr.outputs.url }}
+          PATCH_SUPPRESSED: ${{ steps.pr.outputs.suppressed }}
+          QUEUE_BLOCKED: ${{ steps.queue.outputs.blocked }}
+          HAS_PATCH: ${{ steps.build.outputs.has_patch }}
+          PATCH_ID: ${{ steps.build.outputs.patch_id }}
+          PATCH_SHA: ${{ steps.build.outputs.patch_sha }}
         run: |
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
+          import os
           from pathlib import Path
 
           print('## Agent Skill Observatory publication')
@@ -85,27 +394,29 @@ jobs:
           refresh = json.loads(refresh_path.read_text()) if refresh_path.exists() else {}
           print(f"- Repositories scanned: **{refresh.get('repositories_seen', 'unknown')}**")
           print(f"- Skills observed: **{refresh.get('skills_indexed', 'unknown')}**")
-          report_path = Path('.cache/publication-report.json')
-          if not report_path.exists():
-              print('- Publication report was not produced')
+          if os.getenv('QUEUE_BLOCKED') == 'true':
+              print('- Publication: **deferred because the current trusted publication PR is still open**')
               raise SystemExit(0)
-          report = json.loads(report_path.read_text())
-          print(f"- Events detected: **{report['events_detected']}**")
-          print(f"- Events published: **{report['events_published']}**")
-          print(f"- ADD: **{report['adds']}**")
-          print(f"- UPDATE: **{report['updates']}**")
-          print(f"- REINDEX: **{report['reindexes']}**")
-          print(f"- REMOVE: **{report['removals']}**")
-          print(f"- Conflicts retried: **{report['conflicts_retried']}**")
-          print(f"- Remaining deferred count: **{report['events_deferred']}**")
-          print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
-          print(f"- Failures: **{len(report['failures'])}**")
-          print(f"- main before SHA: `{report.get('main_before') or 'unknown'}`")
-          print(f"- main after SHA: `{report.get('main_after') or 'unknown'}`")
+          if os.getenv('HAS_PATCH') != 'true':
+              print('- Publication: **no patch generated**')
+              raise SystemExit(0)
+          print(f"- Patch ID: `{os.getenv('PATCH_ID')}`")
+          print(f"- Patch SHA: `{os.getenv('PATCH_SHA')}`")
+          print(f"- Pull request: {os.getenv('PATCH_PR_URL') or 'not opened'}")
+          if os.getenv('PATCH_SUPPRESSED') == 'true':
+              print('- Publication: **suppressed because this semantic patch was deliberately closed**')
+          print('- Commit identity: **Mamdouh Aboammar / GitHub-linked noreply**')
+          print('- Commit signing: **SSH key-bound and required**')
+          report_path = Path('.cache/publication-report.json')
+          if report_path.exists():
+              report = json.loads(report_path.read_text())
+              print(f"- Events detected: **{report['events_detected']}**")
+              print(f"- Events included: **{report['events_published']}**")
+              print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
           PY
 
       - name: Save history database cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         if: always()
         with:
           path: .cache/observatory.db

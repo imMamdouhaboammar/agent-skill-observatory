@@ -4,151 +4,38 @@ on:
   workflow_dispatch:
     inputs:
       max_repositories:
-        description: Maximum candidate repositories to inspect
+        description: Maximum candidate repositories to inspect in the delegated PR-gated refresh
         required: false
         default: '100'
-      max_events:
-        description: Maximum Skill events to publish
-        required: false
-        default: '500'
-      time_budget_seconds:
-        description: Publication wall-clock budget in seconds
-        required: false
-        default: '2400'
-      skip_scan:
-        description: Publish from the restored observation database without rescanning repositories
-        required: false
-        type: boolean
-        default: false
 
 permissions:
-  contents: write
-
-concurrency:
-  group: atomic-skill-publication
-  cancel-in-progress: false
+  actions: write
+  contents: read
 
 jobs:
   bootstrap:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: pip
-
-      - name: Restore history database cache
-        uses: actions/cache/restore@v4
-        with:
-          path: .cache/observatory.db
-          key: observatory-db-${{ github.run_id }}
-          restore-keys: |
-            observatory-db-
-
-      - name: Install observatory
-        run: python -m pip install -e .
-
-      - name: Require cached observations for publish-only bootstrap
-        if: ${{ inputs.skip_scan }}
-        run: |
-          if [ ! -s .cache/observatory.db ]; then
-            echo "::error::skip_scan requires a restored observation database cache"
-            exit 1
-          fi
-
-      - name: Apply database migrations
+      - name: Dispatch the PR-gated publisher
         env:
-          SKILLOBS_DATABASE_URL: sqlite+pysqlite:///./.cache/observatory.db
-        run: |
-          mkdir -p .cache
-          skillobs migrate
-
-      - name: Scan bootstrap candidate set
-        if: ${{ !inputs.skip_scan }}
-        env:
-          SKILLOBS_GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
+          MAX_REPOSITORIES: ${{ inputs.max_repositories }}
         run: |
           set -o pipefail
-          MAX_REPOSITORIES="${{ inputs.max_repositories }}"
-          skillobs refresh \
-            --database-url sqlite+pysqlite:///./.cache/observatory.db \
-            --max-repositories "$MAX_REPOSITORIES" | tee .cache/refresh-report.json
-
-      - name: Create bootstrap Skill commits locally
-        run: |
-          set -o pipefail
-          MAX_EVENTS="${{ inputs.max_events }}"
-          TIME_BUDGET="${{ inputs.time_budget_seconds }}"
-          skillobs publish-events-local \
-            --repository "$GITHUB_REPOSITORY" \
-            --branch main \
-            --database-url sqlite+pysqlite:///./.cache/observatory.db \
-            --checkout-root . \
-            --max-events "$MAX_EVENTS" \
-            --time-budget-seconds "$TIME_BUDGET" | tee .cache/publication-report.json
-
-      - name: Fast-forward bootstrap commit chain
-        id: push
-        run: |
-          set -euo pipefail
-          git push origin HEAD:main
-          local_sha="$(git rev-parse HEAD)"
-          remote_main_sha="$(git ls-remote --exit-code origin refs/heads/main | awk '{print $1}')"
-          if [ "$remote_main_sha" != "$local_sha" ]; then
-            echo "::error::remote main does not match the pushed local HEAD"
-            exit 1
-          fi
-          echo "remote_main_sha=$remote_main_sha" >> "$GITHUB_OUTPUT"
+          set -eu
+          gh workflow run refresh.yml \
+            --repo "$GITHUB_REPOSITORY" \
+            --ref main \
+            -f max_repositories="$MAX_REPOSITORIES"
 
       - name: Add bootstrap summary
-        if: always()
-        env:
-          BOOTSTRAP_SKIP_SCAN: ${{ inputs.skip_scan }}
-          REMOTE_MAIN_SHA: ${{ steps.push.outputs.remote_main_sha }}
         run: |
-          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
-          import json
-          import os
-          from pathlib import Path
-
-          print('## Agent Skill Observatory bootstrap')
-          print()
-          if os.getenv('BOOTSTRAP_SKIP_SCAN') == 'true':
-              print('- Repository scan: **skipped; using restored observation database**')
-          else:
-              refresh_path = Path('.cache/refresh-report.json')
-              refresh = json.loads(refresh_path.read_text()) if refresh_path.exists() else {}
-              print(f"- Repositories scanned: **{refresh.get('repositories_seen', 'unknown')}**")
-              print(f"- Skills observed: **{refresh.get('skills_indexed', 'unknown')}**")
-          report_path = Path('.cache/publication-report.json')
-          if not report_path.exists():
-              print('- Publication report was not produced')
-              raise SystemExit(0)
-          report = json.loads(report_path.read_text())
-          print(f"- Events detected: **{report['events_detected']}**")
-          print(f"- Events published: **{report['events_published']}**")
-          print(f"- ADD: **{report['adds']}**")
-          print(f"- UPDATE: **{report['updates']}**")
-          print(f"- REINDEX: **{report['reindexes']}**")
-          print(f"- REMOVE: **{report['removals']}**")
-          print(f"- Conflicts retried: **{report['conflicts_retried']}**")
-          print(f"- Remaining deferred count: **{report['events_deferred']}**")
-          print(f"- Aggregate status: **{report.get('aggregate_status') or 'not-run'}**")
-          print(f"- Failures: **{len(report['failures'])}**")
-          print(f"- local publication before SHA: `{report.get('main_before') or 'unknown'}`")
-          print(f"- local publication SHA: `{report.get('main_after') or 'unknown'}`")
-          print(f"- remote main published SHA: `{os.getenv('REMOTE_MAIN_SHA') or 'not published'}`")
-          PY
-
-      - name: Save history database cache
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: .cache/observatory.db
-          key: observatory-db-${{ github.run_id }}
+          {
+            echo '## Agent Skill Observatory bootstrap'
+            echo
+            echo '- Publication mode: **delegated to Refresh catalog**'
+            echo '- Direct writes to `main`: **disabled**'
+            echo '- Generated patches: **one signed atomic PR at a time**'
+            echo '- Requested repository scan limit: **${{ inputs.max_repositories }}**'
+          } >> "$GITHUB_STEP_SUMMARY"

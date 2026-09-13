@@ -18,86 +18,63 @@ def test_refresh_runs_every_fifteen_minutes_and_supports_manual_dispatch() -> No
 
     text = Path(".github/workflows/refresh.yml").read_text(encoding="utf-8")
     assert "skillobs refresh" in text
-    assert "skillobs publish-events" in text
-    assert "--max-events 100" in text
+    assert "skillobs publish-events-local" in text
+    assert "--max-events 1" in text
     assert "--time-budget-seconds 420" in text
     assert "SKILLOBS_GITHUB_TOKEN" in text
     assert "Repositories scanned" in text
     assert "Skills observed" in text
+    assert 'PATCH_BRANCH="bot/patch/${PATCH_ID}"' in text
+    assert 'git push origin "HEAD:refs/heads/$PATCH_BRANCH"' in text
+    assert "gh pr create" in text
+    assert "git push origin HEAD:main" not in text
+    assert "git push origin main" not in text
     assert "git push --force" not in text
     assert "force: true" not in text
-    assert "git add \\\n            README.md AWESOME.md" not in text
 
 
-def test_bootstrap_is_manual_only_and_uses_larger_defaults() -> None:
+def test_bootstrap_is_manual_pr_gated_dispatch_shim() -> None:
     workflow = load_workflow("bootstrap-catalog.yml")
     triggers = workflow.get("on") or workflow[True]
     assert set(triggers) == {"workflow_dispatch"}
     inputs = triggers["workflow_dispatch"]["inputs"]
+    assert set(inputs) == {"max_repositories"}
     assert inputs["max_repositories"]["default"] == "100"
-    assert inputs["max_events"]["default"] == "500"
-    assert inputs["time_budget_seconds"]["default"] == "2400"
-    assert inputs["skip_scan"]["type"] == "boolean"
-    assert inputs["skip_scan"]["default"] is False
-    assert workflow["concurrency"]["group"] == "atomic-skill-publication"
-    assert workflow["concurrency"]["cancel-in-progress"] is False
-
-    steps = workflow["jobs"]["bootstrap"]["steps"]
-    checkout = steps[0]
-    scan_step = next(step for step in steps if step.get("name") == "Scan bootstrap candidate set")
-    cache_guard = next(
-        step
-        for step in steps
-        if step.get("name") == "Require cached observations for publish-only bootstrap"
-    )
-    push_step = next(
-        step for step in steps if step.get("name") == "Fast-forward bootstrap commit chain"
-    )
-    summary_step = next(step for step in steps if step.get("name") == "Add bootstrap summary")
-    assert checkout["with"]["fetch-depth"] == 0
-    assert checkout["with"]["ref"] == "main"
-    assert scan_step["if"] == "${{ !inputs.skip_scan }}"
-    assert cache_guard["if"] == "${{ inputs.skip_scan }}"
-    assert push_step["id"] == "push"
-    assert "git push origin HEAD:main" in push_step["run"]
-    assert "git ls-remote --exit-code origin refs/heads/main" in push_step["run"]
-    assert "remote_main_sha=" in push_step["run"]
-    assert summary_step["env"]["REMOTE_MAIN_SHA"] == "${{ steps.push.outputs.remote_main_sha }}"
+    assert workflow["permissions"] == {"actions": "write", "contents": "read"}
+    assert workflow["jobs"]["bootstrap"]["timeout-minutes"] == 5
 
     text = Path(".github/workflows/bootstrap-catalog.yml").read_text(encoding="utf-8")
-    assert "skip_scan requires a restored observation database cache" in text
-    assert "skillobs publish-events-local" in text
-    assert "--max-events \"$MAX_EVENTS\"" in text
-    assert "--time-budget-seconds \"$TIME_BUDGET\"" in text
-    assert "Repositories scanned" in text
-    assert "Skills observed" in text
-    assert "git push origin HEAD:main" in text
-    assert "remote main published SHA" in text
-    assert "main after SHA" not in text
-    assert "git push --force" not in text
-    assert "--force" not in text
-    assert "force: true" not in text
+    assert "gh workflow run refresh.yml" in text
+    assert '-f max_repositories="$MAX_REPOSITORIES"' in text
+    assert "Direct writes to `main`: **disabled**" in text
+    assert "skillobs publish-events-local" not in text
+    assert "git push" not in text
+    assert "contents: write" not in text
 
 
-def test_canary_dispatch_preserves_api_budget_for_publication() -> None:
+def test_canary_dispatch_uses_pr_gated_bootstrap_contract() -> None:
     text = Path(".github/workflows/bootstrap-canary-dispatch.yml").read_text(encoding="utf-8")
-    assert "-f max_events=25" in text
-    assert "-f time_budget_seconds=2400" in text
-    assert "-f skip_scan=true" in text
+    assert "gh workflow run bootstrap-catalog.yml" in text
+    assert "-f max_repositories=100" in text
+    assert "max_events" not in text
+    assert "time_budget_seconds" not in text
+    assert "skip_scan" not in text
 
 
-def test_publication_workflows_avoid_legacy_snapshot_push() -> None:
+def test_publication_workflows_have_no_direct_main_push() -> None:
     refresh = Path(".github/workflows/refresh.yml").read_text(encoding="utf-8")
     bootstrap = Path(".github/workflows/bootstrap-catalog.yml").read_text(encoding="utf-8")
 
-    assert "git push" not in refresh
+    assert 'git push origin "HEAD:refs/heads/$PATCH_BRANCH"' in refresh
+    assert "git push origin HEAD:main" not in refresh
+    assert "git push origin main" not in refresh
+    assert "skillobs publish-events \\" not in refresh
     assert "skillobs publish --" not in refresh
-    assert "git add README.md AWESOME.md" not in refresh
+    assert "gh pr create" in refresh
 
-    assert "git push origin HEAD:main" in bootstrap
-    assert "skillobs publish --" not in bootstrap
-    assert "git add README.md AWESOME.md" not in bootstrap
-    assert "--force" not in bootstrap
+    assert "git push" not in bootstrap
+    assert "skillobs publish-events-local" not in bootstrap
+    assert "gh workflow run refresh.yml" in bootstrap
 
 
 def test_ci_runs_full_static_gate() -> None:
