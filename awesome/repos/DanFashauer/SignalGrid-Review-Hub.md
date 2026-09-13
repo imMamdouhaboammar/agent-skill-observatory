@@ -2,14 +2,15 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 23
+Published Skills: 24
 Categories: agent-orchestration, ai-ml, code-review, commerce, content, data, design, devops, documentation, education, engineering, integrations, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=23, 60-84=0, <60=0
+Security distribution: 85+=24, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
 | [api-and-interface-design](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/api-and-interface-design/README.md) | `.claude/skills/api-and-interface-design` | 100 | 100 | content, data, design, documentation, engineering, integrations |
+| [assumption-test](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/assumption-test/README.md) | `.claude/skills/assumption-test` | 100 | 100 | data, design, engineering, integrations, productivity, testing |
 | [backend-patterns](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/backend-patterns/README.md) | `third_party/everything-claude-code/skills/backend-patterns` | 100 | 100 | ai-ml, commerce, data, design, engineering, security |
 | [clickhouse-io](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) | `third_party/everything-claude-code/skills/clickhouse-io` | 100 | 100 | commerce, content, data, design, integrations, marketing |
 | [coding-standards](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/coding-standards/README.md) | `third_party/everything-claude-code/skills/coding-standards` | 100 | 100 | content, data, design, documentation, engineering, testing |

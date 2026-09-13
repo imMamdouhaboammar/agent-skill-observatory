@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "8a33922d45e58757fa9fb033edf78c0fb7ac0e509209e87661cf8f16c5e14bb7",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/assumption-test",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "8a33922d45e58757fa9fb033edf78c0fb7ac0e509209e87661cf8f16c5e14bb7",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/assumption-test",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "65aae0c9f8e882213c122dba08e65d68faa97bf15b5485ff4544a2434327b430",
+    "description": "Test a consequential technical assumption with a small, falsifiable experiment before committing to an approach. Use when a plan depends on uncertain runtime, integration, or data behavior that inspection alone cannot establish. Not for preference interviews or routine implementation.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "testing",
+        "data",
+        "integrations",
+        "design",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/assumption-test/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "assumption-test",
+    "path": ".claude/skills/assumption-test",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "be6e36fc02afdf8655dc2ac0688342f85d047590438d00e31aa26ebbf1f36f96",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "be6e36fc02afdf8655dc2ac0688342f85d047590438d00e31aa26ebbf1f36f96"
+}
