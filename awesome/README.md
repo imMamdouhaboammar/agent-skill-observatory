@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **877**
+Published skills: **878**
 Repositories: **95**
 
 ## Browse repositories
@@ -706,6 +706,7 @@ Repositories: **95**
 - [loop-engineering](./skills/daisuke134/life-manager/skills/loop-engineering/README.md) · `daisuke134/life-manager:skills/loop-engineering`
 - [mercor](./skills/daisuke134/life-manager/skills/mercor/README.md) · `daisuke134/life-manager:skills/mercor`
 - [japanese-tech-writing](./skills/daisuke134/life-manager/skills/writer-agent/checklists/japanese-tech-writing/README.md) · `daisuke134/life-manager:skills/writer-agent/checklists/japanese-tech-writing`
+- [stop-ai-slop-jp](./skills/daisuke134/life-manager/skills/writer-agent/checklists/stop-ai-slop-jp/README.md) · `daisuke134/life-manager:skills/writer-agent/checklists/stop-ai-slop-jp`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`

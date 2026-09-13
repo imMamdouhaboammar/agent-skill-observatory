@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "0eb1aa0b81ba1487568d5bd23ca3d8b6a5493e982da144b025ad86962bc66954",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/checklists/stop-ai-slop-jp",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0eb1aa0b81ba1487568d5bd23ca3d8b6a5493e982da144b025ad86962bc66954",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/checklists/stop-ai-slop-jp",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4da89e5f9c69ce69a8d6c04e8f3d238686cd3a3ba3946c5cfadad805116c50f3",
+    "description": "AIで書いた日本語を、人間が書いた文章に戻す。下書き、編集、レビューで使う。全角ダッシュや偏愛語だけでなく、主体の不在、命題型H2、壮大化、両論併記、リズムの均一さも直す。",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "other"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/checklists/stop-ai-slop-jp/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 7
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "Daichi Nagashima (https://genshi.ai/)",
+      "inspired-by": "hardikpandya/stop-slop",
+      "language": "ja",
+      "trigger": "日本語の執筆、編集、レビュー、AI臭の検出と修正"
+    },
+    "name": "stop-ai-slop-jp",
+    "path": "skills/writer-agent/checklists/stop-ai-slop-jp",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 3,
+      "references": 3,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "5e57c24a73f1e812f1faaf0f2405e64df3e76022ca83367db0fe2758860ef0ed",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "5e57c24a73f1e812f1faaf0f2405e64df3e76022ca83367db0fe2758860ef0ed"
+}
