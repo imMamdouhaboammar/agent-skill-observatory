@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **891**
+Published skills: **892**
 Repositories: **95**
 
 ## Browse repositories
@@ -720,6 +720,7 @@ Repositories: **95**
 - [code-simplification](./skills/danfashauer/signalgrid-review-hub/.claude/skills/code-simplification/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/code-simplification`
 - [constraint-driven-development](./skills/danfashauer/signalgrid-review-hub/.claude/skills/constraint-driven-development/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/constraint-driven-development`
 - [context-audit](./skills/danfashauer/signalgrid-review-hub/.claude/skills/context-audit/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/context-audit`
+- [context-engineering](./skills/danfashauer/signalgrid-review-hub/.claude/skills/context-engineering/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/context-engineering`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
