@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 18
+Published Skills: 19
 Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=18, 60-84=0, <60=0
+Security distribution: 85+=19, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -27,3 +27,4 @@ Security distribution: 85+=18, 60-84=0, <60=0
 | [risk-register-action-planner](../../skills/Daisuke134/life-manager/skills/capafy/catalog/risk-register-action-planner/README.md) | `skills/capafy/catalog/risk-register-action-planner` | 100 | 100 | content, finance, productivity, research |
 | [sales-account-plan-deck](../../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-account-plan-deck/README.md) | `skills/capafy/catalog/sales-account-plan-deck` | 100 | 100 | commerce, design, documents, finance, research, sales |
 | [sales-objection-reply-builder](../../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-objection-reply-builder/README.md) | `skills/capafy/catalog/sales-objection-reply-builder` | 100 | 100 | commerce, integrations, legal-compliance, product, sales |
+| [talent-review-deck-writer](../../skills/Daisuke134/life-manager/skills/capafy/catalog/talent-review-deck-writer/README.md) | `skills/capafy/catalog/talent-review-deck-writer` | 100 | 100 | commerce, design, documents, research |

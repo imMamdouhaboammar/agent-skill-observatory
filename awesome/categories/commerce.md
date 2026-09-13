@@ -1,6 +1,6 @@
 # commerce
 
-Published Skills: 235
+Published Skills: 236
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -119,6 +119,7 @@ Published Skills: 235
 | [research-findings-deck-storyboard](../skills/Daisuke134/life-manager/skills/capafy/catalog/research-findings-deck-storyboard/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted study findings into an evidence-bound, slide-by-slide research presentation outline without adding results, interpretation, or source claims. |
 | [sales-account-plan-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-account-plan-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted deal and account facts into an evidence-linked account-plan deck outline without inventing buyer intent, proof, commitments, or forecast outcomes. |
 | [sales-objection-reply-builder](../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-objection-reply-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn each new customer objection and supplied product facts into honest, channel-ready replies without inventing proof. |
+| [talent-review-deck-writer](../skills/Daisuke134/life-manager/skills/capafy/catalog/talent-review-deck-writer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted talent review evidence into a concise slide-by-slide leadership deck outline without inventing employee facts or ratings. |
 | [gopher](../skills/gemyago/atlacp/.agent/skills/gopher/README.md) | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 100 | 100 | 7 | Portable Go style and testing habits: interfaces, errors, slog, tests, TDD mindset. Pair with each project's AGENTS.md (or equivalent) for versions, layout, commands, and tooling. |
 | [create-execution-plan](../skills/markmhendrickson/ateles/.claude/skills/create-execution-plan/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a task execution plan with correct schema and task linkage. Use when user says "create execution plan", "add project plan", or "create plan for [project]". Can be invoked via /create-execution-plan. |
 | [create-feature-unit](../skills/markmhendrickson/ateles/.claude/skills/create-feature-unit/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new feature unit with spec, manifest, and test structure. Use when user mentions creating features, new features, implementing features, or feature unit IDs. Can be invoked via /create-feature-unit. |

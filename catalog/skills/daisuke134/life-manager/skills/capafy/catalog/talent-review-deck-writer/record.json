@@ -1,0 +1,91 @@
+{
+  "analysis_fingerprint": "6563ac05614afb38b6b0fc43751995e539c45b3e0a14030608df47adc485d2c1",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/talent-review-deck-writer",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "6563ac05614afb38b6b0fc43751995e539c45b3e0a14030608df47adc485d2c1",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/talent-review-deck-writer",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "1483b7680bd44e5bc8a092be31e4bf1b52d20940a055f8488edc5dab81427495",
+    "description": "Turn buyer-pasted talent review evidence into a concise slide-by-slide leadership deck outline without inventing employee facts or ratings.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "commerce",
+        "design",
+        "documents"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/talent-review-deck-writer/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "talent-review-deck-writer",
+    "path": "skills/capafy/catalog/talent-review-deck-writer",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "7bfe8c0b2034652e6e739b8133e842ccf4c394fc422bf23de7c488d5cfe27f36",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "7bfe8c0b2034652e6e739b8133e842ccf4c394fc422bf23de7c488d5cfe27f36"
+}
