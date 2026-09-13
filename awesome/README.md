@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **915**
+Published skills: **916**
 Repositories: **95**
 
 ## Browse repositories
@@ -753,6 +753,7 @@ Repositories: **95**
 - [systematic-debugging](./skills/danfashauer/signalgrid-review-hub/.claude/skills/systematic-debugging/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/systematic-debugging`
 - [test-driven-development](./skills/danfashauer/signalgrid-review-hub/.claude/skills/test-driven-development/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/test-driven-development`
 - [tool-evaluation-by-use](./skills/danfashauer/signalgrid-review-hub/.claude/skills/tool-evaluation-by-use/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/tool-evaluation-by-use`
+- [typescript-magician](./skills/danfashauer/signalgrid-review-hub/.claude/skills/typescript-magician/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/typescript-magician`
 - [using-git-worktrees](./skills/danfashauer/signalgrid-review-hub/.claude/skills/using-git-worktrees/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/using-git-worktrees`
 - [using-superpowers](./skills/danfashauer/signalgrid-review-hub/.claude/skills/using-superpowers/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/using-superpowers`
 - [verification-before-completion](./skills/danfashauer/signalgrid-review-hub/.claude/skills/verification-before-completion/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/verification-before-completion`

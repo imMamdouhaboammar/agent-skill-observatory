@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 53
+Published Skills: 54
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=53, 60-84=0, <60=0
+Security distribution: 85+=54, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -57,6 +57,7 @@ Security distribution: 85+=53, 60-84=0, <60=0
 | [systematic-debugging](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/systematic-debugging/README.md) | `.claude/skills/systematic-debugging` | 100 | 100 | content, data, engineering, integrations, research, testing |
 | [test-driven-development](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/test-driven-development/README.md) | `.claude/skills/test-driven-development` | 100 | 100 | content, data, design, engineering, integrations, testing |
 | [tool-evaluation-by-use](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/tool-evaluation-by-use/README.md) | `.claude/skills/tool-evaluation-by-use` | 100 | 100 | commerce, content, data, documentation, engineering, research |
+| [typescript-magician](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/typescript-magician/README.md) | `.claude/skills/typescript-magician` | 100 | 100 | data, engineering, marketing |
 | [using-git-worktrees](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-git-worktrees/README.md) | `.claude/skills/using-git-worktrees` | 100 | 100 | commerce, engineering, research, security, testing |
 | [using-superpowers](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-superpowers/README.md) | `.claude/skills/using-superpowers` | 100 | 100 | agent-orchestration, design, engineering, productivity |
 | [verification-before-completion](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | `.claude/skills/verification-before-completion` | 100 | 100 | content, engineering, productivity, research, testing |
