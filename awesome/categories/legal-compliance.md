@@ -1,6 +1,6 @@
 # legal-compliance
 
-Published Skills: 53
+Published Skills: 54
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -29,6 +29,7 @@ Published Skills: 53
 | [unlock-monitor](../skills/aaronjmars/aeon-agent/skills/unlock-monitor/README.md) | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 100 | 100 | 11 | Token unlock and vesting tracker - quantify supply pressure via absorption ratio, classify cliff vs linear, and deliver one-line market reads |
 | [capafy-publisher](../skills/Daisuke134/life-manager/skills/capafy-autopublish/vendor/capafy-publisher/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Creator-side Capafy workflow for publishing, updating, packaging, uploading, re-shipping, or managing an Agent/Skill. Also handles creator earnings, payouts, statistics, refunds, certification/KYC, review links, Agent continuation, and publisher-account switching. Generic buyer login, balance, orders, purchases, subscriptions, and instances belong to capafy-user. |
 | [customer-escalation-decision-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/customer-escalation-decision-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted customer-escalation facts into an evidence-linked decision-deck outline without inventing incident causes, commitments, or account facts. |
+| [decision-record-consistency-auditor](../skills/Daisuke134/life-manager/skills/capafy/catalog/decision-record-consistency-auditor/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Compare pasted decision records and meeting notes to surface conflicting decisions, missing context, and unresolved implementation questions. |
 | [final-review](../skills/markmhendrickson/ateles/.claude/skills/final-review/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Final review workflow per foundation command. |
 | [llm-context-guideline](../skills/chnlich/charlie-bot/skills/llm-context-guideline/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Placement and admission policy for content that enters LLM context; its chapters currently govern the memory store (admission whitelist, the three proof questions, entry form and labeling, canon change rules). Reload in full before touching memory content. |
 | [critics-circle](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/critics-circle/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Give independent PlotPickle critique of story, world, characters, structure, pacing, dialogue, continuity, audience clarity and commercial positioning using bounded supplied evidence. |
