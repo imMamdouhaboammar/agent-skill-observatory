@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/dpatel-93/alfred](https://github.com/dpatel-93/alfred)
 
-Published Skills: 61
+Published Skills: 62
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=61, 60-84=0, <60=0
+Security distribution: 85+=62, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -70,3 +70,4 @@ Security distribution: 85+=61, 60-84=0, <60=0
 | [ollama-interns](../../skills/dpatel-93/alfred/skills/ollama-interns/README.md) | `skills/ollama-interns` | 100 | 100 | agent-orchestration, ai-ml, architecture, engineering, security |
 | [pacman](../../skills/dpatel-93/alfred/skills/pacman/README.md) | `skills/pacman` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
 | [paper](../../skills/dpatel-93/alfred/skills/paper/README.md) | `skills/paper` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
+| [perspective](../../skills/dpatel-93/alfred/skills/perspective/README.md) | `skills/perspective` | 100 | 100 | code-review, content, design, engineering, marketing, productivity |
