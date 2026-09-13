@@ -12,7 +12,7 @@ Iterate one prototype through up to 10 cycles of generate-capture-review against
 
 ## Classification
 
-Categories: commerce, content, design, engineering, legal-compliance, research
+Categories: commerce, content, design, engineering, legal-compliance, productivity
 Client compatibility: not explicitly detected
 License: MIT
 
@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-12T17:06:20.023267+00:00
-Published: 2026-09-12T17:12:14.927651+00:00
-Publication event: add
-Source fingerprint: `7cc475bdc372b3877eb1d5dd3c401487ec521f09af73b740f0a4b25b837d2a9b`
-Analysis fingerprint: `ed7f51f080ae6f5f498627c43ba5108d99ed007ea9ba6b5cfb02cb21b54b9342`
+Indexed: 2026-09-13T00:59:44.595667+00:00
+Published: 2026-09-13T01:02:50.955534+00:00
+Publication event: update
+Source fingerprint: `5aad17facd85cd84df8d3eeb7856ad7792d42da598a613b6d47d003cba0c5ca1`
+Analysis fingerprint: `86109cce47a4d48bfd055be9303515fe88049d6c24733ec7eca7e16456361927`
