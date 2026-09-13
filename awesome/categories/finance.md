@@ -1,6 +1,6 @@
 # finance
 
-Published Skills: 34
+Published Skills: 35
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -22,6 +22,7 @@ Published Skills: 34
 | [academic-research-proposal-humanizer](../skills/Daisuke134/life-manager/skills/capafy/catalog/academic-research-proposal-humanizer/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Revise a pasted research proposal into natural, evidence-preserving academic prose without adding claims, citations, methods, results, or institutional facts. |
 | [board-update-deck-builder](../skills/Daisuke134/life-manager/skills/capafy/catalog/board-update-deck-builder/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted board-update facts into a concise, decision-led slide-by-slide deck outline without inventing metrics, decisions, or status. |
 | [customer-escalation-decision-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/customer-escalation-decision-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted customer-escalation facts into an evidence-linked decision-deck outline without inventing incident causes, commitments, or account facts. |
+| [dumbify](../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/content-skills/dumbify/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Use when writing or auditing content that has to be easy to follow — explainer reels, teaching carousels, how-to scripts, any piece that teaches or explains something — or when a draft feels dense, jargony, high-effort, or hard to follow. Lowers reading level and mental load so people keep watching and reading. Pairs with the other writing skills in this pack. |
 | [portfolio-tracker](../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted daily portfolio or watchlist snapshots into a transparent eight-axis position review without live data or investment advice. |
 | [risk-register-action-planner](../skills/Daisuke134/life-manager/skills/capafy/catalog/risk-register-action-planner/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted project risks into an evidence-bound risk register with owners, triggers, mitigations, and a next-review agenda. |
 | [sales-account-plan-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-account-plan-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted deal and account facts into an evidence-linked account-plan deck outline without inventing buyer intent, proof, commitments, or forecast outcomes. |

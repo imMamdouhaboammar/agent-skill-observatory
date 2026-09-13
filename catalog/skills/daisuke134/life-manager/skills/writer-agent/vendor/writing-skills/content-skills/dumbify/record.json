@@ -1,0 +1,93 @@
+{
+  "analysis_fingerprint": "e117cb6c1c35f33fd77c052108eab69966c548ae7285e304f7afb49709bbce4f",
+  "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/dumbify",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "e117cb6c1c35f33fd77c052108eab69966c548ae7285e304f7afb49709bbce4f",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/writer-agent/vendor/writing-skills/content-skills/dumbify",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "830e17a33b4897d0a3c782beb580147664a03d6b65f44db2230351783ce6c7d8",
+    "description": "Use when writing or auditing content that has to be easy to follow — explainer reels, teaching carousels, how-to scripts, any piece that teaches or explains something — or when a draft feels dense, jargony, high-effort, or hard to follow. Lowers reading level and mental load so people keep watching and reading. Pairs with the other writing skills in this pack.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "content",
+        "education",
+        "commerce",
+        "finance",
+        "security",
+        "testing"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/writer-agent/vendor/writing-skills/content-skills/dumbify/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "dumbify",
+    "path": "skills/writer-agent/vendor/writing-skills/content-skills/dumbify",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "203c15a0b84c02cc46df0f74687bc32b1c3f677959d6553e7354271bb4770012",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "203c15a0b84c02cc46df0f74687bc32b1c3f677959d6553e7354271bb4770012"
+}
