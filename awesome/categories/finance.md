@@ -1,6 +1,6 @@
 # finance
 
-Published Skills: 33
+Published Skills: 34
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -24,6 +24,7 @@ Published Skills: 33
 | [customer-escalation-decision-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/customer-escalation-decision-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted customer-escalation facts into an evidence-linked decision-deck outline without inventing incident causes, commitments, or account facts. |
 | [portfolio-tracker](../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted daily portfolio or watchlist snapshots into a transparent eight-axis position review without live data or investment advice. |
 | [risk-register-action-planner](../skills/Daisuke134/life-manager/skills/capafy/catalog/risk-register-action-planner/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn pasted project risks into an evidence-bound risk register with owners, triggers, mitigations, and a next-review agenda. |
+| [sales-account-plan-deck](../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-account-plan-deck/README.md) | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 100 | 100 | 8 | Turn buyer-pasted deal and account facts into an evidence-linked account-plan deck outline without inventing buyer intent, proof, commitments, or forecast outcomes. |
 | [atm-minimal-patch-rebuilder](../skills/eaglhuang/AI-Atomic-Framework/.agents/skills/atm-minimal-patch-rebuilder/README.md) | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 100 | 100 | 3 | Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures. |
 | [independent-review](../skills/dileep-kishore/zendots/dot_agents/skills/independent-review/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Run a fresh-context second opinion on a PR, branch, or working changes using available subagents or external reviewer processes. Use when the user requests independent review, or total review with both Claude and Codex. |
 | [open-pr](../skills/dileep-kishore/zendots/dot_agents/skills/open-pr/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | Use when finished work on a branch should become a pull request — "open a PR", "create a PR", "make a PR", "put this up for review", "ship this". Not for answering review on a PR that already exists. |

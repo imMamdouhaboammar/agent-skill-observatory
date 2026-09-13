@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 16
-Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documents, education, engineering, finance, hr-recruiting, legal-compliance, marketing, media, product, productivity, research, security, testing
+Published Skills: 17
+Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documents, education, engineering, finance, hr-recruiting, legal-compliance, marketing, media, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=16, 60-84=0, <60=0
+Security distribution: 85+=17, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -25,3 +25,4 @@ Security distribution: 85+=16, 60-84=0, <60=0
 | [portfolio-tracker](../../skills/Daisuke134/life-manager/skills/capafy/catalog/portfolio-tracker/README.md) | `skills/capafy/catalog/portfolio-tracker` | 100 | 100 | commerce, data, finance, research |
 | [research-findings-deck-storyboard](../../skills/Daisuke134/life-manager/skills/capafy/catalog/research-findings-deck-storyboard/README.md) | `skills/capafy/catalog/research-findings-deck-storyboard` | 100 | 100 | commerce, content, design, documents, research |
 | [risk-register-action-planner](../../skills/Daisuke134/life-manager/skills/capafy/catalog/risk-register-action-planner/README.md) | `skills/capafy/catalog/risk-register-action-planner` | 100 | 100 | content, finance, productivity, research |
+| [sales-account-plan-deck](../../skills/Daisuke134/life-manager/skills/capafy/catalog/sales-account-plan-deck/README.md) | `skills/capafy/catalog/sales-account-plan-deck` | 100 | 100 | commerce, design, documents, finance, research, sales |
