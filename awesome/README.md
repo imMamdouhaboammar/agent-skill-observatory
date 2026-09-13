@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **896**
+Published skills: **897**
 Repositories: **95**
 
 ## Browse repositories
@@ -726,6 +726,7 @@ Repositories: **95**
 - [deprecation-and-migration](./skills/danfashauer/signalgrid-review-hub/.claude/skills/deprecation-and-migration/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/deprecation-and-migration`
 - [dispatching-parallel-agents](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dispatching-parallel-agents/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dispatching-parallel-agents`
 - [documentation](./skills/danfashauer/signalgrid-review-hub/.claude/skills/documentation/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/documentation`
+- [documentation-and-adrs](./skills/danfashauer/signalgrid-review-hub/.claude/skills/documentation-and-adrs/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/documentation-and-adrs`
 - [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
 - [receiving-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/receiving-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/receiving-code-review`

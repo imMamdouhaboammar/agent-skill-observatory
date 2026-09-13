@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 34
-Categories: agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
+Published Skills: 35
+Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=34, 60-84=0, <60=0
+Security distribution: 85+=35, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -26,6 +26,7 @@ Security distribution: 85+=34, 60-84=0, <60=0
 | [deprecation-and-migration](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/deprecation-and-migration/README.md) | `.claude/skills/deprecation-and-migration` | 100 | 100 | content, data, design, devops, engineering, productivity |
 | [dispatching-parallel-agents](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/dispatching-parallel-agents/README.md) | `.claude/skills/dispatching-parallel-agents` | 100 | 100 | agent-orchestration, engineering, integrations, productivity, research, testing |
 | [documentation](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/documentation/README.md) | `.claude/skills/documentation` | 100 | 100 | content, design, devops, documentation, engineering, integrations |
+| [documentation-and-adrs](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/documentation-and-adrs/README.md) | `.claude/skills/documentation-and-adrs` | 100 | 100 | architecture, content, data, design, documentation, engineering |
 | [eval-harness](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/eval-harness/README.md) | `third_party/everything-claude-code/skills/eval-harness` | 100 | 100 | ai-ml, content, data, engineering, productivity, testing |
 | [finishing-a-development-branch](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/finishing-a-development-branch/README.md) | `.claude/skills/finishing-a-development-branch` | 100 | 100 | commerce, engineering, integrations, research, testing |
 | [frontend-patterns](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/frontend-patterns/README.md) | `third_party/everything-claude-code/skills/frontend-patterns` | 100 | 100 | content, data, design, engineering, media |
