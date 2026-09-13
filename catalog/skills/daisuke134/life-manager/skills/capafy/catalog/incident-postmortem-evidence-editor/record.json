@@ -1,0 +1,90 @@
+{
+  "analysis_fingerprint": "920e9b93ddbc60b0e6c177f508618f41cd05282e1e79b26e1dda957baeb95304",
+  "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/incident-postmortem-evidence-editor",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "920e9b93ddbc60b0e6c177f508618f41cd05282e1e79b26e1dda957baeb95304",
+    "archived": false,
+    "canonical_key": "daisuke134/life-manager:skills/capafy/catalog/incident-postmortem-evidence-editor",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "ccdcdf431628e12e9423e129866d894cd45703073950227e33bc6671a67a1b6e",
+    "description": "Turn pasted incident notes into a factual postmortem draft with an evidence ledger, bounded causal analysis, and follow-up plan.",
+    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "evidence": {
+      "categories": [
+        "research",
+        "content",
+        "customer-support"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/capafy/catalog/incident-postmortem-evidence-editor/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 2,
+    "indexed_at": "2026-09-13T00:58:34.040461Z",
+    "last_successful_repo_scan_at": "2026-09-13T00:58:34.040461Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "incident-postmortem-evidence-editor",
+    "path": "skills/capafy/catalog/incident-postmortem-evidence-editor",
+    "pushed_at": "2026-09-13T00:56:17Z",
+    "repo_default_branch": "main",
+    "repo_full_name": "Daisuke134/life-manager",
+    "repo_url": "https://github.com/Daisuke134/life-manager",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 35,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "2fcbc6ec6e3dfaece97421b16b0768e94f22541631839033decdd9e0b0a78154",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 8
+  },
+  "source_fingerprint": "2fcbc6ec6e3dfaece97421b16b0768e94f22541631839033decdd9e0b0a78154"
+}
