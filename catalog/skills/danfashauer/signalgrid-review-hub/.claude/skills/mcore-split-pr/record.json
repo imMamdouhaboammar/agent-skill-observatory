@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "5f41d1230618bdeb946c6aa3657e107359bbc4417d4376a000e14a5e0fbfd770",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/mcore-split-pr",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "5f41d1230618bdeb946c6aa3657e107359bbc4417d4376a000e14a5e0fbfd770",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/mcore-split-pr",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "0f3d40922d3c57eb6eba1ed74b8b6cdb3e87a469c1e6afd41541d2fed72e21a0",
+    "description": "Split a PR into multiple PRs to reduce the number of required CODEOWNERS reviewer groups.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "engineering",
+        "productivity",
+        "research",
+        "testing"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/mcore-split-pr/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 4
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "Apache-2.0",
+    "metadata": {
+      "author": "Philip Petrakian <ppetrakian@nvidia.com>"
+    },
+    "name": "mcore-split-pr",
+    "path": ".claude/skills/mcore-split-pr",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 3,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "86869c85519a4e54d525324a65e34e7b4075d7340149f4ea59606a810c3e559a",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "86869c85519a4e54d525324a65e34e7b4075d7340149f4ea59606a810c3e559a"
+}
