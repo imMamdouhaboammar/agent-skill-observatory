@@ -48,7 +48,6 @@ jobs:
           permission-administration: read
           permission-contents: write
           permission-pull-requests: write
-          permission-checks: read
           permission-statuses: read
 
       - name: Revalidate gates and merge exact reviewed SHA
