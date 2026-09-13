@@ -1,6 +1,6 @@
 # code-review
 
-Published Skills: 62
+Published Skills: 63
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -59,6 +59,7 @@ Published Skills: 62
 | [perspective](../skills/dpatel-93/alfred/skills/perspective/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Spatial depth design with isometric views, vanishing points, and layered elements that guide attention through 3D-like realism. |
 | [power](../skills/dpatel-93/alfred/skills/power/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences. |
 | [premium](../skills/dpatel-93/alfred/skills/premium/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Apple-inspired premium aesthetic with precise spacing, modern typography, and a refined, polished visual language. |
+| [professional](../skills/dpatel-93/alfred/skills/professional/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Polished, business-ready design with modern typography, structured layouts, and a trustworthy visual identity. |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |
 | [code-simplification](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/code-simplification/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. |
 | [nemo-rl-session-memory](../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/nemo-rl-session-memory/README.md) | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 100 | 100 | 1 | Manage durable working-session memory for coding agents. Use when a user asks to preserve or recover agent context across disconnects, VS Code restarts, long-running work, handoffs, or any session where important state should be written periodically under the repo's session directory. Do NOT use for: simple questions, short tasks, one-off commands, linting, or code review. |

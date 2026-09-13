@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "68f6fab26e81702dd3f3cbc8beeb880c7de28631090d5aeac27b82c6f21c8baf",
+  "canonical_key": "dpatel-93/alfred:skills/professional",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "68f6fab26e81702dd3f3cbc8beeb880c7de28631090d5aeac27b82c6f21c8baf",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/professional",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "e052c7076caca85e3cffe1ed4bf705ccae304b594e0a67588af9fff54fddecea",
+    "description": "Polished, business-ready design with modern typography, structured layouts, and a trustworthy visual identity.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "content",
+        "code-review",
+        "engineering",
+        "marketing",
+        "mobile"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/professional/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "professional",
+    "path": "skills/professional",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "9096e35307168e41a995341b4c516a1c47910d3649ab818571e2c6ba126b33a3",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "9096e35307168e41a995341b4c516a1c47910d3649ab818571e2c6ba126b33a3"
+}

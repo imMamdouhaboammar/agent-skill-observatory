@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 703
+Published Skills: 704
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -419,6 +419,7 @@ Published Skills: 703
 | [power](../skills/dpatel-93/alfred/skills/power/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences. |
 | [premium](../skills/dpatel-93/alfred/skills/premium/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Apple-inspired premium aesthetic with precise spacing, modern typography, and a refined, polished visual language. |
 | [prior-art](../skills/dpatel-93/alfred/skills/prior-art/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Check whether something has already been built before building it. Searches GitHub via the gh CLI and API — never a browser — then judges each candidate on maintenance, licence and fit, and returns a verdict of ADOPT / ADAPT / BUILD with the evidence. Use before starting any new tool, skill, script, integration or framework; when the user asks "has anyone done this", "is there a library for this", "should we build or borrow"; or when a design is about to commit to a from-scratch implementation. |
+| [professional](../skills/dpatel-93/alfred/skills/professional/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Polished, business-ready design with modern typography, structured layouts, and a trustworthy visual identity. |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |
 | [scoville-ui-anti-ai-slop](../skills/benjaminstelzer/scoville-ui-anti-ai-slop/scoville-ui-anti-ai-slop/README.md) | [benjaminstelzer/scoville-ui-anti-ai-slop](https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop) | 100 | 100 | 2 | Framework-aware guardrail for implementing and auditing UI through the product framework and incumbent design system. Use for components, states, responsiveness, accessibility mechanics, interaction, and rendered proof. When Scoville Design is active and applicable, consume its design decisions without re-deciding them; otherwise retain a bounded standalone Greenfield fallback. Excludes backend-only work and prose. |
 | [test-driven-development](../skills/danmo-ai/danmo-work/core/resource/home/skills/test-driven-development/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | RED-GREEN-REFACTOR before writing production code. Use when implementing features, bug fixes, behavior changes, or refactoring — before writing implementation code. |
