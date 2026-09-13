@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 420
+Published Skills: 421
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -253,6 +253,7 @@ Published Skills: 420
 | [perspective](../skills/dpatel-93/alfred/skills/perspective/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Spatial depth design with isometric views, vanishing points, and layered elements that guide attention through 3D-like realism. |
 | [playable-slides](../skills/danmo-ai/danmo-work/core/resource/home/skills/playable-slides/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Author/edit slide decks as Univer IR `.uslides.json` using write/edit/apply_patch. Never Marp Markdown, never web-search Univer docs — IR shape lives in this skill's references/ and kb-office-ir. |
 | [playwright-cli](../skills/dpatel-93/alfred/skills/playwright-cli/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Automate browser interactions, test web pages and work with Playwright tests. |
+| [power](../skills/dpatel-93/alfred/skills/power/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences. |
 | [scoville-ui-anti-ai-slop](../skills/benjaminstelzer/scoville-ui-anti-ai-slop/scoville-ui-anti-ai-slop/README.md) | [benjaminstelzer/scoville-ui-anti-ai-slop](https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop) | 100 | 100 | 2 | Framework-aware guardrail for implementing and auditing UI through the product framework and incumbent design system. Use for components, states, responsiveness, accessibility mechanics, interaction, and rendered proof. When Scoville Design is active and applicable, consume its design decisions without re-deciding them; otherwise retain a bounded standalone Greenfield fallback. Excludes backend-only work and prose. |
 | [sheet-writing](../skills/danmo-ai/danmo-work/core/resource/home/skills/sheet-writing/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Produce/edit tables as `.csv` or Univer `.usheet.json` via write/edit/apply_patch. Do not web-search Univer schema — use references/ir-sheet.md or kb-office-ir. |
 | [writing-plans](../skills/danmo-ai/danmo-work/core/resource/home/skills/writing-plans/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Write file-level, bite-sized implementation plans before coding. Use when you have a spec or multi-step requirements and need an actionable plan before touching implementation. |

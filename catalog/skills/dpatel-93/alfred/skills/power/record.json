@@ -1,0 +1,95 @@
+{
+  "analysis_fingerprint": "823bf9411de88922b1443d17caca629a6aa6d46fd8c4cf44d3adaca29796c680",
+  "canonical_key": "dpatel-93/alfred:skills/power",
+  "publication_event": "add",
+  "published_at": "2026-09-13T05:38:22.450919Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "823bf9411de88922b1443d17caca629a6aa6d46fd8c4cf44d3adaca29796c680",
+    "archived": false,
+    "canonical_key": "dpatel-93/alfred:skills/power",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "4e9a0875e0c56f2fbe272402cdf95827b85f850353953fa20ec4641fbd21116d",
+    "description": "High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences.",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "design",
+        "marketing",
+        "content",
+        "code-review",
+        "engineering",
+        "productivity"
+      ],
+      "client_compatibility_evidence": {},
+      "duplicate_of": null,
+      "manifest": "https://github.com/dpatel-93/alfred/blob/master/skills/power/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 2
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-12T19:18:57.256791Z",
+    "last_successful_repo_scan_at": "2026-09-12T19:18:57.256791Z",
+    "license": "MIT",
+    "metadata": {
+      "author": "typeui.sh"
+    },
+    "name": "power",
+    "path": "skills/power",
+    "pushed_at": "2026-09-12T19:15:53Z",
+    "repo_default_branch": "master",
+    "repo_full_name": "dpatel-93/alfred",
+    "repo_url": "https://github.com/dpatel-93/alfred",
+    "resources": {
+      "assets": 0,
+      "other": 1,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 20,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "b254aa8e973d58e4b09e8cbee6eeb7ef680afe0d91412b9614c1ad7333526da9",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 2
+  },
+  "source_fingerprint": "b254aa8e973d58e4b09e8cbee6eeb7ef680afe0d91412b9614c1ad7333526da9"
+}

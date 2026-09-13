@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 700
+Published Skills: 701
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -416,6 +416,7 @@ Published Skills: 700
 | [paper](../skills/dpatel-93/alfred/skills/paper/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Paper-textured, print-inspired design with minimal colors, clean serif/sans typography, and tactile surface qualities. |
 | [perspective](../skills/dpatel-93/alfred/skills/perspective/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Spatial depth design with isometric views, vanishing points, and layered elements that guide attention through 3D-like realism. |
 | [playwright-cli](../skills/dpatel-93/alfred/skills/playwright-cli/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Automate browser interactions, test web pages and work with Playwright tests. |
+| [power](../skills/dpatel-93/alfred/skills/power/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | High-end dark aesthetic with bold headings, monochromatic palette, and premium feel for premium brand experiences. |
 | [requesting-code-review](../skills/danmo-ai/danmo-work/core/resource/home/skills/requesting-code-review/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Prepare a focused code-review package (scope, requirements, diff evidence) before merge or after major work. Use when completing tasks, finishing features, or verifying work meets requirements. |
 | [scoville-ui-anti-ai-slop](../skills/benjaminstelzer/scoville-ui-anti-ai-slop/scoville-ui-anti-ai-slop/README.md) | [benjaminstelzer/scoville-ui-anti-ai-slop](https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop) | 100 | 100 | 2 | Framework-aware guardrail for implementing and auditing UI through the product framework and incumbent design system. Use for components, states, responsiveness, accessibility mechanics, interaction, and rendered proof. When Scoville Design is active and applicable, consume its design decisions without re-deciding them; otherwise retain a bounded standalone Greenfield fallback. Excludes backend-only work and prose. |
 | [test-driven-development](../skills/danmo-ai/danmo-work/core/resource/home/skills/test-driven-development/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | RED-GREEN-REFACTOR before writing production code. Use when implementing features, bug fixes, behavior changes, or refactoring — before writing implementation code. |
