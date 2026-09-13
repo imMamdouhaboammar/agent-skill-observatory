@@ -1,0 +1,100 @@
+{
+  "analysis_fingerprint": "0c7f4f908e53ff58e1fcce1a771046a812aebaa6547e7add08ca256bb5d656b0",
+  "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/orchestrator-over-workers",
+  "publication_event": "add",
+  "published_at": "2026-09-13T01:02:50.955534Z",
+  "schema_version": 1,
+  "skill": {
+    "allowed_tools": [],
+    "analysis_fingerprint": "0c7f4f908e53ff58e1fcce1a771046a812aebaa6547e7add08ca256bb5d656b0",
+    "archived": false,
+    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/orchestrator-over-workers",
+    "compatibility": null,
+    "consecutive_misses": 0,
+    "content_fingerprint": "009928a06cb8a14f89284a3b75322b5bdf3f8427091aaee495013ac9195401fe",
+    "description": "Use when a build task splits into independent pieces and the cloud lane is about to run them — before dispatching sub-agents, when reviewing what they send back, and when landing more than one worker branch.",
+    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
+    "evidence": {
+      "categories": [
+        "agent-orchestration",
+        "devops",
+        "commerce",
+        "engineering",
+        "productivity",
+        "content"
+      ],
+      "client_compatibility_evidence": {
+        "Claude Code": [
+          "skill stored under .claude/skills"
+        ],
+        "GitHub Copilot": [
+          "GitHub Copilot supports project skills under .claude/skills"
+        ]
+      },
+      "duplicate_of": null,
+      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/orchestrator-over-workers/SKILL.md",
+      "qualification": {
+        "blocking_reasons": [],
+        "checks": {
+          "active-source": true,
+          "behavioral-safety": true,
+          "duplicate": true,
+          "instruction-depth": true,
+          "license": true,
+          "portability": true,
+          "resource-integrity": true,
+          "script-verification": true,
+          "spec-validity": true,
+          "static-security": true
+        },
+        "policy_version": 1,
+        "qualified": true
+      },
+      "repo_has_readme": true,
+      "repo_has_tests": true,
+      "source_tier": "community",
+      "star_velocity_7d": 0.0,
+      "tree_files_scanned": 1
+    },
+    "forks": 0,
+    "indexed_at": "2026-09-13T01:00:58.525841Z",
+    "last_successful_repo_scan_at": "2026-09-13T01:00:58.525841Z",
+    "license": "MIT",
+    "metadata": {},
+    "name": "orchestrator-over-workers",
+    "path": ".claude/skills/orchestrator-over-workers",
+    "pushed_at": "2026-09-13T00:55:47Z",
+    "repo_default_branch": "SignalGrid_Alpha",
+    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
+    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
+    "resources": {
+      "assets": 0,
+      "other": 0,
+      "references": 0,
+      "scripts": 0
+    },
+    "score": {
+      "adoption": 17,
+      "maintenance": 100,
+      "overall": 100,
+      "quality": 100,
+      "reasons": [
+        "Repository includes test evidence.",
+        "Repository declares license MIT."
+      ],
+      "security": 100
+    },
+    "security": {
+      "findings": [],
+      "score": 100
+    },
+    "source_fingerprint": "ea4de02f080e4e7fe5664e4302caedd38b592247f64b3c429ac54b7cd10ffc33",
+    "spec": {
+      "errors": [],
+      "valid": true,
+      "warnings": []
+    },
+    "stars": 1
+  },
+  "source_fingerprint": "ea4de02f080e4e7fe5664e4302caedd38b592247f64b3c429ac54b7cd10ffc33"
+}
