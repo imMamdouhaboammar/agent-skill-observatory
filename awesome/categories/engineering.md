@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 677
+Published Skills: 678
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -390,6 +390,7 @@ Published Skills: 677
 | [flat](../skills/dpatel-93/alfred/skills/flat/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Two-dimensional minimalist style with vibrant colors, clean typography, and no 3D effects for fast, user-friendly interfaces. |
 | [friendly](../skills/dpatel-93/alfred/skills/friendly/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Approachable, intuitive design with rounded elements, ample whitespace, and soft pastel color palettes. |
 | [futuristic](../skills/dpatel-93/alfred/skills/futuristic/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Forward-looking design with tech-inspired typography, modern layouts, and a sleek, innovation-driven aesthetic. |
+| [geometric](../skills/dpatel-93/alfred/skills/geometric/README.md) | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 100 | 100 | 2 | Geometric, structured design with clean typography, neutral colors, precise shapes, and intuitive layouts that stay out of the way. |
 | [github](../skills/danmo-ai/danmo-work/core/resource/plugins/github/skills/github/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Operate GitHub via bound MCP when configured, else gh CLI, else plain git (remotes/push/fetch only). Use for GitHub platform / hosting work. |
 | [magents](../skills/abnegate/magents/plugins/claude/skills/magents/README.md) | [abnegate/magents](https://github.com/abnegate/magents) | 100 | 100 | 2 | Talk to other coding agents on this machine (Claude Code, Codex, Copilot, Cursor, Gemini, Grok, OpenCode) through the magents MCP. Use when the user asks what another agent was working on, wants to carry on that work, send them a message, start an independent agent session, or check the shared inbox. Prefer magents MCP tools over hunting session files on disk. |
 | [mcp-connectors](../skills/danmo-ai/danmo-work/core/resource/home/skills/mcp-connectors/README.md) | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 100 | 100 | 2 | Use product connectors (MCP under the hood) and auth gateways without stuffing every action schema into context. |
