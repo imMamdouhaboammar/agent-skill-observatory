@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **947**
+Published skills: **948**
 Repositories: **97**
 
 ## Browse repositories
@@ -909,6 +909,7 @@ Repositories: **97**
 - [minimal](./skills/dpatel-93/alfred/skills/minimal/README.md) · `dpatel-93/alfred:skills/minimal`
 - [modern](./skills/dpatel-93/alfred/skills/modern/README.md) · `dpatel-93/alfred:skills/modern`
 - [mono](./skills/dpatel-93/alfred/skills/mono/README.md) · `dpatel-93/alfred:skills/mono`
+- [neobrutalism](./skills/dpatel-93/alfred/skills/neobrutalism/README.md) · `dpatel-93/alfred:skills/neobrutalism`
 - [atm-atom-map-refactor](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-atom-map-refactor/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor`
 - [atm-create](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-create/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-create`
 - [atm-diagnostic-loop](./skills/eaglhuang/ai-atomic-framework/.agents/skills/atm-diagnostic-loop/README.md) · `eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop`
