@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **961**
+Published skills: **960**
 Repositories: **97**
 
 ## Browse repositories
@@ -571,7 +571,6 @@ Repositories: **97**
 - [speckit-checklist](./skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) · `cloudposse/atmos:.claude/skills/speckit-checklist`
 - [speckit-clarify](./skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) · `cloudposse/atmos:.claude/skills/speckit-clarify`
 - [speckit-constitution](./skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) · `cloudposse/atmos:.claude/skills/speckit-constitution`
-- [speckit-git-commit](./skills/cloudposse/atmos/.claude/skills/speckit-git-commit/README.md) · `cloudposse/atmos:.claude/skills/speckit-git-commit`
 - [speckit-git-feature](./skills/cloudposse/atmos/.claude/skills/speckit-git-feature/README.md) · `cloudposse/atmos:.claude/skills/speckit-git-feature`
 - [speckit-git-initialize](./skills/cloudposse/atmos/.claude/skills/speckit-git-initialize/README.md) · `cloudposse/atmos:.claude/skills/speckit-git-initialize`
 - [speckit-git-remote](./skills/cloudposse/atmos/.claude/skills/speckit-git-remote/README.md) · `cloudposse/atmos:.claude/skills/speckit-git-remote`

@@ -426,7 +426,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-09-12T17:04:29+00:00",
+    "pushed_at": "2026-09-25T06:16:15+00:00",
     "repo_full_name": "aaronjmars/miroshark-aeon",
     "repo_url": "https://github.com/aaronjmars/miroshark-aeon",
     "security_85_plus_count": 1,
@@ -494,7 +494,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-09-13T00:56:05+00:00",
+    "pushed_at": "2026-09-21T22:20:37+00:00",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
     "security_85_plus_count": 6,
@@ -570,8 +570,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 44,
-    "pushed_at": "2026-09-12T11:03:57+00:00",
+    "forks": 61,
+    "pushed_at": "2026-09-24T11:59:57+00:00",
     "repo_full_name": "agentconnect-md/agentconnect",
     "repo_url": "https://github.com/agentconnect-md/agentconnect",
     "security_85_plus_count": 1,
@@ -588,7 +588,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 1358
+    "stars": 1426
   },
   {
     "archived": false,
@@ -1791,7 +1791,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-12T17:04:36+00:00",
+    "pushed_at": "2026-09-14T01:37:22+00:00",
     "repo_full_name": "artbakerchat/Y",
     "repo_url": "https://github.com/artbakerchat/Y",
     "security_85_plus_count": 7,
@@ -1877,8 +1877,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 27,
-    "pushed_at": "2026-09-12T01:31:27+00:00",
+    "forks": 32,
+    "pushed_at": "2026-09-22T21:42:18+00:00",
     "repo_full_name": "atomantic/PortOS",
     "repo_url": "https://github.com/atomantic/PortOS",
     "security_85_plus_count": 3,
@@ -1913,7 +1913,7 @@
     ],
     "skills_count": 3,
     "spec_valid_count": 3,
-    "stars": 38
+    "stars": 40
   },
   {
     "archived": false,
@@ -2010,8 +2010,8 @@
       "testing"
     ],
     "default_branch": "develop",
-    "forks": 41,
-    "pushed_at": "2026-09-12T11:04:15+00:00",
+    "forks": 43,
+    "pushed_at": "2026-09-17T05:21:20+00:00",
     "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
     "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
     "security_85_plus_count": 38,
@@ -2361,7 +2361,7 @@
     ],
     "skills_count": 38,
     "spec_valid_count": 38,
-    "stars": 282
+    "stars": 289
   },
   {
     "archived": false,
@@ -2382,7 +2382,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-13T00:56:25+00:00",
+    "pushed_at": "2026-09-20T17:03:49+00:00",
     "repo_full_name": "boardx/workspacex",
     "repo_url": "https://github.com/boardx/workspacex",
     "security_85_plus_count": 3,
@@ -2625,7 +2625,7 @@
     ],
     "default_branch": "dev",
     "forks": 0,
-    "pushed_at": "2026-09-12T11:04:13+00:00",
+    "pushed_at": "2026-09-12T01:31:33+00:00",
     "repo_full_name": "buildd-ai/buildd",
     "repo_url": "https://github.com/buildd-ai/buildd",
     "security_85_plus_count": 2,
@@ -3542,8 +3542,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 4956,
-    "pushed_at": "2026-09-12T21:29:32+00:00",
+    "forks": 4965,
+    "pushed_at": "2026-09-16T06:42:54+00:00",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
     "security_85_plus_count": 26,
@@ -3785,7 +3785,7 @@
     ],
     "skills_count": 26,
     "spec_valid_count": 26,
-    "stars": 51731
+    "stars": 51844
   },
   {
     "archived": false,
@@ -3812,7 +3812,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-09-11T19:18:02+00:00",
+    "pushed_at": "2026-09-14T07:03:26+00:00",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
     "security_85_plus_count": 12,
@@ -3941,7 +3941,7 @@
     ],
     "default_branch": "main",
     "forks": 8,
-    "pushed_at": "2026-09-12T17:04:28+00:00",
+    "pushed_at": "2026-09-22T23:48:34+00:00",
     "repo_full_name": "christiandoxa/prodex",
     "repo_url": "https://github.com/christiandoxa/prodex",
     "security_85_plus_count": 1,
@@ -3958,7 +3958,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 49
+    "stars": 54
   },
   {
     "archived": false,
@@ -4019,11 +4019,11 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 175,
-    "pushed_at": "2026-09-12T01:31:33+00:00",
+    "forks": 177,
+    "pushed_at": "2026-09-22T23:48:12+00:00",
     "repo_full_name": "cloudposse/atmos",
     "repo_url": "https://github.com/cloudposse/atmos",
-    "security_85_plus_count": 40,
+    "security_85_plus_count": 39,
     "skills": [
       {
         "description": "Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds.",
@@ -4296,15 +4296,6 @@
         "spec_valid": true
       },
       {
-        "description": "Auto-commit changes after a Spec Kit command completes",
-        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-commit/SKILL.md",
-        "name": "speckit-git-commit",
-        "overall_score": 100,
-        "path": ".claude/skills/speckit-git-commit",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "Create a feature branch with sequential or timestamp numbering",
         "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-feature/SKILL.md",
         "name": "speckit-git-feature",
@@ -4386,9 +4377,9 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 40,
-    "spec_valid_count": 40,
-    "stars": 1376
+    "skills_count": 39,
+    "spec_valid_count": 39,
+    "stars": 1381
   },
   {
     "archived": false,
@@ -4501,7 +4492,7 @@
     ],
     "default_branch": "main",
     "forks": 13,
-    "pushed_at": "2026-09-11T21:47:39+00:00",
+    "pushed_at": "2026-09-15T21:45:04+00:00",
     "repo_full_name": "commontoolsinc/labs",
     "repo_url": "https://github.com/commontoolsinc/labs",
     "security_85_plus_count": 20,
@@ -4689,7 +4680,7 @@
     ],
     "skills_count": 20,
     "spec_valid_count": 20,
-    "stars": 38
+    "stars": 39
   },
   {
     "archived": false,
@@ -4722,7 +4713,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-12T21:29:47+00:00",
+    "pushed_at": "2026-09-24T16:34:32+00:00",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
     "security_85_plus_count": 42,
@@ -5211,7 +5202,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-11T19:17:38+00:00",
+    "pushed_at": "2026-09-21T01:22:10+00:00",
     "repo_full_name": "CultureBotAI/TraitMech",
     "repo_url": "https://github.com/CultureBotAI/TraitMech",
     "security_85_plus_count": 3,
@@ -5328,7 +5319,7 @@
     ],
     "default_branch": "main",
     "forks": 2,
-    "pushed_at": "2026-09-13T00:56:17+00:00",
+    "pushed_at": "2026-09-18T11:13:24+00:00",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
     "security_85_plus_count": 37,
@@ -5704,7 +5695,7 @@
     ],
     "default_branch": "SignalGrid_Alpha",
     "forks": 0,
-    "pushed_at": "2026-09-13T00:55:47+00:00",
+    "pushed_at": "2026-09-16T22:25:16+00:00",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
     "security_85_plus_count": 54,
@@ -6413,7 +6404,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-13T11:36:17+00:00",
+    "pushed_at": "2026-09-20T05:23:25+00:00",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
     "security_85_plus_count": 5,
@@ -6466,7 +6457,7 @@
     ],
     "skills_count": 5,
     "spec_valid_count": 5,
-    "stars": 48
+    "stars": 49
   },
   {
     "archived": false,
@@ -6484,7 +6475,7 @@
     ],
     "default_branch": "main",
     "forks": 2,
-    "pushed_at": "2026-09-12T23:09:07+00:00",
+    "pushed_at": "2026-09-20T23:29:37+00:00",
     "repo_full_name": "dbpprt/dieter",
     "repo_url": "https://github.com/dbpprt/dieter",
     "security_85_plus_count": 2,
@@ -6807,8 +6798,8 @@
       "devops"
     ],
     "default_branch": "main",
-    "forks": 5,
-    "pushed_at": "2026-09-13T00:55:49+00:00",
+    "forks": 6,
+    "pushed_at": "2026-09-24T20:08:05+00:00",
     "repo_full_name": "dglazkov/isocan",
     "repo_url": "https://github.com/dglazkov/isocan",
     "security_85_plus_count": 1,
@@ -6871,8 +6862,8 @@
       "productivity"
     ],
     "default_branch": "main",
-    "forks": 121,
-    "pushed_at": "2026-09-12T21:30:05+00:00",
+    "forks": 123,
+    "pushed_at": "2026-09-17T05:21:31+00:00",
     "repo_full_name": "Dicklesworthstone/beads_rust",
     "repo_url": "https://github.com/Dicklesworthstone/beads_rust",
     "security_85_plus_count": 1,
@@ -6889,7 +6880,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 1090
+    "stars": 1099
   },
   {
     "archived": false,
@@ -8210,7 +8201,7 @@
     ],
     "default_branch": "main",
     "forks": 3,
-    "pushed_at": "2026-09-13T21:43:23+00:00",
+    "pushed_at": "2026-09-24T16:34:13+00:00",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "security_85_plus_count": 15,
@@ -8353,7 +8344,7 @@
     ],
     "skills_count": 15,
     "spec_valid_count": 15,
-    "stars": 17
+    "stars": 19
   },
   {
     "archived": false,
@@ -8956,8 +8947,8 @@
       "testing"
     ],
     "default_branch": "master",
-    "forks": 206,
-    "pushed_at": "2026-09-13T10:28:59+00:00",
+    "forks": 211,
+    "pushed_at": "2026-09-15T23:42:28+00:00",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
     "security_85_plus_count": 7,
@@ -9028,7 +9019,7 @@
     ],
     "skills_count": 7,
     "spec_valid_count": 7,
-    "stars": 4709
+    "stars": 4737
   },
   {
     "archived": false,
@@ -9503,7 +9494,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-12T17:04:33+00:00",
+    "pushed_at": "2026-09-25T12:00:37+00:00",
     "repo_full_name": "jeong-sik/masc",
     "repo_url": "https://github.com/jeong-sik/masc",
     "security_85_plus_count": 6,
@@ -9577,8 +9568,8 @@
       "engineering"
     ],
     "default_branch": "main",
-    "forks": 772,
-    "pushed_at": "2026-09-11T07:58:57+00:00",
+    "forks": 781,
+    "pushed_at": "2026-09-25T12:00:31+00:00",
     "repo_full_name": "lightdash/lightdash",
     "repo_url": "https://github.com/lightdash/lightdash",
     "security_85_plus_count": 1,
@@ -9595,7 +9586,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 6131
+    "stars": 6159
   },
   {
     "archived": false,
