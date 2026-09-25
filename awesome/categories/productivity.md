@@ -1,6 +1,6 @@
 # productivity
 
-Published Skills: 422
+Published Skills: 421
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -61,7 +61,6 @@ Published Skills: 422
 | [speckit-analyze](../skills/cloudposse/atmos/.claude/skills/speckit-analyze/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Perform a non-destructive cross-artifact consistency and quality analysis across spec.md, plan.md, and tasks.md after task generation. |
 | [speckit-clarify](../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Identify underspecified areas in the current feature spec by asking up to 5 highly targeted clarification questions and encoding answers back into the spec. |
 | [speckit-constitution](../skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync. |
-| [speckit-git-feature](../skills/cloudposse/atmos/.claude/skills/speckit-git-feature/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create a feature branch with sequential or timestamp numbering |
 | [speckit-plan](../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation planning workflow using the plan template to generate design artifacts. |
 | [speckit-specify](../skills/cloudposse/atmos/.claude/skills/speckit-specify/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the feature specification from a natural language feature description. |
 | [speckit-tasks](../skills/cloudposse/atmos/.claude/skills/speckit-tasks/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate an actionable, dependency-ordered tasks.md for the feature based on available design artifacts. |

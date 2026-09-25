@@ -35155,93 +35155,6 @@
   {
     "allowed_tools": [],
     "archived": false,
-    "canonical_key": "cloudposse/atmos:.claude/skills/speckit-git-feature",
-    "compatibility": "Requires spec-kit project structure with .specify/ directory",
-    "description": "Create a feature branch with sequential or timestamp numbering",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
-    "evidence": {
-      "categories": [
-        "engineering",
-        "commerce",
-        "productivity"
-      ],
-      "client_compatibility_evidence": {
-        "Claude Code": [
-          "skill stored under .claude/skills"
-        ],
-        "GitHub Copilot": [
-          "GitHub Copilot supports project skills under .claude/skills"
-        ]
-      },
-      "duplicate_of": null,
-      "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-feature/SKILL.md",
-      "qualification": {
-        "blocking_reasons": [],
-        "checks": {
-          "active-source": true,
-          "behavioral-safety": true,
-          "duplicate": true,
-          "instruction-depth": true,
-          "license": true,
-          "portability": true,
-          "resource-integrity": true,
-          "script-verification": true,
-          "spec-validity": true,
-          "static-security": true
-        },
-        "policy_version": 1,
-        "qualified": true
-      },
-      "repo_has_readme": true,
-      "repo_has_tests": true,
-      "source_tier": "community",
-      "star_velocity_7d": 0.0,
-      "tree_files_scanned": 1
-    },
-    "forks": 175,
-    "indexed_at": "2026-09-12T01:35:13.910659+00:00",
-    "license": "Apache-2.0",
-    "metadata": {
-      "author": "github-spec-kit",
-      "source": "git:commands/speckit.git.feature.md"
-    },
-    "name": "speckit-git-feature",
-    "path": ".claude/skills/speckit-git-feature",
-    "pushed_at": "2026-09-12T01:31:33+00:00",
-    "repo_default_branch": "main",
-    "repo_full_name": "cloudposse/atmos",
-    "repo_url": "https://github.com/cloudposse/atmos",
-    "resources": {
-      "assets": 0,
-      "other": 0,
-      "references": 0,
-      "scripts": 0
-    },
-    "score": {
-      "adoption": 80,
-      "maintenance": 100,
-      "overall": 100,
-      "quality": 93,
-      "reasons": [
-        "Repository includes test evidence.",
-        "Repository declares license Apache-2.0."
-      ],
-      "security": 100
-    },
-    "security": {
-      "findings": [],
-      "score": 100
-    },
-    "spec": {
-      "errors": [],
-      "valid": true,
-      "warnings": []
-    },
-    "stars": 1376
-  },
-  {
-    "allowed_tools": [],
-    "archived": false,
     "canonical_key": "cloudposse/atmos:.claude/skills/speckit-git-initialize",
     "compatibility": "Requires spec-kit project structure with .specify/ directory",
     "description": "Initialize a Git repository with an initial commit",
@@ -53100,16 +53013,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.9648555390560969,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 8
     },
     "forks": 0,
-    "indexed_at": "2026-09-20T05:24:05.137506+00:00",
+    "indexed_at": "2026-09-13T11:39:33.092721+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-implementor",
     "path": "skills/re-frame2-implementor",
-    "pushed_at": "2026-09-20T05:23:25+00:00",
+    "pushed_at": "2026-09-13T11:36:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -53120,7 +53033,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 48,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 93,
@@ -53141,7 +53054,7 @@
         "allowed-tools should be a space-separated string"
       ]
     },
-    "stars": 49
+    "stars": 48
   },
   {
     "allowed_tools": [],
@@ -53182,16 +53095,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.9648555390560969,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 12
     },
     "forks": 0,
-    "indexed_at": "2026-09-20T05:24:05.137506+00:00",
+    "indexed_at": "2026-09-13T11:39:33.092721+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "re-frame2-improver",
     "path": "skills/re-frame2-improver",
-    "pushed_at": "2026-09-20T05:23:25+00:00",
+    "pushed_at": "2026-09-13T11:36:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
@@ -53202,7 +53115,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 48,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 93,
@@ -53223,7 +53136,7 @@
         "allowed-tools should be a space-separated string"
       ]
     },
-    "stars": 49
+    "stars": 48
   },
   {
     "allowed_tools": [],
