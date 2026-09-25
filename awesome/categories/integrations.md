@@ -1,6 +1,6 @@
 # integrations
 
-Published Skills: 139
+Published Skills: 138
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -28,7 +28,6 @@ Published Skills: 139
 | [atmos-introspection](../skills/cloudposse/atmos/agent-skills/skills/atmos-introspection/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Introspection & Querying: describe/list commands, config filtering, workspace introspection, dependency graphs, YQ integration, --help=<topic> scoped CLI help |
 | [atmos-stores](../skills/cloudposse/atmos/agent-skills/skills/atmos-stores/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Store backends: AWS SSM, AWS Secrets Manager, Azure Key Vault, Google Secret Manager, Redis, Artifactory configuration, hooks integration, cross-component data sharing, atmos store CLI CRUD, type: store workflow step |
 | [component-development](../skills/cloudposse/atmos/.claude/skills/component-development/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Atmos core component development: adding or changing native component types, component registry providers, commands, stack schema, docs, examples, DAG/affected behavior, auth, hooks, source/provisioning, and tests |
-| [speckit-git-remote](../skills/cloudposse/atmos/.claude/skills/speckit-git-remote/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Detect Git remote URL for GitHub integration |
 | [speckit-plan](../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation planning workflow using the plan template to generate design artifacts. |
 | [speckit-taskstoissues](../skills/cloudposse/atmos/.claude/skills/speckit-taskstoissues/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Convert existing tasks into actionable, dependency-ordered GitHub issues for the feature based on available design artifacts. |
 | [apple-tools](../skills/BlackBeltTechnology/pi-agent-dashboard/packages/apple-tools/.pi/skills/apple-tools/README.md) | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 100 | 100 | 282 | Reach Apple PIM data (Calendar, Contacts, Reminders, Messages, Location, Maps, Weather) from a pi session via iMCP + pi-mcp-adapter on macOS. Use when the user asks to read/search their Apple Calendar, Contacts, Reminders, iMessages, current Location, Maps, or Weather. Does NOT cover Apple Mail — iMCP exposes no Mail service; use apple-mail-fast-export for email. |
