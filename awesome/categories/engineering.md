@@ -1,6 +1,6 @@
 # engineering
 
-Published Skills: 703
+Published Skills: 702
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -89,7 +89,6 @@ Published Skills: 703
 | [security-remediate](../skills/cloudposse/atmos/.claude/skills/security-remediate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Fix open Dependabot and CodeQL/code-scanning alerts directly on the current branch. Triggered automatically by the security-remediate-trigger PostToolUse hook after a git push where GitHub reports open vulnerabilities; can also be invoked manually. Never opens a new PR or issue - commits land on the branch that's already open. |
 | [speckit-checklist](../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Generate a custom checklist for the current feature based on user requirements. |
 | [speckit-constitution](../skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Create or update the project constitution from interactive or provided principle inputs, ensuring all dependent templates stay in sync. |
-| [speckit-git-initialize](../skills/cloudposse/atmos/.claude/skills/speckit-git-initialize/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Initialize a Git repository with an initial commit |
 | [speckit-git-remote](../skills/cloudposse/atmos/.claude/skills/speckit-git-remote/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Detect Git remote URL for GitHub integration |
 | [speckit-git-validate](../skills/cloudposse/atmos/.claude/skills/speckit-git-validate/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Validate current branch follows feature branch naming conventions |
 | [speckit-implement](../skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 100 | 100 | 1376 | Execute the implementation plan by processing and executing all tasks defined in tasks.md |
