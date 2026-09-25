@@ -4023,7 +4023,7 @@
     "pushed_at": "2026-09-22T23:48:12+00:00",
     "repo_full_name": "cloudposse/atmos",
     "repo_url": "https://github.com/cloudposse/atmos",
-    "security_85_plus_count": 37,
+    "security_85_plus_count": 36,
     "skills": [
       {
         "description": "Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds.",
@@ -4296,15 +4296,6 @@
         "spec_valid": true
       },
       {
-        "description": "Detect Git remote URL for GitHub integration",
-        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-remote/SKILL.md",
-        "name": "speckit-git-remote",
-        "overall_score": 100,
-        "path": ".claude/skills/speckit-git-remote",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "Validate current branch follows feature branch naming conventions",
         "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-validate/SKILL.md",
         "name": "speckit-git-validate",
@@ -4359,8 +4350,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 37,
-    "spec_valid_count": 37,
+    "skills_count": 36,
+    "spec_valid_count": 36,
     "stars": 1381
   },
   {
