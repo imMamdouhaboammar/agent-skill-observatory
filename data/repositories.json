@@ -4023,7 +4023,7 @@
     "pushed_at": "2026-09-22T23:48:12+00:00",
     "repo_full_name": "cloudposse/atmos",
     "repo_url": "https://github.com/cloudposse/atmos",
-    "security_85_plus_count": 39,
+    "security_85_plus_count": 38,
     "skills": [
       {
         "description": "Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds.",
@@ -4296,15 +4296,6 @@
         "spec_valid": true
       },
       {
-        "description": "Create a feature branch with sequential or timestamp numbering",
-        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-feature/SKILL.md",
-        "name": "speckit-git-feature",
-        "overall_score": 100,
-        "path": ".claude/skills/speckit-git-feature",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "Initialize a Git repository with an initial commit",
         "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-initialize/SKILL.md",
         "name": "speckit-git-initialize",
@@ -4377,8 +4368,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 39,
-    "spec_valid_count": 39,
+    "skills_count": 38,
+    "spec_valid_count": 38,
     "stars": 1381
   },
   {
@@ -6404,7 +6395,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-20T05:23:25+00:00",
+    "pushed_at": "2026-09-13T11:36:17+00:00",
     "repo_full_name": "day8/re-frame2",
     "repo_url": "https://github.com/day8/re-frame2",
     "security_85_plus_count": 5,
@@ -6457,7 +6448,7 @@
     ],
     "skills_count": 5,
     "spec_valid_count": 5,
-    "stars": 49
+    "stars": 48
   },
   {
     "archived": false,

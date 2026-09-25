@@ -2,16 +2,16 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-25 12:09 UTC
+> Last refreshed: 2026-09-25 17:18 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **960** published skills
+- **959** published skills
 - **97** repositories
-- **956** spec-valid manifests
-- **956** skills with security score 85+
-- **956** skills with overall score 80+
+- **955** spec-valid manifests
+- **955** skills with security score 85+
+- **955** skills with overall score 80+
 
 ## Top verified skills
 
@@ -79,7 +79,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 12 | 100 | 6 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security, testing |
 | [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 1 | 100 | 54 | content, integrations, media, research |
 | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 1 | 100 | 1 | content, devops, engineering, legal-compliance, productivity, research |
-| [cloudposse/atmos](https://github.com/cloudposse/atmos) | 39 | 100 | 1381 | ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing |
+| [cloudposse/atmos](https://github.com/cloudposse/atmos) | 38 | 100 | 1381 | ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing |
 | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 3 | 100 | 0 | commerce, content, data, design, devops, documentation, marketing, productivity, research, testing |
 | [Command1264/agent-skills](https://github.com/Command1264/agent-skills) | 1 | 100 | 0 | content, devops, engineering, security, testing |
 | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 20 | 100 | 39 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, media, productivity, research, testing |
@@ -91,7 +91,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 37 | 100 | 8 | ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, product, productivity, research, sales, security, testing |
 | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 54 | 100 | 1 | agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 17 | 100 | 2 | agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, media, product, productivity, research, security, testing |
-| [day8/re-frame2](https://github.com/day8/re-frame2) | 5 | 100 | 49 | ai-ml, browser-automation, code-review, commerce, content, data, design, documentation, engineering, marketing, media, productivity, research, security, testing |
+| [day8/re-frame2](https://github.com/day8/re-frame2) | 5 | 100 | 48 | ai-ml, browser-automation, code-review, commerce, content, data, design, documentation, engineering, marketing, media, productivity, research, security, testing |
 | [dbpprt/dieter](https://github.com/dbpprt/dieter) | 2 | 100 | 3 | browser-automation, commerce, content, design, engineering, mobile, productivity, research, testing |
 | [dcostenco/prism-coder](https://github.com/dcostenco/prism-coder) | 1 | 100 | 157 | commerce, content, data, engineering, integrations, media |
 | [Deploy-Forward/convoy](https://github.com/Deploy-Forward/convoy) | 8 | 100 | 0 | commerce, content, data, devops, documentation, engineering, integrations, localization, product, productivity, research, security |
