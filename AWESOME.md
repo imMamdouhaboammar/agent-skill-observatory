@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-13 19:54 UTC
+> Last refreshed: 2026-09-13 21:50 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
@@ -87,7 +87,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [cosyeezz/axiom](https://github.com/cosyeezz/axiom) | 2 | 100 | 0 | ai-ml, commerce, content, data, design, engineering, integrations |
 | [CultureBotAI/NaturalProductMech](https://github.com/CultureBotAI/NaturalProductMech) | 2 | 100 | 0 | ai-ml, commerce, content, data, documentation, engineering, project-management, research |
 | [CultureBotAI/TraitMech](https://github.com/CultureBotAI/TraitMech) | 3 | 100 | 1 | content, data, devops, documentation, engineering, finance, productivity, research, security |
-| [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 2 | 100 | 15 | commerce, content, design, documentation, engineering, localization, marketing, mobile, productivity, research, security |
+| [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 2 | 100 | 15 | commerce, content, design, documentation, engineering, localization, marketing, mobile, productivity, security, testing |
 | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 37 | 100 | 8 | ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, product, productivity, research, sales, security, testing |
 | [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 54 | 100 | 1 | agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 17 | 100 | 2 | agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, media, product, productivity, research, security, testing |
