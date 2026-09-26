@@ -1878,7 +1878,7 @@
     ],
     "default_branch": "main",
     "forks": 32,
-    "pushed_at": "2026-09-22T21:42:18+00:00",
+    "pushed_at": "2026-09-26T01:42:57+00:00",
     "repo_full_name": "atomantic/PortOS",
     "repo_url": "https://github.com/atomantic/PortOS",
     "security_85_plus_count": 3,
@@ -4023,7 +4023,7 @@
     "pushed_at": "2026-09-22T23:48:12+00:00",
     "repo_full_name": "cloudposse/atmos",
     "repo_url": "https://github.com/cloudposse/atmos",
-    "security_85_plus_count": 36,
+    "security_85_plus_count": 35,
     "skills": [
       {
         "description": "Create and update Atmos repository asciicast demos for internal documentation, website publishing, and CastPlayer embeds.",
@@ -4296,15 +4296,6 @@
         "spec_valid": true
       },
       {
-        "description": "Validate current branch follows feature branch naming conventions",
-        "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-git-validate/SKILL.md",
-        "name": "speckit-git-validate",
-        "overall_score": 100,
-        "path": ".claude/skills/speckit-git-validate",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "Execute the implementation plan by processing and executing all tasks defined in tasks.md",
         "manifest": "https://github.com/cloudposse/atmos/blob/main/.claude/skills/speckit-implement/SKILL.md",
         "name": "speckit-implement",
@@ -4350,8 +4341,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 36,
-    "spec_valid_count": 36,
+    "skills_count": 35,
+    "spec_valid_count": 35,
     "stars": 1381
   },
   {

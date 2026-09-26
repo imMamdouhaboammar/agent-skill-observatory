@@ -2,16 +2,16 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-25 23:29 UTC
+> Last refreshed: 2026-09-26 01:47 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **957** published skills
+- **956** published skills
 - **97** repositories
-- **953** spec-valid manifests
-- **953** skills with security score 85+
-- **953** skills with overall score 80+
+- **952** spec-valid manifests
+- **952** skills with security score 85+
+- **952** skills with overall score 80+
 
 ## Top verified skills
 
@@ -79,7 +79,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 12 | 100 | 6 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security, testing |
 | [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 1 | 100 | 54 | content, integrations, media, research |
 | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 1 | 100 | 1 | content, devops, engineering, legal-compliance, productivity, research |
-| [cloudposse/atmos](https://github.com/cloudposse/atmos) | 36 | 100 | 1381 | ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing |
+| [cloudposse/atmos](https://github.com/cloudposse/atmos) | 35 | 100 | 1381 | ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing |
 | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 3 | 100 | 0 | commerce, content, data, design, devops, documentation, marketing, productivity, research, testing |
 | [Command1264/agent-skills](https://github.com/Command1264/agent-skills) | 1 | 100 | 0 | content, devops, engineering, security, testing |
 | [commontoolsinc/labs](https://github.com/commontoolsinc/labs) | 20 | 100 | 39 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, localization, media, productivity, research, testing |
