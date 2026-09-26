@@ -30598,16 +30598,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 3
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "cherry-electron-dev",
     "path": ".agents/skills/cherry-electron-dev",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -30637,7 +30637,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -30685,16 +30685,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "create-skill",
     "path": ".agents/skills/create-skill",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -30724,7 +30724,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -30772,16 +30772,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 2
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "gh-create-issue",
     "path": ".agents/skills/gh-create-issue",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -30811,7 +30811,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -30860,16 +30860,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 12
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "gh-pr-review",
     "path": ".agents/skills/gh-pr-review",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -30899,7 +30899,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -30945,11 +30945,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 3
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "MIT",
     "metadata": {
       "author": "vercel",
@@ -30957,7 +30957,7 @@
     },
     "name": "vercel-react-best-practices",
     "path": ".agents/skills/vercel-react-best-practices",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -30987,7 +30987,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31023,16 +31023,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "cherry-skill-marketplace",
     "path": "resources/builtin-agents/cherry-assistant/.claude/skills/cherry-skill-marketplace",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31062,7 +31062,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31098,16 +31098,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "cherry-studio-feedback",
     "path": "resources/builtin-agents/cherry-assistant/.claude/skills/cherry-studio-feedback",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31137,7 +31137,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [
@@ -31183,16 +31183,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 7
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "claude-automation-recommender",
     "path": "resources/builtin-agents/cherry-assistant/.claude/skills/claude-automation-recommender",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31222,7 +31222,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31258,16 +31258,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "faq-collector",
     "path": "resources/builtin-agents/cherry-assistant/.claude/skills/faq-collector",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31297,7 +31297,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31333,16 +31333,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "issue-reporter",
     "path": "resources/builtin-agents/cherry-assistant/.claude/skills/issue-reporter",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31372,7 +31372,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31408,16 +31408,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "skills-manager",
     "path": "resources/builtin-agents/cherry-assistant/.claude/skills/skills-manager",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31447,7 +31447,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31486,16 +31486,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-antigravity",
     "path": "resources/code-cli-skills/code-mate-antigravity",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31525,7 +31525,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31564,16 +31564,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-claude-code",
     "path": "resources/code-cli-skills/code-mate-claude-code",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31603,7 +31603,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31642,16 +31642,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-codex",
     "path": "resources/code-cli-skills/code-mate-codex",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31681,7 +31681,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31721,16 +31721,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-deepseek-harness",
     "path": "resources/code-cli-skills/code-mate-deepseek-harness",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31760,7 +31760,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31799,16 +31799,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-gemini",
     "path": "resources/code-cli-skills/code-mate-gemini",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31838,7 +31838,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31878,16 +31878,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-github-copilot",
     "path": "resources/code-cli-skills/code-mate-github-copilot",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31917,7 +31917,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -31956,16 +31956,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-hermes",
     "path": "resources/code-cli-skills/code-mate-hermes",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -31995,7 +31995,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -32036,16 +32036,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-kimi-code",
     "path": "resources/code-cli-skills/code-mate-kimi-code",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32075,7 +32075,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -32113,16 +32113,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-openclaw",
     "path": "resources/code-cli-skills/code-mate-openclaw",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32152,7 +32152,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -32193,16 +32193,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-opencode",
     "path": "resources/code-cli-skills/code-mate-opencode",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32232,7 +32232,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -32270,16 +32270,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-pi",
     "path": "resources/code-cli-skills/code-mate-pi",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32309,7 +32309,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -32349,16 +32349,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-qoder",
     "path": "resources/code-cli-skills/code-mate-qoder",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32388,7 +32388,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -32429,16 +32429,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "code-mate-qwen-code",
     "path": "resources/code-cli-skills/code-mate-qwen-code",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32468,7 +32468,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -32509,16 +32509,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 11
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 4952,
+    "indexed_at": "2026-09-11T08:05:17.684097+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "cherry-tool-guide",
     "path": "resources/skills/cherry-tool-guide",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-11T07:58:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32529,7 +32529,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 93,
@@ -32548,7 +32548,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 51666
   },
   {
     "allowed_tools": [],
@@ -32589,16 +32589,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 251.96860088620528,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 1
     },
-    "forks": 4965,
-    "indexed_at": "2026-09-16T06:46:10.919704+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "find-skills",
     "path": "resources/skills/find-skills",
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32628,7 +32628,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51844
+    "stars": 52163
   },
   {
     "allowed_tools": [],
@@ -49857,92 +49857,6 @@
     "resources": {
       "assets": 0,
       "other": 1,
-      "references": 0,
-      "scripts": 0
-    },
-    "score": {
-      "adoption": 17,
-      "maintenance": 100,
-      "overall": 100,
-      "quality": 100,
-      "reasons": [
-        "Repository includes test evidence.",
-        "Repository declares license MIT."
-      ],
-      "security": 100
-    },
-    "security": {
-      "findings": [],
-      "score": 100
-    },
-    "spec": {
-      "errors": [],
-      "valid": true,
-      "warnings": []
-    },
-    "stars": 1
-  },
-  {
-    "allowed_tools": [],
-    "archived": false,
-    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/using-git-worktrees",
-    "compatibility": null,
-    "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
-    "evidence": {
-      "categories": [
-        "engineering",
-        "commerce",
-        "testing",
-        "research",
-        "security"
-      ],
-      "client_compatibility_evidence": {
-        "Claude Code": [
-          "skill stored under .claude/skills"
-        ],
-        "GitHub Copilot": [
-          "GitHub Copilot supports project skills under .claude/skills"
-        ]
-      },
-      "duplicate_of": null,
-      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/using-git-worktrees/SKILL.md",
-      "qualification": {
-        "blocking_reasons": [],
-        "checks": {
-          "active-source": true,
-          "behavioral-safety": true,
-          "duplicate": true,
-          "instruction-depth": true,
-          "license": true,
-          "portability": true,
-          "resource-integrity": true,
-          "script-verification": true,
-          "spec-validity": true,
-          "static-security": true
-        },
-        "policy_version": 1,
-        "qualified": true
-      },
-      "repo_has_readme": true,
-      "repo_has_tests": true,
-      "source_tier": "community",
-      "star_velocity_7d": 0.0,
-      "tree_files_scanned": 1
-    },
-    "forks": 0,
-    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
-    "license": "MIT",
-    "metadata": {},
-    "name": "using-git-worktrees",
-    "path": ".claude/skills/using-git-worktrees",
-    "pushed_at": "2026-09-11T23:34:39+00:00",
-    "repo_default_branch": "SignalGrid_Alpha",
-    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
-    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
-    "resources": {
-      "assets": 0,
-      "other": 0,
       "references": 0,
       "scripts": 0
     },

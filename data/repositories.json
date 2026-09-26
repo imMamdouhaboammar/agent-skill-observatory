@@ -3542,8 +3542,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 4965,
-    "pushed_at": "2026-09-16T06:42:54+00:00",
+    "forks": 5012,
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
     "security_85_plus_count": 26,
@@ -3785,7 +3785,7 @@
     ],
     "skills_count": 26,
     "spec_valid_count": 26,
-    "stars": 51844
+    "stars": 52163
   },
   {
     "archived": false,
@@ -5652,7 +5652,7 @@
     "pushed_at": "2026-09-16T22:25:16+00:00",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
-    "security_85_plus_count": 51,
+    "security_85_plus_count": 50,
     "skills": [
       {
         "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
@@ -6069,15 +6069,6 @@
         "spec_valid": true
       },
       {
-        "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
-        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/using-git-worktrees/SKILL.md",
-        "name": "using-git-worktrees",
-        "overall_score": 100,
-        "path": ".claude/skills/using-git-worktrees",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
         "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/using-superpowers/SKILL.md",
         "name": "using-superpowers",
@@ -6114,8 +6105,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 51,
-    "spec_valid_count": 51,
+    "skills_count": 50,
+    "spec_valid_count": 50,
     "stars": 1
   },
   {
