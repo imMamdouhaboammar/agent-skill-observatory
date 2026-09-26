@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **957**
+Published skills: **956**
 Repositories: **97**
 
 ## Browse repositories
@@ -571,7 +571,6 @@ Repositories: **97**
 - [speckit-checklist](./skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) · `cloudposse/atmos:.claude/skills/speckit-checklist`
 - [speckit-clarify](./skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) · `cloudposse/atmos:.claude/skills/speckit-clarify`
 - [speckit-constitution](./skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) · `cloudposse/atmos:.claude/skills/speckit-constitution`
-- [speckit-git-validate](./skills/cloudposse/atmos/.claude/skills/speckit-git-validate/README.md) · `cloudposse/atmos:.claude/skills/speckit-git-validate`
 - [speckit-implement](./skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) · `cloudposse/atmos:.claude/skills/speckit-implement`
 - [speckit-plan](./skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) · `cloudposse/atmos:.claude/skills/speckit-plan`
 - [speckit-specify](./skills/cloudposse/atmos/.claude/skills/speckit-specify/README.md) · `cloudposse/atmos:.claude/skills/speckit-specify`

@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/cloudposse/atmos](https://github.com/cloudposse/atmos)
 
-Published Skills: 36
+Published Skills: 35
 Categories: ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing
 Best overall score: 100
-Security distribution: 85+=36, 60-84=0, <60=0
+Security distribution: 85+=35, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -39,7 +39,6 @@ Security distribution: 85+=36, 60-84=0, <60=0
 | [speckit-checklist](../../skills/cloudposse/atmos/.claude/skills/speckit-checklist/README.md) | `.claude/skills/speckit-checklist` | 100 | 100 | content, design, devops, engineering, media, security |
 | [speckit-clarify](../../skills/cloudposse/atmos/.claude/skills/speckit-clarify/README.md) | `.claude/skills/speckit-clarify` | 100 | 100 | content, data, design, legal-compliance, productivity, security |
 | [speckit-constitution](../../skills/cloudposse/atmos/.claude/skills/speckit-constitution/README.md) | `.claude/skills/speckit-constitution` | 100 | 100 | content, devops, documentation, engineering, legal-compliance, productivity |
-| [speckit-git-validate](../../skills/cloudposse/atmos/.claude/skills/speckit-git-validate/README.md) | `.claude/skills/speckit-git-validate` | 100 | 100 | engineering |
 | [speckit-implement](../../skills/cloudposse/atmos/.claude/skills/speckit-implement/README.md) | `.claude/skills/speckit-implement` | 100 | 100 | commerce, data, devops, engineering, mobile, security |
 | [speckit-plan](../../skills/cloudposse/atmos/.claude/skills/speckit-plan/README.md) | `.claude/skills/speckit-plan` | 100 | 100 | data, design, documentation, engineering, integrations, productivity |
 | [speckit-specify](../../skills/cloudposse/atmos/.claude/skills/speckit-specify/README.md) | `.claude/skills/speckit-specify` | 100 | 100 | commerce, content, data, engineering, legal-compliance, productivity |
