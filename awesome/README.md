@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **952**
+Published skills: **951**
 Repositories: **97**
 
 ## Browse repositories
@@ -747,7 +747,6 @@ Repositories: **97**
 - [spec-driven-development](./skills/danfashauer/signalgrid-review-hub/.claude/skills/spec-driven-development/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/spec-driven-development`
 - [tool-evaluation-by-use](./skills/danfashauer/signalgrid-review-hub/.claude/skills/tool-evaluation-by-use/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/tool-evaluation-by-use`
 - [typescript-magician](./skills/danfashauer/signalgrid-review-hub/.claude/skills/typescript-magician/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/typescript-magician`
-- [using-git-worktrees](./skills/danfashauer/signalgrid-review-hub/.claude/skills/using-git-worktrees/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/using-git-worktrees`
 - [using-superpowers](./skills/danfashauer/signalgrid-review-hub/.claude/skills/using-superpowers/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/using-superpowers`
 - [verification-before-completion](./skills/danfashauer/signalgrid-review-hub/.claude/skills/verification-before-completion/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/verification-before-completion`
 - [writing-plans](./skills/danfashauer/signalgrid-review-hub/.claude/skills/writing-plans/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/writing-plans`
