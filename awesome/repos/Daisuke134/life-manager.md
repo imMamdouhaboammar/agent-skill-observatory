@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Daisuke134/life-manager](https://github.com/Daisuke134/life-manager)
 
-Published Skills: 37
-Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, product, productivity, research, sales, security, testing
+Published Skills: 36
+Categories: ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, product, productivity, research, sales, security, testing
 Best overall score: 100
-Security distribution: 85+=37, 60-84=0, <60=0
+Security distribution: 85+=36, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -30,7 +30,6 @@ Security distribution: 85+=37, 60-84=0, <60=0
 | [humanizer](../../skills/Daisuke134/life-manager/skills/writer-agent/vendor/writing-skills/humanizer/README.md) | `skills/writer-agent/vendor/writing-skills/humanizer` | 100 | 100 | content, documentation, education, legal-compliance, productivity, research |
 | [incident-postmortem-evidence-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/incident-postmortem-evidence-editor/README.md) | `skills/capafy/catalog/incident-postmortem-evidence-editor` | 100 | 100 | content, customer-support, research |
 | [japanese-tech-writing](../../skills/Daisuke134/life-manager/skills/writer-agent/checklists/japanese-tech-writing/README.md) | `skills/writer-agent/checklists/japanese-tech-writing` | 100 | 100 | ai-ml |
-| [loop-engineering](../../skills/Daisuke134/life-manager/skills/loop-engineering/README.md) | `skills/loop-engineering` | 100 | 100 | browser-automation, commerce, devops, engineering, productivity, security |
 | [mercor](../../skills/Daisuke134/life-manager/skills/mercor/README.md) | `skills/mercor` | 100 | 100 | browser-automation, design, documentation, engineering, hr-recruiting, research |
 | [mobile-app-delivery](../../skills/Daisuke134/life-manager/skills/earn/mobile-app-delivery/README.md) | `skills/earn/mobile-app-delivery` | 100 | 100 | content, design, engineering, mobile, research, testing |
 | [peer-review-response-editor](../../skills/Daisuke134/life-manager/skills/capafy/catalog/peer-review-response-editor/README.md) | `skills/capafy/catalog/peer-review-response-editor` | 100 | 100 | commerce, content, data, legal-compliance, research |
