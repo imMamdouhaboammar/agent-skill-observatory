@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **956**
+Published skills: **955**
 Repositories: **97**
 
 ## Browse repositories
@@ -700,7 +700,6 @@ Repositories: **97**
 - [fundraiser-agent](./skills/daisuke134/life-manager/skills/fundraiser-agent/README.md) · `daisuke134/life-manager:skills/fundraiser-agent`
 - [google-login](./skills/daisuke134/life-manager/skills/google-login/README.md) · `daisuke134/life-manager:skills/google-login`
 - [hook-lab](./skills/daisuke134/life-manager/skills/hook-lab/README.md) · `daisuke134/life-manager:skills/hook-lab`
-- [loop-engineering](./skills/daisuke134/life-manager/skills/loop-engineering/README.md) · `daisuke134/life-manager:skills/loop-engineering`
 - [mercor](./skills/daisuke134/life-manager/skills/mercor/README.md) · `daisuke134/life-manager:skills/mercor`
 - [japanese-tech-writing](./skills/daisuke134/life-manager/skills/writer-agent/checklists/japanese-tech-writing/README.md) · `daisuke134/life-manager:skills/writer-agent/checklists/japanese-tech-writing`
 - [stop-ai-slop-jp](./skills/daisuke134/life-manager/skills/writer-agent/checklists/stop-ai-slop-jp/README.md) · `daisuke134/life-manager:skills/writer-agent/checklists/stop-ai-slop-jp`

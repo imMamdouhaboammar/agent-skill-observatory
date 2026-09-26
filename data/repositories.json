@@ -5260,7 +5260,6 @@
       "customer-support",
       "data",
       "design",
-      "devops",
       "documentation",
       "documents",
       "education",
@@ -5286,7 +5285,7 @@
     "pushed_at": "2026-09-18T11:13:24+00:00",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
-    "security_85_plus_count": 37,
+    "security_85_plus_count": 36,
     "skills": [
       {
         "description": "Turn a pasted study limitations section into clear, proportionate academic prose without adding weaknesses, evidence, or claims that the author did not provide.",
@@ -5478,15 +5477,6 @@
         "spec_valid": true
       },
       {
-        "description": "Use when building, fixing, releasing or operating a Life Manager loop, adding a marketplace lane, or deciding whether existing loop components must be reused.",
-        "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/loop-engineering/SKILL.md",
-        "name": "loop-engineering",
-        "overall_score": 100,
-        "path": "skills/loop-engineering",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "Use for Mercor revenue jobs, assessments, applications, replies, work submission, authentication, and verified earnings.",
         "manifest": "https://github.com/Daisuke134/life-manager/blob/main/skills/mercor/SKILL.md",
         "name": "mercor",
@@ -5622,8 +5612,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 37,
-    "spec_valid_count": 37,
+    "skills_count": 36,
+    "spec_valid_count": 36,
     "stars": 8
   },
   {
