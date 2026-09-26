@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **955**
+Published skills: **954**
 Repositories: **97**
 
 ## Browse repositories
@@ -725,7 +725,6 @@ Repositories: **97**
 - [documentation-and-adrs](./skills/danfashauer/signalgrid-review-hub/.claude/skills/documentation-and-adrs/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/documentation-and-adrs`
 - [dpop-adoption](./skills/danfashauer/signalgrid-review-hub/.claude/skills/dpop-adoption/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/dpop-adoption`
 - [finding-google-skills](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finding-google-skills/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finding-google-skills`
-- [finishing-a-development-branch](./skills/danfashauer/signalgrid-review-hub/.claude/skills/finishing-a-development-branch/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/finishing-a-development-branch`
 - [gcloud](./skills/danfashauer/signalgrid-review-hub/.claude/skills/gcloud/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/gcloud`
 - [hig-foundations](./skills/danfashauer/signalgrid-review-hub/.claude/skills/hig-foundations/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/hig-foundations`
 - [hig-platforms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/hig-platforms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/hig-platforms`

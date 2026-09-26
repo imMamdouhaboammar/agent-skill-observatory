@@ -5652,7 +5652,7 @@
     "pushed_at": "2026-09-16T22:25:16+00:00",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
-    "security_85_plus_count": 54,
+    "security_85_plus_count": 53,
     "skills": [
       {
         "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
@@ -5840,15 +5840,6 @@
         "name": "finding-google-skills",
         "overall_score": 100,
         "path": ".claude/skills/finding-google-skills",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
-        "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
-        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/finishing-a-development-branch/SKILL.md",
-        "name": "finishing-a-development-branch",
-        "overall_score": 100,
-        "path": ".claude/skills/finishing-a-development-branch",
         "security_score": 100,
         "spec_valid": true
       },
@@ -6141,8 +6132,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 54,
-    "spec_valid_count": 54,
+    "skills_count": 53,
+    "spec_valid_count": 53,
     "stars": 1
   },
   {
