@@ -15,12 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v4
 
       - name: agent-skills-lint
-        uses: korya/avocetta@5f6f62668f0cfb4c49abc18206f8955765c2e54d # askl v1.0.3
+        uses: korya/avocetta@929eb003cee9720c690d31a1d5239115b4b14186 # askl v2.0.1
 
       - name: agent-skills-lint (fixtures)
-        uses: korya/avocetta@5f6f62668f0cfb4c49abc18206f8955765c2e54d # askl v1.0.3
+        uses: korya/avocetta@929eb003cee9720c690d31a1d5239115b4b14186 # askl v2.0.1
         with:
           path: tests/fixtures/sample-skill
