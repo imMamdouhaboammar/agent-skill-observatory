@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **951**
+Published skills: **950**
 Repositories: **97**
 
 ## Browse repositories
@@ -748,7 +748,6 @@ Repositories: **97**
 - [tool-evaluation-by-use](./skills/danfashauer/signalgrid-review-hub/.claude/skills/tool-evaluation-by-use/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/tool-evaluation-by-use`
 - [typescript-magician](./skills/danfashauer/signalgrid-review-hub/.claude/skills/typescript-magician/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/typescript-magician`
 - [using-superpowers](./skills/danfashauer/signalgrid-review-hub/.claude/skills/using-superpowers/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/using-superpowers`
-- [verification-before-completion](./skills/danfashauer/signalgrid-review-hub/.claude/skills/verification-before-completion/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/verification-before-completion`
 - [writing-plans](./skills/danfashauer/signalgrid-review-hub/.claude/skills/writing-plans/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/writing-plans`
 - [backend-patterns](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/backend-patterns/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/backend-patterns`
 - [clickhouse-io](./skills/danfashauer/signalgrid-review-hub/third_party/everything-claude-code/skills/clickhouse-io/README.md) · `danfashauer/signalgrid-review-hub:third_party/everything-claude-code/skills/clickhouse-io`

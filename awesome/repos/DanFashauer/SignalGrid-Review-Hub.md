@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub)
 
-Published Skills: 50
+Published Skills: 49
 Categories: agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing
 Best overall score: 100
-Security distribution: 85+=50, 60-84=0, <60=0
+Security distribution: 85+=49, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -56,6 +56,5 @@ Security distribution: 85+=50, 60-84=0, <60=0
 | [tool-evaluation-by-use](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/tool-evaluation-by-use/README.md) | `.claude/skills/tool-evaluation-by-use` | 100 | 100 | commerce, content, data, documentation, engineering, research |
 | [typescript-magician](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/typescript-magician/README.md) | `.claude/skills/typescript-magician` | 100 | 100 | data, engineering, marketing |
 | [using-superpowers](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/using-superpowers/README.md) | `.claude/skills/using-superpowers` | 100 | 100 | agent-orchestration, design, engineering, productivity |
-| [verification-before-completion](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/verification-before-completion/README.md) | `.claude/skills/verification-before-completion` | 100 | 100 | content, engineering, productivity, research, testing |
 | [verification-loop](../../skills/DanFashauer/SignalGrid-Review-Hub/third_party/everything-claude-code/skills/verification-loop/README.md) | `third_party/everything-claude-code/skills/verification-loop` | 100 | 100 | engineering, integrations, productivity, security, testing |
 | [writing-plans](../../skills/DanFashauer/SignalGrid-Review-Hub/.claude/skills/writing-plans/README.md) | `.claude/skills/writing-plans` | 100 | 100 | agent-orchestration, content, documentation, engineering, productivity, testing |
