@@ -5071,88 +5071,6 @@
   {
     "allowed_tools": [],
     "archived": false,
-    "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-discussion",
-    "compatibility": null,
-    "description": "Run structured discussion that defines exploration conditions, evaluation rubric, and anti-goals for downstream prototyping.",
-    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
-    "evidence": {
-      "categories": [
-        "design",
-        "content",
-        "productivity",
-        "research",
-        "commerce",
-        "agent-orchestration"
-      ],
-      "client_compatibility_evidence": {},
-      "duplicate_of": null,
-      "manifest": "https://github.com/aganesy/QFAI/blob/main/.qfai/assistant/skills/qfai-discussion/SKILL.md",
-      "qualification": {
-        "blocking_reasons": [],
-        "checks": {
-          "active-source": true,
-          "behavioral-safety": true,
-          "duplicate": true,
-          "instruction-depth": true,
-          "license": true,
-          "portability": true,
-          "resource-integrity": true,
-          "script-verification": true,
-          "spec-validity": true,
-          "static-security": true
-        },
-        "policy_version": 1,
-        "qualified": true
-      },
-      "repo_has_readme": true,
-      "repo_has_tests": true,
-      "source_tier": "community",
-      "star_velocity_7d": 0.0,
-      "tree_files_scanned": 14
-    },
-    "forks": 1,
-    "indexed_at": "2026-09-13T00:59:44.595667+00:00",
-    "license": "MIT",
-    "metadata": {},
-    "name": "qfai-discussion",
-    "path": ".qfai/assistant/skills/qfai-discussion",
-    "pushed_at": "2026-09-13T00:56:05+00:00",
-    "repo_default_branch": "main",
-    "repo_full_name": "aganesy/QFAI",
-    "repo_url": "https://github.com/aganesy/QFAI",
-    "resources": {
-      "assets": 0,
-      "other": 0,
-      "references": 13,
-      "scripts": 0
-    },
-    "score": {
-      "adoption": 28,
-      "maintenance": 100,
-      "overall": 100,
-      "quality": 100,
-      "reasons": [
-        "Repository includes test evidence.",
-        "Repository declares license MIT."
-      ],
-      "security": 100
-    },
-    "security": {
-      "findings": [],
-      "score": 100
-    },
-    "spec": {
-      "errors": [],
-      "valid": true,
-      "warnings": [
-        "allowed-tools should be a space-separated string"
-      ]
-    },
-    "stars": 4
-  },
-  {
-    "allowed_tools": [],
-    "archived": false,
     "canonical_key": "aganesy/qfai:.qfai/assistant/skills/qfai-grill",
     "compatibility": null,
     "description": "Run a grilling session on anything: a design, a product direction, a piece of writing. Needs no repository and writes no files. Invoked by the user, never by the agent.",
@@ -25281,7 +25199,7 @@
     "canonical_key": "bytedance/deer-flow:.agent/skills/engineer-system-change",
     "compatibility": null,
     "description": "Evaluate and carry out non-trivial software-system changes from first principles. Use when assessing RFCs, issues, designs, features, refactors, migrations, dependency changes, or proposed fields, events, APIs, modules, and services whose need, consumers, system fit, validation, or rollback require scrutiny. Read the actual system, identify the concrete problem and named semantic consumers, choose the smallest sufficient solution, reject pseudo-requirements and speculative abstractions, and require evidence proportional to risk. Do not use for mechanical edits, source-code explanation, or a dedicated review of an already-complete diff.",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -25314,16 +25232,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 1
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "engineer-system-change",
     "path": ".agent/skills/engineer-system-change",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25353,7 +25271,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25361,7 +25279,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/academic-paper-review",
     "compatibility": null,
     "description": "Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, literature positioning, and constructive feedback generation. Trigger on queries involving paper URLs, uploaded PDFs, arXiv links, or requests like \"review this paper\", \"analyze this research\", \"summarize this study\", or \"write a peer review\".",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -25394,16 +25312,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 1
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "academic-paper-review",
     "path": "skills/public/academic-paper-review",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25433,7 +25351,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25441,7 +25359,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/bootstrap",
     "compatibility": null,
     "description": "Generate a personalized SOUL.md through a warm, adaptive onboarding conversation. Trigger when the user wants to create, set up, or initialize their AI partner's identity — e.g., \"create my SOUL.md\", \"bootstrap my agent\", \"set up my AI partner\", \"define who you are\", \"let's do onboarding\", \"personalize this AI\", \"make you mine\", or when a SOUL.md is missing. Also trigger for updates: \"update my SOUL.md\", \"change my AI's personality\", \"tweak the soul\".",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -25470,16 +25388,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 2
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "bootstrap",
     "path": "skills/public/bootstrap",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25509,7 +25427,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25517,7 +25435,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/code-documentation",
     "compatibility": null,
     "description": "Use this skill when the user requests to generate, create, or improve documentation for code, APIs, libraries, repositories, or software projects. Supports README generation, API reference documentation, inline code comments, architecture documentation, changelog generation, and developer guides. Trigger on requests like \"document this code\", \"create a README\", \"generate API docs\", \"write developer guide\", or when analyzing codebases for documentation purposes.",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "documentation",
@@ -25550,16 +25468,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 1
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "code-documentation",
     "path": "skills/public/code-documentation",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25589,7 +25507,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25597,7 +25515,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/consulting-analysis",
     "compatibility": null,
     "description": "Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases — (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights.",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -25630,16 +25548,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 1
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "consulting-analysis",
     "path": "skills/public/consulting-analysis",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25669,7 +25587,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25677,7 +25595,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/deep-research",
     "compatibility": null,
     "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -25710,16 +25628,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 1
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "deep-research",
     "path": "skills/public/deep-research",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25749,7 +25667,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25757,7 +25675,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/frontend-design",
     "compatibility": null,
     "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -25789,16 +25707,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 2
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
     "name": "frontend-design",
     "path": "skills/public/frontend-design",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25828,7 +25746,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25836,7 +25754,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/newsletter-generation",
     "compatibility": null,
     "description": "Use this skill when the user requests to generate, create, write, or draft a newsletter, email digest, weekly roundup, industry briefing, or curated content summary. Supports topic-based research, content curation from multiple sources, and professional formatting for email or web distribution. Trigger on requests like \"create a newsletter about X\", \"write a weekly digest\", \"generate a tech roundup\", or \"curate news about Y\".",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -25869,16 +25787,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 1
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "newsletter-generation",
     "path": "skills/public/newsletter-generation",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25908,7 +25826,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25916,7 +25834,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/skill-reviewer",
     "compatibility": null,
     "description": "Reviews DeerFlow skill packages for readiness, triggers, safety boundaries, resources, and evidence. Invoke when users ask to audit, grade, or production-check an existing skill.",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -25949,16 +25867,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 13
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "skill-reviewer",
     "path": "skills/public/skill-reviewer",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -25990,7 +25908,7 @@
         "allowed-tools should be a space-separated string"
       ]
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -25998,7 +25916,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/surprise-me",
     "compatibility": null,
     "description": "Create a delightful, unexpected \"wow\" experience for the user by dynamically discovering and creatively combining other enabled skills. Triggers when the user says \"surprise me\" or any request expressing a desire for an unexpected creative showcase. Also triggers when the user is bored, wants inspiration, or asks for \"something interesting\".",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -26030,16 +25948,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 1
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "surprise-me",
     "path": "skills/public/surprise-me",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -26069,7 +25987,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
@@ -26077,7 +25995,7 @@
     "canonical_key": "bytedance/deer-flow:skills/public/systematic-literature-review",
     "compatibility": null,
     "description": "Use this skill when the user wants a systematic literature review, survey, or synthesis across multiple academic papers on a topic. Also covers annotated bibliographies and cross-paper comparisons. Searches arXiv and outputs reports in APA, IEEE, or BibTeX format. Not for single-paper tasks — use academic-paper-review for reviewing one paper.",
-    "discovery_source": "repo-search:\"SKILL.md\" in:readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -26110,16 +26028,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 220.60132123842624,
+      "star_velocity_7d": 343.75499214596744,
       "tree_files_scanned": 4
     },
-    "forks": 11356,
-    "indexed_at": "2026-09-13T09:09:50.917947+00:00",
+    "forks": 11494,
+    "indexed_at": "2026-09-27T02:04:22.158510+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "systematic-literature-review",
     "path": "skills/public/systematic-literature-review",
-    "pushed_at": "2026-09-13T09:08:33+00:00",
+    "pushed_at": "2026-09-27T01:58:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
@@ -26149,7 +26067,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 82333
+    "stars": 83006
   },
   {
     "allowed_tools": [],
