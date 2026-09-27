@@ -4677,7 +4677,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
     "security_85_plus_count": 42,
@@ -5652,7 +5652,7 @@
     "pushed_at": "2026-09-16T22:25:16+00:00",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
-    "security_85_plus_count": 50,
+    "security_85_plus_count": 49,
     "skills": [
       {
         "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
@@ -6078,15 +6078,6 @@
         "spec_valid": true
       },
       {
-        "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/verification-before-completion/SKILL.md",
-        "name": "verification-before-completion",
-        "overall_score": 100,
-        "path": ".claude/skills/verification-before-completion",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "A comprehensive verification system for Claude Code sessions. Use when verifying a Claude Code session's work before claiming it is complete.",
         "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/third_party/everything-claude-code/skills/verification-loop/SKILL.md",
         "name": "verification-loop",
@@ -6105,8 +6096,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 50,
-    "spec_valid_count": 50,
+    "skills_count": 49,
+    "spec_valid_count": 49,
     "stars": 1
   },
   {

@@ -39276,7 +39276,7 @@
     "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-apply-change",
     "compatibility": "Requires openspec CLI.",
     "description": "Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -39313,7 +39313,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "author": "openspec",
@@ -39322,7 +39322,7 @@
     },
     "name": "openspec-apply-change",
     "path": ".opencode/skills/openspec-apply-change",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39362,7 +39362,7 @@
     "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-archive-change",
     "compatibility": "Requires openspec CLI.",
     "description": "Archive a completed change in the experimental workflow. Use when the user wants to finalize and archive a change after implementation is complete.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -39396,7 +39396,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "author": "openspec",
@@ -39405,7 +39405,7 @@
     },
     "name": "openspec-archive-change",
     "path": ".opencode/skills/openspec-archive-change",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39445,7 +39445,7 @@
     "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-explore",
     "compatibility": "Requires openspec CLI.",
     "description": "Enter explore mode - a thinking partner for exploring ideas, investigating problems, and clarifying requirements. Use when the user wants to think through something before or during a change.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -39482,7 +39482,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "author": "openspec",
@@ -39491,7 +39491,7 @@
     },
     "name": "openspec-explore",
     "path": ".opencode/skills/openspec-explore",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39531,7 +39531,7 @@
     "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-propose",
     "compatibility": "Requires openspec CLI.",
     "description": "Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -39566,7 +39566,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "author": "openspec",
@@ -39575,7 +39575,7 @@
     },
     "name": "openspec-propose",
     "path": ".opencode/skills/openspec-propose",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39615,7 +39615,7 @@
     "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-sync-specs",
     "compatibility": "Requires openspec CLI.",
     "description": "Sync delta specs from a change to main specs. Use when the user wants to update main specs with changes from a delta spec, without archiving the change.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -39651,7 +39651,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "author": "openspec",
@@ -39660,7 +39660,7 @@
     },
     "name": "openspec-sync-specs",
     "path": ".opencode/skills/openspec-sync-specs",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39700,7 +39700,7 @@
     "canonical_key": "componentdock/free-react-templates:.opencode/skills/openspec-update-change",
     "compatibility": "Requires openspec CLI.",
     "description": "Update an OpenSpec change by revising its existing planning artifacts and keeping them coherent with one another. Use when the user wants to revise a change's plan, fold new decisions into it, or reconcile its artifacts after an edit. Never edits code.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -39736,7 +39736,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "author": "openspec",
@@ -39745,7 +39745,7 @@
     },
     "name": "openspec-update-change",
     "path": ".opencode/skills/openspec-update-change",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39783,7 +39783,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/apple/apple-notes",
     "compatibility": null,
     "description": "Manage Apple Notes via memo CLI: create, search, edit.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "legal-compliance",
@@ -39816,14 +39816,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Notes', 'Apple', 'macOS', 'note-taking'], 'related_skills': ['obsidian']}"
     },
     "name": "apple-notes",
     "path": "skills/apple/apple-notes",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39863,7 +39863,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/apple/apple-reminders",
     "compatibility": null,
     "description": "Apple Reminders via remindctl: add, list, complete.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -39900,14 +39900,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Reminders', 'tasks', 'todo', 'macOS', 'Apple']}"
     },
     "name": "apple-reminders",
     "path": "skills/apple/apple-reminders",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -39947,7 +39947,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/apple/findmy",
     "compatibility": null,
     "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -39984,14 +39984,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['FindMy', 'AirTag', 'location', 'tracking', 'macOS', 'Apple']}"
     },
     "name": "findmy",
     "path": "skills/apple/findmy",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40031,7 +40031,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/apple/imessage",
     "compatibility": null,
     "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -40067,14 +40067,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['iMessage', 'SMS', 'messaging', 'macOS', 'Apple']}"
     },
     "name": "imessage",
     "path": "skills/apple/imessage",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40114,7 +40114,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/automation/autonomous-cron-pipelines",
     "compatibility": null,
     "description": "Cron jobs that run AI agents: state machines, PR gates.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "agent-orchestration",
@@ -40151,14 +40151,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['cron', 'automation', 'pipelines', 'github', 'prs', 'agents'], 'related_skills': ['github-pr-workflow', 'github-org-bulk-operations']}"
     },
     "name": "autonomous-cron-pipelines",
     "path": "skills/automation/autonomous-cron-pipelines",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40198,7 +40198,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/autonomous-ai-agents/codex",
     "compatibility": null,
     "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -40235,14 +40235,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Coding-Agent', 'Codex', 'OpenAI', 'Code-Review', 'Refactoring'], 'related_skills': ['claude-code', 'hermes-agent']}"
     },
     "name": "codex",
     "path": "skills/autonomous-ai-agents/codex",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40282,7 +40282,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/autonomous-ai-agents/opencode",
     "compatibility": null,
     "description": "Delegate coding to OpenCode CLI (features, PR review).",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -40319,14 +40319,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Coding-Agent', 'OpenCode', 'Autonomous', 'Refactoring', 'Code-Review'], 'related_skills': ['claude-code', 'codex', 'hermes-agent']}"
     },
     "name": "opencode",
     "path": "skills/autonomous-ai-agents/opencode",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40366,7 +40366,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/creative/architecture-diagram",
     "compatibility": null,
     "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -40403,14 +40403,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['architecture', 'diagrams', 'SVG', 'HTML', 'visualization', 'infrastructure', 'cloud'], 'related_skills': ['concept-diagrams', 'excalidraw']}"
     },
     "name": "architecture-diagram",
     "path": "skills/creative/architecture-diagram",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40450,7 +40450,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/creative/claude-design",
     "compatibility": null,
     "description": "Design one-off HTML artifacts (landing, deck, prototype).",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -40487,14 +40487,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['design', 'html', 'prototype', 'ux', 'ui', 'creative', 'artifact', 'deck', 'motion', 'design-system'], 'related_skills': ['design-md', 'popular-web-designs', 'excalidraw', 'architecture-diagram']}"
     },
     "name": "claude-design",
     "path": "skills/creative/claude-design",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40534,7 +40534,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/creative/design-md",
     "compatibility": null,
     "description": "Author/validate/export Google's DESIGN.md token spec files.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -40571,14 +40571,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['design', 'design-system', 'tokens', 'ui', 'accessibility', 'wcag', 'tailwind', 'dtcg', 'google'], 'related_skills': ['popular-web-designs', 'claude-design', 'excalidraw', 'architecture-diagram']}"
     },
     "name": "design-md",
     "path": "skills/creative/design-md",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40618,7 +40618,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/creative/humanizer",
     "compatibility": null,
     "description": "Humanize text: strip AI-isms and add real voice.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -40655,14 +40655,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['writing', 'editing', 'humanize', 'anti-ai-slop', 'voice', 'prose', 'text'], 'category': 'creative', 'homepage': 'https://github.com/blader/humanizer', 'related_skills': ['songwriting-and-ai-music']}"
     },
     "name": "humanizer",
     "path": "skills/creative/humanizer",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40702,7 +40702,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/creative/popular-web-designs",
     "compatibility": null,
     "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -40739,12 +40739,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "popular-web-designs",
     "path": "skills/creative/popular-web-designs",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40782,7 +40782,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/creative/pretext",
     "compatibility": null,
     "description": "Build creative browser demos with DOM-free text layout.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -40819,14 +40819,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['creative-coding', 'typography', 'pretext', 'ascii-art', 'canvas', 'generative', 'text-layout', 'kinetic-typography'], 'related_skills': ['p5js', 'claude-design', 'excalidraw', 'architecture-diagram']}"
     },
     "name": "pretext",
     "path": "skills/creative/pretext",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40866,7 +40866,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/creative/sketch",
     "compatibility": null,
     "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -40903,14 +40903,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['sketch', 'mockup', 'design', 'ui', 'prototype', 'html', 'variants', 'exploration', 'wireframe', 'comparison'], 'related_skills': ['spike', 'claude-design', 'popular-web-designs', 'excalidraw']}"
     },
     "name": "sketch",
     "path": "skills/creative/sketch",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -40950,7 +40950,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/email/himalaya",
     "compatibility": null,
     "description": "Himalaya CLI: IMAP/SMTP email from terminal.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -40987,14 +40987,14 @@
       "tree_files_scanned": 3
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Email', 'IMAP', 'SMTP', 'CLI', 'Communication'], 'homepage': 'https://github.com/pimalaya/himalaya'}"
     },
     "name": "himalaya",
     "path": "skills/email/himalaya",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41034,7 +41034,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/github/codebase-inspection",
     "compatibility": null,
     "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "documentation",
@@ -41069,14 +41069,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['LOC', 'Code Analysis', 'pygount', 'Codebase', 'Metrics', 'Repository'], 'related_skills': ['github-repo-management']}"
     },
     "name": "codebase-inspection",
     "path": "skills/github/codebase-inspection",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41116,7 +41116,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/github/github-bulk-repo-ops",
     "compatibility": null,
     "description": "Bulk GitHub ops: parallel API, deletion, scopes, cleanup.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -41151,14 +41151,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['github', 'gh-cli', 'org-admin', 'cleanup', 'bulk-ops', 'rest-api'], 'related_skills': ['github-auth', 'github-repo-management']}"
     },
     "name": "github-bulk-repo-ops",
     "path": "skills/github/github-bulk-repo-ops",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41198,7 +41198,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/github/github-org-administration",
     "compatibility": null,
     "description": "Bulk GitHub org admin: classify and delete repos at scale.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -41234,14 +41234,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['GitHub', 'Organizations', 'Bulk-Operations', 'Repo-Administration'], 'related_skills': ['github-repo-management', 'github-auth', 'github-pr-workflow']}"
     },
     "name": "github-org-administration",
     "path": "skills/github/github-org-administration",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41281,7 +41281,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/github/github-org-automation",
     "compatibility": null,
     "description": "Headless GitHub org automation: auth, scopes, bulk repo ops.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -41318,14 +41318,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['GitHub', 'gh-cli', 'org', 'automation', 'bulk-operations', 'device-flow'], 'related_skills': ['github-auth', 'github-repo-management', 'web-catalog-scraping']}"
     },
     "name": "github-org-automation",
     "path": "skills/github/github-org-automation",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41365,7 +41365,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/github/github-org-bulk-operations",
     "compatibility": null,
     "description": "Bulk GitHub org cleanup: inventory, classify, delete.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -41400,14 +41400,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['github', 'orgs', 'bulk', 'cleanup', 'auth'], 'related_skills': ['github-repo-management', 'github-auth']}"
     },
     "name": "github-org-bulk-operations",
     "path": "skills/github/github-org-bulk-operations",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41447,7 +41447,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/media/gif-search",
     "compatibility": null,
     "description": "Search/download GIFs from Tenor via curl + jq.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "media",
@@ -41483,14 +41483,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['GIF', 'Media', 'Search', 'Tenor', 'API']}"
     },
     "name": "gif-search",
     "path": "skills/media/gif-search",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41530,7 +41530,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/media/songsee",
     "compatibility": null,
     "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "media"
@@ -41562,14 +41562,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Audio', 'Visualization', 'Spectrogram', 'Music', 'Analysis'], 'homepage': 'https://github.com/steipete/songsee'}"
     },
     "name": "songsee",
     "path": "skills/media/songsee",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41609,7 +41609,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/productivity/airtable",
     "compatibility": null,
     "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -41646,14 +41646,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Airtable', 'Productivity', 'Database', 'API'], 'homepage': 'https://airtable.com/developers/web/api/introduction'}"
     },
     "name": "airtable",
     "path": "skills/productivity/airtable",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41693,7 +41693,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/productivity/nano-pdf",
     "compatibility": null,
     "description": "Edit text in existing PDFs via natural-language prompts.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "documents",
@@ -41729,14 +41729,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['PDF', 'Documents', 'Editing', 'NLP', 'Productivity'], 'homepage': 'https://pypi.org/project/nano-pdf/', 'related_skills': ['pdf', 'ocr-and-documents']}"
     },
     "name": "nano-pdf",
     "path": "skills/productivity/nano-pdf",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41776,7 +41776,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/productivity/teams-meeting-pipeline",
     "compatibility": null,
     "description": "Teams meeting summaries, job replay, Graph subscriptions.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -41812,14 +41812,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Teams', 'Microsoft Graph', 'Meetings', 'Productivity', 'Operations'], 'related_docs': ['/docs/guides/microsoft-graph-app-registration', '/docs/user-guide/messaging/teams-meetings', '/docs/guides/operate-teams-meeting-pipeline']}"
     },
     "name": "teams-meeting-pipeline",
     "path": "skills/productivity/teams-meeting-pipeline",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41859,7 +41859,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/research/blogwatcher",
     "compatibility": null,
     "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "data",
@@ -41895,14 +41895,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['RSS', 'Blogs', 'Feed-Reader', 'Monitoring'], 'homepage': 'https://github.com/JulienTant/blogwatcher-cli'}"
     },
     "name": "blogwatcher",
     "path": "skills/research/blogwatcher",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -41942,7 +41942,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/research/colorlib-template-replication",
     "compatibility": null,
     "description": "Recreate ColorLib templates faithfully from preview and CSS.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -41979,14 +41979,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['colorlib', 'templates', 'replication', 'design', 'css', 'react', 'frontend'], 'related_skills': ['web-catalog-scraping', 'vite-react-monorepo-tooling', 'autonomous-cron-pipelines']}"
     },
     "name": "colorlib-template-replication",
     "path": "skills/research/colorlib-template-replication",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42026,7 +42026,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/smart-home/openhue",
     "compatibility": null,
     "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "other"
@@ -42058,14 +42058,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Smart-Home', 'Hue', 'Lights', 'IoT', 'Automation'], 'homepage': 'https://www.openhue.io/cli'}"
     },
     "name": "openhue",
     "path": "skills/smart-home/openhue",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42105,7 +42105,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/ai-native-repo-setup",
     "compatibility": null,
     "description": "AI-native repo setup: AGENTS.md, docs tree, ADRs, OpenSpec.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "documentation",
@@ -42142,14 +42142,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['AGENTS.md', 'documentation', 'ADR', 'openspec', 'spec-driven', 'AI-agents', 'conventions'], 'related_skills': ['repo-audit-workflow', 'vite-react-tailwind-scaffolding', 'test-driven-development']}"
     },
     "name": "ai-native-repo-setup",
     "path": "skills/software-development/ai-native-repo-setup",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42189,7 +42189,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/fallow",
     "compatibility": null,
     "description": "Fallow: Rust static analysis for TS/JS codebases.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -42226,14 +42226,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['static-analysis', 'typescript', 'javascript', 'linting', 'code-quality'], 'related_skills': ['codebase-inspection', 'requesting-code-review', 'github-org-administration']}"
     },
     "name": "fallow",
     "path": "skills/software-development/fallow",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42273,7 +42273,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/plan",
     "compatibility": null,
     "description": "Write a markdown plan to .hermes/plans/; no execution.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -42310,14 +42310,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['planning', 'plan-mode', 'implementation', 'workflow', 'design', 'documentation'], 'related_skills': ['subagent-driven-development', 'test-driven-development', 'requesting-code-review']}"
     },
     "name": "plan",
     "path": "skills/software-development/plan",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42357,7 +42357,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/react-vite-quality-tooling",
     "compatibility": null,
     "description": "React/Vite quality tooling: Vitest, Tailwind v4, husky.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -42394,14 +42394,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['react', 'vite', 'vitest', 'testing-library', 'tailwind', 'husky', 'oxlint', 'knip'], 'related_skills': ['test-driven-development', 'github-org-automation']}"
     },
     "name": "react-vite-quality-tooling",
     "path": "skills/software-development/react-vite-quality-tooling",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42441,7 +42441,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/simplify-code",
     "compatibility": null,
     "description": "Parallel 4-agent cleanup of recent code changes.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -42478,14 +42478,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['code-review', 'cleanup', 'refactor', 'delegation', 'subagent', 'parallel', 'simplify'], 'related_skills': ['requesting-code-review', 'test-driven-development', 'plan']}"
     },
     "name": "simplify-code",
     "path": "skills/software-development/simplify-code",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42525,7 +42525,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/spike",
     "compatibility": null,
     "description": "Throwaway experiments to validate an idea before build.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -42562,14 +42562,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['spike', 'prototype', 'experiment', 'feasibility', 'throwaway', 'exploration', 'research', 'planning', 'mvp', 'proof-of-concept'], 'related_skills': ['sketch', 'subagent-driven-development', 'plan']}"
     },
     "name": "spike",
     "path": "skills/software-development/spike",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42609,7 +42609,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/test-driven-development",
     "compatibility": null,
     "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -42646,14 +42646,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['testing', 'tdd', 'development', 'quality', 'red-green-refactor'], 'related_skills': ['systematic-debugging', 'plan', 'subagent-driven-development']}"
     },
     "name": "test-driven-development",
     "path": "skills/software-development/test-driven-development",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -42693,7 +42693,7 @@
     "canonical_key": "componentdock/free-react-templates:skills/software-development/vite-react-tailwind-scaffolding",
     "compatibility": null,
     "description": "Scaffold Vite+React+Tailwind TS apps and monorepos.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -42730,14 +42730,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-24T16:36:30.825757+00:00",
+    "indexed_at": "2026-09-26T23:53:58.075638+00:00",
     "license": "MIT",
     "metadata": {
       "hermes": "{'tags': ['Vite', 'React', 'Tailwind', 'TypeScript', 'Monorepo', 'Scaffolding'], 'related_skills': ['vite-vitest-tooling', 'github-repo-management']}"
     },
     "name": "vite-react-tailwind-scaffolding",
     "path": "skills/software-development/vite-react-tailwind-scaffolding",
-    "pushed_at": "2026-09-24T16:34:32+00:00",
+    "pushed_at": "2026-09-26T23:52:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
@@ -49943,92 +49943,6 @@
       "assets": 0,
       "other": 0,
       "references": 5,
-      "scripts": 0
-    },
-    "score": {
-      "adoption": 17,
-      "maintenance": 100,
-      "overall": 100,
-      "quality": 100,
-      "reasons": [
-        "Repository includes test evidence.",
-        "Repository declares license MIT."
-      ],
-      "security": 100
-    },
-    "security": {
-      "findings": [],
-      "score": 100
-    },
-    "spec": {
-      "errors": [],
-      "valid": true,
-      "warnings": []
-    },
-    "stars": 1
-  },
-  {
-    "allowed_tools": [],
-    "archived": false,
-    "canonical_key": "danfashauer/signalgrid-review-hub:.claude/skills/verification-before-completion",
-    "compatibility": null,
-    "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
-    "discovery_source": "repo-search:\"claude skills\" in:name,description,readme",
-    "evidence": {
-      "categories": [
-        "research",
-        "testing",
-        "content",
-        "engineering",
-        "productivity"
-      ],
-      "client_compatibility_evidence": {
-        "Claude Code": [
-          "skill stored under .claude/skills"
-        ],
-        "GitHub Copilot": [
-          "GitHub Copilot supports project skills under .claude/skills"
-        ]
-      },
-      "duplicate_of": null,
-      "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/verification-before-completion/SKILL.md",
-      "qualification": {
-        "blocking_reasons": [],
-        "checks": {
-          "active-source": true,
-          "behavioral-safety": true,
-          "duplicate": true,
-          "instruction-depth": true,
-          "license": true,
-          "portability": true,
-          "resource-integrity": true,
-          "script-verification": true,
-          "spec-validity": true,
-          "static-security": true
-        },
-        "policy_version": 1,
-        "qualified": true
-      },
-      "repo_has_readme": true,
-      "repo_has_tests": true,
-      "source_tier": "community",
-      "star_velocity_7d": 0.0,
-      "tree_files_scanned": 1
-    },
-    "forks": 0,
-    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
-    "license": "MIT",
-    "metadata": {},
-    "name": "verification-before-completion",
-    "path": ".claude/skills/verification-before-completion",
-    "pushed_at": "2026-09-11T23:34:39+00:00",
-    "repo_default_branch": "SignalGrid_Alpha",
-    "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
-    "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
-    "resources": {
-      "assets": 0,
-      "other": 0,
-      "references": 0,
       "scripts": 0
     },
     "score": {
