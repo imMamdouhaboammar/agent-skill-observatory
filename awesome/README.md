@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **950**
+Published skills: **949**
 Repositories: **97**
 
 ## Browse repositories
@@ -202,7 +202,6 @@ Repositories: **97**
 - [afaro-orchestrator](./skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) · `afaro-ai/afaro:skills/afaro-orchestrator`
 - [afaro-removal-verify](./skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) · `afaro-ai/afaro:skills/afaro-removal-verify`
 - [conflict-resolve](./skills/aganesy/qfai/.agents/skills/conflict-resolve/README.md) · `aganesy/qfai:.agents/skills/conflict-resolve`
-- [qfai-discussion](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-discussion/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-discussion`
 - [qfai-grill](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-grill/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-grill`
 - [qfai-grilling](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-grilling/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-grilling`
 - [qfai-prototyping](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-prototyping/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-prototyping`

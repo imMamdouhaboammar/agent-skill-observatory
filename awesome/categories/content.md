@@ -1,6 +1,6 @@
 # content
 
-Published Skills: 630
+Published Skills: 629
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -269,7 +269,6 @@ Published Skills: 630
 | [plan-foundations](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plan-foundations/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Grounded Foundations planning procedure for turning retrieved curriculum and approved project evidence into draft story decisions. |
 | [plotpickle-architecture-review](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/plotpickle-architecture-review/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Scout PlotPickle architecture before non-trivial changes and independently review an exact diff/head against architecture, engineering standards, and the originating spec. |
 | [plotpickle-human-acceptance](../skills/BryanHarrisScripts/PlotPickle/tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Exercise PlotPickle through its rendered UI like a first-time human user, preserve story context across the workflow, and report reproducible PASS, WARN, or FAIL findings with evidence. |
-| [qfai-discussion](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-discussion/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Run structured discussion that defines exploration conditions, evaluation rubric, and anti-goals for downstream prototyping. |
 | [qfai-grill](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-grill/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Run a grilling session on anything: a design, a product direction, a piece of writing. Needs no repository and writes no files. Invoked by the user, never by the agent. |
 | [qfai-grilling](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-grilling/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Interrogate an unfixed design in rounds: a tree of open decisions, a frontier of the ones answerable now, facts read rather than asked, and an end condition the user holds. |
 | [qfai-prototyping](../skills/aganesy/QFAI/.qfai/assistant/skills/qfai-prototyping/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | Iterate one prototype through up to 10 cycles of generate-capture-review against a frozen DESIGN.md, focusing on information architecture, navigation flow, usability, and functionality. |
