@@ -487,7 +487,6 @@
       "engineering",
       "integrations",
       "legal-compliance",
-      "product",
       "productivity",
       "research",
       "testing"
@@ -497,7 +496,7 @@
     "pushed_at": "2026-09-21T22:20:37+00:00",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
-    "security_85_plus_count": 5,
+    "security_85_plus_count": 4,
     "skills": [
       {
         "description": "最新のベースブランチ取り込みで発生したGit競合を、ours/theirs双方の修正意図を分析して共存解決し、コミット/プッシュまで完了する。競合解消が必要なときに使用する。",
@@ -505,15 +504,6 @@
         "name": "conflict-resolve",
         "overall_score": 100,
         "path": ".agents/skills/conflict-resolve",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
-        "description": "Run a grilling session on anything: a design, a product direction, a piece of writing. Needs no repository and writes no files. Invoked by the user, never by the agent.",
-        "manifest": "https://github.com/aganesy/QFAI/blob/main/.qfai/assistant/skills/qfai-grill/SKILL.md",
-        "name": "qfai-grill",
-        "overall_score": 100,
-        "path": ".qfai/assistant/skills/qfai-grill",
         "security_score": 100,
         "spec_valid": true
       },
@@ -545,8 +535,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 5,
-    "spec_valid_count": 5,
+    "skills_count": 4,
+    "spec_valid_count": 4,
     "stars": 4
   },
   {
@@ -1868,8 +1858,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 32,
-    "pushed_at": "2026-09-26T01:42:57+00:00",
+    "forks": 31,
+    "pushed_at": "2026-09-28T01:36:30+00:00",
     "repo_full_name": "atomantic/PortOS",
     "repo_url": "https://github.com/atomantic/PortOS",
     "security_85_plus_count": 3,
@@ -2439,7 +2429,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-13T00:56:10+00:00",
+    "pushed_at": "2026-09-27T13:12:46+00:00",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
     "security_85_plus_count": 17,
@@ -2904,8 +2894,8 @@
       "productivity"
     ],
     "default_branch": "main",
-    "forks": 3195,
-    "pushed_at": "2026-09-12T14:04:06+00:00",
+    "forks": 3579,
+    "pushed_at": "2026-09-28T01:36:33+00:00",
     "repo_full_name": "can1357/oh-my-pi",
     "repo_url": "https://github.com/can1357/oh-my-pi",
     "security_85_plus_count": 2,
@@ -2931,7 +2921,7 @@
     ],
     "skills_count": 2,
     "spec_valid_count": 2,
-    "stars": 30801
+    "stars": 33492
   },
   {
     "archived": false,
@@ -5273,7 +5263,7 @@
     ],
     "default_branch": "main",
     "forks": 2,
-    "pushed_at": "2026-09-18T11:13:24+00:00",
+    "pushed_at": "2026-09-27T07:29:46+00:00",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
     "security_85_plus_count": 36,
