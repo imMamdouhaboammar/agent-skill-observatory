@@ -2,16 +2,16 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-28 07:49 UTC
+> Last refreshed: 2026-09-29 18:50 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **948** published skills
+- **947** published skills
 - **97** repositories
-- **944** spec-valid manifests
-- **944** skills with security score 85+
-- **944** skills with overall score 80+
+- **943** spec-valid manifests
+- **943** skills with security score 85+
+- **943** skills with overall score 80+
 
 ## Top verified skills
 
@@ -52,7 +52,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 31 | 100 | 11 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, project-management, research, security |
 | [aaronjmars/miroshark-aeon](https://github.com/aaronjmars/miroshark-aeon) | 1 | 100 | 17 | browser-automation, commerce, content, data, engineering, finance |
 | [abnegate/magents](https://github.com/abnegate/magents) | 1 | 100 | 2 | content, engineering, integrations, productivity |
-| [aganesy/QFAI](https://github.com/aganesy/QFAI) | 4 | 100 | 4 | agent-orchestration, browser-automation, commerce, content, design, engineering, integrations, legal-compliance, productivity, research, testing |
+| [aganesy/QFAI](https://github.com/aganesy/QFAI) | 3 | 100 | 4 | agent-orchestration, browser-automation, commerce, content, design, engineering, integrations, legal-compliance, productivity, research, testing |
 | [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 1 | 100 | 1426 | content, devops, engineering, product, security, testing |
 | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 56 | 100 | 0 | agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 33 | 100 | 215 | agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, mobile, productivity, research, security, testing |
@@ -76,7 +76,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 1 | 100 | 17 | commerce, content, engineering, productivity, testing |
 | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 12 | 100 | 0 | agent-orchestration, browser-automation, commerce, data, design, devops, documentation, documents, engineering, integrations, media, mobile, productivity, research, testing |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 26 | 100 | 52163 | agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, media, other, productivity, research, security, testing |
-| [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 12 | 100 | 6 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security, testing |
+| [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 12 | 100 | 7 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security, testing |
 | [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 1 | 100 | 54 | content, integrations, media, research |
 | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 1 | 100 | 1 | content, devops, engineering, legal-compliance, productivity, research |
 | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 35 | 100 | 1381 | ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing |
