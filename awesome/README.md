@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **947**
+Published skills: **946**
 Repositories: **97**
 
 ## Browse repositories
@@ -202,7 +202,6 @@ Repositories: **97**
 - [afaro-orchestrator](./skills/afaro-ai/afaro/skills/afaro-orchestrator/README.md) · `afaro-ai/afaro:skills/afaro-orchestrator`
 - [afaro-removal-verify](./skills/afaro-ai/afaro/skills/afaro-removal-verify/README.md) · `afaro-ai/afaro:skills/afaro-removal-verify`
 - [conflict-resolve](./skills/aganesy/qfai/.agents/skills/conflict-resolve/README.md) · `aganesy/qfai:.agents/skills/conflict-resolve`
-- [qfai-prototyping](./skills/aganesy/qfai/.qfai/assistant/skills/qfai-prototyping/README.md) · `aganesy/qfai:.qfai/assistant/skills/qfai-prototyping`
 - [web-research](./skills/aganesy/qfai/.qfai/assistant/skills/web-research/README.md) · `aganesy/qfai:.qfai/assistant/skills/web-research`
 - [update-model-pricing](./skills/agentconnect-md/agentconnect/.claude/skills/update-model-pricing/README.md) · `agentconnect-md/agentconnect:.claude/skills/update-model-pricing`
 - [your-product](./skills/agentic-ai-uiuc/54-workshop/.cursor/skills/your-product/README.md) · `agentic-ai-uiuc/54-workshop:.cursor/skills/your-product`

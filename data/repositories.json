@@ -481,13 +481,9 @@
     "categories": [
       "agent-orchestration",
       "browser-automation",
-      "commerce",
-      "content",
-      "design",
       "engineering",
       "integrations",
       "legal-compliance",
-      "productivity",
       "research",
       "testing"
     ],
@@ -496,7 +492,7 @@
     "pushed_at": "2026-09-21T22:20:37+00:00",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
-    "security_85_plus_count": 3,
+    "security_85_plus_count": 2,
     "skills": [
       {
         "description": "最新のベースブランチ取り込みで発生したGit競合を、ours/theirs双方の修正意図を分析して共存解決し、コミット/プッシュまで完了する。競合解消が必要なときに使用する。",
@@ -504,15 +500,6 @@
         "name": "conflict-resolve",
         "overall_score": 100,
         "path": ".agents/skills/conflict-resolve",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
-        "description": "Iterate one prototype through up to 10 cycles of generate-capture-review against a frozen DESIGN.md, focusing on information architecture, navigation flow, usability, and functionality.",
-        "manifest": "https://github.com/aganesy/QFAI/blob/main/.qfai/assistant/skills/qfai-prototyping/SKILL.md",
-        "name": "qfai-prototyping",
-        "overall_score": 100,
-        "path": ".qfai/assistant/skills/qfai-prototyping",
         "security_score": 100,
         "spec_valid": true
       },
@@ -526,8 +513,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 3,
-    "spec_valid_count": 3,
+    "skills_count": 2,
+    "spec_valid_count": 2,
     "stars": 4
   },
   {
