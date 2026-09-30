@@ -41,7 +41,7 @@ jobs:
     steps:
       - name: Create dedicated merge bot token
         id: merge-token
-        uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
           app-id: ${{ secrets.MERGE_BOT_APP_ID }}
           private-key: ${{ secrets.MERGE_BOT_PRIVATE_KEY }}
@@ -51,7 +51,7 @@ jobs:
           permission-statuses: read
 
       - name: Revalidate gates and merge exact reviewed SHA
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
           REQUIRED_REVIEW_CHECKS: ${{ vars.REQUIRED_REVIEW_CHECKS || 'Gitar@827041' }}
           EXPECTED_PATCH_AUTHOR_LOGIN: ${{ vars.PATCH_AUTHOR_LOGIN || 'imMamdouhaboammar' }}
