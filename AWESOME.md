@@ -2,16 +2,16 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-09-30 07:34 UTC
+> Last refreshed: 2026-10-01 07:56 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **946** published skills
+- **945** published skills
 - **97** repositories
-- **942** spec-valid manifests
-- **942** skills with security score 85+
-- **942** skills with overall score 80+
+- **941** spec-valid manifests
+- **941** skills with security score 85+
+- **941** skills with overall score 80+
 
 ## Top verified skills
 
@@ -52,7 +52,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 31 | 100 | 11 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, project-management, research, security |
 | [aaronjmars/miroshark-aeon](https://github.com/aaronjmars/miroshark-aeon) | 1 | 100 | 17 | browser-automation, commerce, content, data, engineering, finance |
 | [abnegate/magents](https://github.com/abnegate/magents) | 1 | 100 | 2 | content, engineering, integrations, productivity |
-| [aganesy/QFAI](https://github.com/aganesy/QFAI) | 2 | 100 | 4 | agent-orchestration, browser-automation, engineering, integrations, legal-compliance, research, testing |
+| [aganesy/QFAI](https://github.com/aganesy/QFAI) | 1 | 100 | 4 | engineering |
 | [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 1 | 100 | 1426 | content, devops, engineering, product, security, testing |
 | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 56 | 100 | 0 | agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 33 | 100 | 215 | agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, mobile, productivity, research, security, testing |
@@ -77,7 +77,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [chenyynx/claudio](https://github.com/chenyynx/claudio) | 12 | 100 | 0 | agent-orchestration, browser-automation, commerce, data, design, devops, documentation, documents, engineering, integrations, media, mobile, productivity, research, testing |
 | [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | 26 | 100 | 52163 | agent-orchestration, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, integrations, legal-compliance, media, other, productivity, research, security, testing |
 | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 12 | 100 | 7 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, integrations, legal-compliance, media, productivity, research, security, testing |
-| [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 1 | 100 | 54 | content, integrations, media, research |
+| [christiandoxa/prodex](https://github.com/christiandoxa/prodex) | 1 | 100 | 56 | content, integrations, media, research |
 | [Christopher-Schulze/reconc](https://github.com/Christopher-Schulze/reconc) | 1 | 100 | 1 | content, devops, engineering, legal-compliance, productivity, research |
 | [cloudposse/atmos](https://github.com/cloudposse/atmos) | 35 | 100 | 1381 | ai-ml, commerce, content, data, design, devops, documentation, education, engineering, finance, integrations, legal-compliance, marketing, media, mobile, product, productivity, project-management, research, security, testing |
 | [cogNNitive/cogNNitive](https://github.com/cogNNitive/cogNNitive) | 3 | 100 | 0 | commerce, content, data, design, devops, documentation, marketing, productivity, research, testing |
@@ -118,7 +118,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 2 | 100 | 0 | agent-orchestration, architecture, content, design, engineering, hr-recruiting, media, productivity |
 | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 7 | 100 | 60 | browser-automation, code-review, commerce, content, data, design, documentation, education, engineering, productivity, research, security, testing |
 | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 6 | 100 | 1 | browser-automation, commerce, content, data, design, devops, engineering, finance, marketing, media, productivity, research, testing |
-| [lightdash/lightdash](https://github.com/lightdash/lightdash) | 1 | 100 | 6159 | content, data, design, engineering |
+| [lightdash/lightdash](https://github.com/lightdash/lightdash) | 1 | 100 | 6168 | content, data, design, engineering |
 | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 10 | 100 | 6 | browser-automation, business, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, product, productivity, research, security, testing |
 | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 10 | 99 | 20 | architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, localization, marketing, product, productivity, project-management, research, security, testing |
 | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 5 | 99 | 0 | agent-orchestration, ai-ml, architecture, commerce, content, data, design, devops, documentation, education, engineering, finance, legal-compliance, marketing, productivity, research, security, testing |
