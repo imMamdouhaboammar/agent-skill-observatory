@@ -2857,8 +2857,8 @@
       "productivity"
     ],
     "default_branch": "main",
-    "forks": 3579,
-    "pushed_at": "2026-09-28T01:36:33+00:00",
+    "forks": 3666,
+    "pushed_at": "2026-10-01T23:32:09+00:00",
     "repo_full_name": "can1357/oh-my-pi",
     "repo_url": "https://github.com/can1357/oh-my-pi",
     "security_85_plus_count": 2,
@@ -2884,7 +2884,7 @@
     ],
     "skills_count": 2,
     "spec_valid_count": 2,
-    "stars": 33492
+    "stars": 33998
   },
   {
     "archived": false,
@@ -5110,7 +5110,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-21T01:22:10+00:00",
+    "pushed_at": "2026-10-01T23:32:07+00:00",
     "repo_full_name": "CultureBotAI/TraitMech",
     "repo_url": "https://github.com/CultureBotAI/TraitMech",
     "security_85_plus_count": 3,
@@ -8054,7 +8054,7 @@
     ],
     "default_branch": "main",
     "forks": 3,
-    "pushed_at": "2026-09-24T16:34:13+00:00",
+    "pushed_at": "2026-10-01T14:51:04+00:00",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "security_85_plus_count": 15,
@@ -9337,7 +9337,6 @@
       "data",
       "design",
       "devops",
-      "engineering",
       "finance",
       "marketing",
       "media",
@@ -9347,10 +9346,10 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-25T12:00:37+00:00",
+    "pushed_at": "2026-10-02T02:33:16+00:00",
     "repo_full_name": "jeong-sik/masc",
     "repo_url": "https://github.com/jeong-sik/masc",
-    "security_85_plus_count": 6,
+    "security_85_plus_count": 5,
     "skills": [
       {
         "description": "Use MASC Browser tools to read or operate Firefox/Zen tabs, inspect images, and verify requested web actions. Use for Browser Lane work and session, selector, or browser connection failures.",
@@ -9396,20 +9395,11 @@
         "path": "skills/sangokushi-2",
         "security_score": 100,
         "spec_valid": true
-      },
-      {
-        "description": "Navigate Slack Web channels and collect messages or threads through Browser Lane, choosing channel search or message search and preserving the observed collection scope.",
-        "manifest": "https://github.com/jeong-sik/masc/blob/main/skills/slack-web/SKILL.md",
-        "name": "slack-web",
-        "overall_score": 100,
-        "path": "skills/slack-web",
-        "security_score": 100,
-        "spec_valid": true
       }
     ],
-    "skills_count": 6,
-    "spec_valid_count": 6,
-    "stars": 1
+    "skills_count": 5,
+    "spec_valid_count": 5,
+    "stars": 3
   },
   {
     "archived": false,
@@ -9421,8 +9411,8 @@
       "engineering"
     ],
     "default_branch": "main",
-    "forks": 787,
-    "pushed_at": "2026-09-30T13:57:11+00:00",
+    "forks": 789,
+    "pushed_at": "2026-10-02T08:59:22+00:00",
     "repo_full_name": "lightdash/lightdash",
     "repo_url": "https://github.com/lightdash/lightdash",
     "security_85_plus_count": 1,
@@ -9439,7 +9429,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 6168
+    "stars": 6171
   },
   {
     "archived": false,
