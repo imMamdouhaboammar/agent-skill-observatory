@@ -5071,88 +5071,6 @@
   {
     "allowed_tools": [],
     "archived": false,
-    "canonical_key": "aganesy/qfai:.qfai/assistant/skills/web-research",
-    "compatibility": null,
-    "description": "8-stage web research pipeline with MCP integration, caching, and citation generation.",
-    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
-    "evidence": {
-      "categories": [
-        "research",
-        "integrations",
-        "testing",
-        "agent-orchestration",
-        "browser-automation",
-        "legal-compliance"
-      ],
-      "client_compatibility_evidence": {},
-      "duplicate_of": null,
-      "manifest": "https://github.com/aganesy/QFAI/blob/main/.qfai/assistant/skills/web-research/SKILL.md",
-      "qualification": {
-        "blocking_reasons": [],
-        "checks": {
-          "active-source": true,
-          "behavioral-safety": true,
-          "duplicate": true,
-          "instruction-depth": true,
-          "license": true,
-          "portability": true,
-          "resource-integrity": true,
-          "script-verification": true,
-          "spec-validity": true,
-          "static-security": true
-        },
-        "policy_version": 1,
-        "qualified": true
-      },
-      "repo_has_readme": true,
-      "repo_has_tests": true,
-      "source_tier": "community",
-      "star_velocity_7d": 0.0,
-      "tree_files_scanned": 1
-    },
-    "forks": 1,
-    "indexed_at": "2026-09-12T17:06:20.023267+00:00",
-    "license": "MIT",
-    "metadata": {},
-    "name": "web-research",
-    "path": ".qfai/assistant/skills/web-research",
-    "pushed_at": "2026-09-12T17:04:41+00:00",
-    "repo_default_branch": "main",
-    "repo_full_name": "aganesy/QFAI",
-    "repo_url": "https://github.com/aganesy/QFAI",
-    "resources": {
-      "assets": 0,
-      "other": 0,
-      "references": 0,
-      "scripts": 0
-    },
-    "score": {
-      "adoption": 28,
-      "maintenance": 100,
-      "overall": 100,
-      "quality": 100,
-      "reasons": [
-        "Repository includes test evidence.",
-        "Repository declares license MIT."
-      ],
-      "security": 100
-    },
-    "security": {
-      "findings": [],
-      "score": 100
-    },
-    "spec": {
-      "errors": [],
-      "valid": true,
-      "warnings": [
-        "allowed-tools should be a space-separated string"
-      ]
-    },
-    "stars": 4
-  },
-  {
-    "allowed_tools": [],
-    "archived": false,
     "canonical_key": "agentconnect-md/agentconnect:.claude/skills/update-model-pricing",
     "compatibility": null,
     "description": "Verify and refresh AgentConnect's daemon-side public OpenAI fallback pricing, exact model aliases, long-context and cache rules, and regression tests. Use when OpenAI model prices or IDs change, fallback cost becomes missing or stale, codex-acp changes its token mapping, or someone asks to audit or update packages/daemon/src/usage/openai-public-pricing.ts.",
@@ -33292,16 +33210,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 3.052050202855441,
+      "star_velocity_7d": 1.734191891466818,
       "tree_files_scanned": 1
     },
     "forks": 8,
-    "indexed_at": "2026-09-22T23:51:39.823020+00:00",
+    "indexed_at": "2026-10-01T01:36:40.489441+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "prodex-session-prompt-write",
     "path": "skills/prodex-session-prompt-write",
-    "pushed_at": "2026-09-22T23:48:34+00:00",
+    "pushed_at": "2026-10-01T01:32:43+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "christiandoxa/prodex",
     "repo_url": "https://github.com/christiandoxa/prodex",
@@ -33331,7 +33249,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 54
+    "stars": 56
   },
   {
     "allowed_tools": [],
@@ -77211,16 +77129,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 15.02793623885379,
+      "star_velocity_7d": 15.454877777958345,
       "tree_files_scanned": 1
     },
-    "forks": 781,
-    "indexed_at": "2026-09-25T12:07:19.396281+00:00",
+    "forks": 787,
+    "indexed_at": "2026-09-30T14:01:13.880609+00:00",
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
     "name": "frontend-design",
     "path": "sandboxes/data-apps/template/.claude/skills/frontend-design",
-    "pushed_at": "2026-09-25T12:00:31+00:00",
+    "pushed_at": "2026-09-30T13:57:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "lightdash/lightdash",
     "repo_url": "https://github.com/lightdash/lightdash",
@@ -77250,7 +77168,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 6159
+    "stars": 6168
   },
   {
     "allowed_tools": [],

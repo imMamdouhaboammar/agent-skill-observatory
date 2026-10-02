@@ -1,6 +1,6 @@
 # browser-automation
 
-Published Skills: 83
+Published Skills: 82
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -35,7 +35,6 @@ Published Skills: 83
 | [file-server](../skills/chnlich/charlie-bot/skills/file-server/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | Must invoke when presenting a file to the user. The CharlieBot server has a built-in file browser that serves any file on the host filesystem. |
 | [plotpickle-human-acceptance](../skills/BryanHarrisScripts/PlotPickle/tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Exercise PlotPickle through its rendered UI like a first-time human user, preserve story context across the workflow, and report reproducible PASS, WARN, or FAIL findings with evidence. |
 | [visual-qa](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/visual-qa/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence. |
-| [web-research](../skills/aganesy/QFAI/.qfai/assistant/skills/web-research/README.md) | [aganesy/QFAI](https://github.com/aganesy/QFAI) | 100 | 100 | 4 | 8-stage web research pipeline with MCP integration, caching, and citation generation. |
 | [writer-in-residence](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/writer-in-residence/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings. |
 | [computer-use](../skills/dileep-kishore/zendots/dot_agents/skills/computer-use/README.md) | [dileep-kishore/zendots](https://github.com/dileep-kishore/zendots) | 100 | 100 | 3 | OS/window-level inspection and input in visible local app windows through `orca computer`: native apps, external browser windows (Chrome, Edge, Safari), and app webviews. Not for Orca's embedded browser (use `orca-cli`) or page-only automation (use Playwright or CDP). |
 | [mac-app](../skills/dbpprt/dieter/.agents/skills/mac-app/README.md) | [dbpprt/dieter](https://github.com/dbpprt/dieter) | 100 | 100 | 3 | Operate Dieter's native macOS app in the visible local desktop from end to end. Use for Mac app development, incremental SwiftPM builds, packaging or launching Dieter.app, inspecting and clicking through the live SwiftUI interface, collecting screenshots and accessibility evidence, running unit or native UI smoke tests, diagnosing launch, connection, rendering, hang, crash, duplicate-process, or build-cache failures, and gracefully closing every app process the task owns. |
