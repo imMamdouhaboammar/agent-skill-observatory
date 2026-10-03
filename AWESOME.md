@@ -2,16 +2,16 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-01 07:56 UTC
+> Last refreshed: 2026-10-02 09:09 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **945** published skills
+- **944** published skills
 - **97** repositories
-- **941** spec-valid manifests
-- **941** skills with security score 85+
-- **941** skills with overall score 80+
+- **940** spec-valid manifests
+- **940** skills with security score 85+
+- **940** skills with overall score 80+
 
 ## Top verified skills
 
@@ -70,7 +70,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 6 | 100 | 7 | documentation, engineering, integrations, productivity, research, security, testing |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 11 | 100 | 83006 | agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security |
 | [cameronabrams/htpolynet](https://github.com/cameronabrams/htpolynet) | 1 | 100 | 33 | content, engineering, marketing, media, productivity, testing |
-| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 2 | 100 | 33492 | ai-ml, commerce, content, design, documentation, engineering, productivity |
+| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 2 | 100 | 33998 | ai-ml, commerce, content, design, documentation, engineering, productivity |
 | [cbwinslow/Tarkka](https://github.com/cbwinslow/Tarkka) | 1 | 100 | 0 | commerce, content, documents, hr-recruiting, legal-compliance, research |
 | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 37 | 100 | 11 | ai-ml, architecture, browser-automation, business, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, media, mobile, product, productivity, research, security, testing |
 | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 1 | 100 | 17 | commerce, content, engineering, productivity, testing |
@@ -117,8 +117,8 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 22 | 100 | 5082 | agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, sales, security, testing |
 | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 2 | 100 | 0 | agent-orchestration, architecture, content, design, engineering, hr-recruiting, media, productivity |
 | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 7 | 100 | 60 | browser-automation, code-review, commerce, content, data, design, documentation, education, engineering, productivity, research, security, testing |
-| [jeong-sik/masc](https://github.com/jeong-sik/masc) | 6 | 100 | 1 | browser-automation, commerce, content, data, design, devops, engineering, finance, marketing, media, productivity, research, testing |
-| [lightdash/lightdash](https://github.com/lightdash/lightdash) | 1 | 100 | 6168 | content, data, design, engineering |
+| [jeong-sik/masc](https://github.com/jeong-sik/masc) | 5 | 100 | 3 | browser-automation, commerce, content, data, design, devops, finance, marketing, media, productivity, research, testing |
+| [lightdash/lightdash](https://github.com/lightdash/lightdash) | 1 | 100 | 6171 | content, data, design, engineering |
 | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 10 | 100 | 6 | browser-automation, business, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, product, productivity, research, security, testing |
 | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 10 | 99 | 20 | architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, localization, marketing, product, productivity, project-management, research, security, testing |
 | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 5 | 99 | 0 | agent-orchestration, ai-ml, architecture, commerce, content, data, design, devops, documentation, education, engineering, finance, legal-compliance, marketing, productivity, research, security, testing |

@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **945**
+Published skills: **944**
 Repositories: **97**
 
 ## Browse repositories
@@ -1045,7 +1045,6 @@ Repositories: **97**
 - [msx-play](./skills/jeong-sik/masc/skills/msx-play/README.md) · `jeong-sik/masc:skills/msx-play`
 - [observe-act-verify](./skills/jeong-sik/masc/skills/observe-act-verify/README.md) · `jeong-sik/masc:skills/observe-act-verify`
 - [sangokushi-2](./skills/jeong-sik/masc/skills/sangokushi-2/README.md) · `jeong-sik/masc:skills/sangokushi-2`
-- [slack-web](./skills/jeong-sik/masc/skills/slack-web/README.md) · `jeong-sik/masc:skills/slack-web`
 - [analyzing-change-blast-radius](./skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-change-blast-radius/README.md) · `jhonatan-oliveiradev/agent-skills:skills/analyzing-change-blast-radius`
 - [analyzing-developer-career-opportunities](./skills/jhonatan-oliveiradev/agent-skills/skills/analyzing-developer-career-opportunities/README.md) · `jhonatan-oliveiradev/agent-skills:skills/analyzing-developer-career-opportunities`
 - [assessing-developer-proficiency](./skills/jhonatan-oliveiradev/agent-skills/skills/assessing-developer-proficiency/README.md) · `jhonatan-oliveiradev/agent-skills:skills/assessing-developer-proficiency`
