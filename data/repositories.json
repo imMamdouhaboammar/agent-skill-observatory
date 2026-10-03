@@ -11,14 +11,14 @@
       "research"
     ],
     "default_branch": "main",
-    "forks": 0,
-    "pushed_at": "2026-09-12T11:03:41+00:00",
+    "forks": 2,
+    "pushed_at": "2026-09-20T13:45:46+00:00",
     "repo_full_name": "2AMLogic/klayout-tools",
     "repo_url": "https://github.com/2AMLogic/klayout-tools",
     "security_85_plus_count": 1,
     "skills": [
       {
-        "description": "Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. Use when reviewing a draft block spec table before operator ratification.",
+        "description": "Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. This verdict is the EE key of the two-key spec ratification (FLEET.md, 2AMLogic/2am#372). Use when reviewing a draft block spec table for ratification.",
         "manifest": "https://github.com/2AMLogic/klayout-tools/blob/main/.claude/skills/spec-review/SKILL.md",
         "name": "spec-review",
         "overall_score": 100,
@@ -29,7 +29,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 1
+    "stars": 3
   },
   {
     "archived": false,
@@ -483,7 +483,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-09-21T22:20:37+00:00",
+    "pushed_at": "2026-09-12T17:04:41+00:00",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
     "security_85_plus_count": 1,
