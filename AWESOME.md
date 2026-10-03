@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-03 13:37 UTC
+> Last refreshed: 2026-10-03 17:44 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
@@ -52,7 +52,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 31 | 100 | 11 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, project-management, research, security |
 | [aaronjmars/miroshark-aeon](https://github.com/aaronjmars/miroshark-aeon) | 1 | 100 | 17 | browser-automation, commerce, content, data, engineering, finance |
 | [abnegate/magents](https://github.com/abnegate/magents) | 1 | 100 | 2 | content, engineering, integrations, productivity |
-| [aganesy/QFAI](https://github.com/aganesy/QFAI) | 1 | 100 | 4 | engineering |
+| [aganesy/QFAI](https://github.com/aganesy/QFAI) | 1 | 100 | 4 | engineering, integrations, productivity, testing |
 | [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 1 | 100 | 1426 | content, devops, engineering, product, security, testing |
 | [aiconduit/ai-conduit-pipeline](https://github.com/aiconduit/ai-conduit-pipeline) | 56 | 100 | 0 | agent-orchestration, ai-ml, browser-automation, commerce, content, customer-support, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 33 | 100 | 215 | agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, mobile, productivity, research, security, testing |

@@ -8,11 +8,11 @@ Manifest: [https://github.com/aganesy/QFAI/blob/main/.agents/skills/conflict-res
 
 ## Description
 
-最新のベースブランチ取り込みで発生したGit競合を、ours/theirs双方の修正意図を分析して共存解決し、コミット/プッシュまで完了する。競合解消が必要なときに使用する。
+Resolve Git conflicts raised by merging the latest base branch by analyzing the intent of both the ours and theirs changes and combining them, then commit and push. Use when a conflict needs resolving.
 
 ## Classification
 
-Categories: engineering
+Categories: engineering, integrations, productivity, testing
 Client compatibility: GitHub Copilot, OpenAI Codex
 License: MIT
 
@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-12T17:06:20.023267+00:00
-Published: 2026-09-12T17:12:14.927651+00:00
-Publication event: add
-Source fingerprint: `5a5274452e3776984c857837c73983e2985b12d626e593a074b870ae2df24eb3`
-Analysis fingerprint: `5f597415ad90bab460d8bdb7d9f48ed187a5d6bed2699613c3711f5a9226e4c7`
+Indexed: 2026-10-03T13:37:23.050949+00:00
+Published: 2026-10-03T17:44:20.692102+00:00
+Publication event: update
+Source fingerprint: `d211aa6acc820b2e9cafb17af992879e2031a19f44f8cb2876bf22b05f343ecb`
+Analysis fingerprint: `2c6155bd07e9f07b2c4477e27c8eb786b717693529066ae99a2aa4b8dd399809`
