@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "348d1bc820501093cee7e9e456edbbe9a0aff8d02c50a4e76471b4281ae79f06",
   "canonical_key": "blackbelttechnology/pi-agent-dashboard:packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold",
-  "publication_event": "add",
-  "published_at": "2026-09-12T11:10:34.250184Z",
+  "publication_event": "update",
+  "published_at": "2026-10-03T20:19:42.434059Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -46,12 +46,12 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 10.290070579794193,
       "tree_files_scanned": 7
     },
-    "forks": 41,
-    "indexed_at": "2026-09-12T11:06:01.531476Z",
-    "last_successful_repo_scan_at": "2026-09-12T11:06:01.531476Z",
+    "forks": 43,
+    "indexed_at": "2026-09-17T05:23:07.280908Z",
+    "last_successful_repo_scan_at": "2026-09-17T05:23:07.280908Z",
     "license": "MIT",
     "metadata": {
       "author": "pi-dashboard",
@@ -59,7 +59,7 @@
     },
     "name": "dashboard-plugin-scaffold",
     "path": "packages/dashboard-plugin-skill/.pi/skills/dashboard-plugin-scaffold",
-    "pushed_at": "2026-09-12T11:04:15Z",
+    "pushed_at": "2026-09-17T05:21:20Z",
     "repo_default_branch": "develop",
     "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
     "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
@@ -70,7 +70,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 77,
+      "adoption": 86,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -84,13 +84,13 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "0cfdd7e3b34a1969fd2362558cb21a243bfd40e5325745fced383b1a332021f7",
+    "source_fingerprint": "d0debec9aa8e7713f8efa2ab28b96921c048946f58db3c21fd289a8b11d33235",
     "spec": {
       "errors": [],
       "valid": true,
       "warnings": []
     },
-    "stars": 282
+    "stars": 289
   },
-  "source_fingerprint": "0cfdd7e3b34a1969fd2362558cb21a243bfd40e5325745fced383b1a332021f7"
+  "source_fingerprint": "d0debec9aa8e7713f8efa2ab28b96921c048946f58db3c21fd289a8b11d33235"
 }
