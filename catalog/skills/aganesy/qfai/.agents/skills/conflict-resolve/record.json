@@ -1,22 +1,25 @@
 {
-  "analysis_fingerprint": "5f597415ad90bab460d8bdb7d9f48ed187a5d6bed2699613c3711f5a9226e4c7",
+  "analysis_fingerprint": "2c6155bd07e9f07b2c4477e27c8eb786b717693529066ae99a2aa4b8dd399809",
   "canonical_key": "aganesy/qfai:.agents/skills/conflict-resolve",
-  "publication_event": "add",
-  "published_at": "2026-09-12T17:12:14.927651Z",
+  "publication_event": "update",
+  "published_at": "2026-10-03T17:44:20.692102Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
-    "analysis_fingerprint": "5f597415ad90bab460d8bdb7d9f48ed187a5d6bed2699613c3711f5a9226e4c7",
+    "analysis_fingerprint": "2c6155bd07e9f07b2c4477e27c8eb786b717693529066ae99a2aa4b8dd399809",
     "archived": false,
     "canonical_key": "aganesy/qfai:.agents/skills/conflict-resolve",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "01a8851c6109c6ba2822ef3f8224eeb8d389137cc33e27d6d56c5a2fb008bf5d",
-    "description": "最新のベースブランチ取り込みで発生したGit競合を、ours/theirs双方の修正意図を分析して共存解決し、コミット/プッシュまで完了する。競合解消が必要なときに使用する。",
+    "content_fingerprint": "336bfd639fe9467f8ee7252672a124c14a08b31a014b8b2c8927630f9b05223a",
+    "description": "Resolve Git conflicts raised by merging the latest base branch by analyzing the intent of both the ours and theirs changes and combining them, then commit and push. Use when a conflict needs resolving.",
     "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
     "evidence": {
       "categories": [
-        "engineering"
+        "engineering",
+        "integrations",
+        "productivity",
+        "testing"
       ],
       "client_compatibility_evidence": {
         "GitHub Copilot": [
@@ -52,13 +55,13 @@
       "tree_files_scanned": 2
     },
     "forks": 1,
-    "indexed_at": "2026-09-12T17:06:20.023267Z",
-    "last_successful_repo_scan_at": "2026-09-12T17:06:20.023267Z",
+    "indexed_at": "2026-10-03T13:37:23.050949Z",
+    "last_successful_repo_scan_at": "2026-10-03T13:37:23.050949Z",
     "license": "MIT",
     "metadata": {},
     "name": "conflict-resolve",
     "path": ".agents/skills/conflict-resolve",
-    "pushed_at": "2026-09-12T17:04:41Z",
+    "pushed_at": "2026-10-03T13:31:59Z",
     "repo_default_branch": "main",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
@@ -83,7 +86,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "5a5274452e3776984c857837c73983e2985b12d626e593a074b870ae2df24eb3",
+    "source_fingerprint": "d211aa6acc820b2e9cafb17af992879e2031a19f44f8cb2876bf22b05f343ecb",
     "spec": {
       "errors": [],
       "valid": true,
@@ -91,5 +94,5 @@
     },
     "stars": 4
   },
-  "source_fingerprint": "5a5274452e3776984c857837c73983e2985b12d626e593a074b870ae2df24eb3"
+  "source_fingerprint": "d211aa6acc820b2e9cafb17af992879e2031a19f44f8cb2876bf22b05f343ecb"
 }
