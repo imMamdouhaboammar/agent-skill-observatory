@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-02 09:09 UTC
+> Last refreshed: 2026-10-03 13:37 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
@@ -47,7 +47,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 
 | Repository | Skills | Best score | Stars | Categories |
 |---|---:|---:|---:|---|
-| [2AMLogic/klayout-tools](https://github.com/2AMLogic/klayout-tools) | 1 | 100 | 1 | architecture, commerce, content, data, documentation, research |
+| [2AMLogic/klayout-tools](https://github.com/2AMLogic/klayout-tools) | 1 | 100 | 3 | architecture, commerce, content, data, documentation, research |
 | [a620906209/ticket-hub](https://github.com/a620906209/ticket-hub) | 4 | 100 | 0 | commerce, content, data, design, devops, documentation, engineering, integrations, productivity |
 | [aaronjmars/aeon-agent](https://github.com/aaronjmars/aeon-agent) | 31 | 100 | 11 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, project-management, research, security |
 | [aaronjmars/miroshark-aeon](https://github.com/aaronjmars/miroshark-aeon) | 1 | 100 | 17 | browser-automation, commerce, content, data, engineering, finance |

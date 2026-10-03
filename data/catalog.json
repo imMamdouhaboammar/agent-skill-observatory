@@ -68,7 +68,7 @@
     "archived": false,
     "canonical_key": "2amlogic/klayout-tools:.claude/skills/spec-review",
     "compatibility": null,
-    "description": "Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. Use when reviewing a draft block spec table before operator ratification.",
+    "description": "Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. This verdict is the EE key of the two-key spec ratification (FLEET.md, 2AMLogic/2am#372). Use when reviewing a draft block spec table for ratification.",
     "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
@@ -109,16 +109,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.7255956995350012,
       "tree_files_scanned": 9
     },
-    "forks": 0,
-    "indexed_at": "2026-09-12T11:09:53.852347+00:00",
+    "forks": 2,
+    "indexed_at": "2026-09-20T13:52:49.173696+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "spec-review",
     "path": ".claude/skills/spec-review",
-    "pushed_at": "2026-09-12T11:03:41+00:00",
+    "pushed_at": "2026-09-20T13:45:46+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "2AMLogic/klayout-tools",
     "repo_url": "https://github.com/2AMLogic/klayout-tools",
@@ -129,7 +129,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 17,
+      "adoption": 28,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -148,7 +148,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 1
+    "stars": 3
   },
   {
     "allowed_tools": [],
@@ -4992,7 +4992,7 @@
     "canonical_key": "aganesy/qfai:.agents/skills/conflict-resolve",
     "compatibility": null,
     "description": "最新のベースブランチ取り込みで発生したGit競合を、ours/theirs双方の修正意図を分析して共存解決し、コミット/プッシュまで完了する。競合解消が必要なときに使用する。",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"codex skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering"
@@ -5031,12 +5031,12 @@
       "tree_files_scanned": 2
     },
     "forks": 1,
-    "indexed_at": "2026-09-21T22:24:01.228056+00:00",
+    "indexed_at": "2026-09-12T17:06:20.023267+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "conflict-resolve",
     "path": ".agents/skills/conflict-resolve",
-    "pushed_at": "2026-09-21T22:20:37+00:00",
+    "pushed_at": "2026-09-12T17:04:41+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",

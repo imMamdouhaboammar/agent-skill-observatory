@@ -8,7 +8,7 @@ Manifest: [https://github.com/2AMLogic/klayout-tools/blob/main/.claude/skills/sp
 
 ## Description
 
-Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. Use when reviewing a draft block spec table before operator ratification.
+Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. This verdict is the EE key of the two-key spec ratification (FLEET.md, 2AMLogic/2am#372). Use when reviewing a draft block spec table for ratification.
 
 ## Classification
 
@@ -29,7 +29,7 @@ Overall: 100
 Quality: 100
 Security: 100
 Maintenance: 100
-Adoption: 17
+Adoption: 28
 
 ## Static security findings
 
@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-12T11:09:53.852347+00:00
-Published: 2026-09-12T11:10:34.250184+00:00
-Publication event: add
-Source fingerprint: `d2b775b2fef1187184bfcda85f951c2e77738b98055eb6aa778b032cc7d63d80`
+Indexed: 2026-09-20T13:52:49.173696+00:00
+Published: 2026-10-03T13:37:38.492907+00:00
+Publication event: update
+Source fingerprint: `4ba52136ab95c07b458949a7c92654f23895604ee9940b72bd771804b298c9a5`
 Analysis fingerprint: `1659e71b8440815dfd1a2827f53bb7acca2beb133a2fe61cd41e700e76eaa445`

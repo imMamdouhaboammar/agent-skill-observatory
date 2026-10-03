@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "1659e71b8440815dfd1a2827f53bb7acca2beb133a2fe61cd41e700e76eaa445",
   "canonical_key": "2amlogic/klayout-tools:.claude/skills/spec-review",
-  "publication_event": "add",
-  "published_at": "2026-09-12T11:10:34.250184Z",
+  "publication_event": "update",
+  "published_at": "2026-10-03T13:37:38.492907Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,8 +11,8 @@
     "canonical_key": "2amlogic/klayout-tools:.claude/skills/spec-review",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "84d68054e0a520632182600e33a6f9be1e6c603eb1c5486f89ef8cfcb595f80e",
-    "description": "Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. Use when reviewing a draft block spec table before operator ratification.",
+    "content_fingerprint": "6e5efa9267922c3c97115c680f3f866fe3935417e6da639fb3840a2fb17e93bf",
+    "description": "Expert-EE review of an IC block's draft target spec — per-line achievability vs. published best practice, evidence check against repo device characterization, block-class completeness checklist, corner-binding check, and a ratify / ratify-with-amendments / defer verdict. This verdict is the EE key of the two-key spec ratification (FLEET.md, 2AMLogic/2am#372). Use when reviewing a draft block spec table for ratification.",
     "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
@@ -53,17 +53,17 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.7255956995350012,
       "tree_files_scanned": 9
     },
-    "forks": 0,
-    "indexed_at": "2026-09-12T11:09:53.852347Z",
-    "last_successful_repo_scan_at": "2026-09-12T11:09:53.852347Z",
+    "forks": 2,
+    "indexed_at": "2026-09-20T13:52:49.173696Z",
+    "last_successful_repo_scan_at": "2026-09-20T13:52:49.173696Z",
     "license": "MIT",
     "metadata": {},
     "name": "spec-review",
     "path": ".claude/skills/spec-review",
-    "pushed_at": "2026-09-12T11:03:41Z",
+    "pushed_at": "2026-09-20T13:45:46Z",
     "repo_default_branch": "main",
     "repo_full_name": "2AMLogic/klayout-tools",
     "repo_url": "https://github.com/2AMLogic/klayout-tools",
@@ -74,7 +74,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 17,
+      "adoption": 28,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -88,13 +88,13 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "d2b775b2fef1187184bfcda85f951c2e77738b98055eb6aa778b032cc7d63d80",
+    "source_fingerprint": "4ba52136ab95c07b458949a7c92654f23895604ee9940b72bd771804b298c9a5",
     "spec": {
       "errors": [],
       "valid": true,
       "warnings": []
     },
-    "stars": 1
+    "stars": 3
   },
-  "source_fingerprint": "d2b775b2fef1187184bfcda85f951c2e77738b98055eb6aa778b032cc7d63d80"
+  "source_fingerprint": "4ba52136ab95c07b458949a7c92654f23895604ee9940b72bd771804b298c9a5"
 }
