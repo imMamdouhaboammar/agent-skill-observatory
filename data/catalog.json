@@ -23876,7 +23876,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-contract",
     "compatibility": null,
     "description": "Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation.",
-    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -23920,7 +23920,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T14:06:01.003919+00:00",
+    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -23931,7 +23931,7 @@
     },
     "name": "visual-contract",
     "path": ".agents/skills/visual-contract",
-    "pushed_at": "2026-09-12T14:04:16+00:00",
+    "pushed_at": "2026-09-27T13:12:46+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -70462,16 +70462,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 76.81132563135468,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 211,
-    "indexed_at": "2026-09-15T23:53:11.439325+00:00",
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "bat-adhoc",
     "path": ".claude/skills/bat-adhoc",
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "pushed_at": "2026-09-11T12:36:11+00:00",
     "repo_default_branch": "master",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
@@ -70482,7 +70482,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -70501,7 +70501,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4737
+    "stars": 4688
   },
   {
     "allowed_tools": [
@@ -70556,16 +70556,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 76.81132563135468,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 3
     },
-    "forks": 211,
-    "indexed_at": "2026-09-15T23:53:11.439325+00:00",
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "bat-story-eval",
     "path": ".claude/skills/bat-story-eval",
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "pushed_at": "2026-09-11T12:36:11+00:00",
     "repo_default_branch": "master",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
@@ -70576,7 +70576,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -70595,7 +70595,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4737
+    "stars": 4688
   },
   {
     "allowed_tools": [
@@ -70649,16 +70649,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 76.81132563135468,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 211,
-    "indexed_at": "2026-09-15T23:53:11.439325+00:00",
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "contrib-pr-review",
     "path": ".claude/skills/contrib-pr-review",
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "pushed_at": "2026-09-11T12:36:11+00:00",
     "repo_default_branch": "master",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
@@ -70669,7 +70669,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -70688,7 +70688,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4737
+    "stars": 4688
   },
   {
     "allowed_tools": [],
@@ -70696,7 +70696,7 @@
     "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/contributors-update",
     "compatibility": null,
     "description": "Find merged PR authors missing from README and update the contributors list after approval",
-    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "documentation",
@@ -70736,16 +70736,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 76.81132563135468,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 211,
-    "indexed_at": "2026-09-15T23:53:11.439325+00:00",
+    "forks": 231,
+    "indexed_at": "2026-10-04T18:11:21.550519+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "contributors-update",
     "path": ".claude/skills/contributors-update",
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "pushed_at": "2026-10-04T18:07:34+00:00",
     "repo_default_branch": "master",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
@@ -70756,7 +70756,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -70775,7 +70775,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4737
+    "stars": 4944
   },
   {
     "allowed_tools": [
@@ -70790,7 +70790,7 @@
     "canonical_key": "homeassistant-ai/ha-mcp:.claude/skills/issue-analysis",
     "compatibility": null,
     "description": "Deep analysis of a single GitHub issue with codebase exploration, implementation planning, and architectural assessment. Use when you need to analyze a GitHub issue, assess its complexity, plan implementation approaches, and post a structured analysis comment. Triggers on \"analyze issue\", \"deep analysis\", \"/issue-analysis <number>\".",
-    "discovery_source": "code-search:\"description:\" filename:SKILL.md path:.claude/skills",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -70830,16 +70830,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 76.81132563135468,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 211,
-    "indexed_at": "2026-09-15T23:53:11.439325+00:00",
+    "forks": 231,
+    "indexed_at": "2026-10-04T18:11:21.550519+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "issue-analysis",
     "path": ".claude/skills/issue-analysis",
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "pushed_at": "2026-10-04T18:07:34+00:00",
     "repo_default_branch": "master",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
@@ -70850,7 +70850,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -70869,7 +70869,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4737
+    "stars": 4944
   },
   {
     "allowed_tools": [
@@ -70925,16 +70925,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 76.81132563135468,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 211,
-    "indexed_at": "2026-09-15T23:53:11.439325+00:00",
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "issue-to-pr-resolver",
     "path": ".claude/skills/issue-to-pr-resolver",
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "pushed_at": "2026-09-11T12:36:11+00:00",
     "repo_default_branch": "master",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
@@ -70945,7 +70945,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -70964,7 +70964,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4737
+    "stars": 4688
   },
   {
     "allowed_tools": [
@@ -71020,16 +71020,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 76.81132563135468,
+      "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 211,
-    "indexed_at": "2026-09-15T23:53:11.439325+00:00",
+    "forks": 207,
+    "indexed_at": "2026-09-11T12:42:53.335596+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "my-pr-checker",
     "path": ".claude/skills/my-pr-checker",
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "pushed_at": "2026-09-11T12:36:11+00:00",
     "repo_default_branch": "master",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
@@ -71040,7 +71040,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 100,
+      "adoption": 80,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -71059,7 +71059,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4737
+    "stars": 4688
   },
   {
     "allowed_tools": [],

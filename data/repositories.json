@@ -8803,8 +8803,8 @@
       "testing"
     ],
     "default_branch": "master",
-    "forks": 211,
-    "pushed_at": "2026-09-15T23:42:28+00:00",
+    "forks": 231,
+    "pushed_at": "2026-10-04T18:07:34+00:00",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
     "security_85_plus_count": 7,
@@ -8875,7 +8875,7 @@
     ],
     "skills_count": 7,
     "spec_valid_count": 7,
-    "stars": 4737
+    "stars": 4944
   },
   {
     "archived": false,
