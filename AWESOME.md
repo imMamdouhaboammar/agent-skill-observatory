@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-03 20:19 UTC
+> Last refreshed: 2026-10-04 08:35 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
@@ -60,7 +60,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 1 | 100 | 0 | data, engineering, integrations, product, productivity |
 | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 12 | 100 | 11416 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, media, productivity, research, testing |
 | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 7 | 100 | 0 | commerce, data, design, legal-compliance, other, productivity, security |
-| [atomantic/PortOS](https://github.com/atomantic/PortOS) | 3 | 100 | 40 | content, design, engineering, media, productivity, research, testing |
+| [atomantic/PortOS](https://github.com/atomantic/PortOS) | 3 | 100 | 43 | content, design, engineering, media, productivity, research, testing |
 | [attaform/Attaform](https://github.com/attaform/Attaform) | 1 | 100 | 6 | content, design, documentation, engineering, media, productivity |
 | [benjaminstelzer/scoville-ui-anti-ai-slop](https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop) | 1 | 100 | 2 | content, design, engineering, product, productivity, research |
 | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 38 | 100 | 289 | agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |

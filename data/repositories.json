@@ -1824,8 +1824,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 31,
-    "pushed_at": "2026-09-28T01:36:30+00:00",
+    "forks": 32,
+    "pushed_at": "2026-10-04T08:24:40+00:00",
     "repo_full_name": "atomantic/PortOS",
     "repo_url": "https://github.com/atomantic/PortOS",
     "security_85_plus_count": 3,
@@ -1860,7 +1860,7 @@
     ],
     "skills_count": 3,
     "spec_valid_count": 3,
-    "stars": 40
+    "stars": 43
   },
   {
     "archived": false,
@@ -9349,7 +9349,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-10-02T02:33:16+00:00",
+    "pushed_at": "2026-10-04T08:24:28+00:00",
     "repo_full_name": "jeong-sik/masc",
     "repo_url": "https://github.com/jeong-sik/masc",
     "security_85_plus_count": 5,
