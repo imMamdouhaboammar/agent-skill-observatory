@@ -23971,7 +23971,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-qa",
     "compatibility": null,
     "description": "Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence.",
-    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -24015,7 +24015,7 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T14:06:01.003919+00:00",
+    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -24026,7 +24026,7 @@
     },
     "name": "visual-qa",
     "path": ".agents/skills/visual-qa",
-    "pushed_at": "2026-09-12T14:04:16+00:00",
+    "pushed_at": "2026-09-27T13:12:46+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
