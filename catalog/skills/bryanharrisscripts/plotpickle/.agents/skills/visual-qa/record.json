@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "3b7377ff7502e10c9483df5087c7ebe6407d6c234a4297b726afad2c1c2cf3ad",
   "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-qa",
-  "publication_event": "add",
-  "published_at": "2026-09-12T14:10:57.518217Z",
+  "publication_event": "update",
+  "published_at": "2026-10-04T21:25:08.669163Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,9 +11,9 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-qa",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "217a305145d565f9fcd25485b95facf0a6c2d9e9b622441e25304bcdc5e8bc39",
+    "content_fingerprint": "529343276c9000132d6f318fa6f5bd7aeebee53b79046640955ebaecdf04e921",
     "description": "Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence.",
-    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -57,8 +57,8 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T14:06:01.003919Z",
-    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "indexed_at": "2026-09-27T13:18:50.600642Z",
+    "last_successful_repo_scan_at": "2026-09-27T13:18:50.600642Z",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -69,7 +69,7 @@
     },
     "name": "visual-qa",
     "path": ".agents/skills/visual-qa",
-    "pushed_at": "2026-09-12T14:04:16Z",
+    "pushed_at": "2026-09-27T13:12:46Z",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -94,7 +94,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "1e69d88676f733c7bd8eac8c7b6b6bd58eec9cb4b18988b0fd81e80668de4d5a",
+    "source_fingerprint": "c2be36044a144a267093e358d57e0d32dc71bf2ff03a37a764c5e9347212fb15",
     "spec": {
       "errors": [],
       "valid": true,
@@ -104,5 +104,5 @@
     },
     "stars": 4
   },
-  "source_fingerprint": "1e69d88676f733c7bd8eac8c7b6b6bd58eec9cb4b18988b0fd81e80668de4d5a"
+  "source_fingerprint": "c2be36044a144a267093e358d57e0d32dc71bf2ff03a37a764c5e9347212fb15"
 }
