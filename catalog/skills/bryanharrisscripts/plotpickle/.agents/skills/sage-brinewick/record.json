@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "407d701bf8ccd162465b6e8e23bc4d576516b99df51dadf5b4d2699c406a67f2",
   "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/sage-brinewick",
-  "publication_event": "add",
-  "published_at": "2026-09-12T14:10:57.518217Z",
+  "publication_event": "update",
+  "published_at": "2026-10-04T08:35:37.025094Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,9 +11,9 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/sage-brinewick",
     "compatibility": "PlotPickle LEARN Creative Room; Mastra curriculum-guide agent; local Fast/Quality role routing supplied by the host.",
     "consecutive_misses": 0,
-    "content_fingerprint": "2df9a5b3652cb92600be36dd860366189825adb67f4f5fb0bdb23c55963c5f6f",
+    "content_fingerprint": "ed4276f156e3fd00562b99b44956984b23380e1dcc0fb689c639708558fb9160",
     "description": "Guide writers through PlotPickle curriculum and story questions as Sage Brinewick. Use for LEARN Creative Room conversation, curriculum explanations, lesson application, and ordinary follow-up conversation where Sage is the visible mentor.",
-    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "education",
@@ -57,8 +57,8 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T14:06:01.003919Z",
-    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "indexed_at": "2026-09-27T13:18:50.600642Z",
+    "last_successful_repo_scan_at": "2026-09-27T13:18:50.600642Z",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -67,7 +67,7 @@
     },
     "name": "sage-brinewick",
     "path": ".agents/skills/sage-brinewick",
-    "pushed_at": "2026-09-12T14:04:16Z",
+    "pushed_at": "2026-09-27T13:12:46Z",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -92,7 +92,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "6088f78b7f211b342a38d9e98a12b07e9f7044778c2044a79eea5a4f53f1a17d",
+    "source_fingerprint": "3eaed33717abda448e614e832f79c602d13f9342ead89689feb06ccbd0d33ec2",
     "spec": {
       "errors": [],
       "valid": true,
@@ -100,5 +100,5 @@
     },
     "stars": 4
   },
-  "source_fingerprint": "6088f78b7f211b342a38d9e98a12b07e9f7044778c2044a79eea5a4f53f1a17d"
+  "source_fingerprint": "3eaed33717abda448e614e832f79c602d13f9342ead89689feb06ccbd0d33ec2"
 }

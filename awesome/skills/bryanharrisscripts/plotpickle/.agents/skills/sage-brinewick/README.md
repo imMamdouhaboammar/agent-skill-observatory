@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-12T14:06:01.003919+00:00
-Published: 2026-09-12T14:10:57.518217+00:00
-Publication event: add
-Source fingerprint: `6088f78b7f211b342a38d9e98a12b07e9f7044778c2044a79eea5a4f53f1a17d`
+Indexed: 2026-09-27T13:18:50.600642+00:00
+Published: 2026-10-04T08:35:37.025094+00:00
+Publication event: update
+Source fingerprint: `3eaed33717abda448e614e832f79c602d13f9342ead89689feb06ccbd0d33ec2`
 Analysis fingerprint: `407d701bf8ccd162465b6e8e23bc4d576516b99df51dadf5b4d2699c406a67f2`
