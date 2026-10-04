@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "48ff4bebb6c92c26a7af8ed77a62d52d6149cbc9b770449df9f8d8b116943e8a",
   "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-contract",
-  "publication_event": "add",
-  "published_at": "2026-09-12T14:10:57.518217Z",
+  "publication_event": "update",
+  "published_at": "2026-10-04T18:16:07.064788Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,9 +11,9 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-contract",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "e91dd10089d15b7ae0aeb1c88c272f42838887a929e10eb6ecf527cc80b8a2c1",
+    "content_fingerprint": "7c2f28c41effd527bfae60056c9588b93bc3a32158f4169accee0ea773ee83a1",
     "description": "Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation.",
-    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -57,8 +57,8 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-12T14:06:01.003919Z",
-    "last_successful_repo_scan_at": "2026-09-12T14:06:01.003919Z",
+    "indexed_at": "2026-09-27T13:18:50.600642Z",
+    "last_successful_repo_scan_at": "2026-09-27T13:18:50.600642Z",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -69,7 +69,7 @@
     },
     "name": "visual-contract",
     "path": ".agents/skills/visual-contract",
-    "pushed_at": "2026-09-12T14:04:16Z",
+    "pushed_at": "2026-09-27T13:12:46Z",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -94,7 +94,7 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "3f584b8789fc8763724f1f2d8a32a06ac7ffa0d5ef5b3c4dce3e73003b457299",
+    "source_fingerprint": "cdbb2f1cb393d4772d4ce9d9d6c5c7a4e9829c90ff3d0a78860c3b9b6b00ae77",
     "spec": {
       "errors": [],
       "valid": true,
@@ -104,5 +104,5 @@
     },
     "stars": 4
   },
-  "source_fingerprint": "3f584b8789fc8763724f1f2d8a32a06ac7ffa0d5ef5b3c4dce3e73003b457299"
+  "source_fingerprint": "cdbb2f1cb393d4772d4ce9d9d6c5c7a4e9829c90ff3d0a78860c3b9b6b00ae77"
 }

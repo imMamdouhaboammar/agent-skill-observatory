@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-04 08:35 UTC
+> Last refreshed: 2026-10-04 18:16 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
@@ -111,7 +111,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [Gizziio/allternit-platform](https://github.com/Gizziio/allternit-platform) | 17 | 100 | 1 | browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, marketing, media, mobile, productivity, research, security, testing |
 | [gkd2323c/runed-lexicon](https://github.com/gkd2323c/runed-lexicon) | 12 | 100 | 0 | agent-orchestration, ai-ml, commerce, content, data, design, documentation, engineering, hr-recruiting, localization, productivity, research, security, testing |
 | [hhai0519/HH.AI_v2](https://github.com/hhai0519/HH.AI_v2) | 1 | 100 | 0 | data, documentation, engineering, integrations, security |
-| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 7 | 100 | 4737 | code-review, commerce, content, data, devops, documentation, engineering, integrations, productivity, research, security, testing |
+| [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | 7 | 100 | 4944 | code-review, commerce, content, data, devops, documentation, engineering, integrations, productivity, research, security, testing |
 | [hoonex/sloar-chat-coder](https://github.com/hoonex/sloar-chat-coder) | 2 | 100 | 0 | browser-automation, commerce, content, design, engineering, marketing, productivity, research, security |
 | [hose1021/omp-dotfiles](https://github.com/hose1021/omp-dotfiles) | 1 | 100 | 0 | commerce, content, data, design, engineering, integrations |
 | [iflytek/skillhub](https://github.com/iflytek/skillhub) | 22 | 100 | 5082 | agent-orchestration, ai-ml, architecture, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, sales, security, testing |
