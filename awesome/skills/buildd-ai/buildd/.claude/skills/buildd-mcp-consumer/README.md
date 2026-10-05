@@ -8,11 +8,11 @@ Manifest: [https://github.com/buildd-ai/buildd/blob/dev/.claude/skills/buildd-mc
 
 ## Description
 
-Use whenever the buildd MCP tools (`buildd`, `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target.
+Use whenever the buildd MCP tools (`buildd_*` group tools or `buildd`, plus `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target.
 
 ## Classification
 
-Categories: design, documentation, engineering, integrations, productivity, security
+Categories: agent-orchestration, content, engineering, integrations, productivity, security
 Client compatibility: Claude Code, GitHub Copilot
 License: Apache-2.0
 
@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-12T01:35:36.795026+00:00
-Published: 2026-09-12T01:39:35.389269+00:00
-Publication event: add
-Source fingerprint: `144d06cb5c0bc17a52d0ea405f21c3e150b862bade844cb920c376a372a6e3a3`
-Analysis fingerprint: `956aa1f3e640cb047786ae2f67c5e63f8f3fee50c665f7173bc079519e8ab95d`
+Indexed: 2026-09-30T14:06:15.518509+00:00
+Published: 2026-10-05T00:11:23.502345+00:00
+Publication event: update
+Source fingerprint: `d1e225fb38cbee05143d44a81ab5ef352adce590386ec894963b6d10efcb5f3a`
+Analysis fingerprint: `d591f6d70a9f28df7c365f5ce585e21fca28ed5edd8b554c277afb8f24b3aa2d`
