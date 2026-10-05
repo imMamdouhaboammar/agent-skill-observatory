@@ -45,7 +45,7 @@ The scheduled refresh checks GitHub every 15 minutes. After the bounded Skill ev
 <!-- AWESOME_INDEX_START -->
 Published skills: **944**
 Repositories: **97**
-Latest Skill event: **update** · `buildd-ai/buildd:.claude/skills/buildd-mcp-consumer`
+Latest Skill event: **update** · `buildd-ai/buildd:.claude/skills/buildd-workflow`
 
 [Browse the GitHub directory](./awesome/README.md) · [Open AWESOME.md](./AWESOME.md)
 <!-- AWESOME_INDEX_END -->
