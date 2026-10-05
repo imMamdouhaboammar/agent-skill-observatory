@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-04 21:25 UTC
+> Last refreshed: 2026-10-05 00:11 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
@@ -66,7 +66,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 38 | 100 | 289 | agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [boardx/workspacex](https://github.com/boardx/workspacex) | 3 | 100 | 0 | browser-automation, content, data, design, documents, engineering, finance, integrations, mobile, productivity, research, testing |
 | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 17 | 100 | 4 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing |
-| [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 2 | 100 | 1 | content, design, documentation, engineering, integrations, productivity, security |
+| [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 2 | 100 | 1 | agent-orchestration, content, design, documentation, engineering, integrations, productivity, security |
 | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 6 | 100 | 7 | documentation, engineering, integrations, productivity, research, security, testing |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 11 | 100 | 83006 | agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security |
 | [cameronabrams/htpolynet](https://github.com/cameronabrams/htpolynet) | 1 | 100 | 33 | content, engineering, marketing, media, productivity, testing |

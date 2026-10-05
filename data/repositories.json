@@ -2562,6 +2562,7 @@
     "archived": false,
     "best_score": 100,
     "categories": [
+      "agent-orchestration",
       "content",
       "design",
       "documentation",
@@ -2572,13 +2573,13 @@
     ],
     "default_branch": "dev",
     "forks": 0,
-    "pushed_at": "2026-09-12T01:31:33+00:00",
+    "pushed_at": "2026-09-30T13:56:44+00:00",
     "repo_full_name": "buildd-ai/buildd",
     "repo_url": "https://github.com/buildd-ai/buildd",
     "security_85_plus_count": 2,
     "skills": [
       {
-        "description": "Use whenever the buildd MCP tools (`buildd`, `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target.",
+        "description": "Use whenever the buildd MCP tools (`buildd_*` group tools or `buildd`, plus `recall`, `learn`) are available and you're about to act on a buildd task or file one — task coordination workflow: claiming, working, and completing tasks; deciding between a hard block and a flagged assumption; reporting friction; and which branch a task's PR should target.",
         "manifest": "https://github.com/buildd-ai/buildd/blob/dev/.claude/skills/buildd-mcp-consumer/SKILL.md",
         "name": "buildd-mcp-consumer",
         "overall_score": 100,
