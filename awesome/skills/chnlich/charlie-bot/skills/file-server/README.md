@@ -29,7 +29,7 @@ Overall: 100
 Quality: 100
 Security: 100
 Maintenance: 100
-Adoption: 31
+Adoption: 32
 
 ## Static security findings
 
@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-11T19:19:57.470617+00:00
-Published: 2026-09-11T19:23:00.429355+00:00
-Publication event: add
-Source fingerprint: `f8a6900e3c45259f3a1efc25d783c9e1af983778c17ec2524761e087301167f5`
+Indexed: 2026-09-29T01:20:04.313480+00:00
+Published: 2026-10-06T19:43:08.202484+00:00
+Publication event: update
+Source fingerprint: `3b683f31aee187ec54e021a119a7a713119eb4399c512bd4cbc868cfc4cf57b3`
 Analysis fingerprint: `b4e4318c8d5141a53bafbebbf70381ff8c5dbda4229294d04b6e00272c37bb3d`

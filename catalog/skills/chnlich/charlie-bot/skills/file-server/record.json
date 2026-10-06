@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "b4e4318c8d5141a53bafbebbf70381ff8c5dbda4229294d04b6e00272c37bb3d",
   "canonical_key": "chnlich/charlie-bot:skills/file-server",
-  "publication_event": "add",
-  "published_at": "2026-09-11T19:23:00.429355Z",
+  "publication_event": "update",
+  "published_at": "2026-10-06T19:43:08.202484Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "chnlich/charlie-bot:skills/file-server",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "3f2c7b2541625da0056d036dd7bfc1a7cdb77a0cadb11990e6016dd5ecdb4733",
+    "content_fingerprint": "0af62cf335999e440519676d237d6a814ffe7696c23f219bdd58c30b593a20e5",
     "description": "Must invoke when presenting a file to the user. The CharlieBot server has a built-in file browser that serves any file on the host filesystem.",
     "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
@@ -50,13 +50,13 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T19:19:57.470617Z",
-    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "indexed_at": "2026-09-29T01:20:04.313480Z",
+    "last_successful_repo_scan_at": "2026-09-29T01:20:04.313480Z",
     "license": "MIT",
     "metadata": {},
     "name": "file-server",
     "path": "skills/file-server",
-    "pushed_at": "2026-09-11T19:18:02Z",
+    "pushed_at": "2026-09-29T01:05:55Z",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -67,7 +67,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 31,
+      "adoption": 32,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -81,13 +81,13 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "f8a6900e3c45259f3a1efc25d783c9e1af983778c17ec2524761e087301167f5",
+    "source_fingerprint": "3b683f31aee187ec54e021a119a7a713119eb4399c512bd4cbc868cfc4cf57b3",
     "spec": {
       "errors": [],
       "valid": true,
       "warnings": []
     },
-    "stars": 6
+    "stars": 7
   },
-  "source_fingerprint": "f8a6900e3c45259f3a1efc25d783c9e1af983778c17ec2524761e087301167f5"
+  "source_fingerprint": "3b683f31aee187ec54e021a119a7a713119eb4399c512bd4cbc868cfc4cf57b3"
 }

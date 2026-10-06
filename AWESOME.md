@@ -2,7 +2,7 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-05 12:39 UTC
+> Last refreshed: 2026-10-06 19:43 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
@@ -70,7 +70,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 6 | 100 | 7 | documentation, engineering, integrations, productivity, research, security, testing |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 11 | 100 | 83006 | agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security |
 | [cameronabrams/htpolynet](https://github.com/cameronabrams/htpolynet) | 1 | 100 | 33 | content, engineering, marketing, media, productivity, testing |
-| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 2 | 100 | 33998 | ai-ml, commerce, content, design, documentation, engineering, productivity |
+| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 2 | 100 | 34451 | ai-ml, commerce, content, design, documentation, engineering, productivity |
 | [cbwinslow/Tarkka](https://github.com/cbwinslow/Tarkka) | 1 | 100 | 0 | commerce, content, documents, hr-recruiting, legal-compliance, research |
 | [chainlesschain/chainlesschain](https://github.com/chainlesschain/chainlesschain) | 37 | 100 | 11 | ai-ml, architecture, browser-automation, business, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, media, mobile, product, productivity, research, security, testing |
 | [chardigio/pappardelle](https://github.com/chardigio/pappardelle) | 1 | 100 | 17 | commerce, content, engineering, productivity, testing |

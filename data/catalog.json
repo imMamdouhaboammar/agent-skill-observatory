@@ -25837,7 +25837,7 @@
     "canonical_key": "can1357/oh-my-pi:.omp/skills/semantic-compression",
     "compatibility": null,
     "description": "Re-encode verbose prose into a dense telegraphic register — punctuation as connectives, label frames, verbless assertions — without losing normativity or precision. Use when compressing system prompts, tool/function descriptions, skill bodies, or agent instructions; reducing token count or context bloat; making documentation token-efficient for LLM input; or rewriting text in compressed notation.",
-    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
     "evidence": {
       "categories": [
         "commerce",
@@ -25870,16 +25870,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 905.0694557717475,
+      "star_velocity_7d": 786.4954678948142,
       "tree_files_scanned": 1
     },
-    "forks": 3666,
-    "indexed_at": "2026-10-01T23:34:50.887840+00:00",
+    "forks": 3729,
+    "indexed_at": "2026-10-06T14:30:16.159784+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "semantic-compression",
     "path": ".omp/skills/semantic-compression",
-    "pushed_at": "2026-10-01T23:32:09+00:00",
+    "pushed_at": "2026-10-06T14:27:58+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "can1357/oh-my-pi",
     "repo_url": "https://github.com/can1357/oh-my-pi",
@@ -25909,7 +25909,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 33998
+    "stars": 34451
   },
   {
     "allowed_tools": [],
@@ -25917,7 +25917,7 @@
     "canonical_key": "can1357/oh-my-pi:.omp/skills/system-prompts",
     "compatibility": null,
     "description": "Write system prompts, tool docs, and agent definitions. Project tag conventions + RFC 2119 keywords + dense compression. Use when authoring or editing any prompt the model reads.",
-    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" pdf in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -25950,16 +25950,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 905.0694557717475,
+      "star_velocity_7d": 786.4954678948142,
       "tree_files_scanned": 2
     },
-    "forks": 3666,
-    "indexed_at": "2026-10-01T23:34:50.887840+00:00",
+    "forks": 3729,
+    "indexed_at": "2026-10-06T14:30:16.159784+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "system-prompts",
     "path": ".omp/skills/system-prompts",
-    "pushed_at": "2026-10-01T23:32:09+00:00",
+    "pushed_at": "2026-10-06T14:27:58+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "can1357/oh-my-pi",
     "repo_url": "https://github.com/can1357/oh-my-pi",
@@ -25989,7 +25989,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 33998
+    "stars": 34451
   },
   {
     "allowed_tools": [],
@@ -32346,12 +32346,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T19:19:57.470617+00:00",
+    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "file-server",
     "path": "skills/file-server",
-    "pushed_at": "2026-09-11T19:18:02+00:00",
+    "pushed_at": "2026-09-29T01:05:55+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -32362,7 +32362,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 31,
+      "adoption": 32,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -32381,7 +32381,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 6
+    "stars": 7
   },
   {
     "allowed_tools": [],
