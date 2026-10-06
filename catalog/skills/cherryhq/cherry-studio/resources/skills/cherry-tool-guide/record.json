@@ -1,8 +1,8 @@
 {
   "analysis_fingerprint": "906a18f79e33c637963d1066a689a88670b08bce11641a6a71c499eaee790a62",
   "canonical_key": "cherryhq/cherry-studio:resources/skills/cherry-tool-guide",
-  "publication_event": "add",
-  "published_at": "2026-09-11T08:07:15.832049Z",
+  "publication_event": "update",
+  "published_at": "2026-10-05T12:39:46.565680Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
@@ -11,7 +11,7 @@
     "canonical_key": "cherryhq/cherry-studio:resources/skills/cherry-tool-guide",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "491f9ae0002f6e4c190c4de4750067127d23f8262b045f840706f4dea34209ca",
+    "content_fingerprint": "8ae18136ceccfd5631180f33260a99067b2ea8dd36a5d4695897ca2e44eb82cc",
     "description": "Cherry Studio first-party tool and bundled-shell routing for general agents. For straightforward local work in shell-capable sessions, run JS/TS with `bun <file>` and one-off JS tools with `bun x`; run Python with `uv run [--with <pkg>] python` and one-off Python CLIs with `uvx`; search with `rg`. Load this guide before changing project dependencies, deciding whether a tool should be ephemeral or reusable, reading or converting local Office/PDF files, coordinating or delegating across Agent Sessions, or using Cherry-owned web/browser, knowledge, persistent memory, schedules/notifications, IM channels, image generation, artifact reporting, managed CLI, skill, or MCP-server-registration capabilities—even if the user names no tool. Consult it before shell/file workarounds; live tool schemas are authoritative.",
     "discovery_source": "repo-search:topic:agent-skills",
     "evidence": {
@@ -46,17 +46,17 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 11
     },
-    "forks": 4952,
-    "indexed_at": "2026-09-11T08:05:17.684097Z",
-    "last_successful_repo_scan_at": "2026-09-11T08:05:17.684097Z",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488Z",
+    "last_successful_repo_scan_at": "2026-09-26T21:37:31.780488Z",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "cherry-tool-guide",
     "path": "resources/skills/cherry-tool-guide",
-    "pushed_at": "2026-09-11T07:58:57Z",
+    "pushed_at": "2026-09-26T21:32:12Z",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -67,7 +67,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 93,
@@ -81,13 +81,13 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "889e833f32f67070c4ff8af96ed31c4dcdcfa1fb6d5739f39f2ada76eb09466c",
+    "source_fingerprint": "f1c925f7ad035b8553ced91aaf1c8f7b2002849a43165afdec6fe39d31a9cc08",
     "spec": {
       "errors": [],
       "valid": true,
       "warnings": []
     },
-    "stars": 51666
+    "stars": 52163
   },
-  "source_fingerprint": "889e833f32f67070c4ff8af96ed31c4dcdcfa1fb6d5739f39f2ada76eb09466c"
+  "source_fingerprint": "f1c925f7ad035b8553ced91aaf1c8f7b2002849a43165afdec6fe39d31a9cc08"
 }

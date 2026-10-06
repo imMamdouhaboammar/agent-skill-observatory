@@ -32102,16 +32102,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 216.0616899262056,
       "tree_files_scanned": 11
     },
-    "forks": 4952,
-    "indexed_at": "2026-09-11T08:05:17.684097+00:00",
+    "forks": 5012,
+    "indexed_at": "2026-09-26T21:37:31.780488+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "cherry-tool-guide",
     "path": "resources/skills/cherry-tool-guide",
-    "pushed_at": "2026-09-11T07:58:57+00:00",
+    "pushed_at": "2026-09-26T21:32:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
@@ -32122,7 +32122,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 80,
+      "adoption": 100,
       "maintenance": 100,
       "overall": 100,
       "quality": 93,
@@ -32141,7 +32141,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 51666
+    "stars": 52163
   },
   {
     "allowed_tools": [],
