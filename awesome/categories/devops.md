@@ -1,6 +1,6 @@
 # devops
 
-Published Skills: 185
+Published Skills: 184
 
 | Skill | Repository | Score | Security | Stars | Description |
 |---|---|---:|---:|---:|---|
@@ -90,7 +90,6 @@ Published Skills: 185
 | [create-website](../skills/markmhendrickson/ateles/.claude/skills/create-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Create a new website as a git submodule in execution/website. Use when user says "create new website" or "add website for [domain/name]". Can be invoked via /create-website. |
 | [deploy-website](../skills/markmhendrickson/ateles/.claude/skills/deploy-website/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Deploy the markmhendrickson website: sync markdown edits to Neotoma, export website data, regenerate cache, update the CI export secret, push the website repo, and verify GitHub Actions. |
 | [email-triage](../skills/markmhendrickson/ateles/.claude/skills/email-triage/README.md) | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 100 | 100 | 6 | Step-by-step email inbox triage workflow with draft generation, data persistence, and archiving. Use when processing emails, triaging inbox, or when user mentions email triage, inbox processing, or email workflow. |
-| [google-docs](../skills/chnlich/charlie-bot/skills/google-docs/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Google Docs documents, or manage document content through the Google Docs and Drive APIs. |
 | [google-sheets](../skills/chnlich/charlie-bot/skills/google-sheets/README.md) | [chnlich/charlie-bot](https://github.com/chnlich/charlie-bot) | 100 | 100 | 6 | This skill should be used when the user asks to read, create, or edit Google Sheets spreadsheets, or manage cell data through the Google Sheets API. |
 | [lazy-frames-animatic](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/lazy-frames-animatic/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Turn approved PlotPickle BUILD material into a reviewable local animatic through the host-owned Lazy Frames adapter while canonical story state remains authoritative and unchanged. |
 | [marquee-director](../skills/BryanHarrisScripts/PlotPickle/.agents/skills/marquee-director/README.md) | [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 100 | 100 | 4 | Act as PlotPickle's private Key Art & Trailer Director after Foundations, using a narrow PPF-derived Marketing Context while the host controls generation and Marketing Reference storage. |

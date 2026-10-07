@@ -1,27 +1,27 @@
 {
-  "analysis_fingerprint": "7818969a0ab29fa290bf5d03d87dd9ca0a06da5d4403cb37de61139f37fb1cd0",
+  "analysis_fingerprint": "8f7f6c2ce47582fbe0eec048d734020c5dca8da09ef1a340745d6b077d9dd80a",
   "canonical_key": "chnlich/charlie-bot:skills/google-docs",
-  "publication_event": "add",
-  "published_at": "2026-09-11T19:23:00.429355Z",
+  "publication_event": "update",
+  "published_at": "2026-10-07T15:59:31.602181Z",
   "schema_version": 1,
   "skill": {
     "allowed_tools": [],
-    "analysis_fingerprint": "7818969a0ab29fa290bf5d03d87dd9ca0a06da5d4403cb37de61139f37fb1cd0",
+    "analysis_fingerprint": "8f7f6c2ce47582fbe0eec048d734020c5dca8da09ef1a340745d6b077d9dd80a",
     "archived": false,
     "canonical_key": "chnlich/charlie-bot:skills/google-docs",
     "compatibility": null,
     "consecutive_misses": 0,
-    "content_fingerprint": "eddfdc6ecdff4e6e7a6b51168f1e6083a2ed095ac9d88299ff13ad829602073a",
+    "content_fingerprint": "1393b90ab1a2c02b977f90af1b69ab504e4890e28f62112065a3ecb9f6ee60ec",
     "description": "This skill should be used when the user asks to read, create, or edit Google Docs documents, or manage document content through the Google Docs and Drive APIs.",
     "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
         "documentation",
-        "engineering",
         "commerce",
-        "data",
-        "devops"
+        "engineering",
+        "integrations",
+        "productivity"
       ],
       "client_compatibility_evidence": {},
       "duplicate_of": null,
@@ -50,13 +50,13 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T19:19:57.470617Z",
-    "last_successful_repo_scan_at": "2026-09-11T19:19:57.470617Z",
+    "indexed_at": "2026-09-29T01:20:04.313480Z",
+    "last_successful_repo_scan_at": "2026-09-29T01:20:04.313480Z",
     "license": "MIT",
     "metadata": {},
     "name": "google-docs",
     "path": "skills/google-docs",
-    "pushed_at": "2026-09-11T19:18:02Z",
+    "pushed_at": "2026-09-29T01:05:55Z",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -67,7 +67,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 31,
+      "adoption": 32,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -81,13 +81,13 @@
       "findings": [],
       "score": 100
     },
-    "source_fingerprint": "7d65dbc6b0fc93a92cb769d9c2545fb324d9d8aa8b350d3d2545c5ffa0c78814",
+    "source_fingerprint": "f7ded9b1897617b4bd69a4190034145b04a2e0555653644ad35b3f14655d0b4e",
     "spec": {
       "errors": [],
       "valid": true,
       "warnings": []
     },
-    "stars": 6
+    "stars": 7
   },
-  "source_fingerprint": "7d65dbc6b0fc93a92cb769d9c2545fb324d9d8aa8b350d3d2545c5ffa0c78814"
+  "source_fingerprint": "f7ded9b1897617b4bd69a4190034145b04a2e0555653644ad35b3f14655d0b4e"
 }

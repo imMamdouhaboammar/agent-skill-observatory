@@ -32394,10 +32394,10 @@
       "categories": [
         "content",
         "documentation",
-        "engineering",
         "commerce",
-        "data",
-        "devops"
+        "engineering",
+        "integrations",
+        "productivity"
       ],
       "client_compatibility_evidence": {},
       "duplicate_of": null,
@@ -32426,12 +32426,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T19:19:57.470617+00:00",
+    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "google-docs",
     "path": "skills/google-docs",
-    "pushed_at": "2026-09-11T19:18:02+00:00",
+    "pushed_at": "2026-09-29T01:05:55+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -32442,7 +32442,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 31,
+      "adoption": 32,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -32461,7 +32461,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 6
+    "stars": 7
   },
   {
     "allowed_tools": [],
@@ -64935,7 +64935,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/book-biography",
     "compatibility": null,
     "description": "Bibliographic research agent for analyzing books and manuscripts. Builds comprehensive \"book biographies\" showing production context, textual transmission, related editions, and scholarly networks. Use when asked to research a book's history, find related editions, analyze manuscript transmission, or build bibliographic context.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -64975,16 +64975,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 2
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "book-biography",
     "path": ".claude/skills/book-biography",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -64995,7 +64995,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65014,7 +65014,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65022,7 +65022,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curate-collection",
     "compatibility": null,
     "description": "Populate a collection page with editorial content — expanded description, highlighted books, gallery images, sourced quotes. Also audits existing collections for staleness, broken links, and missing content. Use when a collection exists but needs its content built out, or when auditing collection quality.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -65062,16 +65062,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "curate-collection",
     "path": ".claude/skills/curate-collection",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65082,7 +65082,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65101,7 +65101,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65109,7 +65109,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curator",
     "compatibility": null,
     "description": "Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -65149,16 +65149,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 2
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "curator",
     "path": ".claude/skills/curator",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65169,7 +65169,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65188,7 +65188,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65196,7 +65196,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/extract-images",
     "compatibility": null,
     "description": "Extract and catalog illustrations from historical books using AI vision. Generates rich metadata (subjects, figures, symbols, style, technique) and museum-style descriptions. Use when asked to extract images, run image detection, or process book illustrations.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "media",
@@ -65235,16 +65235,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "extract-images",
     "path": ".claude/skills/extract-images",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65255,7 +65255,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65274,7 +65274,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65282,7 +65282,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/featured-work-description",
     "compatibility": null,
     "description": "Use this skill whenever writing the 'Featured work' description that appears on a Source Library collection page — the short editorial blurb beneath a highlighted book's title, author, and bibliographic stats. Trigger for any request to write, rewrite, or edit a featured-work blurb, curator's pick description, or highlighted-book caption for a collection. The output is about the BOOK itself (what it is, why it matters, what is distinctive about it), never about Source Library, translation, OCR, or digitisation.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -65321,16 +65321,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "featured-work-description",
     "path": ".claude/skills/featured-work-description",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65341,7 +65341,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65360,7 +65360,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65368,7 +65368,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/glass-bead-game",
     "compatibility": null,
     "description": "Run a Glass Bead Game session — a parlor game played against the Source Library corpus. Players connect verified passages from different books, times, and traditions into a growing string of 'beads,' with Claude as librarian, verifier, and scribe. Trigger when the user says 'glass bead game,' 'let's play beads,' or asks to start/resume/publish a game session. Claude runs the search-verify-display loop; humans do the noticing, choosing, and judging.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -65408,16 +65408,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "glass-bead-game",
     "path": ".claude/skills/glass-bead-game",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65428,7 +65428,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65447,7 +65447,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65455,7 +65455,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/lesson",
     "compatibility": null,
     "description": "Record a lesson learned after fixing a bug or discovering a pattern. Updates domain memory files and checks for contradictions. Use after resolving non-trivial issues.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "education",
@@ -65495,16 +65495,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "lesson",
     "path": ".claude/skills/lesson",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65515,7 +65515,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65534,7 +65534,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65542,7 +65542,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/pipeline-context",
     "compatibility": null,
     "description": "Load context for pipeline, cron, Lambda, OCR, and translation work. Use when starting any pipeline monitoring, debugging, or processing task.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "localization",
@@ -65582,16 +65582,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "pipeline-context",
     "path": ".claude/skills/pipeline-context",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65602,7 +65602,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65621,7 +65621,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65629,7 +65629,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/promote-lessons",
     "compatibility": null,
     "description": "Sweep Claude's private per-machine memory for team-relevant operational knowledge and propose moving it into the shared repo (or the private ops repo) as draft PRs. Use to promote lessons that accreted privately, or run on a schedule. Never auto-merges; never leaks.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -65669,16 +65669,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "promote-lessons",
     "path": ".claude/skills/promote-lessons",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65689,7 +65689,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65708,7 +65708,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65716,7 +65716,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/qa-audit",
     "compatibility": null,
     "description": "Quality auditor for Source Library. Prioritizes verifying original language texts (not modern translations), auditing metadata accuracy against title pages, USTC alignment, and translation quality. Use for systematic quality control or to identify modern translations that should be replaced with originals.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -65756,16 +65756,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "qa-audit",
     "path": ".claude/skills/qa-audit",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65776,7 +65776,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65795,7 +65795,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65803,7 +65803,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/quote-background-image",
     "compatibility": null,
     "description": "Use this skill whenever choosing or evaluating a background image for the 'quote' section of a Source Library collection page — the wide banner where a sourced quotation is overlaid on an image drawn from the collection's plates or illustrations. Trigger for any request to pick, rank, or judge a background image behind quote text, select a plate for the quote banner, or decide whether a candidate image works as a text background. The goal is a beautiful, legible, on-theme backdrop that the quotation reads cleanly over.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "hr-recruiting",
@@ -65842,16 +65842,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "quote-background-image",
     "path": ".claude/skills/quote-background-image",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65862,7 +65862,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65881,7 +65881,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65889,7 +65889,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/scholarly-edition",
     "compatibility": null,
     "description": "Create a DOI-ready scholarly edition of a translated book. Use when asked to publish, create an edition, mint a DOI, or prepare a book for scholarly publication. Generates front matter, creates versioned editions, builds EPUBs, and mints DOIs via Zenodo.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -65929,16 +65929,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 3
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "scholarly-edition",
     "path": ".claude/skills/scholarly-edition",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65949,7 +65949,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65968,7 +65968,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65976,7 +65976,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/source-research",
     "compatibility": null,
     "description": "Search and cite primary sources from Source Library. Use when asked what historical authors wrote, to find quotes from old texts, investigate alchemical or philosophical works, or cite translated Latin/German sources.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -66016,16 +66016,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "source-research",
     "path": ".claude/skills/source-research",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -66036,7 +66036,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -66055,7 +66055,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -66063,7 +66063,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/status",
     "compatibility": null,
     "description": "Quick canon + pipeline health check. Use when asked \"how's it going?\", \"status?\", \"how's the db?\", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "data",
@@ -66103,16 +66103,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "status",
     "path": ".claude/skills/status",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -66123,7 +66123,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -66142,7 +66142,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -66150,7 +66150,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/ui-context",
     "compatibility": null,
     "description": "Load context for UI, frontend, navigation, and analytics work. Use when starting any visual, interaction, or engagement task.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -66190,16 +66190,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.140325409673857,
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-10-06T23:18:15.122153+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "ui-context",
     "path": ".claude/skills/ui-context",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-06T23:13:57+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -66210,7 +66210,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 45,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -66229,7 +66229,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -77024,7 +77024,7 @@
     "canonical_key": "lightdash/lightdash:sandboxes/data-apps/template/.claude/skills/frontend-design",
     "compatibility": null,
     "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
-    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -77055,16 +77055,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 14.783279582356688,
+      "star_velocity_7d": 10.361944409955871,
       "tree_files_scanned": 1
     },
-    "forks": 789,
-    "indexed_at": "2026-10-02T09:00:07.684093+00:00",
+    "forks": 790,
+    "indexed_at": "2026-10-07T15:57:33.023347+00:00",
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
     "name": "frontend-design",
     "path": "sandboxes/data-apps/template/.claude/skills/frontend-design",
-    "pushed_at": "2026-10-02T08:59:22+00:00",
+    "pushed_at": "2026-10-07T15:53:15+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "lightdash/lightdash",
     "repo_url": "https://github.com/lightdash/lightdash",
@@ -77075,7 +77075,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 92,
+      "adoption": 88,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -77094,7 +77094,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 6171
+    "stars": 6177
   },
   {
     "allowed_tools": [],

@@ -12,7 +12,7 @@ This skill should be used when the user asks to read, create, or edit Google Doc
 
 ## Classification
 
-Categories: commerce, content, data, devops, documentation, engineering
+Categories: commerce, content, documentation, engineering, integrations, productivity
 Client compatibility: not explicitly detected
 License: MIT
 
@@ -29,7 +29,7 @@ Overall: 100
 Quality: 100
 Security: 100
 Maintenance: 100
-Adoption: 31
+Adoption: 32
 
 ## Static security findings
 
@@ -40,8 +40,8 @@ Static analysis is not malware certification
 ## Publication metadata
 
 First seen: unknown
-Indexed: 2026-09-11T19:19:57.470617+00:00
-Published: 2026-09-11T19:23:00.429355+00:00
-Publication event: add
-Source fingerprint: `7d65dbc6b0fc93a92cb769d9c2545fb324d9d8aa8b350d3d2545c5ffa0c78814`
-Analysis fingerprint: `7818969a0ab29fa290bf5d03d87dd9ca0a06da5d4403cb37de61139f37fb1cd0`
+Indexed: 2026-09-29T01:20:04.313480+00:00
+Published: 2026-10-07T15:59:31.602181+00:00
+Publication event: update
+Source fingerprint: `f7ded9b1897617b4bd69a4190034145b04a2e0555653644ad35b3f14655d0b4e`
+Analysis fingerprint: `8f7f6c2ce47582fbe0eec048d734020c5dca8da09ef1a340745d6b077d9dd80a`
