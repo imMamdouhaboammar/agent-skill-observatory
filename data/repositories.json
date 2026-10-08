@@ -1589,7 +1589,6 @@
     "categories": [
       "agent-orchestration",
       "ai-ml",
-      "browser-automation",
       "commerce",
       "content",
       "data",
@@ -1605,11 +1604,11 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 1124,
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "forks": 1192,
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
-    "security_85_plus_count": 12,
+    "security_85_plus_count": 11,
     "skills": [
       {
         "description": "Debug LLM applications using the Phoenix CLI. Fetch traces, spans, and sessions, annotate them, analyze errors, inspect datasets, review experiments, query annotation configs, and use the GraphQL API. Use whenever the user works with a Phoenix instance from the terminal.",
@@ -1709,20 +1708,11 @@
         "path": ".agents/skills/phoenix-typescript-package-docs",
         "security_score": 100,
         "spec_valid": true
-      },
-      {
-        "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
-        "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/vercel-react-best-practices/SKILL.md",
-        "name": "vercel-react-best-practices",
-        "overall_score": 100,
-        "path": ".agents/skills/vercel-react-best-practices",
-        "security_score": 100,
-        "spec_valid": true
       }
     ],
-    "skills_count": 12,
-    "spec_valid_count": 12,
-    "stars": 11416
+    "skills_count": 11,
+    "spec_valid_count": 11,
+    "stars": 11744
   },
   {
     "archived": false,
@@ -5230,7 +5220,7 @@
     ],
     "default_branch": "main",
     "forks": 2,
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-08T06:26:59+00:00",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
     "security_85_plus_count": 36,
@@ -7825,7 +7815,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
     "security_85_plus_count": 22,
@@ -8057,8 +8047,8 @@
       "research"
     ],
     "default_branch": "main",
-    "forks": 3,
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "forks": 4,
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "security_85_plus_count": 15,
@@ -8201,7 +8191,7 @@
     ],
     "skills_count": 15,
     "spec_valid_count": 15,
-    "stars": 19
+    "stars": 21
   },
   {
     "archived": false,
@@ -9415,8 +9405,8 @@
       "engineering"
     ],
     "default_branch": "main",
-    "forks": 789,
-    "pushed_at": "2026-10-02T08:59:22+00:00",
+    "forks": 790,
+    "pushed_at": "2026-10-07T15:53:15+00:00",
     "repo_full_name": "lightdash/lightdash",
     "repo_url": "https://github.com/lightdash/lightdash",
     "security_85_plus_count": 1,
@@ -9433,7 +9423,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 6171
+    "stars": 6177
   },
   {
     "archived": false,

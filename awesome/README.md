@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **944**
+Published skills: **943**
 Repositories: **97**
 
 ## Browse repositories
@@ -353,7 +353,6 @@ Repositories: **97**
 - [phoenix-integration-snippets](./skills/arize-ai/phoenix/.agents/skills/phoenix-integration-snippets/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-integration-snippets`
 - [phoenix-release-please](./skills/arize-ai/phoenix/.agents/skills/phoenix-release-please/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-release-please`
 - [phoenix-typescript-package-docs](./skills/arize-ai/phoenix/.agents/skills/phoenix-typescript-package-docs/README.md) · `arize-ai/phoenix:.agents/skills/phoenix-typescript-package-docs`
-- [vercel-react-best-practices](./skills/arize-ai/phoenix/.agents/skills/vercel-react-best-practices/README.md) · `arize-ai/phoenix:.agents/skills/vercel-react-best-practices`
 - [phoenix-cli-development](./skills/arize-ai/phoenix/js/packages/phoenix-cli/.agents/skills/phoenix-cli-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-cli/.agents/skills/phoenix-cli-development`
 - [phoenix-client-development](./skills/arize-ai/phoenix/js/packages/phoenix-client/.agents/skills/phoenix-client-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-client/.agents/skills/phoenix-client-development`
 - [phoenix-otel-development](./skills/arize-ai/phoenix/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/README.md) · `arize-ai/phoenix:js/packages/phoenix-otel/.agents/skills/phoenix-otel-development`
