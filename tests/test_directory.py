@@ -203,3 +203,46 @@ def test_rendering_is_byte_deterministic() -> None:
     )
 
     assert first == second
+
+
+def test_mixed_case_owner_links_target_lowercased_skill_page() -> None:
+    skill = _skill().model_copy(
+        update={
+            "canonical_key": "cherryhq/cherry-studio:.agents/skills/gh-pr-review",
+            "repo_full_name": "CherryHQ/cherry-studio",
+            "repo_url": "https://github.com/CherryHQ/cherry-studio",
+            "path": ".agents/skills/GH-PR-Review",
+        }
+    )
+    event = _add_event(skill)
+    assert event.after is not None
+
+    patch = render_skill_event(
+        event, {skill.canonical_key: event.after}, current_root_readme=README
+    )
+
+    skill_page = str(skill_markdown_path(skill.canonical_key))
+    assert skill_page in patch.writes
+    target = skill_page.removeprefix("awesome/")
+    category_page = patch.writes[str(category_markdown_path("engineering"))]
+    repo_page = patch.writes[str(repository_markdown_path(skill.repo_full_name))]
+    assert f"](../{target})" in category_page
+    assert f"](../../{target})" in repo_page
+    assert "skills/CherryHQ/" not in category_page
+    assert "skills/CherryHQ/" not in repo_page
+    assert "GH-PR-Review/README.md" not in category_page + repo_page
+
+
+def test_committed_awesome_directory_has_no_broken_relative_links() -> None:
+    import re
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parents[1]
+    link = re.compile(r"\]\((?!https?:|#|mailto:)([^)\s#]+)(?:#[^)\s]*)?\)")
+    broken = [
+        f"{page.relative_to(root)} -> {target}"
+        for page in sorted((root / "awesome").rglob("*.md"))
+        for target in link.findall(page.read_text(encoding="utf-8"))
+        if not (page.parent / target).exists()
+    ]
+    assert broken == [], f"{len(broken)} broken links, first: {broken[:5]}"
