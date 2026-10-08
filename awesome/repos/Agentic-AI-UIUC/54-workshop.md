@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [your-product](../../skills/Agentic-AI-UIUC/54-workshop/.cursor/skills/your-product/README.md) | `.cursor/skills/your-product` | 96 | 100 | commerce, product |
+| [your-product](../../skills/agentic-ai-uiuc/54-workshop/.cursor/skills/your-product/README.md) | `.cursor/skills/your-product` | 96 | 100 | commerce, product |

@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [fri-reputation-index](../../skills/0o0r7/Fri/docs/README.md) | `docs` | 79 | 100 | content, data, devops, engineering |
+| [fri-reputation-index](../../skills/0o0r7/fri/docs/README.md) | `docs` | 79 | 100 | content, data, devops, engineering |

@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [uilint](../../skills/DahanItamar/uilint/_root/README.md) | `.` | 99 | 100 | commerce, content, data, design, engineering |
+| [uilint](../../skills/dahanitamar/uilint/_root/README.md) | `.` | 99 | 100 | commerce, content, data, design, engineering |
