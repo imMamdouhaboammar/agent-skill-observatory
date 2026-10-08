@@ -203,3 +203,32 @@ def test_rendering_is_byte_deterministic() -> None:
     )
 
     assert first == second
+
+
+def test_mixed_case_owner_links_target_lowercased_skill_page() -> None:
+    skill = _skill().model_copy(
+        update={
+            "canonical_key": "cherryhq/cherry-studio:.agents/skills/gh-pr-review",
+            "repo_full_name": "CherryHQ/cherry-studio",
+            "repo_url": "https://github.com/CherryHQ/cherry-studio",
+            "path": ".agents/skills/GH-PR-Review",
+        }
+    )
+    event = _add_event(skill)
+    assert event.after is not None
+
+    patch = render_skill_event(
+        event, {skill.canonical_key: event.after}, current_root_readme=README
+    )
+
+    skill_page = str(skill_markdown_path(skill.canonical_key))
+    assert skill_page in patch.writes
+    target = skill_page.removeprefix("awesome/")
+    category_page = patch.writes[str(category_markdown_path("engineering"))]
+    repo_page = patch.writes[str(repository_markdown_path(skill.repo_full_name))]
+    assert f"](../{target})" in category_page
+    assert f"](../../{target})" in repo_page
+    assert "skills/CherryHQ/" not in category_page
+    assert "skills/CherryHQ/" not in repo_page
+    assert "GH-PR-Review/README.md" not in category_page + repo_page
+
