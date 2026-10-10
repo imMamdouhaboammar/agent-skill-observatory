@@ -11,7 +11,7 @@ def test_keyboard_skip_link_targets_main_content() -> None:
     css = (WEB / "styles.css").read_text(encoding="utf-8")
     assert '<a class="skip-link" href="#main-content">Skip to main content</a>' in html
     assert 'id="main-content"' in html
-    assert re.search(r"\\.skip-link:focus-visible\\s*\\{[^}]*transform:\\s*none", css)
+    assert re.search(r"\.skip-link:focus-visible\s*\{[^}]*transform:\s*none", css)
     assert "GitHub repository (opens in a new tab)" in html
 
 
