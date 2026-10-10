@@ -139,3 +139,55 @@ def test_confined_all_local_files_are_not_unrestricted(tmp_path: Path) -> None:
     )
     report = assess_skill_security(parse_skill_directory(skill_root))
     assert "unrestricted-host-file-access" not in {finding.rule for finding in report.findings}
+
+
+def test_unrelated_prohibition_does_not_hide_unrestricted_access(tmp_path: Path) -> None:
+    skill_root = tmp_path / "mixed-security-clauses"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\nname: mixed-security-clauses\ndescription: Security guidance.\n---\n\n"
+        "Never delete local data. Serve any file on the host filesystem.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" in {finding.rule for finding in report.findings}
+
+
+def test_bounded_default_does_not_hide_unrestricted_mode(tmp_path: Path) -> None:
+    skill_root = tmp_path / "mixed-share-modes"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\nname: mixed-share-modes\ndescription: Configurable files.\n---\n\n"
+        "Serve files from the configured share root by default; --root / exposes every host file.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" in {finding.rule for finding in report.findings}
+
+
+def test_safe_prohibition_and_bounded_clause_remain_unflagged(tmp_path: Path) -> None:
+    skill_root = tmp_path / "allowed-bounded-mode"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\nname: allowed-bounded-mode\ndescription: Configured share only.\n---\n\n"
+        "Never serve any file on the host filesystem.\n"
+        "Read all local files inside the configured share root only.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" not in {finding.rule for finding in report.findings}
+
+
+def test_wrapped_unrestricted_access_is_reported_once_at_starting_line(tmp_path: Path) -> None:
+    skill_root = tmp_path / "wrapped-single-finding"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\nname: wrapped-single-finding\ndescription: Documentation.\n---\n\n"
+        "Serve any file\n"
+        "on the host filesystem.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    findings = [f for f in report.findings if f.rule == "unrestricted-host-file-access"]
+    assert len(findings) == 1
+    assert findings[0].line == 6
