@@ -86,21 +86,13 @@ def test_ci_runs_full_static_gate() -> None:
     assert "--cov-fail-under=80" in text
 
 
-def test_pages_deploys_after_refresh() -> None:
+def test_pages_deploys_after_published_main_changes() -> None:
     workflow = load_workflow("pages.yml")
     triggers = workflow.get("on") or workflow[True]
-    assert triggers["workflow_run"]["workflows"] == ["Refresh catalog"]
-    text = Path(".github/workflows/pages.yml").read_text(encoding="utf-8")
-    assert "github.event.workflow_run.conclusion == 'success'" in text
-
-
-def test_pages_deploys_only_for_published_changes() -> None:
-    from pathlib import Path
-
-    workflow = (Path(__file__).resolve().parents[1] / ".github/workflows/pages.yml").read_text(
-        encoding="utf-8"
-    )
-    assert "  workflow_run:" not in workflow
-    assert "  push:" in workflow
-    assert "data/catalog.json" in workflow
-    assert "data/stats.json" in workflow
+    assert set(triggers) == {"push", "workflow_dispatch"}
+    assert triggers["push"]["branches"] == ["main"]
+    paths = triggers["push"]["paths"]
+    assert "data/catalog.json" in paths
+    assert "data/stats.json" in paths
+    assert "src/skill_observatory/web/**" in paths
+    assert "workflow_run" not in triggers
