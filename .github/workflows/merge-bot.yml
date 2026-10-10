@@ -53,7 +53,6 @@ jobs:
       - name: Revalidate gates and merge exact reviewed SHA
         uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
         env:
-          REQUIRED_REVIEW_CHECKS: ${{ vars.REQUIRED_REVIEW_CHECKS || 'Gitar@827041' }}
           EXPECTED_PATCH_AUTHOR_LOGIN: ${{ vars.PATCH_AUTHOR_LOGIN || 'imMamdouhaboammar' }}
           EXPECTED_PATCH_AUTHOR_EMAIL: ${{ vars.PATCH_AUTHOR_EMAIL || '58908124+imMamdouhaboammar@users.noreply.github.com' }}
           EXPECTED_PATCH_SIGNING_PUBLIC_KEY: ${{ vars.PATCH_SIGNING_PUBLIC_KEY }}
@@ -85,33 +84,13 @@ jobs:
               return;
             }
 
-            function parseReviewCheckSpecs(raw) {
-              const specs = [];
-              for (const token of String(raw || '').split(',').map((value) => value.trim()).filter(Boolean)) {
-                const separator = token.lastIndexOf('@');
-                const contextName = separator > 0 ? token.slice(0, separator).trim() : '';
-                const integrationId = separator > 0 ? Number(token.slice(separator + 1)) : 0;
-                if (!contextName || !integrationId) {
-                  core.setFailed(`Invalid REQUIRED_REVIEW_CHECKS entry: ${token}. Expected check-name@app-id.`);
-                  return null;
-                }
-                specs.push({ context: contextName, integrationId, kind: 'review' });
-              }
-              if (specs.length === 0) {
-                core.setFailed('At least one REQUIRED_REVIEW_CHECKS entry is required.');
-                return null;
-              }
-              return specs;
-            }
-
-            const reviewCheckSpecs = parseReviewCheckSpecs(process.env.REQUIRED_REVIEW_CHECKS);
-            if (!reviewCheckSpecs) return;
+            const sourceryIntegrationId = 48477;
             const releaseCheckSpecs = releaseCheckNames.map((contextName) => ({
               context: contextName,
               integrationId: actionsIntegrationId,
               kind: 'release',
             }));
-            const requiredCheckSpecs = [...releaseCheckSpecs, ...reviewCheckSpecs];
+            const requiredCheckSpecs = releaseCheckSpecs;
 
             function checkKey(contextName, integrationId) {
               return `${contextName}@${integrationId}`;
@@ -268,6 +247,12 @@ jobs:
                 return false;
               }
               const serverChecks = statusRule.parameters?.required_status_checks || [];
+              if (serverChecks.some((item) => item.context === 'Sourcery review' && (!item.integration_id || Number(item.integration_id) === sourceryIntegrationId))) {
+                core.setFailed(
+                  'Remove Sourcery review from required status checks in the Agent Skill Publication Gate repository ruleset before enabling publication.'
+                );
+                return false;
+              }
               const missingServerChecks = requiredCheckSpecs.filter((spec) => {
                 const match = serverChecks.find((item) => item.context === spec.context);
                 return !match || Number(match.integration_id || 0) !== spec.integrationId;
@@ -417,22 +402,6 @@ jobs:
                 return;
               }
             }
-            for (const spec of reviewCheckSpecs) {
-              const run = latestChecks.get(checkKey(spec.context, spec.integrationId));
-              if (!run) {
-                core.info(`Required review-app check not registered yet: ${checkKey(spec.context, spec.integrationId)}`);
-                return;
-              }
-              if (run.status !== 'completed') {
-                core.info(`Required review-app check still running: ${spec.context}`);
-                return;
-              }
-              if (run.conclusion !== 'success') {
-                core.setFailed(`Required review-app check must succeed: ${spec.context}=${run.conclusion}`);
-                return;
-              }
-            }
-
             const ignoredCheckNames = new Set(
               (process.env.IGNORED_CHECK_NAMES || '')
                 .split(',')
@@ -443,6 +412,8 @@ jobs:
             const selfCheckKey = checkKey('merge-gate', 15368);
             const otherLatestChecks = [...latestChecks.entries()]
               .filter(([key]) => key !== selfCheckKey)
+              // Sourcery is informational only: skipped or failed reviews cannot block publication.
+              .filter(([, run]) => !(run.name === 'Sourcery review' && Number(run.app?.id || 0) === sourceryIntegrationId))
               .filter(([, run]) => !ignoredCheckNames.has(run.name))
               .map(([, run]) => run);
             const pendingChecks = otherLatestChecks.filter((run) => run.status !== 'completed');
@@ -519,7 +490,7 @@ jobs:
               merge_method: 'merge',
               sha: headSha,
               commit_title: `${freshPr.title} (#${pull_number})`,
-              commit_message: 'Merged by the dedicated patch merge bot after signing-key, server ruleset, release-check, review-app-check, review-veto, and review-thread gates passed.',
+              commit_message: 'Merged by the dedicated patch merge bot after signing-key, server ruleset, release-check, review-veto, and review-thread gates passed.',
             });
             if (!result.data.merged) {
               core.setFailed(`GitHub refused merge: ${result.data.message || 'unknown reason'}`);

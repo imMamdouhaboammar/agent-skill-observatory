@@ -17039,8 +17039,8 @@
       "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
+    "forks": 1192,
+    "indexed_at": "2026-10-08T00:32:13.365727+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "oss@arize.com",
@@ -17049,7 +17049,7 @@
     },
     "name": "phoenix-evals-new-metric",
     "path": ".agents/skills/phoenix-evals-new-metric",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
@@ -17081,7 +17081,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 11416
+    "stars": 11744
   },
   {
     "allowed_tools": [],
@@ -17222,8 +17222,8 @@
       "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
+    "forks": 1192,
+    "indexed_at": "2026-10-08T00:32:13.365727+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "oss@arize.com",
@@ -17233,7 +17233,7 @@
     },
     "name": "phoenix-integration-snippets",
     "path": ".agents/skills/phoenix-integration-snippets",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
@@ -17265,7 +17265,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 11416
+    "stars": 11744
   },
   {
     "allowed_tools": [],
@@ -17313,8 +17313,8 @@
       "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
+    "forks": 1192,
+    "indexed_at": "2026-10-08T00:32:13.365727+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "oss@arize.com",
@@ -17323,7 +17323,7 @@
     },
     "name": "phoenix-release-please",
     "path": ".agents/skills/phoenix-release-please",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
@@ -17355,7 +17355,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 11416
+    "stars": 11744
   },
   {
     "allowed_tools": [],
@@ -17406,8 +17406,8 @@
       "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
+    "forks": 1192,
+    "indexed_at": "2026-10-08T00:32:13.365727+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "oss@arize.com",
@@ -17417,7 +17417,7 @@
     },
     "name": "phoenix-typescript-package-docs",
     "path": ".agents/skills/phoenix-typescript-package-docs",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
@@ -17449,96 +17449,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 11416
-  },
-  {
-    "allowed_tools": [],
-    "archived": false,
-    "canonical_key": "arize-ai/phoenix:.agents/skills/vercel-react-best-practices",
-    "compatibility": null,
-    "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
-    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
-    "evidence": {
-      "categories": [
-        "content",
-        "data",
-        "engineering",
-        "browser-automation",
-        "media"
-      ],
-      "client_compatibility_evidence": {
-        "GitHub Copilot": [
-          "GitHub Copilot supports project skills under .agents/skills"
-        ],
-        "OpenAI Codex": [
-          "skill stored under the cross-client .agents/skills path"
-        ]
-      },
-      "duplicate_of": null,
-      "manifest": "https://github.com/Arize-ai/phoenix/blob/main/.agents/skills/vercel-react-best-practices/SKILL.md",
-      "qualification": {
-        "blocking_reasons": [],
-        "checks": {
-          "active-source": true,
-          "behavioral-safety": true,
-          "duplicate": true,
-          "instruction-depth": true,
-          "license": true,
-          "portability": true,
-          "resource-integrity": true,
-          "script-verification": true,
-          "spec-validity": true,
-          "static-security": true
-        },
-        "policy_version": 1,
-        "qualified": true
-      },
-      "repo_has_readme": true,
-      "repo_has_tests": true,
-      "source_tier": "community",
-      "star_velocity_7d": 0.0,
-      "tree_files_scanned": 4
-    },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
-    "license": "MIT",
-    "metadata": {
-      "author": "vercel",
-      "version": "1.0.0"
-    },
-    "name": "vercel-react-best-practices",
-    "path": ".agents/skills/vercel-react-best-practices",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
-    "repo_default_branch": "main",
-    "repo_full_name": "Arize-ai/phoenix",
-    "repo_url": "https://github.com/Arize-ai/phoenix",
-    "resources": {
-      "assets": 0,
-      "other": 3,
-      "references": 0,
-      "scripts": 0
-    },
-    "score": {
-      "adoption": 80,
-      "maintenance": 100,
-      "overall": 100,
-      "quality": 100,
-      "reasons": [
-        "Repository includes test evidence.",
-        "Repository declares license NOASSERTION."
-      ],
-      "security": 100
-    },
-    "security": {
-      "findings": [],
-      "score": 100
-    },
-    "spec": {
-      "errors": [],
-      "valid": true,
-      "warnings": []
-    },
-    "stars": 11416
+    "stars": 11744
   },
   {
     "allowed_tools": [],
@@ -17582,8 +17493,8 @@
       "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
+    "forks": 1192,
+    "indexed_at": "2026-10-08T00:32:13.365727+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "oss@arize.com",
@@ -17592,7 +17503,7 @@
     },
     "name": "phoenix-cli-development",
     "path": "js/packages/phoenix-cli/.agents/skills/phoenix-cli-development",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
@@ -17624,7 +17535,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 11416
+    "stars": 11744
   },
   {
     "allowed_tools": [],
@@ -17668,8 +17579,8 @@
       "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
+    "forks": 1192,
+    "indexed_at": "2026-10-08T00:32:13.365727+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "oss@arize.com",
@@ -17679,7 +17590,7 @@
     },
     "name": "phoenix-client-development",
     "path": "js/packages/phoenix-client/.agents/skills/phoenix-client-development",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
@@ -17711,7 +17622,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 11416
+    "stars": 11744
   },
   {
     "allowed_tools": [],
@@ -17753,8 +17664,8 @@
       "star_velocity_7d": 0.0,
       "tree_files_scanned": 1
     },
-    "forks": 1124,
-    "indexed_at": "2026-09-11T23:38:40.586223+00:00",
+    "forks": 1192,
+    "indexed_at": "2026-10-08T00:32:13.365727+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "oss@arize.com",
@@ -17764,7 +17675,7 @@
     },
     "name": "phoenix-otel-development",
     "path": "js/packages/phoenix-otel/.agents/skills/phoenix-otel-development",
-    "pushed_at": "2026-09-11T23:35:23+00:00",
+    "pushed_at": "2026-10-08T00:29:11+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
@@ -17796,7 +17707,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 11416
+    "stars": 11744
   },
   {
     "allowed_tools": [],
@@ -22682,7 +22593,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/ben-code-quality",
     "compatibility": "PlotPickle repository; coding and repair workers; BEN deterministic code-quality observer.",
     "description": "Apply PlotPickle's coding-agent discoverability standard and review deterministic BEN code-quality evidence. Use whenever an agent writes, renames, moves, or reviews JavaScript/TypeScript code for PlotPickle.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -22722,11 +22633,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -22736,7 +22647,7 @@
     },
     "name": "ben-code-quality",
     "path": ".agents/skills/ben-code-quality",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -22747,7 +22658,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -22766,7 +22677,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -22774,7 +22685,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/buzz-guildhall-reporting",
     "compatibility": null,
     "description": "Operational reporting procedure for summarizing and routing PlotPickle agent activity into appropriate BUZZ Guildhall rooms.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -22811,11 +22722,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -22826,7 +22737,7 @@
     },
     "name": "buzz-guildhall-reporting",
     "path": ".agents/skills/buzz-guildhall-reporting",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -22837,7 +22748,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -22858,7 +22769,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -22866,7 +22777,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/character-visual-development",
     "compatibility": null,
     "description": "Develop a revision-bound candidate visual package for one canonical PlotPickle character from approved and observed evidence without changing canon or accepting generated work.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "hr-recruiting",
@@ -22906,11 +22817,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -22921,7 +22832,7 @@
     },
     "name": "character-visual-development",
     "path": ".agents/skills/character-visual-development",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -22932,7 +22843,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -22953,7 +22864,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -22961,7 +22872,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/critics-circle",
     "compatibility": "PlotPickle Community/Guildhall; Mastra critic role; local/optional provider routing supplied by the host.",
     "description": "Give independent PlotPickle critique of story, world, characters, structure, pacing, dialogue, continuity, audience clarity and commercial positioning using bounded supplied evidence.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -22999,11 +22910,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -23012,7 +22923,7 @@
     },
     "name": "critics-circle",
     "path": ".agents/skills/critics-circle",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23023,7 +22934,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23042,7 +22953,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23050,7 +22961,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/diagnosis",
     "compatibility": "PlotPickle repository; Pi, Cline, and developer repair workers.",
     "description": "Diagnose non-trivial PlotPickle bugs from the narrowest exact, red-capable feedback loop before speculative source changes.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -23090,11 +23001,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -23103,7 +23014,7 @@
     },
     "name": "diagnosis",
     "path": ".agents/skills/diagnosis",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23114,7 +23025,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23133,7 +23044,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23141,7 +23052,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/engineering-discipline",
     "compatibility": null,
     "description": "Keep PlotPickle coding and repair work assumption-aware, minimal, task-scoped, and driven by explicit verification criteria before implementation begins.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -23181,11 +23092,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -23197,7 +23108,7 @@
     },
     "name": "engineering-discipline",
     "path": ".agents/skills/engineering-discipline",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23208,7 +23119,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23229,7 +23140,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23237,7 +23148,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/lazy-frames-animatic",
     "compatibility": null,
     "description": "Turn approved PlotPickle BUILD material into a reviewable local animatic through the host-owned Lazy Frames adapter while canonical story state remains authoritative and unchanged.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -23277,16 +23188,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "lazy-frames-animatic",
     "path": ".agents/skills/lazy-frames-animatic",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23297,7 +23208,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23316,7 +23227,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23324,7 +23235,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/marquee-director",
     "compatibility": "PlotPickle LEARN Creative Room; Mastra visual-director role; provider capabilities and PPF writes remain host-granted.",
     "description": "Act as PlotPickle's private Key Art & Trailer Director after Foundations, using a narrow PPF-derived Marketing Context while the host controls generation and Marketing Reference storage.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "marketing",
@@ -23364,11 +23275,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -23377,7 +23288,7 @@
     },
     "name": "marquee-director",
     "path": ".agents/skills/marquee-director",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23388,7 +23299,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23407,7 +23318,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23415,7 +23326,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/plan-foundations",
     "compatibility": null,
     "description": "Grounded Foundations planning procedure for turning retrieved curriculum and approved project evidence into draft story decisions.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -23453,11 +23364,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -23468,7 +23379,7 @@
     },
     "name": "plan-foundations",
     "path": ".agents/skills/plan-foundations",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23479,7 +23390,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23500,7 +23411,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23508,7 +23419,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/plotpickle-architecture-review",
     "compatibility": "PlotPickle repository; read-only Pi/Cline reviewer contexts.",
     "description": "Scout PlotPickle architecture before non-trivial changes and independently review an exact diff/head against architecture, engineering standards, and the originating spec.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -23548,11 +23459,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -23561,7 +23472,7 @@
     },
     "name": "plotpickle-architecture-review",
     "path": ".agents/skills/plotpickle-architecture-review",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23572,7 +23483,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23591,7 +23502,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23599,7 +23510,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/sage-brinewick",
     "compatibility": "PlotPickle LEARN Creative Room; Mastra curriculum-guide agent; local Fast/Quality role routing supplied by the host.",
     "description": "Guide writers through PlotPickle curriculum and story questions as Sage Brinewick. Use for LEARN Creative Room conversation, curriculum explanations, lesson application, and ordinary follow-up conversation where Sage is the visible mentor.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "education",
@@ -23639,11 +23550,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -23652,7 +23563,7 @@
     },
     "name": "sage-brinewick",
     "path": ".agents/skills/sage-brinewick",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23663,7 +23574,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23682,7 +23593,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23690,7 +23601,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/sequence-director",
     "compatibility": null,
     "description": "Provider-neutral procedure for turning one approved 24/96 Mini-Block into PLAN intent, STORYBOARD visual beats, PREVIS timing, deterministic render-clip prompts and post-generation Sequence Evidence.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "media",
@@ -23730,11 +23641,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -23745,7 +23656,7 @@
     },
     "name": "sequence-director",
     "path": ".agents/skills/sequence-director",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23756,7 +23667,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23777,7 +23688,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23785,7 +23696,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/uat-repair",
     "compatibility": "PlotPickle repository; Windows-native developer flow; local-only Pi/Cline/Mastra repair workers.",
     "description": "Repair one concrete PlotPickle UAT blocker inside an isolated repository worktree. Use for focused UAT, exhaustive UI/UX UAT, startup-health, or Writer-in-Residence findings that require a tested code change.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -23825,11 +23736,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {
       "owner": "plotpickle",
@@ -23838,7 +23749,7 @@
     },
     "name": "uat-repair",
     "path": ".agents/skills/uat-repair",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23849,7 +23760,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23868,7 +23779,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23876,7 +23787,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-contract",
     "compatibility": null,
     "description": "Convert bounded PlotPickle story, visual-identity and Human image requirements into a provider-neutral constraint contract before generation.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -23916,11 +23827,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -23931,7 +23842,7 @@
     },
     "name": "visual-contract",
     "path": ".agents/skills/visual-contract",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -23942,7 +23853,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -23963,7 +23874,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -23971,7 +23882,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/visual-qa",
     "compatibility": null,
     "description": "Rendered-interface inspection procedure for reporting PlotPickle layout, hierarchy, responsive, and continuity evidence.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -24011,11 +23922,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -24026,7 +23937,7 @@
     },
     "name": "visual-qa",
     "path": ".agents/skills/visual-qa",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -24037,7 +23948,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -24058,7 +23969,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -24066,7 +23977,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:.agents/skills/writer-in-residence",
     "compatibility": null,
     "description": "User-facing Writer-in-Residence procedure for exercising PlotPickle journeys and reporting genuine product findings.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "product",
@@ -24106,11 +24017,11 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "MIT",
     "metadata": {
       "author": "PlotPickle",
@@ -24121,7 +24032,7 @@
     },
     "name": "writer-in-residence",
     "path": ".agents/skills/writer-in-residence",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -24132,7 +24043,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -24153,7 +24064,7 @@
         "metadata values should be strings according to the open specification"
       ]
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -24161,7 +24072,7 @@
     "canonical_key": "bryanharrisscripts/plotpickle:tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance",
     "compatibility": null,
     "description": "Exercise PlotPickle through its rendered UI like a first-time human user, preserve story context across the workflow, and report reproducible PASS, WARN, or FAIL findings with evidence.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" orchestration in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -24194,16 +24105,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.2234112690138395,
       "tree_files_scanned": 4
     },
     "forks": 0,
-    "indexed_at": "2026-09-27T13:18:50.600642+00:00",
+    "indexed_at": "2026-10-08T23:57:21.454168+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "plotpickle-human-acceptance",
     "path": "tools/agent-plugins/plotpickle-workflow-tester/skills/plotpickle-human-acceptance",
-    "pushed_at": "2026-09-27T13:12:46+00:00",
+    "pushed_at": "2026-10-08T23:56:44+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
@@ -24214,7 +24125,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 25,
+      "adoption": 30,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -24233,7 +24144,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 4
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -32266,12 +32177,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
+    "indexed_at": "2026-10-09T21:44:52.859890+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "feishu",
     "path": "skills/feishu",
-    "pushed_at": "2026-09-29T01:05:55+00:00",
+    "pushed_at": "2026-10-09T21:40:21+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -32585,12 +32496,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
+    "indexed_at": "2026-09-11T19:19:57.470617+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "improve-goal",
     "path": "skills/improve-goal",
-    "pushed_at": "2026-09-29T01:05:55+00:00",
+    "pushed_at": "2026-09-11T19:18:02+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -32601,7 +32512,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 32,
+      "adoption": 31,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -32620,7 +32531,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 7
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -32665,12 +32576,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
+    "indexed_at": "2026-10-09T21:44:52.859890+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "improve-worker",
     "path": "skills/improve-worker",
-    "pushed_at": "2026-09-29T01:05:55+00:00",
+    "pushed_at": "2026-10-09T21:40:21+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -32745,12 +32656,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
+    "indexed_at": "2026-10-09T21:44:52.859890+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "linear",
     "path": "skills/linear",
-    "pushed_at": "2026-09-29T01:05:55+00:00",
+    "pushed_at": "2026-10-09T21:40:21+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -32900,12 +32811,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
+    "indexed_at": "2026-10-09T21:44:52.859890+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "perfetto",
     "path": "skills/perfetto",
-    "pushed_at": "2026-09-29T01:05:55+00:00",
+    "pushed_at": "2026-10-09T21:40:21+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -33060,12 +32971,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
+    "indexed_at": "2026-10-09T21:44:52.859890+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "slack",
     "path": "skills/slack",
-    "pushed_at": "2026-09-29T01:05:55+00:00",
+    "pushed_at": "2026-10-09T21:40:21+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -33139,12 +33050,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-29T01:20:04.313480+00:00",
+    "indexed_at": "2026-09-11T19:19:57.470617+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "writing-style",
     "path": "skills/writing-style",
-    "pushed_at": "2026-09-29T01:05:55+00:00",
+    "pushed_at": "2026-09-11T19:18:02+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
@@ -33155,7 +33066,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 32,
+      "adoption": 31,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -33174,7 +33085,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 7
+    "stars": 6
   },
   {
     "allowed_tools": [],
@@ -43307,12 +43218,12 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "ai-automation-builder",
     "path": "skills/ai-automation-builder",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43391,12 +43302,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "apply-to-funder",
     "path": "skills/apply-to-funder",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43471,12 +43382,12 @@
       "tree_files_scanned": 5
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "capafy-publisher",
     "path": "skills/capafy-autopublish/vendor/capafy-publisher",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43550,12 +43461,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "academic-limitations-editor",
     "path": "skills/capafy/catalog/academic-limitations-editor",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43629,12 +43540,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "academic-research-proposal-humanizer",
     "path": "skills/capafy/catalog/academic-research-proposal-humanizer",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43709,12 +43620,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "board-update-deck-builder",
     "path": "skills/capafy/catalog/board-update-deck-builder",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43789,12 +43700,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "customer-escalation-decision-deck",
     "path": "skills/capafy/catalog/customer-escalation-decision-deck",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43867,12 +43778,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "decision-record-consistency-auditor",
     "path": "skills/capafy/catalog/decision-record-consistency-auditor",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -43945,12 +43856,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "dissertation-discussion-humanizer",
     "path": "skills/capafy/catalog/dissertation-discussion-humanizer",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44025,12 +43936,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "experiment-readout-deck",
     "path": "skills/capafy/catalog/experiment-readout-deck",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44102,12 +44013,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "football-match-analyst",
     "path": "skills/capafy/catalog/football-match-analyst",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44179,12 +44090,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "incident-postmortem-evidence-editor",
     "path": "skills/capafy/catalog/incident-postmortem-evidence-editor",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44258,12 +44169,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "peer-review-response-editor",
     "path": "skills/capafy/catalog/peer-review-response-editor",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44336,12 +44247,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "portfolio-tracker",
     "path": "skills/capafy/catalog/portfolio-tracker",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44415,12 +44326,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "research-findings-deck-storyboard",
     "path": "skills/capafy/catalog/research-findings-deck-storyboard",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44493,12 +44404,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "risk-register-action-planner",
     "path": "skills/capafy/catalog/risk-register-action-planner",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44573,12 +44484,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "sales-account-plan-deck",
     "path": "skills/capafy/catalog/sales-account-plan-deck",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44652,12 +44563,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "sales-objection-reply-builder",
     "path": "skills/capafy/catalog/sales-objection-reply-builder",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44730,12 +44641,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "talent-review-deck-writer",
     "path": "skills/capafy/catalog/talent-review-deck-writer",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44807,12 +44718,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "user-interview-synthesizer",
     "path": "skills/capafy/catalog/user-interview-synthesizer",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44887,12 +44798,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "youtube-script-writer",
     "path": "skills/capafy/catalog/youtube-script-writer",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -44967,12 +44878,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "cook",
     "path": "skills/cook",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45047,7 +44958,7 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {
       "risk": "medium",
@@ -45055,7 +44966,7 @@
     },
     "name": "gig-delivery-verifier",
     "path": "skills/earn/gig-delivery-verifier",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45130,7 +45041,7 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {
       "risk": "medium",
@@ -45138,7 +45049,7 @@
     },
     "name": "mobile-app-delivery",
     "path": "skills/earn/mobile-app-delivery",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45298,12 +45209,12 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "google-login",
     "path": "skills/google-login",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45377,12 +45288,12 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-09-13T00:58:34.040461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "hook-lab",
     "path": "skills/hook-lab",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-09-13T00:56:17+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45461,12 +45372,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "mercor",
     "path": "skills/mercor",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45536,12 +45447,12 @@
       "tree_files_scanned": 2
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "japanese-tech-writing",
     "path": "skills/writer-agent/checklists/japanese-tech-writing",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45611,7 +45522,7 @@
       "tree_files_scanned": 7
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {
       "author": "Daichi Nagashima (https://genshi.ai/)",
@@ -45621,7 +45532,7 @@
     },
     "name": "stop-ai-slop-jp",
     "path": "skills/writer-agent/checklists/stop-ai-slop-jp",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45691,7 +45602,7 @@
       "tree_files_scanned": 6
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {
       "author": "Hardik Pandya (https://hvpandya.com)",
@@ -45699,7 +45610,7 @@
     },
     "name": "stop-slop",
     "path": "skills/writer-agent/checklists/stop-slop",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45774,12 +45685,12 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "anti-ai-writing",
     "path": "skills/writer-agent/vendor/writing-skills/content-skills/anti-ai-writing",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45854,12 +45765,12 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "dumbify",
     "path": "skills/writer-agent/vendor/writing-skills/content-skills/dumbify",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -45934,12 +45845,12 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "storytelling",
     "path": "skills/writer-agent/vendor/writing-skills/content-skills/storytelling",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -46014,12 +45925,12 @@
       "tree_files_scanned": 1
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "viral-hooks",
     "path": "skills/writer-agent/vendor/writing-skills/content-skills/viral-hooks",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -46094,12 +46005,12 @@
       "tree_files_scanned": 3
     },
     "forks": 2,
-    "indexed_at": "2026-09-27T07:33:54.302177+00:00",
+    "indexed_at": "2026-10-10T13:39:20.923364+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "humanizer",
     "path": "skills/writer-agent/vendor/writing-skills/humanizer",
-    "pushed_at": "2026-09-27T07:29:46+00:00",
+    "pushed_at": "2026-10-10T13:36:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
@@ -46183,12 +46094,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "api-and-interface-design",
     "path": ".claude/skills/api-and-interface-design",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46270,12 +46181,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "assumption-test",
     "path": ".claude/skills/assumption-test",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46355,12 +46266,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "blindspot-pass",
     "path": ".claude/skills/blindspot-pass",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46442,12 +46353,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "ci-cd-and-automation",
     "path": ".claude/skills/ci-cd-and-automation",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46529,12 +46440,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "code-simplification",
     "path": ".claude/skills/code-simplification",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46616,12 +46527,12 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "constraint-driven-development",
     "path": ".claude/skills/constraint-driven-development",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46703,12 +46614,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "context-audit",
     "path": ".claude/skills/context-audit",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46790,12 +46701,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "context-engineering",
     "path": ".claude/skills/context-engineering",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46880,7 +46791,7 @@
       "tree_files_scanned": 84
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "skill-author": "K-Dense Inc.",
@@ -46888,7 +46799,7 @@
     },
     "name": "database-lookup",
     "path": ".claude/skills/database-lookup",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -46970,12 +46881,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "debugging-and-error-recovery",
     "path": ".claude/skills/debugging-and-error-recovery",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47057,12 +46968,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "deprecation-and-migration",
     "path": ".claude/skills/deprecation-and-migration",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47144,12 +47055,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "dispatching-parallel-agents",
     "path": ".claude/skills/dispatching-parallel-agents",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47231,14 +47142,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "tags": "documentation, technical-writing, tutorials, guides, reference, diataxis"
     },
     "name": "documentation",
     "path": ".claude/skills/documentation",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47320,12 +47231,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "documentation-and-adrs",
     "path": ".claude/skills/documentation-and-adrs",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47407,14 +47318,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "category": "Identity"
     },
     "name": "dpop-adoption",
     "path": ".claude/skills/dpop-adoption",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47496,14 +47407,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "category": "MultiProductSolutions"
     },
     "name": "finding-google-skills",
     "path": ".claude/skills/finding-google-skills",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47585,14 +47496,14 @@
       "tree_files_scanned": 3
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "category": "CloudInfrastructureAndServices"
     },
     "name": "gcloud",
     "path": ".claude/skills/gcloud",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47674,12 +47585,12 @@
       "tree_files_scanned": 19
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "hig-foundations",
     "path": ".claude/skills/hig-foundations",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47761,12 +47672,12 @@
       "tree_files_scanned": 8
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "hig-platforms",
     "path": ".claude/skills/hig-platforms",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47848,12 +47759,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "hig-project-context",
     "path": ".claude/skills/hig-project-context",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -47935,12 +47846,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "interview-me",
     "path": ".claude/skills/interview-me",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48022,7 +47933,7 @@
       "tree_files_scanned": 12
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "author": "Oliver Zehentleitner",
@@ -48031,7 +47942,7 @@
     },
     "name": "keep-the-why",
     "path": ".claude/skills/keep-the-why",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48111,14 +48022,14 @@
       "tree_files_scanned": 4
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "Apache-2.0",
     "metadata": {
       "author": "Philip Petrakian <ppetrakian@nvidia.com>"
     },
     "name": "mcore-split-pr",
     "path": ".claude/skills/mcore-split-pr",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48199,12 +48110,12 @@
       "tree_files_scanned": 4
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "nemo-rl-session-memory",
     "path": ".claude/skills/nemo-rl-session-memory",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48286,14 +48197,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "tags": "node, nodejs, javascript, typescript, type-stripping, backend, server"
     },
     "name": "node",
     "path": ".claude/skills/node",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48378,7 +48289,7 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "CC-BY-4.0 AND Apache-2.0",
     "metadata": {
       "author": "NVIDIA",
@@ -48387,7 +48298,7 @@
     },
     "name": "nvidia-skill-finder",
     "path": ".claude/skills/nvidia-skill-finder",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48471,14 +48382,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "tags": "git, github, gh-cli, version-control, merge-conflicts, pull-requests"
     },
     "name": "octocat",
     "path": ".claude/skills/octocat",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48560,12 +48471,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-13T01:00:58.525841+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "orchestrator-over-workers",
     "path": ".claude/skills/orchestrator-over-workers",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-13T00:55:47+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48647,12 +48558,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "owner-comms",
     "path": ".claude/skills/owner-comms",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48734,12 +48645,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "receiving-code-review",
     "path": ".claude/skills/receiving-code-review",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48821,12 +48732,12 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "requesting-code-review",
     "path": ".claude/skills/requesting-code-review",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -48908,14 +48819,14 @@
       "tree_files_scanned": 4
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "category": "CloudInfrastructureAndServices"
     },
     "name": "retrieving-developer-knowledge",
     "path": ".claude/skills/retrieving-developer-knowledge",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49001,7 +48912,7 @@
       "tree_files_scanned": 9
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT license",
     "metadata": {
       "skill-author": "K-Dense Inc.",
@@ -49009,7 +48920,7 @@
     },
     "name": "scientific-critical-thinking",
     "path": ".claude/skills/scientific-critical-thinking",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49091,12 +49002,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "signalgrid-native",
     "path": ".claude/skills/signalgrid-native",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49178,12 +49089,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "signalgrid-reviewer",
     "path": ".claude/skills/signalgrid-reviewer",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49265,12 +49176,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-13T01:00:58.525841+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "spec-driven-development",
     "path": ".claude/skills/spec-driven-development",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-13T00:55:47+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49352,12 +49263,12 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-13T01:00:58.525841+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "tool-evaluation-by-use",
     "path": ".claude/skills/tool-evaluation-by-use",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-13T00:55:47+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49436,14 +49347,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "tags": "typescript, types, generics, type-safety, advanced-typescript"
     },
     "name": "typescript-magician",
     "path": ".claude/skills/typescript-magician",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49523,12 +49434,12 @@
       "tree_files_scanned": 6
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "using-superpowers",
     "path": ".claude/skills/using-superpowers",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49610,12 +49521,12 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {},
     "name": "writing-plans",
     "path": ".claude/skills/writing-plans",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49690,14 +49601,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "backend-patterns",
     "path": "third_party/everything-claude-code/skills/backend-patterns",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49772,14 +49683,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "clickhouse-io",
     "path": "third_party/everything-claude-code/skills/clickhouse-io",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49854,14 +49765,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "coding-standards",
     "path": "third_party/everything-claude-code/skills/coding-standards",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -49935,14 +49846,14 @@
       "tree_files_scanned": 3
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "continuous-learning",
     "path": "third_party/everything-claude-code/skills/continuous-learning",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -50017,14 +49928,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "eval-harness",
     "path": "third_party/everything-claude-code/skills/eval-harness",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -50098,14 +50009,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "frontend-patterns",
     "path": "third_party/everything-claude-code/skills/frontend-patterns",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -50180,14 +50091,14 @@
       "tree_files_scanned": 2
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "security-review",
     "path": "third_party/everything-claude-code/skills/security-review",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -50262,14 +50173,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-10-09T03:47:20.138069+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "strategic-compact",
     "path": "third_party/everything-claude-code/skills/strategic-compact",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -50343,14 +50254,14 @@
       "tree_files_scanned": 1
     },
     "forks": 0,
-    "indexed_at": "2026-09-16T22:27:06.216249+00:00",
+    "indexed_at": "2026-09-11T23:40:40.592461+00:00",
     "license": "MIT",
     "metadata": {
       "origin": "ECC"
     },
     "name": "verification-loop",
     "path": "third_party/everything-claude-code/skills/verification-loop",
-    "pushed_at": "2026-09-16T22:25:16+00:00",
+    "pushed_at": "2026-09-11T23:34:39+00:00",
     "repo_default_branch": "SignalGrid_Alpha",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
@@ -63031,7 +62942,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-atom-map-refactor",
     "compatibility": null,
     "description": "Plan ATM framework refactors by preserving atom/map semantics before splitting large governance modules.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -63076,12 +62987,12 @@
       "tree_files_scanned": 4
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-atom-map-refactor",
     "path": ".agents/skills/atm-atom-map-refactor",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63119,7 +63030,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-create",
     "compatibility": null,
     "description": "Create and register an atom through the provisioning facade.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -63163,12 +63074,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-create",
     "path": ".agents/skills/atm-create",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63206,7 +63117,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-diagnostic-loop",
     "compatibility": null,
     "description": "Convert a bug symptom into red reproduction, falsifiable hypotheses, regression coverage, and causal repair evidence.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -63250,12 +63161,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-diagnostic-loop",
     "path": ".agents/skills/atm-diagnostic-loop",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63293,7 +63204,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-dispatch",
     "compatibility": null,
     "description": "ATM Captain dispatch routing for task cards, sidecars, subagents, condition review, mailbox work, and closeout coordination.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -63337,12 +63248,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-dispatch",
     "path": ".agents/skills/atm-dispatch",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63380,7 +63291,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-error-code-resolver",
     "compatibility": null,
     "description": "Resolve ATM_* error codes from CLI JSON, logs, or user reports into canonical meaning, remediation, retryability, and approval guidance.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -63424,12 +63335,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-error-code-resolver",
     "path": ".agents/skills/atm-error-code-resolver",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63467,7 +63378,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-evidence",
     "compatibility": null,
     "description": "Explain missing evidence or blocked guidance before proceeding.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -63511,12 +63422,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-evidence",
     "path": ".agents/skills/atm-evidence",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63554,7 +63465,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-framework-quickfix",
     "compatibility": null,
     "description": "Execute a bounded, evidence-backed ATM framework quickfix for a severe recurring blocker. Use when a captain needs to restore a broken fast path, control-plane latency, commitability, or fail-closed boundary without waiting for a broad governance closeout.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -63598,12 +63509,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-framework-quickfix",
     "path": ".agents/skills/atm-framework-quickfix",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63728,7 +63639,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-git-pathspec-emergency-commit",
     "compatibility": null,
     "description": "Emergency-only runbook for a one-time path-bounded native Git commit when ATM governed commit, WIP park, or commit-candidate lanes are blocked and the owner explicitly authorizes anomaly recovery. Not a Plan 3.1 autonomous success path.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -63772,12 +63683,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-git-pathspec-emergency-commit",
     "path": ".agents/skills/atm-git-pathspec-emergency-commit",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63815,7 +63726,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-governance-router",
     "compatibility": null,
     "description": "Route natural-language cleanup, refactor, migration, and candidate ranking goals through ATM before local analysis.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -63859,12 +63770,12 @@
       "tree_files_scanned": 8
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-governance-router",
     "path": ".agents/skills/atm-governance-router",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63902,7 +63813,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-handoff",
     "compatibility": null,
     "description": "Write a continuation summary for governed work.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -63946,12 +63857,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-handoff",
     "path": ".agents/skills/atm-handoff",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -63989,7 +63900,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-internal-build-sync",
     "compatibility": null,
     "description": "Build the ATM framework runner and sync it to explicit internal adopter repositories with skip/exclude controls.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -64033,12 +63944,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-internal-build-sync",
     "path": ".agents/skills/atm-internal-build-sync",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64076,7 +63987,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-lock",
     "compatibility": null,
     "description": "Check, acquire, or release a governed scope lock.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "devops",
@@ -64120,12 +64031,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-lock",
     "path": ".agents/skills/atm-lock",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64163,7 +64074,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-memory-consolidate",
     "compatibility": null,
     "description": "Reflective consolidation pass over a repository's keep-memory notes — merge duplicates, retire stale entries, rebuild the summary index.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -64207,12 +64118,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-memory-consolidate",
     "path": ".agents/skills/atm-memory-consolidate",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64250,7 +64161,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-minimal-patch-rebuilder",
     "compatibility": null,
     "description": "Rebuild a minimal semantic patch from formatter-contaminated or bulk-rewritten ATM files after line-budget commit failures.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "finance",
@@ -64294,12 +64205,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-minimal-patch-rebuilder",
     "path": ".agents/skills/atm-minimal-patch-rebuilder",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64337,7 +64248,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-next",
     "compatibility": null,
     "description": "Recommend the next official ATM guidance action from current state.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -64381,12 +64292,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-next",
     "path": ".agents/skills/atm-next",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64424,7 +64335,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-orient",
     "compatibility": null,
     "description": "Inspect a repository and emit a guidance orientation report.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -64468,12 +64379,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-orient",
     "path": ".agents/skills/atm-orient",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64511,7 +64422,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-residue-cleanup",
     "compatibility": null,
     "description": "Diagnose and safely reconcile operation-owned transient ATM residue.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "devops",
@@ -64552,12 +64463,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-residue-cleanup",
     "path": ".agents/skills/atm-residue-cleanup",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64595,7 +64506,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-task-intent-resolver",
     "compatibility": null,
     "description": "Resolve the current user prompt into an atm.taskIntent.v1 proposal before next-action routing.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -64639,12 +64550,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-task-intent-resolver",
     "path": ".agents/skills/atm-task-intent-resolver",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64682,7 +64593,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/atm-upgrade-scan",
     "compatibility": null,
     "description": "Scan evidence reports and draft governed upgrade proposals.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -64726,12 +64637,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-upgrade-scan",
     "path": ".agents/skills/atm-upgrade-scan",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64769,7 +64680,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:.agents/skills/mailbox-worker-execution",
     "compatibility": null,
     "description": "Mailbox worker execution workflow for agents that claim dispatch cards, complete scoped work, run required checks, and report done or blocked with evidence.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "productivity",
@@ -64813,12 +64724,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "mailbox-worker-execution",
     "path": ".agents/skills/mailbox-worker-execution",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64856,7 +64767,7 @@
     "canonical_key": "eaglhuang/ai-atomic-framework:integrations/codex-skills/atm-legacy-atomization-guidance",
     "compatibility": null,
     "description": "Legacy compatibility alias for ATM legacy atomization, split, infect, and migration work. Prefer atm-governance-router for new installs.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" translation in:name,description,readme",
     "evidence": {
       "categories": [
         "devops",
@@ -64892,12 +64803,12 @@
       "tree_files_scanned": 1
     },
     "forks": 1,
-    "indexed_at": "2026-09-11T16:46:49.309201+00:00",
+    "indexed_at": "2026-10-08T06:27:40.860046+00:00",
     "license": "Apache-2.0",
     "metadata": {},
     "name": "atm-legacy-atomization-guidance",
     "path": "integrations/codex-skills/atm-legacy-atomization-guidance",
-    "pushed_at": "2026-09-11T16:44:51+00:00",
+    "pushed_at": "2026-10-08T06:27:12+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "eaglhuang/AI-Atomic-Framework",
     "repo_url": "https://github.com/eaglhuang/AI-Atomic-Framework",
@@ -64935,7 +64846,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/book-biography",
     "compatibility": null,
     "description": "Bibliographic research agent for analyzing books and manuscripts. Builds comprehensive \"book biographies\" showing production context, textual transmission, related editions, and scholarly networks. Use when asked to research a book's history, find related editions, analyze manuscript transmission, or build bibliographic context.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -64975,16 +64886,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 2
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "book-biography",
     "path": ".claude/skills/book-biography",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -64995,7 +64906,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65014,7 +64925,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65022,7 +64933,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curate-collection",
     "compatibility": null,
     "description": "Populate a collection page with editorial content — expanded description, highlighted books, gallery images, sourced quotes. Also audits existing collections for staleness, broken links, and missing content. Use when a collection exists but needs its content built out, or when auditing collection quality.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -65066,12 +64977,12 @@
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-09-11T21:48:17.888608+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "curate-collection",
     "path": ".claude/skills/curate-collection",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-09-11T21:48:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65082,7 +64993,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 42,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65101,7 +65012,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 17
   },
   {
     "allowed_tools": [],
@@ -65109,7 +65020,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/curator",
     "compatibility": null,
     "description": "Autonomous curator for Source Library. Discover, evaluate, and import historical texts from digital archives. Assigns books to collections. Outputs batch import scripts for efficient acquisition.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -65149,16 +65060,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 2
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "curator",
     "path": ".claude/skills/curator",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65169,7 +65080,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65188,7 +65099,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65196,7 +65107,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/extract-images",
     "compatibility": null,
     "description": "Extract and catalog illustrations from historical books using AI vision. Generates rich metadata (subjects, figures, symbols, style, technique) and museum-style descriptions. Use when asked to extract images, run image detection, or process book illustrations.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "media",
@@ -65235,16 +65146,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "extract-images",
     "path": ".claude/skills/extract-images",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65255,7 +65166,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65274,7 +65185,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65282,7 +65193,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/featured-work-description",
     "compatibility": null,
     "description": "Use this skill whenever writing the 'Featured work' description that appears on a Source Library collection page — the short editorial blurb beneath a highlighted book's title, author, and bibliographic stats. Trigger for any request to write, rewrite, or edit a featured-work blurb, curator's pick description, or highlighted-book caption for a collection. The output is about the BOOK itself (what it is, why it matters, what is distinctive about it), never about Source Library, translation, OCR, or digitisation.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -65325,12 +65236,12 @@
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-09-11T21:48:17.888608+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "featured-work-description",
     "path": ".claude/skills/featured-work-description",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-09-11T21:48:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65341,7 +65252,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 42,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65360,7 +65271,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 17
   },
   {
     "allowed_tools": [],
@@ -65368,7 +65279,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/glass-bead-game",
     "compatibility": null,
     "description": "Run a Glass Bead Game session — a parlor game played against the Source Library corpus. Players connect verified passages from different books, times, and traditions into a growing string of 'beads,' with Claude as librarian, verifier, and scribe. Trigger when the user says 'glass bead game,' 'let's play beads,' or asks to start/resume/publish a game session. Claude runs the search-verify-display loop; humans do the noticing, choosing, and judging.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -65408,16 +65319,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "glass-bead-game",
     "path": ".claude/skills/glass-bead-game",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65428,7 +65339,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65447,7 +65358,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65455,7 +65366,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/lesson",
     "compatibility": null,
     "description": "Record a lesson learned after fixing a bug or discovering a pattern. Updates domain memory files and checks for contradictions. Use after resolving non-trivial issues.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "education",
@@ -65495,16 +65406,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "lesson",
     "path": ".claude/skills/lesson",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65515,7 +65426,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65534,7 +65445,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65542,7 +65453,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/pipeline-context",
     "compatibility": null,
     "description": "Load context for pipeline, cron, Lambda, OCR, and translation work. Use when starting any pipeline monitoring, debugging, or processing task.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "localization",
@@ -65582,16 +65493,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "pipeline-context",
     "path": ".claude/skills/pipeline-context",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65602,7 +65513,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65621,7 +65532,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65629,7 +65540,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/promote-lessons",
     "compatibility": null,
     "description": "Sweep Claude's private per-machine memory for team-relevant operational knowledge and propose moving it into the shared repo (or the private ops repo) as draft PRs. Use to promote lessons that accreted privately, or run on a schedule. Never auto-merges; never leaks.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "engineering",
@@ -65669,16 +65580,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "promote-lessons",
     "path": ".claude/skills/promote-lessons",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65689,7 +65600,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65708,7 +65619,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65716,7 +65627,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/qa-audit",
     "compatibility": null,
     "description": "Quality auditor for Source Library. Prioritizes verifying original language texts (not modern translations), auditing metadata accuracy against title pages, USTC alignment, and translation quality. Use for systematic quality control or to identify modern translations that should be replaced with originals.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" business in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -65760,12 +65671,12 @@
       "tree_files_scanned": 1
     },
     "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "indexed_at": "2026-09-11T21:48:17.888608+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "qa-audit",
     "path": ".claude/skills/qa-audit",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-09-11T21:48:00+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65776,7 +65687,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 42,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65795,7 +65706,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 17
   },
   {
     "allowed_tools": [],
@@ -65803,7 +65714,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/quote-background-image",
     "compatibility": null,
     "description": "Use this skill whenever choosing or evaluating a background image for the 'quote' section of a Source Library collection page — the wide banner where a sourced quotation is overlaid on an image drawn from the collection's plates or illustrations. Trigger for any request to pick, rank, or judge a background image behind quote text, select a plate for the quote banner, or decide whether a candidate image works as a text background. The goal is a beautiful, legible, on-theme backdrop that the quotation reads cleanly over.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "hr-recruiting",
@@ -65842,16 +65753,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "quote-background-image",
     "path": ".claude/skills/quote-background-image",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65862,7 +65773,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65881,7 +65792,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65889,7 +65800,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/scholarly-edition",
     "compatibility": null,
     "description": "Create a DOI-ready scholarly edition of a translated book. Use when asked to publish, create an edition, mint a DOI, or prepare a book for scholarly publication. Generates front matter, creates versioned editions, builds EPUBs, and mints DOIs via Zenodo.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "content",
@@ -65929,16 +65840,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 3
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "scholarly-edition",
     "path": ".claude/skills/scholarly-edition",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -65949,7 +65860,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -65968,7 +65879,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -65976,7 +65887,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/source-research",
     "compatibility": null,
     "description": "Search and cite primary sources from Source Library. Use when asked what historical authors wrote, to find quotes from old texts, investigate alchemical or philosophical works, or cite translated Latin/German sources.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "research",
@@ -66016,16 +65927,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "source-research",
     "path": ".claude/skills/source-research",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -66036,7 +65947,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -66055,7 +65966,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -66063,7 +65974,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/status",
     "compatibility": null,
     "description": "Quick canon + pipeline health check. Use when asked \"how's it going?\", \"status?\", \"how's the db?\", or any quick health check. Lighter than /progress — focuses on mission metrics, not job debugging.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "data",
@@ -66103,16 +66014,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "status",
     "path": ".claude/skills/status",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -66123,7 +66034,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -66142,7 +66053,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -66150,7 +66061,7 @@
     "canonical_key": "embassy-of-the-free-mind/sourcelibrary-v2:.claude/skills/ui-context",
     "compatibility": null,
     "description": "Load context for UI, frontend, navigation, and analytics work. Use when starting any visual, interaction, or engagement task.",
-    "discovery_source": "repo-search:\"agent skills\" in:name,description,readme",
+    "discovery_source": "repo-search:\"agent skills\" architecture in:name,description,readme",
     "evidence": {
       "categories": [
         "design",
@@ -66190,16 +66101,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 0.0,
+      "star_velocity_7d": 1.945766325238432,
       "tree_files_scanned": 1
     },
-    "forks": 3,
-    "indexed_at": "2026-10-01T14:55:13.053317+00:00",
+    "forks": 4,
+    "indexed_at": "2026-10-08T19:36:10.435455+00:00",
     "license": "AGPL-3.0",
     "metadata": {},
     "name": "ui-context",
     "path": ".claude/skills/ui-context",
-    "pushed_at": "2026-10-01T14:51:04+00:00",
+    "pushed_at": "2026-10-08T19:32:30+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
@@ -66210,7 +66121,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 43,
+      "adoption": 47,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -66229,7 +66140,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 19
+    "stars": 21
   },
   {
     "allowed_tools": [],
@@ -77055,16 +76966,16 @@
       "repo_has_readme": true,
       "repo_has_tests": true,
       "source_tier": "community",
-      "star_velocity_7d": 14.783279582356688,
+      "star_velocity_7d": 9.190224591680627,
       "tree_files_scanned": 1
     },
-    "forks": 789,
-    "indexed_at": "2026-10-02T09:00:07.684093+00:00",
+    "forks": 791,
+    "indexed_at": "2026-10-09T17:23:02.546333+00:00",
     "license": "Complete terms in LICENSE.txt",
     "metadata": {},
     "name": "frontend-design",
     "path": "sandboxes/data-apps/template/.claude/skills/frontend-design",
-    "pushed_at": "2026-10-02T08:59:22+00:00",
+    "pushed_at": "2026-10-09T17:13:19+00:00",
     "repo_default_branch": "main",
     "repo_full_name": "lightdash/lightdash",
     "repo_url": "https://github.com/lightdash/lightdash",
@@ -77075,7 +76986,7 @@
       "scripts": 0
     },
     "score": {
-      "adoption": 92,
+      "adoption": 87,
       "maintenance": 100,
       "overall": 100,
       "quality": 100,
@@ -77094,7 +77005,7 @@
       "valid": true,
       "warnings": []
     },
-    "stars": 6171
+    "stars": 6180
   },
   {
     "allowed_tools": [],

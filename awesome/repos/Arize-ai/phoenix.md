@@ -2,10 +2,10 @@
 
 Repository: [https://github.com/Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)
 
-Published Skills: 12
-Categories: agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, media, productivity, research, testing
+Published Skills: 11
+Categories: agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, media, productivity, research, testing
 Best overall score: 100
-Security distribution: 85+=12, 60-84=0, <60=0
+Security distribution: 85+=11, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
@@ -20,4 +20,3 @@ Security distribution: 85+=12, 60-84=0, <60=0
 | [phoenix-otel-development](../../skills/arize-ai/phoenix/js/packages/phoenix-otel/.agents/skills/phoenix-otel-development/README.md) | `js/packages/phoenix-otel/.agents/skills/phoenix-otel-development` | 100 | 100 | content, engineering, research, testing |
 | [phoenix-release-please](../../skills/arize-ai/phoenix/.agents/skills/phoenix-release-please/README.md) | `.agents/skills/phoenix-release-please` | 100 | 100 | devops, documentation, engineering |
 | [phoenix-typescript-package-docs](../../skills/arize-ai/phoenix/.agents/skills/phoenix-typescript-package-docs/README.md) | `.agents/skills/phoenix-typescript-package-docs` | 100 | 100 | ai-ml, content, data, documentation, engineering, productivity |
-| [vercel-react-best-practices](../../skills/arize-ai/phoenix/.agents/skills/vercel-react-best-practices/README.md) | `.agents/skills/vercel-react-best-practices` | 100 | 100 | browser-automation, content, data, engineering, media |
