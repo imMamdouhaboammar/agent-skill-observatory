@@ -93,9 +93,9 @@ def _scan_file(path: Path, root: Path) -> list[SecurityFinding]:
             match = rule.pattern.search(line)
             # An explicitly bounded share root is not unrestricted host access.
             if rule.name == "unrestricted-host-file-access" and re.search(
-                r"\\b(?:in|within|under|from)\\s+(?:the|a|an)?\\s*"
-                r"(?:(?:local|configured|approved|designated|selected)\\s+)?"
-                r"(?:share|shared)\\s+(?:root|directory|folder)\\b",
+                r"\b(?:in|within|under|from)\s+(?:the|a|an)?\s*"
+                r"(?:(?:local|configured|approved|designated|selected)\s+)?"
+                r"(?:share|shared)\s+(?:root|directory|folder)\b",
                 line,
                 re.IGNORECASE,
             ):
