@@ -33,12 +33,12 @@ def test_privileged_actions_are_pinned_to_immutable_shas() -> None:
     dependency_review = _read(DEPENDENCY_REVIEW)
     skills_lint = _read(SKILLS_LINT)
 
-    create_token = "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349"
-    github_script = "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b"
-    checkout = "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683"
-    setup_python = "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065"
-    cache = "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830"
-    cache_save = "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830"
+    create_token = "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1"
+    github_script = "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3"
+    checkout = "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1"
+    setup_python = "actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97"
+    cache = "actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
+    cache_save = "actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
 
     for action in (create_token, checkout, setup_python, cache, cache_save):
         assert action in refresh
@@ -46,8 +46,8 @@ def test_privileged_actions_are_pinned_to_immutable_shas() -> None:
     assert github_script in merge_bot
     assert checkout in dependency_review
     assert checkout in skills_lint
-    assert "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48" in dependency_review
-    assert "korya/avocetta@5f6f62668f0cfb4c49abc18206f8955765c2e54d" in skills_lint
+    assert "actions/dependency-review-action@a1d282b36b6f3519aa1f3fc636f609c47dddb294" in dependency_review
+    assert "korya/avocetta@929eb003cee9720c690d31a1d5239115b4b14186" in skills_lint
     assert "actions/create-github-app-token@v2" not in refresh
     assert "actions/create-github-app-token@v2" not in merge_bot
     assert "actions/github-script@v7" not in merge_bot
