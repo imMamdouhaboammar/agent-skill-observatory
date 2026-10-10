@@ -95,3 +95,47 @@ def test_access_within_local_share_root_is_not_flagged(tmp_path: Path) -> None:
     )
     report = assess_skill_security(parse_skill_directory(skill_root))
     assert "unrestricted-host-file-access" not in {item.rule for item in report.findings}
+
+
+def test_wrapped_unrestricted_host_access_is_detected(tmp_path: Path) -> None:
+    skill_root = tmp_path / "file-server"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\nname: file-server\n"
+        "description: File navigation instructions.\n---\n\n"
+        "# File serving\n"
+        "Serve any file\n"
+        "on the host filesystem.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" in {finding.rule for finding in report.findings}
+
+
+def test_denied_unrestricted_access_is_not_flagged(tmp_path: Path) -> None:
+    skill_root = tmp_path / "file-server"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\nname: file-server\n"
+        "description: Restricted file access.\n---\n\n"
+        "# Protection\n"
+        "Never serve any file on the host filesystem.\n"
+        "Block attempts to read all local files.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" not in {finding.rule for finding in report.findings}
+
+
+def test_confined_all_local_files_are_not_unrestricted(tmp_path: Path) -> None:
+    skill_root = tmp_path / "file-server"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\nname: file-server\n"
+        "description: Restricted local file sharing.\n---\n\n"
+        "# Shared files\n"
+        "The server reads all local files inside the configured share root only.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" not in {finding.rule for finding in report.findings}
