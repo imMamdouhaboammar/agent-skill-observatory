@@ -92,3 +92,15 @@ def test_pages_deploys_after_refresh() -> None:
     assert triggers["workflow_run"]["workflows"] == ["Refresh catalog"]
     text = Path(".github/workflows/pages.yml").read_text(encoding="utf-8")
     assert "github.event.workflow_run.conclusion == 'success'" in text
+
+
+def test_pages_deploys_only_for_published_changes() -> None:
+    from pathlib import Path
+
+    workflow = (Path(__file__).resolve().parents[1] / ".github/workflows/pages.yml").read_text(
+        encoding="utf-8"
+    )
+    assert "  workflow_run:" not in workflow
+    assert "  push:" in workflow
+    assert "data/catalog.json" in workflow
+    assert "data/stats.json" in workflow
