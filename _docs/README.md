@@ -1,57 +1,125 @@
-[Documentation Home](README.md)
+# 📚 agent-skill-observatory Documentation
+
+Welcome to the complete documentation for this repository. This documentation is automatically generated and maintained by Woden Docbot.
+
+![Files Documented: 1](https://img.shields.io/badge/Files_Documented-1-blue) ![Coverage: 1%](https://img.shields.io/badge/Coverage-1%-orange) ![Last Updated: 2026-10-10](https://img.shields.io/badge/Last_Updated-2026--10--10-gray)
+
+## 🔗 Quick Links
+
+[📂 tests](./tests/README.md)
+[📋 Dependencies](./DEPENDENCIES.md)
+
 
 ---
 
-# 📁 _docs
-
-> **Purpose:** Repository-level documentation index that orients developers to CI gating, refresh/publication flows, and merge-bot validation tests contained in this directory.
-> 
-
-![Organization: Hierarchical](https://img.shields.io/badge/Organization-Hierarchical-blue)
-
-## 📑 Table of Contents
+> A toolset for evidence-based discovery, specification validation, static security auditing, and ranking of open Agent Skills.
 
 
-- [Overview](#overview)
-- [Subdirectories](#subdirectories)
-- [Architecture Notes](#architecture-notes)
+
+## 📖 Overview
+
+agent-skill-observatory provides tooling and automation around evidence-based discovery, specification validation, static security auditing, and ranking for open Agent Skills across Claude Code, Codex, Antigravity, and Cursor (as stated in the repository description). The codebase includes service and automation components and web/static assets, with manifests and build artifacts that indicate containerization and standard build tooling.
+
+The repository includes a focused tests directory containing a single pytest-style module that exercises pull-request gated workflows, refresh/publication flows, and merge-bot behaviors — serving as the canonical place to validate CI gating and merge automation. The project is implemented primarily in Python and uses relevant libraries and tools listed in the manifests (FastAPI, SQLAlchemy, alembic, pydantic, uvicorn, httpx, etc.), and the tree also shows web and build tooling (Node.js, JavaScript, HTML/CSS) plus container and build helpers (Docker, Docker Compose, Make, npm, shell).
+
+
+### 🧩 Key Components
+
+| Component | Purpose | Technologies |
+| --- | --- | --- |
+| **tests** | Holds the pytest-style test module that validates pull-request gated workflows, refresh and publication flows, and automated merge-bot behavior for CI gating and merge automation. | `Python`, `pytest`, `pytest-cov` |
+
+
+
+### 🏗️ Architecture
+
+Repository centers on a Python-based service/automation codebase with a single tests directory for CI and merge-bot validation; manifests and files indicate web/static assets and container/build tooling (Node.js, Docker, Make).
+
+### 💡 Use Cases
+
+- ✦ Evidence-based discovery and ranking of open Agent Skills
+- ✦ Specification validation and static security auditing of skills
+- ✦ Validating pull-request gated workflows, refresh/publication flows, and merge-bot automation via pytest tests
+
+
+
+### 🔧 Technologies
+
+
+**Languages:** ![JavaScript: ](https://img.shields.io/badge/JavaScript--blue) ![Python: ](https://img.shields.io/badge/Python--blue)
+![CSS: ](https://img.shields.io/badge/CSS--blue) ![Docker: ](https://img.shields.io/badge/Docker--blue) ![Docker Compose: ](https://img.shields.io/badge/Docker_Compose--blue) ![HTML: ](https://img.shields.io/badge/HTML--blue) ![Make: ](https://img.shields.io/badge/Make--blue) ![Node.js: ](https://img.shields.io/badge/Node.js--blue) ![Shell: ](https://img.shields.io/badge/Shell--blue) ![npm: ](https://img.shields.io/badge/npm--blue)
+
+### 📦 External Dependencies
+
+The following external packages are used across the project:
+
+- `PyYAML`
+- `alembic`
+- `fastapi`
+- `httpx`
+- `mypy`
+- `psycopg`
+- `pydantic`
+- `pydantic-settings`
+- `pytest`
+- `pytest-cov`
+- `ruff`
+- `sqlalchemy`
+- `typer`
+- `types-PyYAML`
+- `uvicorn`
+
+
 
 ---
 
-## Overview
+## 📑 Documentation Sections
 
-This directory serves as a focused documentation and index location that describes and points to automated tests validating pull-request gating, refresh/publication flows, and merge-bot behaviors. There are no root-level files in this directory; instead, its primary content and actionable items live inside the tests/ subdirectory. The README index here summarizes the role of those tests and explains how they fit into repository-level CI and release automation.
+### [tests](./tests/README.md)
+Contains automated pytest-style tests that validate pull-request gated workflows, refresh/publication flows, and merge-bot behaviors to ensure CI gating and merge automation work as intended.
 
-The tests/ subdirectory contains a single pytest-style module with a comprehensive suite of test functions that exercise pull-request gated workflows, refresh and publication flows, and merge-bot operations. Together, the README and the tests directory provide a clear development workflow: this directory documents what is being validated by CI, where the test code lives, and how the tests are intended to ensure correct gating and merge automation behavior across the project.
 
-
-### File Organization
-
-This directory is hierarchical: there are no root files and a dedicated tests/ subdirectory holds the single test module. The structure isolates automated validation code from other documentation and makes it clear that this folder's purpose is documentation and test discovery related to CI gating and merge-bot behaviors.
-
-## 📂 Subdirectories
-
-This directory contains the following subdirectories:
-
-### [📁 tests](./tests/README.md)
-
-**Purpose:** Contains automated pytest-style tests that validate pull-request gated workflows, refresh/publication flows, and merge-bot behaviors to ensure CI gating and merge automation work as intended.
+This directory holds a focused test module that exercises behaviors around pull-request gated workflows, refresh and publication flows, and merge-bot operations.
 
 ![Files: 1](https://img.shields.io/badge/Files-1-blue)
 
 ---
-## Architecture Notes
 
-- This directory centralizes documentation and tests that validate CI gating and merge automation rather than containing runtime application code.
-- Tests are organized under a single tests/ subdirectory to keep CI validation artifacts isolated and easy to locate.
+## 📊 Documentation Statistics
 
----
-
-## Navigation
-
-**↑ Parent Directory:** [Go up](../README.md)
-**🔗 Related:** [tests](./tests/README.md)
+- **Files Documented**: 1
+- **Directories**: 2
+- **Coverage**: 1%
+- **Eligible Source Files**: 71
+- **Last Updated**: 2026-10-10
 
 ---
 
-*Generated by Woden Docbot*
+## 🧭 How to Navigate
+
+> ℹ️ **INFO**
+> Each directory has its own README.md with detailed information about that section. Use the breadcrumb navigation at the top of each page to navigate back to parent directories.
+
+### Navigation Features
+
+- **Breadcrumbs** - At the top of each page, showing your current location
+- **Directory READMEs** - Each folder has a comprehensive overview
+- **File Documentation** - Click through to individual file documentation
+- **Search** - Use GitHub's search or your IDE's search functionality
+
+---
+
+## 🤖 About Woden DocBot
+
+This documentation is automatically generated and kept up-to-date by Woden DocBot, an AI-powered documentation assistant. DocBot analyzes code on every pull request and updates documentation to reflect changes.
+
+### Features
+
+- **Automatic Updates** - Documentation updates on every PR
+- **Comprehensive Coverage** - Files, functions, classes, and directories
+- **Smart Navigation** - Breadcrumbs, related files, and parent links
+- **AI-Powered** - Uses Azure GPT models for intelligent documentation generation
+
+---
+
+*Generated by Woden DocBot for agent-skill-observatory*
