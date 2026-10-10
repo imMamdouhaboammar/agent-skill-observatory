@@ -21,7 +21,7 @@ def test_dynamic_empty_state_has_live_announcement() -> None:
 
 def test_external_new_tab_links_announce_behavior_and_are_isolated() -> None:
     html = (WEB / "index.html").read_text(encoding="utf-8")
-    links = re.findall(r"<a\\b[^>]*target=\"_blank\"[^>]*>", html)
+    links = re.findall(r"<a\b[^>]*target=\"_blank\"[^>]*>", html)
     assert links
     for link in links:
         assert re.search(r'aria-label="[^"]*opens in a new tab[^"]*"', link), link
