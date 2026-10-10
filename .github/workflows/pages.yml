@@ -8,9 +8,6 @@ on:
       - 'data/catalog.json'
       - 'data/stats.json'
       - '.github/workflows/pages.yml'
-  workflow_run:
-    workflows: ['Refresh catalog']
-    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -24,7 +21,6 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
