@@ -247,7 +247,7 @@ jobs:
                 return false;
               }
               const serverChecks = statusRule.parameters?.required_status_checks || [];
-              if (serverChecks.some((item) => item.context === 'Sourcery review' && Number(item.integration_id || 0) === sourceryIntegrationId)) {
+              if (serverChecks.some((item) => item.context === 'Sourcery review' && (!item.integration_id || Number(item.integration_id) === sourceryIntegrationId))) {
                 core.setFailed(
                   'Remove Sourcery review from required status checks in the Agent Skill Publication Gate repository ruleset before enabling publication.'
                 );
