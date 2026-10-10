@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [sf-integration-rules](../../skills/DiamondForgeFr/SaasFoundryAI/.agents/skills/sf-integration-rules/README.md) | `.agents/skills/sf-integration-rules` | 100 | 100 | commerce, content, design, engineering, integrations, testing |
+| [sf-integration-rules](../../skills/diamondforgefr/saasfoundryai/.agents/skills/sf-integration-rules/README.md) | `.agents/skills/sf-integration-rules` | 100 | 100 | commerce, content, design, engineering, integrations, testing |

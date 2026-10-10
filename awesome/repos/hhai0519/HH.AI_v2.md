@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [theme-factory](../../skills/hhai0519/HH.AI_v2/skills/execution/theme-factory/README.md) | `skills/execution/theme-factory` | 100 | 100 | data, documentation, engineering, integrations, security |
+| [theme-factory](../../skills/hhai0519/hh.ai_v2/skills/execution/theme-factory/README.md) | `skills/execution/theme-factory` | 100 | 100 | data, documentation, engineering, integrations, security |

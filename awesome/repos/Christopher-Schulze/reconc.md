@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [reconc](../../skills/Christopher-Schulze/reconc/skills/reconc/README.md) | `skills/reconc` | 100 | 100 | content, devops, engineering, legal-compliance, productivity, research |
+| [reconc](../../skills/christopher-schulze/reconc/skills/reconc/README.md) | `skills/reconc` | 100 | 100 | content, devops, engineering, legal-compliance, productivity, research |

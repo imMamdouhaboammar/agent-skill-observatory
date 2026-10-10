@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [br](../../skills/Dicklesworthstone/beads_rust/.claude/skills/br/README.md) | `.claude/skills/br` | 100 | 100 | agent-orchestration, content, data, design, engineering, productivity |
+| [br](../../skills/dicklesworthstone/beads_rust/.claude/skills/br/README.md) | `.claude/skills/br` | 100 | 100 | agent-orchestration, content, data, design, engineering, productivity |

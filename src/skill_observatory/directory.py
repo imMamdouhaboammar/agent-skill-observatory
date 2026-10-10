@@ -45,6 +45,16 @@ def _manifest(record: PublishedSkillRecord) -> str:
     return f"{record.skill.repo_url}/blob/{branch}/{suffix}"
 
 
+def _skill_page_link(record: PublishedSkillRecord) -> str:
+    """Path of the skill page relative to ``awesome/``.
+
+    Skill pages are stored under the normalized (lowercased) canonical key, so
+    links must be built from that key rather than the display repository name
+    or the original skill path casing.
+    """
+    return str(skill_markdown_path(record.canonical_key).relative_to("awesome"))
+
+
 def _render_record_json(record: PublishedSkillRecord) -> str:
     payload = record.model_dump(mode="json")
     return json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
@@ -164,9 +174,8 @@ def _render_repository_page(records: list[PublishedSkillRecord]) -> str:
     ]
     for record in records:
         skill = record.skill
-        path = skill.path if skill.path != "." else "_root"
         lines.append(
-            f"| [{skill.name}](../../skills/{skill.repo_full_name}/{path}/README.md) | "
+            f"| [{skill.name}](../../{_skill_page_link(record)}) | "
             f"`{skill.path}` | {skill.score.overall} | {skill.security.score} | "
             f"{', '.join(_categories(record))} |"
         )
@@ -198,10 +207,9 @@ def _render_category_page(category: str, records: list[PublishedSkillRecord]) ->
     ]
     for record in records:
         skill = record.skill
-        path = skill.path if skill.path != "." else "_root"
         description = " ".join(skill.description.split()).replace("|", "\\|")
         lines.append(
-            f"| [{skill.name}](../skills/{skill.repo_full_name}/{path}/README.md) | "
+            f"| [{skill.name}](../{_skill_page_link(record)}) | "
             f"[{skill.repo_full_name}]({skill.repo_url}) | {skill.score.overall} | "
             f"{skill.security.score} | {skill.stars} | {description} |"
         )

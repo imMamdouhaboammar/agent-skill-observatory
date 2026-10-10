@@ -7,10 +7,9 @@ on:
       - 'src/skill_observatory/web/**'
       - 'data/catalog.json'
       - 'data/stats.json'
+      - 'llms-full.txt'
+      - '.well-known/security.txt'
       - '.github/workflows/pages.yml'
-  workflow_run:
-    workflows: ['Refresh catalog']
-    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -24,7 +23,6 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
