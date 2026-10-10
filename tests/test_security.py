@@ -22,3 +22,37 @@ def test_risky_shell_patterns_are_flagged() -> None:
     assert "recursive-delete" in rules
     assert report.high >= 1
     assert report.score < 85
+
+
+def test_unrestricted_host_filesystem_server_is_flagged(tmp_path: Path) -> None:
+    skill_root = tmp_path / "file-server"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\n"
+        "name: file-server\n"
+        "description: The built-in file browser serves any file on the host filesystem.\n"
+        "---\n\n"
+        "# File server\n"
+        "Use the built-in file browser to serve any file on the host filesystem.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" in {finding.rule for finding in report.findings}
+    assert report.high >= 1
+    assert report.score < 85
+
+
+def test_explicitly_confined_file_server_is_not_flagged(tmp_path: Path) -> None:
+    skill_root = tmp_path / "file-server"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\n"
+        "name: file-server\n"
+        "description: Serve files from a configured shared directory only.\n"
+        "---\n\n"
+        "# File server\n"
+        "Restrict access to a configured share root; deny paths outside it.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" not in {finding.rule for finding in report.findings}
