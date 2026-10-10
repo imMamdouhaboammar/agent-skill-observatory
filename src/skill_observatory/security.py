@@ -64,10 +64,10 @@ RULES.append(
         "unrestricted-host-file-access",
         "high",
         re.compile(
-            r"\b(?:serves|serving|exposes|exposing|shares|sharing|browses|browsing|reads|reading|provides?\s+access\s+to)\b"
+            r"\b(?:serve|serves|serving|expose|exposes|exposing|share|shares|sharing|browse|browses|browsing|read|reads|reading|provides?\s+access\s+to)\b"
             r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
             r"\b(?:file|files|filesystem|file system)\b.{0,60}\b(?:host|local|server|machine)\b"
-            r"|\b(?:serves|serving|exposes|exposing|shares|sharing|browses|browsing|reads|reading)\b"
+            r"|\b(?:serve|serves|serving|expose|exposes|exposing|share|shares|sharing|browse|browses|browsing|read|reads|reading)\b"
             r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
             r"\b(?:host|local|server|machine)\b.{0,60}\b(?:file|files|filesystem|file system)\b",
             re.IGNORECASE,
@@ -91,6 +91,15 @@ def _scan_file(path: Path, root: Path) -> list[SecurityFinding]:
     for line_no, line in enumerate(text.splitlines(), 1):
         for rule in RULES:
             match = rule.pattern.search(line)
+            # An explicitly bounded share root is not unrestricted host access.
+            if rule.name == "unrestricted-host-file-access" and re.search(
+                r"\\b(?:in|within|under|from)\\s+(?:the|a|an)?\\s*"
+                r"(?:(?:local|configured|approved|designated|selected)\\s+)?"
+                r"(?:share|shared)\\s+(?:root|directory|folder)\\b",
+                line,
+                re.IGNORECASE,
+            ):
+                continue
             if match:
                 findings.append(
                     SecurityFinding(
