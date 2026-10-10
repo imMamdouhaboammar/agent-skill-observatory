@@ -14,8 +14,8 @@ Each generated patch follows one path:
 6. That commit is authored and committed with the configured GitHub-linked Mamdouh identity and signed with the dedicated SSH signing key.
 7. The patch ID is derived only from stable semantic event metadata: skill key, event type, source and analysis fingerprints, scores, and categories. Volatile publication timestamps and the current base SHA do not change the identity of the same logical patch.
 8. The producer pushes only `bot/patch/<patch-id>` and opens a PR against `main`.
-9. CI and configured review Apps publish checks against the exact PR head SHA.
-10. The separate Merge Bot verifies the exact commit, expected SSH key, server-side ruleset, release checks, review-App checks, active review vetoes, and review-thread state.
+9. CI and optional review Apps publish checks against the exact PR head SHA.
+10. The separate Merge Bot verifies the exact commit, expected SSH key, server-side ruleset, release checks, active review vetoes, and review-thread state.
 11. The Merge Bot uses a normal merge commit, preserving the original signed patch commit unchanged as an ancestor of `main`.
 
 The queue is intentionally serial: at most one cryptographically trusted generated patch PR may be open at a time. A same-repository PR that merely uses the reserved branch prefix cannot stall the queue unless it also satisfies the producer identity and signing contract.
@@ -84,19 +84,11 @@ Required Actions secrets:
 
 The Merge App does not create publication patches.
 
-## Review Apps are app-pinned required checks
+## Optional review Apps and mandatory release checks
 
-The security-critical review verdict is a GitHub check produced by a specific review App, not a pull-request approval identity inferred client-side. This lets the repository ruleset enforce the review App identity atomically at merge time.
+Sourcery review is informational only. In the Merge Bot, a skipped, failed, or missing `Sourcery review` check from GitHub App ID `48477` does not veto publication. Other applications with the same check name are **not** exempted. The active `Agent Skill Publication Gate` ruleset must likewise remove this Sourcery check from its required status checks before automatic publication can proceed.
 
-Configure `REQUIRED_REVIEW_CHECKS` as comma-separated `check-name@app-id` values. The default is:
-
-```text
-Gitar@827041
-```
-
-Every configured review check must finish with `success` on the current patch SHA. `neutral` and `skipped` are not accepted for a required review-App verdict.
-
-Release checks are pinned to GitHub Actions App ID `15368` by default:
+Release checks are pinned to GitHub Actions App ID `15368` by default and **must succeed** on the exact patch SHA:
 
 ```text
 verify (3.11)
@@ -108,13 +100,11 @@ skills-lint
 autopilot
 ```
 
-Every required release check must also finish with `success`. The dependency-review workflow fails closed when the dependency graph is unavailable, and repository skill lint no longer masks a real lint failure with `continue-on-error`.
+The dependency-review workflow fails closed when the dependency graph is unavailable, and skill lint must not mask actual lint failures.
 
-If a different review App becomes authoritative, add its exact check name and GitHub App ID to `REQUIRED_REVIEW_CHECKS` and to the repository ruleset.
+PR review submissions provide a human veto: the Merge Bot computes each reviewer's latest decisive state, ignores later COMMENTED/PENDING noise and dismissed reviews, and refuses to merge while any active `CHANGES_REQUESTED` review remains. It checks again immediately before merging. Unresolved review threads also block publication.
 
-Pull-request review submissions remain a supplemental human veto. The Merge Bot computes the latest decisive state per reviewer, ignores later COMMENTED/PENDING noise, removes dismissed states, and refuses to merge while any active `CHANGES_REQUESTED` state exists. It repeats that veto check immediately before the merge call. The server-atomic review authorization boundary remains the app-pinned required checks, not PR-review identity matching.
-
-A repository may additionally require one or more approving PR reviews in its ruleset. That is a stronger optional policy, not a substitute for `REQUIRED_REVIEW_CHECKS`.
+The repository currently does not require an approving human review. An administrator may separately choose to require approvals in the ruleset; this changes the automated publication contract and should be considered explicitly rather than inferred from optional review-App checks.
 
 ## Latest-check semantics
 
@@ -150,7 +140,7 @@ It must:
 - dismiss stale reviews on push
 - require strict/up-to-date status checks
 - require every release check above with GitHub Actions App ID `15368`
-- require every configured review-App check with its exact GitHub App ID
+- do not require `Sourcery review` from the Sourcery GitHub App (ID `48477`); keep the seven release checks required
 - allow **only** normal merge commits for publication PRs; squash and rebase must not be server-permitted alternatives
 - not require linear history
 - block force pushes and branch deletion where appropriate
@@ -174,12 +164,11 @@ Optional overrides:
 - `PATCH_AUTHOR_NAME`, default `Mamdouh Aboammar`
 - `PATCH_AUTHOR_EMAIL`, default `58908124+imMamdouhaboammar@users.noreply.github.com`
 - `PATCH_AUTHOR_LOGIN`, default `imMamdouhaboammar`
-- `REQUIRED_REVIEW_CHECKS`, default `Gitar@827041`
 - `PUBLICATION_RULESET_NAME`, default `Agent Skill Publication Gate`
 - `REQUIRED_CHECK_INTEGRATION_ID`, default `15368`
 
 ## Fail-closed rollout
 
-Publication stops instead of producing an unsigned or weakly reviewed patch when any required App credential, signing key, public key, release check, review check, or ruleset requirement is missing.
+Publication stops instead of producing an unsigned patch when any required App credential, signing key, public key, release check, or ruleset requirement is missing. Optional review-App check results do not replace the mandatory release checks, signature checks, active change-request vetoes, and unresolved-thread protection.
 
 The bootstrap PR that introduces these workflows is a one-time exception because the Merge Bot does not exist on `main` yet. Merge that bootstrap PR only after its current diff has passed repository checks and review. Then configure the Apps, signing key, Actions secrets/variables, and ruleset before expecting generated publication PRs to complete end to end.

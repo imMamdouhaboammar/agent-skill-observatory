@@ -212,18 +212,40 @@ def test_merge_bot_requires_release_checks_from_github_actions_app() -> None:
     assert "Required release check must succeed" in workflow
 
 
-def test_review_app_identity_is_enforced_as_server_required_check() -> None:
+def test_sourcery_is_not_a_required_publication_gate() -> None:
     workflow = _read(MERGE_BOT)
 
-    assert "REQUIRED_REVIEW_CHECKS" in workflow
-    assert "Gitar@827041" in workflow
-    assert "check-name@app-id" in workflow
-    assert "reviewCheckSpecs" in workflow
-    assert "requiredCheckSpecs" in workflow
-    assert "match.integration_id" in workflow
-    assert "spec.integrationId" in workflow
-    assert "Required review-app check must succeed" in workflow
-    assert "REQUIRED_REVIEW_APPS" not in workflow
+    assert "REQUIRED_REVIEW_CHECKS" not in workflow
+    assert "reviewCheckSpecs" not in workflow
+    assert "Required review-app check must succeed" not in workflow
+    assert "requiredCheckSpecs = releaseCheckSpecs" in workflow
+    assert "Sourcery review" in workflow  # Only for non-blocking exclusion and ruleset diagnosis.
+    assert "const sourceryIntegrationId = 48477" in workflow
+    assert "item.context === 'Sourcery review' && (!item.integration_id || Number(item.integration_id) === sourceryIntegrationId)" in workflow
+    assert "run.name === 'Sourcery review' && Number(run.app?.id || 0) === sourceryIntegrationId" in workflow
+    assert "Remove Sourcery review from required status checks" in workflow
+
+
+def test_publication_guide_documents_optional_review_apps() -> None:
+    guide = _read(ROOT / "docs" / "pr-gated-publication.md")
+
+    assert "REQUIRED_REVIEW_CHECKS" not in guide
+    assert "Sourcery review is informational only" in guide
+    assert "Release checks are pinned" in guide
+    assert "CHANGES_REQUESTED" in guide
+
+
+def test_release_and_human_review_safety_stays_enforced() -> None:
+    workflow = _read(MERGE_BOT)
+
+    assert "requiredCheckSpecs = releaseCheckSpecs" in workflow
+    assert "Required release check must succeed" in workflow
+    assert "Active CHANGES_REQUESTED review blocks merge" in workflow
+    assert "A CHANGES_REQUESTED review appeared during gate evaluation" in workflow
+    assert "reviewThreads.nodes.some((thread) => !thread.isResolved)" in workflow
+    assert "Signature gate failed" in workflow
+    assert "Signing-key gate failed" in workflow
+    assert "Repository setting gate failed" in workflow
 
 
 def test_merge_bot_rejects_active_change_requests_and_rechecks_before_merge() -> None:
