@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **943**
+Published skills: **942**
 Repositories: **97**
 
 ## Browse repositories
@@ -730,7 +730,6 @@ Repositories: **97**
 - [node](./skills/danfashauer/signalgrid-review-hub/.claude/skills/node/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/node`
 - [nvidia-skill-finder](./skills/danfashauer/signalgrid-review-hub/.claude/skills/nvidia-skill-finder/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/nvidia-skill-finder`
 - [octocat](./skills/danfashauer/signalgrid-review-hub/.claude/skills/octocat/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/octocat`
-- [orchestrator-over-workers](./skills/danfashauer/signalgrid-review-hub/.claude/skills/orchestrator-over-workers/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/orchestrator-over-workers`
 - [owner-comms](./skills/danfashauer/signalgrid-review-hub/.claude/skills/owner-comms/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/owner-comms`
 - [receiving-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/receiving-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/receiving-code-review`
 - [requesting-code-review](./skills/danfashauer/signalgrid-review-hub/.claude/skills/requesting-code-review/README.md) · `danfashauer/signalgrid-review-hub:.claude/skills/requesting-code-review`

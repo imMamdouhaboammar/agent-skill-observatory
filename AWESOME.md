@@ -2,16 +2,16 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-10 13:42 UTC
+> Last refreshed: 2026-10-10 18:04 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **943** published skills
+- **942** published skills
 - **97** repositories
-- **939** spec-valid manifests
-- **939** skills with security score 85+
-- **939** skills with overall score 80+
+- **938** spec-valid manifests
+- **938** skills with security score 85+
+- **938** skills with overall score 80+
 
 ## Top verified skills
 
@@ -89,7 +89,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [CultureBotAI/TraitMech](https://github.com/CultureBotAI/TraitMech) | 3 | 100 | 1 | content, data, devops, documentation, engineering, finance, productivity, research, security |
 | [DailybotHQ/deepworkplan-website](https://github.com/DailybotHQ/deepworkplan-website) | 2 | 100 | 15 | commerce, content, design, documentation, engineering, localization, marketing, mobile, productivity, security, testing |
 | [Daisuke134/life-manager](https://github.com/Daisuke134/life-manager) | 36 | 100 | 8 | ai-ml, browser-automation, commerce, content, customer-support, data, design, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, other, product, productivity, research, sales, security, testing |
-| [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 49 | 100 | 1 | agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
+| [DanFashauer/SignalGrid-Review-Hub](https://github.com/DanFashauer/SignalGrid-Review-Hub) | 48 | 100 | 1 | agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [danmo-ai/danmo-work](https://github.com/danmo-ai/danmo-work) | 17 | 100 | 2 | agent-orchestration, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, media, product, productivity, research, security, testing |
 | [day8/re-frame2](https://github.com/day8/re-frame2) | 5 | 100 | 48 | ai-ml, browser-automation, code-review, commerce, content, data, design, documentation, engineering, marketing, media, productivity, research, security, testing |
 | [dbpprt/dieter](https://github.com/dbpprt/dieter) | 2 | 100 | 3 | browser-automation, commerce, content, design, engineering, mobile, productivity, research, testing |
