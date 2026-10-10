@@ -7,6 +7,8 @@ on:
       - 'src/skill_observatory/web/**'
       - 'data/catalog.json'
       - 'data/stats.json'
+      - 'llms-full.txt'
+      - '.well-known/security.txt'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
