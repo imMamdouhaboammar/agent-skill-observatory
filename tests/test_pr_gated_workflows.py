@@ -220,8 +220,19 @@ def test_sourcery_is_not_a_required_publication_gate() -> None:
     assert "Required review-app check must succeed" not in workflow
     assert "requiredCheckSpecs = releaseCheckSpecs" in workflow
     assert "Sourcery review" in workflow  # Only for non-blocking exclusion and ruleset diagnosis.
-    assert "run.name !== 'Sourcery review'" in workflow
+    assert "const sourceryIntegrationId = 48477" in workflow
+    assert "item.context === 'Sourcery review' && Number(item.integration_id || 0) === sourceryIntegrationId" in workflow
+    assert "run.name === 'Sourcery review' && Number(run.app?.id || 0) === sourceryIntegrationId" in workflow
     assert "Remove Sourcery review from required status checks" in workflow
+
+
+def test_publication_guide_documents_optional_review_apps() -> None:
+    guide = _read(ROOT / "docs" / "pr-gated-publication.md")
+
+    assert "REQUIRED_REVIEW_CHECKS" not in guide
+    assert "Sourcery review is informational only" in guide
+    assert "Release checks are pinned" in guide
+    assert "CHANGES_REQUESTED" in guide
 
 
 def test_release_and_human_review_safety_stays_enforced() -> None:
