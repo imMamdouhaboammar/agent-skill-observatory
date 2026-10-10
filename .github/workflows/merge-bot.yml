@@ -84,6 +84,7 @@ jobs:
               return;
             }
 
+            const sourceryIntegrationId = 48477;
             const releaseCheckSpecs = releaseCheckNames.map((contextName) => ({
               context: contextName,
               integrationId: actionsIntegrationId,
@@ -246,7 +247,7 @@ jobs:
                 return false;
               }
               const serverChecks = statusRule.parameters?.required_status_checks || [];
-              if (serverChecks.some((item) => item.context === 'Sourcery review')) {
+              if (serverChecks.some((item) => item.context === 'Sourcery review' && Number(item.integration_id || 0) === sourceryIntegrationId)) {
                 core.setFailed(
                   'Remove Sourcery review from required status checks in the Agent Skill Publication Gate repository ruleset before enabling publication.'
                 );
@@ -412,7 +413,7 @@ jobs:
             const otherLatestChecks = [...latestChecks.entries()]
               .filter(([key]) => key !== selfCheckKey)
               // Sourcery is informational only: skipped or failed reviews cannot block publication.
-              .filter(([, run]) => run.name !== 'Sourcery review')
+              .filter(([, run]) => !(run.name === 'Sourcery review' && Number(run.app?.id || 0) === sourceryIntegrationId))
               .filter(([, run]) => !ignoredCheckNames.has(run.name))
               .map(([, run]) => run);
             const pendingChecks = otherLatestChecks.filter((run) => run.status !== 'completed');
