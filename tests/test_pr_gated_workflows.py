@@ -221,7 +221,7 @@ def test_sourcery_is_not_a_required_publication_gate() -> None:
     assert "requiredCheckSpecs = releaseCheckSpecs" in workflow
     assert "Sourcery review" in workflow  # Only for non-blocking exclusion and ruleset diagnosis.
     assert "const sourceryIntegrationId = 48477" in workflow
-    assert "item.context === 'Sourcery review' && Number(item.integration_id || 0) === sourceryIntegrationId" in workflow
+    assert "item.context === 'Sourcery review' && (!item.integration_id || Number(item.integration_id) === sourceryIntegrationId)" in workflow
     assert "run.name === 'Sourcery review' && Number(run.app?.id || 0) === sourceryIntegrationId" in workflow
     assert "Remove Sourcery review from required status checks" in workflow
 
