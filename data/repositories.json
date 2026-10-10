@@ -486,7 +486,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-10-03T13:31:59+00:00",
+    "pushed_at": "2026-10-10T17:59:49+00:00",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
     "security_85_plus_count": 1,
@@ -5590,7 +5590,7 @@
     "pushed_at": "2026-10-09T03:37:01+00:00",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
-    "security_85_plus_count": 49,
+    "security_85_plus_count": 48,
     "skills": [
       {
         "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
@@ -5890,15 +5890,6 @@
         "spec_valid": true
       },
       {
-        "description": "Use when a build task splits into independent pieces and the cloud lane is about to run them — before dispatching sub-agents, when reviewing what they send back, and when landing more than one worker branch.",
-        "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/orchestrator-over-workers/SKILL.md",
-        "name": "orchestrator-over-workers",
-        "overall_score": 100,
-        "path": ".claude/skills/orchestrator-over-workers",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
         "description": "How to write every reply to the owner. Based on the Google developer documentation style guide (developers.google.com/style). Use for ALL chat replies, status reports, PR summaries the owner reads, and the owner board — any text a person reads on a phone between other tasks. Answer first, steps numbered, jargon translated, filler cut.",
         "manifest": "https://github.com/DanFashauer/SignalGrid-Review-Hub/blob/SignalGrid_Alpha/.claude/skills/owner-comms/SKILL.md",
         "name": "owner-comms",
@@ -6034,8 +6025,8 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 49,
-    "spec_valid_count": 49,
+    "skills_count": 48,
+    "spec_valid_count": 48,
     "stars": 1
   },
   {
