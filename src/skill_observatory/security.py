@@ -101,25 +101,25 @@ def _scan_file(path: Path, root: Path) -> list[SecurityFinding]:
                         break
                     # Do not combine a benign verb from one sentence with
                     # unrestricted host-file terms in a later sentence.
-                    if re.search(r"[.;!?](?=\\s|$)", candidate.group()):
+                    if re.search(r"[.;!?](?=\s|$)", candidate.group()):
                         continue
                     prefix = context[max(0, candidate.start() - 90) : candidate.start()]
-                    prefix = re.split(r"[.;!?]\\s*", prefix)[-1]
+                    prefix = re.split(r"[.;!?]\s*", prefix)[-1]
                     if re.search(
-                        r"\\b(?:never|do not|don't|must not|should not|cannot|can't|"
+                        r"\b(?:never|do not|don't|must not|should not|cannot|can't|"
                         r"prevent(?:s|ed)?|block(?:s|ed)?|den(?:y|ies)|disallow(?:s)?|"
-                        r"prohibit(?:s)?|forbid(?:s)?|refuse(?:s)?)\\b.{0,65}$",
+                        r"prohibit(?:s)?|forbid(?:s)?|refuse(?:s)?)\b.{0,65}$",
                         prefix,
                         re.IGNORECASE,
                     ):
                         continue
                     # Scope the share-root exemption to the matched clause,
                     # not another mode or sentence on the same line.
-                    clause = re.split(r"[.;!?]\\s*", context[candidate.start() :], maxsplit=1)[0]
+                    clause = re.split(r"[.;!?]\s*", context[candidate.start() :], maxsplit=1)[0]
                     if re.search(
-                        r"\\b(?:in|within|inside|under|from)\\s+(?:the|a|an)?\\s*"
-                        r"(?:(?:local|configured|approved|designated|selected)\\s+)?"
-                        r"(?:share|shared)\\s+(?:root|directory|folder)\\b",
+                        r"\b(?:in|within|inside|under|from)\s+(?:the|a|an)?\s*"
+                        r"(?:(?:local|configured|approved|designated|selected)\s+)?"
+                        r"(?:share|shared)\s+(?:root|directory|folder)\b",
                         clause,
                         re.IGNORECASE,
                     ):
