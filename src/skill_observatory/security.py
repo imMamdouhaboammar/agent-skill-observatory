@@ -88,18 +88,35 @@ def _scan_file(path: Path, root: Path) -> list[SecurityFinding]:
     except OSError:
         return []
     findings: list[SecurityFinding] = []
-    for line_no, line in enumerate(text.splitlines(), 1):
+    lines = text.splitlines()
+    for line_no, line in enumerate(lines, 1):
         for rule in RULES:
-            match = rule.pattern.search(line)
-            # An explicitly bounded share root is not unrestricted host access.
-            if rule.name == "unrestricted-host-file-access" and re.search(
-                r"\b(?:in|within|under|from)\s+(?:the|a|an)?\s*"
-                r"(?:(?:local|configured|approved|designated|selected)\s+)?"
-                r"(?:share|shared)\s+(?:root|directory|folder)\b",
-                line,
-                re.IGNORECASE,
-            ):
-                continue
+            if rule.name == "unrestricted-host-file-access":
+                # Include wrapped Markdown prose, anchored to a verb on this line to
+                # avoid reporting one exposure multiple times as the window slides.
+                context = " ".join(lines[line_no - 1 : line_no + 2])
+                match = rule.pattern.search(context)
+                if not match or match.start() >= len(line):
+                    continue
+                prefix = context[max(0, match.start() - 90) : match.start()]
+                if re.search(
+                    r"\b(?:never|do not|don't|must not|should not|cannot|can't|"
+                    r"prevent(?:s|ed)?|block(?:s|ed)?|den(?:y|ies)|disallow(?:s)?|"
+                    r"prohibit(?:s)?|forbid(?:s)?|refuse(?:s)?)\b.{0,65}$",
+                    prefix,
+                    re.IGNORECASE,
+                ):
+                    continue
+                if re.search(
+                    r"\b(?:in|within|inside|under|from)\s+(?:the|a|an)?\s*"
+                    r"(?:(?:local|configured|approved|designated|selected)\s+)?"
+                    r"(?:share|shared)\s+(?:root|directory|folder)\b",
+                    context[match.start() :],
+                    re.IGNORECASE,
+                ):
+                    continue
+            else:
+                match = rule.pattern.search(line)
             if match:
                 findings.append(
                     SecurityFinding(
