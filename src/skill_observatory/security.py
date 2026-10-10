@@ -57,6 +57,25 @@ RULES = [
     ),
 ]
 
+# Detect explicit unrestricted file-serving capabilities in skill instructions.
+# These are static risk indicators; they do not assert an exploit is possible.
+RULES.append(
+    Rule(
+        "unrestricted-host-file-access",
+        "high",
+        re.compile(
+            r"\b(?:serve|serves|serving|expose|exposes|exposing|share|shares|sharing|browse|browses|browsing|read|reads|reading|provides?\s+access\s+to)\b"
+            r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
+            r"\b(?:file|files|filesystem|file system)\b.{0,60}\b(?:host|local|server|machine)\b"
+            r"|\b(?:serve|serves|serving|expose|exposes|exposing|share|shares|sharing|browse|browses|browsing|read|reads|reading|provides?\s+access\s+to)\b"
+            r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
+            r"\b(?:host|local|server|machine)\b.{0,60}\b(?:file|files|filesystem|file system)\b",
+            re.IGNORECASE,
+        ),
+        "Skill may serve or expose arbitrary files from its host without a bounded share root.",
+    )
+)
+
 PENALTIES = {"low": 4, "medium": 10, "high": 24, "critical": 40}
 TEXT_EXTENSIONS = {".sh", ".bash", ".zsh", ".py", ".js", ".ts", ".ps1", ".rb", ".pl", ".md"}
 
@@ -69,9 +88,46 @@ def _scan_file(path: Path, root: Path) -> list[SecurityFinding]:
     except OSError:
         return []
     findings: list[SecurityFinding] = []
-    for line_no, line in enumerate(text.splitlines(), 1):
+    lines = text.splitlines()
+    for line_no, line in enumerate(lines, 1):
         for rule in RULES:
-            match = rule.pattern.search(line)
+            if rule.name == "unrestricted-host-file-access":
+                # Rejoin wrapped prose but scan sentence/semicolon clauses
+                # separately: a benign bounded mode or negation must never hide
+                # an unsafe capability described later in the same line.
+                context = " ".join(lines[line_no - 1 : line_no + 2])
+                match = None
+                for clause_span in re.finditer(r"[^.;!?]+", context):
+                    clause = clause_span.group()
+                    for candidate in rule.pattern.finditer(clause):
+                        # Attribute wrapped matches to their first (verb) line.
+                        if clause_span.start() + candidate.start() >= len(line):
+                            continue
+                        prefix = clause[max(0, candidate.start() - 90) : candidate.start()]
+                        if re.search(
+                            r"\b(?:never|do not|don't|must not|should not|cannot|can't|"
+                            r"prevent(?:s|ed)?|block(?:s|ed)?|den(?:y|ies)|disallow(?:s)?|"
+                            r"prohibit(?:s)?|forbid(?:s)?|refuse(?:s)?)\b.{0,65}$",
+                            prefix,
+                            re.IGNORECASE,
+                        ):
+                            continue
+                        if re.search(
+                            r"\b(?:in|within|inside|under|from)\s+(?:the|a|an)?\s*"
+                            r"(?:(?:local|configured|approved|designated|selected)\s+)?"
+                            r"(?:share|shared)\s+(?:root|directory|folder)\b",
+                            clause[candidate.start() :],
+                            re.IGNORECASE,
+                        ):
+                            continue
+                        match = candidate
+                        break
+                    if match is not None:
+                        break
+                if match is None:
+                    continue
+            else:
+                match = rule.pattern.search(line)
             if match:
                 findings.append(
                     SecurityFinding(
