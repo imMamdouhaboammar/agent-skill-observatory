@@ -2,16 +2,16 @@
 
 Evidence-backed materialized view generated from canonical published Skill records on main.
 
-> Last refreshed: 2026-10-06 19:43 UTC
+> Last refreshed: 2026-10-10 13:42 UTC
 > Scores are review signals, not a guarantee that third-party code is safe to execute.
 
 ## Snapshot
 
-- **944** published skills
+- **943** published skills
 - **97** repositories
-- **940** spec-valid manifests
-- **940** skills with security score 85+
-- **940** skills with overall score 80+
+- **939** spec-valid manifests
+- **939** skills with security score 85+
+- **939** skills with overall score 80+
 
 ## Top verified skills
 
@@ -58,14 +58,14 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [alpha-omega-security/scrutineer](https://github.com/alpha-omega-security/scrutineer) | 33 | 100 | 215 | agent-orchestration, commerce, content, data, design, devops, documentation, documents, engineering, hr-recruiting, legal-compliance, mobile, productivity, research, security, testing |
 | [andyko18/specops-ko](https://github.com/andyko18/specops-ko) | 12 | 100 | 0 | agent-orchestration, ai-ml, commerce, content, data, design, documentation, education, engineering, integrations, productivity, project-management, research, security, testing |
 | [Archivev/hicreator-agent](https://github.com/Archivev/hicreator-agent) | 1 | 100 | 0 | data, engineering, integrations, product, productivity |
-| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 12 | 100 | 11416 | agent-orchestration, ai-ml, browser-automation, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, media, productivity, research, testing |
+| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | 11 | 100 | 11744 | agent-orchestration, ai-ml, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, media, productivity, research, testing |
 | [artbakerchat/Y](https://github.com/artbakerchat/Y) | 7 | 100 | 0 | commerce, data, design, legal-compliance, other, productivity, security |
 | [atomantic/PortOS](https://github.com/atomantic/PortOS) | 3 | 100 | 43 | content, design, engineering, media, productivity, research, testing |
 | [attaform/Attaform](https://github.com/attaform/Attaform) | 1 | 100 | 6 | content, design, documentation, engineering, media, productivity |
 | [benjaminstelzer/scoville-ui-anti-ai-slop](https://github.com/benjaminstelzer/scoville-ui-anti-ai-slop) | 1 | 100 | 2 | content, design, engineering, product, productivity, research |
 | [BlackBeltTechnology/pi-agent-dashboard](https://github.com/BlackBeltTechnology/pi-agent-dashboard) | 38 | 100 | 289 | agent-orchestration, ai-ml, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, hr-recruiting, integrations, legal-compliance, localization, marketing, media, mobile, product, productivity, research, security, testing |
 | [boardx/workspacex](https://github.com/boardx/workspacex) | 3 | 100 | 0 | browser-automation, content, data, design, documents, engineering, finance, integrations, mobile, productivity, research, testing |
-| [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 17 | 100 | 4 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing |
+| [BryanHarrisScripts/PlotPickle](https://github.com/BryanHarrisScripts/PlotPickle) | 17 | 100 | 6 | ai-ml, browser-automation, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, integrations, legal-compliance, localization, marketing, media, product, productivity, research, security, testing |
 | [buildd-ai/buildd](https://github.com/buildd-ai/buildd) | 2 | 100 | 1 | agent-orchestration, content, design, documentation, engineering, integrations, productivity, security |
 | [bunhine0452/Ocul-PM](https://github.com/bunhine0452/Ocul-PM) | 6 | 100 | 7 | documentation, engineering, integrations, productivity, research, security, testing |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 11 | 100 | 83006 | agent-orchestration, ai-ml, architecture, business, code-review, commerce, content, data, design, devops, documentation, documents, engineering, finance, integrations, legal-compliance, marketing, product, productivity, research, security |
@@ -104,7 +104,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [DKJ-Solutions/dkj-claude-plugins](https://github.com/DKJ-Solutions/dkj-claude-plugins) | 2 | 100 | 1 | agent-orchestration, commerce, content, devops, documentation, engineering, legal-compliance, productivity, research, security |
 | [dpatel-93/alfred](https://github.com/dpatel-93/alfred) | 70 | 100 | 2 | agent-orchestration, ai-ml, architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, documents, education, engineering, finance, hr-recruiting, integrations, legal-compliance, marketing, media, mobile, product, productivity, research, security, testing |
 | [eaglhuang/AI-Atomic-Framework](https://github.com/eaglhuang/AI-Atomic-Framework) | 22 | 100 | 3 | agent-orchestration, commerce, content, data, devops, documentation, education, engineering, finance, hr-recruiting, productivity, project-management, research, testing |
-| [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 15 | 100 | 19 | agent-orchestration, business, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, legal-compliance, localization, media, productivity, project-management, research |
+| [Embassy-of-the-Free-Mind/sourcelibrary-v2](https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2) | 15 | 100 | 21 | agent-orchestration, business, commerce, content, data, design, devops, documentation, documents, education, engineering, hr-recruiting, legal-compliance, localization, media, productivity, project-management, research |
 | [emirhankudun-ux/SEIS](https://github.com/emirhankudun-ux/SEIS) | 13 | 100 | 1 | architecture, browser-automation, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, mobile, product, productivity, research, security |
 | [flext-sh/flext-dbt-ldap](https://github.com/flext-sh/flext-dbt-ldap) | 2 | 100 | 0 | architecture, content, data, design, documentation, product, productivity, research, security |
 | [gemyago/atlacp](https://github.com/gemyago/atlacp) | 1 | 100 | 7 | commerce, content, data, design, engineering, testing |
@@ -118,7 +118,7 @@ Evidence-backed materialized view generated from canonical published Skill recor
 | [imeepos/ui-designer](https://github.com/imeepos/ui-designer) | 2 | 100 | 0 | agent-orchestration, architecture, content, design, engineering, hr-recruiting, media, productivity |
 | [jairorodriguezarias/siesta](https://github.com/jairorodriguezarias/siesta) | 7 | 100 | 60 | browser-automation, code-review, commerce, content, data, design, documentation, education, engineering, productivity, research, security, testing |
 | [jeong-sik/masc](https://github.com/jeong-sik/masc) | 5 | 100 | 3 | browser-automation, commerce, content, data, design, devops, finance, marketing, media, productivity, research, testing |
-| [lightdash/lightdash](https://github.com/lightdash/lightdash) | 1 | 100 | 6171 | content, data, design, engineering |
+| [lightdash/lightdash](https://github.com/lightdash/lightdash) | 1 | 100 | 6180 | content, data, design, engineering |
 | [markmhendrickson/ateles](https://github.com/markmhendrickson/ateles) | 10 | 100 | 6 | browser-automation, business, commerce, content, data, design, devops, documentation, engineering, integrations, legal-compliance, media, product, productivity, research, security, testing |
 | [a-lottes/aSPARK](https://github.com/a-lottes/aSPARK) | 10 | 99 | 20 | architecture, browser-automation, code-review, commerce, content, data, design, devops, documentation, engineering, hr-recruiting, integrations, localization, marketing, product, productivity, project-management, research, security, testing |
 | [bossmiizlol/ai-workflow](https://github.com/bossmiizlol/ai-workflow) | 5 | 99 | 0 | agent-orchestration, ai-ml, architecture, commerce, content, data, design, devops, documentation, education, engineering, finance, legal-compliance, marketing, productivity, research, security, testing |
