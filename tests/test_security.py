@@ -56,3 +56,42 @@ def test_explicitly_confined_file_server_is_not_flagged(tmp_path: Path) -> None:
     )
     report = assess_skill_security(parse_skill_directory(skill_root))
     assert "unrestricted-host-file-access" not in {finding.rule for finding in report.findings}
+
+
+def test_host_file_access_variants_are_detected_independently(tmp_path: Path) -> None:
+    for index, sentence in enumerate(
+        [
+            "Serve any file on the host filesystem.",
+            "Provides access to any host file.",
+        ]
+    ):
+        skill_root = tmp_path / f"case-{index}" / "file-server"
+        skill_root.mkdir(parents=True)
+        (skill_root / "SKILL.md").write_text(
+            "---\n"
+            "name: file-server\n"
+            f"description: {sentence}\n"
+            "---\n\n"
+            "# File server\n"
+            "Follow the manifest instructions.\n",
+            encoding="utf-8",
+        )
+        report = assess_skill_security(parse_skill_directory(skill_root))
+        assert "unrestricted-host-file-access" in {item.rule for item in report.findings}, sentence
+        assert report.score < 85, sentence
+
+
+def test_access_within_local_share_root_is_not_flagged(tmp_path: Path) -> None:
+    skill_root = tmp_path / "file-server"
+    skill_root.mkdir()
+    (skill_root / "SKILL.md").write_text(
+        "---\n"
+        "name: file-server\n"
+        "description: Reads any file in the local share root.\n"
+        "---\n\n"
+        "# File server\n"
+        "Only access files within the local share root.\n",
+        encoding="utf-8",
+    )
+    report = assess_skill_security(parse_skill_directory(skill_root))
+    assert "unrestricted-host-file-access" not in {item.rule for item in report.findings}
