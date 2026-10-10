@@ -92,40 +92,38 @@ def _scan_file(path: Path, root: Path) -> list[SecurityFinding]:
     for line_no, line in enumerate(lines, 1):
         for rule in RULES:
             if rule.name == "unrestricted-host-file-access":
-                # Allow ordinary wrapped prose while reporting a capability only
-                # once, where its action verb first appears.
+                # Rejoin wrapped prose but scan sentence/semicolon clauses
+                # separately: a benign bounded mode or negation must never hide
+                # an unsafe capability described later in the same line.
                 context = " ".join(lines[line_no - 1 : line_no + 2])
                 match = None
-                for candidate in rule.pattern.finditer(context):
-                    if candidate.start() >= len(line):
+                for clause_span in re.finditer(r"[^.;!?]+", context):
+                    clause = clause_span.group()
+                    for candidate in rule.pattern.finditer(clause):
+                        # Attribute wrapped matches to their first (verb) line.
+                        if clause_span.start() + candidate.start() >= len(line):
+                            continue
+                        prefix = clause[max(0, candidate.start() - 90) : candidate.start()]
+                        if re.search(
+                            r"\b(?:never|do not|don't|must not|should not|cannot|can't|"
+                            r"prevent(?:s|ed)?|block(?:s|ed)?|den(?:y|ies)|disallow(?:s)?|"
+                            r"prohibit(?:s)?|forbid(?:s)?|refuse(?:s)?)\b.{0,65}$",
+                            prefix,
+                            re.IGNORECASE,
+                        ):
+                            continue
+                        if re.search(
+                            r"\b(?:in|within|inside|under|from)\s+(?:the|a|an)?\s*"
+                            r"(?:(?:local|configured|approved|designated|selected)\s+)?"
+                            r"(?:share|shared)\s+(?:root|directory|folder)\b",
+                            clause[candidate.start() :],
+                            re.IGNORECASE,
+                        ):
+                            continue
+                        match = candidate
                         break
-                    # Do not combine a benign verb from one sentence with
-                    # unrestricted host-file terms in a later sentence.
-                    if re.search(r"[.;!?](?=\s|$)", candidate.group()):
-                        continue
-                    prefix = context[max(0, candidate.start() - 90) : candidate.start()]
-                    prefix = re.split(r"[.;!?]\s*", prefix)[-1]
-                    if re.search(
-                        r"\b(?:never|do not|don't|must not|should not|cannot|can't|"
-                        r"prevent(?:s|ed)?|block(?:s|ed)?|den(?:y|ies)|disallow(?:s)?|"
-                        r"prohibit(?:s)?|forbid(?:s)?|refuse(?:s)?)\b.{0,65}$",
-                        prefix,
-                        re.IGNORECASE,
-                    ):
-                        continue
-                    # Scope the share-root exemption to the matched clause,
-                    # not another mode or sentence on the same line.
-                    clause = re.split(r"[.;!?]\s*", context[candidate.start() :], maxsplit=1)[0]
-                    if re.search(
-                        r"\b(?:in|within|inside|under|from)\s+(?:the|a|an)?\s*"
-                        r"(?:(?:local|configured|approved|designated|selected)\s+)?"
-                        r"(?:share|shared)\s+(?:root|directory|folder)\b",
-                        clause,
-                        re.IGNORECASE,
-                    ):
-                        continue
-                    match = candidate
-                    break
+                    if match is not None:
+                        break
                 if match is None:
                     continue
             else:
