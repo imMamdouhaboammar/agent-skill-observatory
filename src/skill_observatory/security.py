@@ -67,7 +67,7 @@ RULES.append(
             r"\b(?:serve|serves|serving|expose|exposes|exposing|share|shares|sharing|browse|browses|browsing|read|reads|reading|provides?\s+access\s+to)\b"
             r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
             r"\b(?:file|files|filesystem|file system)\b.{0,60}\b(?:host|local|server|machine)\b"
-            r"|\b(?:serve|serves|serving|expose|exposes|exposing|share|shares|sharing|browse|browses|browsing|read|reads|reading)\b"
+            r"|\b(?:serve|serves|serving|expose|exposes|exposing|share|shares|sharing|browse|browses|browsing|read|reads|reading|provides?\s+access\s+to)\b"
             r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
             r"\b(?:host|local|server|machine)\b.{0,60}\b(?:file|files|filesystem|file system)\b",
             re.IGNORECASE,
