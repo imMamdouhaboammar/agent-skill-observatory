@@ -9,7 +9,7 @@ Security distribution: 85+=4, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [chatgpt-image-short-video](../../skills/ChronoAIProject/nyx-skills/chatgpt-image-short-video/README.md) | `chatgpt-image-short-video` | 96 | 100 | browser-automation, content, design, media, productivity, research |
-| [public-copy-release-guard](../../skills/ChronoAIProject/nyx-skills/public-copy-release-guard/README.md) | `public-copy-release-guard` | 96 | 100 | content, devops, marketing, productivity, research, security |
-| [research-claim-fidelity-reviewer](../../skills/ChronoAIProject/nyx-skills/research-claim-fidelity-reviewer/README.md) | `research-claim-fidelity-reviewer` | 96 | 100 | content, devops, research, security |
-| [source-grounded-research-announcement](../../skills/ChronoAIProject/nyx-skills/source-grounded-research-announcement/README.md) | `source-grounded-research-announcement` | 96 | 100 | commerce, content, data, devops, documentation, research |
+| [chatgpt-image-short-video](../../skills/chronoaiproject/nyx-skills/chatgpt-image-short-video/README.md) | `chatgpt-image-short-video` | 96 | 100 | browser-automation, content, design, media, productivity, research |
+| [public-copy-release-guard](../../skills/chronoaiproject/nyx-skills/public-copy-release-guard/README.md) | `public-copy-release-guard` | 96 | 100 | content, devops, marketing, productivity, research, security |
+| [research-claim-fidelity-reviewer](../../skills/chronoaiproject/nyx-skills/research-claim-fidelity-reviewer/README.md) | `research-claim-fidelity-reviewer` | 96 | 100 | content, devops, research, security |
+| [source-grounded-research-announcement](../../skills/chronoaiproject/nyx-skills/source-grounded-research-announcement/README.md) | `source-grounded-research-announcement` | 96 | 100 | commerce, content, data, devops, documentation, research |

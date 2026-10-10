@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [prisma-postgres-setup](../../skills/brightstar-0813/WorkSphere/.agents/skills/prisma-postgres-setup/README.md) | `.agents/skills/prisma-postgres-setup` | 96 | 100 | browser-automation, content, data, design, engineering, productivity |
+| [prisma-postgres-setup](../../skills/brightstar-0813/worksphere/.agents/skills/prisma-postgres-setup/README.md) | `.agents/skills/prisma-postgres-setup` | 96 | 100 | browser-automation, content, data, design, engineering, productivity |

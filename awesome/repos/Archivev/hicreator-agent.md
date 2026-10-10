@@ -9,4 +9,4 @@ Security distribution: 85+=1, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [hicreator](../../skills/Archivev/hicreator-agent/skills/hicreator/README.md) | `skills/hicreator` | 100 | 100 | data, engineering, integrations, product, productivity |
+| [hicreator](../../skills/archivev/hicreator-agent/skills/hicreator/README.md) | `skills/hicreator` | 100 | 100 | data, engineering, integrations, product, productivity |

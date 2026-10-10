@@ -9,10 +9,10 @@ Security distribution: 85+=7, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [claude-md-convention](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/claude-md-convention/README.md) | `.claude/skills/claude-md-convention` | 99 | 100 | ai-ml, documentation, engineering, testing |
-| [housekeep](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/housekeep/README.md) | `.claude/skills/housekeep` | 99 | 100 | architecture, documentation, testing |
-| [induction](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/induction/README.md) | `.claude/skills/induction` | 99 | 100 | documentation, engineering |
-| [rules-convention](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/rules-convention/README.md) | `.claude/skills/rules-convention` | 99 | 100 | design, engineering |
-| [skills-convention](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/skills-convention/README.md) | `.claude/skills/skills-convention` | 99 | 100 | ai-ml, engineering |
-| [structure-import](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/structure-import/README.md) | `.claude/skills/structure-import` | 99 | 100 | other |
-| [parameter-calculation](../../skills/Hoshock/HolodoriOptimizer/.claude/skills/parameter-calculation/README.md) | `.claude/skills/parameter-calculation` | 96 | 100 | architecture, data, design, documentation, testing |
+| [claude-md-convention](../../skills/hoshock/holodorioptimizer/.claude/skills/claude-md-convention/README.md) | `.claude/skills/claude-md-convention` | 99 | 100 | ai-ml, documentation, engineering, testing |
+| [housekeep](../../skills/hoshock/holodorioptimizer/.claude/skills/housekeep/README.md) | `.claude/skills/housekeep` | 99 | 100 | architecture, documentation, testing |
+| [induction](../../skills/hoshock/holodorioptimizer/.claude/skills/induction/README.md) | `.claude/skills/induction` | 99 | 100 | documentation, engineering |
+| [rules-convention](../../skills/hoshock/holodorioptimizer/.claude/skills/rules-convention/README.md) | `.claude/skills/rules-convention` | 99 | 100 | design, engineering |
+| [skills-convention](../../skills/hoshock/holodorioptimizer/.claude/skills/skills-convention/README.md) | `.claude/skills/skills-convention` | 99 | 100 | ai-ml, engineering |
+| [structure-import](../../skills/hoshock/holodorioptimizer/.claude/skills/structure-import/README.md) | `.claude/skills/structure-import` | 99 | 100 | other |
+| [parameter-calculation](../../skills/hoshock/holodorioptimizer/.claude/skills/parameter-calculation/README.md) | `.claude/skills/parameter-calculation` | 96 | 100 | architecture, data, design, documentation, testing |

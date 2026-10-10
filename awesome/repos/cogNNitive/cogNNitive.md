@@ -9,6 +9,6 @@ Security distribution: 85+=3, 60-84=0, <60=0
 
 | Skill | Path | Score | Security | Categories |
 |---|---|---:|---:|---|
-| [nn-design-presets](../../skills/cogNNitive/cogNNitive/actioNN/skills/nn-design-presets/README.md) | `actioNN/skills/nn-design-presets` | 100 | 100 | content, design, marketing, productivity, testing |
-| [nn-design-presets](../../skills/cogNNitive/cogNNitive/iNNfo/.agents/skills/nn-design-presets/README.md) | `iNNfo/.agents/skills/nn-design-presets` | 100 | 100 | content, design, marketing, productivity, testing |
-| [nn-site-generator](../../skills/cogNNitive/cogNNitive/actioNN/skills/nn-site-generator/README.md) | `actioNN/skills/nn-site-generator` | 100 | 100 | commerce, data, design, devops, documentation, research |
+| [nn-design-presets](../../skills/cognnitive/cognnitive/actionn/skills/nn-design-presets/README.md) | `actioNN/skills/nn-design-presets` | 100 | 100 | content, design, marketing, productivity, testing |
+| [nn-design-presets](../../skills/cognnitive/cognnitive/innfo/.agents/skills/nn-design-presets/README.md) | `iNNfo/.agents/skills/nn-design-presets` | 100 | 100 | content, design, marketing, productivity, testing |
+| [nn-site-generator](../../skills/cognnitive/cognnitive/actionn/skills/nn-site-generator/README.md) | `actioNN/skills/nn-site-generator` | 100 | 100 | commerce, data, design, devops, documentation, research |
