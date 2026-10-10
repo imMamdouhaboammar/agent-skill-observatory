@@ -16,7 +16,12 @@ def test_keyboard_skip_link_targets_main_content() -> None:
 
 def test_dynamic_empty_state_has_live_announcement() -> None:
     html = (WEB / "index.html").read_text(encoding="utf-8")
-    assert re.search(r'<div[^>]*id="empty"[^>]*role="status"[^>]*aria-live="polite"', html)
+    assert re.search(r'<div[^>]*id="filterAnnouncement"[^>]*role="status"[^>]*aria-live="polite"', html)
+    assert 'id="empty"' in html
+    script = (WEB / "app.js").read_text(encoding="utf-8")
+    assert "$('filterAnnouncement').textContent=" in script
+    assert "No skills match these filters." in script
+    assert ".sr-only" in (WEB / "styles.css").read_text(encoding="utf-8")
 
 
 def test_external_new_tab_links_announce_behavior_and_are_isolated() -> None:
