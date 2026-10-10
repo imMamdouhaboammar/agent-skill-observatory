@@ -92,7 +92,12 @@ def test_pages_deploys_after_published_main_changes() -> None:
     assert set(triggers) == {"push", "workflow_dispatch"}
     assert triggers["push"]["branches"] == ["main"]
     paths = triggers["push"]["paths"]
-    assert "data/catalog.json" in paths
-    assert "data/stats.json" in paths
-    assert "src/skill_observatory/web/**" in paths
+    assert set(paths) == {
+        "src/skill_observatory/web/**",
+        "data/catalog.json",
+        "data/stats.json",
+        "llms-full.txt",
+        ".well-known/security.txt",
+        ".github/workflows/pages.yml",
+    }
     assert "workflow_run" not in triggers
