@@ -69,13 +69,14 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="shell hero">
     <div class="header-top">
       <div class="eyebrow">OPEN AGENT SKILLS OBSERVATORY · v0.2.0</div>
       <nav class="nav-links" aria-label="Site navigation">
         <a href="./llms.txt" class="nav-link" title="AI-readable catalog">llms.txt</a>
         <a href="./catalog.json" class="nav-link" title="Machine-readable catalog">JSON Data</a>
-        <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory" target="_blank" rel="noreferrer noopener" class="nav-link github">GitHub ↗</a>
+        <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory" target="_blank" rel="noreferrer noopener noopener noreferrer" class="nav-link github" aria-label="GitHub profile (opens in a new tab)">GitHub ↗</a>
       </nav>
     </div>
     <div class="hero-grid">
@@ -83,16 +84,16 @@
         <h1>Agent Skill Observatory</h1>
         <p class="lede">Discover, validate, and statically audit open Agent Skills across Claude Code, Codex, Antigravity, and Cursor. Compare quality, security, and maintenance signals before installing.</p>
         <div class="hero-badges">
-          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/stargazers" target="_blank" rel="noreferrer" class="badge-link" aria-label="Star on GitHub">⭐ Star on GitHub</a>
-          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/releases" target="_blank" rel="noreferrer" class="badge-link" aria-label="Latest release">📦 Releases</a>
-          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/CHANGELOG.md" target="_blank" rel="noreferrer" class="badge-link" aria-label="Changelog">📋 Changelog</a>
+          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/stargazers" target="_blank" rel="noreferrer noopener" class="badge-link" aria-label="Star on GitHub (opens in a new tab)">⭐ Star on GitHub ↗</a>
+          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/releases" target="_blank" rel="noreferrer noopener" class="badge-link" aria-label="Latest release (opens in a new tab)">📦 Releases ↗</a>
+          <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/CHANGELOG.md" target="_blank" rel="noreferrer noopener" class="badge-link" aria-label="Changelog (opens in a new tab)">📋 Changelog ↗</a>
         </div>
       </div>
       <div class="status" id="sourceStatus" aria-live="polite">Loading catalog…</div>
     </div>
   </header>
 
-  <main class="shell">
+  <main class="shell" id="main-content" tabindex="-1">
     <section class="stats" id="stats" aria-label="Catalog statistics"></section>
 
     <section class="controls" aria-label="Catalog filters">
@@ -110,7 +111,7 @@
       <div class="legend">Scores are evidence signals, not execution guarantees</div>
     </section>
     <section id="catalog" class="catalog" aria-live="polite" aria-label="Skill catalog"></section>
-    <div id="empty" class="empty" hidden role="status">No skills match these filters.</div>
+    <div id="empty" class="empty" hidden role="status" aria-live="polite">No skills match these filters.</div>
   </main>
 
   <dialog id="detailModal" class="modal" aria-labelledby="modalTitle" aria-modal="true">
@@ -126,10 +127,10 @@
   <footer class="shell footer">
     <div>Static analysis only — always review third-party instructions and scripts before execution.</div>
     <div class="footer-author">
-      Crafted with precision by <strong><a href="https://github.com/imMamdouhaboammar" target="_blank" rel="noreferrer noopener">Mamdouh Aboammar</a></strong>
+      Crafted with precision by <strong><a href="https://github.com/imMamdouhaboammar" target="_blank" rel="noreferrer noopener noopener noreferrer" aria-label="GitHub profile (opens in a new tab)">Mamdouh Aboammar</a></strong>
       · Apache-2.0 License · Copyright © 2026 Mamdouh Aboammar
       · <a href="./llms.txt">AI-readable</a>
-      · <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/SECURITY.md" target="_blank" rel="noreferrer noopener">Security</a>
+      · <a href="https://github.com/imMamdouhaboammar/agent-skill-observatory/blob/main/SECURITY.md" target="_blank" rel="noreferrer noopener noopener noreferrer" aria-label="Security policy (opens in a new tab)">Security</a>
     </div>
   </footer>
   <script src="./app.js" defer></script>
