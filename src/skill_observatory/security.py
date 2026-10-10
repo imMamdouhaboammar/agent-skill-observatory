@@ -57,6 +57,25 @@ RULES = [
     ),
 ]
 
+# Detect explicit unrestricted file-serving capabilities in skill instructions.
+# These are static risk indicators; they do not assert an exploit is possible.
+RULES.append(
+    Rule(
+        "unrestricted-host-file-access",
+        "high",
+        re.compile(
+            r"\b(?:serves|serving|exposes|exposing|shares|sharing|browses|browsing|reads|reading|provides?\s+access\s+to)\b"
+            r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
+            r"\b(?:file|files|filesystem|file system)\b.{0,60}\b(?:host|local|server|machine)\b"
+            r"|\b(?:serves|serving|exposes|exposing|shares|sharing|browses|browsing|reads|reading)\b"
+            r".{0,100}\b(?:any|all|every|arbitrary|unrestricted|entire)\b.{0,100}"
+            r"\b(?:host|local|server|machine)\b.{0,60}\b(?:file|files|filesystem|file system)\b",
+            re.IGNORECASE,
+        ),
+        "Skill may serve or expose arbitrary files from its host without a bounded share root.",
+    )
+)
+
 PENALTIES = {"low": 4, "medium": 10, "high": 24, "critical": 40}
 TEXT_EXTENSIONS = {".sh", ".bash", ".zsh", ".py", ".js", ".ts", ".ps1", ".rb", ".pl", ".md"}
 
