@@ -52,6 +52,7 @@ function render(){
   const sorters={overall:(a,b)=>b.overall_score-a.overall_score,adoption:(a,b)=>b.adoption_score-a.adoption_score,security:(a,b)=>b.security_score-a.security_score,recent:(a,b)=>String(b.pushed_at).localeCompare(String(a.pushed_at))};
   items.sort(sorters[sort]||sorters.overall);
   $('resultCount').textContent=items.length; $('empty').hidden=items.length!==0;
+  $('filterAnnouncement').textContent=items.length===0?'No skills match these filters.':`${items.length} skills found.`;
   $('catalog').innerHTML=items.map((x,idx)=>card(x,idx)).join('');
 
   document.querySelectorAll('.card').forEach(el=>{
