@@ -1,6 +1,6 @@
 # Agent Skill Observatory Directory
 
-Published skills: **943**
+Published skills: **942**
 Repositories: **97**
 
 ## Browse repositories
@@ -364,7 +364,6 @@ Repositories: **97**
 - [order-tracking](./skills/artbakerchat/y/center/03-skills/skills/order-tracking/README.md) · `artbakerchat/y:center/03-skills/skills/order-tracking`
 - [refund-processing](./skills/artbakerchat/y/center/03-skills/skills/refund-processing/README.md) · `artbakerchat/y:center/03-skills/skills/refund-processing`
 - [portos-add-page](./skills/atomantic/portos/.claude/skills/portos-add-page/README.md) · `atomantic/portos:.claude/skills/portos-add-page`
-- [portos-file-issue](./skills/atomantic/portos/.claude/skills/portos-file-issue/README.md) · `atomantic/portos:.claude/skills/portos-file-issue`
 - [portos-socket-ui](./skills/atomantic/portos/.claude/skills/portos-socket-ui/README.md) · `atomantic/portos:.claude/skills/portos-socket-ui`
 - [attaform](./skills/attaform/attaform/skills/attaform/README.md) · `attaform/attaform:skills/attaform`
 - [morning-brief](./skills/azerothl/akasha-os/community/skills/morning-brief/README.md) · `azerothl/akasha-os:community/skills/morning-brief`

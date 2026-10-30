@@ -12,7 +12,7 @@
     ],
     "default_branch": "main",
     "forks": 2,
-    "pushed_at": "2026-09-20T13:45:46+00:00",
+    "pushed_at": "2026-10-15T05:21:04+00:00",
     "repo_full_name": "2AMLogic/klayout-tools",
     "repo_url": "https://github.com/2AMLogic/klayout-tools",
     "security_85_plus_count": 1,
@@ -29,7 +29,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 3
+    "stars": 5
   },
   {
     "archived": false,
@@ -486,7 +486,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-10-03T13:31:59+00:00",
+    "pushed_at": "2026-10-20T01:21:01+00:00",
     "repo_full_name": "aganesy/QFAI",
     "repo_url": "https://github.com/aganesy/QFAI",
     "security_85_plus_count": 1,
@@ -1604,8 +1604,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 1192,
-    "pushed_at": "2026-10-08T00:29:11+00:00",
+    "forks": 1247,
+    "pushed_at": "2026-10-28T01:43:58+00:00",
     "repo_full_name": "Arize-ai/phoenix",
     "repo_url": "https://github.com/Arize-ai/phoenix",
     "security_85_plus_count": 11,
@@ -1712,7 +1712,7 @@
     ],
     "skills_count": 11,
     "spec_valid_count": 11,
-    "stars": 11744
+    "stars": 12035
   },
   {
     "archived": false,
@@ -1805,20 +1805,18 @@
     "archived": false,
     "best_score": 100,
     "categories": [
-      "content",
       "design",
       "engineering",
       "media",
-      "productivity",
       "research",
       "testing"
     ],
     "default_branch": "main",
-    "forks": 32,
-    "pushed_at": "2026-10-04T08:24:40+00:00",
+    "forks": 40,
+    "pushed_at": "2026-10-26T23:11:20+00:00",
     "repo_full_name": "atomantic/PortOS",
     "repo_url": "https://github.com/atomantic/PortOS",
-    "security_85_plus_count": 3,
+    "security_85_plus_count": 2,
     "skills": [
       {
         "description": "Register a new PortOS page or voice/palette action end to end — the NAV_COMMANDS entry shape in server/lib/navManifest.js, ⌘K palette wiring, voice ui_navigate aliases, and the fail-fast guards. Invoke when adding a route, a sidebar link, or a new voice-tool action.",
@@ -1826,15 +1824,6 @@
         "name": "portos-add-page",
         "overall_score": 100,
         "path": ".claude/skills/portos-add-page",
-        "security_score": 100,
-        "spec_valid": true
-      },
-      {
-        "description": "PortOS conventions for filing GitHub issues and capturing deferred work — decide-don't-defer, ready-to-work bodies, and when the future / blocked / needs-input labels are actually correct. Invoke when filing a follow-up issue, triaging, or claiming an ambiguous issue.",
-        "manifest": "https://github.com/atomantic/PortOS/blob/main/.claude/skills/portos-file-issue/SKILL.md",
-        "name": "portos-file-issue",
-        "overall_score": 100,
-        "path": ".claude/skills/portos-file-issue",
         "security_score": 100,
         "spec_valid": true
       },
@@ -1848,9 +1837,9 @@
         "spec_valid": true
       }
     ],
-    "skills_count": 3,
-    "spec_valid_count": 3,
-    "stars": 43
+    "skills_count": 2,
+    "spec_valid_count": 2,
+    "stars": 72
   },
   {
     "archived": false,
@@ -1947,8 +1936,8 @@
       "testing"
     ],
     "default_branch": "develop",
-    "forks": 43,
-    "pushed_at": "2026-09-17T05:21:20+00:00",
+    "forks": 51,
+    "pushed_at": "2026-10-21T22:30:28+00:00",
     "repo_full_name": "BlackBeltTechnology/pi-agent-dashboard",
     "repo_url": "https://github.com/BlackBeltTechnology/pi-agent-dashboard",
     "security_85_plus_count": 38,
@@ -2298,7 +2287,7 @@
     ],
     "skills_count": 38,
     "spec_valid_count": 38,
-    "stars": 289
+    "stars": 329
   },
   {
     "archived": false,
@@ -2385,7 +2374,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-10-08T23:56:44+00:00",
+    "pushed_at": "2026-10-19T19:16:25+00:00",
     "repo_full_name": "BryanHarrisScripts/PlotPickle",
     "repo_url": "https://github.com/BryanHarrisScripts/PlotPickle",
     "security_85_plus_count": 17,
@@ -2696,8 +2685,8 @@
       "security"
     ],
     "default_branch": "main",
-    "forks": 11494,
-    "pushed_at": "2026-09-27T01:58:00+00:00",
+    "forks": 11713,
+    "pushed_at": "2026-10-18T00:03:13+00:00",
     "repo_full_name": "bytedance/deer-flow",
     "repo_url": "https://github.com/bytedance/deer-flow",
     "security_85_plus_count": 11,
@@ -2804,7 +2793,7 @@
     ],
     "skills_count": 11,
     "spec_valid_count": 11,
-    "stars": 83006
+    "stars": 84028
   },
   {
     "archived": false,
@@ -2851,8 +2840,8 @@
       "productivity"
     ],
     "default_branch": "main",
-    "forks": 3729,
-    "pushed_at": "2026-10-06T14:27:58+00:00",
+    "forks": 3925,
+    "pushed_at": "2026-10-17T15:55:05+00:00",
     "repo_full_name": "can1357/oh-my-pi",
     "repo_url": "https://github.com/can1357/oh-my-pi",
     "security_85_plus_count": 2,
@@ -2878,7 +2867,7 @@
     ],
     "skills_count": 2,
     "spec_valid_count": 2,
-    "stars": 34451
+    "stars": 35744
   },
   {
     "archived": false,
@@ -3480,8 +3469,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 5012,
-    "pushed_at": "2026-09-26T21:32:12+00:00",
+    "forks": 5103,
+    "pushed_at": "2026-10-21T15:23:32+00:00",
     "repo_full_name": "CherryHQ/cherry-studio",
     "repo_url": "https://github.com/CherryHQ/cherry-studio",
     "security_85_plus_count": 26,
@@ -3723,7 +3712,7 @@
     ],
     "skills_count": 26,
     "spec_valid_count": 26,
-    "stars": 52163
+    "stars": 52829
   },
   {
     "archived": false,
@@ -3750,7 +3739,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-10-09T21:40:21+00:00",
+    "pushed_at": "2026-10-30T00:19:07+00:00",
     "repo_full_name": "chnlich/charlie-bot",
     "repo_url": "https://github.com/chnlich/charlie-bot",
     "security_85_plus_count": 12,
@@ -3866,7 +3855,7 @@
     ],
     "skills_count": 12,
     "spec_valid_count": 12,
-    "stars": 7
+    "stars": 9
   },
   {
     "archived": false,
@@ -3879,7 +3868,7 @@
     ],
     "default_branch": "main",
     "forks": 8,
-    "pushed_at": "2026-10-01T01:32:43+00:00",
+    "pushed_at": "2026-10-28T14:11:10+00:00",
     "repo_full_name": "christiandoxa/prodex",
     "repo_url": "https://github.com/christiandoxa/prodex",
     "security_85_plus_count": 1,
@@ -3896,7 +3885,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 56
+    "stars": 61
   },
   {
     "archived": false,
@@ -3957,8 +3946,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 177,
-    "pushed_at": "2026-09-22T23:48:12+00:00",
+    "forks": 195,
+    "pushed_at": "2026-10-25T18:58:33+00:00",
     "repo_full_name": "cloudposse/atmos",
     "repo_url": "https://github.com/cloudposse/atmos",
     "security_85_plus_count": 35,
@@ -4281,7 +4270,7 @@
     ],
     "skills_count": 35,
     "spec_valid_count": 35,
-    "stars": 1381
+    "stars": 1406
   },
   {
     "archived": false,
@@ -4615,7 +4604,7 @@
     ],
     "default_branch": "main",
     "forks": 0,
-    "pushed_at": "2026-09-26T23:52:17+00:00",
+    "pushed_at": "2026-10-25T12:08:53+00:00",
     "repo_full_name": "ComponentDock/free-react-templates",
     "repo_url": "https://github.com/ComponentDock/free-react-templates",
     "security_85_plus_count": 42,
@@ -5159,7 +5148,7 @@
     ],
     "default_branch": "main",
     "forks": 1,
-    "pushed_at": "2026-09-13T21:42:56+00:00",
+    "pushed_at": "2026-10-11T23:58:09+00:00",
     "repo_full_name": "DailybotHQ/deepworkplan-website",
     "repo_url": "https://github.com/DailybotHQ/deepworkplan-website",
     "security_85_plus_count": 2,
@@ -5220,7 +5209,7 @@
     ],
     "default_branch": "main",
     "forks": 2,
-    "pushed_at": "2026-10-10T13:36:00+00:00",
+    "pushed_at": "2026-10-12T20:21:07+00:00",
     "repo_full_name": "Daisuke134/life-manager",
     "repo_url": "https://github.com/Daisuke134/life-manager",
     "security_85_plus_count": 36,
@@ -5587,7 +5576,7 @@
     ],
     "default_branch": "SignalGrid_Alpha",
     "forks": 0,
-    "pushed_at": "2026-10-09T03:37:01+00:00",
+    "pushed_at": "2026-10-24T00:36:22+00:00",
     "repo_full_name": "DanFashauer/SignalGrid-Review-Hub",
     "repo_url": "https://github.com/DanFashauer/SignalGrid-Review-Hub",
     "security_85_plus_count": 49,
@@ -6501,8 +6490,8 @@
       "testing"
     ],
     "default_branch": "main",
-    "forks": 24,
-    "pushed_at": "2026-09-13T14:32:41+00:00",
+    "forks": 29,
+    "pushed_at": "2026-10-29T15:40:18+00:00",
     "repo_full_name": "DexForce/EmbodiChain",
     "repo_url": "https://github.com/DexForce/EmbodiChain",
     "security_85_plus_count": 14,
@@ -6636,7 +6625,7 @@
     ],
     "skills_count": 14,
     "spec_valid_count": 14,
-    "stars": 224
+    "stars": 236
   },
   {
     "archived": false,
@@ -6709,8 +6698,8 @@
       "productivity"
     ],
     "default_branch": "main",
-    "forks": 123,
-    "pushed_at": "2026-09-17T05:21:31+00:00",
+    "forks": 126,
+    "pushed_at": "2026-10-14T05:21:25+00:00",
     "repo_full_name": "Dicklesworthstone/beads_rust",
     "repo_url": "https://github.com/Dicklesworthstone/beads_rust",
     "security_85_plus_count": 1,
@@ -6727,7 +6716,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 1099
+    "stars": 1126
   },
   {
     "archived": false,
@@ -8048,7 +8037,7 @@
     ],
     "default_branch": "main",
     "forks": 4,
-    "pushed_at": "2026-10-08T19:32:30+00:00",
+    "pushed_at": "2026-10-30T00:19:22+00:00",
     "repo_full_name": "Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "repo_url": "https://github.com/Embassy-of-the-Free-Mind/sourcelibrary-v2",
     "security_85_plus_count": 15,
@@ -8191,7 +8180,7 @@
     ],
     "skills_count": 15,
     "spec_valid_count": 15,
-    "stars": 21
+    "stars": 24
   },
   {
     "archived": false,
@@ -8794,8 +8783,8 @@
       "testing"
     ],
     "default_branch": "master",
-    "forks": 231,
-    "pushed_at": "2026-10-04T18:07:34+00:00",
+    "forks": 242,
+    "pushed_at": "2026-10-21T15:24:26+00:00",
     "repo_full_name": "homeassistant-ai/ha-mcp",
     "repo_url": "https://github.com/homeassistant-ai/ha-mcp",
     "security_85_plus_count": 7,
@@ -8866,7 +8855,7 @@
     ],
     "skills_count": 7,
     "spec_valid_count": 7,
-    "stars": 4944
+    "stars": 5161
   },
   {
     "archived": false,
@@ -8977,7 +8966,7 @@
     ],
     "default_branch": "main",
     "forks": 832,
-    "pushed_at": "2026-09-11T07:59:22+00:00",
+    "pushed_at": "2026-10-21T10:21:33+00:00",
     "repo_full_name": "iflytek/skillhub",
     "repo_url": "https://github.com/iflytek/skillhub",
     "security_85_plus_count": 22,
@@ -9183,7 +9172,7 @@
     ],
     "skills_count": 22,
     "spec_valid_count": 22,
-    "stars": 5082
+    "stars": 5250
   },
   {
     "archived": false,
@@ -9405,8 +9394,8 @@
       "engineering"
     ],
     "default_branch": "main",
-    "forks": 791,
-    "pushed_at": "2026-10-09T17:13:19+00:00",
+    "forks": 799,
+    "pushed_at": "2026-10-29T15:39:56+00:00",
     "repo_full_name": "lightdash/lightdash",
     "repo_url": "https://github.com/lightdash/lightdash",
     "security_85_plus_count": 1,
@@ -9423,7 +9412,7 @@
     ],
     "skills_count": 1,
     "spec_valid_count": 1,
-    "stars": 6180
+    "stars": 6211
   },
   {
     "archived": false,
