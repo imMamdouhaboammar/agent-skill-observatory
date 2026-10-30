@@ -33,10 +33,10 @@ def test_privileged_actions_are_pinned_to_immutable_shas() -> None:
     dependency_review = _read(DEPENDENCY_REVIEW)
     skills_lint = _read(SKILLS_LINT)
 
-    create_token = "actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1"
+    create_token = "actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510"
     github_script = "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3"
     checkout = "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1"
-    setup_python = "actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97"
+    setup_python = "actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0"
     cache = "actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
     cache_save = "actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9"
 
